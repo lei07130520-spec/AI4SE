@@ -11,6 +11,7 @@ from __future__ import annotations
 import argparse
 import html
 import json
+import os
 import re
 import urllib.parse
 import urllib.request
@@ -38,6 +39,8 @@ LEVEL2_PEOPLE = [
     "@DarioAmodei",
 ]
 
+PRERELEASE_RE = re.compile(r"alpha|beta|nightly|preview|rc\d|pre-release", re.I)
+
 HTML_CSS = """
     :root { --text:#1f2937; --muted:#6b7280; --border:#e5e7eb; --accent:#2563eb; }
     * { box-sizing:border-box; }
@@ -58,6 +61,59 @@ HTML_CSS = """
     th { white-space:nowrap; background:#f9fafb; text-align:left; }
     .badge { display:inline-block; background:#eff6ff; color:#1d4ed8; padding:.15rem .5rem; border-radius:4px; font-size:.8rem; }
 """
+
+
+def filter_releases_for_briefing(releases: list[dict], max_items: int = 8) -> list[dict]:
+    """每个产品保留最新 stable 一条，过滤 alpha/nightly 噪音。"""
+    stable: dict[str, dict] = {}
+    prerelease: dict[str, dict] = {}
+    for r in releases:
+        if "error" in r:
+            continue
+        product = r["product"]
+        bucket = prerelease if r.get("prerelease") else stable
+        if product not in bucket:
+            bucket[product] = r
+    picked = list(stable.values())
+    if len(picked) < max_items:
+        for product, r in prerelease.items():
+            if product not in stable and len(picked) < max_items:
+                picked.append(r)
+    picked.sort(key=lambda x: (x["published"], x["tag"]), reverse=True)
+    return picked[:max_items]
+
+
+def load_previous_briefing_text(before: date) -> tuple[str | None, str]:
+    prev = find_previous_briefing(before)
+    if not prev:
+        return None, ""
+    for name in (f"AI4SE-每日简报-{prev}.md", f"AI4SE-每日简报-{prev}-auto.md"):
+        path = ARCHIVE / name
+        if path.exists():
+            return prev, path.read_text(encoding="utf-8")[:12000]
+    return prev, ""
+
+
+def build_collect_payload(
+    today: date,
+    period_start: date,
+    prev: str | None,
+    prev_text: str,
+    releases: list[dict],
+    hn: list[dict],
+) -> dict:
+    return {
+        "briefing_date": today.isoformat(),
+        "period_start": period_start.isoformat(),
+        "period_end": today.isoformat(),
+        "previous_briefing_date": prev,
+        "previous_briefing_excerpt": prev_text,
+        "level1_releases": releases,
+        "level2_people": LEVEL2_PEOPLE,
+        "level2_note": "raw 无人物搜索；无依据时 Level 2 标无新增，勿编造",
+        "level3_note": "本日未扫描行业报告（周报降频）",
+        "level4_hn": hn,
+    }
 
 
 def fetch_json(url: str) -> object:
@@ -103,6 +159,8 @@ def fetch_releases(cutoff: datetime) -> list[dict]:
                     "published": published.date().isoformat(),
                     "url": r["html_url"],
                     "summary": summary,
+                    "body_excerpt": body[:2500],
+                    "prerelease": bool(r.get("prerelease")) or bool(PRERELEASE_RE.search(r["tag_name"])),
                 }
             )
     items.sort(key=lambda x: x.get("published", ""), reverse=True)
@@ -266,7 +324,7 @@ def md_inline(text: str) -> str:
     return text
 
 
-def render_html(md: str, today: date) -> str:
+def render_html(md: str, today: date, *, composed: bool = False) -> str:
     """轻量 Markdown → HTML（覆盖本脚本产出结构）。"""
     body_parts: list[str] = []
     in_table = False
@@ -334,7 +392,7 @@ def render_html(md: str, today: date) -> str:
   <style>{HTML_CSS}</style>
 </head>
 <body>
-<p class="meta"><span class="badge">自动采集版</span> 由 GitHub Actions 生成</p>
+<p class="meta"><span class="badge">{'精编版' if composed else '自动采集版'}</span> 由 GitHub Actions 生成</p>
 {body}
 </body>
 </html>"""
@@ -381,6 +439,12 @@ def main() -> int:
         action="store_true",
         help="覆盖 archive 中同日期手工稿（默认仅写 -auto 后缀 + docs/）",
     )
+    parser.add_argument(
+        "--mode",
+        choices=("auto", "raw", "compose"),
+        default="auto",
+        help="auto=有 OPENAI_API_KEY 则 LLM 写稿，否则 raw；raw=仅贴 Release；compose=强制 LLM",
+    )
     args = parser.parse_args()
 
     if args.date:
@@ -396,17 +460,44 @@ def main() -> int:
     ARCHIVE.mkdir(parents=True, exist_ok=True)
     DOCS.mkdir(parents=True, exist_ok=True)
 
-    releases = fetch_releases(cutoff)
+    releases_all = fetch_releases(cutoff)
+    releases = filter_releases_for_briefing(releases_all)
     hn = fetch_hn(cutoff - timedelta(days=1))
-    prev = find_previous_briefing(today)
+    prev, prev_text = load_previous_briefing_text(today)
 
-    md = render_markdown(today, period_start, prev, releases, hn)
-    html_out = render_html(md, today)
+    payload = build_collect_payload(today, period_start, prev, prev_text, releases, hn)
+    collected_path = ARCHIVE / f"collected-{today.isoformat()}.json"
+    collected_path.write_text(json.dumps(payload, ensure_ascii=False, indent=2), encoding="utf-8")
+
+    use_compose = args.mode == "compose" or (
+        args.mode == "auto" and os.environ.get("OPENAI_API_KEY", "").strip()
+    )
+    composed = False
+    if use_compose:
+        try:
+            from compose_briefing import compose_markdown
+
+            md = compose_markdown(payload)
+            composed = True
+            print("Composed briefing via LLM")
+        except Exception as exc:  # noqa: BLE001
+            if args.mode == "compose":
+                raise
+            print(f"LLM compose failed, fallback to raw: {exc}")
+            md = render_markdown(today, period_start, prev, releases, hn)
+    else:
+        md = render_markdown(today, period_start, prev, releases, hn)
+
+    html_out = render_html(md, today, composed=composed)
 
     stem = f"AI4SE-每日简报-{today.isoformat()}"
-    auto_stem = f"{stem}-auto"
-    md_path = ARCHIVE / f"{auto_stem if not args.force else stem}.md"
-    html_archive = ARCHIVE / f"{auto_stem if not args.force else stem}.html"
+    if composed and not args.force:
+        md_path = ARCHIVE / f"{stem}.md"
+        html_archive = ARCHIVE / f"{stem}.html"
+    else:
+        auto_stem = f"{stem}-auto"
+        md_path = ARCHIVE / f"{auto_stem if not args.force else stem}.md"
+        html_archive = ARCHIVE / f"{auto_stem if not args.force else stem}.html"
     html_docs = DOCS / f"{stem}.html"
 
     md_path.write_text(md, encoding="utf-8")
