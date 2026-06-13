@@ -25,10 +25,12 @@ jobs:
         with:
           python-version: "3.12"
 
-      - name: Generate briefing (MD + HTML)
+      - name: Generate briefing (collect + LLM compose)
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
-        run: python scripts/generate_daily.py --days 3
+          OPENAI_API_KEY: ${{ secrets.OPENAI_API_KEY }}
+          OPENAI_MODEL: gpt-4.1-mini
+        run: python scripts/generate_daily.py --days 3 --mode auto
 
       - name: Commit and push
         run: |
