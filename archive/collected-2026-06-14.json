@@ -1,0 +1,100 @@
+{
+  "briefing_date": "2026-06-14",
+  "period_start": "2026-06-12",
+  "period_end": "2026-06-14",
+  "previous_briefing_date": "2026-06-13",
+  "previous_briefing_excerpt": "# AI x 研发效能 每日简报 2026-06-13\n\n> 覆盖周期：2026-06-11 ~ 2026-06-13（上一期：2026-06-12）\n\n> **采集方式**：GitHub Actions 自动采集（Level 1 GitHub API + Level 4 HN API）｜Level 2/3 待人工或 API 密钥补充\n\n---\n\n## 头条速览\n\n1. **Claude Code v2.1.177**——（无 release notes）\n2. **Gemini CLI v0.48.0-nightly.20260613.g9e5599c32**——## What's Changed\n3. **Codex rust-v0.140.0-alpha.17**——Release 0.140.0-alpha.17\n\n---\n\n## 一、AI 增强软件研发（AI4SE）\n\n### 1.1 Level 1：核心产品与工程更新\n\n#### 1️⃣ Claude Code v2.1.177（2026-06-13）\n\n（无 release notes）\n\n来源：[v2.1.177](https://github.com/anthropics/claude-code/releases/tag/v2.1.177) — 2026-06-13\n\n#### 2️⃣ Gemini CLI v0.48.0-nightly.20260613.g9e5599c32（2026-06-13）\n\n## What's Changed\n\n来源：[v0.48.0-nightly.20260613.g9e5599c32](https://github.com/google-gemini/gemini-cli/releases/tag/v0.48.0-nightly.20260613.g9e5599c32) — 2026-06-13\n\n#### 3️⃣ Codex rust-v0.140.0-alpha.17（2026-06-13）\n\nRelease 0.140.0-alpha.17\n\n来源：[rust-v0.140.0-alpha.17](https://github.com/openai/codex/releases/tag/rust-v0.140.0-alpha.17) — 2026-06-13\n\n#### 4️⃣ OpenClaw v2026.6.6（2026-06-12）\n\n### Highlights\n\n来源：[v2026.6.6](https://github.com/openclaw/openclaw/releases/tag/v2026.6.6) — 2026-06-12\n\n---\n\n### 1.2 Level 2：关键人物战略洞察\n\n| 人物 | 动态 | 日期 |\n|---|---|---|\n| @karpathy | 自动采集未配置（需 WebSearch / X 间接源） | — |\n| @bcherny | 自动采集未配置（需 WebSearch / X 间接源） | — |\n| @sundarpichai | 自动采集未配置（需 WebSearch / X 间接源） | — |\n| @sama | 自动采集未配置（需 WebSearch / X 间接源） | — |\n| @gdb | 自动采集未配置（需 WebSearch / X 间接源） | — |\n| @DarioAmodei | 自动采集未配置（需 WebSearch / X 间接源） | — |\n\n---\n\n### 1.3 Level 3：行业研究与数据\n\n> **本日未扫描**（周报/月报降频）。\n\n---\n\n### 1.4 Level 4：补充信源（HN）\n\n- **2026-06-12**：[Guardian Runtime – Local firewall for AI coding agents and runaway costs](https://pypi.org/project/guardian-runtime/) （6 pts / 0 comments）\n- **2026-06-10**：[Linux developers are using AI vibe coding to keep vintage AMD GPUs alive](https://www.tomshardware.com/software/linux/linux-developers-are-using-ai-vibe-coding-to-keep-vintage-amd-gpus-alive-r600-driver-cleaned-up-with-github-copilot-gives-hd-2000-to-hd-6000-series-a-new-lease-of-life) （4 pts / 1 comments）\n- **2026-06-12**：[A Fake Bug Report Hijacks Your AI Coding Agent – and Nothing Catches It](https://tenetsecurity.ai/blog/agentjacking-coding-agents-with-fake-sentry-errors/) （4 pts / 0 comments）\n- **2026-06-10**：[WSP WordPress MCP – Connect AI Coding Agents to WordPress](https://github.com/bilalnaseer/wsp-wordpress-mcp) （4 pts / 0 comments）\n- **2026-06-11**：[Spotify Wrapped for your AI coding usage](https://wrapped.entelligence.ai/) （3 pts / 0 comments）\n\n---\n\n## 附录：采集日志\n\n| 环节 | 状态 |\n|---|---|\n| GitHub Releases API | ✅ 4 条 |\n| HN Algolia API | ✅ 5 条 |\n| 生成时间 (UTC) | 2026-06-13 14:30 |\n\n*自动生成版 · 可在 Cursor 中基于本稿补充 Level 2 分析与专题*\n",
+  "level1_releases": [
+    {
+      "product": "Claude Code",
+      "repo": "anthropics/claude-code",
+      "tag": "v2.1.177",
+      "name": "v2.1.177",
+      "published": "2026-06-13",
+      "url": "https://github.com/anthropics/claude-code/releases/tag/v2.1.177",
+      "summary": "（无 release notes）",
+      "body_excerpt": "",
+      "prerelease": false
+    },
+    {
+      "product": "Gemini CLI",
+      "repo": "google-gemini/gemini-cli",
+      "tag": "v0.48.0-nightly.20260613.g9e5599c32",
+      "name": "Release v0.48.0-nightly.20260613.g9e5599c32",
+      "published": "2026-06-13",
+      "url": "https://github.com/google-gemini/gemini-cli/releases/tag/v0.48.0-nightly.20260613.g9e5599c32",
+      "summary": "## What's Changed",
+      "body_excerpt": "## What's Changed\n* fix(core): implement atomic update in MCP tool discovery by @luisfelipe-alt in https://github.com/google-gemini/gemini-cli/pull/27619\n* Vertex ai model mapping fix by @DavidAPierce in https://github.com/google-gemini/gemini-cli/pull/27749\n* Add documentation and migration commands for Antigravity CLI by @DavidAPierce in https://github.com/google-gemini/gemini-cli/pull/27765\n* Avoid persisting empty resume sessions by @SandyTao520 in https://github.com/google-gemini/gemini-cli/pull/27770\n* chore(release): bump version to 0.48.0-nightly.20260609.g3a13b8eeb by @gemini-cli-robot in https://github.com/google-gemini/gemini-cli/pull/27779\n* ci(dependabot): enable cooldown period for npm packages by @ruomengz in https://github.com/google-gemini/gemini-cli/pull/27743\n* refactor(core): standardize tool output formatting by @galz10 in https://github.com/google-gemini/gemini-cli/pull/27772\n* ci: update workflow logging and policy configurations by @galz10 in https://github.com/google-gemini/gemini-cli/pull/27853\n* fix(core): Ensure zero-quota limits fail fast to prevent retry loop hang by @luisfelipe-alt in https://github.com/google-gemini/gemini-cli/pull/27698\n* fix(core): handle multi-line escaped quotes in stripShellWrapper by @sanchezcoraspe in https://github.com/google-gemini/gemini-cli/pull/27467\n\n## New Contributors\n* @luisfelipe-alt made their first contribution in https://github.com/google-gemini/gemini-cli/pull/27619\n* @sanchezcoraspe made their first contribution in https://github.com/google-gemini/gemini-cli/pull/27467\n\n**Full Changelog**: https://github.com/google-gemini/gemini-cli/compare/v0.47.0-nightly.20260609.g0567b25a2...v0.48.0-nightly.20260613.g9e5599c32",
+      "prerelease": true
+    },
+    {
+      "product": "Codex",
+      "repo": "openai/codex",
+      "tag": "rust-v0.140.0-alpha.18",
+      "name": "0.140.0-alpha.18",
+      "published": "2026-06-13",
+      "url": "https://github.com/openai/codex/releases/tag/rust-v0.140.0-alpha.18",
+      "summary": "Release 0.140.0-alpha.18",
+      "body_excerpt": "Release 0.140.0-alpha.18",
+      "prerelease": true
+    },
+    {
+      "product": "OpenClaw",
+      "repo": "openclaw/openclaw",
+      "tag": "v2026.6.6",
+      "name": "openclaw 2026.6.6",
+      "published": "2026-06-12",
+      "url": "https://github.com/openclaw/openclaw/releases/tag/v2026.6.6",
+      "summary": "### Highlights",
+      "body_excerpt": "### Highlights\n\n- Security boundaries are substantially tighter across transcripts, sandbox binds, host environment inheritance, MCP stdio, Codex HTTP access, native search policy, elevated sender checks, deleted-agent ACP bypasses, loopback tools, Discord moderation, and Teams group actions; exec approvals now fail closed on timeout. (#91529, #91618, #91615, #91619, #91741, #91745, #91746, #91748, #91749, #91750, #91751, #91752, #91763, #89938) Thanks @joshavant, @pgondhi987, @mmaps, @eleqtrizit, @shakkernerd, and @drobison00.\n- Telegram delivery is safer and more coherent: account-scoped topics route to the right agent, streamed text survives tool calls, `/compact` works on generic ingress, callback handling uses concrete APIs, draft chunking is shared, durable dispatch dedupe moved into the SDK, and unauthorized DM text stays out of cache and prompt context. (#91189, #88682, #89588, #90212, #91876, #91874, #91904, #91478, #91915) Thanks @codysai001, @alexzhu0, @joelnishanth, @snowzlm, @obviyus, and @sallyom.\n- iMessage recovery and delivery now cover always-on inbound restart, durable echo markers, block streaming, idle approval discovery, hardened outbound transport, and actionable inbound startup diagnostics. (#91335, #91449, #88969, #88530, #91783, #91785) Thanks @omarshahine, @jmissig, and @colmbrogan.\n- Browser and MCP connectivity gained existing-session CDP support, discovered WebSocket validation, default-profile `cdpUrl` handling, safer browser-output boundaries, Streamable HTTP loopback transport, corrected OAuth/SSE authorization handling, and broader schema compatibility. (#91422, #89851, #91736, #91747, #91451, #80143) Thanks @pgondhi987, @anagnorisis2peripeteia, @lifuyue, @eleqtrizit, @LiuwqGit, and @HemantSudarshan.\n- Control UI startup and first-reply latency are lower through cached model metadata, removal of the startup catalog wait, lazy slash-command loading, and first-event tracing with slow-reply diagnostics. (#91531, #91538, #91568, #91583, #91598)\n- Provider support expands with OpenRouter OAuth onboarding and Claude Fable 5 adaptive thinking, while Codex sessions keep correct compaction ownership, local models skip guardian review, dynamic tool progress normalizes cleanly, and Gemma 4 reasoning replay is preserved. (#91830, #91882, #91590, #88630, #88768, #91696) Thanks @Patrick-Erichsen, @joshavant, @bdjben, and @Coder-Wangyankun.\n\n### Changes\n\n- CLI progress: emit Claude CLI commentary progress events and bridge inter-tool com",
+      "prerelease": false
+    }
+  ],
+  "level2_people": [
+    "@karpathy",
+    "@bcherny",
+    "@sundarpichai",
+    "@sama",
+    "@gdb",
+    "@DarioAmodei"
+  ],
+  "level2_note": "raw 无人物搜索；无依据时 Level 2 标无新增，勿编造",
+  "level3_note": "本日未扫描行业报告（周报降频）",
+  "level4_hn": [
+    {
+      "title": "AI Coding at Home Without Going Broke",
+      "url": "https://stephen.bochinski.dev/blog/2026/06/13/ai-coding-at-home-without-going-broke/",
+      "points": 67,
+      "comments": 58,
+      "created": "2026-06-13"
+    },
+    {
+      "title": "Guardian Runtime – Local firewall for AI coding agents and runaway costs",
+      "url": "https://pypi.org/project/guardian-runtime/",
+      "points": 6,
+      "comments": 0,
+      "created": "2026-06-12"
+    },
+    {
+      "title": "Making our AI coding agent the only way we build our product",
+      "url": "https://anyframe.dev/blog/we-hired-an-intern-named-gilfoyle",
+      "points": 4,
+      "comments": 0,
+      "created": "2026-06-13"
+    },
+    {
+      "title": "A Fake Bug Report Hijacks Your AI Coding Agent – and Nothing Catches It",
+      "url": "https://tenetsecurity.ai/blog/agentjacking-coding-agents-with-fake-sentry-errors/",
+      "points": 4,
+      "comments": 0,
+      "created": "2026-06-12"
+    },
+    {
+      "title": "Show HN: AccInt – a Work Model for AI coding agents",
+      "url": "https://accint.xyz/",
+      "points": 3,
+      "comments": 0,
+      "created": "2026-06-13"
+    }
+  ]
+}
