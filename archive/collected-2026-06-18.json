@@ -1,0 +1,89 @@
+{
+  "briefing_date": "2026-06-18",
+  "period_start": "2026-06-16",
+  "period_end": "2026-06-18",
+  "previous_briefing_date": "2026-06-17",
+  "previous_briefing_excerpt": "# AI x 研发效能 每日简报 2026-06-17\n\n> 覆盖周期：2026-06-15 ~ 2026-06-17（上一期：2026-06-16）\n\n> **采集方式**：GitHub Actions 自动采集（Level 1 GitHub API + Level 4 HN API）｜Level 2/3 待人工或 API 密钥补充\n\n---\n\n## 头条速览\n\n1. **OpenClaw v2026.6.8**——### Highlights\n2. **Claude Code v2.1.179**——## What's changed\n3. **Codex rust-v0.140.0**——## New Features\n\n---\n\n## 一、AI 增强软件研发（AI4SE）\n\n### 1.1 Level 1：核心产品与工程更新\n\n#### 1️⃣ OpenClaw v2026.6.8（2026-06-16）\n\n### Highlights\n\n来源：[v2026.6.8](https://github.com/openclaw/openclaw/releases/tag/v2026.6.8) — 2026-06-16\n\n#### 2️⃣ Claude Code v2.1.179（2026-06-16）\n\n## What's changed\n\n来源：[v2.1.179](https://github.com/anthropics/claude-code/releases/tag/v2.1.179) — 2026-06-16\n\n#### 3️⃣ Codex rust-v0.140.0（2026-06-15）\n\n## New Features\n\n来源：[rust-v0.140.0](https://github.com/openai/codex/releases/tag/rust-v0.140.0) — 2026-06-15\n\n---\n\n### 1.2 Level 2：关键人物战略洞察\n\n| 人物 | 动态 | 日期 |\n|---|---|---|\n| @karpathy | 自动采集未配置（需 WebSearch / X 间接源） | — |\n| @bcherny | 自动采集未配置（需 WebSearch / X 间接源） | — |\n| @sundarpichai | 自动采集未配置（需 WebSearch / X 间接源） | — |\n| @sama | 自动采集未配置（需 WebSearch / X 间接源） | — |\n| @gdb | 自动采集未配置（需 WebSearch / X 间接源） | — |\n| @DarioAmodei | 自动采集未配置（需 WebSearch / X 间接源） | — |\n\n---\n\n### 1.3 Level 3：行业研究与数据\n\n> **本日未扫描**（周报/月报降频）。\n\n---\n\n### 1.4 Level 4：补充信源（HN）\n\n- **2026-06-16**：[SpaceX Will Buy AI Coding Firm Cursor for $60B](https://www.forbes.com/sites/siladityaray/2026/06/16/spacex-will-buy-ai-coding-firm-cursor-for-60-billion/) （5 pts / 1 comments）\n- **2026-06-16**：[Rate AI coding agents and gain reputation](https://elolup.com/) （4 pts / 2 comments）\n- **2026-06-16**：[Show HN: AWF – run parallel AI coding agents, each in its own Docker workspace](https://github.com/dimileeh/agent-workspace-fabric) （4 pts / 0 comments）\n- **2026-06-16**：[Xiaomi's agentic AI coding harness MiMo Code beats Claude Code at 200 step tasks](https://venturebeat.com/technology/xiaomis-new-open-source-agentic-ai-coding-harness-mimo-code-beats-claude-code-at-ultra-long-200-step-tasks) （4 pts / 0 comments）\n- **2026-06-15**：[Ask HN: How do you deal with the feeling of \"loss of control\" with AI coding?](https://news.ycombinator.com/item?id=48542239) （3 pts / 3 comments）\n\n---\n\n## 附录：采集日志\n\n| 环节 | 状态 |\n|---|---|\n| GitHub Releases API | ✅ 3 条 |\n| HN Algolia API | ✅ 5 条 |\n| 生成时间 (UTC) | 2026-06-16 22:01 |\n\n*自动生成版 · 可在 Cursor 中基于本稿补充 Level 2 分析与专题*\n",
+  "level1_releases": [
+    {
+      "product": "Codex",
+      "repo": "openai/codex",
+      "tag": "rust-v0.141.0-alpha.6",
+      "name": "0.141.0-alpha.6",
+      "published": "2026-06-17",
+      "url": "https://github.com/openai/codex/releases/tag/rust-v0.141.0-alpha.6",
+      "summary": "Release 0.141.0-alpha.6",
+      "body_excerpt": "Release 0.141.0-alpha.6",
+      "prerelease": true
+    },
+    {
+      "product": "OpenClaw",
+      "repo": "openclaw/openclaw",
+      "tag": "v2026.6.8",
+      "name": "openclaw 2026.6.8",
+      "published": "2026-06-16",
+      "url": "https://github.com/openclaw/openclaw/releases/tag/v2026.6.8",
+      "summary": "## 2026.6.8",
+      "body_excerpt": "## 2026.6.8\n\n### Highlights\n\n- **Richer channel delivery:** Telegram and WhatsApp are less brittle: Telegram renders structured text with tables, lists, expandable blockquotes, preserved intentional line breaks, and CLI-backed replies, while WhatsApp now honors configured ACP bindings. (#92679, #93164, #84082, #89421, #92513) Thanks @obviyus, @vincentkoc, @jzakirov, @spacegeologist, @TurboTheTurtle, @mcaxtr, and @myrzka.\n- **More reliable agent runs:** account-scoped DM sends, generated media completions, auto-reply message-tool final replies, reset archive fallback reads, restart shutdown aborts, yielded subagent pauses, and session identity prompts all stay on the correct recovery path. (#92788, #91246, #92879, #91357, #92631, #92468) Thanks @yetval, @TurboTheTurtle, @masatohoshino, @CadanHu, @vincentkoc, @ooiuuii, @openperf, @zhangguiping-xydt, @QQSHI13, @kumaxs, and @aleps001.\n- **Safer model routing:** new GLM-5.2 and Claude Haiku 4.5 catalog support arrives with normalized provider IDs, managed SecretRef auth, bounded model browsing, and safer OpenAI/Anthropic tool-schema recovery. (#92796, #90116, #92627, #90686, #92247, #92941) Thanks @arkyu2077, @liuhao1024, @lijenhsin, @rohitjavvadi, @samson910022, @maaron34, @syfvb, and @samson1357924.\n- **Useful usage footers:** `/usage` and reply payload hooks now have a native full footer renderer, default template, fixed-decimal formatting, credential-aware limits, better partial-count handling, and warnings for broken templates instead of silent bad output. (#92657, #89835, #89629) Thanks @Marvinthebored.\n- **Predictable web search defaults:** key-free providers such as Parallel Free, DuckDuckGo, Ollama, and Codex Hosted Search remain explicit opt-ins rather than surprising automatic fallbacks. (#93616) Thanks @davemorin and @vincentkoc.\n- **Calmer UI and mobile sessions:** workspace files start collapsed, WebChat backscroll survives streaming, the desktop session picker remains interactive, reset arguments survive dispatch, and iOS reconnects stale foreground Gateways. (#92779, #92622, #92705, #91353, #92552) Thanks @shakkernerd, @TurboTheTurtle, @NianJiuZst, @zhouhe-xydt, @Solvely-Colin, @MaBeitian, and @vincentkoc.\n- **Resilient memory and state:** oversized OpenAI embedding batches split before 431s, QMD search stays available in transient mode, SQLite avoids WAL on NFS volumes, and full reindexes preserve rollback/cache recovery. (#92650, #92618, #92639, #91247, #92881) Thanks @mushuiyu886, @BrettHamli",
+      "prerelease": false
+    },
+    {
+      "product": "Claude Code",
+      "repo": "anthropics/claude-code",
+      "tag": "v2.1.179",
+      "name": "v2.1.179",
+      "published": "2026-06-16",
+      "url": "https://github.com/anthropics/claude-code/releases/tag/v2.1.179",
+      "summary": "## What's changed",
+      "body_excerpt": "## What's changed\n\n- Fixed mid-stream connection drops: partial responses are now preserved instead of showing a raw error, and the spinner no longer gets stuck at \"running tool\"\n- Fixed mouse-wheel scrolling in WSL2 under Windows Terminal and VS Code (regression in 2.1.172)\n- Fixed a sandbox `denyRead`/`allowRead` glob over a large directory tree making the Bash tool description enormous and the session unusable on Linux\n- Fixed the feedback survey capturing a single-digit reply as a session rating immediately after a turn completes\n- Fixed the welcome screen stacking multiple promotional banners — at most one promo now shows per session\n- Fixed Ctrl+O not showing the subagent's transcript when viewing a subagent\n- Fixed clicking the prompt input not returning focus from the subagent/footer panel\n- Fixed remote session background tasks appearing stuck as \"still running\" between turns\n- Improved plugin loading performance in remote sessions",
+      "prerelease": false
+    }
+  ],
+  "level2_people": [
+    "@karpathy",
+    "@bcherny",
+    "@sundarpichai",
+    "@sama",
+    "@gdb",
+    "@DarioAmodei"
+  ],
+  "level2_note": "raw 无人物搜索；无依据时 Level 2 标无新增，勿编造",
+  "level3_note": "本日未扫描行业报告（周报降频）",
+  "level4_hn": [
+    {
+      "title": "SpaceX Will Buy AI Coding Firm Cursor for $60B",
+      "url": "https://www.forbes.com/sites/siladityaray/2026/06/16/spacex-will-buy-ai-coding-firm-cursor-for-60-billion/",
+      "points": 5,
+      "comments": 1,
+      "created": "2026-06-16"
+    },
+    {
+      "title": "Show HN: Tamper-evident audit trail for AI coding agent activity",
+      "url": "https://github.com/Constellation-Labs/gate-oc-audit",
+      "points": 4,
+      "comments": 3,
+      "created": "2026-06-15"
+    },
+    {
+      "title": "Rate AI coding agents and gain reputation",
+      "url": "https://elolup.com/",
+      "points": 4,
+      "comments": 2,
+      "created": "2026-06-16"
+    },
+    {
+      "title": "Show HN: AWF – run parallel AI coding agents, each in its own Docker workspace",
+      "url": "https://github.com/dimileeh/agent-workspace-fabric",
+      "points": 4,
+      "comments": 0,
+      "created": "2026-06-16"
+    },
+    {
+      "title": "Xiaomi's agentic AI coding harness MiMo Code beats Claude Code at 200 step tasks",
+      "url": "https://venturebeat.com/technology/xiaomis-new-open-source-agentic-ai-coding-harness-mimo-code-beats-claude-code-at-ultra-long-200-step-tasks",
+      "points": 4,
+      "comments": 0,
+      "created": "2026-06-16"
+    }
+  ]
+}
