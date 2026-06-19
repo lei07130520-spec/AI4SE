@@ -1,0 +1,100 @@
+{
+  "briefing_date": "2026-06-20",
+  "period_start": "2026-06-18",
+  "period_end": "2026-06-20",
+  "previous_briefing_date": "2026-06-19",
+  "previous_briefing_excerpt": "# AI x 研发效能 每日简报 2026-06-19\n\n> 覆盖周期：2026-06-17 ~ 2026-06-19（上一期：2026-06-18）\n\n> **采集方式**：GitHub Actions 自动采集（Level 1 GitHub API + Level 4 HN API）｜Level 2/3 待人工或 API 密钥补充\n\n---\n\n## 头条速览\n\n1. **Gemini CLI v0.47.0**——## What's Changed\n2. **Codex rust-v0.141.0**——## New Features\n3. **Claude Code v2.1.181**——## What's changed\n\n---\n\n## 一、AI 增强软件研发（AI4SE）\n\n### 1.1 Level 1：核心产品与工程更新\n\n#### 1️⃣ Gemini CLI v0.47.0（2026-06-18）\n\n## What's Changed\n\n来源：[v0.47.0](https://github.com/google-gemini/gemini-cli/releases/tag/v0.47.0) — 2026-06-18\n\n#### 2️⃣ Codex rust-v0.141.0（2026-06-18）\n\n## New Features\n\n来源：[rust-v0.141.0](https://github.com/openai/codex/releases/tag/rust-v0.141.0) — 2026-06-18\n\n#### 3️⃣ Claude Code v2.1.181（2026-06-17）\n\n## What's changed\n\n来源：[v2.1.181](https://github.com/anthropics/claude-code/releases/tag/v2.1.181) — 2026-06-17\n\n---\n\n### 1.2 Level 2：关键人物战略洞察\n\n| 人物 | 动态 | 日期 |\n|---|---|---|\n| @karpathy | 自动采集未配置（需 WebSearch / X 间接源） | — |\n| @bcherny | 自动采集未配置（需 WebSearch / X 间接源） | — |\n| @sundarpichai | 自动采集未配置（需 WebSearch / X 间接源） | — |\n| @sama | 自动采集未配置（需 WebSearch / X 间接源） | — |\n| @gdb | 自动采集未配置（需 WebSearch / X 间接源） | — |\n| @DarioAmodei | 自动采集未配置（需 WebSearch / X 间接源） | — |\n\n---\n\n### 1.3 Level 3：行业研究与数据\n\n> **本日未扫描**（周报/月报降频）。\n\n---\n\n### 1.4 Level 4：补充信源（HN）\n\n- **2026-06-16**：[SpaceX Will Buy AI Coding Firm Cursor for $60B](https://www.forbes.com/sites/siladityaray/2026/06/16/spacex-will-buy-ai-coding-firm-cursor-for-60-billion/) （5 pts / 1 comments）\n- **2026-06-16**：[Show HN: AWF – run parallel AI coding agents, each in its own Docker workspace](https://github.com/dimileeh/agent-workspace-fabric) （5 pts / 0 comments）\n- **2026-06-16**：[Rate AI coding agents and gain reputation](https://elolup.com/) （4 pts / 2 comments）\n- **2026-06-16**：[Xiaomi's agentic AI coding harness MiMo Code beats Claude Code at 200 step tasks](https://venturebeat.com/technology/xiaomis-new-open-source-agentic-ai-coding-harness-mimo-code-beats-claude-code-at-ultra-long-200-step-tasks) （4 pts / 0 comments）\n- **2026-06-17**：[HN rates AI coding agents](https://elolup.com/) （3 pts / 1 comments）\n\n---\n\n## 附录：采集日志\n\n| 环节 | 状态 |\n|---|---|\n| GitHub Releases API | ✅ 3 条 |\n| HN Algolia API | ✅ 5 条 |\n| 生成时间 (UTC) | 2026-06-18 21:29 |\n\n*自动生成版 · 可在 Cursor 中基于本稿补充 Level 2 分析与专题*\n",
+  "level1_releases": [
+    {
+      "product": "OpenClaw",
+      "repo": "openclaw/openclaw",
+      "tag": "v2026.6.9-beta.1",
+      "name": "openclaw 2026.6.9-beta.1",
+      "published": "2026-06-19",
+      "url": "https://github.com/openclaw/openclaw/releases/tag/v2026.6.9-beta.1",
+      "summary": "## 2026.6.9",
+      "body_excerpt": "## 2026.6.9\n\n### Highlights\n\n- **Richer Telegram delivery:** Telegram now sends rich HTML, preserves rich markdown and sticker paths, renders progress drafts and command output more faithfully, and keeps mentions and spooled handlers on the right delivery path. (#93286, #93164, #93124, #93364, #93130, #93088, #93281) Thanks @obviyus, @vincentkoc, @goutamadwant, @kesslerio, @NianJiuZst, @SweetSophia, @Marvinthebored, and @aaajiao.\n- **More dependable agent recovery:** retries, terminal outcomes, usage after compaction, session history repair, and reply reconciliation now keep more interrupted or partial turns moving toward a visible final result. (#92191, #93073, #93228, #93084, #93469, #93291, #90943) Thanks @ai-hpc, @lml2468, @fuller-stack-dev, @Hollychou924, @leno23, @de1tydev, @425072024, @wuwahe3, @drvoss, @yetval, @sandieman2, and @vincentkoc.\n- **A stronger Codex integration:** Codex gains automatic plugin approvals, GPT-5.3 Spark OAuth routing, remote-node `exec` as a dynamic tool, and more reliable app-server teardown and terminal outcomes. (#92625, #89133, #93654, #91767, #93287) Thanks @kevinslin, @VACInc, @vincentkoc, @JPKay-AI, and @aliahnaf2013-max.\n- **Standalone official provider plugins:** external provider packages are now first-class npm releases, externally installed channel plugins load at Gateway startup, and StepFun is intentionally npm-only because its ClawHub package name is unavailable. (#93470) Thanks @sunlit-deng, @cxdnicole, and @vincentkoc.\n- **More capable web and native clients:** the Control UI adds a session workspace rail and extension health, iOS adds Watch controls, and Android shows chat context. (#92856, #91952, #93387, #92837) Thanks @Solvely-Colin, @jalehman, @joshavant, and @Tosko4.\n- **More useful search and skills:** Codex Hosted Search is available, key-free search providers remain deliberate opt-ins, and ClawHub skill installs retain verified source provenance. (#93446, #93616, #93283, #93506) Thanks @fuller-stack-dev, @davemorin, @momothemage, @nmccready-tars, and @vincentkoc.\n\n### Changes\n\n- Providers and auth: add Codex Hosted Search, improve Gemini CLI OAuth behind proxies, and keep external provider onboarding on current choices and package metadata. (#93446, #92815) Thanks @fuller-stack-dev, @yetval, @EvetteYoung, and @vincentkoc.\n- Plugins and installs: externalized official providers publish as independent npm packages, Gateway discovers installed channel plugins at startup, and StepFun installs exclusiv",
+      "prerelease": true
+    },
+    {
+      "product": "Claude Code",
+      "repo": "anthropics/claude-code",
+      "tag": "v2.1.183",
+      "name": "v2.1.183",
+      "published": "2026-06-19",
+      "url": "https://github.com/anthropics/claude-code/releases/tag/v2.1.183",
+      "summary": "## What's changed",
+      "body_excerpt": "## What's changed\n\n- Improved auto mode safety: destructive git commands (`git reset --hard`, `git checkout -- .`, `git clean -fd`, `git stash drop`) are now blocked when you didn't ask to discard local work, `git commit --amend` is blocked when the commit wasn't made by the agent this session, and `terraform destroy`/`pulumi destroy`/`cdk destroy` are blocked unless you asked for the specific stack\n- Added a warning when the requested model is deprecated or automatically updated to a newer model, shown on stderr in print mode (`-p`) and now also covering models set in agent frontmatter\n- Added `attribution.sessionUrl` setting to omit the claude.ai session link from commits and PRs in web and Remote Control sessions\n- Added `/config --help` to list all available shorthand keys for `/config key=value`\n- Changed `/config` toggle behavior: Enter and Space both change the selected setting, and Esc now saves and closes instead of reverting\n- Removed the startup \"setup issues\" line under the logo — run `/doctor` to see configuration issues or use `--debug`\n- Fixed `thinking.disabled.display: Extra inputs are not permitted` 400 errors on subagent spawns and session-title generation for affected configurations\n- Fixed WebSearch returning empty results in subagents\n- Fixed the terminal cursor being stranded above the prompt after navigating history in vim mode with the native cursor enabled\n- Fixed fullscreen TUI corruption (statusline mid-screen, duplicated spinner rows, merged text) in Windows Terminal under heavy nested-subagent load\n- Fixed turns silently completing with no visible output when the model returned only a thinking block; Claude now re-prompts once\n- Fixed user-level skills appearing multiple times in slash-command autocomplete when multiple plugins are enabled\n- Fixed MCP servers requiring authentication exposing auth-stub tools to the model in headless/SDK mode\n- Fixed tmux teammate panes failing to launch when the shell has slow rc-file initialization, and keystrokes typed during agent spawn leaking into the new tmux pane instead of the leader prompt\n- Fixed background tasks started by a teammate being killed when the teammate finishes a turn\n- Fixed scheduled task and webhook trigger deliveries being treated as keyboard input; they now classify as task notifications and can no longer approve a pending action or set the session title in auto mode\n- Fixed focus mode showing \"Ran N PostToolUse hooks\" timing lines under each response",
+      "prerelease": false
+    },
+    {
+      "product": "Gemini CLI",
+      "repo": "google-gemini/gemini-cli",
+      "tag": "v0.47.0",
+      "name": "Release v0.47.0",
+      "published": "2026-06-18",
+      "url": "https://github.com/google-gemini/gemini-cli/releases/tag/v0.47.0",
+      "summary": "## What's Changed",
+      "body_excerpt": "## What's Changed\n* chore(release): bump version to 0.47.0-nightly.20260602.gcfcecebe8 by @gemini-cli-robot in https://github.com/google-gemini/gemini-cli/pull/27644\n* Changelog for v0.46.0-preview.0 by @gemini-cli-robot in https://github.com/google-gemini/gemini-cli/pull/27641\n* Respect backend definitions for 3.5 flash and Update auto mode to use 3.5 flash when the flag is enabled. by @DavidAPierce in https://github.com/google-gemini/gemini-cli/pull/27645\n* fix(policy): add EBUSY fallback and TOML parse recovery (#19919) by @krishdef7 in https://github.com/google-gemini/gemini-cli/pull/21541\n* Changelog for v0.45.0 by @gemini-cli-robot in https://github.com/google-gemini/gemini-cli/pull/27642\n* update the max amount of times the Antigravity transition banner can be displayed. by @DavidAPierce in https://github.com/google-gemini/gemini-cli/pull/27676\n* chore: remove experimental text from browser agent docs by @gsquared94 in https://github.com/google-gemini/gemini-cli/pull/27746\n* fix(core): implement atomic update in MCP tool discovery by @luisfelipe-alt in https://github.com/google-gemini/gemini-cli/pull/27619\n* Vertex ai model mapping fix by @DavidAPierce in https://github.com/google-gemini/gemini-cli/pull/27749\n* Add documentation and migration commands for Antigravity CLI by @DavidAPierce in https://github.com/google-gemini/gemini-cli/pull/27765\n* Avoid persisting empty resume sessions by @SandyTao520 in https://github.com/google-gemini/gemini-cli/pull/27770\n\n\n**Full Changelog**: https://github.com/google-gemini/gemini-cli/compare/v0.46.0...v0.47.0",
+      "prerelease": false
+    },
+    {
+      "product": "Codex",
+      "repo": "openai/codex",
+      "tag": "rust-v0.141.0",
+      "name": "0.141.0",
+      "published": "2026-06-18",
+      "url": "https://github.com/openai/codex/releases/tag/rust-v0.141.0",
+      "summary": "## New Features",
+      "body_excerpt": "## New Features\n\n- Remote executors now use authenticated, end-to-end encrypted Noise relay channels. (#26242, #26245)\n- Cross-platform remote execution now preserves executor-native working directories and shells, including filesystem permission paths across app-server and exec-server boundaries. (#27819, #27995, #28032, #28122, #28165, #28367)\n- Selected executor plugins can activate their stdio MCP servers per thread; plugin discovery also adds a created-by-me marketplace and auth-specific curated catalogs. (#27870, #27884, #27893, #28203, #28383)\n- App-server clients can list immediate child threads, correlate external-agent imports with detailed results, and read or redeem rate-limit reset credits. (#26662, #28008, #28143)\n- Realtime clients can explicitly append speech, control how Codex responses enter conversations, and omit startup context. (#27917, #28405)\n- TUI input prompts can auto-resolve after inactivity, with a countdown that pauses on interaction. (#28235)\n\n## Bug Fixes\n\n- Hook trust bypass now persists through `codex exec` thread start and resume, while blocking `PostToolUse` hooks correctly reject code-mode tool calls. (#26434, #28365)\n- Plugin capabilities now route consistently by authentication mode, deduplicate conflicting App/MCP declarations, and preserve remote marketplace ordering. (#27461, #27602, #27607, #27902, #27958, #28395)\n- Windows sandbox execution repairs stale credentials automatically and gives PowerShell commands more time before backgrounding. (#27086, #27944)\n- Idle exec-server relays remain connected, and steered user input immediately interrupts `wait_agent`. (#28286, #28341)\n- Bundled SQLite is pinned to a version containing the WAL-reset corruption fix. (#27992)\n- TLS connections now support P-521 certificate signatures commonly used by enterprise proxies. (#27706)\n\n## Chores\n\n- Reduced latency and memory use in large, tool-heavy sessions by caching tool search and eliminating repeated request and history copies. (#27258, #27813, #28306, #28309, #28313, #28323, #28327)\n- Bounded prompt-image caching to 64 MiB and feedback uploads to eight related threads. (#28294, #28332)\n- Terminal resize reflow is now always enabled, ignoring obsolete disabled settings. (#27794)\n\n## Changelog\n\nFull Changelog: https://github.com/openai/codex/compare/rust-v0.140.0...rust-v0.141.0\n\n- #28001 [codex] package Windows ARM64 on x64 @tamird\n- #28032 [codex] Carry exec-server cwd as PathUri @anp-oai\n- #27607 [codex] Dedupe plugin MCPs ",
+      "prerelease": false
+    }
+  ],
+  "level2_people": [
+    "@karpathy",
+    "@bcherny",
+    "@sundarpichai",
+    "@sama",
+    "@gdb",
+    "@DarioAmodei"
+  ],
+  "level2_note": "raw 无人物搜索；无依据时 Level 2 标无新增，勿编造",
+  "level3_note": "本日未扫描行业报告（周报降频）",
+  "level4_hn": [
+    {
+      "title": "HN rates AI coding agents",
+      "url": "https://elolup.com/",
+      "points": 3,
+      "comments": 1,
+      "created": "2026-06-17"
+    },
+    {
+      "title": "AI DevKit – The control plane for AI coding agents",
+      "url": "https://ai-devkit.com/",
+      "points": 3,
+      "comments": 0,
+      "created": "2026-06-19"
+    },
+    {
+      "title": "Show HN: Gorchestra – resume local AI coding sessions from your phone",
+      "url": "https://github.com/jgennari/gorchestra",
+      "points": 3,
+      "comments": 0,
+      "created": "2026-06-18"
+    },
+    {
+      "title": "Show HN: Know which AI coding tools/MCPs/etc. are used to ship software",
+      "url": "https://blog.codacy.com/the-visibility-problem-behind-ai-tool-adoption-in-engineering-teams",
+      "points": 3,
+      "comments": 0,
+      "created": "2026-06-18"
+    },
+    {
+      "title": "Tell your LLM how to check its work for empowered AI coding",
+      "url": "https://khalah.substack.com/p/tell-your-llm-to-verify-its-changes",
+      "points": 3,
+      "comments": 0,
+      "created": "2026-06-17"
+    }
+  ]
+}
