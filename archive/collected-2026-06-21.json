@@ -1,0 +1,100 @@
+{
+  "briefing_date": "2026-06-21",
+  "period_start": "2026-06-19",
+  "period_end": "2026-06-21",
+  "previous_briefing_date": "2026-06-20",
+  "previous_briefing_excerpt": "# AI x 研发效能 每日简报 2026-06-20\n\n> 覆盖周期：2026-06-18 ~ 2026-06-20（上一期：2026-06-19）\n\n> **采集方式**：GitHub Actions 自动采集（Level 1 GitHub API + Level 4 HN API）｜Level 2/3 待人工或 API 密钥补充\n\n---\n\n## 头条速览\n\n1. **OpenClaw v2026.6.9-beta.1**——## 2026.6.9\n2. **Claude Code v2.1.183**——## What's changed\n3. **Gemini CLI v0.47.0**——## What's Changed\n\n---\n\n## 一、AI 增强软件研发（AI4SE）\n\n### 1.1 Level 1：核心产品与工程更新\n\n#### 1️⃣ OpenClaw v2026.6.9-beta.1（2026-06-19）\n\n## 2026.6.9\n\n来源：[v2026.6.9-beta.1](https://github.com/openclaw/openclaw/releases/tag/v2026.6.9-beta.1) — 2026-06-19\n\n#### 2️⃣ Claude Code v2.1.183（2026-06-19）\n\n## What's changed\n\n来源：[v2.1.183](https://github.com/anthropics/claude-code/releases/tag/v2.1.183) — 2026-06-19\n\n#### 3️⃣ Gemini CLI v0.47.0（2026-06-18）\n\n## What's Changed\n\n来源：[v0.47.0](https://github.com/google-gemini/gemini-cli/releases/tag/v0.47.0) — 2026-06-18\n\n#### 4️⃣ Codex rust-v0.141.0（2026-06-18）\n\n## New Features\n\n来源：[rust-v0.141.0](https://github.com/openai/codex/releases/tag/rust-v0.141.0) — 2026-06-18\n\n---\n\n### 1.2 Level 2：关键人物战略洞察\n\n| 人物 | 动态 | 日期 |\n|---|---|---|\n| @karpathy | 自动采集未配置（需 WebSearch / X 间接源） | — |\n| @bcherny | 自动采集未配置（需 WebSearch / X 间接源） | — |\n| @sundarpichai | 自动采集未配置（需 WebSearch / X 间接源） | — |\n| @sama | 自动采集未配置（需 WebSearch / X 间接源） | — |\n| @gdb | 自动采集未配置（需 WebSearch / X 间接源） | — |\n| @DarioAmodei | 自动采集未配置（需 WebSearch / X 间接源） | — |\n\n---\n\n### 1.3 Level 3：行业研究与数据\n\n> **本日未扫描**（周报/月报降频）。\n\n---\n\n### 1.4 Level 4：补充信源（HN）\n\n- **2026-06-17**：[HN rates AI coding agents](https://elolup.com/) （3 pts / 1 comments）\n- **2026-06-19**：[AI DevKit – The control plane for AI coding agents](https://ai-devkit.com/) （3 pts / 0 comments）\n- **2026-06-18**：[Show HN: Gorchestra – resume local AI coding sessions from your phone](https://github.com/jgennari/gorchestra) （3 pts / 0 comments）\n- **2026-06-18**：[Show HN: Know which AI coding tools/MCPs/etc. are used to ship software](https://blog.codacy.com/the-visibility-problem-behind-ai-tool-adoption-in-engineering-teams) （3 pts / 0 comments）\n- **2026-06-17**：[Tell your LLM how to check its work for empowered AI coding](https://khalah.substack.com/p/tell-your-llm-to-verify-its-changes) （3 pts / 0 comments）\n\n---\n\n## 附录：采集日志\n\n| 环节 | 状态 |\n|---|---|\n| GitHub Releases API | ✅ 4 条 |\n| HN Algolia API | ✅ 5 条 |\n| 生成时间 (UTC) | 2026-06-19 19:16 |\n\n*自动生成版 · 可在 Cursor 中基于本稿补充 Level 2 分析与专题*\n",
+  "level1_releases": [
+    {
+      "product": "Codex",
+      "repo": "openai/codex",
+      "tag": "rust-v0.142.0-alpha.7",
+      "name": "0.142.0-alpha.7",
+      "published": "2026-06-20",
+      "url": "https://github.com/openai/codex/releases/tag/rust-v0.142.0-alpha.7",
+      "summary": "Release 0.142.0-alpha.7",
+      "body_excerpt": "Release 0.142.0-alpha.7",
+      "prerelease": true
+    },
+    {
+      "product": "OpenClaw",
+      "repo": "openclaw/openclaw",
+      "tag": "v2026.6.9-beta.1",
+      "name": "openclaw 2026.6.9-beta.1",
+      "published": "2026-06-19",
+      "url": "https://github.com/openclaw/openclaw/releases/tag/v2026.6.9-beta.1",
+      "summary": "## 2026.6.9",
+      "body_excerpt": "## 2026.6.9\n\n### Highlights\n\n- **Richer Telegram delivery:** Telegram now sends rich HTML, preserves rich markdown and sticker paths, renders progress drafts and command output more faithfully, and keeps mentions and spooled handlers on the right delivery path. (#93286, #93164, #93124, #93364, #93130, #93088, #93281) Thanks @obviyus, @vincentkoc, @goutamadwant, @kesslerio, @NianJiuZst, @SweetSophia, @Marvinthebored, and @aaajiao.\n- **More dependable agent recovery:** retries, terminal outcomes, usage after compaction, session history repair, and reply reconciliation now keep more interrupted or partial turns moving toward a visible final result. (#92191, #93073, #93228, #93084, #93469, #93291, #90943) Thanks @ai-hpc, @lml2468, @fuller-stack-dev, @Hollychou924, @leno23, @de1tydev, @425072024, @wuwahe3, @drvoss, @yetval, @sandieman2, and @vincentkoc.\n- **A stronger Codex integration:** Codex gains automatic plugin approvals, GPT-5.3 Spark OAuth routing, remote-node `exec` as a dynamic tool, and more reliable app-server teardown and terminal outcomes. (#92625, #89133, #93654, #91767, #93287) Thanks @kevinslin, @VACInc, @vincentkoc, @JPKay-AI, and @aliahnaf2013-max.\n- **Standalone official provider plugins:** external provider packages are now first-class npm releases, externally installed channel plugins load at Gateway startup, and StepFun is intentionally npm-only because its ClawHub package name is unavailable. (#93470) Thanks @sunlit-deng, @cxdnicole, and @vincentkoc.\n- **More capable web and native clients:** the Control UI adds a session workspace rail and extension health, iOS adds Watch controls, and Android shows chat context. (#92856, #91952, #93387, #92837) Thanks @Solvely-Colin, @jalehman, @joshavant, and @Tosko4.\n- **More useful search and skills:** Codex Hosted Search is available, key-free search providers remain deliberate opt-ins, and ClawHub skill installs retain verified source provenance. (#93446, #93616, #93283, #93506) Thanks @fuller-stack-dev, @davemorin, @momothemage, @nmccready-tars, and @vincentkoc.\n\n### Changes\n\n- Providers and auth: add Codex Hosted Search, improve Gemini CLI OAuth behind proxies, and keep external provider onboarding on current choices and package metadata. (#93446, #92815) Thanks @fuller-stack-dev, @yetval, @EvetteYoung, and @vincentkoc.\n- Plugins and installs: externalized official providers publish as independent npm packages, Gateway discovers installed channel plugins at startup, and StepFun installs exclusiv",
+      "prerelease": true
+    },
+    {
+      "product": "Hermes Agent",
+      "repo": "NousResearch/hermes-agent",
+      "tag": "v2026.6.19",
+      "name": "Hermes Agent v0.17.0 (v2026.6.19)",
+      "published": "2026-06-19",
+      "url": "https://github.com/NousResearch/hermes-agent/releases/tag/v2026.6.19",
+      "summary": "# Hermes Agent v0.17.0 (v2026.6.19)",
+      "body_excerpt": "# Hermes Agent v0.17.0 (v2026.6.19)\n\n**Release Date:** June 19, 2026\n**Since v0.16.0:** ~1,475 commits · ~800 merged PRs · 1,693 files changed · 235,390 insertions · 50,730 deletions · 300+ issues closed · 245 community contributors\n\n> **The Reach Release.** v0.16.0 put Hermes on your desktop. v0.17.0 is about how far that reach extends — across new places to talk to it, deeper into the tools you already use, and out to the people running Hermes for a team. Hermes reached two new channels (iMessage via Photon, and the Raft agent network), the desktop app gained substantial new capability, subagents can now run in the background, image generation learned to edit, and Cursor's Composer model is reachable through an xAI Grok subscription. The dashboard got a full profile builder and secure login, the Skills Hub browser was rehauled, the `memory` tool got a major upgrade, and the curator stopped spending aux-model budget on every routine run. 300+ issues closed ride along, plus a security round.\n\n## ✨ Highlights\n\n- **Hermes reaches iMessage — Photon Spectrum, no Mac relay required** — There's now an iMessage platform plugin built on Photon's managed line pool. Run `hermes photon login`, authenticate with a device code, and Hermes can send and receive iMessage — no Mac sitting in a closet running a relay, no BlueBubbles bridge to babysit. It's positioned as the successor to BlueBubbles: free to start, nothing to self-host. If your friends and family live in the blue bubbles, Hermes lives there now too. ([#32348](https://github.com/NousResearch/hermes-agent/pull/32348), [#42582](https://github.com/NousResearch/hermes-agent/pull/42582), [#44713](https://github.com/NousResearch/hermes-agent/pull/44713) — @teknium1)\n\n- **Raft — Hermes joins the Raft agent network as a gateway channel** — A new bundled Raft platform adapter lets Hermes connect to [Raft](https://raft.build) as an external agent through a wake-channel bridge. Set `RAFT_PROFILE`, run the bridge, and Raft can wake Hermes to handle messages — with a privacy-by-contract design where wake payloads carry only metadata (event IDs, timestamps), never message bodies. Another surface where Hermes can show up and do work. ([#48210](https://github.com/NousResearch/hermes-agent/pull/48210) — @xxchan, @teknium1)\n\n- **A substantially more capable desktop app** — v0.16.0 shipped the desktop app; v0.17.0 deepened it across dozens of PRs. Rebindable keyboard shortcuts, native OS notifications with per-type toggles, liv",
+      "prerelease": false
+    },
+    {
+      "product": "Claude Code",
+      "repo": "anthropics/claude-code",
+      "tag": "v2.1.183",
+      "name": "v2.1.183",
+      "published": "2026-06-19",
+      "url": "https://github.com/anthropics/claude-code/releases/tag/v2.1.183",
+      "summary": "## What's changed",
+      "body_excerpt": "## What's changed\n\n- Improved auto mode safety: destructive git commands (`git reset --hard`, `git checkout -- .`, `git clean -fd`, `git stash drop`) are now blocked when you didn't ask to discard local work, `git commit --amend` is blocked when the commit wasn't made by the agent this session, and `terraform destroy`/`pulumi destroy`/`cdk destroy` are blocked unless you asked for the specific stack\n- Added a warning when the requested model is deprecated or automatically updated to a newer model, shown on stderr in print mode (`-p`) and now also covering models set in agent frontmatter\n- Added `attribution.sessionUrl` setting to omit the claude.ai session link from commits and PRs in web and Remote Control sessions\n- Added `/config --help` to list all available shorthand keys for `/config key=value`\n- Changed `/config` toggle behavior: Enter and Space both change the selected setting, and Esc now saves and closes instead of reverting\n- Removed the startup \"setup issues\" line under the logo — run `/doctor` to see configuration issues or use `--debug`\n- Fixed `thinking.disabled.display: Extra inputs are not permitted` 400 errors on subagent spawns and session-title generation for affected configurations\n- Fixed WebSearch returning empty results in subagents\n- Fixed the terminal cursor being stranded above the prompt after navigating history in vim mode with the native cursor enabled\n- Fixed fullscreen TUI corruption (statusline mid-screen, duplicated spinner rows, merged text) in Windows Terminal under heavy nested-subagent load\n- Fixed turns silently completing with no visible output when the model returned only a thinking block; Claude now re-prompts once\n- Fixed user-level skills appearing multiple times in slash-command autocomplete when multiple plugins are enabled\n- Fixed MCP servers requiring authentication exposing auth-stub tools to the model in headless/SDK mode\n- Fixed tmux teammate panes failing to launch when the shell has slow rc-file initialization, and keystrokes typed during agent spawn leaking into the new tmux pane instead of the leader prompt\n- Fixed background tasks started by a teammate being killed when the teammate finishes a turn\n- Fixed scheduled task and webhook trigger deliveries being treated as keyboard input; they now classify as task notifications and can no longer approve a pending action or set the session title in auto mode\n- Fixed focus mode showing \"Ran N PostToolUse hooks\" timing lines under each response",
+      "prerelease": false
+    }
+  ],
+  "level2_people": [
+    "@karpathy",
+    "@bcherny",
+    "@sundarpichai",
+    "@sama",
+    "@gdb",
+    "@DarioAmodei"
+  ],
+  "level2_note": "raw 无人物搜索；无依据时 Level 2 标无新增，勿编造",
+  "level3_note": "本日未扫描行业报告（周报降频）",
+  "level4_hn": [
+    {
+      "title": "SpaceX Loses $600B After Announcing Acquisition of Cursor AI Coding Agent",
+      "url": "https://www.forbes.com/sites/tylerroush/2026/06/18/spacex-stock-plunge-wipes-out-600-billion-after-cursor-deal-spooks-investors/",
+      "points": 6,
+      "comments": 2,
+      "created": "2026-06-20"
+    },
+    {
+      "title": "A free book on operating AI coding tools (no signup, source on GitHub)",
+      "url": "https://dive.vladyslavpodoliako.com/",
+      "points": 4,
+      "comments": 1,
+      "created": "2026-06-19"
+    },
+    {
+      "title": "The New Calculus of AI-Based Coding",
+      "url": "https://blog.joemag.dev/2025/10/the-new-calculus-of-ai-based...",
+      "points": 3,
+      "comments": 1,
+      "created": "2026-06-20"
+    },
+    {
+      "title": "Agent Memory Layer: Repository-local memory for AI coding agents",
+      "url": "https://github.com/ragnarok268/agent-memory-layer",
+      "points": 3,
+      "comments": 0,
+      "created": "2026-06-20"
+    },
+    {
+      "title": "AI DevKit – The control plane for AI coding agents",
+      "url": "https://ai-devkit.com/",
+      "points": 3,
+      "comments": 0,
+      "created": "2026-06-19"
+    }
+  ]
+}
