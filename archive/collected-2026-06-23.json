@@ -1,0 +1,89 @@
+{
+  "briefing_date": "2026-06-23",
+  "period_start": "2026-06-21",
+  "period_end": "2026-06-23",
+  "previous_briefing_date": "2026-06-22",
+  "previous_briefing_excerpt": "# AI x 研发效能 每日简报 2026-06-22\n\n> 覆盖周期：2026-06-20 ~ 2026-06-22（上一期：2026-06-21）\n\n> **采集方式**：GitHub Actions 自动采集（Level 1 GitHub API + Level 4 HN API）｜Level 2/3 待人工或 API 密钥补充\n\n---\n\n## 头条速览\n\n1. **OpenClaw v2026.6.9**——## 2026.6.9\n2. **Codex rust-v0.142.0-alpha.9**——Release 0.142.0-alpha.9\n3. **Claude Code v2.1.185**——## What's changed\n\n---\n\n## 一、AI 增强软件研发（AI4SE）\n\n### 1.1 Level 1：核心产品与工程更新\n\n#### 1️⃣ OpenClaw v2026.6.9（2026-06-21）\n\n## 2026.6.9\n\n来源：[v2026.6.9](https://github.com/openclaw/openclaw/releases/tag/v2026.6.9) — 2026-06-21\n\n#### 2️⃣ Codex rust-v0.142.0-alpha.9（2026-06-21）\n\nRelease 0.142.0-alpha.9\n\n来源：[rust-v0.142.0-alpha.9](https://github.com/openai/codex/releases/tag/rust-v0.142.0-alpha.9) — 2026-06-21\n\n#### 3️⃣ Claude Code v2.1.185（2026-06-20）\n\n## What's changed\n\n来源：[v2.1.185](https://github.com/anthropics/claude-code/releases/tag/v2.1.185) — 2026-06-20\n\n---\n\n### 1.2 Level 2：关键人物战略洞察\n\n| 人物 | 动态 | 日期 |\n|---|---|---|\n| @karpathy | 自动采集未配置（需 WebSearch / X 间接源） | — |\n| @bcherny | 自动采集未配置（需 WebSearch / X 间接源） | — |\n| @sundarpichai | 自动采集未配置（需 WebSearch / X 间接源） | — |\n| @sama | 自动采集未配置（需 WebSearch / X 间接源） | — |\n| @gdb | 自动采集未配置（需 WebSearch / X 间接源） | — |\n| @DarioAmodei | 自动采集未配置（需 WebSearch / X 间接源） | — |\n\n---\n\n### 1.3 Level 3：行业研究与数据\n\n> **本日未扫描**（周报/月报降频）。\n\n---\n\n### 1.4 Level 4：补充信源（HN）\n\n- **2026-06-20**：[SpaceX Loses $600B After Announcing Acquisition of Cursor AI Coding Agent](https://www.forbes.com/sites/tylerroush/2026/06/18/spacex-stock-plunge-wipes-out-600-billion-after-cursor-deal-spooks-investors/) （6 pts / 2 comments）\n- **2026-06-21**：[OpenMontage: Turn your AI coding assistant into a full video production studio](https://github.com/calesthio/OpenMontage) （6 pts / 0 comments）\n- **2026-06-21**：[Ask HN: Do you give AI coding agents their own GitHub account?](https://news.ycombinator.com/item?id=48618981) （4 pts / 4 comments）\n- **2026-06-20**：[Show HN: Callimachus – Local search across your AI coding-agent history](https://github.com/BetaBots-LLC/callimachus) （4 pts / 2 comments）\n- **2026-06-19**：[A free book on operating AI coding tools (no signup, source on GitHub)](https://dive.vladyslavpodoliako.com/) （4 pts / 1 comments）\n\n---\n\n## 附录：采集日志\n\n| 环节 | 状态 |\n|---|---|\n| GitHub Releases API | ✅ 3 条 |\n| HN Algolia API | ✅ 5 条 |\n| 生成时间 (UTC) | 2026-06-21 18:10 |\n\n*自动生成版 · 可在 Cursor 中基于本稿补充 Level 2 分析与专题*\n",
+  "level1_releases": [
+    {
+      "product": "Claude Code",
+      "repo": "anthropics/claude-code",
+      "tag": "v2.1.186",
+      "name": "v2.1.186",
+      "published": "2026-06-22",
+      "url": "https://github.com/anthropics/claude-code/releases/tag/v2.1.186",
+      "summary": "## What's changed",
+      "body_excerpt": "## What's changed\n\n- Added `claude mcp login <name>` and `claude mcp logout <name>` to authenticate MCP servers from the CLI without opening the interactive `/mcp` menu, with `--no-browser` stdin redirect support for completing over SSH\n- Added status filtering (press `f`) to the `/workflows` agent detail view\n- Added a \"Skills\" section to the `/plugin` Installed tab\n- Added `teammateMode: \"iterm2\"` setting with a warning when auto mode cannot find the `it2` CLI\n- Added \"Claude Platform on AWS - refresh credentials\" option to `/login` when `awsAuthRefresh` is configured\n- `!` bash commands now trigger Claude to respond to the output automatically; set `\"respondToBashCommands\": false` in settings.json to keep the previous context-only behavior\n- Fixed streaming requests failing with \"Content block not found\" or JSON parse errors after the machine wakes from sleep\n- Fixed subagent transcript scroll position bleeding into the main transcript on exit\n- Fixed background task previews flashing raw tool names before the agent's plan loaded\n- Fixed Chrome tab-group isolation not applying when the in-product permissions gate is off for concurrent CLI sessions\n- Fixed background session recaps being duplicated; the agent's own end-of-turn summary now shows as the recap line\n- Fixed opening a background session from `claude agents` leaving the previous screen painted behind it\n- Fixed `Agent(type)` deny rules and `Agent(x,y)` allowed-types restrictions not being enforced for named subagent spawns\n- Fixed Esc and Ctrl+C not responding while background agents are still running after the main turn ends\n- Fixed misaligned option numbers in permission prompts when the option text overflows\n- Fixed pressing `x` on a finished subagent in the agent panel not dismissing it\n- Fixed a misleading \"MCP server disconnected\" notice for intentionally retired tools when resuming older sessions\n- Fixed `/plugin` Installed showing a \"more above\" indicator when already scrolled to the top\n- Fixed `~~strikethrough~~` showing literal tildes in assistant messages instead of rendering as strikethrough\n- Fixed `--tools` allowing feature-gated tools to slip through before flags loaded on a cold first launch\n- Fixed background job status in `claude agents` showing a stale \"needs input\" message after replying\n- Fixed a dark-theme flash when opening a background session from `claude agents` on a light terminal\n- Fixed mouse-selected text staying highlighted after deleting it in `claude agents`\n-",
+      "prerelease": false
+    },
+    {
+      "product": "Codex",
+      "repo": "openai/codex",
+      "tag": "rust-v0.142.0-alpha.12",
+      "name": "0.142.0-alpha.12",
+      "published": "2026-06-22",
+      "url": "https://github.com/openai/codex/releases/tag/rust-v0.142.0-alpha.12",
+      "summary": "Release 0.142.0-alpha.12",
+      "body_excerpt": "Release 0.142.0-alpha.12",
+      "prerelease": true
+    },
+    {
+      "product": "OpenClaw",
+      "repo": "openclaw/openclaw",
+      "tag": "v2026.6.9",
+      "name": "openclaw 2026.6.9",
+      "published": "2026-06-21",
+      "url": "https://github.com/openclaw/openclaw/releases/tag/v2026.6.9",
+      "summary": "## 2026.6.9",
+      "body_excerpt": "## 2026.6.9\n\n### Highlights\n\n- **Richer Telegram delivery:** Telegram now sends rich HTML, preserves rich markdown and sticker paths, renders progress drafts and command output more faithfully, normalizes HTML tables safely, and keeps mentions and spooled handlers on the right delivery path. (#93286, #93164, #93124, #93364, #93130, #93088, #93281, #94891, #94856) Thanks @obviyus, @vincentkoc, @goutamadwant, @kesslerio, @NianJiuZst, @SweetSophia, @Marvinthebored, @aaajiao, @zhangqueping, and @jairrab.\n- **More dependable agent recovery:** retries, terminal outcomes, usage after compaction, session history repair, and reply reconciliation now keep more interrupted or partial turns moving toward a visible final result. (#92191, #93073, #93228, #93084, #93469, #93291, #90943) Thanks @ai-hpc, @lml2468, @fuller-stack-dev, @Hollychou924, @leno23, @de1tydev, @425072024, @wuwahe3, @drvoss, @yetval, @sandieman2, and @vincentkoc.\n- **A stronger Codex integration:** Codex gains automatic plugin approvals, GPT-5.3 Spark OAuth routing, remote-node `exec` as a dynamic tool, and more reliable app-server teardown and terminal outcomes. (#92625, #89133, #93654, #91767, #93287) Thanks @kevinslin, @VACInc, @vincentkoc, @JPKay-AI, and @aliahnaf2013-max.\n- **Standalone official provider plugins:** external provider packages are now first-class npm releases, externally installed channel plugins load at Gateway startup, and StepFun is available from npm and ClawHub. (#93470) Thanks @sunlit-deng, @cxdnicole, and @vincentkoc.\n- **More capable web and native clients:** the Control UI adds a session workspace rail and extension health, iOS adds Watch controls, and Android shows chat context. (#92856, #91952, #93387, #92837) Thanks @Solvely-Colin, @jalehman, @joshavant, and @Tosko4.\n- **More useful search and skills:** Codex Hosted Search is available, key-free search providers remain deliberate opt-ins, and ClawHub skill installs retain verified source provenance. (#93446, #93616, #93283, #93506) Thanks @fuller-stack-dev, @davemorin, @momothemage, @nmccready-tars, and @vincentkoc.\n\n### Changes\n\n- Providers and auth: add Codex Hosted Search, improve Gemini CLI OAuth behind proxies, and keep external provider onboarding on current choices and package metadata. (#93446, #92815) Thanks @fuller-stack-dev, @yetval, @EvetteYoung, and @vincentkoc.\n- Plugins and installs: externalized official providers publish as independent npm packages, Gateway discovers installed channel plugins at startu",
+      "prerelease": false
+    }
+  ],
+  "level2_people": [
+    "@karpathy",
+    "@bcherny",
+    "@sundarpichai",
+    "@sama",
+    "@gdb",
+    "@DarioAmodei"
+  ],
+  "level2_note": "raw 无人物搜索；无依据时 Level 2 标无新增，勿编造",
+  "level3_note": "本日未扫描行业报告（周报降频）",
+  "level4_hn": [
+    {
+      "title": "I built Ponytrail, a local audit trail for AI coding-agent edits",
+      "url": "https://github.com/0xroylee/ponytrail",
+      "points": 23,
+      "comments": 10,
+      "created": "2026-06-22"
+    },
+    {
+      "title": "Show HN: PMB – local-first memory for AI coding agents over MCP",
+      "url": "https://github.com/oleksiijko/pmb/blob/main/README.md",
+      "points": 7,
+      "comments": 6,
+      "created": "2026-06-22"
+    },
+    {
+      "title": "SpaceX Loses $600B After Announcing Acquisition of Cursor AI Coding Agent",
+      "url": "https://www.forbes.com/sites/tylerroush/2026/06/18/spacex-stock-plunge-wipes-out-600-billion-after-cursor-deal-spooks-investors/",
+      "points": 7,
+      "comments": 2,
+      "created": "2026-06-20"
+    },
+    {
+      "title": "OpenMontage: Turn your AI coding assistant into a full video production studio",
+      "url": "https://github.com/calesthio/OpenMontage",
+      "points": 7,
+      "comments": 1,
+      "created": "2026-06-21"
+    },
+    {
+      "title": "Ask HN: Do you give AI coding agents their own GitHub account?",
+      "url": "https://news.ycombinator.com/item?id=48618981",
+      "points": 6,
+      "comments": 4,
+      "created": "2026-06-21"
+    }
+  ]
+}
