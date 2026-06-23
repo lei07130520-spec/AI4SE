@@ -1,0 +1,89 @@
+{
+  "briefing_date": "2026-06-24",
+  "period_start": "2026-06-22",
+  "period_end": "2026-06-24",
+  "previous_briefing_date": "2026-06-23",
+  "previous_briefing_excerpt": "# AI x 研发效能 每日简报 2026-06-23\n\n> 覆盖周期：2026-06-21 ~ 2026-06-23（上一期：2026-06-22）\n\n> **采集方式**：GitHub Actions 自动采集（Level 1 GitHub API + Level 4 HN API）｜Level 2/3 待人工或 API 密钥补充\n\n---\n\n## 头条速览\n\n1. **Claude Code v2.1.186**——## What's changed\n2. **Codex rust-v0.142.0-alpha.12**——Release 0.142.0-alpha.12\n3. **OpenClaw v2026.6.9**——## 2026.6.9\n\n---\n\n## 一、AI 增强软件研发（AI4SE）\n\n### 1.1 Level 1：核心产品与工程更新\n\n#### 1️⃣ Claude Code v2.1.186（2026-06-22）\n\n## What's changed\n\n来源：[v2.1.186](https://github.com/anthropics/claude-code/releases/tag/v2.1.186) — 2026-06-22\n\n#### 2️⃣ Codex rust-v0.142.0-alpha.12（2026-06-22）\n\nRelease 0.142.0-alpha.12\n\n来源：[rust-v0.142.0-alpha.12](https://github.com/openai/codex/releases/tag/rust-v0.142.0-alpha.12) — 2026-06-22\n\n#### 3️⃣ OpenClaw v2026.6.9（2026-06-21）\n\n## 2026.6.9\n\n来源：[v2026.6.9](https://github.com/openclaw/openclaw/releases/tag/v2026.6.9) — 2026-06-21\n\n---\n\n### 1.2 Level 2：关键人物战略洞察\n\n| 人物 | 动态 | 日期 |\n|---|---|---|\n| @karpathy | 自动采集未配置（需 WebSearch / X 间接源） | — |\n| @bcherny | 自动采集未配置（需 WebSearch / X 间接源） | — |\n| @sundarpichai | 自动采集未配置（需 WebSearch / X 间接源） | — |\n| @sama | 自动采集未配置（需 WebSearch / X 间接源） | — |\n| @gdb | 自动采集未配置（需 WebSearch / X 间接源） | — |\n| @DarioAmodei | 自动采集未配置（需 WebSearch / X 间接源） | — |\n\n---\n\n### 1.3 Level 3：行业研究与数据\n\n> **本日未扫描**（周报/月报降频）。\n\n---\n\n### 1.4 Level 4：补充信源（HN）\n\n- **2026-06-22**：[I built Ponytrail, a local audit trail for AI coding-agent edits](https://github.com/0xroylee/ponytrail) （23 pts / 10 comments）\n- **2026-06-22**：[Show HN: PMB – local-first memory for AI coding agents over MCP](https://github.com/oleksiijko/pmb/blob/main/README.md) （7 pts / 6 comments）\n- **2026-06-20**：[SpaceX Loses $600B After Announcing Acquisition of Cursor AI Coding Agent](https://www.forbes.com/sites/tylerroush/2026/06/18/spacex-stock-plunge-wipes-out-600-billion-after-cursor-deal-spooks-investors/) （7 pts / 2 comments）\n- **2026-06-21**：[OpenMontage: Turn your AI coding assistant into a full video production studio](https://github.com/calesthio/OpenMontage) （7 pts / 1 comments）\n- **2026-06-21**：[Ask HN: Do you give AI coding agents their own GitHub account?](https://news.ycombinator.com/item?id=48618981) （6 pts / 4 comments）\n\n---\n\n## 附录：采集日志\n\n| 环节 | 状态 |\n|---|---|\n| GitHub Releases API | ✅ 3 条 |\n| HN Algolia API | ✅ 5 条 |\n| 生成时间 (UTC) | 2026-06-22 21:36 |\n\n*自动生成版 · 可在 Cursor 中基于本稿补充 Level 2 分析与专题*\n",
+  "level1_releases": [
+    {
+      "product": "OpenClaw",
+      "repo": "openclaw/openclaw",
+      "tag": "v2026.6.10-beta.2",
+      "name": "openclaw 2026.6.10-beta.2",
+      "published": "2026-06-22",
+      "url": "https://github.com/openclaw/openclaw/releases/tag/v2026.6.10-beta.2",
+      "summary": "## 2026.6.10",
+      "body_excerpt": "## 2026.6.10\n\n### Highlights\n\n- **Automatic fast mode for talks:** OpenClaw can enable fast mode for short conversational turns, then return to normal mode for longer runs with bounded fallback and delivery behavior. (#85104) Thanks @alexph-dev and @vincentkoc.\n- **More reliable model routing:** Zai model synthesis, GLM overload failover, and native reasoning-level selection now follow the active model catalog more consistently. (#94461, #93241, #94067, #94136) Thanks @Pandah97, @chrysb, @0xghost42, @zhengli0922, @openperf, @civiltox, and @BorClaw.\n- **Safer session and channel state:** channel switches reset stale origin fields, and cron delivery awareness stays attached to the target session. (#95328, #93580) Thanks @ZengWen-DT, @jalehman, @gorkem2020, and @scotthuang.\n- **Trusted policies survive hook composition:** composed hook registries keep the trusted tool policies required by approval-sensitive flows. (#94545) Thanks @jesse-merhi.\n\n### Changes\n\n- **Agent and channel runtime:** fast-mode state now survives retries, fallback transitions, progress events, and embedded/CLI/ACP normalization; session and channel routing retain the current target and delivery context. (#85104, #93580, #95328) Thanks @alexph-dev, @vincentkoc, @scotthuang, @ZengWen-DT, @jalehman, and @gorkem2020.\n- **Provider behavior:** model catalogs now supply the correct Zai base URL, overload classification, and native reasoning controls for live-discovered models. (#94461, #93241, #94067, #94136) Thanks @Pandah97, @chrysb, @0xghost42, @zhengli0922, @openperf, @civiltox, and @BorClaw.\n\n### Fixes\n\n- **Fast-mode and policy correctness:** fallback cutoffs and reset notices are bounded, repeated progress events remain visible, Codex service-tier state is normalized, and trusted policies are not lost when hook registries are composed. (#85104, #94545) Thanks @alexph-dev, @vincentkoc, and @jesse-merhi.\n- **Model and delivery edge cases:** Zai and GLM failover paths use the right runtime metadata, while stale channel-origin state no longer leaks across session changes. (#94461, #93241, #95328) Thanks @Pandah97, @chrysb, @0xghost42, @zhengli0922, @ZengWen-DT, @jalehman, and @gorkem2020.\n\n### Complete contribution record\n\nThis audited record covers the complete v2026.6.9..HEAD history: 11 merged PRs. The generation manifest also supplies direct commits as editorial input; the grouped notes above prioritize user impact.\n\n#### Pull requests\n\n- **PR #86627** Keep core doctor health in contribut",
+      "prerelease": true
+    },
+    {
+      "product": "Claude Code",
+      "repo": "anthropics/claude-code",
+      "tag": "v2.1.186",
+      "name": "v2.1.186",
+      "published": "2026-06-22",
+      "url": "https://github.com/anthropics/claude-code/releases/tag/v2.1.186",
+      "summary": "## What's changed",
+      "body_excerpt": "## What's changed\n\n- Added `claude mcp login <name>` and `claude mcp logout <name>` to authenticate MCP servers from the CLI without opening the interactive `/mcp` menu, with `--no-browser` stdin redirect support for completing over SSH\n- Added status filtering (press `f`) to the `/workflows` agent detail view\n- Added a \"Skills\" section to the `/plugin` Installed tab\n- Added `teammateMode: \"iterm2\"` setting with a warning when auto mode cannot find the `it2` CLI\n- Added \"Claude Platform on AWS - refresh credentials\" option to `/login` when `awsAuthRefresh` is configured\n- `!` bash commands now trigger Claude to respond to the output automatically; set `\"respondToBashCommands\": false` in settings.json to keep the previous context-only behavior\n- Fixed streaming requests failing with \"Content block not found\" or JSON parse errors after the machine wakes from sleep\n- Fixed subagent transcript scroll position bleeding into the main transcript on exit\n- Fixed background task previews flashing raw tool names before the agent's plan loaded\n- Fixed Chrome tab-group isolation not applying when the in-product permissions gate is off for concurrent CLI sessions\n- Fixed background session recaps being duplicated; the agent's own end-of-turn summary now shows as the recap line\n- Fixed opening a background session from `claude agents` leaving the previous screen painted behind it\n- Fixed `Agent(type)` deny rules and `Agent(x,y)` allowed-types restrictions not being enforced for named subagent spawns\n- Fixed Esc and Ctrl+C not responding while background agents are still running after the main turn ends\n- Fixed misaligned option numbers in permission prompts when the option text overflows\n- Fixed pressing `x` on a finished subagent in the agent panel not dismissing it\n- Fixed a misleading \"MCP server disconnected\" notice for intentionally retired tools when resuming older sessions\n- Fixed `/plugin` Installed showing a \"more above\" indicator when already scrolled to the top\n- Fixed `~~strikethrough~~` showing literal tildes in assistant messages instead of rendering as strikethrough\n- Fixed `--tools` allowing feature-gated tools to slip through before flags loaded on a cold first launch\n- Fixed background job status in `claude agents` showing a stale \"needs input\" message after replying\n- Fixed a dark-theme flash when opening a background session from `claude agents` on a light terminal\n- Fixed mouse-selected text staying highlighted after deleting it in `claude agents`\n-",
+      "prerelease": false
+    },
+    {
+      "product": "Codex",
+      "repo": "openai/codex",
+      "tag": "rust-v0.142.0",
+      "name": "0.142.0",
+      "published": "2026-06-22",
+      "url": "https://github.com/openai/codex/releases/tag/rust-v0.142.0",
+      "summary": "## New Features",
+      "body_excerpt": "## New Features\n\n- `/usage` can now show and redeem earned usage-limit reset credits, with confirmation, retry, and refreshed availability states. (#28154, #28793)\n- `/plugins` now organizes remote plugins into OpenAI Curated, Workspace, and Shared with me sections, while eligible turns can recommend and install relevant plugins. (#26703, #28399, #28400, #27704, #28403)\n- Configurable rollout token budgets track usage across agent threads, provide remaining-budget reminders, and abort turns when exhausted. (#28746, #28494, #28707, #29423)\n- App-server clients can configure multi-agent delegation as disabled, explicit-request-only, or proactive at the thread and turn level. (#28685, #28792, #29324)\n- Added an indexed web-search mode that permits live searches while restricting direct page access to server-approved URLs. (#28489)\n- Codex can now receive scheduled UTC time reminders and query the current time directly, including through client-provided app-server clocks. (#28822, #28824, #28835, #29011)\n\n## Bug Fixes\n\n- Restored reliable Linux TUI rendering after suspending with `Ctrl+Z` and resuming with `fg`. (#28342)\n- Exec-server processes and stdio MCP sessions now survive transient disconnects, including signed-URL refresh and retry-safe stdin writes. (#28512, #28374, #28546, #28895)\n- Remote environments now preserve executor-native paths, shells, `AGENTS.md` discovery, and sandbox behavior across operating systems. (#28146, #28152, #28958, #28983, #29099, #29108, #29113, #29424)\n- Plugin loading and installation now handle root marketplace layouts, manifest fallbacks, multiple skill paths, actionable download errors, and immediate tool refreshes. (#28771, #28789, #28790, #28863, #28951)\n- Parent agents now receive terminal subagent errors instead of seeing failed work as an empty successful completion. (#28375)\n- Goal-first threads are once again persisted and returned by `thread/list` and `thread/search`. (#28808)\n\n## Chores\n\n- Reduced startup and session latency by deferring unnecessary DNS work, warming the model cache, reusing parsed plugin skills, parallelizing skill metadata reads, and skipping redundant catalog synchronization. (#28542, #28699, #28844, #29326, #29005)\n- Reduced persistent-log churn by removing per-event WebSocket payload logging and filtering duplicated telemetry records. (#29432, #29457)\n\n## Changelog\n\nFull Changelog: https://github.com/openai/codex/compare/rust-v0.141.0...rust-v0.142.0\n\n- #28396 [codex] Record external agent ",
+      "prerelease": false
+    }
+  ],
+  "level2_people": [
+    "@karpathy",
+    "@bcherny",
+    "@sundarpichai",
+    "@sama",
+    "@gdb",
+    "@DarioAmodei"
+  ],
+  "level2_note": "raw 无人物搜索；无依据时 Level 2 标无新增，勿编造",
+  "level3_note": "本日未扫描行业报告（周报降频）",
+  "level4_hn": [
+    {
+      "title": "I built Ponytrail, a local audit trail for AI coding-agent edits",
+      "url": "https://github.com/0xroylee/ponytrail",
+      "points": 23,
+      "comments": 12,
+      "created": "2026-06-22"
+    },
+    {
+      "title": "Show HN: PMB – local-first memory for AI coding agents over MCP",
+      "url": "https://github.com/oleksiijko/pmb/blob/main/README.md",
+      "points": 7,
+      "comments": 6,
+      "created": "2026-06-22"
+    },
+    {
+      "title": "OpenMontage: Turn your AI coding assistant into a full video production studio",
+      "url": "https://github.com/calesthio/OpenMontage",
+      "points": 7,
+      "comments": 1,
+      "created": "2026-06-21"
+    },
+    {
+      "title": "Ask HN: Do you give AI coding agents their own GitHub account?",
+      "url": "https://news.ycombinator.com/item?id=48618981",
+      "points": 6,
+      "comments": 4,
+      "created": "2026-06-21"
+    },
+    {
+      "title": "AI Coding Traps Every Engineering Team Should Know",
+      "url": "https://jsdevspace.substack.com/p/the-8-ai-coding-traps-every-engineering",
+      "points": 4,
+      "comments": 0,
+      "created": "2026-06-23"
+    }
+  ]
+}
