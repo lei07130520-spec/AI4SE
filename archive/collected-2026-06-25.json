@@ -1,0 +1,89 @@
+{
+  "briefing_date": "2026-06-25",
+  "period_start": "2026-06-23",
+  "period_end": "2026-06-25",
+  "previous_briefing_date": "2026-06-24",
+  "previous_briefing_excerpt": "# AI x 研发效能 每日简报 2026-06-24\n\n> 覆盖周期：2026-06-22 ~ 2026-06-24（上一期：2026-06-23）\n\n> **采集方式**：GitHub Actions 自动采集（Level 1 GitHub API + Level 4 HN API）｜Level 2/3 待人工或 API 密钥补充\n\n---\n\n## 头条速览\n\n1. **OpenClaw v2026.6.10-beta.2**——## 2026.6.10\n2. **Claude Code v2.1.186**——## What's changed\n3. **Codex rust-v0.142.0**——## New Features\n\n---\n\n## 一、AI 增强软件研发（AI4SE）\n\n### 1.1 Level 1：核心产品与工程更新\n\n#### 1️⃣ OpenClaw v2026.6.10-beta.2（2026-06-22）\n\n## 2026.6.10\n\n来源：[v2026.6.10-beta.2](https://github.com/openclaw/openclaw/releases/tag/v2026.6.10-beta.2) — 2026-06-22\n\n#### 2️⃣ Claude Code v2.1.186（2026-06-22）\n\n## What's changed\n\n来源：[v2.1.186](https://github.com/anthropics/claude-code/releases/tag/v2.1.186) — 2026-06-22\n\n#### 3️⃣ Codex rust-v0.142.0（2026-06-22）\n\n## New Features\n\n来源：[rust-v0.142.0](https://github.com/openai/codex/releases/tag/rust-v0.142.0) — 2026-06-22\n\n---\n\n### 1.2 Level 2：关键人物战略洞察\n\n| 人物 | 动态 | 日期 |\n|---|---|---|\n| @karpathy | 自动采集未配置（需 WebSearch / X 间接源） | — |\n| @bcherny | 自动采集未配置（需 WebSearch / X 间接源） | — |\n| @sundarpichai | 自动采集未配置（需 WebSearch / X 间接源） | — |\n| @sama | 自动采集未配置（需 WebSearch / X 间接源） | — |\n| @gdb | 自动采集未配置（需 WebSearch / X 间接源） | — |\n| @DarioAmodei | 自动采集未配置（需 WebSearch / X 间接源） | — |\n\n---\n\n### 1.3 Level 3：行业研究与数据\n\n> **本日未扫描**（周报/月报降频）。\n\n---\n\n### 1.4 Level 4：补充信源（HN）\n\n- **2026-06-22**：[I built Ponytrail, a local audit trail for AI coding-agent edits](https://github.com/0xroylee/ponytrail) （23 pts / 12 comments）\n- **2026-06-22**：[Show HN: PMB – local-first memory for AI coding agents over MCP](https://github.com/oleksiijko/pmb/blob/main/README.md) （7 pts / 6 comments）\n- **2026-06-21**：[OpenMontage: Turn your AI coding assistant into a full video production studio](https://github.com/calesthio/OpenMontage) （7 pts / 1 comments）\n- **2026-06-21**：[Ask HN: Do you give AI coding agents their own GitHub account?](https://news.ycombinator.com/item?id=48618981) （6 pts / 4 comments）\n- **2026-06-23**：[AI Coding Traps Every Engineering Team Should Know](https://jsdevspace.substack.com/p/the-8-ai-coding-traps-every-engineering) （4 pts / 0 comments）\n\n---\n\n## 附录：采集日志\n\n| 环节 | 状态 |\n|---|---|\n| GitHub Releases API | ✅ 3 条 |\n| HN Algolia API | ✅ 5 条 |\n| 生成时间 (UTC) | 2026-06-23 19:31 |\n\n*自动生成版 · 可在 Cursor 中基于本稿补充 Level 2 分析与专题*\n",
+  "level1_releases": [
+    {
+      "product": "OpenClaw",
+      "repo": "openclaw/openclaw",
+      "tag": "v2026.6.10",
+      "name": "openclaw 2026.6.10",
+      "published": "2026-06-24",
+      "url": "https://github.com/openclaw/openclaw/releases/tag/v2026.6.10",
+      "summary": "### Highlights",
+      "body_excerpt": "### Highlights\n\n- **Automatic fast mode for talks:** OpenClaw can enable fast mode for short conversational turns, then return to normal mode for longer runs with bounded fallback and delivery behavior. (#85104) Thanks @alexph-dev and @vincentkoc.\n- **More reliable model routing:** Zai model synthesis, GLM overload failover, and native reasoning-level selection now follow the active model catalog more consistently. (#94461, #93241, #94067, #94136) Thanks @Pandah97, @chrysb, @0xghost42, @zhengli0922, @openperf, @civiltox, and @BorClaw.\n- **Safer session and channel state:** channel switches reset stale origin fields, and cron delivery awareness stays attached to the target session. (#95328, #93580) Thanks @ZengWen-DT, @jalehman, @gorkem2020, and @scotthuang.\n- **Trusted policies survive hook composition:** composed hook registries keep the trusted tool policies required by approval-sensitive flows. (#94545) Thanks @jesse-merhi.\n\n### Changes\n\n- **Agent and channel runtime:** fast-mode state now survives retries, fallback transitions, progress events, and embedded/CLI/ACP normalization; session and channel routing retain the current target and delivery context. (#85104, #93580, #95328) Thanks @alexph-dev, @vincentkoc, @scotthuang, @ZengWen-DT, @jalehman, and @gorkem2020.\n- **Provider behavior:** model catalogs now supply the correct Zai base URL, overload classification, and native reasoning controls for live-discovered models. (#94461, #93241, #94067, #94136) Thanks @Pandah97, @chrysb, @0xghost42, @zhengli0922, @openperf, @civiltox, and @BorClaw.\n\n### Fixes\n\n- **Fast-mode and policy correctness:** fallback cutoffs and reset notices are bounded, repeated progress events remain visible, Codex service-tier state is normalized, and trusted policies are not lost when hook registries are composed. (#85104, #94545) Thanks @alexph-dev, @vincentkoc, and @jesse-merhi.\n- **Model and delivery edge cases:** Zai and GLM failover paths use the right runtime metadata, while stale channel-origin state no longer leaks across session changes. (#94461, #93241, #95328) Thanks @Pandah97, @chrysb, @0xghost42, @zhengli0922, @ZengWen-DT, @jalehman, and @gorkem2020.\n- **Provider plugin onboarding:** setup refreshes provider plugin registry metadata after installing setup-selected provider plugins, so auth continuation uses the newly installed provider instead of stale registry state. (#95792) Thanks @snowzlmbot.\n\n### Complete contribution record\n\nThis audited record covers the comple",
+      "prerelease": false
+    },
+    {
+      "product": "Claude Code",
+      "repo": "anthropics/claude-code",
+      "tag": "v2.1.190",
+      "name": "v2.1.190",
+      "published": "2026-06-24",
+      "url": "https://github.com/anthropics/claude-code/releases/tag/v2.1.190",
+      "summary": "## What's changed",
+      "body_excerpt": "## What's changed\n\n- Bug fixes and reliability improvements",
+      "prerelease": false
+    },
+    {
+      "product": "Codex",
+      "repo": "openai/codex",
+      "tag": "rust-v0.143.0-alpha.14",
+      "name": "0.143.0-alpha.14",
+      "published": "2026-06-24",
+      "url": "https://github.com/openai/codex/releases/tag/rust-v0.143.0-alpha.14",
+      "summary": "Release 0.143.0-alpha.14",
+      "body_excerpt": "Release 0.143.0-alpha.14",
+      "prerelease": true
+    }
+  ],
+  "level2_people": [
+    "@karpathy",
+    "@bcherny",
+    "@sundarpichai",
+    "@sama",
+    "@gdb",
+    "@DarioAmodei"
+  ],
+  "level2_note": "raw 无人物搜索；无依据时 Level 2 标无新增，勿编造",
+  "level3_note": "本日未扫描行业报告（周报降频）",
+  "level4_hn": [
+    {
+      "title": "I built Ponytrail, a local audit trail for AI coding-agent edits",
+      "url": "https://github.com/0xroylee/ponytrail",
+      "points": 24,
+      "comments": 13,
+      "created": "2026-06-22"
+    },
+    {
+      "title": "Show HN: PMB – local-first memory for AI coding agents over MCP",
+      "url": "https://github.com/oleksiijko/pmb/blob/main/README.md",
+      "points": 7,
+      "comments": 6,
+      "created": "2026-06-22"
+    },
+    {
+      "title": "AI Coding Traps Every Engineering Team Should Know",
+      "url": "https://jsdevspace.substack.com/p/the-8-ai-coding-traps-every-engineering",
+      "points": 4,
+      "comments": 0,
+      "created": "2026-06-23"
+    },
+    {
+      "title": "Show HN: Proctor – signed isolation bundles for AI coding-agent benchmarks",
+      "url": "https://github.com/dylanp12/proctor",
+      "points": 3,
+      "comments": 0,
+      "created": "2026-06-23"
+    },
+    {
+      "title": "AI coding agents need evidence-first review, not just cheaper routing",
+      "url": "https://undes.app/blog/cheaper-ai-code-generation-engineering-cost",
+      "points": 2,
+      "comments": 1,
+      "created": "2026-06-24"
+    }
+  ]
+}
