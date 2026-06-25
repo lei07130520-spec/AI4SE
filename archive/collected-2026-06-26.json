@@ -1,0 +1,100 @@
+{
+  "briefing_date": "2026-06-26",
+  "period_start": "2026-06-24",
+  "period_end": "2026-06-26",
+  "previous_briefing_date": "2026-06-25",
+  "previous_briefing_excerpt": "# AI x 研发效能 每日简报 2026-06-25\n\n> 覆盖周期：2026-06-23 ~ 2026-06-25（上一期：2026-06-24）\n\n> **采集方式**：GitHub Actions 自动采集（Level 1 GitHub API + Level 4 HN API）｜Level 2/3 待人工或 API 密钥补充\n\n---\n\n## 头条速览\n\n1. **OpenClaw v2026.6.10**——### Highlights\n2. **Claude Code v2.1.190**——## What's changed\n3. **Codex rust-v0.143.0-alpha.14**——Release 0.143.0-alpha.14\n\n---\n\n## 一、AI 增强软件研发（AI4SE）\n\n### 1.1 Level 1：核心产品与工程更新\n\n#### 1️⃣ OpenClaw v2026.6.10（2026-06-24）\n\n### Highlights\n\n来源：[v2026.6.10](https://github.com/openclaw/openclaw/releases/tag/v2026.6.10) — 2026-06-24\n\n#### 2️⃣ Claude Code v2.1.190（2026-06-24）\n\n## What's changed\n\n来源：[v2.1.190](https://github.com/anthropics/claude-code/releases/tag/v2.1.190) — 2026-06-24\n\n#### 3️⃣ Codex rust-v0.143.0-alpha.14（2026-06-24）\n\nRelease 0.143.0-alpha.14\n\n来源：[rust-v0.143.0-alpha.14](https://github.com/openai/codex/releases/tag/rust-v0.143.0-alpha.14) — 2026-06-24\n\n---\n\n### 1.2 Level 2：关键人物战略洞察\n\n| 人物 | 动态 | 日期 |\n|---|---|---|\n| @karpathy | 自动采集未配置（需 WebSearch / X 间接源） | — |\n| @bcherny | 自动采集未配置（需 WebSearch / X 间接源） | — |\n| @sundarpichai | 自动采集未配置（需 WebSearch / X 间接源） | — |\n| @sama | 自动采集未配置（需 WebSearch / X 间接源） | — |\n| @gdb | 自动采集未配置（需 WebSearch / X 间接源） | — |\n| @DarioAmodei | 自动采集未配置（需 WebSearch / X 间接源） | — |\n\n---\n\n### 1.3 Level 3：行业研究与数据\n\n> **本日未扫描**（周报/月报降频）。\n\n---\n\n### 1.4 Level 4：补充信源（HN）\n\n- **2026-06-22**：[I built Ponytrail, a local audit trail for AI coding-agent edits](https://github.com/0xroylee/ponytrail) （24 pts / 13 comments）\n- **2026-06-22**：[Show HN: PMB – local-first memory for AI coding agents over MCP](https://github.com/oleksiijko/pmb/blob/main/README.md) （7 pts / 6 comments）\n- **2026-06-23**：[AI Coding Traps Every Engineering Team Should Know](https://jsdevspace.substack.com/p/the-8-ai-coding-traps-every-engineering) （4 pts / 0 comments）\n- **2026-06-23**：[Show HN: Proctor – signed isolation bundles for AI coding-agent benchmarks](https://github.com/dylanp12/proctor) （3 pts / 0 comments）\n- **2026-06-24**：[AI coding agents need evidence-first review, not just cheaper routing](https://undes.app/blog/cheaper-ai-code-generation-engineering-cost) （2 pts / 1 comments）\n\n---\n\n## 附录：采集日志\n\n| 环节 | 状态 |\n|---|---|\n| GitHub Releases API | ✅ 3 条 |\n| HN Algolia API | ✅ 5 条 |\n| 生成时间 (UTC) | 2026-06-24 19:14 |\n\n*自动生成版 · 可在 Cursor 中基于本稿补充 Level 2 分析与专题*\n",
+  "level1_releases": [
+    {
+      "product": "Gemini CLI",
+      "repo": "google-gemini/gemini-cli",
+      "tag": "v0.49.0-nightly.20260625.gd845bc5d4",
+      "name": "Release v0.49.0-nightly.20260625.gd845bc5d4",
+      "published": "2026-06-25",
+      "url": "https://github.com/google-gemini/gemini-cli/releases/tag/v0.49.0-nightly.20260625.gd845bc5d4",
+      "summary": "## What's Changed",
+      "body_excerpt": "## What's Changed\n* fix(cli): prevent path traversal vulnerabilities during skill install… by @ompatel-aiml in https://github.com/google-gemini/gemini-cli/pull/27767\n* Fix/pending tools and trust overrides by @jvargassanchez-dot in https://github.com/google-gemini/gemini-cli/pull/27854\n* ci: use internal environment for scheduled nightly releases (#27865) by @rmedranollamas in https://github.com/google-gemini/gemini-cli/pull/27939\n* feat(core): Support GDC air-gapped Service Identity after auth library update by @sidhantgoyal-droid in https://github.com/google-gemini/gemini-cli/pull/27956\n* fix(cli): handle tmux false positive background detection by @amelidev in https://github.com/google-gemini/gemini-cli/pull/27572\n* Add static eval source analyzer by @ved015 in https://github.com/google-gemini/gemini-cli/pull/27631\n* fix(config): migrate coreTools setting to tools.core by @galz10 in https://github.com/google-gemini/gemini-cli/pull/27947\n* fix(core-tools): resolve defensive path resolution for at-reference files by @luisfelipe-alt in https://github.com/google-gemini/gemini-cli/pull/27943\n* Revert \"fix(core-tools): resolve defensive path resolution for at-reference files\" by @galz10 in https://github.com/google-gemini/gemini-cli/pull/27992\n* chore(release): bump version to 0.49.0-nightly.20260617.g4d3dcdce1 by @gemini-cli-robot in https://github.com/google-gemini/gemini-cli/pull/28003\n* Changelog for v0.48.0-preview.0 by @gemini-cli-robot in https://github.com/google-gemini/gemini-cli/pull/27999\n* fix(ci): provide fallbacks for package variables in nightly release by @galz10 in https://github.com/google-gemini/gemini-cli/pull/28016\n* chore(deps): pin dependencies and enforce 14-day update cooldown by @galz10 in https://github.com/google-gemini/gemini-cli/pull/27948\n* fix(ci): append trailing slash to registry url in npmrc by @rmedranollamas in https://github.com/google-gemini/gemini-cli/pull/28038\n* feat: add eval:inventory CLI command and reporting logic by @ved015 in https://github.com/google-gemini/gemini-cli/pull/28009\n* fix: resolve workspace publish failures and scheduler event loop starvation by @rmedranollamas in https://github.com/google-gemini/gemini-cli/pull/28063\n* fix(ci): use wombat dressing room fallback in nightly release to prevent ENEEDAUTH by @rmedranollamas in https://github.com/google-gemini/gemini-cli/pull/28104\n* Add JSON output for eval inventory by @ved015 in https://github.com/google-gemini/gemini-cli/pull/28058\n* fix/verify rele",
+      "prerelease": true
+    },
+    {
+      "product": "Codex",
+      "repo": "openai/codex",
+      "tag": "rust-v0.142.2",
+      "name": "0.142.2",
+      "published": "2026-06-25",
+      "url": "https://github.com/openai/codex/releases/tag/rust-v0.142.2",
+      "summary": "## New Features",
+      "body_excerpt": "## New Features\n\n- MCP tools now use tool search by default when supported, improving tool discovery while preserving compatibility with older models and providers. (#29486)\n- macOS authentication clients can honor system proxy, PAC, and WPAD settings when `respect_system_proxy` is enabled. (#26709)\n- Plugins can provide dedicated dark-mode logos through local manifests and remote catalogs. (#29488)\n- Apps can display richer safety-buffering UI using server-provided visibility and faster-model metadata. (#29473)\n\n## Bug Fixes\n\n- Remote plugin catalogs now return curated featured-plugin rankings. (#29485)\n- Expired Amazon Bedrock credentials now produce actionable recovery guidance instead of a generic authorization error. (#28992)\n- Remote stdio MCP servers now accept absolute working directories written in the remote platform’s path format. (#29493)\n- Remote HTTP(S) image inputs now return clear model-visible validation errors; inline data URLs and local images remain supported. (#29417, #29419)\n- PowerShell commands containing executable AST regions the safety classifier cannot inspect now require approval. (#24092)\n- Code Mode now warns when the selected model lacks the required metadata. (#29490)\n\n## Chores\n\n- Updated bundled OpenSSL and esbuild dependencies to patched releases. (#29487, #29489)\n- Successful formatter runs are now quiet while failures still show diagnostics. (#29467)\n\n## Changelog\n\nFull Changelog: https://github.com/openai/codex/compare/rust-v0.142.1...rust-v0.142.2\n\n- #28769 Register full CDP requirements feature @syuan-oai\n- #29485 [codex] fetch featured IDs for remote plugins @ericning-o\n- #29487 Upgrade bundled OpenSSL to 3.6.3 @jif-oai\n- #29489 [codex] Update esbuild to 0.28.1 @pakrym-oai\n- #29488 [plugins] Add dark-mode logo metadata @drewschuster-openai\n- #29249 [codex] migrate environment context to model world state @pakrym-oai\n- #29494 core: wrap token budget window context @bolinfest\n- #29417 [codex] replace remote images with model-visible error text @rka-oai\n- #28360 feat(core): store turn_id on ResponseItem metadata @owenlin0\n- #29486 [codex] Use tool search for MCP tools by default @sayan-oai\n- #29501 path-uri: clarify host-native path conversion @anp-oai\n- #29504 fix: world state response item test @celia-oai\n- #26704 TUI Plugin Sharing 4 - cover remote plugin catalog flows @canvrno-oai\n- #29419 [codex] reject remote images at app-server ingress @rka-oai\n- #28992 chore: improve expired Bedrock credential errors @celia-o",
+      "prerelease": false
+    },
+    {
+      "product": "OpenClaw",
+      "repo": "openclaw/openclaw",
+      "tag": "v2026.6.10",
+      "name": "openclaw 2026.6.10",
+      "published": "2026-06-24",
+      "url": "https://github.com/openclaw/openclaw/releases/tag/v2026.6.10",
+      "summary": "### Highlights",
+      "body_excerpt": "### Highlights\n\n- **Automatic fast mode for talks:** OpenClaw can enable fast mode for short conversational turns, then return to normal mode for longer runs with bounded fallback and delivery behavior. (#85104) Thanks @alexph-dev and @vincentkoc.\n- **More reliable model routing:** Zai model synthesis, GLM overload failover, and native reasoning-level selection now follow the active model catalog more consistently. (#94461, #93241, #94067, #94136) Thanks @Pandah97, @chrysb, @0xghost42, @zhengli0922, @openperf, @civiltox, and @BorClaw.\n- **Safer session and channel state:** channel switches reset stale origin fields, and cron delivery awareness stays attached to the target session. (#95328, #93580) Thanks @ZengWen-DT, @jalehman, @gorkem2020, and @scotthuang.\n- **Trusted policies survive hook composition:** composed hook registries keep the trusted tool policies required by approval-sensitive flows. (#94545) Thanks @jesse-merhi.\n\n### Changes\n\n- **Agent and channel runtime:** fast-mode state now survives retries, fallback transitions, progress events, and embedded/CLI/ACP normalization; session and channel routing retain the current target and delivery context. (#85104, #93580, #95328) Thanks @alexph-dev, @vincentkoc, @scotthuang, @ZengWen-DT, @jalehman, and @gorkem2020.\n- **Provider behavior:** model catalogs now supply the correct Zai base URL, overload classification, and native reasoning controls for live-discovered models. (#94461, #93241, #94067, #94136) Thanks @Pandah97, @chrysb, @0xghost42, @zhengli0922, @openperf, @civiltox, and @BorClaw.\n\n### Fixes\n\n- **Fast-mode and policy correctness:** fallback cutoffs and reset notices are bounded, repeated progress events remain visible, Codex service-tier state is normalized, and trusted policies are not lost when hook registries are composed. (#85104, #94545) Thanks @alexph-dev, @vincentkoc, and @jesse-merhi.\n- **Model and delivery edge cases:** Zai and GLM failover paths use the right runtime metadata, while stale channel-origin state no longer leaks across session changes. (#94461, #93241, #95328) Thanks @Pandah97, @chrysb, @0xghost42, @zhengli0922, @ZengWen-DT, @jalehman, and @gorkem2020.\n- **Provider plugin onboarding:** setup refreshes provider plugin registry metadata after installing setup-selected provider plugins, so auth continuation uses the newly installed provider instead of stale registry state. (#95792) Thanks @snowzlmbot.\n\n### Complete contribution record\n\nThis audited record covers the comple",
+      "prerelease": false
+    },
+    {
+      "product": "Claude Code",
+      "repo": "anthropics/claude-code",
+      "tag": "v2.1.191",
+      "name": "v2.1.191",
+      "published": "2026-06-24",
+      "url": "https://github.com/anthropics/claude-code/releases/tag/v2.1.191",
+      "summary": "## What's changed",
+      "body_excerpt": "## What's changed\n\n- Added `/rewind` support for resuming a conversation from before `/clear` was run\n- Fixed scroll position jumping to the bottom while reading earlier output during a streaming response\n- Fixed background agents resurrecting after being stopped — stopping an agent from the tasks panel is now permanent\n- Fixed `/voice` showing a generic \"not available\" message when disabled by an organization's policy — it now explains the restriction\n- Fixed `/login` URL opening truncated in Windows Terminal when it wraps across lines\n- Fixed Cmd+click on links in fullscreen mode for Ghostty over ssh/tmux\n- Fixed `claude agents` sending builtin slash commands like `/usage` to background sessions as prompt text instead of showing a hint\n- Fixed `claude agents` job rows showing full filesystem paths for pasted images instead of the `[Image #N]` placeholder\n- Fixed hooks with comma-separated matchers (e.g. `\"Bash,PowerShell\"`) silently never firing\n- Fixed `/permissions` Recently-denied tab: approving a denial now persists on close instead of being silently discarded\n- Fixed the agent panel jumping by one row when scrolling the roster past the overflow cap\n- Fixed the welcome splash art overflowing the default 80×24 macOS Terminal window\n- Fixed managed settings: `forceRemoteSettingsRefresh` now takes effect when set via MDM or file policy, and the fetch sends `Cache-Control: no-cache` to prevent proxies from serving stale responses\n- Improved sandbox network permission dialog: hosts you allow with \"Yes\" are now remembered for the rest of the session instead of re-prompting on every connection\n- Improved MCP server reliability: capability discovery (`tools/list`, `prompts/list`, `resources/list`) now retries transient network errors with short backoff\n- Improved MCP OAuth: discovery and token requests now retry once after transient network errors, and headless environments skip the browser popup and go straight to the paste-the-URL prompt\n- Improved MCP error messages: HTTP 404 errors now show the URL and point to your MCP config\n- Improved vim mode prompt-history search (NORMAL `/`) to hint how to reach slash commands\n- Reduced CPU usage during streaming responses by ~37% by coalescing text updates to 100ms\n- Reduced long-session memory growth from terminal output cache",
+      "prerelease": false
+    }
+  ],
+  "level2_people": [
+    "@karpathy",
+    "@bcherny",
+    "@sundarpichai",
+    "@sama",
+    "@gdb",
+    "@DarioAmodei"
+  ],
+  "level2_note": "raw 无人物搜索；无依据时 Level 2 标无新增，勿编造",
+  "level3_note": "本日未扫描行业报告（周报降频）",
+  "level4_hn": [
+    {
+      "title": "AI-website-cloner-template: Clone any website using AI coding agents",
+      "url": "https://github.com/JCodesMore/ai-website-cloner-template",
+      "points": 5,
+      "comments": 0,
+      "created": "2026-06-25"
+    },
+    {
+      "title": "Show HN: VibeDrift – measuring AI coding drift across open source repos",
+      "url": "https://www.vibedrift.ai",
+      "points": 4,
+      "comments": 1,
+      "created": "2026-06-25"
+    },
+    {
+      "title": "AI Coding Traps Every Engineering Team Should Know",
+      "url": "https://jsdevspace.substack.com/p/the-8-ai-coding-traps-every-engineering",
+      "points": 4,
+      "comments": 0,
+      "created": "2026-06-23"
+    },
+    {
+      "title": "AI coding agents need evidence-first review, not just cheaper routing",
+      "url": "https://undes.app/blog/cheaper-ai-code-generation-engineering-cost",
+      "points": 3,
+      "comments": 1,
+      "created": "2026-06-24"
+    },
+    {
+      "title": "Writing code versus shipping code: Productivity effects of AI coding tools",
+      "url": "https://cepr.org/voxeu/columns/writing-code-versus-shipping-code-productivity-effects-across-generations-ai-coding",
+      "points": 3,
+      "comments": 0,
+      "created": "2026-06-25"
+    }
+  ]
+}
