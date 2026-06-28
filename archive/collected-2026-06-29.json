@@ -1,0 +1,78 @@
+{
+  "briefing_date": "2026-06-29",
+  "period_start": "2026-06-27",
+  "period_end": "2026-06-29",
+  "previous_briefing_date": "2026-06-28",
+  "previous_briefing_excerpt": "# AI x 研发效能 每日简报 2026-06-28\n\n> 覆盖周期：2026-06-26 ~ 2026-06-28（上一期：2026-06-27）\n\n> **采集方式**：GitHub Actions 自动采集（Level 1 GitHub API + Level 4 HN API）｜Level 2/3 待人工或 API 密钥补充\n\n---\n\n## 头条速览\n\n1. **Claude Code v2.1.195**——## What's changed\n2. **Gemini CLI v0.51.0-nightly.20260626.gb14416447**——## What's Changed\n3. **Codex rust-v0.142.3**——## Chores\n\n---\n\n## 一、AI 增强软件研发（AI4SE）\n\n### 1.1 Level 1：核心产品与工程更新\n\n#### 1️⃣ Claude Code v2.1.195（2026-06-26）\n\n## What's changed\n\n来源：[v2.1.195](https://github.com/anthropics/claude-code/releases/tag/v2.1.195) — 2026-06-26\n\n#### 2️⃣ Gemini CLI v0.51.0-nightly.20260626.gb14416447（2026-06-26）\n\n## What's Changed\n\n来源：[v0.51.0-nightly.20260626.gb14416447](https://github.com/google-gemini/gemini-cli/releases/tag/v0.51.0-nightly.20260626.gb14416447) — 2026-06-26\n\n#### 3️⃣ Codex rust-v0.142.3（2026-06-26）\n\n## Chores\n\n来源：[rust-v0.142.3](https://github.com/openai/codex/releases/tag/rust-v0.142.3) — 2026-06-26\n\n---\n\n### 1.2 Level 2：关键人物战略洞察\n\n| 人物 | 动态 | 日期 |\n|---|---|---|\n| @karpathy | 自动采集未配置（需 WebSearch / X 间接源） | — |\n| @bcherny | 自动采集未配置（需 WebSearch / X 间接源） | — |\n| @sundarpichai | 自动采集未配置（需 WebSearch / X 间接源） | — |\n| @sama | 自动采集未配置（需 WebSearch / X 间接源） | — |\n| @gdb | 自动采集未配置（需 WebSearch / X 间接源） | — |\n| @DarioAmodei | 自动采集未配置（需 WebSearch / X 间接源） | — |\n\n---\n\n### 1.3 Level 3：行业研究与数据\n\n> **本日未扫描**（周报/月报降频）。\n\n---\n\n### 1.4 Level 4：补充信源（HN）\n\n- **2026-06-25**：[Show HN: VibeDrift – measuring AI coding drift across open source repos](https://www.vibedrift.ai) （5 pts / 1 comments）\n- **2026-06-26**：[Local-first AI coding assistant for IntelliJ-based IDEs (paid)](https://plugins.jetbrains.com/plugin/31304-llamatik-code/) （5 pts / 0 comments）\n- **2026-06-25**：[AI-website-cloner-template: Clone any website using AI coding agents](https://github.com/JCodesMore/ai-website-cloner-template) （5 pts / 0 comments）\n- **2026-06-26**：[AI coding agents could soon cost more than the developers using them](https://www.theregister.com/ai-and-ml/2026/06/24/ai-coding-agents-could-soon-cost-more-than-the-developers-using-them/5260864) （3 pts / 1 comments）\n- **2026-06-26**：[Context loss is the real reason AI coding slows down engineering teams](https://brunelly.com/) （3 pts / 0 comments）\n\n---\n\n## 附录：采集日志\n\n| 环节 | 状态 |\n|---|---|\n| GitHub Releases API | ✅ 3 条 |\n| HN Algolia API | ✅ 5 条 |\n| 生成时间 (UTC) | 2026-06-27 16:46 |\n\n*自动生成版 · 可在 Cursor 中基于本稿补充 Level 2 分析与专题*\n",
+  "level1_releases": [
+    {
+      "product": "Gemini CLI",
+      "repo": "google-gemini/gemini-cli",
+      "tag": "v0.51.0-nightly.20260628.gae0a3aa7b",
+      "name": "Release v0.51.0-nightly.20260628.gae0a3aa7b",
+      "published": "2026-06-28",
+      "url": "https://github.com/google-gemini/gemini-cli/releases/tag/v0.51.0-nightly.20260628.gae0a3aa7b",
+      "summary": "## What's Changed",
+      "body_excerpt": "## What's Changed\n* fix(security): enforce case-insensitive sensitive path blocklist and vscode hitl by @luisfelipe-alt in https://github.com/google-gemini/gemini-cli/pull/27966\n\n\n**Full Changelog**: https://github.com/google-gemini/gemini-cli/compare/v0.51.0-nightly.20260626.gb14416447...v0.51.0-nightly.20260628.gae0a3aa7b",
+      "prerelease": true
+    },
+    {
+      "product": "Codex",
+      "repo": "openai/codex",
+      "tag": "rust-v0.143.0-alpha.29",
+      "name": "0.143.0-alpha.29",
+      "published": "2026-06-28",
+      "url": "https://github.com/openai/codex/releases/tag/rust-v0.143.0-alpha.29",
+      "summary": "Release 0.143.0-alpha.29",
+      "body_excerpt": "Release 0.143.0-alpha.29",
+      "prerelease": true
+    }
+  ],
+  "level2_people": [
+    "@karpathy",
+    "@bcherny",
+    "@sundarpichai",
+    "@sama",
+    "@gdb",
+    "@DarioAmodei"
+  ],
+  "level2_note": "raw 无人物搜索；无依据时 Level 2 标无新增，勿编造",
+  "level3_note": "本日未扫描行业报告（周报降频）",
+  "level4_hn": [
+    {
+      "title": "AI coding token costs are on track to rival human payroll",
+      "url": "https://www.cio.com/article/4189149/ai-coding-token-costs-are-on-track-to-rival-human-payroll.html",
+      "points": 5,
+      "comments": 1,
+      "created": "2026-06-28"
+    },
+    {
+      "title": "Local-first AI coding assistant for IntelliJ-based IDEs (paid)",
+      "url": "https://plugins.jetbrains.com/plugin/31304-llamatik-code/",
+      "points": 5,
+      "comments": 0,
+      "created": "2026-06-26"
+    },
+    {
+      "title": "Clean GitHub repo tricks AI coding agents into running malware",
+      "url": "https://www.bleepingcomputer.com/news/security/clean-github-repo-tricks-ai-coding-agents-into-running-malware/",
+      "points": 4,
+      "comments": 0,
+      "created": "2026-06-27"
+    },
+    {
+      "title": "AI coding agents could soon cost more than the developers using them",
+      "url": "https://www.theregister.com/ai-and-ml/2026/06/24/ai-coding-agents-could-soon-cost-more-than-the-developers-using-them/5260864",
+      "points": 3,
+      "comments": 1,
+      "created": "2026-06-26"
+    },
+    {
+      "title": "Graphify – Open-Source Knowledge Graph Skill for AI Coding Assistants",
+      "url": "https://graphify.net/index.html#features",
+      "points": 3,
+      "comments": 0,
+      "created": "2026-06-27"
+    }
+  ]
+}
