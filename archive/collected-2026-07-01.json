@@ -1,0 +1,100 @@
+{
+  "briefing_date": "2026-07-01",
+  "period_start": "2026-06-29",
+  "period_end": "2026-07-01",
+  "previous_briefing_date": "2026-06-30",
+  "previous_briefing_excerpt": "# AI x 研发效能 每日简报 2026-06-30\n\n> 覆盖周期：2026-06-28 ~ 2026-06-30（上一期：2026-06-29）\n\n> **采集方式**：GitHub Actions 自动采集（Level 1 GitHub API + Level 4 HN API）｜Level 2/3 待人工或 API 密钥补充\n\n---\n\n## 头条速览\n\n1. **Gemini CLI v0.51.0-nightly.20260629.gae0a3aa7b**——**Full Changelog**: https://github.com/google-ge\n2. **Codex rust-v0.142.4**——## Chores\n3. **OpenClaw v2026.6.11-beta.2**——### Highlights\n\n---\n\n## 一、AI 增强软件研发（AI4SE）\n\n### 1.1 Level 1：核心产品与工程更新\n\n#### 1️⃣ Gemini CLI v0.51.0-nightly.20260629.gae0a3aa7b（2026-06-29）\n\n**Full Changelog**: https://github.com/google-gemini/gemini-cli/compare/v0.51.0-nightly.20260628.gae0a3aa7b...v0.51.0-nightly.20260629.gae0a3aa7b\n\n来源：[v0.51.0-nightly.20260629.gae0a3aa7b](https://github.com/google-gemini/gemini-cli/releases/tag/v0.51.0-nightly.20260629.gae0a3aa7b) — 2026-06-29\n\n#### 2️⃣ Codex rust-v0.142.4（2026-06-29）\n\n## Chores\n\n来源：[rust-v0.142.4](https://github.com/openai/codex/releases/tag/rust-v0.142.4) — 2026-06-29\n\n#### 3️⃣ OpenClaw v2026.6.11-beta.2（2026-06-28）\n\n### Highlights\n\n来源：[v2026.6.11-beta.2](https://github.com/openclaw/openclaw/releases/tag/v2026.6.11-beta.2) — 2026-06-28\n\n---\n\n### 1.2 Level 2：关键人物战略洞察\n\n| 人物 | 动态 | 日期 |\n|---|---|---|\n| @karpathy | 自动采集未配置（需 WebSearch / X 间接源） | — |\n| @bcherny | 自动采集未配置（需 WebSearch / X 间接源） | — |\n| @sundarpichai | 自动采集未配置（需 WebSearch / X 间接源） | — |\n| @sama | 自动采集未配置（需 WebSearch / X 间接源） | — |\n| @gdb | 自动采集未配置（需 WebSearch / X 间接源） | — |\n| @DarioAmodei | 自动采集未配置（需 WebSearch / X 间接源） | — |\n\n---\n\n### 1.3 Level 3：行业研究与数据\n\n> **本日未扫描**（周报/月报降频）。\n\n---\n\n### 1.4 Level 4：补充信源（HN）\n\n- **2026-06-29**：[Show HN: VibeRaven – Production workflows for AI coding agents](https://github.com/ohad6k/VibeRaven) （7 pts / 2 comments）\n- **2026-06-28**：[AI coding token costs are on track to rival human payroll](https://www.cio.com/article/4189149/ai-coding-token-costs-are-on-track-to-rival-human-payroll.html) （6 pts / 1 comments）\n- **2026-06-27**：[Clean GitHub repo tricks AI coding agents into running malware](https://www.bleepingcomputer.com/news/security/clean-github-repo-tricks-ai-coding-agents-into-running-malware/) （4 pts / 0 comments）\n- **2026-06-29**：[I built an anime-style UI for watching AI coding agents review each other's code](https://old.reddit.com/r/codex/comments/1uit86f/i_built_an_animestyle_ui_for_watching_ai_coding/) （3 pts / 0 comments）\n- **2026-06-27**：[Graphify – Open-Source Knowledge Graph Skill for AI Coding Assistants](https://graphify.net/index.html#features) （3 pts / 0 comments）\n\n---\n\n## 附录：采集日志\n\n| 环节 | 状态 |\n|---|---|\n| GitHub Releases API | ✅ 3 条 |\n| HN Algolia API | ✅ 5 条 |\n| 生成时间 (UTC) | 2026-06-29 19:24 |\n\n*自动生成版 · 可在 Cursor 中基于本稿补充 Level 2 分析与专题*\n",
+  "level1_releases": [
+    {
+      "product": "OpenClaw",
+      "repo": "openclaw/openclaw",
+      "tag": "v2026.6.11",
+      "name": "openclaw 2026.6.11",
+      "published": "2026-06-30",
+      "url": "https://github.com/openclaw/openclaw/releases/tag/v2026.6.11",
+      "summary": "### Highlights",
+      "body_excerpt": "### Highlights\n\n- **More capable channel control:** Slack relay mode, native Mattermost `/oc_queue`, and per-DM model overrides make channel operations easier to automate and tune. (#94707, #95546, #95120) Thanks @sjf-oa, @amknight, @xydigit-zt, @thomaszta, and @gandalf-at-lerian.\n- **Richer operator workflows:** `openclaw agent --message-file` and the RAFT CLI wake bridge add practical file-driven and remote wake-up paths. (#93351, #95497) Thanks @ooiuuii and @vincentkoc.\n- **Safer plugin distribution:** additional official plugins are externalized cleanly, with bundled plugin icon metadata available to installed clients. (#95683, #95845) Thanks @vincentkoc and @Patrick-Erichsen.\n- **Stronger mobile operations:** Android settings detail panels improve configuration visibility and control on mobile. (#95148) Thanks @Tosko4.\n- **More reliable agent turns:** Codex partial deltas, harness activation, and long-context prompt-cache stability reduce lost progress and inconsistent runs. (#95404, #95652, #95624) Thanks @agonza1 and @vincentkoc.\n\n### Changes\n\n- **Gateway and plugin tooling:** channel identity hook context and per-agent usage-cost reporting give integrations and operators more precise routing and accounting. (#91903, #94483) Thanks @lanzhi-lee, @vincentkoc, and @ly-wang19.\n- **Provider and model coverage:** catalog parsing, reasoning controls, provider model resolution, and encrypted reasoning support now handle more live provider variants. (#95283, #95710, #95268, #95744, #95686, #93956) Thanks @ZengWen-DT, @vincentkoc, @Marvinthebored, @Darren2030, @daniel-alejandro-t, @parveshsaini, @geraint0923, @fuller-stack-dev, and @jason-allen-oneal.\n\n### Fixes\n\n- **Channel delivery:** Telegram progress rendering, webhook lifecycle, reaction directives, duplicate mirror writes, queued update draining, and WhatsApp durable reply targets are now more reliable. (#95532, #93002, #95183, #94506, #94977, #95069, #95577, #95007, #95914) Thanks @amknight, @snowzlmbot, @zhangguiping-xydt, @shadow-enthusiast, @xialonglee, @travellingsoldier85, @obviyus, @hugenshen, @Cuttingwater, @heichaowo, @LiuwqGit, @freidrich-goldenflow, @mcaxtr, and @vincentkoc.\n- **WhatsApp and message identity:** native quotes, Baileys group reliability, and approval reactions across JID drift now preserve the intended conversation context. (#95483, #94338, #95935) Thanks @mcaxtr, @xialonglee, and @octopuslabs-fl.\n- **Gateway and session safety:** stuck release claims, draining-state reporting,",
+      "prerelease": false
+    },
+    {
+      "product": "Claude Code",
+      "repo": "anthropics/claude-code",
+      "tag": "v2.1.197",
+      "name": "v2.1.197",
+      "published": "2026-06-30",
+      "url": "https://github.com/anthropics/claude-code/releases/tag/v2.1.197",
+      "summary": "## What's changed",
+      "body_excerpt": "## What's changed\n\n- Introducing Claude Sonnet 5: now the default model in Claude Code, with a native 1M-token context window and promotional pricing of $2/$10 per Mtok through August 31. Update to version 2.1.197 for access. https://www.anthropic.com/news/claude-sonnet-5",
+      "prerelease": false
+    },
+    {
+      "product": "Gemini CLI",
+      "repo": "google-gemini/gemini-cli",
+      "tag": "v0.51.0-nightly.20260630.gae0a3aa7b",
+      "name": "Release v0.51.0-nightly.20260630.gae0a3aa7b",
+      "published": "2026-06-30",
+      "url": "https://github.com/google-gemini/gemini-cli/releases/tag/v0.51.0-nightly.20260630.gae0a3aa7b",
+      "summary": "**Full Changelog**: https://github.com/google-gemini/gemini-cli/compare/v0.51.0-nightly.20260629.gae0a3aa7b...v0.51.0-nightly.20260630.gae0a3aa7b",
+      "body_excerpt": "**Full Changelog**: https://github.com/google-gemini/gemini-cli/compare/v0.51.0-nightly.20260629.gae0a3aa7b...v0.51.0-nightly.20260630.gae0a3aa7b",
+      "prerelease": true
+    },
+    {
+      "product": "Codex",
+      "repo": "openai/codex",
+      "tag": "rust-v0.142.4",
+      "name": "0.142.4",
+      "published": "2026-06-29",
+      "url": "https://github.com/openai/codex/releases/tag/rust-v0.142.4",
+      "summary": "## Chores",
+      "body_excerpt": "## Chores\n\n- No user-facing changes were identified for this release.\n\n## Changelog\n\nFull Changelog: https://github.com/openai/codex/compare/rust-v0.142.3...rust-v0.142.4",
+      "prerelease": false
+    }
+  ],
+  "level2_people": [
+    "@karpathy",
+    "@bcherny",
+    "@sundarpichai",
+    "@sama",
+    "@gdb",
+    "@DarioAmodei"
+  ],
+  "level2_note": "raw 无人物搜索；无依据时 Level 2 标无新增，勿编造",
+  "level3_note": "本日未扫描行业报告（周报降频）",
+  "level4_hn": [
+    {
+      "title": "Show HN: VibeRaven – Production workflows for AI coding agents",
+      "url": "https://github.com/ohad6k/VibeRaven",
+      "points": 7,
+      "comments": 2,
+      "created": "2026-06-29"
+    },
+    {
+      "title": "AI coding token costs are on track to rival human payroll",
+      "url": "https://www.cio.com/article/4189149/ai-coding-token-costs-are-on-track-to-rival-human-payroll.html",
+      "points": 6,
+      "comments": 1,
+      "created": "2026-06-28"
+    },
+    {
+      "title": "I built an anime-style UI for watching AI coding agents review each other's code",
+      "url": "https://old.reddit.com/r/codex/comments/1uit86f/i_built_an_animestyle_ui_for_watching_ai_coding/",
+      "points": 3,
+      "comments": 0,
+      "created": "2026-06-29"
+    },
+    {
+      "title": "AI coding tools should reach beyond the editor",
+      "url": "https://mineti.dev/articles/ai-beyond-the-editor/",
+      "points": 2,
+      "comments": 0,
+      "created": "2026-06-30"
+    },
+    {
+      "title": "Verification, not generation, is the bottleneck in AI coding",
+      "url": "https://spark.temrel.com/p/the-audit-tax-why-your-agent-made-you-slower-d4e0",
+      "points": 2,
+      "comments": 0,
+      "created": "2026-06-30"
+    }
+  ]
+}
