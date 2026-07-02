@@ -1,0 +1,111 @@
+{
+  "briefing_date": "2026-07-03",
+  "period_start": "2026-07-01",
+  "period_end": "2026-07-03",
+  "previous_briefing_date": "2026-07-02",
+  "previous_briefing_excerpt": "# AI x 研发效能 每日简报 2026-07-02\n\n> 覆盖周期：2026-06-30 ~ 2026-07-02（上一期：2026-07-01）\n\n> **采集方式**：GitHub Actions 自动采集（Level 1 GitHub API + Level 4 HN API）｜Level 2/3 待人工或 API 密钥补充\n\n---\n\n## 头条速览\n\n1. **Gemini CLI v0.51.0-nightly.20260701.g7f00c5fe5**——## What's Changed\n2. **Codex rust-v0.142.5**——## Bug Fixes\n3. **OpenClaw v2026.6.11**——We heard the feedback. v2026.6.11 focuses on the\n\n---\n\n## 一、AI 增强软件研发（AI4SE）\n\n### 1.1 Level 1：核心产品与工程更新\n\n#### 1️⃣ Gemini CLI v0.51.0-nightly.20260701.g7f00c5fe5（2026-07-01）\n\n## What's Changed\n\n来源：[v0.51.0-nightly.20260701.g7f00c5fe5](https://github.com/google-gemini/gemini-cli/releases/tag/v0.51.0-nightly.20260701.g7f00c5fe5) — 2026-07-01\n\n#### 2️⃣ Codex rust-v0.142.5（2026-07-01）\n\n## Bug Fixes\n\n来源：[rust-v0.142.5](https://github.com/openai/codex/releases/tag/rust-v0.142.5) — 2026-07-01\n\n#### 3️⃣ OpenClaw v2026.6.11（2026-06-30）\n\nWe heard the feedback. v2026.6.11 focuses on the rough edges that make OpenClaw feel less dependable, with fixes for misplaced replies, stuck sends, reconnects, model setup failures, and safer admin d\n\n来源：[v2026.6.11](https://github.com/openclaw/openclaw/releases/tag/v2026.6.11) — 2026-06-30\n\n#### 4️⃣ Claude Code v2.1.197（2026-06-30）\n\n## What's changed\n\n来源：[v2.1.197](https://github.com/anthropics/claude-code/releases/tag/v2.1.197) — 2026-06-30\n\n---\n\n### 1.2 Level 2：关键人物战略洞察\n\n| 人物 | 动态 | 日期 |\n|---|---|---|\n| @karpathy | 自动采集未配置（需 WebSearch / X 间接源） | — |\n| @bcherny | 自动采集未配置（需 WebSearch / X 间接源） | — |\n| @sundarpichai | 自动采集未配置（需 WebSearch / X 间接源） | — |\n| @sama | 自动采集未配置（需 WebSearch / X 间接源） | — |\n| @gdb | 自动采集未配置（需 WebSearch / X 间接源） | — |\n| @DarioAmodei | 自动采集未配置（需 WebSearch / X 间接源） | — |\n\n---\n\n### 1.3 Level 3：行业研究与数据\n\n> **本日未扫描**（周报/月报降频）。\n\n---\n\n### 1.4 Level 4：补充信源（HN）\n\n- **2026-06-29**：[Show HN: VibeRaven – Production workflows for AI coding agents](https://github.com/ohad6k/VibeRaven) （7 pts / 2 comments）\n- **2026-07-01**：[Palabre – Make two AI coding agents debate a decision in your terminal](https://palab.re/en) （3 pts / 0 comments）\n- **2026-07-01**：[Show HN: Sibyl – self-hosted cross-agent memory for AI coding agents](https://github.com/hyperb1iss/sibyl) （3 pts / 0 comments）\n- **2026-06-29**：[I built an anime-style UI for watching AI coding agents review each other's code](https://old.reddit.com/r/codex/comments/1uit86f/i_built_an_animestyle_ui_for_watching_ai_coding/) （3 pts / 0 comments）\n- **2026-06-30**：[AI coding tools should reach beyond the editor](https://mineti.dev/articles/ai-beyond-the-editor/) （2 pts / 0 comments）\n\n---\n\n## 附录：采集日志\n\n| 环节 | 状态 |\n|---|---|\n| GitHub Releases API | ✅ 4 条 |\n| HN Algolia API | ✅ 5 条 |\n| 生成时间 (UTC) | 2026-07-01 19:23 |\n\n*自动生成版 · 可在 Cursor 中基于本稿补充 Level 2 分析与专题*\n",
+  "level1_releases": [
+    {
+      "product": "OpenClaw",
+      "repo": "openclaw/openclaw",
+      "tag": "v2026.7.1-beta.1",
+      "name": "openclaw 2026.7.1-beta.1",
+      "published": "2026-07-02",
+      "url": "https://github.com/openclaw/openclaw/releases/tag/v2026.7.1-beta.1",
+      "summary": "### Highlights",
+      "body_excerpt": "### Highlights\n\n- **OpenAI GPT-5.6 support:** OpenClaw now recognizes the GPT-5.6 model family across catalog, capability, and runtime selection paths. (#98333) Thanks @steipete-oai.\n- **External harness attachment:** `openclaw attach` launches an external harness against an existing Gateway session, making interactive Codex-style workflows easier to resume and inspect. (#96454) Thanks @anagnorisis2peripeteia and @obviyus.\n- **Telegram Codex workflows:** Telegram can now start Codex pairing with `/login`, steer active Codex runs, and recover final replies across transient API failures. (#98006, #98126, #98786) Thanks @100yenadmin, @Kyzcreig, and @obviyus.\n- **Event-driven cron runs:** the new `on-exit` schedule kind wakes an agent when a watched command exits, while session-targeted runs can detach cleanly. (#92037, #98755) Thanks @anagnorisis2peripeteia, @obviyus, and @EthanSK.\n- **Native app refresh:** iOS adopts the iOS 26 visual system with clearer navigation, settings, Chat, Talk, and onboarding flows, while native app localization expands across Apple and Android surfaces. (#98452, #98736, #98811, #97110, #97111, #97112, #97113) Thanks @vincentkoc.\n- **Richer messaging:** iMessage gains native poll creation, reading, and voting, and built-in usage footers provide clearer per-turn accounting in chat. (#98421, #92657, #92877) Thanks @omarshahine, @lobster, and @Marvinthebored.\n- **Safer scoped conversations:** capability profiles prepare per-conversation tool and access boundaries without weakening the existing default profile. (#98536)\n\n### Changes\n\n- **Model and provider coverage:** add GPT-5.6 support, use Nemotron Super's 1M context window, and preserve explicit OpenRouter authentication headers. (#98333, #98726, #98187) Thanks @steipete-oai, @eleqtrizit, @sunlit-deng, and @laurencebrown.\n- **CLI and node workflows:** add `openclaw attach`, node context-path support, actionable device-approval recovery guidance, and clearer plugin install exit diagnostics. (#96454, #97679, #98115, #98146, #98497) Thanks @anagnorisis2peripeteia, @obviyus, @wm0018, @welfo-beo, @RomneyDa, @Sanjays2402, and @vincentkoc.\n- **Cron and usage:** add exit-triggered schedules, detached session-targeted runs, an in-flight job doctor warning, and a built-in full usage footer. (#92037, #98755, #98620, #92657, #92877) Thanks @anagnorisis2peripeteia, @obviyus, @EthanSK, @masatohoshino, and @Marvinthebored.\n- **Native apps and localization:** modernize iOS navigation, settings, pr",
+      "prerelease": true
+    },
+    {
+      "product": "Gemini CLI",
+      "repo": "google-gemini/gemini-cli",
+      "tag": "v0.51.0-nightly.20260702.gff00dacd9",
+      "name": "Release v0.51.0-nightly.20260702.gff00dacd9",
+      "published": "2026-07-02",
+      "url": "https://github.com/google-gemini/gemini-cli/releases/tag/v0.51.0-nightly.20260702.gff00dacd9",
+      "summary": "## What's Changed",
+      "body_excerpt": "## What's Changed\n* fix(core): resolve symbolic link directory escape in memory import processor by @luisfelipe-alt in https://github.com/google-gemini/gemini-cli/pull/28233\n\n\n**Full Changelog**: https://github.com/google-gemini/gemini-cli/compare/v0.51.0-nightly.20260701.g7f00c5fe5...v0.51.0-nightly.20260702.gff00dacd9",
+      "prerelease": true
+    },
+    {
+      "product": "Hermes Agent",
+      "repo": "NousResearch/hermes-agent",
+      "tag": "v2026.7.1",
+      "name": "Hermes Agent v0.18.0 (2026.7.1) — The Judgment Release",
+      "published": "2026-07-01",
+      "url": "https://github.com/NousResearch/hermes-agent/releases/tag/v2026.7.1",
+      "summary": "# Hermes Agent v0.18.0 (v2026.7.1)",
+      "body_excerpt": "# Hermes Agent v0.18.0 (v2026.7.1)\n\n**Release Date:** July 1, 2026\n**Since v0.17.0:** ~1,720 commits · 998 merged PRs · 2,215 files changed · ~251,000 insertions · ~41,000 deletions · **949 issues closed** · **370+ community contributors**\n\n> **The Judgment Release.** Over the last week and a half the team put nearly all of its effort into one goal: resolve **every P0 and P1 issue and PR in the entire Hermes Agent repo** — and as of this release, **100% of them are closed.** Zero open P0s. Zero open P1s. That's **~700 highest-priority items** cleared as part of **~1,950 total issues and PRs closed** this window. We intend to keep P0/P1 at zero from here on.\n>\n> On top of that clean-sweep, v0.18.0 is about how *well* Hermes thinks and how it *knows when its work is actually done*. Mixture-of-Agents became a first-class citizen — named ensembles of models you can pick like any other model, with every reference model's reasoning shown to you and the aggregator's answer streamed live. The agent learned to verify its own work against evidence instead of vibes, `/goal` gained completion contracts, and `/learn` + `/journey` turned self-improvement into something you can see and steer. Underneath, the gateway became genuinely deployable-at-scale (scale-to-zero, drain coordination), the desktop grew first-class coding projects and a playable memory graph, and subagents can now fan out in the background.\n\n## 🎯 The P0/P1 Clean Sweep — 100% resolved\n\nThis is the release headline. For a week and a half the team hammered the priority backlog day and night, and every single P0 and P1 across the whole repo is now closed:\n\n| Priority | Issues closed | PRs merged |\n|---|---|---|\n| **P0** (critical) | 3 | 8 |\n| **P1** (high) | 493 | 188 |\n| **Total** | **496** | **196** |\n\nThat's **~692 highest-priority items resolved** in twelve days — and at the moment the sweep completed, the open P0/P1 count hit **0 across the entire repo.** The final cluster to fall was the interrupt-protected-compression sibling-fork bug (issue #56391) and its fix (#56416), closed on an all-nighter right before this release cut.\n\nSpecial shoutout to **@kshitijk4poor**, who burned through the priority backlog day and night alongside the core team — the cron reliability wave, the compression-fork fix, the credential-exfil hardening, and a huge share of the P1 closures are his.\n\nWe're keeping P0/P1 at **0** from here forward. 🫡\n\n## ✨ Highlights\n\n- **Mixture-of-Agents is now a first-class model you can pic",
+      "prerelease": false
+    },
+    {
+      "product": "Claude Code",
+      "repo": "anthropics/claude-code",
+      "tag": "v2.1.198",
+      "name": "v2.1.198",
+      "published": "2026-07-01",
+      "url": "https://github.com/anthropics/claude-code/releases/tag/v2.1.198",
+      "summary": "## What's changed",
+      "body_excerpt": "## What's changed\n\n- Claude in Chrome is now generally available\n- Added background agent notifications in `claude agents` — sessions that need input or finish now fire the `Notification` hook (`agent_needs_input` / `agent_completed`)\n- Added `/dataviz` skill for chart and dashboard design guidance with a runnable color-palette validator\n- Gateway: added Claude Platform on AWS (anthropicAws) as an upstream provider; model-not-found responses now advance the failover chain\n- Background agents launched from `claude agents` now commit, push, and open a draft PR when they finish code work in a worktree, instead of stopping to ask\n- The built-in Explore agent now inherits the main session's model (capped at opus) instead of running on haiku\n- Subagents and context compaction now inherit the session's extended thinking configuration, improving output quality on delegated tasks\n- Fixed brief network drops mid-response aborting the turn — transient errors like ECONNRESET now retry with backoff instead of failing\n- Fixed excessive background classifier requests when sandboxed processes repeatedly accessed the same network host\n- Fixed background tasks in web, desktop, and VS Code task panels getting stuck on \"Running\" after they finish or after resuming a session\n- Fixed agent teams: a teammate that dies on an API error now reports \"failed\" to the lead, and messaging a stuck teammate wakes it to retry immediately\n- Fixed the `/diff` panel not refreshing when you switch branches or commit outside the session\n- Fixed markdown tables overflowing and wrapping their right border when rendered in fullscreen mode\n- Fixed Claude Platform on AWS and Mantle sessions dead-ending with \"Please run /login\" when the STS token expires — `awsAuthRefresh` now runs automatically\n- Fixed \"no route to host\" for local-network hosts in macOS background agent sessions by declaring Local Network entitlements\n- Fixed `/desktop` failing with \"Cannot determine working directory\" after entering and exiting a worktree\n- Fixed background agents repeatedly showing \"Reconnecting…\" every ~52 seconds on macOS while the agents view was open\n- Fixed pressing `←` inside `claude attach <id>` exiting to the shell instead of opening the agent view\n- Fixed `claude --bg` silently creating an unattachable session when combined with `--print`/`-p`; the conflicting flags are now rejected up front\n- Fixed the workflow progress view dropping the earliest agents from the list while the phase counter stayed correc",
+      "prerelease": false
+    },
+    {
+      "product": "Codex",
+      "repo": "openai/codex",
+      "tag": "rust-v0.142.5",
+      "name": "0.142.5",
+      "published": "2026-07-01",
+      "url": "https://github.com/openai/codex/releases/tag/rust-v0.142.5",
+      "summary": "## Bug Fixes",
+      "body_excerpt": "## Bug Fixes\n\n- Prevented full Responses WebSocket request payloads from being written to trace logs. (#30771)\n\n## Changelog\n\nFull Changelog: https://github.com/openai/codex/compare/rust-v0.142.4...rust-v0.142.5\n\n- #30771 [codex] Backport websocket trace fix to release/0.142 @dylan-hurd-oai",
+      "prerelease": false
+    }
+  ],
+  "level2_people": [
+    "@karpathy",
+    "@bcherny",
+    "@sundarpichai",
+    "@sama",
+    "@gdb",
+    "@DarioAmodei"
+  ],
+  "level2_note": "raw 无人物搜索；无依据时 Level 2 标无新增，勿编造",
+  "level3_note": "本日未扫描行业报告（周报降频）",
+  "level4_hn": [
+    {
+      "title": "Palabre – Make two AI coding agents debate a decision in your terminal",
+      "url": "https://palab.re/en",
+      "points": 3,
+      "comments": 0,
+      "created": "2026-07-01"
+    },
+    {
+      "title": "Show HN: Sibyl – self-hosted cross-agent memory for AI coding agents",
+      "url": "https://github.com/hyperb1iss/sibyl",
+      "points": 3,
+      "comments": 0,
+      "created": "2026-07-01"
+    },
+    {
+      "title": "Agentic Software Engineering (ASE): Agentic AI Coding Meets Software Engineering",
+      "url": "https://ase.tools/",
+      "points": 2,
+      "comments": 1,
+      "created": "2026-07-02"
+    },
+    {
+      "title": "Show HN: Skill Federation –private search across 87k skills for AI coding agents",
+      "url": "https://github.com/skill-federation/skill-federation",
+      "points": 2,
+      "comments": 0,
+      "created": "2026-07-02"
+    },
+    {
+      "title": "AI coding tools should reach beyond the editor",
+      "url": "https://mineti.dev/articles/ai-beyond-the-editor/",
+      "points": 2,
+      "comments": 0,
+      "created": "2026-06-30"
+    }
+  ]
+}
