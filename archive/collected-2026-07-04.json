@@ -1,0 +1,100 @@
+{
+  "briefing_date": "2026-07-04",
+  "period_start": "2026-07-02",
+  "period_end": "2026-07-04",
+  "previous_briefing_date": "2026-07-03",
+  "previous_briefing_excerpt": "# AI x 研发效能 每日简报 2026-07-03\n\n> 覆盖周期：2026-07-01 ~ 2026-07-03（上一期：2026-07-02）\n\n> **采集方式**：GitHub Actions 自动采集（Level 1 GitHub API + Level 4 HN API）｜Level 2/3 待人工或 API 密钥补充\n\n---\n\n## 头条速览\n\n1. **OpenClaw v2026.7.1-beta.1**——### Highlights\n2. **Gemini CLI v0.51.0-nightly.20260702.gff00dacd9**——## What's Changed\n3. **Hermes Agent v2026.7.1**——# Hermes Agent v0.18.0 (v2026.7.1)\n\n---\n\n## 一、AI 增强软件研发（AI4SE）\n\n### 1.1 Level 1：核心产品与工程更新\n\n#### 1️⃣ OpenClaw v2026.7.1-beta.1（2026-07-02）\n\n### Highlights\n\n来源：[v2026.7.1-beta.1](https://github.com/openclaw/openclaw/releases/tag/v2026.7.1-beta.1) — 2026-07-02\n\n#### 2️⃣ Gemini CLI v0.51.0-nightly.20260702.gff00dacd9（2026-07-02）\n\n## What's Changed\n\n来源：[v0.51.0-nightly.20260702.gff00dacd9](https://github.com/google-gemini/gemini-cli/releases/tag/v0.51.0-nightly.20260702.gff00dacd9) — 2026-07-02\n\n#### 3️⃣ Hermes Agent v2026.7.1（2026-07-01）\n\n# Hermes Agent v0.18.0 (v2026.7.1)\n\n来源：[v2026.7.1](https://github.com/NousResearch/hermes-agent/releases/tag/v2026.7.1) — 2026-07-01\n\n#### 4️⃣ Claude Code v2.1.198（2026-07-01）\n\n## What's changed\n\n来源：[v2.1.198](https://github.com/anthropics/claude-code/releases/tag/v2.1.198) — 2026-07-01\n\n#### 5️⃣ Codex rust-v0.142.5（2026-07-01）\n\n## Bug Fixes\n\n来源：[rust-v0.142.5](https://github.com/openai/codex/releases/tag/rust-v0.142.5) — 2026-07-01\n\n---\n\n### 1.2 Level 2：关键人物战略洞察\n\n| 人物 | 动态 | 日期 |\n|---|---|---|\n| @karpathy | 自动采集未配置（需 WebSearch / X 间接源） | — |\n| @bcherny | 自动采集未配置（需 WebSearch / X 间接源） | — |\n| @sundarpichai | 自动采集未配置（需 WebSearch / X 间接源） | — |\n| @sama | 自动采集未配置（需 WebSearch / X 间接源） | — |\n| @gdb | 自动采集未配置（需 WebSearch / X 间接源） | — |\n| @DarioAmodei | 自动采集未配置（需 WebSearch / X 间接源） | — |\n\n---\n\n### 1.3 Level 3：行业研究与数据\n\n> **本日未扫描**（周报/月报降频）。\n\n---\n\n### 1.4 Level 4：补充信源（HN）\n\n- **2026-07-01**：[Palabre – Make two AI coding agents debate a decision in your terminal](https://palab.re/en) （3 pts / 0 comments）\n- **2026-07-01**：[Show HN: Sibyl – self-hosted cross-agent memory for AI coding agents](https://github.com/hyperb1iss/sibyl) （3 pts / 0 comments）\n- **2026-07-02**：[Agentic Software Engineering (ASE): Agentic AI Coding Meets Software Engineering](https://ase.tools/) （2 pts / 1 comments）\n- **2026-07-02**：[Show HN: Skill Federation –private search across 87k skills for AI coding agents](https://github.com/skill-federation/skill-federation) （2 pts / 0 comments）\n- **2026-06-30**：[AI coding tools should reach beyond the editor](https://mineti.dev/articles/ai-beyond-the-editor/) （2 pts / 0 comments）\n\n---\n\n## 附录：采集日志\n\n| 环节 | 状态 |\n|---|---|\n| GitHub Releases API | ✅ 5 条 |\n| HN Algolia API | ✅ 5 条 |\n| 生成时间 (UTC) | 2026-07-02 18:21 |\n\n*自动生成版 · 可在 Cursor 中基于本稿补充 Level 2 分析与专题*\n",
+  "level1_releases": [
+    {
+      "product": "Claude Code",
+      "repo": "anthropics/claude-code",
+      "tag": "v2.1.200",
+      "name": "v2.1.200",
+      "published": "2026-07-03",
+      "url": "https://github.com/anthropics/claude-code/releases/tag/v2.1.200",
+      "summary": "## What's changed",
+      "body_excerpt": "## What's changed\n\n- Changed `AskUserQuestion` dialogs to no longer auto-continue by default; opt into an idle timeout via `/config`\n- Changed the \"default\" permission mode to \"Manual\" across the CLI, `--help`, VS Code, and JetBrains; `--permission-mode manual` and `\"defaultMode\": \"manual\"` are accepted alongside `default`\n- Fixed a crash at startup when `disabledMcpServers` or `enabledMcpServers` in `.claude.json` is set to a non-array value\n- Fixed background sessions silently stopping mid-turn after sleep/wake or when reopening a stalled session\n- Fixed background sessions re-running a turn cancelled with Esc after a stall respawn\n- Fixed background agents never starting again after a crash left a stale `daemon.lock` whose PID the OS reused\n- Fixed background-agent daemon handover so a reinstalled older build can no longer take over the daemon; build recency is now judged by the version's embedded build timestamp\n- Fixed background-agent roster issues: transient corruption permanently disabling orphan cleanup, older binaries not preserving fields written by newer versions, and socket auth tokens being stripped during daemon restarts\n- Fixed subagents cut off by a rate limit before producing any text output returning an empty result instead of failing cleanly\n- Fixed control bytes from background-agent output reaching the terminal in the agent view\n- Fixed `claude agents --plugin-dir <dir>` not showing the plugin's agents and skills in the agent view when the flag is placed after `agents`\n- Fixed project-scoped plugins not loading correctly from git worktrees of the same repository\n- Fixed `/mcp` server list not tracking focus for screen readers and magnifiers\n- Fixed voice dictation showing a misleading \"Voice connection failed\" message when a recording captures no audio\n- Fixed rendering flicker under tmux 3.4+ by enabling synchronized terminal output\n- Improved screen-reader output: decorative glyphs are now hidden, transcript symbols read as short labels, and nested tables read as `Header: value.` lines\n- Improved the install script to explain when installation is killed by the system running out of memory",
+      "prerelease": false
+    },
+    {
+      "product": "Gemini CLI",
+      "repo": "google-gemini/gemini-cli",
+      "tag": "v0.51.0-nightly.20260703.gf7af4e518",
+      "name": "Release v0.51.0-nightly.20260703.gf7af4e518",
+      "published": "2026-07-03",
+      "url": "https://github.com/google-gemini/gemini-cli/releases/tag/v0.51.0-nightly.20260703.gf7af4e518",
+      "summary": "## What's Changed",
+      "body_excerpt": "## What's Changed\n* feat(caretaker): egress cloud run service skeleton by @chadd28 in https://github.com/google-gemini/gemini-cli/pull/28167\n\n\n**Full Changelog**: https://github.com/google-gemini/gemini-cli/compare/v0.51.0-nightly.20260702.gff00dacd9...v0.51.0-nightly.20260703.gf7af4e518",
+      "prerelease": true
+    },
+    {
+      "product": "Codex",
+      "repo": "openai/codex",
+      "tag": "rust-v0.143.0-alpha.35",
+      "name": "0.143.0-alpha.35",
+      "published": "2026-07-03",
+      "url": "https://github.com/openai/codex/releases/tag/rust-v0.143.0-alpha.35",
+      "summary": "Release 0.143.0-alpha.35",
+      "body_excerpt": "Release 0.143.0-alpha.35",
+      "prerelease": true
+    },
+    {
+      "product": "OpenClaw",
+      "repo": "openclaw/openclaw",
+      "tag": "v2026.7.1-beta.1",
+      "name": "openclaw 2026.7.1-beta.1",
+      "published": "2026-07-02",
+      "url": "https://github.com/openclaw/openclaw/releases/tag/v2026.7.1-beta.1",
+      "summary": "### Highlights",
+      "body_excerpt": "### Highlights\n\n- **OpenAI GPT-5.6 support:** OpenClaw now recognizes the GPT-5.6 model family across catalog, capability, and runtime selection paths. (#98333) Thanks @steipete-oai.\n- **External harness attachment:** `openclaw attach` launches an external harness against an existing Gateway session, making interactive Codex-style workflows easier to resume and inspect. (#96454) Thanks @anagnorisis2peripeteia and @obviyus.\n- **Telegram Codex workflows:** Telegram can now start Codex pairing with `/login`, steer active Codex runs, and recover final replies across transient API failures. (#98006, #98126, #98786) Thanks @100yenadmin, @Kyzcreig, and @obviyus.\n- **Event-driven cron runs:** the new `on-exit` schedule kind wakes an agent when a watched command exits, while session-targeted runs can detach cleanly. (#92037, #98755) Thanks @anagnorisis2peripeteia, @obviyus, and @EthanSK.\n- **Native app refresh:** iOS adopts the iOS 26 visual system with clearer navigation, settings, Chat, Talk, and onboarding flows, while native app localization expands across Apple and Android surfaces. (#98452, #98736, #98811, #97110, #97111, #97112, #97113) Thanks @vincentkoc.\n- **Richer messaging:** iMessage gains native poll creation, reading, and voting, and built-in usage footers provide clearer per-turn accounting in chat. (#98421, #92657, #92877) Thanks @omarshahine, @lobster, and @Marvinthebored.\n- **Safer scoped conversations:** capability profiles prepare per-conversation tool and access boundaries without weakening the existing default profile. (#98536)\n\n### Changes\n\n- **Model and provider coverage:** add GPT-5.6 support, use Nemotron Super's 1M context window, and preserve explicit OpenRouter authentication headers. (#98333, #98726, #98187) Thanks @steipete-oai, @eleqtrizit, @sunlit-deng, and @laurencebrown.\n- **CLI and node workflows:** add `openclaw attach`, node context-path support, actionable device-approval recovery guidance, and clearer plugin install exit diagnostics. (#96454, #97679, #98115, #98146, #98497) Thanks @anagnorisis2peripeteia, @obviyus, @wm0018, @welfo-beo, @RomneyDa, @Sanjays2402, and @vincentkoc.\n- **Cron and usage:** add exit-triggered schedules, detached session-targeted runs, an in-flight job doctor warning, and a built-in full usage footer. (#92037, #98755, #98620, #92657, #92877) Thanks @anagnorisis2peripeteia, @obviyus, @EthanSK, @masatohoshino, and @Marvinthebored.\n- **Native apps and localization:** modernize iOS navigation, settings, pr",
+      "prerelease": true
+    }
+  ],
+  "level2_people": [
+    "@karpathy",
+    "@bcherny",
+    "@sundarpichai",
+    "@sama",
+    "@gdb",
+    "@DarioAmodei"
+  ],
+  "level2_note": "raw 无人物搜索；无依据时 Level 2 标无新增，勿编造",
+  "level3_note": "本日未扫描行业报告（周报降频）",
+  "level4_hn": [
+    {
+      "title": "The short leash AI coding method for beating Fable",
+      "url": "https://blog.okturtles.org/2026/07/short-leash-ai-method/",
+      "points": 176,
+      "comments": 219,
+      "created": "2026-07-02"
+    },
+    {
+      "title": "AI coding is a nightmare. Am I the only one experiencing this?",
+      "url": "https://news.ycombinator.com/item?id=48770319",
+      "points": 58,
+      "comments": 47,
+      "created": "2026-07-03"
+    },
+    {
+      "title": "AI coding is addictive. Engineers are paying the price",
+      "url": "https://leaddev.com/ai/ai-coding-is-addictive-engineers-are-paying-the-price",
+      "points": 25,
+      "comments": 14,
+      "created": "2026-07-03"
+    },
+    {
+      "title": "Show HN: TaskPeace – a task queue my AI coding agents pull work from over MCP",
+      "url": "https://taskpeace.com/",
+      "points": 3,
+      "comments": 5,
+      "created": "2026-07-03"
+    },
+    {
+      "title": "Show HN: Skill Federation –private search across 87k skills for AI coding agents",
+      "url": "https://github.com/skill-federation/skill-federation",
+      "points": 3,
+      "comments": 0,
+      "created": "2026-07-02"
+    }
+  ]
+}
