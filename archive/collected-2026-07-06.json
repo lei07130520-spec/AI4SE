@@ -1,0 +1,89 @@
+{
+  "briefing_date": "2026-07-06",
+  "period_start": "2026-07-04",
+  "period_end": "2026-07-06",
+  "previous_briefing_date": "2026-07-05",
+  "previous_briefing_excerpt": "# AI x 研发效能 每日简报 2026-07-05\n\n> 覆盖周期：2026-07-03 ~ 2026-07-05（上一期：2026-07-04）\n\n> **采集方式**：GitHub Actions 自动采集（Level 1 GitHub API + Level 4 HN API）｜Level 2/3 待人工或 API 密钥补充\n\n---\n\n## 头条速览\n\n1. **Gemini CLI v0.51.0-nightly.20260704.gf7af4e518**——**Full Changelog**: https://github.com/google-ge\n2. **Claude Code v2.1.201**——## What's changed\n3. **Codex rust-v0.143.0-alpha.35**——Release 0.143.0-alpha.35\n\n---\n\n## 一、AI 增强软件研发（AI4SE）\n\n### 1.1 Level 1：核心产品与工程更新\n\n#### 1️⃣ Gemini CLI v0.51.0-nightly.20260704.gf7af4e518（2026-07-04）\n\n**Full Changelog**: https://github.com/google-gemini/gemini-cli/compare/v0.51.0-nightly.20260703.gf7af4e518...v0.51.0-nightly.20260704.gf7af4e518\n\n来源：[v0.51.0-nightly.20260704.gf7af4e518](https://github.com/google-gemini/gemini-cli/releases/tag/v0.51.0-nightly.20260704.gf7af4e518) — 2026-07-04\n\n#### 2️⃣ Claude Code v2.1.201（2026-07-03）\n\n## What's changed\n\n来源：[v2.1.201](https://github.com/anthropics/claude-code/releases/tag/v2.1.201) — 2026-07-03\n\n#### 3️⃣ Codex rust-v0.143.0-alpha.35（2026-07-03）\n\nRelease 0.143.0-alpha.35\n\n来源：[rust-v0.143.0-alpha.35](https://github.com/openai/codex/releases/tag/rust-v0.143.0-alpha.35) — 2026-07-03\n\n---\n\n### 1.2 Level 2：关键人物战略洞察\n\n| 人物 | 动态 | 日期 |\n|---|---|---|\n| @karpathy | 自动采集未配置（需 WebSearch / X 间接源） | — |\n| @bcherny | 自动采集未配置（需 WebSearch / X 间接源） | — |\n| @sundarpichai | 自动采集未配置（需 WebSearch / X 间接源） | — |\n| @sama | 自动采集未配置（需 WebSearch / X 间接源） | — |\n| @gdb | 自动采集未配置（需 WebSearch / X 间接源） | — |\n| @DarioAmodei | 自动采集未配置（需 WebSearch / X 间接源） | — |\n\n---\n\n### 1.3 Level 3：行业研究与数据\n\n> **本日未扫描**（周报/月报降频）。\n\n---\n\n### 1.4 Level 4：补充信源（HN）\n\n- **2026-07-02**：[The short leash AI coding method for beating Fable](https://blog.okturtles.org/2026/07/short-leash-ai-method/) （194 pts / 242 comments）\n- **2026-07-03**：[AI coding is a nightmare. Am I the only one experiencing this?](https://news.ycombinator.com/item?id=48770319) （60 pts / 49 comments）\n- **2026-07-03**：[AI coding is addictive. Engineers are paying the price](https://leaddev.com/ai/ai-coding-is-addictive-engineers-are-paying-the-price) （45 pts / 39 comments）\n- **2026-07-03**：[Show HN: TaskPeace – a task queue my AI coding agents pull work from over MCP](https://taskpeace.com/) （7 pts / 6 comments）\n- **2026-07-02**：[Show HN: Skill Federation –private search across 87k skills for AI coding agents](https://github.com/skill-federation/skill-federation) （4 pts / 0 comments）\n\n---\n\n## 附录：采集日志\n\n| 环节 | 状态 |\n|---|---|\n| GitHub Releases API | ✅ 3 条 |\n| HN Algolia API | ✅ 5 条 |\n| 生成时间 (UTC) | 2026-07-04 16:35 |\n\n*自动生成版 · 可在 Cursor 中基于本稿补充 Level 2 分析与专题*\n",
+  "level1_releases": [
+    {
+      "product": "OpenClaw",
+      "repo": "openclaw/openclaw",
+      "tag": "v2026.7.1-beta.2",
+      "name": "openclaw 2026.7.1-beta.2",
+      "published": "2026-07-05",
+      "url": "https://github.com/openclaw/openclaw/releases/tag/v2026.7.1-beta.2",
+      "summary": "### Highlights",
+      "body_excerpt": "### Highlights\n\n- **OpenAI GPT-5.6 support:** OpenClaw now recognizes the GPT-5.6 model family across catalog, capability, and runtime selection paths. (#98333) Thanks @steipete-oai.\n- **External harness attachment:** `openclaw attach` launches an external harness against an existing Gateway session, making interactive Codex-style workflows easier to resume and inspect. (#96454) Thanks @anagnorisis2peripeteia and @obviyus.\n- **Telegram Codex workflows:** Telegram can now start Codex pairing with `/login`, steer active Codex runs, and recover final replies across transient API failures. (#98006, #98126, #98786) Thanks @100yenadmin, @Kyzcreig, and @obviyus.\n- **Event-driven cron runs:** the new `on-exit` schedule kind wakes an agent when a watched command exits, while session-targeted runs can detach cleanly. (#92037, #98755) Thanks @anagnorisis2peripeteia, @obviyus, and @EthanSK.\n- **Native app refresh:** iOS adopts the iOS 26 visual system with clearer Chat, Talk, onboarding, and reconnect flows, while native app localization expands across Apple and Android surfaces. (#98452, #98736, #99243, #97110, #97111, #97112, #97113) Thanks @jcooley8 and @vincentkoc.\n- **Richer messaging:** iMessage gains native poll creation, reading, and voting, and built-in usage footers provide clearer per-turn accounting in chat. (#98421, #92657, #92877) Thanks @omarshahine, @lobster, and @Marvinthebored.\n- **Safer scoped conversations:** capability profiles prepare per-conversation tool and access boundaries without weakening the existing default profile. (#98536)\n- **Mac local Gateway setup:** the macOS app can now install and start its local Gateway automatically, reducing the manual setup needed before first use. (#99767)\n- **Control UI navigation:** a session-first sidebar, compact context meter, warm light theme, reasoning-effort slider, streamlined composer, and slash-command picker make active conversations and commands easier to reach. (#99289, #99426, #99838) Thanks @VicZhang6 and @Solvely-Colin.\n\n### Changes\n\n- **ClawRouter routing and quotas:** add the bundled ClawRouter provider plugin with credential-scoped dynamic model discovery, OpenAI-compatible and native Anthropic/Gemini transports, and managed budget reporting across OpenClaw usage surfaces. (#99658)\n- **Model and provider coverage:** add GPT-5.6 support, use Nemotron Super's 1M context window, and preserve explicit OpenRouter authentication headers. (#98333, #98726, #98187) Thanks @steipete-oai, @eleqtrizi",
+      "prerelease": true
+    },
+    {
+      "product": "Gemini CLI",
+      "repo": "google-gemini/gemini-cli",
+      "tag": "v0.51.0-nightly.20260705.gf7af4e518",
+      "name": "Release v0.51.0-nightly.20260705.gf7af4e518",
+      "published": "2026-07-05",
+      "url": "https://github.com/google-gemini/gemini-cli/releases/tag/v0.51.0-nightly.20260705.gf7af4e518",
+      "summary": "**Full Changelog**: https://github.com/google-gemini/gemini-cli/compare/v0.51.0-nightly.20260704.gf7af4e518...v0.51.0-nightly.20260705.gf7af4e518",
+      "body_excerpt": "**Full Changelog**: https://github.com/google-gemini/gemini-cli/compare/v0.51.0-nightly.20260704.gf7af4e518...v0.51.0-nightly.20260705.gf7af4e518",
+      "prerelease": true
+    },
+    {
+      "product": "Codex",
+      "repo": "openai/codex",
+      "tag": "rust-v0.143.0-alpha.36",
+      "name": "0.143.0-alpha.36",
+      "published": "2026-07-05",
+      "url": "https://github.com/openai/codex/releases/tag/rust-v0.143.0-alpha.36",
+      "summary": "Release 0.143.0-alpha.36",
+      "body_excerpt": "Release 0.143.0-alpha.36",
+      "prerelease": true
+    }
+  ],
+  "level2_people": [
+    "@karpathy",
+    "@bcherny",
+    "@sundarpichai",
+    "@sama",
+    "@gdb",
+    "@DarioAmodei"
+  ],
+  "level2_note": "raw 无人物搜索；无依据时 Level 2 标无新增，勿编造",
+  "level3_note": "本日未扫描行业报告（周报降频）",
+  "level4_hn": [
+    {
+      "title": "AI coding is a nightmare. Am I the only one experiencing this?",
+      "url": "https://news.ycombinator.com/item?id=48770319",
+      "points": 62,
+      "comments": 50,
+      "created": "2026-07-03"
+    },
+    {
+      "title": "AI coding is addictive. Engineers are paying the price",
+      "url": "https://leaddev.com/ai/ai-coding-is-addictive-engineers-are-paying-the-price",
+      "points": 46,
+      "comments": 40,
+      "created": "2026-07-03"
+    },
+    {
+      "title": "Mouse: Precision Editing Tools for AI Coding Agents",
+      "url": "https://hic-ai.com",
+      "points": 38,
+      "comments": 45,
+      "created": "2026-07-05"
+    },
+    {
+      "title": "SigMap: 97% token reduction for AI coding sessions",
+      "url": "https://sigmap.io/",
+      "points": 12,
+      "comments": 4,
+      "created": "2026-07-05"
+    },
+    {
+      "title": "Only 1 of the Top 5 AI Coding Models on WebDev Arena Isn't Chinese",
+      "url": "https://arena.ai/leaderboard/code/webdev?rankBy=labs",
+      "points": 10,
+      "comments": 6,
+      "created": "2026-07-04"
+    }
+  ]
+}
