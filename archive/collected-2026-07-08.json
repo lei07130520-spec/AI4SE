@@ -1,0 +1,89 @@
+{
+  "briefing_date": "2026-07-08",
+  "period_start": "2026-07-06",
+  "period_end": "2026-07-08",
+  "previous_briefing_date": "2026-07-07",
+  "previous_briefing_excerpt": "# AI x 研发效能 每日简报 2026-07-07\n\n> 覆盖周期：2026-07-05 ~ 2026-07-07（上一期：2026-07-06）\n\n> **采集方式**：GitHub Actions 自动采集（Level 1 GitHub API + Level 4 HN API）｜Level 2/3 待人工或 API 密钥补充\n\n---\n\n## 头条速览\n\n1. **Gemini CLI v0.51.0-nightly.20260706.gf7af4e518**——**Full Changelog**: https://github.com/google-ge\n2. **Codex rust-v0.143.0-alpha.37**——Release 0.143.0-alpha.37\n3. **OpenClaw v2026.7.1-beta.2**——### Highlights\n\n---\n\n## 一、AI 增强软件研发（AI4SE）\n\n### 1.1 Level 1：核心产品与工程更新\n\n#### 1️⃣ Gemini CLI v0.51.0-nightly.20260706.gf7af4e518（2026-07-06）\n\n**Full Changelog**: https://github.com/google-gemini/gemini-cli/compare/v0.51.0-nightly.20260705.gf7af4e518...v0.51.0-nightly.20260706.gf7af4e518\n\n来源：[v0.51.0-nightly.20260706.gf7af4e518](https://github.com/google-gemini/gemini-cli/releases/tag/v0.51.0-nightly.20260706.gf7af4e518) — 2026-07-06\n\n#### 2️⃣ Codex rust-v0.143.0-alpha.37（2026-07-06）\n\nRelease 0.143.0-alpha.37\n\n来源：[rust-v0.143.0-alpha.37](https://github.com/openai/codex/releases/tag/rust-v0.143.0-alpha.37) — 2026-07-06\n\n#### 3️⃣ OpenClaw v2026.7.1-beta.2（2026-07-05）\n\n### Highlights\n\n来源：[v2026.7.1-beta.2](https://github.com/openclaw/openclaw/releases/tag/v2026.7.1-beta.2) — 2026-07-05\n\n---\n\n### 1.2 Level 2：关键人物战略洞察\n\n| 人物 | 动态 | 日期 |\n|---|---|---|\n| @karpathy | 自动采集未配置（需 WebSearch / X 间接源） | — |\n| @bcherny | 自动采集未配置（需 WebSearch / X 间接源） | — |\n| @sundarpichai | 自动采集未配置（需 WebSearch / X 间接源） | — |\n| @sama | 自动采集未配置（需 WebSearch / X 间接源） | — |\n| @gdb | 自动采集未配置（需 WebSearch / X 间接源） | — |\n| @DarioAmodei | 自动采集未配置（需 WebSearch / X 间接源） | — |\n\n---\n\n### 1.3 Level 3：行业研究与数据\n\n> **本日未扫描**（周报/月报降频）。\n\n---\n\n### 1.4 Level 4：补充信源（HN）\n\n- **2026-07-05**：[Mouse: Precision Editing Tools for AI Coding Agents](https://hic-ai.com) （38 pts / 46 comments）\n- **2026-07-05**：[SigMap: 97% token reduction for AI coding sessions](https://sigmap.io/) （18 pts / 5 comments）\n- **2026-07-04**：[Only 1 of the Top 5 AI Coding Models on WebDev Arena Isn't Chinese](https://arena.ai/leaderboard/code/webdev?rankBy=labs) （10 pts / 6 comments）\n- **2026-07-06**：[Show HN: Excalibur. The open-source AI coding agent for product engineers](https://getexcalibur.dev) （7 pts / 0 comments）\n- **2026-07-05**：[Show HN: Make No Mistakes – AI coding agents must prove their work](https://github.com/momomuchu/make-no-mistakes) （4 pts / 0 comments）\n\n---\n\n## 附录：采集日志\n\n| 环节 | 状态 |\n|---|---|\n| GitHub Releases API | ✅ 3 条 |\n| HN Algolia API | ✅ 5 条 |\n| 生成时间 (UTC) | 2026-07-06 19:21 |\n\n*自动生成版 · 可在 Cursor 中基于本稿补充 Level 2 分析与专题*\n",
+  "level1_releases": [
+    {
+      "product": "Gemini CLI",
+      "repo": "google-gemini/gemini-cli",
+      "tag": "v0.51.0-nightly.20260707.g15a9429b6",
+      "name": "Release v0.51.0-nightly.20260707.g15a9429b6",
+      "published": "2026-07-07",
+      "url": "https://github.com/google-gemini/gemini-cli/releases/tag/v0.51.0-nightly.20260707.g15a9429b6",
+      "summary": "## What's Changed",
+      "body_excerpt": "## What's Changed\n* fix(sandbox): make ~/.gitconfig read-only in the macOS sandbox by @ompatel-aiml in https://github.com/google-gemini/gemini-cli/pull/28221\n* fix(core): preserve escape sequences in string literals for modern models by @luisfelipe-alt in https://github.com/google-gemini/gemini-cli/pull/28299\n\n\n**Full Changelog**: https://github.com/google-gemini/gemini-cli/compare/v0.51.0-nightly.20260706.gf7af4e518...v0.51.0-nightly.20260707.g15a9429b6",
+      "prerelease": true
+    },
+    {
+      "product": "Codex",
+      "repo": "openai/codex",
+      "tag": "rust-v0.143.0-alpha.38",
+      "name": "0.143.0-alpha.38",
+      "published": "2026-07-07",
+      "url": "https://github.com/openai/codex/releases/tag/rust-v0.143.0-alpha.38",
+      "summary": "Release 0.143.0-alpha.38",
+      "body_excerpt": "Release 0.143.0-alpha.38",
+      "prerelease": true
+    },
+    {
+      "product": "Claude Code",
+      "repo": "anthropics/claude-code",
+      "tag": "v2.1.202",
+      "name": "v2.1.202",
+      "published": "2026-07-06",
+      "url": "https://github.com/anthropics/claude-code/releases/tag/v2.1.202",
+      "summary": "## What's changed",
+      "body_excerpt": "## What's changed\n\n- Added a \"Dynamic workflow size\" setting in `/config` for controlling how large Claude generally makes dynamic workflows (small/medium/large agent counts) — an advisory guideline, not an enforced cap\n- Added `workflow.run_id` and `workflow.name` OpenTelemetry attributes to telemetry emitted by workflow-spawned agents, so a workflow run's activity can be reconstructed from OTel data\n- Fixed a crash in the inline Ctrl+R history search when accepting or cancelling while the search was still scanning the history file\n- Fixed `/rename` on background sessions being reverted when the job restarts, which broke addressing the session by its new name\n- Fixed transient mTLS handshake failures when settings were re-applied during an in-place client certificate rotation\n- Fixed commands sent from Remote Control (mobile/web) into an interactive session failing with \"Unknown command\"\n- Fixed images and files sent from the Remote Control mobile or web app without a caption being silently dropped\n- Fixed the sign-in URL printed by `claude auth login` and `claude mcp login --no-browser` not being reliably clickable when it wraps over SSH — it is now emitted as a single hyperlink\n- Fixed opening a chat from `claude agents` sometimes failing with \"currently running as a background agent\" followed by a worker crash/respawn loop\n- Fixed workflow scripts with unicode quote escapes in strings being corrupted before parsing; workflow parse errors now show the offending line instead of always blaming TypeScript\n- Fixed voice dictation retrying in an unbounded loop when the microphone or audio recorder fails — repeated capture failures now pause voice input\n- Fixed `/remote-control` sessions showing the wrong permission mode in the mobile and web apps\n- Fixed resuming a session by name, or opening the resume picker, taking minutes and using a large amount of memory in repositories with many git worktrees\n- Fixed installer and updater downloads failing immediately with \"aborted\" when a proxy or network drops the connection mid-download — transient connection drops now retry\n- Fixed re-invoking an already-loaded skill appending a duplicate copy of its instructions to context\n- Improved `/workflows` agent list layout: wider titles, a dedicated time column, shorter model names, and no per-row tool-call counts\n- Improved MCP error messages: clearer error when a server config has `url` but no `type`, suggesting `\"type\": \"http\"` instead of the misleading \"command: expec",
+      "prerelease": false
+    }
+  ],
+  "level2_people": [
+    "@karpathy",
+    "@bcherny",
+    "@sundarpichai",
+    "@sama",
+    "@gdb",
+    "@DarioAmodei"
+  ],
+  "level2_note": "raw 无人物搜索；无依据时 Level 2 标无新增，勿编造",
+  "level3_note": "本日未扫描行业报告（周报降频）",
+  "level4_hn": [
+    {
+      "title": "Mouse: Precision Editing Tools for AI Coding Agents",
+      "url": "https://hic-ai.com",
+      "points": 38,
+      "comments": 46,
+      "created": "2026-07-05"
+    },
+    {
+      "title": "SigMap: 97% token reduction for AI coding sessions",
+      "url": "https://sigmap.io/",
+      "points": 18,
+      "comments": 5,
+      "created": "2026-07-05"
+    },
+    {
+      "title": "Show HN: Excalibur. The open-source AI coding agent for product engineers",
+      "url": "https://getexcalibur.dev",
+      "points": 7,
+      "comments": 0,
+      "created": "2026-07-06"
+    },
+    {
+      "title": "Show HN: Make No Mistakes – AI coding agents must prove their work",
+      "url": "https://github.com/momomuchu/make-no-mistakes",
+      "points": 4,
+      "comments": 1,
+      "created": "2026-07-05"
+    },
+    {
+      "title": "Groundtruth – checks your AI coding agent's claims against the Git diff",
+      "url": "https://github.com/akahkhanna/groundtruth",
+      "points": 3,
+      "comments": 2,
+      "created": "2026-07-06"
+    }
+  ]
+}
