@@ -1,0 +1,100 @@
+{
+  "briefing_date": "2026-07-09",
+  "period_start": "2026-07-07",
+  "period_end": "2026-07-09",
+  "previous_briefing_date": "2026-07-08",
+  "previous_briefing_excerpt": "# AI x 研发效能 每日简报 2026-07-08\n\n> 覆盖周期：2026-07-06 ~ 2026-07-08（上一期：2026-07-07）\n\n> **采集方式**：GitHub Actions 自动采集（Level 1 GitHub API + Level 4 HN API）｜Level 2/3 待人工或 API 密钥补充\n\n---\n\n## 头条速览\n\n1. **Gemini CLI v0.51.0-nightly.20260707.g15a9429b6**——## What's Changed\n2. **Codex rust-v0.143.0-alpha.38**——Release 0.143.0-alpha.38\n3. **Claude Code v2.1.202**——## What's changed\n\n---\n\n## 一、AI 增强软件研发（AI4SE）\n\n### 1.1 Level 1：核心产品与工程更新\n\n#### 1️⃣ Gemini CLI v0.51.0-nightly.20260707.g15a9429b6（2026-07-07）\n\n## What's Changed\n\n来源：[v0.51.0-nightly.20260707.g15a9429b6](https://github.com/google-gemini/gemini-cli/releases/tag/v0.51.0-nightly.20260707.g15a9429b6) — 2026-07-07\n\n#### 2️⃣ Codex rust-v0.143.0-alpha.38（2026-07-07）\n\nRelease 0.143.0-alpha.38\n\n来源：[rust-v0.143.0-alpha.38](https://github.com/openai/codex/releases/tag/rust-v0.143.0-alpha.38) — 2026-07-07\n\n#### 3️⃣ Claude Code v2.1.202（2026-07-06）\n\n## What's changed\n\n来源：[v2.1.202](https://github.com/anthropics/claude-code/releases/tag/v2.1.202) — 2026-07-06\n\n---\n\n### 1.2 Level 2：关键人物战略洞察\n\n| 人物 | 动态 | 日期 |\n|---|---|---|\n| @karpathy | 自动采集未配置（需 WebSearch / X 间接源） | — |\n| @bcherny | 自动采集未配置（需 WebSearch / X 间接源） | — |\n| @sundarpichai | 自动采集未配置（需 WebSearch / X 间接源） | — |\n| @sama | 自动采集未配置（需 WebSearch / X 间接源） | — |\n| @gdb | 自动采集未配置（需 WebSearch / X 间接源） | — |\n| @DarioAmodei | 自动采集未配置（需 WebSearch / X 间接源） | — |\n\n---\n\n### 1.3 Level 3：行业研究与数据\n\n> **本日未扫描**（周报/月报降频）。\n\n---\n\n### 1.4 Level 4：补充信源（HN）\n\n- **2026-07-05**：[Mouse: Precision Editing Tools for AI Coding Agents](https://hic-ai.com) （38 pts / 46 comments）\n- **2026-07-05**：[SigMap: 97% token reduction for AI coding sessions](https://sigmap.io/) （18 pts / 5 comments）\n- **2026-07-06**：[Show HN: Excalibur. The open-source AI coding agent for product engineers](https://getexcalibur.dev) （7 pts / 0 comments）\n- **2026-07-05**：[Show HN: Make No Mistakes – AI coding agents must prove their work](https://github.com/momomuchu/make-no-mistakes) （4 pts / 1 comments）\n- **2026-07-06**：[Groundtruth – checks your AI coding agent's claims against the Git diff](https://github.com/akahkhanna/groundtruth) （3 pts / 2 comments）\n\n---\n\n## 附录：采集日志\n\n| 环节 | 状态 |\n|---|---|\n| GitHub Releases API | ✅ 3 条 |\n| HN Algolia API | ✅ 5 条 |\n| 生成时间 (UTC) | 2026-07-07 19:24 |\n\n*自动生成版 · 可在 Cursor 中基于本稿补充 Level 2 分析与专题*\n",
+  "level1_releases": [
+    {
+      "product": "Hermes Agent",
+      "repo": "NousResearch/hermes-agent",
+      "tag": "v2026.7.7.2",
+      "name": "Hermes Agent v0.18.2 (2026.7.7.2)",
+      "published": "2026-07-08",
+      "url": "https://github.com/NousResearch/hermes-agent/releases/tag/v2026.7.7.2",
+      "summary": "# Hermes Agent v0.18.2 (v2026.7.7.2)",
+      "body_excerpt": "# Hermes Agent v0.18.2 (v2026.7.7.2)\n\n**Release Date:** July 7, 2026\n\n> Same-day patch on top of v0.18.1, picking up the WhatsApp Baileys dependency fix needed for tagged-release Docker builds.\n\n---\n\n## What's in this patch\n\n- **fix(whatsapp): unpin Baileys from git commit, use published 7.0.0-rc13** ([#60643](https://github.com/NousResearch/hermes-agent/pull/60643)) — the WhatsApp bridge dependency now installs from the published npm release instead of a pinned git commit, making installs and Docker image builds reliable.\n\nFull curated release notes for the entire post-v0.18.0 window ship with v0.19.0.\n\n## Updating\n\n```bash\nhermes update        # existing installs\npip install -U hermes-agent\n```\n\n**Full Changelog**: [v2026.7.7...v2026.7.7.2](https://github.com/NousResearch/hermes-agent/compare/v2026.7.7...v2026.7.7.2)",
+      "prerelease": false
+    },
+    {
+      "product": "Claude Code",
+      "repo": "anthropics/claude-code",
+      "tag": "v2.1.204",
+      "name": "v2.1.204",
+      "published": "2026-07-08",
+      "url": "https://github.com/anthropics/claude-code/releases/tag/v2.1.204",
+      "summary": "## What's changed",
+      "body_excerpt": "## What's changed\n\n- Fixed hook events not streaming during SessionStart hooks in headless sessions, which could cause remote workers to be idle-reaped mid-hook",
+      "prerelease": false
+    },
+    {
+      "product": "Gemini CLI",
+      "repo": "google-gemini/gemini-cli",
+      "tag": "v0.51.0-preview.0",
+      "name": "Release v0.51.0-preview.0",
+      "published": "2026-07-08",
+      "url": "https://github.com/google-gemini/gemini-cli/releases/tag/v0.51.0-preview.0",
+      "summary": "## What's Changed",
+      "body_excerpt": "## What's Changed\n* Changelog for v0.50.0-preview.1 by @gemini-cli-robot in https://github.com/google-gemini/gemini-cli/pull/28150\n* Fix no_proxy test by @jerrylin3321 in https://github.com/google-gemini/gemini-cli/pull/28131\n* chore(release): bump version to 0.51.0-nightly.20260625.g3fbf93e26 by @gemini-cli-robot in https://github.com/google-gemini/gemini-cli/pull/28151\n* Vertex base url update by @DavidAPierce in https://github.com/google-gemini/gemini-cli/pull/28145\n* fix(security): enforce case-insensitive sensitive path blocklist and vscode hitl by @luisfelipe-alt in https://github.com/google-gemini/gemini-cli/pull/27966\n* fix(core-tools): resolve defensive path resolution for at-reference files and fix macOS tests by @luisfelipe-alt in https://github.com/google-gemini/gemini-cli/pull/28053\n* feat(caretaker): implement Cloud Run webhook ingestion service by @chadd28 in https://github.com/google-gemini/gemini-cli/pull/28015\n* fix(core): resolve symbolic link directory escape in memory import processor by @luisfelipe-alt in https://github.com/google-gemini/gemini-cli/pull/28233\n* feat(caretaker): egress cloud run service skeleton by @chadd28 in https://github.com/google-gemini/gemini-cli/pull/28167\n* fix(sandbox): make ~/.gitconfig read-only in the macOS sandbox by @ompatel-aiml in https://github.com/google-gemini/gemini-cli/pull/28221\n* fix(core): preserve escape sequences in string literals for modern models by @luisfelipe-alt in https://github.com/google-gemini/gemini-cli/pull/28299\n* fix(core): strip thoughts from scrubbed history turns and resolve thought leakage by @amelidev in https://github.com/google-gemini/gemini-cli/pull/27971\n\n## New Contributors\n* @jerrylin3321 made their first contribution in https://github.com/google-gemini/gemini-cli/pull/28131\n\n**Full Changelog**: https://github.com/google-gemini/gemini-cli/compare/v0.50.0-preview.1...v0.51.0-preview.0",
+      "prerelease": true
+    },
+    {
+      "product": "Codex",
+      "repo": "openai/codex",
+      "tag": "rust-v0.143.0",
+      "name": "0.143.0",
+      "published": "2026-07-08",
+      "url": "https://github.com/openai/codex/releases/tag/rust-v0.143.0",
+      "summary": "## New Features",
+      "body_excerpt": "## New Features\n\n- Remote plugins are now enabled by default, with richer catalog rows, npm marketplace sources, and visible remote/local versions. (#30297, #26705, #29375, #30981)\n- Codex can route authentication and Responses API traffic through macOS and Windows system proxies, including PAC and WPAD configurations. (#26708, #26709, #31335)\n- Added `codex remote-control pair` for generating manual pairing codes from a running daemon. (#29913)\n- Added Amazon Bedrock GPT-5.6 Sol, Terra, and Luna models, with first-class support for `max` reasoning effort. (#30285, #30467)\n- MCP tools now use tool search by default, and ChatGPT-hosted MCP servers can explicitly use session authentication. (#29486, #29733)\n- App-server clients can inspect environments, list descendant threads, and fork history through a specific turn. (#30291, #29591, #30277)\n\n## Bug Fixes\n\n- Fixed Windows ConPTY input handling for line endings and backspace, plus sandbox credential retry edge cases. (#29734, #29624, #29637)\n- Fixed stale TUI safety prompts and cancelled reviews that could leave MCP startup appearing busy. (#30490, #31189)\n- Improved recovery when exec servers are temporarily offline and prevented remote-control token refresh retry storms. (#30098, #30201)\n- Preserved trailing realtime transcript text and terminal rollout events during shutdown. (#29918, #30144)\n- Improved incremental WebSocket request success by ignoring response metadata during comparisons. (#30770)\n- Reduced installer failures from GitHub API rate limits by reusing release metadata. (#31056)\n\n## Documentation\n\n- Documented UUID7 thread and turn IDs, plus recommended remote-executor integration-test workflows. (#27714, #29790)\n\n## Chores\n\n- Updated OpenSSL, Hono, fast-uri, quick-xml, and crossbeam-epoch to address security advisories. (#29487, #29650, #30941, #31308)\n\n## Changelog\n\nFull Changelog: https://github.com/openai/codex/compare/rust-v0.142.0...rust-v0.143.0\n\n- #26708 PAC 3 - Add Windows system proxy resolver @canvrno-oai\n- #28769 Register full CDP requirements feature @syuan-oai\n- #29485 [codex] fetch featured IDs for remote plugins @ericning-o\n- #29487 Upgrade bundled OpenSSL to 3.6.3 @jif-oai\n- #29489 [codex] Update esbuild to 0.28.1 @pakrym-oai\n- #29488 [plugins] Add dark-mode logo metadata @drewschuster-openai\n- #29249 [codex] migrate environment context to model world state @pakrym-oai\n- #29494 core: wrap token budget window context @bolinfest\n- #29417 [codex] replace remote images with mode",
+      "prerelease": false
+    }
+  ],
+  "level2_people": [
+    "@karpathy",
+    "@bcherny",
+    "@sundarpichai",
+    "@sama",
+    "@gdb",
+    "@DarioAmodei"
+  ],
+  "level2_note": "raw 无人物搜索；无依据时 Level 2 标无新增，勿编造",
+  "level3_note": "本日未扫描行业报告（周报降频）",
+  "level4_hn": [
+    {
+      "title": "Show HN: Excalibur. The open-source AI coding agent for product engineers",
+      "url": "https://getexcalibur.dev",
+      "points": 7,
+      "comments": 0,
+      "created": "2026-07-06"
+    },
+    {
+      "title": "China warns of 'security backdoor' in Anthropic AI coding tool",
+      "url": "https://www.channelnewsasia.com/east-asia/china-anthropic-claude-code-ai-backdoor-security-alert-6240476",
+      "points": 4,
+      "comments": 0,
+      "created": "2026-07-08"
+    },
+    {
+      "title": "Show HN: Backlog – tasks and contexts manager for AI coding agents",
+      "url": "https://github.com/mazen160/backlog",
+      "points": 4,
+      "comments": 0,
+      "created": "2026-07-07"
+    },
+    {
+      "title": "Groundtruth – checks your AI coding agent's claims against the Git diff",
+      "url": "https://github.com/akahkhanna/groundtruth",
+      "points": 3,
+      "comments": 2,
+      "created": "2026-07-06"
+    },
+    {
+      "title": "Code maintainability plummets in the AI coding era",
+      "url": "https://leaddev.com/ai/code-maintainability-plummets-in-the-ai-coding-era",
+      "points": 3,
+      "comments": 1,
+      "created": "2026-07-07"
+    }
+  ]
+}
