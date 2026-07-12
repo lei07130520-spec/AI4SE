@@ -1,0 +1,100 @@
+{
+  "briefing_date": "2026-07-12",
+  "period_start": "2026-07-10",
+  "period_end": "2026-07-12",
+  "previous_briefing_date": "2026-07-11",
+  "previous_briefing_excerpt": "# AI x 研发效能 每日简报 2026-07-11\n\n> 覆盖周期：2026-07-09 ~ 2026-07-11（上一期：2026-07-10）\n\n> **采集方式**：GitHub Actions 自动采集（Level 1 GitHub API + Level 4 HN API）｜Level 2/3 待人工或 API 密钥补充\n\n---\n\n## 头条速览\n\n1. **OpenClaw v2026.7.1-beta.5**——## 2026.7.1\n2. **Claude Code v2.1.207**——## What's changed\n3. **Gemini CLI v0.52.0-nightly.20260710.ga4c91ce19**——## What's Changed\n\n---\n\n## 一、AI 增强软件研发（AI4SE）\n\n### 1.1 Level 1：核心产品与工程更新\n\n#### 1️⃣ OpenClaw v2026.7.1-beta.5（2026-07-11）\n\n## 2026.7.1\n\n来源：[v2026.7.1-beta.5](https://github.com/openclaw/openclaw/releases/tag/v2026.7.1-beta.5) — 2026-07-11\n\n#### 2️⃣ Claude Code v2.1.207（2026-07-11）\n\n## What's changed\n\n来源：[v2.1.207](https://github.com/anthropics/claude-code/releases/tag/v2.1.207) — 2026-07-11\n\n#### 3️⃣ Gemini CLI v0.52.0-nightly.20260710.ga4c91ce19（2026-07-10）\n\n## What's Changed\n\n来源：[v0.52.0-nightly.20260710.ga4c91ce19](https://github.com/google-gemini/gemini-cli/releases/tag/v0.52.0-nightly.20260710.ga4c91ce19) — 2026-07-10\n\n#### 4️⃣ Codex rust-v0.144.1（2026-07-09）\n\n## Bug Fixes\n\n来源：[rust-v0.144.1](https://github.com/openai/codex/releases/tag/rust-v0.144.1) — 2026-07-09\n\n---\n\n### 1.2 Level 2：关键人物战略洞察\n\n| 人物 | 动态 | 日期 |\n|---|---|---|\n| @karpathy | 自动采集未配置（需 WebSearch / X 间接源） | — |\n| @bcherny | 自动采集未配置（需 WebSearch / X 间接源） | — |\n| @sundarpichai | 自动采集未配置（需 WebSearch / X 间接源） | — |\n| @sama | 自动采集未配置（需 WebSearch / X 间接源） | — |\n| @gdb | 自动采集未配置（需 WebSearch / X 间接源） | — |\n| @DarioAmodei | 自动采集未配置（需 WebSearch / X 间接源） | — |\n\n---\n\n### 1.3 Level 3：行业研究与数据\n\n> **本日未扫描**（周报/月报降频）。\n\n---\n\n### 1.4 Level 4：补充信源（HN）\n\n- **2026-07-09**：[China warns of 'security backdoor' in Anthropic AI coding tool](https://www.channelnewsasia.com/east-asia/china-anthropic-claude-code-ai-backdoor-security-alert-6240476) （4 pts / 0 comments）\n- **2026-07-08**：[China warns of 'security backdoor' in Anthropic AI coding tool](https://www.channelnewsasia.com/east-asia/china-anthropic-claude-code-ai-backdoor-security-alert-6240476) （4 pts / 0 comments）\n- **2026-07-08**：[Which AI coding tools to use](https://bryanhogan.com/blog/ai-coding-tools) （3 pts / 0 comments）\n- **2026-07-11**：[AgentKindergarten – daycare for your AI coding agents](https://github.com/rokrak1/agentkindergarten) （2 pts / 0 comments）\n- **2026-07-10**：[The Spec Ceiling: Why AI Coding Speed Moves the Bottleneck to Product Discovery](https://magnus919.com/2026/07/the-spec-ceiling-why-ai-coding-speed-moves-the-bottleneck-to-product-discovery/) （2 pts / 0 comments）\n\n---\n\n## 附录：采集日志\n\n| 环节 | 状态 |\n|---|---|\n| GitHub Releases API | ✅ 4 条 |\n| HN Algolia API | ✅ 5 条 |\n| 生成时间 (UTC) | 2026-07-11 14:16 |\n\n*自动生成版 · 可在 Cursor 中基于本稿补充 Level 2 分析与专题*\n",
+  "level1_releases": [
+    {
+      "product": "OpenClaw",
+      "repo": "openclaw/openclaw",
+      "tag": "v2026.7.1-beta.5",
+      "name": "OpenClaw 2026.7.1-beta.5",
+      "published": "2026-07-11",
+      "url": "https://github.com/openclaw/openclaw/releases/tag/v2026.7.1-beta.5",
+      "summary": "## 2026.7.1",
+      "body_excerpt": "## 2026.7.1\n\n### Highlights\n\n- **Conversational onboarding:** Crestodian now runs a real agent-loop setup across the CLI, web install, and macOS app, with AI-guided provider setup, model-judged approvals bound to exact operations, masked credential prompts, and deterministic fallback when no model is available. (#99935, #100029, #100656, #101887) Thanks @fuller-stack-dev.\n- **ClawRouter routing and quotas:** add the bundled ClawRouter provider with credential-scoped dynamic model discovery, OpenAI-compatible and native Anthropic/Gemini transports, auth-profile model resolution, and managed usage and budget reporting. (#99658, #99759)\n- **Control UI and native macOS chat:** make sessions primary with a minimal searchable sidebar, compact context ring, reasoning-effort slider, cleaner dashboard chrome, and a native macOS session browser with model and thinking pickers, slash commands, transcript export, and context usage. (#99289, #99838, #100386, #101103, #101497)\n- **Offline and spoken mobile chat:** iOS and Android now pre-paint bounded per-gateway session and transcript caches offline; Apple Watch gains full voice turns, and iOS can speak replies through configured Gateway TTS with on-device fallback. (#100219, #100227, #100283, #100770, #100771)\n- **Session organization and generated titles:** generate concise session titles through utility-model routing and add Gateway-backed groups, unread state, rename, fork, archive, and delete controls, plus group management across web, iOS, and Android. (#87643, #100814, #101117, #101234) Thanks @zhangguiping-xydt and @Juliangsm.\n- **OpenAI GPT-5.6 support:** recognize the Sol, Terra, and Luna model family across API-key, ChatGPT/Codex OAuth, simple-completion, and Codex app-server paths, with correct context and pricing metadata plus `max` reasoning support. (#98333) Thanks @steipete-oai and @vincentkoc.\n- **External harness attachment:** `openclaw attach` launches Claude Code against an existing Gateway session with scoped, revocable, TTL-bound MCP grants, temporary configuration cleanup, and automatic revoke-on-exit. (#96454) Thanks @anagnorisis2peripeteia and @obviyus.\n- **Telegram Codex workflows:** Telegram can pair Codex through private `/login`, steer active runs with `/steer` and `/tell`, and recover final sends across rejected rich entities, captions, quotes, and flood waits. (#98006, #98126, #98786) Thanks @100yenadmin, @Kyzcreig, and @obviyus.\n\n### Changes\n\n- **Meta provider:** add bundled `muse-spark-",
+      "prerelease": true
+    },
+    {
+      "product": "Claude Code",
+      "repo": "anthropics/claude-code",
+      "tag": "v2.1.207",
+      "name": "v2.1.207",
+      "published": "2026-07-11",
+      "url": "https://github.com/anthropics/claude-code/releases/tag/v2.1.207",
+      "summary": "## What's changed",
+      "body_excerpt": "## What's changed\n\n- Auto mode is now available without `CLAUDE_CODE_ENABLE_AUTO_MODE` opt-in on Bedrock, Vertex AI, and Foundry; disable via `disableAutoMode` in settings\n- Fixed the terminal freezing and keystrokes lagging while streaming responses containing very long lists, tables, paragraphs, or code blocks\n- Fixed remote managed settings from a non-interactive run (`claude -p`, the SDK) being permanently recorded as consented without ever showing the security consent dialog\n- Fixed spurious prompt-injection warnings triggered by benign system-generated conversation updates\n- Fixed the auto-updater overwriting a custom launcher script or symlink at `~/.local/bin/claude` on every release; `/doctor` now reports an externally managed launcher\n- Fixed compound commands with `cd` prompting for permission when the only output redirect was to `/dev/null`\n- Fixed the transcript jumping above the start of the answer when a response finishes streaming\n- Fixed `extensions.worktreeConfig` being left in the repo's `.git/config` (breaking go-git tools like `tea`) after the last `worktree.sparsePaths` worktree was removed\n- Fixed malformed bracket patterns in rules globs, skill paths, `.ignore`, and `.worktreeinclude` breaking file reads, file suggestions, and worktree creation\n- Fixed a crash loop in agent teams where a malformed teammate mailbox message caused repeated errors every second until the mailbox file was manually deleted\n- Fixed background sessions auto-named by accepting a plan not showing that name on their agent-view row\n- Fixed background sessions that entered a git worktree resuming blank after a cold reopen from the agent list\n- Fixed Remote Control task status updates being lost when the connection recovered from a network interruption or credential refresh\n- Fixed Remote Control sessions hosted by the desktop app not showing background agent and workflow progress on mobile and web\n- Fixed Deep research runs labeling every Fetch-phase agent \"unknown\" — chips now show the source hostname\n- Fixed Bedrock repeatedly requesting fresh AWS SSO credentials from IAM Identity Center on every API request\n- Improved agent view: pasting the same text again now expands the collapsed `[Pasted text #N]` placeholder instead of adding a second one\n- Improved agent view: blocked session peeks now lead with the question and show a worded staleness clock (`waiting 3m`) instead of the same timestamp twice\n- Changed Bedrock, Vertex, and Claude Platform on AWS to defau",
+      "prerelease": false
+    },
+    {
+      "product": "Codex",
+      "repo": "openai/codex",
+      "tag": "rust-v0.145.0-alpha.4",
+      "name": "0.145.0-alpha.4",
+      "published": "2026-07-11",
+      "url": "https://github.com/openai/codex/releases/tag/rust-v0.145.0-alpha.4",
+      "summary": "Release 0.145.0-alpha.4",
+      "body_excerpt": "Release 0.145.0-alpha.4",
+      "prerelease": true
+    },
+    {
+      "product": "Gemini CLI",
+      "repo": "google-gemini/gemini-cli",
+      "tag": "v0.52.0-nightly.20260710.ga4c91ce19",
+      "name": "Release v0.52.0-nightly.20260710.ga4c91ce19",
+      "published": "2026-07-10",
+      "url": "https://github.com/google-gemini/gemini-cli/releases/tag/v0.52.0-nightly.20260710.ga4c91ce19",
+      "summary": "## What's Changed",
+      "body_excerpt": "## What's Changed\n* fix(core): strip thoughts from scrubbed history turns and resolve thought leakage by @amelidev in https://github.com/google-gemini/gemini-cli/pull/27971\n* Refactor: exclude transient CI configuration files from workspace context by @DavidAPierce in https://github.com/google-gemini/gemini-cli/pull/28216\n* feat(caretaker-triage): add triage worker core foundational modules by @chadd28 in https://github.com/google-gemini/gemini-cli/pull/28163\n* feat(caretaker-egress): implement octokit github action handler for egress service by @chadd28 in https://github.com/google-gemini/gemini-cli/pull/28303\n* chore(release): bump version to 0.52.0-nightly.20260707.g27a3da3e8 by @gemini-cli-robot in https://github.com/google-gemini/gemini-cli/pull/28323\n* Changelog for v0.51.0-preview.0 by @gemini-cli-robot in https://github.com/google-gemini/gemini-cli/pull/28320\n* Changelog for v0.50.0 by @gemini-cli-robot in https://github.com/google-gemini/gemini-cli/pull/28322\n* fix(core-tools): bypass LLM correction for JSON and IPYNB files in write_file and replace by @amelidev in https://github.com/google-gemini/gemini-cli/pull/28223\n* fix(core): use unambiguous previous intent label in fallback summary by @amelidev in https://github.com/google-gemini/gemini-cli/pull/28343\n* feat(caretaker-triage): implement main worker execution loop and egress action publisher by @chadd28 in https://github.com/google-gemini/gemini-cli/pull/28306\n\n\n**Full Changelog**: https://github.com/google-gemini/gemini-cli/compare/v0.51.0-nightly.20260707.g15a9429b6...v0.52.0-nightly.20260710.ga4c91ce19",
+      "prerelease": true
+    }
+  ],
+  "level2_people": [
+    "@karpathy",
+    "@bcherny",
+    "@sundarpichai",
+    "@sama",
+    "@gdb",
+    "@DarioAmodei"
+  ],
+  "level2_note": "raw 无人物搜索；无依据时 Level 2 标无新增，勿编造",
+  "level3_note": "本日未扫描行业报告（周报降频）",
+  "level4_hn": [
+    {
+      "title": "AI coding agents read your code perfectly and understand your team not at all",
+      "url": "https://medium.com/@iamalizaidi110/https-www-youtube-com-watch-v-gdtyotlrndm-a00eb6f014ca",
+      "points": 7,
+      "comments": 0,
+      "created": "2026-07-11"
+    },
+    {
+      "title": "Dismissive Dan's Review of the Overplane AI Coding Harness",
+      "url": "https://www.overplane.dev/overview/dan/",
+      "points": 4,
+      "comments": 0,
+      "created": "2026-07-12"
+    },
+    {
+      "title": "China warns of 'security backdoor' in Anthropic AI coding tool",
+      "url": "https://www.channelnewsasia.com/east-asia/china-anthropic-claude-code-ai-backdoor-security-alert-6240476",
+      "points": 4,
+      "comments": 0,
+      "created": "2026-07-09"
+    },
+    {
+      "title": "Agentation – Visual UI Annotation for AI Coding Agents",
+      "url": "https://www.agentation.com/",
+      "points": 2,
+      "comments": 0,
+      "created": "2026-07-11"
+    },
+    {
+      "title": "AgentKindergarten – daycare for your AI coding agents",
+      "url": "https://github.com/rokrak1/agentkindergarten",
+      "points": 2,
+      "comments": 0,
+      "created": "2026-07-11"
+    }
+  ]
+}
