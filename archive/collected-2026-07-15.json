@@ -1,0 +1,100 @@
+{
+  "briefing_date": "2026-07-15",
+  "period_start": "2026-07-13",
+  "period_end": "2026-07-15",
+  "previous_briefing_date": "2026-07-14",
+  "previous_briefing_excerpt": "# AI x 研发效能 每日简报 2026-07-14\n\n> 覆盖周期：2026-07-12 ~ 2026-07-14（上一期：2026-07-13）\n\n> **采集方式**：GitHub Actions 自动采集（Level 1 GitHub API + Level 4 HN API）｜Level 2/3 待人工或 API 密钥补充\n\n---\n\n## 头条速览\n\n1. **Claude Code v2.1.209**——## What's changed\n2. **Gemini CLI v0.52.0-nightly.20260714.gfa975395b**——## What's Changed\n3. **Codex rust-v0.144.4**——## Chores\n\n---\n\n## 一、AI 增强软件研发（AI4SE）\n\n### 1.1 Level 1：核心产品与工程更新\n\n#### 1️⃣ Claude Code v2.1.209（2026-07-14）\n\n## What's changed\n\n来源：[v2.1.209](https://github.com/anthropics/claude-code/releases/tag/v2.1.209) — 2026-07-14\n\n#### 2️⃣ Gemini CLI v0.52.0-nightly.20260714.gfa975395b（2026-07-14）\n\n## What's Changed\n\n来源：[v0.52.0-nightly.20260714.gfa975395b](https://github.com/google-gemini/gemini-cli/releases/tag/v0.52.0-nightly.20260714.gfa975395b) — 2026-07-14\n\n#### 3️⃣ Codex rust-v0.144.4（2026-07-14）\n\n## Chores\n\n来源：[rust-v0.144.4](https://github.com/openai/codex/releases/tag/rust-v0.144.4) — 2026-07-14\n\n#### 4️⃣ OpenClaw v2026.7.1（2026-07-13）\n\n## 2026.7.1\n\n来源：[v2026.7.1](https://github.com/openclaw/openclaw/releases/tag/v2026.7.1) — 2026-07-13\n\n---\n\n### 1.2 Level 2：关键人物战略洞察\n\n| 人物 | 动态 | 日期 |\n|---|---|---|\n| @karpathy | 自动采集未配置（需 WebSearch / X 间接源） | — |\n| @bcherny | 自动采集未配置（需 WebSearch / X 间接源） | — |\n| @sundarpichai | 自动采集未配置（需 WebSearch / X 间接源） | — |\n| @sama | 自动采集未配置（需 WebSearch / X 间接源） | — |\n| @gdb | 自动采集未配置（需 WebSearch / X 间接源） | — |\n| @DarioAmodei | 自动采集未配置（需 WebSearch / X 间接源） | — |\n\n---\n\n### 1.3 Level 3：行业研究与数据\n\n> **本日未扫描**（周报/月报降频）。\n\n---\n\n### 1.4 Level 4：补充信源（HN）\n\n- **2026-07-11**：[AI coding agents read your code perfectly and understand your team not at all](https://medium.com/@iamalizaidi110/https-www-youtube-com-watch-v-gdtyotlrndm-a00eb6f014ca) （7 pts / 0 comments）\n- **2026-07-13**：[Show HN: A developer tool guide for AI coding agents (900 tools and counting)](https://zairalabs.ai/guide/) （4 pts / 3 comments）\n- **2026-07-12**：[Dismissive Dan's Review of the Overplane AI Coding Harness](https://www.overplane.dev/overview/dan/) （4 pts / 0 comments）\n- **2026-07-13**：[AI Agent Coding Comparison: The Rust Leap Year Challenge](https://www.mariusb.net/blog/2026/07/ai-agent-comparison-rust-leap-year/) （3 pts / 0 comments）\n- **2026-07-12**：[OneDev AI: Coding Agents as Teammates in Issues, Pull Requests, and CI](https://onedev.io/blogs/ai-teammates) （3 pts / 0 comments）\n\n---\n\n## 附录：采集日志\n\n| 环节 | 状态 |\n|---|---|\n| GitHub Releases API | ✅ 4 条 |\n| HN Algolia API | ✅ 5 条 |\n| 生成时间 (UTC) | 2026-07-14 14:41 |\n\n*自动生成版 · 可在 Cursor 中基于本稿补充 Level 2 分析与专题*\n",
+  "level1_releases": [
+    {
+      "product": "Gemini CLI",
+      "repo": "google-gemini/gemini-cli",
+      "tag": "v0.52.0-nightly.20260715.gfa975395b",
+      "name": "Release v0.52.0-nightly.20260715.gfa975395b",
+      "published": "2026-07-15",
+      "url": "https://github.com/google-gemini/gemini-cli/releases/tag/v0.52.0-nightly.20260715.gfa975395b",
+      "summary": "**Full Changelog**: https://github.com/google-gemini/gemini-cli/compare/v0.52.0-nightly.20260714.gfa975395b...v0.52.0-nightly.20260715.gfa975395b",
+      "body_excerpt": "**Full Changelog**: https://github.com/google-gemini/gemini-cli/compare/v0.52.0-nightly.20260714.gfa975395b...v0.52.0-nightly.20260715.gfa975395b",
+      "prerelease": true
+    },
+    {
+      "product": "Claude Code",
+      "repo": "anthropics/claude-code",
+      "tag": "v2.1.210",
+      "name": "v2.1.210",
+      "published": "2026-07-14",
+      "url": "https://github.com/anthropics/claude-code/releases/tag/v2.1.210",
+      "summary": "## What's changed",
+      "body_excerpt": "## What's changed\n\n- Added a live elapsed-time counter to the collapsed tool summary line so long-running tool calls visibly tick instead of looking stuck\n- Added a startup warning for `Write(path)`, `NotebookEdit(path)`, and `Glob(path)` permission rules — use `Edit(path)` or `Read(path)` instead\n- Fixed `isolation: 'worktree'` subagents being able to run git-mutating commands against the main repo checkout instead of their own isolated worktree\n- Fixed the `ultracode` keyword opt-in firing on non-human-originated input such as webhook payloads and relayed PR comments\n- Fixed a rendered text fragment leaking into crash telemetry when a UI component returned content outside a styled text element\n- Fixed paste markers leaking into external editors opened from Claude Code, which could appear as stray È/É characters around pasted text\n- Fixed `claude attach` sometimes failing with \"job not found\" or \"agent is still starting\" errors during session transitions — attach now waits for the daemon to settle, and terminal resizes during a slow attach are applied once it completes\n- Fixed a session crash when a tool's result renderer returned a numeric bigint value or plain text instead of a UI element\n- Fixed a hook callback timeout being misreported to the model as a user rejection, which made unattended sessions stop and wait\n- Fixed Claude assuming a `cd` took effect after its command was moved to the background; the tool result now states the working directory is unchanged\n- Fixed plugin-provided MCP servers being torn down when MCP servers are re-synced mid-session\n- Fixed plan approvals without edits being labeled \"(edited by user)\" and overwriting the plan file with a stale snapshot\n- Fixed `/doctor` skipping its auto-mode-default proposal on Bedrock, Vertex, and Foundry, where auto mode no longer needs an opt-in\n- Fixed Grep content mode claiming \"No matches found\" when paginating past the end of results\n- Fixed unmatched `$1`/`$2` positional placeholders in skills and commands being silently stripped; they are now preserved verbatim\n- Fixed plugin cache writes leaving temp files behind on failure and failing on locked-file renames on Windows and network filesystems\n- Fixed background workers crash-looping when a client resets its connection to the background service\n- Fixed `claude agents --effort ultracode` not reaching dispatched sessions; the value was silently dropped\n- Fixed pressing ← to open the agents view dropping the task tracker when returning to",
+      "prerelease": false
+    },
+    {
+      "product": "Codex",
+      "repo": "openai/codex",
+      "tag": "rust-v0.144.4",
+      "name": "0.144.4",
+      "published": "2026-07-14",
+      "url": "https://github.com/openai/codex/releases/tag/rust-v0.144.4",
+      "summary": "## Chores",
+      "body_excerpt": "## Chores\n\n- No user-facing changes in this patch release.\n\n## Changelog\n\nFull Changelog: https://github.com/openai/codex/compare/rust-v0.144.3...rust-v0.144.4",
+      "prerelease": false
+    },
+    {
+      "product": "OpenClaw",
+      "repo": "openclaw/openclaw",
+      "tag": "v2026.7.1",
+      "name": "openclaw 2026.7.1",
+      "published": "2026-07-13",
+      "url": "https://github.com/openclaw/openclaw/releases/tag/v2026.7.1",
+      "summary": "## 2026.7.1",
+      "body_excerpt": "## 2026.7.1\n\nOpenClaw v2026.7.1 brings major Control UI and onboarding overhauls, major updates to the official iOS, Android, and macOS apps, expanded model and provider support including GPT-5.6 compatibility, Tencent Hy3, and Meta Muse Spark 1.1, and stronger Codex and connected coding-agent workflows. Telegram, Slack, Discord, and Apple Messages each receive substantial updates, while Gateway crash loops, scheduled work, remote browser control, workspace terminals, sessions, and goals also improve. There are also many general fixes and refinements throughout OpenClaw.\n\n[Read the full release notes](https://docs.openclaw.ai/releases/2026.7.1)\n\nThis release brings together 3,063 contributions from 532 contributors.\n\n### Highlights\n\n- **Control UI overhaul:** conversations are easier to organize and work with side by side, with live Tasks, clearer chat controls, better usage and cost views, files, downloads, pairing, approvals, and Gateway health kept close to the conversation.\n- **Easier setup from install to first chat:** guided setup provides clearer steps toward a working first chat, checks connections before saving them, and preserves earlier choices when setup is interrupted.\n- **Official app updates:** iOS and iPadOS, Android, and macOS received substantial work across setup, navigation, chat, voice, permissions, localization, files, scheduled work, offline reading, queued sends, connection recovery, and native session controls.\n- **Models and providers:** GPT-5.6 compatibility improves across supported OpenAI and Codex routes, Tencent Hy3 gains a complete setup path, Meta Model API adds Muse Spark 1.1, and broader Claude, Ollama, ClawRouter, LongCat, and provider work expands choice and reliability.\n- **Codex and connected coding agents:** `openclaw attach` gives Claude Code temporary access to a selected session, Codex delegation and native subagents return tracked results more reliably, Copilot gains broader provider choices, and long-running sessions and goals are easier to resume.\n- **Telegram:** live progress, photos and documents, topics, commands, retries, account routing, setup, and delivery all received substantial work.\n- **Slack:** threads, cards, progress, identity, reactions, and duplicate prevention improve, while longer conversations avoid more unnecessary waits.\n- **Discord:** replies, attachments, voice sessions, progress, reconnects, and multi-account behavior improve, with better unread cues and recovery from repeated session-res",
+      "prerelease": false
+    }
+  ],
+  "level2_people": [
+    "@karpathy",
+    "@bcherny",
+    "@sundarpichai",
+    "@sama",
+    "@gdb",
+    "@DarioAmodei"
+  ],
+  "level2_note": "raw 无人物搜索；无依据时 Level 2 标无新增，勿编造",
+  "level3_note": "本日未扫描行业报告（周报降频）",
+  "level4_hn": [
+    {
+      "title": "Show HN: A developer tool guide for AI coding agents (900 tools and counting)",
+      "url": "https://zairalabs.ai/guide/",
+      "points": 4,
+      "comments": 3,
+      "created": "2026-07-13"
+    },
+    {
+      "title": "Dismissive Dan's Review of the Overplane AI Coding Harness",
+      "url": "https://www.overplane.dev/overview/dan/",
+      "points": 4,
+      "comments": 0,
+      "created": "2026-07-12"
+    },
+    {
+      "title": "AI Agent Coding Comparison: The Rust Leap Year Challenge",
+      "url": "https://www.mariusb.net/blog/2026/07/ai-agent-comparison-rust-leap-year/",
+      "points": 3,
+      "comments": 0,
+      "created": "2026-07-13"
+    },
+    {
+      "title": "OneDev AI: Coding Agents as Teammates in Issues, Pull Requests, and CI",
+      "url": "https://onedev.io/blogs/ai-teammates",
+      "points": 3,
+      "comments": 0,
+      "created": "2026-07-12"
+    },
+    {
+      "title": "Vibe Pad: A 4-Button Bluetooth Macro Keyboard with a Mic for AI Coding",
+      "url": "https://www.instructables.com/Vibe-Pad/",
+      "points": 2,
+      "comments": 0,
+      "created": "2026-07-14"
+    }
+  ]
+}
