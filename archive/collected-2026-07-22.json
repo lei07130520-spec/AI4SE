@@ -1,0 +1,100 @@
+{
+  "briefing_date": "2026-07-22",
+  "period_start": "2026-07-20",
+  "period_end": "2026-07-22",
+  "previous_briefing_date": "2026-07-21",
+  "previous_briefing_excerpt": "# AI x 研发效能 每日简报 2026-07-21\n\n> 覆盖周期：2026-07-19 ~ 2026-07-21（上一期：2026-07-20）\n\n> **采集方式**：GitHub Actions 自动采集（Level 1 GitHub API + Level 4 HN API）｜Level 2/3 待人工或 API 密钥补充\n\n---\n\n## 头条速览\n\n1. **Gemini CLI v0.52.0-nightly.20260721.gacae7124b**——**Full Changelog**: https://github.com/google-ge\n2. **Codex rust-v0.145.0-alpha.29**——Release 0.145.0-alpha.29\n3. **Hermes Agent v2026.7.20**——# Hermes Agent v0.19.0 (v2026.7.20)\n\n---\n\n## 一、AI 增强软件研发（AI4SE）\n\n### 1.1 Level 1：核心产品与工程更新\n\n#### 1️⃣ Gemini CLI v0.52.0-nightly.20260721.gacae7124b（2026-07-21）\n\n**Full Changelog**: https://github.com/google-gemini/gemini-cli/compare/v0.52.0-nightly.20260720.gacae7124b...v0.52.0-nightly.20260721.gacae7124b\n\n来源：[v0.52.0-nightly.20260721.gacae7124b](https://github.com/google-gemini/gemini-cli/releases/tag/v0.52.0-nightly.20260721.gacae7124b) — 2026-07-21\n\n#### 2️⃣ Codex rust-v0.145.0-alpha.29（2026-07-21）\n\nRelease 0.145.0-alpha.29\n\n来源：[rust-v0.145.0-alpha.29](https://github.com/openai/codex/releases/tag/rust-v0.145.0-alpha.29) — 2026-07-21\n\n#### 3️⃣ Hermes Agent v2026.7.20（2026-07-20）\n\n# Hermes Agent v0.19.0 (v2026.7.20)\n\n来源：[v2026.7.20](https://github.com/NousResearch/hermes-agent/releases/tag/v2026.7.20) — 2026-07-20\n\n#### 4️⃣ Claude Code v2.1.216（2026-07-20）\n\n## What's changed\n\n来源：[v2.1.216](https://github.com/anthropics/claude-code/releases/tag/v2.1.216) — 2026-07-20\n\n---\n\n### 1.2 Level 2：关键人物战略洞察\n\n| 人物 | 动态 | 日期 |\n|---|---|---|\n| @karpathy | 自动采集未配置（需 WebSearch / X 间接源） | — |\n| @bcherny | 自动采集未配置（需 WebSearch / X 间接源） | — |\n| @sundarpichai | 自动采集未配置（需 WebSearch / X 间接源） | — |\n| @sama | 自动采集未配置（需 WebSearch / X 间接源） | — |\n| @gdb | 自动采集未配置（需 WebSearch / X 间接源） | — |\n| @DarioAmodei | 自动采集未配置（需 WebSearch / X 间接源） | — |\n\n---\n\n### 1.3 Level 3：行业研究与数据\n\n> **本日未扫描**（周报/月报降频）。\n\n---\n\n### 1.4 Level 4：补充信源（HN）\n\n- **2026-07-19**：[Show HN: Shikigami, run AI coding agents in parallel, each in a Git worktree](https://shikigami.dev/) （7 pts / 2 comments）\n- **2026-07-20**：[Beyond grep: The case for a context-rich AI coding harness](https://arstechnica.com/ai/2026/07/beyond-grep-the-case-for-a-context-rich-ai-coding-harness/) （4 pts / 0 comments）\n- **2026-07-18**：[Show HN: TrAIcer – capture your AI coding traces to sell later](https://github.com/smashah/traicer) （3 pts / 1 comments）\n- **2026-07-19**：[Show HN: Flightwake – a flight recorder for AI coding agents, not a navigator](https://github.com/kaiwutech-TW/flightwake) （3 pts / 0 comments）\n- **2026-07-21**：[Show HN: Pinpoint – Visual feedback for AI coding agents](https://pinpoint.maferland.com/) （2 pts / 1 comments）\n\n---\n\n## 附录：采集日志\n\n| 环节 | 状态 |\n|---|---|\n| GitHub Releases API | ✅ 4 条 |\n| HN Algolia API | ✅ 5 条 |\n| 生成时间 (UTC) | 2026-07-21 14:53 |\n\n*自动生成版 · 可在 Cursor 中基于本稿补充 Level 2 分析与专题*\n",
+  "level1_releases": [
+    {
+      "product": "Gemini CLI",
+      "repo": "google-gemini/gemini-cli",
+      "tag": "v0.52.0-nightly.20260722.gc776c665b",
+      "name": "Release v0.52.0-nightly.20260722.gc776c665b",
+      "published": "2026-07-22",
+      "url": "https://github.com/google-gemini/gemini-cli/releases/tag/v0.52.0-nightly.20260722.gc776c665b",
+      "summary": "## What's Changed",
+      "body_excerpt": "## What's Changed\n* fix(a2a-server): enforce workspace trust and task isolation to prevent RCE by @luisfelipe-alt in https://github.com/google-gemini/gemini-cli/pull/28470\n\n\n**Full Changelog**: https://github.com/google-gemini/gemini-cli/compare/v0.52.0-nightly.20260721.gacae7124b...v0.52.0-nightly.20260722.gc776c665b",
+      "prerelease": true
+    },
+    {
+      "product": "Claude Code",
+      "repo": "anthropics/claude-code",
+      "tag": "v2.1.217",
+      "name": "v2.1.217",
+      "published": "2026-07-21",
+      "url": "https://github.com/anthropics/claude-code/releases/tag/v2.1.217",
+      "summary": "## What's changed",
+      "body_excerpt": "## What's changed\n\n- Added emoji shortcode autocomplete in the prompt input: type `:heart:` to insert ❤️, or `:hea` for suggestions — disable with the `emojiCompletionEnabled` setting\n- Added warnings when transcript writes are failing (e.g. disk full) or when session saving is off due to an inherited environment variable, instead of losing transcripts silently\n- Fixed a memory leak where truncated MCP tool outputs kept the full untruncated result in memory for the rest of the session\n- Fixed Windows auto-update failures that could leave `claude.exe` missing; failed updates now restore the preserved executable automatically\n- Fixed background session isolation not canonicalizing symlinked working directories, which could let sessions escape their workspace folder\n- Fixed auto-compact never triggering for Claude Opus 4.8 on Bedrock and `/compact` failing once over the limit\n- Fixed corporate mTLS, TLS-verify, OAuth scope, and proxy settings being ignored in Claude Desktop sessions\n- Fixed screen reader mode's startup announcement being cut off by the first prompt render, and the thinking status row re-rendering every few seconds to update elapsed time and token counts\n- Fixed managed settings that set `OTEL_EXPORTER_OTLP_ENDPOINT` not governing all signals — lower-scope signal-specific overrides no longer redirect telemetry away from the managed endpoint\n- Fixed `--resume`/`--continue` and `/resume` failing with a TypeError when a transcript has a malformed attachment entry\n- Fixed Remote Control sessions not showing a pending permission prompt or dialog to viewers that connected after it appeared\n- Fixed background shells sometimes becoming impossible to stop after a session is sent to the background (`/background` or `←`) or when the session exits on a heavily loaded machine, most visible on Windows\n- Fixed a `CLAUDE.md` or `SKILL.md` paths frontmatter value with many brace groups OOM-killing or stalling the CLI at startup — brace expansion is now budget-bounded\n- Fixed the transcript preview sitting flush against the input area when attaching to a starting background session; it now leaves the same one-line gap as the live layout, so the transcript no longer shifts when the session takes over\n- Improved footer PR badge links to be clickable hyperlinks even when terminal support can't be detected (e.g. over ssh/tmux); set `FORCE_HYPERLINK=0` to opt out\n- Changed the login-expiry warning to appear 3 days before expiry instead of 5\n- Capped the frontend-des",
+      "prerelease": false
+    },
+    {
+      "product": "Codex",
+      "repo": "openai/codex",
+      "tag": "rust-v0.145.0",
+      "name": "0.145.0",
+      "published": "2026-07-21",
+      "url": "https://github.com/openai/codex/releases/tag/rust-v0.145.0",
+      "summary": "## New Features",
+      "body_excerpt": "## New Features\n\n- Added experimental paginated thread history with efficient resume, search, persisted names, sub-agent support, and memories. (#33364, #33907, #34085, #34229, #34386)\n- Expanded `/import` to migrate Cursor and Claude Code settings, MCP servers, plugins, sessions, commands, and project-scoped memories. (#31672, #33411, #33426, #33444)\n- Added experimental Amazon Bedrock login, custom endpoint and authentication support, and GPT-5.6 Sol as the default Bedrock model. (#31327, #33170, #33175, #32288, #33695)\n- Added audio inputs and tool outputs, including common local audio formats, and introduced streaming realtime V3 conversations. (#33261, #33856, #33932, #34080, #34385)\n- Stabilized the opt-in multi-agent V2 experience with configurable sub-agent models, reasoning levels, concurrency, restored roles, and improved agent navigation. (#33550, #33631, #33657, #33841, #34383)\n- Added secure, clickable inline visualization links in the terminal UI. (#33925, #34217, #34346)\n\n## Bug Fixes\n\n- Editing an earlier prompt or retrying a safety-buffered turn now creates a contextual branch, preserving the original conversation, attachments, and mention bindings. (#33201, #33207, #33211)\n- Improved terminal responsiveness for long conversations and streamed output through incremental Markdown rendering, fewer redraws, caching, and bounded command output. (#34045, #34049, #34216, #34223, #34359)\n- Prevented slow or conflicting MCP startup and authentication flows by enforcing startup timeouts, avoiding blocking OAuth discovery, serializing refreshes, and reusing tool catalogs safely. (#32229, #32781, #32825, #33184, #33297)\n- Improved Windows execution and sandbox reliability, including native exec-server sandboxing, network-proxy enforcement, hidden helper consoles, and correctly quoted hook commands. (#32849, #32857, #33926, #34423)\n- Fixed compact release-metadata parsing and macOS code-mode installation, with an in-process fallback when the external code-mode host is unavailable. (#31667, #31876, #31899)\n- Strengthened safety and approval handling with better forced-`rm` detection, consistent full-access confirmation, and preserved rejection reasons across tools. (#32989, #33464, #34400)\n\n## Documentation\n\n- Updated the bundled OpenAI Docs skill with current GPT-5.6 model resolution, prompting, and migration guidance across macOS, Linux, and Windows. (#31842, #33121)\n\n## Chores\n\n- Migrated bundled GPT-5.4 selections and internal uses to the correspon",
+      "prerelease": false
+    },
+    {
+      "product": "Hermes Agent",
+      "repo": "NousResearch/hermes-agent",
+      "tag": "v2026.7.20",
+      "name": "Hermes Agent v0.19.0 (2026.7.20) — The Quicksilver Release",
+      "published": "2026-07-20",
+      "url": "https://github.com/NousResearch/hermes-agent/releases/tag/v2026.7.20",
+      "summary": "# Hermes Agent v0.19.0 (v2026.7.20)",
+      "body_excerpt": "# Hermes Agent v0.19.0 (v2026.7.20)\n\n\n**Release Date:** July 20, 2026\n**Since v0.18.0:** ~2,245 commits · ~1,065 merged PRs · ~2,465 files changed · ~300,000 insertions · ~36,000 deletions · **~3,300 issues closed** · **450+ community contributors**\n\n> **The Quicksilver Release.** Hermes is the messenger god, and this window we made him move like it. First-turn time-to-first-token dropped **~80% on every platform**, reasoning streams live by default, the desktop app got a ~20-PR speed overhaul (14× faster streaming markdown, virtualized diffs, snappy session switching), and the TUI renders markdown incrementally. Around that speed spine: you can now **manage your Nous subscription without leaving the terminal**, plug **Bitwarden and 1Password** straight into Hermes, let **smart approvals** judge flagged commands for you by default, **watch your subagents work live**, and trust that a finished response **survives a gateway crash** thanks to a durable delivery ledger. This release also rolls up everything from the v0.18.1 and v0.18.2 infrastructure patch tags — those windows are fully documented here.\n\n---\n\n## ✨ Highlights\n\n- **Hermes got dramatically faster — first token in a fraction of the time** — Cold-start \"Initializing agent...\" used to eat ~4.3 seconds before your first turn even reached the model; it's now ~0.9s, an ~80% cut that applies to the CLI, gateway, TUI, desktop, and cron alike. Round 2 attacked what you *see* while waiting: reasoning models now stream their thinking live by default (no more staring at a spinner for 30 seconds), and the response box paints per token instead of per line. If Hermes ever felt like it took a deep breath before answering, that breath is gone. ([#59332](https://github.com/NousResearch/hermes-agent/pull/59332), [#59389](https://github.com/NousResearch/hermes-agent/pull/59389) — @teknium1)\n\n- **The desktop app speed wave — 20+ targeted perf PRs** — Long replies used to cost 14× more CPU in the markdown splitter than they do now; giant diffs froze the review pane until we virtualized it; switching sessions thrashes layout no more. Streaming no longer re-renders the sidebar and every tool row per token, profile backends pre-warm on hover intent, and boot-hidden panes mount at idle instead of on the cold-start critical path. The net effect: the desktop app feels like a native app under load, even with huge transcripts and busy agents. ([#67154](https://github.com/NousResearch/hermes-agent/pull/67154), [#67818](https:/",
+      "prerelease": false
+    }
+  ],
+  "level2_people": [
+    "@karpathy",
+    "@bcherny",
+    "@sundarpichai",
+    "@sama",
+    "@gdb",
+    "@DarioAmodei"
+  ],
+  "level2_note": "raw 无人物搜索；无依据时 Level 2 标无新增，勿编造",
+  "level3_note": "本日未扫描行业报告（周报降频）",
+  "level4_hn": [
+    {
+      "title": "Show HN: Shikigami, run AI coding agents in parallel, each in a Git worktree",
+      "url": "https://shikigami.dev/",
+      "points": 7,
+      "comments": 2,
+      "created": "2026-07-19"
+    },
+    {
+      "title": "Show HN: Pinpoint – Visual feedback for AI coding agents",
+      "url": "https://pinpoint.maferland.com/",
+      "points": 4,
+      "comments": 1,
+      "created": "2026-07-21"
+    },
+    {
+      "title": "Beyond grep: The case for a context-rich AI coding harness",
+      "url": "https://arstechnica.com/ai/2026/07/beyond-grep-the-case-for-a-context-rich-ai-coding-harness/",
+      "points": 4,
+      "comments": 0,
+      "created": "2026-07-20"
+    },
+    {
+      "title": "Show HN: QuantmLayer – kernel-enforced containment for AI coding agents",
+      "url": "https://github.com/quantmlayer/quantmlayer",
+      "points": 3,
+      "comments": 0,
+      "created": "2026-07-21"
+    },
+    {
+      "title": "Show HN: Flightwake – a flight recorder for AI coding agents, not a navigator",
+      "url": "https://github.com/kaiwutech-TW/flightwake",
+      "points": 3,
+      "comments": 0,
+      "created": "2026-07-19"
+    }
+  ]
+}
