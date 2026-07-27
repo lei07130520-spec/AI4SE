@@ -1,0 +1,89 @@
+{
+  "briefing_date": "2026-07-27",
+  "period_start": "2026-07-25",
+  "period_end": "2026-07-27",
+  "previous_briefing_date": "2026-07-26",
+  "previous_briefing_excerpt": "# AI x 研发效能 每日简报 2026-07-26\n\n> 覆盖周期：2026-07-24 ~ 2026-07-26（上一期：2026-07-25）\n\n> **采集方式**：GitHub Actions 自动采集（Level 1 GitHub API + Level 4 HN API）｜Level 2/3 待人工或 API 密钥补充\n\n---\n\n## 头条速览\n\n1. **Gemini CLI v0.54.0-nightly.20260726.g3818efbbf**——## What's Changed\n2. **Claude Code v2.1.220**——## What's changed\n3. **Codex rust-v0.146.0-alpha.10.1**——Release 0.146.0-alpha.10.1\n\n---\n\n## 一、AI 增强软件研发（AI4SE）\n\n### 1.1 Level 1：核心产品与工程更新\n\n#### 1️⃣ Gemini CLI v0.54.0-nightly.20260726.g3818efbbf（2026-07-26）\n\n## What's Changed\n\n来源：[v0.54.0-nightly.20260726.g3818efbbf](https://github.com/google-gemini/gemini-cli/releases/tag/v0.54.0-nightly.20260726.g3818efbbf) — 2026-07-26\n\n#### 2️⃣ Claude Code v2.1.220（2026-07-25）\n\n## What's changed\n\n来源：[v2.1.220](https://github.com/anthropics/claude-code/releases/tag/v2.1.220) — 2026-07-25\n\n#### 3️⃣ Codex rust-v0.146.0-alpha.10.1（2026-07-25）\n\nRelease 0.146.0-alpha.10.1\n\n来源：[rust-v0.146.0-alpha.10.1](https://github.com/openai/codex/releases/tag/rust-v0.146.0-alpha.10.1) — 2026-07-25\n\n---\n\n### 1.2 Level 2：关键人物战略洞察\n\n| 人物 | 动态 | 日期 |\n|---|---|---|\n| @karpathy | 自动采集未配置（需 WebSearch / X 间接源） | — |\n| @bcherny | 自动采集未配置（需 WebSearch / X 间接源） | — |\n| @sundarpichai | 自动采集未配置（需 WebSearch / X 间接源） | — |\n| @sama | 自动采集未配置（需 WebSearch / X 间接源） | — |\n| @gdb | 自动采集未配置（需 WebSearch / X 间接源） | — |\n| @DarioAmodei | 自动采集未配置（需 WebSearch / X 间接源） | — |\n\n---\n\n### 1.3 Level 3：行业研究与数据\n\n> **本日未扫描**（周报/月报降频）。\n\n---\n\n### 1.4 Level 4：补充信源（HN）\n\n- **2026-07-23**：[Anthropic is subsidizing our AI coding at 13x. How long will it last?](https://modelplane.ai/blog/ai-coding-subsidy-multiple) （20 pts / 2 comments）\n- **2026-07-23**：[AI Coding Will Prevent Expertise](https://larsfaye.com/articles/ai-coding-will-prevent-expertise) （5 pts / 0 comments）\n- **2026-07-24**：[AI Coding will Prevent Expertise – The need for friction in skill formation](https://larsfaye.com/articles/ai-coding-will-prevent-expertise) （4 pts / 6 comments）\n- **2026-07-25**：[Coordination layer for AI coding agents, built on Git](https://github.com/zyads/loom-vcs) （3 pts / 0 comments）\n- **2026-07-24**：[Show HN: Continuum – switch AI coding agents without re-explaining your project](https://github.com/AnasNafees1802/continuum) （3 pts / 0 comments）\n\n---\n\n## 附录：采集日志\n\n| 环节 | 状态 |\n|---|---|\n| GitHub Releases API | ✅ 3 条 |\n| HN Algolia API | ✅ 5 条 |\n| 生成时间 (UTC) | 2026-07-26 14:22 |\n\n*自动生成版 · 可在 Cursor 中基于本稿补充 Level 2 分析与专题*\n",
+  "level1_releases": [
+    {
+      "product": "Gemini CLI",
+      "repo": "google-gemini/gemini-cli",
+      "tag": "v0.54.0-nightly.20260727.g3818efbbf",
+      "name": "Release v0.54.0-nightly.20260727.g3818efbbf",
+      "published": "2026-07-27",
+      "url": "https://github.com/google-gemini/gemini-cli/releases/tag/v0.54.0-nightly.20260727.g3818efbbf",
+      "summary": "**Full Changelog**: https://github.com/google-gemini/gemini-cli/compare/v0.54.0-nightly.20260726.g3818efbbf...v0.54.0-nightly.20260727.g3818efbbf",
+      "body_excerpt": "**Full Changelog**: https://github.com/google-gemini/gemini-cli/compare/v0.54.0-nightly.20260726.g3818efbbf...v0.54.0-nightly.20260727.g3818efbbf",
+      "prerelease": true
+    },
+    {
+      "product": "Codex",
+      "repo": "openai/codex",
+      "tag": "rust-v0.146.0-alpha.12",
+      "name": "0.146.0-alpha.12",
+      "published": "2026-07-27",
+      "url": "https://github.com/openai/codex/releases/tag/rust-v0.146.0-alpha.12",
+      "summary": "Release 0.146.0-alpha.12",
+      "body_excerpt": "Release 0.146.0-alpha.12",
+      "prerelease": true
+    },
+    {
+      "product": "Claude Code",
+      "repo": "anthropics/claude-code",
+      "tag": "v2.1.220",
+      "name": "v2.1.220",
+      "published": "2026-07-25",
+      "url": "https://github.com/anthropics/claude-code/releases/tag/v2.1.220",
+      "summary": "## What's changed",
+      "body_excerpt": "## What's changed\n\n- Bug fixes and reliability improvements",
+      "prerelease": false
+    }
+  ],
+  "level2_people": [
+    "@karpathy",
+    "@bcherny",
+    "@sundarpichai",
+    "@sama",
+    "@gdb",
+    "@DarioAmodei"
+  ],
+  "level2_note": "raw 无人物搜索；无依据时 Level 2 标无新增，勿编造",
+  "level3_note": "本日未扫描行业报告（周报降频）",
+  "level4_hn": [
+    {
+      "title": "AI Coding will Prevent Expertise – The need for friction in skill formation",
+      "url": "https://larsfaye.com/articles/ai-coding-will-prevent-expertise",
+      "points": 4,
+      "comments": 6,
+      "created": "2026-07-24"
+    },
+    {
+      "title": "Coordination layer for AI coding agents, built on Git",
+      "url": "https://github.com/zyads/loom-vcs",
+      "points": 3,
+      "comments": 0,
+      "created": "2026-07-25"
+    },
+    {
+      "title": "Show HN: Continuum – switch AI coding agents without re-explaining your project",
+      "url": "https://github.com/AnasNafees1802/continuum",
+      "points": 3,
+      "comments": 0,
+      "created": "2026-07-24"
+    },
+    {
+      "title": "Ask HN: What's the best AI coding tool today?",
+      "url": "https://news.ycombinator.com/item?id=49040025",
+      "points": 2,
+      "comments": 2,
+      "created": "2026-07-24"
+    },
+    {
+      "title": "Belay: A local firewall for AI coding agents",
+      "url": "https://github.com/SECBLOK/belay",
+      "points": 2,
+      "comments": 0,
+      "created": "2026-07-27"
+    }
+  ]
+}
