@@ -1,0 +1,89 @@
+{
+  "briefing_date": "2026-07-28",
+  "period_start": "2026-07-26",
+  "period_end": "2026-07-28",
+  "previous_briefing_date": "2026-07-27",
+  "previous_briefing_excerpt": "# AI x 研发效能 每日简报 2026-07-27\n\n> 覆盖周期：2026-07-25 ~ 2026-07-27（上一期：2026-07-26）\n\n> **采集方式**：GitHub Actions 自动采集（Level 1 GitHub API + Level 4 HN API）｜Level 2/3 待人工或 API 密钥补充\n\n---\n\n## 头条速览\n\n1. **Gemini CLI v0.54.0-nightly.20260727.g3818efbbf**——**Full Changelog**: https://github.com/google-ge\n2. **Codex rust-v0.146.0-alpha.12**——Release 0.146.0-alpha.12\n3. **Claude Code v2.1.220**——## What's changed\n\n---\n\n## 一、AI 增强软件研发（AI4SE）\n\n### 1.1 Level 1：核心产品与工程更新\n\n#### 1️⃣ Gemini CLI v0.54.0-nightly.20260727.g3818efbbf（2026-07-27）\n\n**Full Changelog**: https://github.com/google-gemini/gemini-cli/compare/v0.54.0-nightly.20260726.g3818efbbf...v0.54.0-nightly.20260727.g3818efbbf\n\n来源：[v0.54.0-nightly.20260727.g3818efbbf](https://github.com/google-gemini/gemini-cli/releases/tag/v0.54.0-nightly.20260727.g3818efbbf) — 2026-07-27\n\n#### 2️⃣ Codex rust-v0.146.0-alpha.12（2026-07-27）\n\nRelease 0.146.0-alpha.12\n\n来源：[rust-v0.146.0-alpha.12](https://github.com/openai/codex/releases/tag/rust-v0.146.0-alpha.12) — 2026-07-27\n\n#### 3️⃣ Claude Code v2.1.220（2026-07-25）\n\n## What's changed\n\n来源：[v2.1.220](https://github.com/anthropics/claude-code/releases/tag/v2.1.220) — 2026-07-25\n\n---\n\n### 1.2 Level 2：关键人物战略洞察\n\n| 人物 | 动态 | 日期 |\n|---|---|---|\n| @karpathy | 自动采集未配置（需 WebSearch / X 间接源） | — |\n| @bcherny | 自动采集未配置（需 WebSearch / X 间接源） | — |\n| @sundarpichai | 自动采集未配置（需 WebSearch / X 间接源） | — |\n| @sama | 自动采集未配置（需 WebSearch / X 间接源） | — |\n| @gdb | 自动采集未配置（需 WebSearch / X 间接源） | — |\n| @DarioAmodei | 自动采集未配置（需 WebSearch / X 间接源） | — |\n\n---\n\n### 1.3 Level 3：行业研究与数据\n\n> **本日未扫描**（周报/月报降频）。\n\n---\n\n### 1.4 Level 4：补充信源（HN）\n\n- **2026-07-24**：[AI Coding will Prevent Expertise – The need for friction in skill formation](https://larsfaye.com/articles/ai-coding-will-prevent-expertise) （4 pts / 6 comments）\n- **2026-07-25**：[Coordination layer for AI coding agents, built on Git](https://github.com/zyads/loom-vcs) （3 pts / 0 comments）\n- **2026-07-24**：[Show HN: Continuum – switch AI coding agents without re-explaining your project](https://github.com/AnasNafees1802/continuum) （3 pts / 0 comments）\n- **2026-07-24**：[Ask HN: What's the best AI coding tool today?](https://news.ycombinator.com/item?id=49040025) （2 pts / 2 comments）\n- **2026-07-27**：[Belay: A local firewall for AI coding agents](https://github.com/SECBLOK/belay) （2 pts / 0 comments）\n\n---\n\n## 附录：采集日志\n\n| 环节 | 状态 |\n|---|---|\n| GitHub Releases API | ✅ 3 条 |\n| HN Algolia API | ✅ 5 条 |\n| 生成时间 (UTC) | 2026-07-27 15:34 |\n\n*自动生成版 · 可在 Cursor 中基于本稿补充 Level 2 分析与专题*\n",
+  "level1_releases": [
+    {
+      "product": "OpenClaw",
+      "repo": "openclaw/openclaw",
+      "tag": "v2026.7.2-beta.5",
+      "name": "openclaw 2026.7.2-beta.5",
+      "published": "2026-07-28",
+      "url": "https://github.com/openclaw/openclaw/releases/tag/v2026.7.2-beta.5",
+      "summary": "## 2026.7.2",
+      "body_excerpt": "## 2026.7.2\n\n### Highlights\n\n- **State safety and recovery:** protect persisted data with a quarantine store that survives primary-database damage, crash-recoverable SQLite snapshots, crash-durable filesystem publication, schema-upgrade data-loss rejection, and rollback-writer snapshot recovery. (#110453, #113367, #113453, #113473, #113580) Thanks @vincentkoc.\n- **Durable channel delivery:** keep accepted messages recoverable across gateway restarts and local crashes through the shared ingress drain and dead-letter recovery, covering Telegram, Signal, Slack, QQBot, Twitch, Synology Chat, Tlon, IRC, and Zalo User. #108656, #107246, #109911 (#108924, #107288, #109907, #109910, #110844, #110852, #110899, #110910, #110914, #110916, #111029) Thanks @obviyus and @edenfunf.\n- **Session rewind and branching:** rewind or fork conversations from individual messages, switch transcript branches across web and native apps, fork upstream Codex sessions, preserve branch-safe queued sends, reject stale-pane writes, and restore prompt images after a fork. (#110660, #110857, #110886, #111149, #112056, #112284, #113073, #113945)\n- **Interactive MCP Apps and dashboards:** host ticketed MCP Apps with bound tools, resources, and bounded context updates; open them from channel replies, pin them to durable dashboards, harden their shared sandbox, and let native plugins declare them directly. #109851, #110451, #113218 (#109861, #109807, #110515, #111211, #111212, #111524, #111687, #111748, #113224) Thanks @fuller-stack-dev.\n- **Questions and approvals everywhere:** let agents ask structured questions with option cards across web, channels, macOS, and native apps, while approvals gain push notifications, history, fair queuing, headless resolution, Claude tool-request relay, reviewer detail, and clearer formatted prompts. #85954 (#108505, #108709, #108776, #109922, #110242, #110372, #110584, #110681, #110989, #111060, #112918, #113027, #113193) Thanks @omarshahine.\n- **Meetings and realtime Talk:** join Teams, Zoom, and Google Meet calls with default-enabled meeting plugins and durable transcript collection, while realtime Talk adds OpenAI and Gemini video plus GPT Live through Codex OAuth. #86425, #113353 (#109579, #109719, #109964, #111048, #113022, #113053, #113122, #113354) Thanks @shushushv and @Solvely-Colin.\n- **Wear OS companion:** add the phone-proxied Wear companion with home-screen agent/session/model selection, realtime Talk controls, audio-reactive playback, and an inst",
+      "prerelease": true
+    },
+    {
+      "product": "Gemini CLI",
+      "repo": "google-gemini/gemini-cli",
+      "tag": "v0.54.0-nightly.20260728.gbef611950",
+      "name": "Release v0.54.0-nightly.20260728.gbef611950",
+      "published": "2026-07-28",
+      "url": "https://github.com/google-gemini/gemini-cli/releases/tag/v0.54.0-nightly.20260728.gbef611950",
+      "summary": "## What's Changed",
+      "body_excerpt": "## What's Changed\n* fix(a2a-server): normalize CRLF line endings to LF in getProposedContent by @luisfelipe-alt in https://github.com/google-gemini/gemini-cli/pull/28531\n* fix(core): enforce explicit tag length and validation in file keychain by @luisfelipe-alt in https://github.com/google-gemini/gemini-cli/pull/28523\n\n\n**Full Changelog**: https://github.com/google-gemini/gemini-cli/compare/v0.54.0-nightly.20260727.g3818efbbf...v0.54.0-nightly.20260728.gbef611950",
+      "prerelease": true
+    },
+    {
+      "product": "Codex",
+      "repo": "openai/codex",
+      "tag": "rust-v0.146.0-alpha.14",
+      "name": "0.146.0-alpha.14",
+      "published": "2026-07-28",
+      "url": "https://github.com/openai/codex/releases/tag/rust-v0.146.0-alpha.14",
+      "summary": "Release 0.146.0-alpha.14",
+      "body_excerpt": "Release 0.146.0-alpha.14",
+      "prerelease": true
+    }
+  ],
+  "level2_people": [
+    "@karpathy",
+    "@bcherny",
+    "@sundarpichai",
+    "@sama",
+    "@gdb",
+    "@DarioAmodei"
+  ],
+  "level2_note": "raw 无人物搜索；无依据时 Level 2 标无新增，勿编造",
+  "level3_note": "本日未扫描行业报告（周报降频）",
+  "level4_hn": [
+    {
+      "title": "Coordination layer for AI coding agents, built on Git",
+      "url": "https://github.com/zyads/loom-vcs",
+      "points": 3,
+      "comments": 0,
+      "created": "2026-07-25"
+    },
+    {
+      "title": "AI Coding is Exhausting [video]",
+      "url": "https://www.youtube.com/shorts/e-pFrQ_Rh0s",
+      "points": 2,
+      "comments": 2,
+      "created": "2026-07-28"
+    },
+    {
+      "title": "Belay: A local firewall for AI coding agents",
+      "url": "https://github.com/SECBLOK/belay",
+      "points": 2,
+      "comments": 0,
+      "created": "2026-07-27"
+    },
+    {
+      "title": "Show HN: Rules that stop AI coding agents from breaking working code",
+      "url": "https://github.com/avenna01-ceo/claude-code-survival-kr",
+      "points": 2,
+      "comments": 0,
+      "created": "2026-07-26"
+    },
+    {
+      "title": "Snapshield – an undo button for AI coding agents",
+      "url": "https://github.com/holtchris900/snapshield",
+      "points": 1,
+      "comments": 0,
+      "created": "2026-07-27"
+    }
+  ]
+}
