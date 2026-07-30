@@ -1,0 +1,89 @@
+{
+  "briefing_date": "2026-07-30",
+  "period_start": "2026-07-28",
+  "period_end": "2026-07-30",
+  "previous_briefing_date": "2026-07-29",
+  "previous_briefing_excerpt": "# AI x 研发效能 每日简报 2026-07-29\n\n> 覆盖周期：2026-07-27 ~ 2026-07-29（上一期：2026-07-28）\n\n> **采集方式**：GitHub Actions 自动采集（Level 1 GitHub API + Level 4 HN API）｜Level 2/3 待人工或 API 密钥补充\n\n---\n\n## 头条速览\n\n1. **Codex rust-v0.146.0**——## New Features\n2. **OpenClaw v2026.7.2-beta.5**——## 2026.7.2\n3. **Gemini CLI v0.53.0**——## What's Changed\n\n---\n\n## 一、AI 增强软件研发（AI4SE）\n\n### 1.1 Level 1：核心产品与工程更新\n\n#### 1️⃣ Codex rust-v0.146.0（2026-07-29）\n\n## New Features\n\n来源：[rust-v0.146.0](https://github.com/openai/codex/releases/tag/rust-v0.146.0) — 2026-07-29\n\n#### 2️⃣ OpenClaw v2026.7.2-beta.5（2026-07-28）\n\n## 2026.7.2\n\n来源：[v2026.7.2-beta.5](https://github.com/openclaw/openclaw/releases/tag/v2026.7.2-beta.5) — 2026-07-28\n\n#### 3️⃣ Gemini CLI v0.53.0（2026-07-28）\n\n## What's Changed\n\n来源：[v0.53.0](https://github.com/google-gemini/gemini-cli/releases/tag/v0.53.0) — 2026-07-28\n\n---\n\n### 1.2 Level 2：关键人物战略洞察\n\n| 人物 | 动态 | 日期 |\n|---|---|---|\n| @karpathy | 自动采集未配置（需 WebSearch / X 间接源） | — |\n| @bcherny | 自动采集未配置（需 WebSearch / X 间接源） | — |\n| @sundarpichai | 自动采集未配置（需 WebSearch / X 间接源） | — |\n| @sama | 自动采集未配置（需 WebSearch / X 间接源） | — |\n| @gdb | 自动采集未配置（需 WebSearch / X 间接源） | — |\n| @DarioAmodei | 自动采集未配置（需 WebSearch / X 间接源） | — |\n\n---\n\n### 1.3 Level 3：行业研究与数据\n\n> **本日未扫描**（周报/月报降频）。\n\n---\n\n### 1.4 Level 4：补充信源（HN）\n\n- **2026-07-28**：[AI-coding agents kill team collaboration](https://leaddev.com/ai/ai-coding-agents-kill-team-collaboration) （3 pts / 0 comments）\n- **2026-07-28**：[AI Coding is Exhausting [video]](https://www.youtube.com/shorts/e-pFrQ_Rh0s) （2 pts / 2 comments）\n- **2026-07-28**：[Show HN: CogniKernel; AI Coding with cross session and cross platform memory](https://github.com/KanishkNoir/cognikernel) （2 pts / 0 comments）\n- **2026-07-27**：[Belay: A local firewall for AI coding agents](https://github.com/SECBLOK/belay) （2 pts / 0 comments）\n- **2026-07-26**：[Show HN: Rules that stop AI coding agents from breaking working code](https://github.com/avenna01-ceo/claude-code-survival-kr) （2 pts / 0 comments）\n\n---\n\n## 附录：采集日志\n\n| 环节 | 状态 |\n|---|---|\n| GitHub Releases API | ✅ 3 条 |\n| HN Algolia API | ✅ 5 条 |\n| 生成时间 (UTC) | 2026-07-29 15:21 |\n\n*自动生成版 · 可在 Cursor 中基于本稿补充 Level 2 分析与专题*\n",
+  "level1_releases": [
+    {
+      "product": "Codex",
+      "repo": "openai/codex",
+      "tag": "rust-v0.146.0",
+      "name": "0.146.0",
+      "published": "2026-07-29",
+      "url": "https://github.com/openai/codex/releases/tag/rust-v0.146.0",
+      "summary": "## New Features",
+      "body_excerpt": "## New Features\n\n- Name new sessions with `/new` or `/clear`, pin important threads, and switch between side conversations without closing them. (#34605, #34840, #35011)\n- Support Agent Plugins manifests, workspace plugin publishing, and additional plugin marketplaces for Amazon Bedrock and Claude Code. (#35105, #35254, #34931, #34979)\n- Fork threads with paginated history, including temporary forks that do not appear in thread listings. (#35220, #35251)\n- Connect app-server to remote Code Mode hosts over WebSocket. (#35078, #35098)\n- Enable standalone web search for compatible custom model providers. (#34846)\n- Discover executor-provided skills and securely read their associated resources, including explicitly selected skills. (#35184, #35198)\n\n## Bug Fixes\n\n- Honor configured proxies across authentication, plugin downloads, MCP authorization, remote execution, WebSockets, redirects, and LM Studio connections. (#34479, #34509, #34655, #34678, #35023, #35056, #35239)\n- Keep MCP connections and Apps tools current when authentication or configuration changes, reconnecting closed servers without restarting healthy connections. (#34952, #34957, #35028, #35144, #35146, #35151)\n- Preserve submitted messages, final responses, failed-turn errors, imported timestamps, and approval settings across interruptions, replay, imports, and forks. (#34839, #34777, #35524, #34989, #34664)\n- Improve terminal responsiveness and rendering, including nonblocking interrupts, keyboard handling, narrow layouts, hyperlinks, and refreshed mention results. (#35000, #35021, #34775, #34778, #35365, #35375)\n- Fix Windows navigation keys, reliably terminate sandboxed process trees, and preserve proxy settings during security reviews. (#34625, #34624, #35036)\n- Retain more available skills under tight context budgets and warn when skill catalogs must be truncated. (#34732, #34738, #34997)\n\n## Documentation\n\n- Document shared HTTP-client usage, proxy-aware connection pooling, and safe outbound request handling. (#34669)\n- Clarify Windows drive-letter canonicalization for `PathUri` values. (#34667)\n\n## Chores\n\n- Publish release artifacts, channel metadata, and installer aliases through OpenAI-hosted release infrastructure, with GitHub fallback. (#34505, #34508, #34729, #34910)\n- Sign and notarize bundled macOS helper executables before packaging. (#35264)\n- Reduce app-server serialization overhead and unnecessary request-building allocations. (#34761, #34766, #34825)\n- Add enterprise-plan re",
+      "prerelease": false
+    },
+    {
+      "product": "OpenClaw",
+      "repo": "openclaw/openclaw",
+      "tag": "v2026.7.2-beta.5",
+      "name": "openclaw 2026.7.2-beta.5",
+      "published": "2026-07-28",
+      "url": "https://github.com/openclaw/openclaw/releases/tag/v2026.7.2-beta.5",
+      "summary": "## 2026.7.2",
+      "body_excerpt": "## 2026.7.2\n\n### Highlights\n\n- **State safety and recovery:** protect persisted data with a quarantine store that survives primary-database damage, crash-recoverable SQLite snapshots, crash-durable filesystem publication, schema-upgrade data-loss rejection, and rollback-writer snapshot recovery. (#110453, #113367, #113453, #113473, #113580) Thanks @vincentkoc.\n- **Durable channel delivery:** keep accepted messages recoverable across gateway restarts and local crashes through the shared ingress drain and dead-letter recovery, covering Telegram, Signal, Slack, QQBot, Twitch, Synology Chat, Tlon, IRC, and Zalo User. #108656, #107246, #109911 (#108924, #107288, #109907, #109910, #110844, #110852, #110899, #110910, #110914, #110916, #111029) Thanks @obviyus and @edenfunf.\n- **Session rewind and branching:** rewind or fork conversations from individual messages, switch transcript branches across web and native apps, fork upstream Codex sessions, preserve branch-safe queued sends, reject stale-pane writes, and restore prompt images after a fork. (#110660, #110857, #110886, #111149, #112056, #112284, #113073, #113945)\n- **Interactive MCP Apps and dashboards:** host ticketed MCP Apps with bound tools, resources, and bounded context updates; open them from channel replies, pin them to durable dashboards, harden their shared sandbox, and let native plugins declare them directly. #109851, #110451, #113218 (#109861, #109807, #110515, #111211, #111212, #111524, #111687, #111748, #113224) Thanks @fuller-stack-dev.\n- **Questions and approvals everywhere:** let agents ask structured questions with option cards across web, channels, macOS, and native apps, while approvals gain push notifications, history, fair queuing, headless resolution, Claude tool-request relay, reviewer detail, and clearer formatted prompts. #85954 (#108505, #108709, #108776, #109922, #110242, #110372, #110584, #110681, #110989, #111060, #112918, #113027, #113193) Thanks @omarshahine.\n- **Meetings and realtime Talk:** join Teams, Zoom, and Google Meet calls with default-enabled meeting plugins and durable transcript collection, while realtime Talk adds OpenAI and Gemini video plus GPT Live through Codex OAuth. #86425, #113353 (#109579, #109719, #109964, #111048, #113022, #113053, #113122, #113354) Thanks @shushushv and @Solvely-Colin.\n- **Wear OS companion:** add the phone-proxied Wear companion with home-screen agent/session/model selection, realtime Talk controls, audio-reactive playback, and an inst",
+      "prerelease": true
+    },
+    {
+      "product": "Gemini CLI",
+      "repo": "google-gemini/gemini-cli",
+      "tag": "v0.53.0",
+      "name": "Release v0.53.0",
+      "published": "2026-07-28",
+      "url": "https://github.com/google-gemini/gemini-cli/releases/tag/v0.53.0",
+      "summary": "## What's Changed",
+      "body_excerpt": "## What's Changed\n* fix(core,a2a): group cancelled tool responses and coalesce consecutive roles to prevent 400 Bad Request by @luisfelipe-alt in https://github.com/google-gemini/gemini-cli/pull/28407\n* feat(caretaker-triage): implement LLM triage orchestrator and container build by @chadd28 in https://github.com/google-gemini/gemini-cli/pull/28345\n* refactor(cli): align macOS permissive Seatbelt profiles with deny-default model by @ompatel-aiml in https://github.com/google-gemini/gemini-cli/pull/28424\n* fix(core): mitigate infinite ReAct loops and prompt injection loops by @amelidev in https://github.com/google-gemini/gemini-cli/pull/28429\n* fix(a2a-server): enforce workspace trust and task isolation to prevent RCE by @luisfelipe-alt in https://github.com/google-gemini/gemini-cli/pull/28470\n* fix(core): sequentially verify cached credentials and restore GOOGLE_APPLICATION_CREDENTIALS fallback by @luisfelipe-alt in https://github.com/google-gemini/gemini-cli/pull/28472\n* feat(evals): add eval coverage report command by @ved015 in https://github.com/google-gemini/gemini-cli/pull/28169\n\n\n**Full Changelog**: https://github.com/google-gemini/gemini-cli/compare/v0.52.0...v0.53.0",
+      "prerelease": false
+    }
+  ],
+  "level2_people": [
+    "@karpathy",
+    "@bcherny",
+    "@sundarpichai",
+    "@sama",
+    "@gdb",
+    "@DarioAmodei"
+  ],
+  "level2_note": "raw 无人物搜索；无依据时 Level 2 标无新增，勿编造",
+  "level3_note": "本日未扫描行业报告（周报降频）",
+  "level4_hn": [
+    {
+      "title": "OpenLore: Deterministic, local-first memory and guardrails for AI coding agents",
+      "url": "https://github.com/clay-good/OpenLore",
+      "points": 5,
+      "comments": 0,
+      "created": "2026-07-29"
+    },
+    {
+      "title": "Show HN: MindFlock – Parallel AI coding agents, each in its own Git worktree",
+      "url": "https://github.com/MindFlock/MindFlock",
+      "points": 4,
+      "comments": 5,
+      "created": "2026-07-29"
+    },
+    {
+      "title": "AI-coding agents kill team collaboration",
+      "url": "https://leaddev.com/ai/ai-coding-agents-kill-team-collaboration",
+      "points": 3,
+      "comments": 0,
+      "created": "2026-07-28"
+    },
+    {
+      "title": "AI Coding is Exhausting [video]",
+      "url": "https://www.youtube.com/shorts/e-pFrQ_Rh0s",
+      "points": 2,
+      "comments": 2,
+      "created": "2026-07-28"
+    },
+    {
+      "title": "AI coding agents should optimize for less owned code",
+      "url": "https://www.openenergytransition.org/posts/ai-coding-agents-should-optimize-for-less-owned-code",
+      "points": 2,
+      "comments": 1,
+      "created": "2026-07-30"
+    }
+  ]
+}
