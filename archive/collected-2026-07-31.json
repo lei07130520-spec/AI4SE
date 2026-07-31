@@ -1,0 +1,89 @@
+{
+  "briefing_date": "2026-07-31",
+  "period_start": "2026-07-29",
+  "period_end": "2026-07-31",
+  "previous_briefing_date": "2026-07-30",
+  "previous_briefing_excerpt": "# AI x 研发效能 每日简报 2026-07-30\n\n> 覆盖周期：2026-07-28 ~ 2026-07-30（上一期：2026-07-29）\n\n> **采集方式**：GitHub Actions 自动采集（Level 1 GitHub API + Level 4 HN API）｜Level 2/3 待人工或 API 密钥补充\n\n---\n\n## 头条速览\n\n1. **Codex rust-v0.146.0**——## New Features\n2. **OpenClaw v2026.7.2-beta.5**——## 2026.7.2\n3. **Gemini CLI v0.53.0**——## What's Changed\n\n---\n\n## 一、AI 增强软件研发（AI4SE）\n\n### 1.1 Level 1：核心产品与工程更新\n\n#### 1️⃣ Codex rust-v0.146.0（2026-07-29）\n\n## New Features\n\n来源：[rust-v0.146.0](https://github.com/openai/codex/releases/tag/rust-v0.146.0) — 2026-07-29\n\n#### 2️⃣ OpenClaw v2026.7.2-beta.5（2026-07-28）\n\n## 2026.7.2\n\n来源：[v2026.7.2-beta.5](https://github.com/openclaw/openclaw/releases/tag/v2026.7.2-beta.5) — 2026-07-28\n\n#### 3️⃣ Gemini CLI v0.53.0（2026-07-28）\n\n## What's Changed\n\n来源：[v0.53.0](https://github.com/google-gemini/gemini-cli/releases/tag/v0.53.0) — 2026-07-28\n\n---\n\n### 1.2 Level 2：关键人物战略洞察\n\n| 人物 | 动态 | 日期 |\n|---|---|---|\n| @karpathy | 自动采集未配置（需 WebSearch / X 间接源） | — |\n| @bcherny | 自动采集未配置（需 WebSearch / X 间接源） | — |\n| @sundarpichai | 自动采集未配置（需 WebSearch / X 间接源） | — |\n| @sama | 自动采集未配置（需 WebSearch / X 间接源） | — |\n| @gdb | 自动采集未配置（需 WebSearch / X 间接源） | — |\n| @DarioAmodei | 自动采集未配置（需 WebSearch / X 间接源） | — |\n\n---\n\n### 1.3 Level 3：行业研究与数据\n\n> **本日未扫描**（周报/月报降频）。\n\n---\n\n### 1.4 Level 4：补充信源（HN）\n\n- **2026-07-29**：[OpenLore: Deterministic, local-first memory and guardrails for AI coding agents](https://github.com/clay-good/OpenLore) （5 pts / 0 comments）\n- **2026-07-29**：[Show HN: MindFlock – Parallel AI coding agents, each in its own Git worktree](https://github.com/MindFlock/MindFlock) （4 pts / 5 comments）\n- **2026-07-28**：[AI-coding agents kill team collaboration](https://leaddev.com/ai/ai-coding-agents-kill-team-collaboration) （3 pts / 0 comments）\n- **2026-07-28**：[AI Coding is Exhausting [video]](https://www.youtube.com/shorts/e-pFrQ_Rh0s) （2 pts / 2 comments）\n- **2026-07-30**：[AI coding agents should optimize for less owned code](https://www.openenergytransition.org/posts/ai-coding-agents-should-optimize-for-less-owned-code) （2 pts / 1 comments）\n\n---\n\n## 附录：采集日志\n\n| 环节 | 状态 |\n|---|---|\n| GitHub Releases API | ✅ 3 条 |\n| HN Algolia API | ✅ 5 条 |\n| 生成时间 (UTC) | 2026-07-30 14:59 |\n\n*自动生成版 · 可在 Cursor 中基于本稿补充 Level 2 分析与专题*\n",
+  "level1_releases": [
+    {
+      "product": "Hermes Agent",
+      "repo": "NousResearch/hermes-agent",
+      "tag": "v2026.7.30",
+      "name": "Hermes Agent v0.19.1 (v2026.7.30)",
+      "published": "2026-07-30",
+      "url": "https://github.com/NousResearch/hermes-agent/releases/tag/v2026.7.30",
+      "summary": "# Hermes Agent v0.19.1 (v2026.7.30)",
+      "body_excerpt": "# Hermes Agent v0.19.1 (v2026.7.30)\n\n**Release Date:** July 30, 2026\n\n> Patch release. This tag rolls up the ~1,000+ PRs merged since v0.19.0 into a stable tagged release for downstream consumers (Docker images, hosted deployments, fresh installs).\n\n---\n\n## About this release\n\nSince v2026.7.20 (v0.19.0, July 20): **~2,789 commits · ~4,748 files changed · ~442,000 insertions · ~392,300 deletions** on `main`. This window is dominated by bug-fix and salvage waves across the gateway, voice subsystem, desktop app, and installer, plus continued platform work (Buzz/Nostr channel, FLUX3 video generation and delivery, Telegram media reliability, voice-mode regressions).\n\n**Full curated release notes for this window will ship with v0.20.0**, which will document everything from v0.19.0 onward — highlights, feature areas, and complete contributor credits. Nothing in this window is skipped.\n\n## Updating\n\n```bash\nhermes update\n# or fresh install:\ncurl -fsSL https://hermes-agent.nousresearch.com/install.sh | bash\n```\n\n**Full Changelog**: [v2026.7.20...v2026.7.30](https://github.com/NousResearch/hermes-agent/compare/v2026.7.20...v2026.7.30)",
+      "prerelease": false
+    },
+    {
+      "product": "Gemini CLI",
+      "repo": "google-gemini/gemini-cli",
+      "tag": "v0.55.0-nightly.20260730.gdc859e8e4",
+      "name": "Release v0.55.0-nightly.20260730.gdc859e8e4",
+      "published": "2026-07-30",
+      "url": "https://github.com/google-gemini/gemini-cli/releases/tag/v0.55.0-nightly.20260730.gdc859e8e4",
+      "summary": "## What's Changed",
+      "body_excerpt": "## What's Changed\n* Changelog for v0.54.0-preview.0 by @gemini-cli-robot in https://github.com/google-gemini/gemini-cli/pull/28567\n* Changelog for v0.53.0 by @gemini-cli-robot in https://github.com/google-gemini/gemini-cli/pull/28568\n* chore/release: bump version to 0.55.0-nightly.20260729.g3499c84f7 by @gemini-cli-robot in https://github.com/google-gemini/gemini-cli/pull/28573\n\n\n**Full Changelog**: https://github.com/google-gemini/gemini-cli/compare/v0.55.0-nightly.20260729.g3499c84f7...v0.55.0-nightly.20260730.gdc859e8e4",
+      "prerelease": true
+    },
+    {
+      "product": "Codex",
+      "repo": "openai/codex",
+      "tag": "rust-v0.146.0",
+      "name": "0.146.0",
+      "published": "2026-07-29",
+      "url": "https://github.com/openai/codex/releases/tag/rust-v0.146.0",
+      "summary": "## New Features",
+      "body_excerpt": "## New Features\n\n- Name new sessions with `/new` or `/clear`, pin important threads, and switch between side conversations without closing them. (#34605, #34840, #35011)\n- Support Agent Plugins manifests, workspace plugin publishing, and additional plugin marketplaces for Amazon Bedrock and Claude Code. (#35105, #35254, #34931, #34979)\n- Fork threads with paginated history, including temporary forks that do not appear in thread listings. (#35220, #35251)\n- Connect app-server to remote Code Mode hosts over WebSocket. (#35078, #35098)\n- Enable standalone web search for compatible custom model providers. (#34846)\n- Discover executor-provided skills and securely read their associated resources, including explicitly selected skills. (#35184, #35198)\n\n## Bug Fixes\n\n- Honor configured proxies across authentication, plugin downloads, MCP authorization, remote execution, WebSockets, redirects, and LM Studio connections. (#34479, #34509, #34655, #34678, #35023, #35056, #35239)\n- Keep MCP connections and Apps tools current when authentication or configuration changes, reconnecting closed servers without restarting healthy connections. (#34952, #34957, #35028, #35144, #35146, #35151)\n- Preserve submitted messages, final responses, failed-turn errors, imported timestamps, and approval settings across interruptions, replay, imports, and forks. (#34839, #34777, #35524, #34989, #34664)\n- Improve terminal responsiveness and rendering, including nonblocking interrupts, keyboard handling, narrow layouts, hyperlinks, and refreshed mention results. (#35000, #35021, #34775, #34778, #35365, #35375)\n- Fix Windows navigation keys, reliably terminate sandboxed process trees, and preserve proxy settings during security reviews. (#34625, #34624, #35036)\n- Retain more available skills under tight context budgets and warn when skill catalogs must be truncated. (#34732, #34738, #34997)\n\n## Documentation\n\n- Document shared HTTP-client usage, proxy-aware connection pooling, and safe outbound request handling. (#34669)\n- Clarify Windows drive-letter canonicalization for `PathUri` values. (#34667)\n\n## Chores\n\n- Publish release artifacts, channel metadata, and installer aliases through OpenAI-hosted release infrastructure, with GitHub fallback. (#34505, #34508, #34729, #34910)\n- Sign and notarize bundled macOS helper executables before packaging. (#35264)\n- Reduce app-server serialization overhead and unnecessary request-building allocations. (#34761, #34766, #34825)\n- Add enterprise-plan re",
+      "prerelease": false
+    }
+  ],
+  "level2_people": [
+    "@karpathy",
+    "@bcherny",
+    "@sundarpichai",
+    "@sama",
+    "@gdb",
+    "@DarioAmodei"
+  ],
+  "level2_note": "raw 无人物搜索；无依据时 Level 2 标无新增，勿编造",
+  "level3_note": "本日未扫描行业报告（周报降频）",
+  "level4_hn": [
+    {
+      "title": "OpenLore: Deterministic, local-first memory and guardrails for AI coding agents",
+      "url": "https://github.com/clay-good/OpenLore",
+      "points": 5,
+      "comments": 0,
+      "created": "2026-07-29"
+    },
+    {
+      "title": "Show HN: MindFlock – Parallel AI coding agents, each in its own Git worktree",
+      "url": "https://github.com/MindFlock/MindFlock",
+      "points": 4,
+      "comments": 5,
+      "created": "2026-07-29"
+    },
+    {
+      "title": "AI-coding agents kill team collaboration",
+      "url": "https://leaddev.com/ai/ai-coding-agents-kill-team-collaboration",
+      "points": 3,
+      "comments": 0,
+      "created": "2026-07-28"
+    },
+    {
+      "title": "AI Coding is Exhausting [video]",
+      "url": "https://www.youtube.com/shorts/e-pFrQ_Rh0s",
+      "points": 2,
+      "comments": 2,
+      "created": "2026-07-28"
+    },
+    {
+      "title": "AI coding agents should optimize for less owned code",
+      "url": "https://www.openenergytransition.org/posts/ai-coding-agents-should-optimize-for-less-owned-code",
+      "points": 2,
+      "comments": 1,
+      "created": "2026-07-30"
+    }
+  ]
+}
