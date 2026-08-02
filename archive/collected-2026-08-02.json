@@ -1,0 +1,89 @@
+{
+  "briefing_date": "2026-08-02",
+  "period_start": "2026-07-31",
+  "period_end": "2026-08-02",
+  "previous_briefing_date": "2026-08-01",
+  "previous_briefing_excerpt": "# AI x 研发效能 每日简报 2026-08-01\n\n> 覆盖周期：2026-07-30 ~ 2026-08-01（上一期：2026-07-31）\n\n> **采集方式**：GitHub Actions 自动采集（Level 1 GitHub API + Level 4 HN API）｜Level 2/3 待人工或 API 密钥补充\n\n---\n\n## 头条速览\n\n1. **OpenClaw v2026.7.2-beta.6**——## 2026.7.2\n2. **Gemini CLI v0.53.1**——## What's Changed\n3. **Codex rust-v0.147.0-alpha.4**——Release 0.147.0-alpha.4\n\n---\n\n## 一、AI 增强软件研发（AI4SE）\n\n### 1.1 Level 1：核心产品与工程更新\n\n#### 1️⃣ OpenClaw v2026.7.2-beta.6（2026-08-01）\n\n## 2026.7.2\n\n来源：[v2026.7.2-beta.6](https://github.com/openclaw/openclaw/releases/tag/v2026.7.2-beta.6) — 2026-08-01\n\n#### 2️⃣ Gemini CLI v0.53.1（2026-07-31）\n\n## What's Changed\n\n来源：[v0.53.1](https://github.com/google-gemini/gemini-cli/releases/tag/v0.53.1) — 2026-07-31\n\n#### 3️⃣ Codex rust-v0.147.0-alpha.4（2026-07-31）\n\nRelease 0.147.0-alpha.4\n\n来源：[rust-v0.147.0-alpha.4](https://github.com/openai/codex/releases/tag/rust-v0.147.0-alpha.4) — 2026-07-31\n\n#### 4️⃣ Hermes Agent v2026.7.30（2026-07-30）\n\n# Hermes Agent v0.19.1 (v2026.7.30)\n\n来源：[v2026.7.30](https://github.com/NousResearch/hermes-agent/releases/tag/v2026.7.30) — 2026-07-30\n\n---\n\n### 1.2 Level 2：关键人物战略洞察\n\n| 人物 | 动态 | 日期 |\n|---|---|---|\n| @karpathy | 自动采集未配置（需 WebSearch / X 间接源） | — |\n| @bcherny | 自动采集未配置（需 WebSearch / X 间接源） | — |\n| @sundarpichai | 自动采集未配置（需 WebSearch / X 间接源） | — |\n| @sama | 自动采集未配置（需 WebSearch / X 间接源） | — |\n| @gdb | 自动采集未配置（需 WebSearch / X 间接源） | — |\n| @DarioAmodei | 自动采集未配置（需 WebSearch / X 间接源） | — |\n\n---\n\n### 1.3 Level 3：行业研究与数据\n\n> **本日未扫描**（周报/月报降频）。\n\n---\n\n### 1.4 Level 4：补充信源（HN）\n\n- **2026-07-29**：[OpenLore: Deterministic, local-first memory and guardrails for AI coding agents](https://github.com/clay-good/OpenLore) （5 pts / 0 comments）\n- **2026-07-29**：[Show HN: MindFlock – Parallel AI coding agents, each in its own Git worktree](https://github.com/MindFlock/MindFlock) （4 pts / 5 comments）\n- **2026-07-30**：[AI coding agents should optimize for less owned code](https://www.openenergytransition.org/posts/ai-coding-agents-should-optimize-for-less-owned-code) （2 pts / 1 comments）\n- **2026-08-01**：[Cdbx – an AI coding IDE where you can bring your own API key and own the code](https://cdbx.ai/) （2 pts / 0 comments）\n- **2026-07-31**：[212k AI coding benchmarks: context beats generic prompts](https://techloom.it/blog/effective-ai-coding-prompts/) （2 pts / 0 comments）\n\n---\n\n## 附录：采集日志\n\n| 环节 | 状态 |\n|---|---|\n| GitHub Releases API | ✅ 4 条 |\n| HN Algolia API | ✅ 5 条 |\n| 生成时间 (UTC) | 2026-08-01 14:19 |\n\n*自动生成版 · 可在 Cursor 中基于本稿补充 Level 2 分析与专题*\n",
+  "level1_releases": [
+    {
+      "product": "OpenClaw",
+      "repo": "openclaw/openclaw",
+      "tag": "v2026.7.2-beta.7",
+      "name": "openclaw 2026.7.2-beta.7",
+      "published": "2026-08-02",
+      "url": "https://github.com/openclaw/openclaw/releases/tag/v2026.7.2-beta.7",
+      "summary": "## 2026.7.2",
+      "body_excerpt": "## 2026.7.2\n\n### Highlights\n\n- **State safety and recovery:** protect persisted data with a quarantine store that survives primary-database damage, crash-recoverable SQLite snapshots, crash-durable filesystem publication, schema-upgrade data-loss rejection, and rollback-writer snapshot recovery. (#110453, #113367, #113453, #113473, #113580) Thanks @vincentkoc.\n- **Durable channel delivery:** keep accepted messages recoverable across gateway restarts and local crashes through the shared ingress drain and dead-letter recovery, covering Telegram, Signal, Slack, QQBot, Twitch, Synology Chat, Tlon, IRC, and Zalo User. #108656, #107246, #109911 (#108924, #107288, #109907, #109910, #110844, #110852, #110899, #110910, #110914, #110916, #111029) Thanks @obviyus and @edenfunf.\n- **Session rewind and branching:** rewind or fork conversations from individual messages, switch transcript branches across web and native apps, fork upstream Codex sessions, preserve branch-safe queued sends, reject stale-pane writes, and restore prompt images after a fork. (#110660, #110857, #110886, #111149, #112056, #112284, #113073, #113945) Thanks @vincentkoc.\n- **Interactive MCP Apps and dashboards:** host ticketed MCP Apps with bound tools, resources, and bounded context updates; open them from channel replies, pin them to durable dashboards, harden their shared sandbox, and let native plugins declare them directly. #109851, #110451, #113218 (#109861, #109807, #110515, #111211, #111212, #111524, #111687, #111748, #113224) Thanks @fuller-stack-dev.\n- **Questions and approvals everywhere:** let agents ask structured questions with option cards across web, channels, macOS, and native apps, while approvals gain push notifications, history, fair queuing, headless resolution, Claude tool-request relay, reviewer detail, and clearer formatted prompts. #85954 (#108505, #108709, #108776, #109922, #110242, #110372, #110584, #110681, #110989, #111060, #112918, #113027, #113193) Thanks @omarshahine.\n- **Meetings and realtime Talk:** join Teams, Zoom, and Google Meet calls with default-enabled meeting plugins and durable transcript collection, while realtime Talk adds OpenAI and Gemini video and requires a supported OpenAI Platform API key instead of the rejected Codex OAuth fallback. #86425, #113353, #115021 (#109579, #109719, #109964, #111048, #113022, #113053, #113122, #113354, #115211) Thanks @shushushv, @Solvely-Colin, and @vincentkoc.\n- **Wear OS companion:** add the phone-proxied Wear compan",
+      "prerelease": true
+    },
+    {
+      "product": "Gemini CLI",
+      "repo": "google-gemini/gemini-cli",
+      "tag": "v0.53.1",
+      "name": "Release v0.53.1",
+      "published": "2026-07-31",
+      "url": "https://github.com/google-gemini/gemini-cli/releases/tag/v0.53.1",
+      "summary": "## What's Changed",
+      "body_excerpt": "## What's Changed\n* fix(patch): cherry-pick f47d6c6 to release/v0.53.0-pr-28566 [CONFLICTS] by @gemini-cli-robot in https://github.com/google-gemini/gemini-cli/pull/28610\n\n\n**Full Changelog**: https://github.com/google-gemini/gemini-cli/compare/v0.53.0...v0.53.1",
+      "prerelease": false
+    },
+    {
+      "product": "Codex",
+      "repo": "openai/codex",
+      "tag": "rust-v0.147.0-alpha.4",
+      "name": "0.147.0-alpha.4",
+      "published": "2026-07-31",
+      "url": "https://github.com/openai/codex/releases/tag/rust-v0.147.0-alpha.4",
+      "summary": "Release 0.147.0-alpha.4",
+      "body_excerpt": "Release 0.147.0-alpha.4",
+      "prerelease": true
+    }
+  ],
+  "level2_people": [
+    "@karpathy",
+    "@bcherny",
+    "@sundarpichai",
+    "@sama",
+    "@gdb",
+    "@DarioAmodei"
+  ],
+  "level2_note": "raw 无人物搜索；无依据时 Level 2 标无新增，勿编造",
+  "level3_note": "本日未扫描行业报告（周报降频）",
+  "level4_hn": [
+    {
+      "title": "AI coding agents should optimize for less owned code",
+      "url": "https://www.openenergytransition.org/posts/ai-coding-agents-should-optimize-for-less-owned-code",
+      "points": 2,
+      "comments": 1,
+      "created": "2026-07-30"
+    },
+    {
+      "title": "Show HN: Agentmetry – local-first flight recorder for AI coding agents",
+      "url": "https://agentmetry.ai/",
+      "points": 2,
+      "comments": 0,
+      "created": "2026-08-01"
+    },
+    {
+      "title": "IssueTrojanBench: Benchmarking AI Coding Agents Against Malicious Issue Requests",
+      "url": "https://arxiv.org/abs/2607.20759",
+      "points": 2,
+      "comments": 0,
+      "created": "2026-08-01"
+    },
+    {
+      "title": "The Kotlin Benchmark for AI Coding Agents",
+      "url": "https://blog.jetbrains.com/kotlin/2026/07/introducing-the-kotlin-benchmark-evaluate-ai-coding-agents-on-real-world-kotlin-tasks/",
+      "points": 2,
+      "comments": 0,
+      "created": "2026-08-01"
+    },
+    {
+      "title": "Cdbx – an AI coding IDE where you can bring your own API key and own the code",
+      "url": "https://cdbx.ai/",
+      "points": 2,
+      "comments": 0,
+      "created": "2026-08-01"
+    }
+  ]
+}
