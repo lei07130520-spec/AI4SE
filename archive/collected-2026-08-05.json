@@ -1,0 +1,111 @@
+{
+  "briefing_date": "2026-08-05",
+  "period_start": "2026-08-03",
+  "period_end": "2026-08-05",
+  "previous_briefing_date": "2026-08-04",
+  "previous_briefing_excerpt": "# AI x 研发效能 每日简报 2026-08-04\n\n> 覆盖周期：2026-08-02 ~ 2026-08-04（上一期：2026-08-03）\n\n> **采集方式**：GitHub Actions 自动采集（Level 1 GitHub API + Level 4 HN API）｜Level 2/3 待人工或 API 密钥补充\n\n---\n\n## 头条速览\n\n1. **OpenClaw v2026.7.1-2**——### Fixes\n2. **Claude Code v2.1.221**——## What's changed\n3. **Codex rust-v0.147.0-alpha.7**——Release 0.147.0-alpha.7\n\n---\n\n## 一、AI 增强软件研发（AI4SE）\n\n### 1.1 Level 1：核心产品与工程更新\n\n#### 1️⃣ OpenClaw v2026.7.1-2（2026-08-04）\n\n### Fixes\n\n来源：[v2026.7.1-2](https://github.com/openclaw/openclaw/releases/tag/v2026.7.1-2) — 2026-08-04\n\n#### 2️⃣ Claude Code v2.1.221（2026-08-04）\n\n## What's changed\n\n来源：[v2.1.221](https://github.com/anthropics/claude-code/releases/tag/v2.1.221) — 2026-08-04\n\n#### 3️⃣ Codex rust-v0.147.0-alpha.7（2026-08-04）\n\nRelease 0.147.0-alpha.7\n\n来源：[rust-v0.147.0-alpha.7](https://github.com/openai/codex/releases/tag/rust-v0.147.0-alpha.7) — 2026-08-04\n\n#### 4️⃣ Hermes Agent v2026.8.3（2026-08-03）\n\n# Hermes Agent v0.20.0 (v2026.8.3)\n\n来源：[v2026.8.3](https://github.com/NousResearch/hermes-agent/releases/tag/v2026.8.3) — 2026-08-03\n\n#### 5️⃣ Gemini CLI v0.55.0-nightly.20260803.gf47d6c6f7（2026-08-03）\n\n**Full Changelog**: https://github.com/google-gemini/gemini-cli/compare/v0.55.0-nightly.20260802.gf47d6c6f7...v0.55.0-nightly.20260803.gf47d6c6f7\n\n来源：[v0.55.0-nightly.20260803.gf47d6c6f7](https://github.com/google-gemini/gemini-cli/releases/tag/v0.55.0-nightly.20260803.gf47d6c6f7) — 2026-08-03\n\n---\n\n### 1.2 Level 2：关键人物战略洞察\n\n| 人物 | 动态 | 日期 |\n|---|---|---|\n| @karpathy | 自动采集未配置（需 WebSearch / X 间接源） | — |\n| @bcherny | 自动采集未配置（需 WebSearch / X 间接源） | — |\n| @sundarpichai | 自动采集未配置（需 WebSearch / X 间接源） | — |\n| @sama | 自动采集未配置（需 WebSearch / X 间接源） | — |\n| @gdb | 自动采集未配置（需 WebSearch / X 间接源） | — |\n| @DarioAmodei | 自动采集未配置（需 WebSearch / X 间接源） | — |\n\n---\n\n### 1.3 Level 3：行业研究与数据\n\n> **本日未扫描**（周报/月报降频）。\n\n---\n\n### 1.4 Level 4：补充信源（HN）\n\n- **2026-08-04**：[Show HN: Entangle, hand a live AI coding session to anyone with three words](https://github.com/gowtham-sai-yadav/entangle) （4 pts / 0 comments）\n- **2026-08-03**：[Nvidia's CUDA Faces New Threats from AI Coding Agents](https://www.businessinsider.com/nvidia-cuda-new-threats-ai-coding-agents-2026-8) （4 pts / 0 comments）\n- **2026-08-02**：[AI Coding Is a Dead End](https://www.youtube.com/watch?v=02MspGEWyuo) （4 pts / 0 comments）\n- **2026-08-03**：[A list of sandboxes for running AI coding agents, ranked by security posture](https://github.com/fhiltscher/awesome-ai-coding-sandboxes) （2 pts / 1 comments）\n- **2026-08-04**：[Show HN: Benzi – An AI coding assistant grounded in a live code map](https://benzi.fly.dev/) （2 pts / 0 comments）\n\n---\n\n## 附录：采集日志\n\n| 环节 | 状态 |\n|---|---|\n| GitHub Releases API | ✅ 5 条 |\n| HN Algolia API | ✅ 5 条 |\n| 生成时间 (UTC) | 2026-08-04 15:14 |\n\n*自动生成版 · 可在 Cursor 中基于本稿补充 Level 2 分析与专题*\n",
+  "level1_releases": [
+    {
+      "product": "Codex",
+      "repo": "openai/codex",
+      "tag": "rust-v0.147.0-alpha.10",
+      "name": "0.147.0-alpha.10",
+      "published": "2026-08-05",
+      "url": "https://github.com/openai/codex/releases/tag/rust-v0.147.0-alpha.10",
+      "summary": "Release 0.147.0-alpha.10",
+      "body_excerpt": "Release 0.147.0-alpha.10",
+      "prerelease": true
+    },
+    {
+      "product": "OpenClaw",
+      "repo": "openclaw/openclaw",
+      "tag": "v2026.7.1-2",
+      "name": "openclaw 2026.7.1-2",
+      "published": "2026-08-04",
+      "url": "https://github.com/openclaw/openclaw/releases/tag/v2026.7.1-2",
+      "summary": "### Fixes",
+      "body_excerpt": "### Fixes\n\n- **npm plugin updates:** accept singleton-array metadata from newer npm clients so tracked official plugins can install and update to correction releases. (#108336)",
+      "prerelease": false
+    },
+    {
+      "product": "Claude Code",
+      "repo": "anthropics/claude-code",
+      "tag": "v2.1.222",
+      "name": "v2.1.222",
+      "published": "2026-08-04",
+      "url": "https://github.com/anthropics/claude-code/releases/tag/v2.1.222",
+      "summary": "## What's changed",
+      "body_excerpt": "## What's changed\n\n- Fixed worktree-isolated sessions and their subagents being able to run destructive git commands against the main checkout; isolation now applies to file edits and Bash in every session type\n- Fixed PreToolUse auto-allow hooks bypassing tool restrictions in background agent tasks (summaries, compaction, renames)\n- Fixed `/usage-credits` on Team and Enterprise showing \"you've already sent a usage credit request\" for members whose earlier request was dismissed, blocking them from sending a new one\n- Fixed the startup connectivity check hanging and then failing behind an HTTPS proxy; it now uses the same proxy-aware transport as API requests and times out with a clear message\n- Fixed \"Connection closed mid-response\" errors being reported on responses that had actually completed\n- Fixed `/usage` overattributing usage to MCP servers: a server's share now reflects only the requests that actually consumed its tool results, instead of every turn after any call to it\n- Fixed sessions not linking to pull requests created after the branch was pushed, including through the GitHub REST API\n- Fixed org-restricted `model: opus`-style subagent and teammate family aliases dropping to the parent model instead of stepping down to the newest org-allowed model in the family\n- Fixed stream idle timeout firing on custom `ANTHROPIC_BASE_URL` gateways despite server keep-alive pings arriving on the wire\n- Fixed claude.ai connectors being falsely marked as needing authorization when the session token is invalid — they now show a `/login` hint instead\n- Fixed tool errors not being displayed for tools no longer available locally, for example after an MCP server is removed\n- Fixed `SendMessage` rejecting a long summary — it now truncates instead, so sends no longer fail on a character limit\n- Fixed the spinner's effort label in a subagent's transcript view showing the session's effort level instead of the subagent's own `effort:` setting\n- Fixed rare crashes when a file watcher hit a filesystem error or during file-watcher teardown\n- Fixed screen readers re-reading the whole input line on every backspace in `--ax-screen-reader` mode — end-of-line deletions now echo just the deleted characters\n- Fixed host model-selection keys not taking precedence over a stale on-disk `managed-settings.json` when `CLAUDE_CODE_PROVIDER_MANAGED_BY_HOST` is set\n- Improved auto mode safety: messages sent to other agent sessions via `SendMessage` are now evaluated by the permission clas",
+      "prerelease": false
+    },
+    {
+      "product": "Hermes Agent",
+      "repo": "NousResearch/hermes-agent",
+      "tag": "v2026.8.3",
+      "name": "Hermes Agent v0.20.0 (2026.8.3)",
+      "published": "2026-08-03",
+      "url": "https://github.com/NousResearch/hermes-agent/releases/tag/v2026.8.3",
+      "summary": "# Hermes Agent v0.20.0 (v2026.8.3)",
+      "body_excerpt": "# Hermes Agent v0.20.0 (v2026.8.3)\n\n\n**Release Date:** August 3, 2026\n**Since v0.19.0:** ~3,650 commits · ~1,400 merged PRs · ~5,200 files changed · ~559,000 insertions · ~405,000 deletions · **~1,200 issues closed** · 650+ contributors\n\n> **The Herald Release.** Hermes is the herald of the gods, and this release makes him one in earnest: he **speaks** (real-time conversational voice with streaming TTS, barge-in, on-device wake words, and hands-free control across the CLI, desktop, and every audio-capable gateway platform), he **carries word to other agents** (A2A v1.0), he **announces events to your systems** (signed outbound webhooks), and he **cites his sources** (grounded research with verifiable citations and fact-checking). Around that spine: the desktop app became a platform (artifacts with live preview, a plugin SDK, quick-entry from anywhere, multiple windows), the CLI got a wave of power commands (`!` shell mode, `/init`, `/diff`, `/context`, `/focus`), compression got smarter and gentler, and the tools themselves now recover from their own failures instead of making the model guess. This release rolls up everything from the v0.19.1 infrastructure patch tag — that window is fully documented here.\n\n---\n\n## ✨ Highlights\n\n- **Talk to Hermes — streaming, conversational voice with barge-in** — Voice mode used to mean: speak, wait for the whole reply to generate, then listen to one long audio file. Now Hermes speaks clause-by-clause as the response streams, you can interrupt it mid-sentence by just talking (it stops, listens, and the model is told you cut in), and busy-aware silence detection means it doesn't talk over you. This works in CLI voice mode, on the desktop, and through gateway adapters. Talking to Hermes finally feels like a conversation, not a voicemail exchange. ([#69511](https://github.com/NousResearch/hermes-agent/pull/69511), [#73862](https://github.com/NousResearch/hermes-agent/pull/73862), [#74223](https://github.com/NousResearch/hermes-agent/pull/74223), [#74000](https://github.com/NousResearch/hermes-agent/pull/74000), [#69602](https://github.com/NousResearch/hermes-agent/pull/69602) — @teknium1, @OutThisLife)\n\n- **Wake words and hands-free control** — Say your own open-vocabulary wake phrase (\"hey Hermes\", or anything you pick) and Hermes starts listening — detection runs on-device, so no audio leaves your machine while it waits. Multi-profile voice routing means different wake words can reach different profiles, and saying \"stop\"",
+      "prerelease": false
+    },
+    {
+      "product": "Gemini CLI",
+      "repo": "google-gemini/gemini-cli",
+      "tag": "v0.55.0-nightly.20260803.gf47d6c6f7",
+      "name": "Release v0.55.0-nightly.20260803.gf47d6c6f7",
+      "published": "2026-08-03",
+      "url": "https://github.com/google-gemini/gemini-cli/releases/tag/v0.55.0-nightly.20260803.gf47d6c6f7",
+      "summary": "**Full Changelog**: https://github.com/google-gemini/gemini-cli/compare/v0.55.0-nightly.20260802.gf47d6c6f7...v0.55.0-nightly.20260803.gf47d6c6f7",
+      "body_excerpt": "**Full Changelog**: https://github.com/google-gemini/gemini-cli/compare/v0.55.0-nightly.20260802.gf47d6c6f7...v0.55.0-nightly.20260803.gf47d6c6f7",
+      "prerelease": true
+    }
+  ],
+  "level2_people": [
+    "@karpathy",
+    "@bcherny",
+    "@sundarpichai",
+    "@sama",
+    "@gdb",
+    "@DarioAmodei"
+  ],
+  "level2_note": "raw 无人物搜索；无依据时 Level 2 标无新增，勿编造",
+  "level3_note": "本日未扫描行业报告（周报降频）",
+  "level4_hn": [
+    {
+      "title": "Show HN: Entangle, hand a live AI coding session to anyone with three words",
+      "url": "https://github.com/gowtham-sai-yadav/entangle",
+      "points": 4,
+      "comments": 0,
+      "created": "2026-08-04"
+    },
+    {
+      "title": "Nvidia's CUDA Faces New Threats from AI Coding Agents",
+      "url": "https://www.businessinsider.com/nvidia-cuda-new-threats-ai-coding-agents-2026-8",
+      "points": 4,
+      "comments": 0,
+      "created": "2026-08-03"
+    },
+    {
+      "title": "AI Coding Is a Dead End",
+      "url": "https://www.youtube.com/watch?v=02MspGEWyuo",
+      "points": 4,
+      "comments": 0,
+      "created": "2026-08-02"
+    },
+    {
+      "title": "Show HN: A terminal AI coding agent that compiles natively on Termux – no root",
+      "url": "https://www.reddit.com/r/termux/s/FqS76rc2z3",
+      "points": 3,
+      "comments": 3,
+      "created": "2026-08-05"
+    },
+    {
+      "title": "AI coding agents pass tests. Can they write idiomatic Laravel?",
+      "url": "https://laravel.com/blog/idiomatic-laravel-ai-coding-agents",
+      "points": 3,
+      "comments": 0,
+      "created": "2026-08-04"
+    }
+  ]
+}
