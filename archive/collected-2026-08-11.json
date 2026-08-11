@@ -1,0 +1,89 @@
+{
+  "briefing_date": "2026-08-11",
+  "period_start": "2026-08-09",
+  "period_end": "2026-08-11",
+  "previous_briefing_date": "2026-08-10",
+  "previous_briefing_excerpt": "# AI x 研发效能 每日简报 2026-08-10\n\n> 覆盖周期：2026-08-08 ~ 2026-08-10（上一期：2026-08-09）\n\n> **采集方式**：GitHub Actions 自动采集（Level 1 GitHub API + Level 4 HN API）｜Level 2/3 待人工或 API 密钥补充\n\n---\n\n## 头条速览\n\n1. **Gemini CLI v0.56.0-nightly.20260810.gcf22ac7e8**——**Full Changelog**: https://github.com/google-ge\n2. **Codex rust-v0.148.0-alpha.6**——Release 0.148.0-alpha.6\n3. **OpenClaw v2026.6.34**——## 2026.6.34\n\n---\n\n## 一、AI 增强软件研发（AI4SE）\n\n### 1.1 Level 1：核心产品与工程更新\n\n#### 1️⃣ Gemini CLI v0.56.0-nightly.20260810.gcf22ac7e8（2026-08-10）\n\n**Full Changelog**: https://github.com/google-gemini/gemini-cli/compare/v0.56.0-nightly.20260809.gcf22ac7e8...v0.56.0-nightly.20260810.gcf22ac7e8\n\n来源：[v0.56.0-nightly.20260810.gcf22ac7e8](https://github.com/google-gemini/gemini-cli/releases/tag/v0.56.0-nightly.20260810.gcf22ac7e8) — 2026-08-10\n\n#### 2️⃣ Codex rust-v0.148.0-alpha.6（2026-08-10）\n\nRelease 0.148.0-alpha.6\n\n来源：[rust-v0.148.0-alpha.6](https://github.com/openai/codex/releases/tag/rust-v0.148.0-alpha.6) — 2026-08-10\n\n#### 3️⃣ OpenClaw v2026.6.34（2026-08-08）\n\n## 2026.6.34\n\n来源：[v2026.6.34](https://github.com/openclaw/openclaw/releases/tag/v2026.6.34) — 2026-08-08\n\n#### 4️⃣ Claude Code v2.1.226（2026-08-08）\n\n## What's changed\n\n来源：[v2.1.226](https://github.com/anthropics/claude-code/releases/tag/v2.1.226) — 2026-08-08\n\n---\n\n### 1.2 Level 2：关键人物战略洞察\n\n| 人物 | 动态 | 日期 |\n|---|---|---|\n| @karpathy | 自动采集未配置（需 WebSearch / X 间接源） | — |\n| @bcherny | 自动采集未配置（需 WebSearch / X 间接源） | — |\n| @sundarpichai | 自动采集未配置（需 WebSearch / X 间接源） | — |\n| @sama | 自动采集未配置（需 WebSearch / X 间接源） | — |\n| @gdb | 自动采集未配置（需 WebSearch / X 间接源） | — |\n| @DarioAmodei | 自动采集未配置（需 WebSearch / X 间接源） | — |\n\n---\n\n### 1.3 Level 3：行业研究与数据\n\n> **本日未扫描**（周报/月报降频）。\n\n---\n\n### 1.4 Level 4：补充信源（HN）\n\n- **2026-08-07**：[Managing AI Coding Costs at Scale](https://www.databricks.com/blog/managing-ai-coding-costs-scale) （313 pts / 265 comments）\n- **2026-08-10**：[AI coding got faster. Why didn't engineering?](https://thenewstack.io/ai-productivity-measurement-gap/) （3 pts / 1 comments）\n- **2026-08-10**：[AI Coding and Its Discontents](https://calnewport.com/on-ai-coding-and-its-discontents/) （3 pts / 0 comments）\n- **2026-08-08**：[AMD Instinct Coder Puts 8 MI325X GPUs Behind Local AI Coding, Claiming 70% Lower](https://www.storagereview.com/news/amd-instinct-coder-puts-8-mi325x-gpus-behind-local-ai-coding-claiming-70-lower-token-costs) （3 pts / 0 comments）\n- **2026-08-10**：[Show HN: NexusMem – Local context memory engine for AI coding agents](https://github.com/yaminbakoh4-dot/NexusMem) （2 pts / 0 comments）\n\n---\n\n## 附录：采集日志\n\n| 环节 | 状态 |\n|---|---|\n| GitHub Releases API | ✅ 4 条 |\n| HN Algolia API | ✅ 5 条 |\n| 生成时间 (UTC) | 2026-08-10 14:10 |\n\n*自动生成版 · 可在 Cursor 中基于本稿补充 Level 2 分析与专题*\n",
+  "level1_releases": [
+    {
+      "product": "Gemini CLI",
+      "repo": "google-gemini/gemini-cli",
+      "tag": "v0.56.0-nightly.20260811.geef19f25c",
+      "name": "Release v0.56.0-nightly.20260811.geef19f25c",
+      "published": "2026-08-11",
+      "url": "https://github.com/google-gemini/gemini-cli/releases/tag/v0.56.0-nightly.20260811.geef19f25c",
+      "summary": "## What's Changed",
+      "body_excerpt": "## What's Changed\n* fix(core): refresh MCP OAuth tokens with the stored client ID by @ParthivNaresh in https://github.com/google-gemini/gemini-cli/pull/28481\n\n## New Contributors\n* @ParthivNaresh made their first contribution in https://github.com/google-gemini/gemini-cli/pull/28481\n\n**Full Changelog**: https://github.com/google-gemini/gemini-cli/compare/v0.56.0-nightly.20260810.gcf22ac7e8...v0.56.0-nightly.20260811.geef19f25c",
+      "prerelease": true
+    },
+    {
+      "product": "Claude Code",
+      "repo": "anthropics/claude-code",
+      "tag": "v2.1.227",
+      "name": "v2.1.227",
+      "published": "2026-08-10",
+      "url": "https://github.com/anthropics/claude-code/releases/tag/v2.1.227",
+      "summary": "## What's changed",
+      "body_excerpt": "## What's changed\n\n- Fixed feature flags being evaluated without the user's subscription tier when a session started with an expired login token, which could wrongly prompt Max plan users to enable usage credits for Fable\n- Fixed every Bash command failing under `claude-code-action` with `allowed_non_write_users` on GitHub-hosted runners\n- Fixed `/tui` bringing back a conversation that had been rewound to before its first message\n- Improved slash-command menu: blue now marks only the selected row, matched characters are bolded instead of recolored, and emoji or accented names keep their glyphs\n- Improved performance: fewer event-loop stalls on file-not-found suggestions and at-mention size checks",
+      "prerelease": false
+    },
+    {
+      "product": "Codex",
+      "repo": "openai/codex",
+      "tag": "rust-v0.148.0-alpha.6",
+      "name": "0.148.0-alpha.6",
+      "published": "2026-08-10",
+      "url": "https://github.com/openai/codex/releases/tag/rust-v0.148.0-alpha.6",
+      "summary": "Release 0.148.0-alpha.6",
+      "body_excerpt": "Release 0.148.0-alpha.6",
+      "prerelease": true
+    }
+  ],
+  "level2_people": [
+    "@karpathy",
+    "@bcherny",
+    "@sundarpichai",
+    "@sama",
+    "@gdb",
+    "@DarioAmodei"
+  ],
+  "level2_note": "raw 无人物搜索；无依据时 Level 2 标无新增，勿编造",
+  "level3_note": "本日未扫描行业报告（周报降频）",
+  "level4_hn": [
+    {
+      "title": "AI Coding and Its Discontents",
+      "url": "https://calnewport.com/on-ai-coding-and-its-discontents/",
+      "points": 13,
+      "comments": 0,
+      "created": "2026-08-10"
+    },
+    {
+      "title": "AI coding got faster. Why didn't engineering?",
+      "url": "https://thenewstack.io/ai-productivity-measurement-gap/",
+      "points": 6,
+      "comments": 2,
+      "created": "2026-08-10"
+    },
+    {
+      "title": "AI Coding and Its Discontents",
+      "url": "https://calnewport.com/on-ai-coding-and-its-discontents/",
+      "points": 4,
+      "comments": 0,
+      "created": "2026-08-11"
+    },
+    {
+      "title": "AMD Instinct Coder Puts 8 MI325X GPUs Behind Local AI Coding, Claiming 70% Lower",
+      "url": "https://www.storagereview.com/news/amd-instinct-coder-puts-8-mi325x-gpus-behind-local-ai-coding-claiming-70-lower-token-costs",
+      "points": 3,
+      "comments": 0,
+      "created": "2026-08-08"
+    },
+    {
+      "title": "Show HN: NexusMem – Local context memory engine for AI coding agents",
+      "url": "https://github.com/yaminbakoh4-dot/NexusMem",
+      "points": 2,
+      "comments": 0,
+      "created": "2026-08-10"
+    }
+  ]
+}
