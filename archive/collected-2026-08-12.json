@@ -1,0 +1,89 @@
+{
+  "briefing_date": "2026-08-12",
+  "period_start": "2026-08-10",
+  "period_end": "2026-08-12",
+  "previous_briefing_date": "2026-08-11",
+  "previous_briefing_excerpt": "# AI x 研发效能 每日简报 2026-08-11\n\n> 覆盖周期：2026-08-09 ~ 2026-08-11（上一期：2026-08-10）\n\n> **采集方式**：GitHub Actions 自动采集（Level 1 GitHub API + Level 4 HN API）｜Level 2/3 待人工或 API 密钥补充\n\n---\n\n## 头条速览\n\n1. **Gemini CLI v0.56.0-nightly.20260811.geef19f25c**——## What's Changed\n2. **Claude Code v2.1.227**——## What's changed\n3. **Codex rust-v0.148.0-alpha.6**——Release 0.148.0-alpha.6\n\n---\n\n## 一、AI 增强软件研发（AI4SE）\n\n### 1.1 Level 1：核心产品与工程更新\n\n#### 1️⃣ Gemini CLI v0.56.0-nightly.20260811.geef19f25c（2026-08-11）\n\n## What's Changed\n\n来源：[v0.56.0-nightly.20260811.geef19f25c](https://github.com/google-gemini/gemini-cli/releases/tag/v0.56.0-nightly.20260811.geef19f25c) — 2026-08-11\n\n#### 2️⃣ Claude Code v2.1.227（2026-08-10）\n\n## What's changed\n\n来源：[v2.1.227](https://github.com/anthropics/claude-code/releases/tag/v2.1.227) — 2026-08-10\n\n#### 3️⃣ Codex rust-v0.148.0-alpha.6（2026-08-10）\n\nRelease 0.148.0-alpha.6\n\n来源：[rust-v0.148.0-alpha.6](https://github.com/openai/codex/releases/tag/rust-v0.148.0-alpha.6) — 2026-08-10\n\n---\n\n### 1.2 Level 2：关键人物战略洞察\n\n| 人物 | 动态 | 日期 |\n|---|---|---|\n| @karpathy | 自动采集未配置（需 WebSearch / X 间接源） | — |\n| @bcherny | 自动采集未配置（需 WebSearch / X 间接源） | — |\n| @sundarpichai | 自动采集未配置（需 WebSearch / X 间接源） | — |\n| @sama | 自动采集未配置（需 WebSearch / X 间接源） | — |\n| @gdb | 自动采集未配置（需 WebSearch / X 间接源） | — |\n| @DarioAmodei | 自动采集未配置（需 WebSearch / X 间接源） | — |\n\n---\n\n### 1.3 Level 3：行业研究与数据\n\n> **本日未扫描**（周报/月报降频）。\n\n---\n\n### 1.4 Level 4：补充信源（HN）\n\n- **2026-08-10**：[AI Coding and Its Discontents](https://calnewport.com/on-ai-coding-and-its-discontents/) （13 pts / 0 comments）\n- **2026-08-10**：[AI coding got faster. Why didn't engineering?](https://thenewstack.io/ai-productivity-measurement-gap/) （6 pts / 2 comments）\n- **2026-08-11**：[AI Coding and Its Discontents](https://calnewport.com/on-ai-coding-and-its-discontents/) （4 pts / 0 comments）\n- **2026-08-08**：[AMD Instinct Coder Puts 8 MI325X GPUs Behind Local AI Coding, Claiming 70% Lower](https://www.storagereview.com/news/amd-instinct-coder-puts-8-mi325x-gpus-behind-local-ai-coding-claiming-70-lower-token-costs) （3 pts / 0 comments）\n- **2026-08-10**：[Show HN: NexusMem – Local context memory engine for AI coding agents](https://github.com/yaminbakoh4-dot/NexusMem) （2 pts / 0 comments）\n\n---\n\n## 附录：采集日志\n\n| 环节 | 状态 |\n|---|---|\n| GitHub Releases API | ✅ 3 条 |\n| HN Algolia API | ✅ 5 条 |\n| 生成时间 (UTC) | 2026-08-11 14:10 |\n\n*自动生成版 · 可在 Cursor 中基于本稿补充 Level 2 分析与专题*\n",
+  "level1_releases": [
+    {
+      "product": "Codex",
+      "repo": "openai/codex",
+      "tag": "rust-v0.148.0-alpha.9",
+      "name": "0.148.0-alpha.9",
+      "published": "2026-08-12",
+      "url": "https://github.com/openai/codex/releases/tag/rust-v0.148.0-alpha.9",
+      "summary": "Release 0.148.0-alpha.9",
+      "body_excerpt": "Release 0.148.0-alpha.9",
+      "prerelease": true
+    },
+    {
+      "product": "Claude Code",
+      "repo": "anthropics/claude-code",
+      "tag": "v2.1.228",
+      "name": "v2.1.228",
+      "published": "2026-08-11",
+      "url": "https://github.com/anthropics/claude-code/releases/tag/v2.1.228",
+      "summary": "## What's changed",
+      "body_excerpt": "## What's changed\n\n- Fixed interactive sessions that could stop redrawing entirely, while the process kept running, after a rare internal layout error\n- Fixed `git` / Git Bash not being found on Windows when Claude Code is launched from a parent folder of the git installation\n- Fixed `/tui` reverting the session to an earlier model when `/model` had been changed since the last response\n- Fixed cross-session messaging sometimes starting without an inbox in the first session after install or upgrade\n- Fixed Remote Control `/resume` while connected leaking the resumed conversation's title or history into the connected session\n- Fixed `claude self-hosted-runner` sessions failing on every fresh runner when the `checkout` hook fails for a repository the session doesn't push to; that repository is now skipped with a warning\n- Fixed self-hosted runners ending sessions in the gap between a background task finishing and the follow-up turn starting\n- Fixed session cleanup deleting contents inside a project's memory folder\n- Fixed background plugin-cache cleanup deleting a plugin's cache when its only version is a symlinked development checkout\n- Fixed a settings-merge issue where a marketplace entry redefined in a higher-precedence settings tier could inherit another tier's custom headers; marketplace entries now merge as whole entries\n- Fixed the deferred-tools reminder occasionally being sent to the model twice after a skill invocation\n- Hardened skills synced from claude.ai: they no longer shadow local commands or MCP prompts, their descriptions are sanitized and labeled, and on your machine their bodies don't run `!` commands or expand `@` files\n- Improved cross-session messages: the sender and body now display inline instead of a collapsed line, and messages to Remote Control sessions on other machines show your Remote Control session name as the sender\n- Improved Vertex AI credential handling: expired or missing Google Cloud credentials now fail within seconds instead of retrying for minutes\n- Improved compaction progress: the retry countdown and stall hint now appear during compaction instead of only a progress bar\n- Updated terminal title busy-spinner glyphs to reduce tab-bar jitter on some terminals\n- Changed the Write tool so newer models can overwrite an existing file they haven't read this session, matching the Edit tool's rules; older models still require the read first\n- Removed the outdated note about auto mode sessions costing slightly more from the f",
+      "prerelease": false
+    },
+    {
+      "product": "Gemini CLI",
+      "repo": "google-gemini/gemini-cli",
+      "tag": "v0.55.1",
+      "name": "Release v0.55.1",
+      "published": "2026-08-11",
+      "url": "https://github.com/google-gemini/gemini-cli/releases/tag/v0.55.1",
+      "summary": "## What's Changed",
+      "body_excerpt": "## What's Changed\n* fix/verify release npm ci ignore scripts by @rmedranollamas in https://github.com/google-gemini/gemini-cli/pull/28116\n* fix(ci): prevent workspace binary shadowing in release verification by @galdawave in https://github.com/google-gemini/gemini-cli/pull/28132\n* Feat/tool registry discovery by @ved015 in https://github.com/google-gemini/gemini-cli/pull/28113\n* fix(ci): prevent bad NPM releases and promote job crashes by @galdawave in https://github.com/google-gemini/gemini-cli/pull/28147\n* Changelog for v0.50.0-preview.1 by @gemini-cli-robot in https://github.com/google-gemini/gemini-cli/pull/28150\n* Fix no_proxy test by @jerrylin3321 in https://github.com/google-gemini/gemini-cli/pull/28131\n* chore(release): bump version to 0.51.0-nightly.20260625.g3fbf93e26 by @gemini-cli-robot in https://github.com/google-gemini/gemini-cli/pull/28151\n* Vertex base url update by @DavidAPierce in https://github.com/google-gemini/gemini-cli/pull/28145\n* fix(security): enforce case-insensitive sensitive path blocklist and vscode hitl by @luisfelipe-alt in https://github.com/google-gemini/gemini-cli/pull/27966\n* fix(core-tools): resolve defensive path resolution for at-reference files and fix macOS tests by @luisfelipe-alt in https://github.com/google-gemini/gemini-cli/pull/28053\n* feat(caretaker): implement Cloud Run webhook ingestion service by @chadd28 in https://github.com/google-gemini/gemini-cli/pull/28015\n* fix(core): resolve symbolic link directory escape in memory import processor by @luisfelipe-alt in https://github.com/google-gemini/gemini-cli/pull/28233\n* feat(caretaker): egress cloud run service skeleton by @chadd28 in https://github.com/google-gemini/gemini-cli/pull/28167\n* fix(sandbox): make ~/.gitconfig read-only in the macOS sandbox by @ompatel-aiml in https://github.com/google-gemini/gemini-cli/pull/28221\n* fix(core): preserve escape sequences in string literals for modern models by @luisfelipe-alt in https://github.com/google-gemini/gemini-cli/pull/28299\n* fix(core): strip thoughts from scrubbed history turns and resolve thought leakage by @amelidev in https://github.com/google-gemini/gemini-cli/pull/27971\n* Refactor: exclude transient CI configuration files from workspace context by @DavidAPierce in https://github.com/google-gemini/gemini-cli/pull/28216\n* feat(caretaker-triage): add triage worker core foundational modules by @chadd28 in https://github.com/google-gemini/gemini-cli/pull/28163\n* feat(caretaker-egress): implement octokit gi",
+      "prerelease": false
+    }
+  ],
+  "level2_people": [
+    "@karpathy",
+    "@bcherny",
+    "@sundarpichai",
+    "@sama",
+    "@gdb",
+    "@DarioAmodei"
+  ],
+  "level2_note": "raw 无人物搜索；无依据时 Level 2 标无新增，勿编造",
+  "level3_note": "本日未扫描行业报告（周报降频）",
+  "level4_hn": [
+    {
+      "title": "AI Coding and Its Discontents",
+      "url": "https://calnewport.com/on-ai-coding-and-its-discontents/",
+      "points": 15,
+      "comments": 0,
+      "created": "2026-08-10"
+    },
+    {
+      "title": "AI coding got faster. Why didn't engineering?",
+      "url": "https://thenewstack.io/ai-productivity-measurement-gap/",
+      "points": 6,
+      "comments": 2,
+      "created": "2026-08-10"
+    },
+    {
+      "title": "AI Coding and Its Discontents",
+      "url": "https://calnewport.com/on-ai-coding-and-its-discontents/",
+      "points": 5,
+      "comments": 0,
+      "created": "2026-08-11"
+    },
+    {
+      "title": "China warns of \"security backdoor\" in Anthropic AI coding tool [July 8, 2026]",
+      "url": "https://www.cbsnews.com/news/china-security-backdoor-anthropic-ai-coding-tool/",
+      "points": 4,
+      "comments": 1,
+      "created": "2026-08-11"
+    },
+    {
+      "title": "AI Coding and Its Discontents",
+      "url": "https://calnewport.com/on-ai-coding-and-its-discontents/",
+      "points": 4,
+      "comments": 0,
+      "created": "2026-08-12"
+    }
+  ]
+}
