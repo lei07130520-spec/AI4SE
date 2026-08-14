@@ -1,0 +1,100 @@
+{
+  "briefing_date": "2026-08-14",
+  "period_start": "2026-08-12",
+  "period_end": "2026-08-14",
+  "previous_briefing_date": "2026-08-13",
+  "previous_briefing_excerpt": "# AI x 研发效能 每日简报 2026-08-13\n\n> 覆盖周期：2026-08-11 ~ 2026-08-13（上一期：2026-08-12）\n\n> **采集方式**：GitHub Actions 自动采集（Level 1 GitHub API + Level 4 HN API）｜Level 2/3 待人工或 API 密钥补充\n\n---\n\n## 头条速览\n\n1. **Claude Code v2.1.231**——## What's changed\n2. **Codex rust-v0.148.0-alpha.12**——Release 0.148.0-alpha.12\n3. **Gemini CLI v0.55.1**——## What's Changed\n\n---\n\n## 一、AI 增强软件研发（AI4SE）\n\n### 1.1 Level 1：核心产品与工程更新\n\n#### 1️⃣ Claude Code v2.1.231（2026-08-13）\n\n## What's changed\n\n来源：[v2.1.231](https://github.com/anthropics/claude-code/releases/tag/v2.1.231) — 2026-08-13\n\n#### 2️⃣ Codex rust-v0.148.0-alpha.12（2026-08-13）\n\nRelease 0.148.0-alpha.12\n\n来源：[rust-v0.148.0-alpha.12](https://github.com/openai/codex/releases/tag/rust-v0.148.0-alpha.12) — 2026-08-13\n\n#### 3️⃣ Gemini CLI v0.55.1（2026-08-11）\n\n## What's Changed\n\n来源：[v0.55.1](https://github.com/google-gemini/gemini-cli/releases/tag/v0.55.1) — 2026-08-11\n\n---\n\n### 1.2 Level 2：关键人物战略洞察\n\n| 人物 | 动态 | 日期 |\n|---|---|---|\n| @karpathy | 自动采集未配置（需 WebSearch / X 间接源） | — |\n| @bcherny | 自动采集未配置（需 WebSearch / X 间接源） | — |\n| @sundarpichai | 自动采集未配置（需 WebSearch / X 间接源） | — |\n| @sama | 自动采集未配置（需 WebSearch / X 间接源） | — |\n| @gdb | 自动采集未配置（需 WebSearch / X 间接源） | — |\n| @DarioAmodei | 自动采集未配置（需 WebSearch / X 间接源） | — |\n\n---\n\n### 1.3 Level 3：行业研究与数据\n\n> **本日未扫描**（周报/月报降频）。\n\n---\n\n### 1.4 Level 4：补充信源（HN）\n\n- **2026-08-10**：[AI Coding and Its Discontents](https://calnewport.com/on-ai-coding-and-its-discontents/) （15 pts / 0 comments）\n- **2026-08-10**：[AI coding got faster. Why didn't engineering?](https://thenewstack.io/ai-productivity-measurement-gap/) （6 pts / 2 comments）\n- **2026-08-12**：[AI Coding and Its Discontents](https://calnewport.com/on-ai-coding-and-its-discontents/) （5 pts / 6 comments）\n- **2026-08-12**：[AI Coding and Its Discontents](https://calnewport.com/on-ai-coding-and-its-discontents/) （5 pts / 0 comments）\n- **2026-08-11**：[AI Coding and Its Discontents](https://calnewport.com/on-ai-coding-and-its-discontents/) （5 pts / 0 comments）\n\n---\n\n## 附录：采集日志\n\n| 环节 | 状态 |\n|---|---|\n| GitHub Releases API | ✅ 3 条 |\n| HN Algolia API | ✅ 5 条 |\n| 生成时间 (UTC) | 2026-08-13 14:12 |\n\n*自动生成版 · 可在 Cursor 中基于本稿补充 Level 2 分析与专题*\n",
+  "level1_releases": [
+    {
+      "product": "Gemini CLI",
+      "repo": "google-gemini/gemini-cli",
+      "tag": "v0.56.0-nightly.20260814.gc0d192452",
+      "name": "Release v0.56.0-nightly.20260814.gc0d192452",
+      "published": "2026-08-14",
+      "url": "https://github.com/google-gemini/gemini-cli/releases/tag/v0.56.0-nightly.20260814.gc0d192452",
+      "summary": "## What's Changed",
+      "body_excerpt": "## What's Changed\n* test(e2e): stabilize file-system-interactive test on slow runners by @DavidAPierce in https://github.com/google-gemini/gemini-cli/pull/28793\n* fix(core): implement context-aware silent retries and availability TTL for capacity errors (#28761) by @DavidAPierce in https://github.com/google-gemini/gemini-cli/pull/28790\n* fix(core): rollback entire multi-turn request on cancellation or abort by @amelidev in https://github.com/google-gemini/gemini-cli/pull/28801\n* fix(core): normalize git environment and resolve workspace state mismatch by @luisfelipe-alt in https://github.com/google-gemini/gemini-cli/pull/28792\n\n\n**Full Changelog**: https://github.com/google-gemini/gemini-cli/compare/v0.56.0-nightly.20260813.g1ac337739...v0.56.0-nightly.20260814.gc0d192452",
+      "prerelease": true
+    },
+    {
+      "product": "Codex",
+      "repo": "openai/codex",
+      "tag": "rust-v0.148.0-alpha.15",
+      "name": "0.148.0-alpha.15",
+      "published": "2026-08-14",
+      "url": "https://github.com/openai/codex/releases/tag/rust-v0.148.0-alpha.15",
+      "summary": "Release 0.148.0-alpha.15",
+      "body_excerpt": "Release 0.148.0-alpha.15",
+      "prerelease": true
+    },
+    {
+      "product": "Hermes Agent",
+      "repo": "NousResearch/hermes-agent",
+      "tag": "v2026.8.13",
+      "name": "Hermes Agent v0.20.1 (2026.8.13)",
+      "published": "2026-08-13",
+      "url": "https://github.com/NousResearch/hermes-agent/releases/tag/v2026.8.13",
+      "summary": "# Hermes Agent v0.20.1 (v2026.8.13)",
+      "body_excerpt": "# Hermes Agent v0.20.1 (v2026.8.13)\n\n**Release Date:** August 13, 2026\n\n> Patch release. This tag rolls up the ~656 PRs merged since v0.20.0 into a stable tagged release for downstream consumers (Docker images, hosted deployments, and anyone installing from the latest tag).\n\n---\n\n## About this release\n\nSince v0.20.0 (August 3), this window landed **1,444 commits** across **~656 merged PRs**, touching **2,172 files** (+233,872 / −75,244), and closed **~481 issues**. It is a broad stabilization-and-fixes rollup spanning the desktop app, gateway platforms, installers, tool system, and provider catalogs.\n\n**Full curated release notes for this window will ship with v0.21.0**, which will document everything from v0.20.0 onward — highlights, feature areas, and complete contributor credits. Nothing in this window is skipped.\n\n## Updating\n\n- Existing installs: `hermes update`\n- Fresh install: see the installer one-liner in the [README](https://github.com/NousResearch/hermes-agent#readme)\n\n**Full Changelog**: [v2026.8.3...v2026.8.13](https://github.com/NousResearch/hermes-agent/compare/v2026.8.3...v2026.8.13)",
+      "prerelease": false
+    },
+    {
+      "product": "Claude Code",
+      "repo": "anthropics/claude-code",
+      "tag": "v2.1.232",
+      "name": "v2.1.232",
+      "published": "2026-08-13",
+      "url": "https://github.com/anthropics/claude-code/releases/tag/v2.1.232",
+      "summary": "## What's changed",
+      "body_excerpt": "## What's changed\n\n- Subagent forking is now on by default: a `subagent_type: \"fork\"` subagent inherits the full conversation and prompt cache, and non-teammate agent spawns in interactive sessions now run in the background by default\n- Type `@` in the prompt to mention another Claude session by name; Claude then uses `SendMessage` to reach that session directly\n- `SendMessage` now delivers to a bare name that exactly matches one live session, instead of asking to confirm with a ref first\n- Interactive sessions on one machine now keep unique names: starting or renaming a session to a name another live session already uses gives it a `name-word-word` variant and tells you\n- Added `/config` rows for \"Dialog expiry\" and \"Messages from your other sessions\" (cross-session inbound accept/hold/refuse)\n- Added secret redaction for GitLab token families (`glrt-`, `gloas-`, `glptt-`, `glagent-`, `glimt-`, `glsoat-`, `glcbt-`, `glft-`, `glffct-`) and full redaction of routable `glpat-`/`gldt-` tokens; the `glab` CLI config store gets the same sandbox and credential-path protection as `gh`\n- Added GitLab support to plugin marketplaces: bare `gitlab.com` repo URLs (including nested subgroups) now clone like `github.com` URLs, and clone auth-failure hints name your actual git host\n- Settings: `additionalMarketplaces` and `allowedMarketplaces` are now accepted as friendlier aliases for `extraKnownMarketplaces` and `strictKnownMarketplaces`\n- Enterprise policy: a url-typed `blockedMarketplaces` entry for a bare repo URL keeps blocking that URL when the CLI classifies it as a git clone\n- Gateway: the `desktop:` overlay now accepts every released Desktop setting (was 11 hand-listed keys), validated at boot against Desktop's own schema; unknown or invalid keys fail boot\n- Gateway: empty `managed.policies[].match.groups`/`admin.admin_groups` entries and malformed `email_domain` values (empty, or containing `@`, whitespace, or commas) now fail at boot instead of silently matching no one or granting admin access\n- Fable 5 is offered as an advisor in `/advisor` again for organizations with Fable access, with usage-credits consent set up through `/model fable`\n- Fixed a PowerShell permission bypass where variable-writing parameters could silently overwrite `$PSDefaultParameterValues` and redirect later commands' file access\n- Fixed a Windows permission bypass where Git Bash followed Cygwin-style symlinks that path validation saw as regular files; writes through them now require p",
+      "prerelease": false
+    }
+  ],
+  "level2_people": [
+    "@karpathy",
+    "@bcherny",
+    "@sundarpichai",
+    "@sama",
+    "@gdb",
+    "@DarioAmodei"
+  ],
+  "level2_note": "raw 无人物搜索；无依据时 Level 2 标无新增，勿编造",
+  "level3_note": "本日未扫描行业报告（周报降频）",
+  "level4_hn": [
+    {
+      "title": "Surfil On-device control plane for AI coding agents",
+      "url": "https://surfil.com/",
+      "points": 6,
+      "comments": 1,
+      "created": "2026-08-13"
+    },
+    {
+      "title": "AI Coding and Its Discontents",
+      "url": "https://calnewport.com/on-ai-coding-and-its-discontents/",
+      "points": 5,
+      "comments": 6,
+      "created": "2026-08-12"
+    },
+    {
+      "title": "AI Coding and Its Discontents",
+      "url": "https://calnewport.com/on-ai-coding-and-its-discontents/",
+      "points": 5,
+      "comments": 0,
+      "created": "2026-08-12"
+    },
+    {
+      "title": "AI Coding and Its Discontents",
+      "url": "https://calnewport.com/on-ai-coding-and-its-discontents/",
+      "points": 5,
+      "comments": 0,
+      "created": "2026-08-11"
+    },
+    {
+      "title": "AI Coding Has Erased the Supposed Advantage of Statically Typed Languages",
+      "url": "https://yyhh.org/blog/2026/08/ai-coding-has-erased-the-supposed-advantage-of-statically-typed-languages/",
+      "points": 4,
+      "comments": 2,
+      "created": "2026-08-14"
+    }
+  ]
+}
