@@ -1,0 +1,111 @@
+{
+  "briefing_date": "2026-08-15",
+  "period_start": "2026-08-13",
+  "period_end": "2026-08-15",
+  "previous_briefing_date": "2026-08-14",
+  "previous_briefing_excerpt": "# AI x 研发效能 每日简报 2026-08-14\n\n> 覆盖周期：2026-08-12 ~ 2026-08-14（上一期：2026-08-13）\n\n> **采集方式**：GitHub Actions 自动采集（Level 1 GitHub API + Level 4 HN API）｜Level 2/3 待人工或 API 密钥补充\n\n---\n\n## 头条速览\n\n1. **Gemini CLI v0.56.0-nightly.20260814.gc0d192452**——## What's Changed\n2. **Codex rust-v0.148.0-alpha.15**——Release 0.148.0-alpha.15\n3. **Hermes Agent v2026.8.13**——# Hermes Agent v0.20.1 (v2026.8.13)\n\n---\n\n## 一、AI 增强软件研发（AI4SE）\n\n### 1.1 Level 1：核心产品与工程更新\n\n#### 1️⃣ Gemini CLI v0.56.0-nightly.20260814.gc0d192452（2026-08-14）\n\n## What's Changed\n\n来源：[v0.56.0-nightly.20260814.gc0d192452](https://github.com/google-gemini/gemini-cli/releases/tag/v0.56.0-nightly.20260814.gc0d192452) — 2026-08-14\n\n#### 2️⃣ Codex rust-v0.148.0-alpha.15（2026-08-14）\n\nRelease 0.148.0-alpha.15\n\n来源：[rust-v0.148.0-alpha.15](https://github.com/openai/codex/releases/tag/rust-v0.148.0-alpha.15) — 2026-08-14\n\n#### 3️⃣ Hermes Agent v2026.8.13（2026-08-13）\n\n# Hermes Agent v0.20.1 (v2026.8.13)\n\n来源：[v2026.8.13](https://github.com/NousResearch/hermes-agent/releases/tag/v2026.8.13) — 2026-08-13\n\n#### 4️⃣ Claude Code v2.1.232（2026-08-13）\n\n## What's changed\n\n来源：[v2.1.232](https://github.com/anthropics/claude-code/releases/tag/v2.1.232) — 2026-08-13\n\n---\n\n### 1.2 Level 2：关键人物战略洞察\n\n| 人物 | 动态 | 日期 |\n|---|---|---|\n| @karpathy | 自动采集未配置（需 WebSearch / X 间接源） | — |\n| @bcherny | 自动采集未配置（需 WebSearch / X 间接源） | — |\n| @sundarpichai | 自动采集未配置（需 WebSearch / X 间接源） | — |\n| @sama | 自动采集未配置（需 WebSearch / X 间接源） | — |\n| @gdb | 自动采集未配置（需 WebSearch / X 间接源） | — |\n| @DarioAmodei | 自动采集未配置（需 WebSearch / X 间接源） | — |\n\n---\n\n### 1.3 Level 3：行业研究与数据\n\n> **本日未扫描**（周报/月报降频）。\n\n---\n\n### 1.4 Level 4：补充信源（HN）\n\n- **2026-08-13**：[Surfil On-device control plane for AI coding agents](https://surfil.com/) （6 pts / 1 comments）\n- **2026-08-12**：[AI Coding and Its Discontents](https://calnewport.com/on-ai-coding-and-its-discontents/) （5 pts / 6 comments）\n- **2026-08-12**：[AI Coding and Its Discontents](https://calnewport.com/on-ai-coding-and-its-discontents/) （5 pts / 0 comments）\n- **2026-08-11**：[AI Coding and Its Discontents](https://calnewport.com/on-ai-coding-and-its-discontents/) （5 pts / 0 comments）\n- **2026-08-14**：[AI Coding Has Erased the Supposed Advantage of Statically Typed Languages](https://yyhh.org/blog/2026/08/ai-coding-has-erased-the-supposed-advantage-of-statically-typed-languages/) （4 pts / 2 comments）\n\n---\n\n## 附录：采集日志\n\n| 环节 | 状态 |\n|---|---|\n| GitHub Releases API | ✅ 4 条 |\n| HN Algolia API | ✅ 5 条 |\n| 生成时间 (UTC) | 2026-08-14 14:06 |\n\n*自动生成版 · 可在 Cursor 中基于本稿补充 Level 2 分析与专题*\n",
+  "level1_releases": [
+    {
+      "product": "OpenClaw",
+      "repo": "openclaw/openclaw",
+      "tag": "v2026.8.1-beta.2",
+      "name": "OpenClaw 2026.8.1-beta.2",
+      "published": "2026-08-15",
+      "url": "https://github.com/openclaw/openclaw/releases/tag/v2026.8.1-beta.2",
+      "summary": "## 2026.8.1",
+      "body_excerpt": "## 2026.8.1\n\n### Highlights\n\n- **Secret egress host binding:** bind each shared-store secret to exact HTTPS destination hosts across CLI, Gateway RPC, and Control UI so unbound sentinel substitution fails closed before plaintext egress. Thanks @shakkernerd.\n- **GPT-5.6 Ultra and runtime switching:** support Sol, Terra, and Luna across OpenClaw and Codex engines; keep model, runtime, and thinking selection atomic through `/model` and fallback; and add live matrix coverage for both harnesses. Thanks @anyech and @vincentkoc.\n- **Channel plugin ingress monitors:** add a shared plugin SDK monitor for durable admission, polling, pruning, claim identity validation, adoption handoff, and shutdown, and migrate IRC, Synology Chat, and Google Chat to the shared lifecycle. Thanks @vincentkoc and @shakkernerd.\n- **SQLite snapshots:** add `openclaw backup sqlite create|list|verify|restore` for compact, verified global and per-agent database artifacts with fresh-target-only restore. Thanks @giodl73-repo.\n- **macOS app profiles:** isolate named app instances across state, preferences, Keychain, Gateway services, and duplicate-instance ownership while keeping host-global login and node services untouched. Thanks @shakkernerd and @vincentkoc.\n- **Plugin install provenance warnings:** require explicit `--force` acknowledgement for arbitrary executable plugin sources in CLI and chat installs, keep trusted ClawHub, bundled, official-catalog, and tracked-update flows frictionless, and restrict Crestodian installs to trusted sources. Thanks @jesse-merhi and @vincentkoc.\n- **Control UI update recovery:** the \"A new version is available\" Reload button now waits out the gateway restart that stranded the chunk and reloads as soon as it answers, instead of silently doing nothing and leaving a manual hard reload as the only way out. Thanks @vincentkoc.\n\n### Changes\n\n- **Secret egress host binding:** bind each shared-store secret to exact HTTPS destination hosts across CLI, Gateway RPC, and Control UI so unbound sentinel substitution fails closed before plaintext egress. Thanks @shakkernerd.\n- **Release validation:** defer beta candidate Parallels smoke to postpublish `release:beta-smoke` by default, keep stable/full prepublish coverage, and bound nested release workflow monitors with explicit job timeouts. Thanks @vincentkoc.\n- **macOS app profiles:** isolate named app instances across state, preferences, Keychain, Gateway services, and duplicate-instance ownership while keeping host-",
+      "prerelease": true
+    },
+    {
+      "product": "Gemini CLI",
+      "repo": "google-gemini/gemini-cli",
+      "tag": "v0.56.0-nightly.20260815.g2a87e7be1",
+      "name": "Release v0.56.0-nightly.20260815.g2a87e7be1",
+      "published": "2026-08-15",
+      "url": "https://github.com/google-gemini/gemini-cli/releases/tag/v0.56.0-nightly.20260815.g2a87e7be1",
+      "summary": "## What's Changed",
+      "body_excerpt": "## What's Changed\n* [SSR Agent] Issue Fix (19826): Migrate process.env to vi.stubEnv in a2a-server tests by @joneba-google in https://github.com/google-gemini/gemini-cli/pull/28811\n\n\n**Full Changelog**: https://github.com/google-gemini/gemini-cli/compare/v0.56.0-nightly.20260814.gc0d192452...v0.56.0-nightly.20260815.g2a87e7be1",
+      "prerelease": true
+    },
+    {
+      "product": "Codex",
+      "repo": "openai/codex",
+      "tag": "rust-v0.148.0-alpha.19",
+      "name": "0.148.0-alpha.19",
+      "published": "2026-08-15",
+      "url": "https://github.com/openai/codex/releases/tag/rust-v0.148.0-alpha.19",
+      "summary": "Release 0.148.0-alpha.19",
+      "body_excerpt": "Release 0.148.0-alpha.19",
+      "prerelease": true
+    },
+    {
+      "product": "Claude Code",
+      "repo": "anthropics/claude-code",
+      "tag": "v2.1.233",
+      "name": "v2.1.233",
+      "published": "2026-08-14",
+      "url": "https://github.com/anthropics/claude-code/releases/tag/v2.1.233",
+      "summary": "## What's changed",
+      "body_excerpt": "## What's changed\n\n- Added GitLab merge request URL support to the `--worktree` flag and the `claude agents` view (where MRs display as `!N`)\n- Added an opt-in `forward_user_identity` apps gateway setting on Anthropic upstreams that sends the signed-in user's identity as headers, so a proxy behind the gateway can attribute spend per user\n- Added opt-in memory cgroup support for Bash tool commands on Linux (`CLAUDE_CODE_TOOL_MEMORY_LIMIT`) so a runaway build can't stall the session\n- Added `CLAUDE_CODE_WEBFETCH_CACHE_TTL_MS` environment variable to configure the WebFetch session URL cache TTL (default unchanged: 15 minutes)\n- Fixed cloud sessions occasionally being marked as lost when the environment shut down while Claude was waiting on a permission prompt\n- Fixed MCP v2 connections endlessly reopening the subscriptions/listen stream against servers that terminate long-held streams on a fixed timeout (e.g. serverless hosts)\n- Fixed Notification hooks not firing for permission prompts when running under Claude Desktop or VS Code\n- Fixed idle sessions on Linux sometimes keeping one CPU core at 100% when sandboxing is enabled\n- Fixed bundled skill aliases like `/checkup` and `/review` reporting \"Unknown command\" in `-p` mode or with plugins/MCP loaded when a user or project skill shadows the bundled skill\n- Fixed skill/command argument substitution to prevent argument values from being re-expanded as template markers\n- Fixed Windows paths spelled with the NT `\\??\\` device prefix bypassing UNC path validation, closing an NTLM credential-leak vector\n- Improved `claude self-hosted-runner` session start time: the session branch is now created without rewriting the working tree, and two server round trips no longer block the agent's launch\n- Improved apps gateway error forwarding: 400/413 errors from Vertex, Foundry, and Claude Platform on AWS upstreams now carry the upstream's own message; fixes a bug with auto-compact on apps gateway\n- Improved `claude plugin validate` to check a bare `.claude/skills` directory, reporting SKILL.md files whose frontmatter fails to parse\n- Improved screen reader mode: the `/effort` selector renders as a numbered list with a typed-number prompt, and hint and dialog text is no longer clipped\n- Improved print mode diagnostics: a `[claude-code:unrecognized_model]` line is written to stderr when a request goes out for a model ID Claude Code doesn't recognize; map it with `modelOverrides` to silence\n- Changed the GitHub app setup tip to",
+      "prerelease": false
+    },
+    {
+      "product": "Hermes Agent",
+      "repo": "NousResearch/hermes-agent",
+      "tag": "v2026.8.13",
+      "name": "Hermes Agent v0.20.1 (2026.8.13)",
+      "published": "2026-08-13",
+      "url": "https://github.com/NousResearch/hermes-agent/releases/tag/v2026.8.13",
+      "summary": "# Hermes Agent v0.20.1 (v2026.8.13)",
+      "body_excerpt": "# Hermes Agent v0.20.1 (v2026.8.13)\n\n**Release Date:** August 13, 2026\n\n> Patch release. This tag rolls up the ~656 PRs merged since v0.20.0 into a stable tagged release for downstream consumers (Docker images, hosted deployments, and anyone installing from the latest tag).\n\n---\n\n## About this release\n\nSince v0.20.0 (August 3), this window landed **1,444 commits** across **~656 merged PRs**, touching **2,172 files** (+233,872 / −75,244), and closed **~481 issues**. It is a broad stabilization-and-fixes rollup spanning the desktop app, gateway platforms, installers, tool system, and provider catalogs.\n\n**Full curated release notes for this window will ship with v0.21.0**, which will document everything from v0.20.0 onward — highlights, feature areas, and complete contributor credits. Nothing in this window is skipped.\n\n## Updating\n\n- Existing installs: `hermes update`\n- Fresh install: see the installer one-liner in the [README](https://github.com/NousResearch/hermes-agent#readme)\n\n**Full Changelog**: [v2026.8.3...v2026.8.13](https://github.com/NousResearch/hermes-agent/compare/v2026.8.3...v2026.8.13)",
+      "prerelease": false
+    }
+  ],
+  "level2_people": [
+    "@karpathy",
+    "@bcherny",
+    "@sundarpichai",
+    "@sama",
+    "@gdb",
+    "@DarioAmodei"
+  ],
+  "level2_note": "raw 无人物搜索；无依据时 Level 2 标无新增，勿编造",
+  "level3_note": "本日未扫描行业报告（周报降频）",
+  "level4_hn": [
+    {
+      "title": "Surfil On-device control plane for AI coding agents",
+      "url": "https://surfil.com/",
+      "points": 6,
+      "comments": 1,
+      "created": "2026-08-13"
+    },
+    {
+      "title": "AI Coding and Its Discontents",
+      "url": "https://calnewport.com/on-ai-coding-and-its-discontents/",
+      "points": 5,
+      "comments": 6,
+      "created": "2026-08-12"
+    },
+    {
+      "title": "Musk assembled a full-stack AI coding play while everyone watched benchmarks",
+      "url": "https://pub.towardsai.net/grok-4-6-x-cursor-elon-musk-just-bought-his-way-into-the-ai-coding-war-15a1292d4121",
+      "points": 5,
+      "comments": 3,
+      "created": "2026-08-14"
+    },
+    {
+      "title": "AI Coding and Its Discontents",
+      "url": "https://calnewport.com/on-ai-coding-and-its-discontents/",
+      "points": 5,
+      "comments": 0,
+      "created": "2026-08-12"
+    },
+    {
+      "title": "AI Coding Has Erased the Supposed Advantage of Statically Typed Languages",
+      "url": "https://yyhh.org/blog/2026/08/ai-coding-has-erased-the-supposed-advantage-of-statically-typed-languages/",
+      "points": 4,
+      "comments": 2,
+      "created": "2026-08-14"
+    }
+  ]
+}
