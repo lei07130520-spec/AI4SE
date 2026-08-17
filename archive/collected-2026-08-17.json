@@ -1,0 +1,100 @@
+{
+  "briefing_date": "2026-08-17",
+  "period_start": "2026-08-15",
+  "period_end": "2026-08-17",
+  "previous_briefing_date": "2026-08-16",
+  "previous_briefing_excerpt": "# AI x 研发效能 每日简报 2026-08-16\n\n> 覆盖周期：2026-08-14 ~ 2026-08-16（上一期：2026-08-15）\n\n> **采集方式**：GitHub Actions 自动采集（Level 1 GitHub API + Level 4 HN API）｜Level 2/3 待人工或 API 密钥补充\n\n---\n\n## 头条速览\n\n1. **Gemini CLI v0.56.0-nightly.20260816.g2a87e7be1**——**Full Changelog**: https://github.com/google-ge\n2. **Codex rust-v0.148.0-alpha.20**——Release 0.148.0-alpha.20\n3. **OpenClaw pr-124528-profiles**——CPU profiles captured from the bounded three-nod\n\n---\n\n## 一、AI 增强软件研发（AI4SE）\n\n### 1.1 Level 1：核心产品与工程更新\n\n#### 1️⃣ Gemini CLI v0.56.0-nightly.20260816.g2a87e7be1（2026-08-16）\n\n**Full Changelog**: https://github.com/google-gemini/gemini-cli/compare/v0.56.0-nightly.20260815.g2a87e7be1...v0.56.0-nightly.20260816.g2a87e7be1\n\n来源：[v0.56.0-nightly.20260816.g2a87e7be1](https://github.com/google-gemini/gemini-cli/releases/tag/v0.56.0-nightly.20260816.g2a87e7be1) — 2026-08-16\n\n#### 2️⃣ Codex rust-v0.148.0-alpha.20（2026-08-16）\n\nRelease 0.148.0-alpha.20\n\n来源：[rust-v0.148.0-alpha.20](https://github.com/openai/codex/releases/tag/rust-v0.148.0-alpha.20) — 2026-08-16\n\n#### 3️⃣ OpenClaw pr-124528-profiles（2026-08-16）\n\nCPU profiles captured from the bounded three-node, twelve-concurrent-turn Gateway rig for PR #124528. The archive contains the representative before and exact-head after Gateway profiles used for the \n\n来源：[pr-124528-profiles](https://github.com/openclaw/openclaw/releases/tag/pr-124528-profiles) — 2026-08-16\n\n#### 4️⃣ Claude Code v2.1.233（2026-08-14）\n\n## What's changed\n\n来源：[v2.1.233](https://github.com/anthropics/claude-code/releases/tag/v2.1.233) — 2026-08-14\n\n---\n\n### 1.2 Level 2：关键人物战略洞察\n\n| 人物 | 动态 | 日期 |\n|---|---|---|\n| @karpathy | 自动采集未配置（需 WebSearch / X 间接源） | — |\n| @bcherny | 自动采集未配置（需 WebSearch / X 间接源） | — |\n| @sundarpichai | 自动采集未配置（需 WebSearch / X 间接源） | — |\n| @sama | 自动采集未配置（需 WebSearch / X 间接源） | — |\n| @gdb | 自动采集未配置（需 WebSearch / X 间接源） | — |\n| @DarioAmodei | 自动采集未配置（需 WebSearch / X 间接源） | — |\n\n---\n\n### 1.3 Level 3：行业研究与数据\n\n> **本日未扫描**（周报/月报降频）。\n\n---\n\n### 1.4 Level 4：补充信源（HN）\n\n- **2026-08-13**：[Surfil On-device control plane for AI coding agents](https://surfil.com/) （6 pts / 1 comments）\n- **2026-08-14**：[Musk assembled a full-stack AI coding play while everyone watched benchmarks](https://pub.towardsai.net/grok-4-6-x-cursor-elon-musk-just-bought-his-way-into-the-ai-coding-war-15a1292d4121) （5 pts / 3 comments）\n- **2026-08-16**：[ProofRun – a local verification receipt for AI coding agents](https://github.com/yebiguo/ProofRun) （5 pts / 0 comments）\n- **2026-08-14**：[AI Coding Has Erased the Supposed Advantage of Statically Typed Languages](https://yyhh.org/blog/2026/08/ai-coding-has-erased-the-supposed-advantage-of-statically-typed-languages/) （4 pts / 2 comments）\n- **2026-08-16**：[AI Coding Without the Vibes](https://peterbloem.nl/blog/craft-coding) （4 pts / 1 comments）\n\n---\n\n## 附录：采集日志\n\n| 环节 | 状态 |\n|---|---|\n| GitHub Releases API | ✅ 4 条 |\n| HN Algolia API | ✅ 5 条 |\n| 生成时间 (UTC) | 2026-08-16 13:22 |\n\n*自动生成版 · 可在 Cursor 中基于本稿补充 Level 2 分析与专题*\n",
+  "level1_releases": [
+    {
+      "product": "Gemini CLI",
+      "repo": "google-gemini/gemini-cli",
+      "tag": "v0.56.0-nightly.20260817.g9a15c45fb",
+      "name": "Release v0.56.0-nightly.20260817.g9a15c45fb",
+      "published": "2026-08-17",
+      "url": "https://github.com/google-gemini/gemini-cli/releases/tag/v0.56.0-nightly.20260817.g9a15c45fb",
+      "summary": "## What's Changed",
+      "body_excerpt": "## What's Changed\n* [SSR Agent] Issue Fix (21911): Add composite flag to packages/cli tsconfig by @joneba-google in https://github.com/google-gemini/gemini-cli/pull/28813\n\n\n**Full Changelog**: https://github.com/google-gemini/gemini-cli/compare/v0.56.0-nightly.20260816.g2a87e7be1...v0.56.0-nightly.20260817.g9a15c45fb",
+      "prerelease": true
+    },
+    {
+      "product": "Hermes Agent",
+      "repo": "NousResearch/hermes-agent",
+      "tag": "v2026.8.16",
+      "name": "Hermes Agent v0.20.2 (2026.8.16)",
+      "published": "2026-08-16",
+      "url": "https://github.com/NousResearch/hermes-agent/releases/tag/v2026.8.16",
+      "summary": "# Hermes Agent v0.20.2 (v2026.8.16)",
+      "body_excerpt": "# Hermes Agent v0.20.2 (v2026.8.16)\n\n**Release Date:** August 16, 2026\n\n> Patch release. This tag rolls up the ~397 PRs merged since v0.20.1 into a stable tagged release for downstream consumers (Docker images, hosted deployments, fresh installs).\n\n---\n\n## About this release\n\nSince v0.20.1 (v2026.8.13, tagged August 13), this window landed **~967 commits** across **~1,279 files** (+128,522 / −7,622) — **~397 merged PRs** of fixes and improvements spanning the desktop app (multi-gateway Connections registry, profile-scoped refreshes, MCP health checks and deep links), the CLI (Windows update probes, Kitty keyboard protocol, chat `-c` hardening), the gateway (persisted model routes, /loop completion, Telegram DM topics), prompt caching for LiteLLM Claude on the OpenAI wire, cron hardening, auth resolution through profile scopes, and installer robustness on both Linux and Windows.\n\n**Full curated release notes for this window will ship with v0.21.0**, which will document everything from v0.20.0 onward — highlights, feature areas, and complete contributor credits. Nothing in this window is skipped.\n\n## Updating\n\n- `hermes update` from an existing install\n- Fresh install: `curl -fsSL https://raw.githubusercontent.com/NousResearch/hermes-agent/main/scripts/install.sh | bash`\n\n**Full Changelog**: https://github.com/NousResearch/hermes-agent/compare/v2026.8.13...v2026.8.16",
+      "prerelease": false
+    },
+    {
+      "product": "Codex",
+      "repo": "openai/codex",
+      "tag": "rust-v0.148.0-alpha.20",
+      "name": "0.148.0-alpha.20",
+      "published": "2026-08-16",
+      "url": "https://github.com/openai/codex/releases/tag/rust-v0.148.0-alpha.20",
+      "summary": "Release 0.148.0-alpha.20",
+      "body_excerpt": "Release 0.148.0-alpha.20",
+      "prerelease": true
+    },
+    {
+      "product": "OpenClaw",
+      "repo": "openclaw/openclaw",
+      "tag": "pr-124528-profiles",
+      "name": "PR #124528 Gateway profile evidence",
+      "published": "2026-08-16",
+      "url": "https://github.com/openclaw/openclaw/releases/tag/pr-124528-profiles",
+      "summary": "CPU profiles captured from the bounded three-node, twelve-concurrent-turn Gateway rig for PR #124528. The archive contains the representative before and exact-head after Gateway profiles used for the ",
+      "body_excerpt": "CPU profiles captured from the bounded three-node, twelve-concurrent-turn Gateway rig for PR #124528. The archive contains the representative before and exact-head after Gateway profiles used for the event-loop hotspot comparison.",
+      "prerelease": true
+    }
+  ],
+  "level2_people": [
+    "@karpathy",
+    "@bcherny",
+    "@sundarpichai",
+    "@sama",
+    "@gdb",
+    "@DarioAmodei"
+  ],
+  "level2_note": "raw 无人物搜索；无依据时 Level 2 标无新增，勿编造",
+  "level3_note": "本日未扫描行业报告（周报降频）",
+  "level4_hn": [
+    {
+      "title": "AI Coding Without the Vibes",
+      "url": "https://peterbloem.nl/blog/craft-coding",
+      "points": 89,
+      "comments": 54,
+      "created": "2026-08-16"
+    },
+    {
+      "title": "Musk assembled a full-stack AI coding play while everyone watched benchmarks",
+      "url": "https://pub.towardsai.net/grok-4-6-x-cursor-elon-musk-just-bought-his-way-into-the-ai-coding-war-15a1292d4121",
+      "points": 5,
+      "comments": 3,
+      "created": "2026-08-14"
+    },
+    {
+      "title": "ProofRun – a local verification receipt for AI coding agents",
+      "url": "https://github.com/yebiguo/ProofRun",
+      "points": 5,
+      "comments": 0,
+      "created": "2026-08-16"
+    },
+    {
+      "title": "AI Coding Has Erased the Supposed Advantage of Statically Typed Languages",
+      "url": "https://yyhh.org/blog/2026/08/ai-coding-has-erased-the-supposed-advantage-of-statically-typed-languages/",
+      "points": 4,
+      "comments": 2,
+      "created": "2026-08-14"
+    },
+    {
+      "title": "SpaceX has acquired coding AI startup Cursor",
+      "url": "https://www.engadget.com/2237655/spacex-officially-acquired-ai-coding-startup-cursor/",
+      "points": 4,
+      "comments": 0,
+      "created": "2026-08-15"
+    }
+  ]
+}
