@@ -1,0 +1,100 @@
+{
+  "briefing_date": "2026-08-18",
+  "period_start": "2026-08-16",
+  "period_end": "2026-08-18",
+  "previous_briefing_date": "2026-08-17",
+  "previous_briefing_excerpt": "# AI x 研发效能 每日简报 2026-08-17\n\n> 覆盖周期：2026-08-15 ~ 2026-08-17（上一期：2026-08-16）\n\n> **采集方式**：GitHub Actions 自动采集（Level 1 GitHub API + Level 4 HN API）｜Level 2/3 待人工或 API 密钥补充\n\n---\n\n## 头条速览\n\n1. **Gemini CLI v0.56.0-nightly.20260817.g9a15c45fb**——## What's Changed\n2. **Hermes Agent v2026.8.16**——# Hermes Agent v0.20.2 (v2026.8.16)\n3. **Codex rust-v0.148.0-alpha.20**——Release 0.148.0-alpha.20\n\n---\n\n## 一、AI 增强软件研发（AI4SE）\n\n### 1.1 Level 1：核心产品与工程更新\n\n#### 1️⃣ Gemini CLI v0.56.0-nightly.20260817.g9a15c45fb（2026-08-17）\n\n## What's Changed\n\n来源：[v0.56.0-nightly.20260817.g9a15c45fb](https://github.com/google-gemini/gemini-cli/releases/tag/v0.56.0-nightly.20260817.g9a15c45fb) — 2026-08-17\n\n#### 2️⃣ Hermes Agent v2026.8.16（2026-08-16）\n\n# Hermes Agent v0.20.2 (v2026.8.16)\n\n来源：[v2026.8.16](https://github.com/NousResearch/hermes-agent/releases/tag/v2026.8.16) — 2026-08-16\n\n#### 3️⃣ Codex rust-v0.148.0-alpha.20（2026-08-16）\n\nRelease 0.148.0-alpha.20\n\n来源：[rust-v0.148.0-alpha.20](https://github.com/openai/codex/releases/tag/rust-v0.148.0-alpha.20) — 2026-08-16\n\n#### 4️⃣ OpenClaw pr-124528-profiles（2026-08-16）\n\nCPU profiles captured from the bounded three-node, twelve-concurrent-turn Gateway rig for PR #124528. The archive contains the representative before and exact-head after Gateway profiles used for the \n\n来源：[pr-124528-profiles](https://github.com/openclaw/openclaw/releases/tag/pr-124528-profiles) — 2026-08-16\n\n---\n\n### 1.2 Level 2：关键人物战略洞察\n\n| 人物 | 动态 | 日期 |\n|---|---|---|\n| @karpathy | 自动采集未配置（需 WebSearch / X 间接源） | — |\n| @bcherny | 自动采集未配置（需 WebSearch / X 间接源） | — |\n| @sundarpichai | 自动采集未配置（需 WebSearch / X 间接源） | — |\n| @sama | 自动采集未配置（需 WebSearch / X 间接源） | — |\n| @gdb | 自动采集未配置（需 WebSearch / X 间接源） | — |\n| @DarioAmodei | 自动采集未配置（需 WebSearch / X 间接源） | — |\n\n---\n\n### 1.3 Level 3：行业研究与数据\n\n> **本日未扫描**（周报/月报降频）。\n\n---\n\n### 1.4 Level 4：补充信源（HN）\n\n- **2026-08-16**：[AI Coding Without the Vibes](https://peterbloem.nl/blog/craft-coding) （89 pts / 54 comments）\n- **2026-08-14**：[Musk assembled a full-stack AI coding play while everyone watched benchmarks](https://pub.towardsai.net/grok-4-6-x-cursor-elon-musk-just-bought-his-way-into-the-ai-coding-war-15a1292d4121) （5 pts / 3 comments）\n- **2026-08-16**：[ProofRun – a local verification receipt for AI coding agents](https://github.com/yebiguo/ProofRun) （5 pts / 0 comments）\n- **2026-08-14**：[AI Coding Has Erased the Supposed Advantage of Statically Typed Languages](https://yyhh.org/blog/2026/08/ai-coding-has-erased-the-supposed-advantage-of-statically-typed-languages/) （4 pts / 2 comments）\n- **2026-08-15**：[SpaceX has acquired coding AI startup Cursor](https://www.engadget.com/2237655/spacex-officially-acquired-ai-coding-startup-cursor/) （4 pts / 0 comments）\n\n---\n\n## 附录：采集日志\n\n| 环节 | 状态 |\n|---|---|\n| GitHub Releases API | ✅ 4 条 |\n| HN Algolia API | ✅ 5 条 |\n| 生成时间 (UTC) | 2026-08-17 13:30 |\n\n*自动生成版 · 可在 Cursor 中基于本稿补充 Level 2 分析与专题*\n",
+  "level1_releases": [
+    {
+      "product": "Hermes Agent",
+      "repo": "NousResearch/hermes-agent",
+      "tag": "v2026.8.18",
+      "name": "Hermes Agent v0.20.4 (2026.8.18)",
+      "published": "2026-08-18",
+      "url": "https://github.com/NousResearch/hermes-agent/releases/tag/v2026.8.18",
+      "summary": "# Hermes Agent v0.20.4 (v2026.8.18)",
+      "body_excerpt": "# Hermes Agent v0.20.4 (v2026.8.18)\n\n**Release Date:** August 18, 2026\n\n> Patch release. This tag rolls up the ~74 PRs merged since v0.20.3 into a stable tagged release for downstream consumers (Docker images, hosted deployments, fresh installs).\n\n---\n\n## About this release\n\nSince v0.20.3 (v2026.8.16.2, tagged August 17), this window landed **~146 commits** across **~265 files** (+21,697 / −2,217) — **~74 merged PRs** including the desktop glass/translucency surface work (matte glass, frost picker, macOS pre-select), the tabbed SESSIONS|BOTS sidebar with per-bot hide/unhide, Bot Mode group-chat fixes (long-running member turns, Markdown rendering, cross-machine routing), NVIDIA SkillEvaluator Tier 1 advisory scanning on skill installs (license + security checks), cron media-send hardening (configurable timeout, manual-run attachments, missed-fire surfacing), SessionDB event-loop-thread and contention fixes, `hermes update` parked-branch honesty, and kanban native OS notifications.\n\n**Full curated release notes for this window will ship with v0.21.0**, which will document everything from v0.20.0 onward — highlights, feature areas, and complete contributor credits. Nothing in this window is skipped.\n\n## Updating\n\n- `hermes update` from an existing install\n- Fresh install: `curl -fsSL https://raw.githubusercontent.com/NousResearch/hermes-agent/main/scripts/install.sh | bash`\n\n**Full Changelog**: https://github.com/NousResearch/hermes-agent/compare/v2026.8.16.2...v2026.8.18",
+      "prerelease": false
+    },
+    {
+      "product": "Gemini CLI",
+      "repo": "google-gemini/gemini-cli",
+      "tag": "v0.56.0-nightly.20260818.g194edea47",
+      "name": "Release v0.56.0-nightly.20260818.g194edea47",
+      "published": "2026-08-18",
+      "url": "https://github.com/google-gemini/gemini-cli/releases/tag/v0.56.0-nightly.20260818.g194edea47",
+      "summary": "## What's Changed",
+      "body_excerpt": "## What's Changed\n* [SSR Agent] Issue Fix (26120): Clarify privacy notice wording and selection options by @joneba-google in https://github.com/google-gemini/gemini-cli/pull/28820\n* [SSR Agent] Issue Fix (21919): Fix TypeScript strict-null errors in integration tests by @joneba-google in https://github.com/google-gemini/gemini-cli/pull/28814\n* [SSR Agent] Issue Fix (21477): Prevent indefinite TUI hang by adding execution timeouts by @joneba-google in https://github.com/google-gemini/gemini-cli/pull/28812\n* [SSR Agent] Issue Fix (19239): Update /clear command docs to include context reset by @joneba-google in https://github.com/google-gemini/gemini-cli/pull/28847\n* [SSR Agent] Issue Fix (24587): Fix misleading admin error for personal accounts by @joneba-google in https://github.com/google-gemini/gemini-cli/pull/28819\n* [SSR Agent] Issue Fix (19463): Format cli_help subagent output as markdown by @joneba-google in https://github.com/google-gemini/gemini-cli/pull/28864\n\n\n**Full Changelog**: https://github.com/google-gemini/gemini-cli/compare/v0.56.0-nightly.20260817.g9a15c45fb...v0.56.0-nightly.20260818.g194edea47",
+      "prerelease": true
+    },
+    {
+      "product": "Codex",
+      "repo": "openai/codex",
+      "tag": "rust-v0.148.0-alpha.22",
+      "name": "0.148.0-alpha.22",
+      "published": "2026-08-18",
+      "url": "https://github.com/openai/codex/releases/tag/rust-v0.148.0-alpha.22",
+      "summary": "Release 0.148.0-alpha.22",
+      "body_excerpt": "Release 0.148.0-alpha.22",
+      "prerelease": true
+    },
+    {
+      "product": "Claude Code",
+      "repo": "anthropics/claude-code",
+      "tag": "v2.1.234",
+      "name": "v2.1.234",
+      "published": "2026-08-17",
+      "url": "https://github.com/anthropics/claude-code/releases/tag/v2.1.234",
+      "summary": "## What's changed",
+      "body_excerpt": "## What's changed\n\n- Added the optional `CLAUDE_CODE_PROJECT_DIR_NAME` environment variable: hosts that give each session its own config directory can choose a short name for the per-project transcript directory\n- Added the `selection:clear` keybinding action, so a key can be bound to clear an in-app text selection; also works in the agents view\n- Added a GitLab merge request badge to the footer and statusline: repos with a GitLab remote and an authenticated glab CLI show MR !N with draft/pending/green states\n- Claude Code now continues your session automatically when a claude.ai usage limit resets; turn it off in `/config` (\"Continue automatically at usage limit\")\n- Claude is now told to use your account email only to identify you, and not to send it to unrelated services unless you ask\n- Security: remote file reads, session restore, CLAUDE.md includes, workflow scripts and file uploads now reject Windows NT-namespace (`\\??\\`) paths, hardening the remaining pre-approval file accesses against the NTLM credential-leak vector\n- Fixed auto mode in very long sessions repeatedly re-checking and denying sandboxed commands' network access after the conversation had been compacted\n- Fixed session-scoped permission answers (including denies) being dropped when answering background subagent tool permission prompts\n- Fixed a crash when an API response on the non-streaming fallback path (typically via third-party gateways) contained a thinking block missing its thinking field or a text block missing its text field\n- Fixed markdown rendering becoming extremely slow for some messages containing unusual Unicode sequences\n- Fixed `SendMessage` rejecting a recipient copied from `ListAgents` when the session name is at the 200-character cap or emoji-heavy\n- Fixed repository detection mis-reading the host of git remotes with unusual userinfo, producing links and repo-specific behavior for the wrong host\n- Fixed MCP diagnostics printing resolved secrets: scope-conflict warnings now show the configured `${VAR}` form, and connection-failure details show only the server origin\n- Fixed `strictKnownMarketplaces` allowlists accepting SCP-style git marketplace sources whose host differs from the one git would actually connect to\n- Fixed modal text such as the `/login` OAuth URL losing characters when copied in fullscreen\n- Fixed a `---` horizontal rule in rendered markdown running into the line after it\n- Fixed consecutive shell commands splitting into multiple \"Ran 1 shell command\"",
+      "prerelease": false
+    }
+  ],
+  "level2_people": [
+    "@karpathy",
+    "@bcherny",
+    "@sundarpichai",
+    "@sama",
+    "@gdb",
+    "@DarioAmodei"
+  ],
+  "level2_note": "raw 无人物搜索；无依据时 Level 2 标无新增，勿编造",
+  "level3_note": "本日未扫描行业报告（周报降频）",
+  "level4_hn": [
+    {
+      "title": "AI Coding Without the Vibes",
+      "url": "https://peterbloem.nl/blog/craft-coding",
+      "points": 97,
+      "comments": 55,
+      "created": "2026-08-16"
+    },
+    {
+      "title": "ProofRun – a local verification receipt for AI coding agents",
+      "url": "https://github.com/yebiguo/ProofRun",
+      "points": 5,
+      "comments": 0,
+      "created": "2026-08-16"
+    },
+    {
+      "title": "On AI Coding and Its Discontents",
+      "url": "https://calnewport.com/on-ai-coding-and-its-discontents/",
+      "points": 4,
+      "comments": 0,
+      "created": "2026-08-17"
+    },
+    {
+      "title": "SpaceX has acquired coding AI startup Cursor",
+      "url": "https://www.engadget.com/2237655/spacex-officially-acquired-ai-coding-startup-cursor/",
+      "points": 4,
+      "comments": 0,
+      "created": "2026-08-15"
+    },
+    {
+      "title": "Show HN: Krystal Loop Protocol–a bounded worker/critic loop for AI coding agents",
+      "url": "https://github.com/KrystalUnity/krystal-loop-protocol",
+      "points": 1,
+      "comments": 0,
+      "created": "2026-08-18"
+    }
+  ]
+}
