@@ -1,0 +1,100 @@
+{
+  "briefing_date": "2026-08-20",
+  "period_start": "2026-08-18",
+  "period_end": "2026-08-20",
+  "previous_briefing_date": "2026-08-19",
+  "previous_briefing_excerpt": "# AI x 研发效能 每日简报 2026-08-19\n\n> 覆盖周期：2026-08-17 ~ 2026-08-19（上一期：2026-08-18）\n\n> **采集方式**：GitHub Actions 自动采集（Level 1 GitHub API + Level 4 HN API）｜Level 2/3 待人工或 API 密钥补充\n\n---\n\n## 头条速览\n\n1. **Gemini CLI v0.56.0-nightly.20260819.g571851b10**——## What's Changed\n2. **Hermes Agent v2026.8.18**——# Hermes Agent v0.20.4 (v2026.8.18)\n3. **Claude Code v2.1.235**——## What's changed\n\n---\n\n## 一、AI 增强软件研发（AI4SE）\n\n### 1.1 Level 1：核心产品与工程更新\n\n#### 1️⃣ Gemini CLI v0.56.0-nightly.20260819.g571851b10（2026-08-19）\n\n## What's Changed\n\n来源：[v0.56.0-nightly.20260819.g571851b10](https://github.com/google-gemini/gemini-cli/releases/tag/v0.56.0-nightly.20260819.g571851b10) — 2026-08-19\n\n#### 2️⃣ Hermes Agent v2026.8.18（2026-08-18）\n\n# Hermes Agent v0.20.4 (v2026.8.18)\n\n来源：[v2026.8.18](https://github.com/NousResearch/hermes-agent/releases/tag/v2026.8.18) — 2026-08-18\n\n#### 3️⃣ Claude Code v2.1.235（2026-08-18）\n\n## What's changed\n\n来源：[v2.1.235](https://github.com/anthropics/claude-code/releases/tag/v2.1.235) — 2026-08-18\n\n#### 4️⃣ Codex rust-v0.148.0（2026-08-18）\n\n## New Features\n\n来源：[rust-v0.148.0](https://github.com/openai/codex/releases/tag/rust-v0.148.0) — 2026-08-18\n\n---\n\n### 1.2 Level 2：关键人物战略洞察\n\n| 人物 | 动态 | 日期 |\n|---|---|---|\n| @karpathy | 自动采集未配置（需 WebSearch / X 间接源） | — |\n| @bcherny | 自动采集未配置（需 WebSearch / X 间接源） | — |\n| @sundarpichai | 自动采集未配置（需 WebSearch / X 间接源） | — |\n| @sama | 自动采集未配置（需 WebSearch / X 间接源） | — |\n| @gdb | 自动采集未配置（需 WebSearch / X 间接源） | — |\n| @DarioAmodei | 自动采集未配置（需 WebSearch / X 间接源） | — |\n\n---\n\n### 1.3 Level 3：行业研究与数据\n\n> **本日未扫描**（周报/月报降频）。\n\n---\n\n### 1.4 Level 4：补充信源（HN）\n\n- **2026-08-16**：[AI Coding Without the Vibes](https://peterbloem.nl/blog/craft-coding) （98 pts / 56 comments）\n- **2026-08-16**：[ProofRun – a local verification receipt for AI coding agents](https://github.com/yebiguo/ProofRun) （5 pts / 0 comments）\n- **2026-08-17**：[On AI Coding and Its Discontents](https://calnewport.com/on-ai-coding-and-its-discontents/) （4 pts / 0 comments）\n- **2026-08-19**：[Rune – persistent context for AI coding tools](https://github.com/thecolourfoundation/rune) （3 pts / 1 comments）\n- **2026-08-18**：[Security checks for apps built with AI coding tools](https://lukatasolutions.com) （2 pts / 1 comments）\n\n---\n\n## 附录：采集日志\n\n| 环节 | 状态 |\n|---|---|\n| GitHub Releases API | ✅ 4 条 |\n| HN Algolia API | ✅ 5 条 |\n| 生成时间 (UTC) | 2026-08-19 13:35 |\n\n*自动生成版 · 可在 Cursor 中基于本稿补充 Level 2 分析与专题*\n",
+  "level1_releases": [
+    {
+      "product": "Claude Code",
+      "repo": "anthropics/claude-code",
+      "tag": "v2.1.237",
+      "name": "v2.1.237",
+      "published": "2026-08-20",
+      "url": "https://github.com/anthropics/claude-code/releases/tag/v2.1.237",
+      "summary": "## What's changed",
+      "body_excerpt": "## What's changed\n\n- Fixed prompt caching for sessions using an LLM gateway or custom base URL\n- Added a built-in \"Concise\" output style: Claude leads with results and skips preamble and narration, while doing the work just as thoroughly. Select it under Output style in /config.",
+      "prerelease": false
+    },
+    {
+      "product": "Gemini CLI",
+      "repo": "google-gemini/gemini-cli",
+      "tag": "v0.56.0",
+      "name": "Release v0.56.0",
+      "published": "2026-08-19",
+      "url": "https://github.com/google-gemini/gemini-cli/releases/tag/v0.56.0",
+      "summary": "**Full Changelog**: https://github.com/google-gemini/gemini-cli/compare/v0.55.1...v0.56.0",
+      "body_excerpt": "**Full Changelog**: https://github.com/google-gemini/gemini-cli/compare/v0.55.1...v0.56.0",
+      "prerelease": false
+    },
+    {
+      "product": "Hermes Agent",
+      "repo": "NousResearch/hermes-agent",
+      "tag": "v2026.8.18",
+      "name": "Hermes Agent v0.20.4 (2026.8.18)",
+      "published": "2026-08-18",
+      "url": "https://github.com/NousResearch/hermes-agent/releases/tag/v2026.8.18",
+      "summary": "# Hermes Agent v0.20.4 (v2026.8.18)",
+      "body_excerpt": "# Hermes Agent v0.20.4 (v2026.8.18)\n\n**Release Date:** August 18, 2026\n\n> Patch release. This tag rolls up the ~74 PRs merged since v0.20.3 into a stable tagged release for downstream consumers (Docker images, hosted deployments, fresh installs).\n\n---\n\n## About this release\n\nSince v0.20.3 (v2026.8.16.2, tagged August 17), this window landed **~146 commits** across **~265 files** (+21,697 / −2,217) — **~74 merged PRs** including the desktop glass/translucency surface work (matte glass, frost picker, macOS pre-select), the tabbed SESSIONS|BOTS sidebar with per-bot hide/unhide, Bot Mode group-chat fixes (long-running member turns, Markdown rendering, cross-machine routing), NVIDIA SkillEvaluator Tier 1 advisory scanning on skill installs (license + security checks), cron media-send hardening (configurable timeout, manual-run attachments, missed-fire surfacing), SessionDB event-loop-thread and contention fixes, `hermes update` parked-branch honesty, and kanban native OS notifications.\n\n**Full curated release notes for this window will ship with v0.21.0**, which will document everything from v0.20.0 onward — highlights, feature areas, and complete contributor credits. Nothing in this window is skipped.\n\n## Updating\n\n- `hermes update` from an existing install\n- Fresh install: `curl -fsSL https://raw.githubusercontent.com/NousResearch/hermes-agent/main/scripts/install.sh | bash`\n\n**Full Changelog**: https://github.com/NousResearch/hermes-agent/compare/v2026.8.16.2...v2026.8.18",
+      "prerelease": false
+    },
+    {
+      "product": "Codex",
+      "repo": "openai/codex",
+      "tag": "rust-v0.148.0",
+      "name": "0.148.0",
+      "published": "2026-08-18",
+      "url": "https://github.com/openai/codex/releases/tag/rust-v0.148.0",
+      "summary": "## New Features",
+      "body_excerpt": "## New Features\n\n- Export complete TUI conversations to Markdown with `/export`, either to the clipboard or a new file. (#37358)\n- Fork sessions with `codex exec fork`, and archive or restore sessions from the TUI resume picker. (#37367, #37369, #37371)\n- Draft prompts while the TUI initializes, with resume and fork progress shown during startup. (#38642, #38788)\n- View estimated thread credits or cost in `/status`, status lines, and terminal titles for eligible workspaces. (#38281, #38282)\n- Use Amazon Bedrock Runtime as a built-in provider with AWS profile, region, and GPT-5.6 routing support. (#38470)\n- Hooks can now run commands asynchronously and invoke MCP tools. (#37533, #38705)\n\n## Bug Fixes\n\n- Model switches and settings updates no longer leave stale instructions behind or change an active turn midstream. (#37260, #38785)\n- Resumed sessions now restore their persisted working directory and approval policy, with more accurate transcript previews. (#37198, #37368, #38605)\n- Turns reconnect through temporary provider outages, and MCP servers recover after OAuth reauthentication without restarting Codex. (#37337, #37485, #38418)\n- TUI startup no longer lets buffered terminal input activate prompts accidentally, and onboarding appears when authentication is missing. (#38641, #38643, #38644)\n- Composer and transcript rendering now handle CRLF pastes, wrapped whitespace, and long URLs correctly. (#37709, #38380, #38704)\n- Sandbox restrictions now fail closed for denied or unreadable paths across Linux and Windows. (#37875, #38026, #38416, #38660)\n\n## Documentation\n\n- The bundled skill-creator guide is more focused, and validation now rejects unfinished TODO placeholders. (#38384)\n\n## Changelog\n\nFull Changelog: https://github.com/openai/codex/compare/rust-v0.147.0...rust-v0.148.0\n\n- #37190 Interrupt cyber model turns after one Guardian denial @copyberry\n- #37191 Preserve legacy semantics during rollout migration @copyberry\n- #37198 Prefer persisted cwd when reading local threads @copyberry\n- #37199 Track thread archive analytics @copyberry\n- #37204 Add durable user-message queue dispatch @copyberry\n- #37206 Add a unified image budget @copyberry\n- #37210 Fetch remote installed plugins across all scopes @copyberry\n- #37211 Harden network proxy MITM authorization @copyberry\n- #37248 Cover remote MCP discovery timeout cleanup @copyberry\n- #37252 Allow agent roles on full-history forks @copyberry\n- #37260 Fix first-turn model switching and rollback @copyberry\n",
+      "prerelease": false
+    }
+  ],
+  "level2_people": [
+    "@karpathy",
+    "@bcherny",
+    "@sundarpichai",
+    "@sama",
+    "@gdb",
+    "@DarioAmodei"
+  ],
+  "level2_note": "raw 无人物搜索；无依据时 Level 2 标无新增，勿编造",
+  "level3_note": "本日未扫描行业报告（周报降频）",
+  "level4_hn": [
+    {
+      "title": "SpaceX Attempted to Acquire AI Coding Startup Cognition",
+      "url": "https://www.bloomberg.com/news/articles/2026-08-19/spacex-attempted-to-acquire-ai-coding-startup-cognition",
+      "points": 6,
+      "comments": 1,
+      "created": "2026-08-19"
+    },
+    {
+      "title": "Show HN: Naeos – an engineering system for AI coding agents",
+      "url": "https://github.com/NAEOS-foundation/naeos",
+      "points": 4,
+      "comments": 0,
+      "created": "2026-08-19"
+    },
+    {
+      "title": "On AI Coding and Its Discontents",
+      "url": "https://calnewport.com/on-ai-coding-and-its-discontents/",
+      "points": 4,
+      "comments": 0,
+      "created": "2026-08-17"
+    },
+    {
+      "title": "Rune – persistent context for AI coding tools",
+      "url": "https://github.com/thecolourfoundation/rune",
+      "points": 3,
+      "comments": 1,
+      "created": "2026-08-19"
+    },
+    {
+      "title": "Security checks for apps built with AI coding tools",
+      "url": "https://lukatasolutions.com",
+      "points": 2,
+      "comments": 1,
+      "created": "2026-08-18"
+    }
+  ]
+}
