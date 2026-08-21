@@ -1,0 +1,100 @@
+{
+  "briefing_date": "2026-08-21",
+  "period_start": "2026-08-19",
+  "period_end": "2026-08-21",
+  "previous_briefing_date": "2026-08-20",
+  "previous_briefing_excerpt": "# AI x 研发效能 每日简报 2026-08-20\n\n> 覆盖周期：2026-08-18 ~ 2026-08-20（上一期：2026-08-19）\n\n> **采集方式**：GitHub Actions 自动采集（Level 1 GitHub API + Level 4 HN API）｜Level 2/3 待人工或 API 密钥补充\n\n---\n\n## 头条速览\n\n1. **Claude Code v2.1.237**——## What's changed\n2. **Gemini CLI v0.56.0**——**Full Changelog**: https://github.com/google-ge\n3. **Hermes Agent v2026.8.18**——# Hermes Agent v0.20.4 (v2026.8.18)\n\n---\n\n## 一、AI 增强软件研发（AI4SE）\n\n### 1.1 Level 1：核心产品与工程更新\n\n#### 1️⃣ Claude Code v2.1.237（2026-08-20）\n\n## What's changed\n\n来源：[v2.1.237](https://github.com/anthropics/claude-code/releases/tag/v2.1.237) — 2026-08-20\n\n#### 2️⃣ Gemini CLI v0.56.0（2026-08-19）\n\n**Full Changelog**: https://github.com/google-gemini/gemini-cli/compare/v0.55.1...v0.56.0\n\n来源：[v0.56.0](https://github.com/google-gemini/gemini-cli/releases/tag/v0.56.0) — 2026-08-19\n\n#### 3️⃣ Hermes Agent v2026.8.18（2026-08-18）\n\n# Hermes Agent v0.20.4 (v2026.8.18)\n\n来源：[v2026.8.18](https://github.com/NousResearch/hermes-agent/releases/tag/v2026.8.18) — 2026-08-18\n\n#### 4️⃣ Codex rust-v0.148.0（2026-08-18）\n\n## New Features\n\n来源：[rust-v0.148.0](https://github.com/openai/codex/releases/tag/rust-v0.148.0) — 2026-08-18\n\n---\n\n### 1.2 Level 2：关键人物战略洞察\n\n| 人物 | 动态 | 日期 |\n|---|---|---|\n| @karpathy | 自动采集未配置（需 WebSearch / X 间接源） | — |\n| @bcherny | 自动采集未配置（需 WebSearch / X 间接源） | — |\n| @sundarpichai | 自动采集未配置（需 WebSearch / X 间接源） | — |\n| @sama | 自动采集未配置（需 WebSearch / X 间接源） | — |\n| @gdb | 自动采集未配置（需 WebSearch / X 间接源） | — |\n| @DarioAmodei | 自动采集未配置（需 WebSearch / X 间接源） | — |\n\n---\n\n### 1.3 Level 3：行业研究与数据\n\n> **本日未扫描**（周报/月报降频）。\n\n---\n\n### 1.4 Level 4：补充信源（HN）\n\n- **2026-08-19**：[SpaceX Attempted to Acquire AI Coding Startup Cognition](https://www.bloomberg.com/news/articles/2026-08-19/spacex-attempted-to-acquire-ai-coding-startup-cognition) （6 pts / 1 comments）\n- **2026-08-19**：[Show HN: Naeos – an engineering system for AI coding agents](https://github.com/NAEOS-foundation/naeos) （4 pts / 0 comments）\n- **2026-08-17**：[On AI Coding and Its Discontents](https://calnewport.com/on-ai-coding-and-its-discontents/) （4 pts / 0 comments）\n- **2026-08-19**：[Rune – persistent context for AI coding tools](https://github.com/thecolourfoundation/rune) （3 pts / 1 comments）\n- **2026-08-18**：[Security checks for apps built with AI coding tools](https://lukatasolutions.com) （2 pts / 1 comments）\n\n---\n\n## 附录：采集日志\n\n| 环节 | 状态 |\n|---|---|\n| GitHub Releases API | ✅ 4 条 |\n| HN Algolia API | ✅ 5 条 |\n| 生成时间 (UTC) | 2026-08-20 13:36 |\n\n*自动生成版 · 可在 Cursor 中基于本稿补充 Level 2 分析与专题*\n",
+  "level1_releases": [
+    {
+      "product": "Hermes Agent",
+      "repo": "NousResearch/hermes-agent",
+      "tag": "v2026.8.19",
+      "name": "Hermes Agent v0.20.5 (v2026.8.19)",
+      "published": "2026-08-21",
+      "url": "https://github.com/NousResearch/hermes-agent/releases/tag/v2026.8.19",
+      "summary": "# Hermes Agent v0.20.5 (v2026.8.19)",
+      "body_excerpt": "# Hermes Agent v0.20.5 (v2026.8.19)\n\n**Release Date:** August 19, 2026\n\n> Patch release. This tag rolls up the ~323 PRs merged since v0.20.4 into a stable tagged release for downstream consumers (Docker images, hosted deployments, fresh installs).\n\n---\n\n## About this release\n\nSince v0.20.4 (v2026.8.18, tagged August 18), this window landed **~746 commits** across **~1,250 files** (+111,500 / −20,701) — **~323 merged PRs** including Bot Mode group-room threads, foldable conversation summaries, blob-face avatars, and PDF/file attachments with drag & drop; the keyless web tier (5-vendor free rotation with ring failover, web search on fresh installs with zero keys); a CLI polish wave (fuzzy /model picker, Ctrl+P command palette, richer /status); execution-discipline and runtime stall guards from the Composio eval findings; `hermes update` receipts and fleet `--plan` verification; `hermes worktree list/prune`; the opencode-free zero-auth provider; multi-question clarify; desktop perf work (paint-first Bot Mode hydration, compositor spinners, React Compiler in both renderers); and cron jobs gaining persistent memory and per-job reasoning effort.\n\n**Full curated release notes for this window will ship with v0.21.0**, which will document everything from v0.20.0 onward — highlights, feature areas, and complete contributor credits. Nothing in this window is skipped.\n\n## Updating\n\n- `hermes update` from an existing install\n- Fresh install: `curl -fsSL https://raw.githubusercontent.com/NousResearch/hermes-agent/main/scripts/install.sh | bash`\n\n**Full Changelog**: https://github.com/NousResearch/hermes-agent/compare/v2026.8.18...v2026.8.19",
+      "prerelease": false
+    },
+    {
+      "product": "Claude Code",
+      "repo": "anthropics/claude-code",
+      "tag": "v2.1.238",
+      "name": "v2.1.238",
+      "published": "2026-08-20",
+      "url": "https://github.com/anthropics/claude-code/releases/tag/v2.1.238",
+      "summary": "## What's changed",
+      "body_excerpt": "## What's changed\n\n- Added a `keybindingFlavor` setting: set it to `\"readline\"` to make Ctrl+W in the prompt delete back to the previous whitespace, as in Bash; the default (`\"classic\"`) is unchanged\n- Plugin marketplaces: `headersHelper` on a url marketplace or a catalog entry runs a command that mints HTTP headers (e.g. a short-lived token) for catalog and same-origin archive fetches\n- A catalog entry's `headersHelper` runs only when you install or update that plugin, after its command is shown; `claude plugin install/update` ask `[y/N]` (or pass `-y`)\n- Added `claude self-hosted-runner --defer-shutdown-max-min <minutes>`: on SIGTERM, keep serving attached sessions, park what is left after that many minutes, then exit\n- Added `claude self-hosted-runner --proxy-authorization-command` / `--proxy-authorization-file` for egress proxies that require a freshly issued `Proxy-Authorization` header on every connection\n- Fixed unbounded memory growth in long interactive sessions: subagent tool results are now released once they leave the recent display window\n- Fixed custom, project, and plugin output styles drifting back to the default voice mid-session\n- Fixed `CLAUDE_CODE_ENABLE_PROMPT_SUGGESTION=true` not keeping prompt suggestions on when your account is near, but not over, its usage limit\n- Fixed worktree-isolation Bash refusals telling you to remove a redirect when the command had none\n- Fixed self-hosted runners occasionally being removed by the server after a single slow or lost poll request, handing their healthy session to another runner\n- Fixed MCP elicitation dialogs showing nothing for URLs longer than 4,096 characters, and permission prompts dropping the \"don't ask again\" option when the project path didn't fit the terminal width\n- Fixed leftover `/tmp/claude-*-cwd` files when a Bash command is killed, times out, or is interrupted\n- Fixed held Backspace being ignored on terminals that send Ctrl+H for Backspace when keystrokes arrive in large bursts (slow SSH/mosh links)\n- Fixed text-wrapping in permission prompt diffs: lines containing wide multi-code-point characters (such as emoji) or tabs are no longer clipped\n- Fixed killing a suspended (Ctrl+Z) session sometimes leaving the terminal in bracketed-paste mode with the cursor hidden\n- Fixed stdio MCP servers receiving a `server/discover` request before `initialize`, forcing lazy servers to start their backend on every session open\n- Fixed a proxy's refusal of a connection being reported as a generi",
+      "prerelease": false
+    },
+    {
+      "product": "Codex",
+      "repo": "openai/codex",
+      "tag": "rust-v0.149.0",
+      "name": "0.149.0",
+      "published": "2026-08-20",
+      "url": "https://github.com/openai/codex/releases/tag/rust-v0.149.0",
+      "summary": "## New Features",
+      "body_excerpt": "## New Features\n\n- Added an interactive `codex agents` dashboard for searching, starting, opening, renaming, and stopping tasks, with configurable shortcuts. (#39094, #39112, #39114, #39142)\n- Added `/cd`, `/pwd`, and `/cwd` commands for managing the working directory in TUI sessions. (#38894)\n- Added `codex queue` for sending messages to existing local or remote sessions. (#39092)\n- Expanded Vim editing with character replacement and more change motions such as `cw`, `c$`, and `cc`. (#39661)\n- `codex doctor` now diagnoses endpoint protection, network/proxy failures, desktop app state, and update connectivity. (#38827, #38918, #39060, #39074)\n- SDK users can now pass exact CLI config overrides and select `max` or `ultra` reasoning effort. (#38817, #39662)\n\n## Bug Fixes\n\n- Queued messages now wake idle sessions reliably, resolve duplicate session names more usefully, and preserve pasted or deferred command semantics. (#39034, #39385, #39604)\n- Resumed and forked threads now restore their active permission profile instead of silently falling back to current defaults. (#39153)\n- Fixed duplicate sub-agent activity and tightened TUI routing for sub-agent notifications and approvals. (#39049, #39088)\n- Realtime WebRTC sideband connections now reconnect after unexpected transport loss without dropping pending output. (#39257)\n- Inline TUI history now remains available in Windows Terminal scrollback. (#39619)\n- Inactive TUI thread replay buffers are now bounded to prevent excessive retained streamed output. (#39081)\n\n## Documentation\n\n- Clarified that external contributions should go through issues and design discussion rather than pull requests. (#39089)\n- Documented DNS exfiltration risks and trust limitations for secure devcontainers. (#39283)\n\n## Changelog\n\nFull Changelog: https://github.com/openai/codex/compare/rust-v0.148.0...rust-v0.149.0\n\n- #38817 Add raw config overrides to the TypeScript SDK @copyberry\n- #38819 Support metadata staging for reserved thread IDs @copyberry\n- #38822 Avoid cloning TUI history span content @copyberry\n- #38823 Avoid allocating per character when decorating hyperlinks @copyberry\n- #38827 Add endpoint protection checks to `codex doctor` @copyberry\n- #38830 Isolate external editor buffers from sandbox-writable paths @copyberry\n- #38837 Share editor keymaps across TUI composer components @copyberry\n- #38840 Identify Mac mini hosts in remote control handshakes @copyberry\n- #38893 Restore thread timestamp maxima independently @copybe",
+      "prerelease": false
+    },
+    {
+      "product": "Gemini CLI",
+      "repo": "google-gemini/gemini-cli",
+      "tag": "v0.56.0",
+      "name": "Release v0.56.0",
+      "published": "2026-08-19",
+      "url": "https://github.com/google-gemini/gemini-cli/releases/tag/v0.56.0",
+      "summary": "**Full Changelog**: https://github.com/google-gemini/gemini-cli/compare/v0.55.1...v0.56.0",
+      "body_excerpt": "**Full Changelog**: https://github.com/google-gemini/gemini-cli/compare/v0.55.1...v0.56.0",
+      "prerelease": false
+    }
+  ],
+  "level2_people": [
+    "@karpathy",
+    "@bcherny",
+    "@sundarpichai",
+    "@sama",
+    "@gdb",
+    "@DarioAmodei"
+  ],
+  "level2_note": "raw 无人物搜索；无依据时 Level 2 标无新增，勿编造",
+  "level3_note": "本日未扫描行业报告（周报降频）",
+  "level4_hn": [
+    {
+      "title": "SpaceX Attempted to Acquire AI Coding Startup Cognition",
+      "url": "https://www.bloomberg.com/news/articles/2026-08-19/spacex-attempted-to-acquire-ai-coding-startup-cognition",
+      "points": 7,
+      "comments": 1,
+      "created": "2026-08-19"
+    },
+    {
+      "title": "Show HN: Naeos – an engineering system for AI coding agents",
+      "url": "https://github.com/NAEOS-foundation/naeos",
+      "points": 4,
+      "comments": 0,
+      "created": "2026-08-19"
+    },
+    {
+      "title": "Rune – persistent context for AI coding tools",
+      "url": "https://github.com/thecolourfoundation/rune",
+      "points": 3,
+      "comments": 1,
+      "created": "2026-08-19"
+    },
+    {
+      "title": "Security checks for apps built with AI coding tools",
+      "url": "https://lukatasolutions.com",
+      "points": 2,
+      "comments": 1,
+      "created": "2026-08-18"
+    },
+    {
+      "title": "Magnitude – Open-source AI coding agent that runs local models offline",
+      "url": "https://digitalescapetools.com/tools/tool.html?id=magnitude",
+      "points": 2,
+      "comments": 1,
+      "created": "2026-08-18"
+    }
+  ]
+}
