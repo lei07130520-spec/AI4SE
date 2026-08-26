@@ -1,0 +1,100 @@
+{
+  "briefing_date": "2026-08-26",
+  "period_start": "2026-08-24",
+  "period_end": "2026-08-26",
+  "previous_briefing_date": "2026-08-25",
+  "previous_briefing_excerpt": "# AI x 研发效能 每日简报 2026-08-25\n\n> 覆盖周期：2026-08-23 ~ 2026-08-25（上一期：2026-08-24）\n\n> **采集方式**：GitHub Actions 自动采集（Level 1 GitHub API + Level 4 HN API）｜Level 2/3 待人工或 API 密钥补充\n\n---\n\n## 头条速览\n\n1. **Claude Code v2.1.245**——## What's changed\n2. **Gemini CLI v0.56.0-nightly.20260825.g812f7a2bc**——## What's Changed\n3. **OpenClaw v2026.8.1-beta.3**——## Highlights\n\n---\n\n## 一、AI 增强软件研发（AI4SE）\n\n### 1.1 Level 1：核心产品与工程更新\n\n#### 1️⃣ Claude Code v2.1.245（2026-08-25）\n\n## What's changed\n\n来源：[v2.1.245](https://github.com/anthropics/claude-code/releases/tag/v2.1.245) — 2026-08-25\n\n#### 2️⃣ Gemini CLI v0.56.0-nightly.20260825.g812f7a2bc（2026-08-25）\n\n## What's Changed\n\n来源：[v0.56.0-nightly.20260825.g812f7a2bc](https://github.com/google-gemini/gemini-cli/releases/tag/v0.56.0-nightly.20260825.g812f7a2bc) — 2026-08-25\n\n#### 3️⃣ OpenClaw v2026.8.1-beta.3（2026-08-24）\n\n## Highlights\n\n来源：[v2026.8.1-beta.3](https://github.com/openclaw/openclaw/releases/tag/v2026.8.1-beta.3) — 2026-08-24\n\n#### 4️⃣ Codex rust-v0.149.1（2026-08-24）\n\n## Changelog\n\n来源：[rust-v0.149.1](https://github.com/openai/codex/releases/tag/rust-v0.149.1) — 2026-08-24\n\n---\n\n### 1.2 Level 2：关键人物战略洞察\n\n| 人物 | 动态 | 日期 |\n|---|---|---|\n| @karpathy | 自动采集未配置（需 WebSearch / X 间接源） | — |\n| @bcherny | 自动采集未配置（需 WebSearch / X 间接源） | — |\n| @sundarpichai | 自动采集未配置（需 WebSearch / X 间接源） | — |\n| @sama | 自动采集未配置（需 WebSearch / X 间接源） | — |\n| @gdb | 自动采集未配置（需 WebSearch / X 间接源） | — |\n| @DarioAmodei | 自动采集未配置（需 WebSearch / X 间接源） | — |\n\n---\n\n### 1.3 Level 3：行业研究与数据\n\n> **本日未扫描**（周报/月报降频）。\n\n---\n\n### 1.4 Level 4：补充信源（HN）\n\n- **2026-08-25**：[80% of developers find AI coding more addictive than helpful](https://www.zdnet.com/article/i-cant-stop-80-of-developers-find-ai-coding-more-addictive-than-helpful/) （32 pts / 2 comments）\n- **2026-08-22**：[80% of developers find AI coding more addictive than helpful](https://www.zdnet.com/article/80-of-developers-find-ai-coding-more-addictive-than-helpful/) （13 pts / 0 comments）\n- **2026-08-25**：[Code maintainability plummets in the AI coding era](https://leaddev.com/ai/code-maintainability-plummets-in-the-ai-coding-era) （4 pts / 0 comments）\n- **2026-08-22**：[Show HN: Heimdall – Trust-verified knowledge layer for AI coding agents](https://github.com/ArihantDeva/heimdall) （4 pts / 0 comments）\n- **2026-08-24**：[What my dad taught me about AI coding in the 90s](https://askmike.org/articles/ai-coding-lessons-in-the-90s-from-my-dad/) （2 pts / 0 comments）\n\n---\n\n## 附录：采集日志\n\n| 环节 | 状态 |\n|---|---|\n| GitHub Releases API | ✅ 4 条 |\n| HN Algolia API | ✅ 5 条 |\n| 生成时间 (UTC) | 2026-08-25 13:38 |\n\n*自动生成版 · 可在 Cursor 中基于本稿补充 Level 2 分析与专题*\n",
+  "level1_releases": [
+    {
+      "product": "Claude Code",
+      "repo": "anthropics/claude-code",
+      "tag": "v2.1.246",
+      "name": "v2.1.246",
+      "published": "2026-08-25",
+      "url": "https://github.com/anthropics/claude-code/releases/tag/v2.1.246",
+      "summary": "## What's changed",
+      "body_excerpt": "## What's changed\n\n- Added a startup warning for Bash allow rules with a wildcard before the subcommand (e.g. `Bash(git * main)`), since they also match options inserted before the subcommand\n- Added an Auto mode tab to `/permissions` for viewing and editing auto mode classifier rules\n- Added the turn's completion time to the end-of-turn duration line, e.g. `✻ Sautéed for 23s · done 6:05 PM`\n- Fixed fullscreen mode showing a blank transcript after resizing the terminal and jumping to the bottom until the next keypress\n- Fixed a severe transcript slowdown when a diff contained a very long single line (e.g. a base64 string); such lines now render truncated with a marker\n- Fixed erratic fullscreen scrolling when positioned at an earlier message, including jump-to-bottom getting stuck mid-transcript\n- Fixed background sessions failing to open after 45 seconds when Claude Code's starting directory had been deleted, the machine had slept, or the host is slow to start processes\n- Fixed background sessions failing to open with \"Couldn't start the background service … EACCES\" when another Claude Code process was re-installing the npm package at that moment\n- Fixed markdown rendering being disabled for a whole message when its first 500 characters contained no markdown, and for `+`/`N)` lists and setext headings\n- Fixed MCP tool calls interrupted by an incoming message in headless/remote sessions being reported to the model as \"completed with no output\" instead of an explicit interrupted error\n- Fixed MCP tool arguments being sent as JSON strings when the parameter's schema is empty (`{}`), instead of their real type\n- Fixed a command interrupted mid-run showing as \"Ran 1 shell command\" with no sign it was cut\n- Fixed pressing ← or running `/background` during a dynamic workflow restarting its finished subagents; it now asks first and says how many subagents would restart\n- Fixed opening a just-started session in `claude agents` while its worker was still booting (common on Windows) stopping it with \"was stopped while the respawn was in flight\"\n- Fixed `claude agents` listing a backgrounded named session twice; backgrounding the same conversation again now numbers the new row (e.g. `my-session (2)`)\n- Fixed the background retention sweep removing git worktrees under `.claude/worktrees/` that you created yourself when an old background-session record pointed at them\n- Fixed auto mode tool calls being denied as \"temporarily unavailable\" on very large sessions by scali",
+      "prerelease": false
+    },
+    {
+      "product": "Gemini CLI",
+      "repo": "google-gemini/gemini-cli",
+      "tag": "v0.57.0",
+      "name": "Release v0.57.0",
+      "published": "2026-08-25",
+      "url": "https://github.com/google-gemini/gemini-cli/releases/tag/v0.57.0",
+      "summary": "## What's Changed",
+      "body_excerpt": "## What's Changed\n* fix(core): dynamically resolve Cloud Workstations proxy redirect URI for OAuth flows by @amelidev in https://github.com/google-gemini/gemini-cli/pull/28688\n* fix(core): resolve swallowed directory mismatch in IDE connections by @amelidev in https://github.com/google-gemini/gemini-cli/pull/28729\n* Feat/eval validate by @ved015 in https://github.com/google-gemini/gemini-cli/pull/28344\n* feat(evals): add tool call formatter and integrate failure summaries by @ved015 in https://github.com/google-gemini/gemini-cli/pull/28305\n* Changelog for v0.55.1 by @gemini-cli-robot in https://github.com/google-gemini/gemini-cli/pull/28779\n* test(e2e): stabilize file-system-interactive test on slow runners by @DavidAPierce in https://github.com/google-gemini/gemini-cli/pull/28793\n* fix(core): implement context-aware silent retries and availability TTL for capacity errors (#28761) by @DavidAPierce in https://github.com/google-gemini/gemini-cli/pull/28790\n* fix(core): rollback entire multi-turn request on cancellation or abort by @amelidev in https://github.com/google-gemini/gemini-cli/pull/28801\n* fix(core): normalize git environment and resolve workspace state mismatch by @luisfelipe-alt in https://github.com/google-gemini/gemini-cli/pull/28792\n* [SSR Agent] Issue Fix (19826): Migrate process.env to vi.stubEnv in a2a-server tests by @joneba-google in https://github.com/google-gemini/gemini-cli/pull/28811\n* [SSR Agent] Issue Fix (21911): Add composite flag to packages/cli tsconfig by @joneba-google in https://github.com/google-gemini/gemini-cli/pull/28813\n* [SSR Agent] Issue Fix (26120): Clarify privacy notice wording and selection options by @joneba-google in https://github.com/google-gemini/gemini-cli/pull/28820\n* [SSR Agent] Issue Fix (21919): Fix TypeScript strict-null errors in integration tests by @joneba-google in https://github.com/google-gemini/gemini-cli/pull/28814\n* [SSR Agent] Issue Fix (21477): Prevent indefinite TUI hang by adding execution timeouts by @joneba-google in https://github.com/google-gemini/gemini-cli/pull/28812\n* [SSR Agent] Issue Fix (19239): Update /clear command docs to include context reset by @joneba-google in https://github.com/google-gemini/gemini-cli/pull/28847\n* [SSR Agent] Issue Fix (24587): Fix misleading admin error for personal accounts by @joneba-google in https://github.com/google-gemini/gemini-cli/pull/28819\n* [SSR Agent] Issue Fix (19463): Format cli_help subagent output as markdown by @joneba-google in https://g",
+      "prerelease": false
+    },
+    {
+      "product": "OpenClaw",
+      "repo": "openclaw/openclaw",
+      "tag": "v2026.8.1-beta.3",
+      "name": "OpenClaw 2026.8.1-beta.3",
+      "published": "2026-08-24",
+      "url": "https://github.com/openclaw/openclaw/releases/tag/v2026.8.1-beta.3",
+      "summary": "## Highlights",
+      "body_excerpt": "## Highlights\n\n- GPT-5.6 Sol, Terra, Luna, and Ultra reasoning support across OpenClaw and the Codex runtime.\n- Control UI first-run setup now continues verified model setup into Custodian and optional channel setup.\n- Puppeteer-compatible CDP relay support for paired Chrome sessions.\n- Explicit external Gateway lifecycle supervision with verified restart handoff.\n- Compact, verified SQLite backup and fresh-target restore commands.\n- Shared durable ingress monitors for channel plugins.\n\n## Publication evidence\n\n- npm: https://www.npmjs.com/package/openclaw/v/2026.8.1-beta.3\n- Registry tarball: https://registry.npmjs.org/openclaw/-/openclaw-2026.8.1-beta.3.tgz\n- Integrity: `sha512-8v+2Knr+0i1qzWXgJmtcBg78VaoMENahLxcuThOqyCmVaCGPj++mI9yv0R440wMv9Siv4fysd5e0YmBVftDvuQ==`\n- Core npm preflight: https://github.com/openclaw/openclaw/actions/runs/32687267214\n- Core npm publication: https://github.com/openclaw/openclaw/actions/runs/32689503061\n- Official plugin publication and reconciliation: https://github.com/openclaw/openclaw/actions/runs/32680190375\n- All 89 official npm plugins were read back at `2026.8.1-beta.3` with the `beta` selector and complete tarball integrity metadata.\n- `@openclaw/codex@2026.8.1-beta.3` ships the exact managed `@openai/codex@0.149.1` runtime.\n\nSee [`CHANGELOG.md`](https://github.com/openclaw/openclaw/blob/v2026.8.1-beta.3/CHANGELOG.md) for the complete release notes.",
+      "prerelease": true
+    },
+    {
+      "product": "Codex",
+      "repo": "openai/codex",
+      "tag": "rust-v0.149.1",
+      "name": "0.149.1",
+      "published": "2026-08-24",
+      "url": "https://github.com/openai/codex/releases/tag/rust-v0.149.1",
+      "summary": "## Changelog",
+      "body_excerpt": "## Changelog\n\nFull Changelog: https://github.com/openai/codex/compare/rust-v0.149.0...rust-v0.149.1",
+      "prerelease": false
+    }
+  ],
+  "level2_people": [
+    "@karpathy",
+    "@bcherny",
+    "@sundarpichai",
+    "@sama",
+    "@gdb",
+    "@DarioAmodei"
+  ],
+  "level2_note": "raw 无人物搜索；无依据时 Level 2 标无新增，勿编造",
+  "level3_note": "本日未扫描行业报告（周报降频）",
+  "level4_hn": [
+    {
+      "title": "80% of developers find AI coding more addictive than helpful",
+      "url": "https://www.zdnet.com/article/i-cant-stop-80-of-developers-find-ai-coding-more-addictive-than-helpful/",
+      "points": 38,
+      "comments": 4,
+      "created": "2026-08-25"
+    },
+    {
+      "title": "Code maintainability plummets in the AI coding era",
+      "url": "https://leaddev.com/ai/code-maintainability-plummets-in-the-ai-coding-era",
+      "points": 4,
+      "comments": 0,
+      "created": "2026-08-25"
+    },
+    {
+      "title": "Show HN: A local tool that logs every time you swear at your AI coding assistant",
+      "url": "https://github.com/fireinbelly/biomass-conversion-index-monitoring-system",
+      "points": 3,
+      "comments": 1,
+      "created": "2026-08-26"
+    },
+    {
+      "title": "The AI-coding stack: a map for a landscape that won't sit still",
+      "url": "https://mineti.dev/articles/the-ai-coding-stack/",
+      "points": 3,
+      "comments": 0,
+      "created": "2026-08-25"
+    },
+    {
+      "title": "AI Coding Has Erased the Supposed Advantage of Statically Typed Languages",
+      "url": "https://yyhh.org/blog/2026/08/ai-coding-has-erased-the-supposed-advantage-of-statically-typed-languages/",
+      "points": 3,
+      "comments": 0,
+      "created": "2026-08-25"
+    }
+  ]
+}
