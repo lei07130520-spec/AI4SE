@@ -1,0 +1,100 @@
+{
+  "briefing_date": "2026-08-28",
+  "period_start": "2026-08-26",
+  "period_end": "2026-08-28",
+  "previous_briefing_date": "2026-08-26",
+  "previous_briefing_excerpt": "# AI x 研发效能 每日简报 2026-08-26\n\n> 覆盖周期：2026-08-24 ~ 2026-08-26（上一期：2026-08-25）\n\n> **采集方式**：GitHub Actions 自动采集（Level 1 GitHub API + Level 4 HN API）｜Level 2/3 待人工或 API 密钥补充\n\n---\n\n## 头条速览\n\n1. **Claude Code v2.1.246**——## What's changed\n2. **Gemini CLI v0.57.0**——## What's Changed\n3. **OpenClaw v2026.8.1-beta.3**——## Highlights\n\n---\n\n## 一、AI 增强软件研发（AI4SE）\n\n### 1.1 Level 1：核心产品与工程更新\n\n#### 1️⃣ Claude Code v2.1.246（2026-08-25）\n\n## What's changed\n\n来源：[v2.1.246](https://github.com/anthropics/claude-code/releases/tag/v2.1.246) — 2026-08-25\n\n#### 2️⃣ Gemini CLI v0.57.0（2026-08-25）\n\n## What's Changed\n\n来源：[v0.57.0](https://github.com/google-gemini/gemini-cli/releases/tag/v0.57.0) — 2026-08-25\n\n#### 3️⃣ OpenClaw v2026.8.1-beta.3（2026-08-24）\n\n## Highlights\n\n来源：[v2026.8.1-beta.3](https://github.com/openclaw/openclaw/releases/tag/v2026.8.1-beta.3) — 2026-08-24\n\n#### 4️⃣ Codex rust-v0.149.1（2026-08-24）\n\n## Changelog\n\n来源：[rust-v0.149.1](https://github.com/openai/codex/releases/tag/rust-v0.149.1) — 2026-08-24\n\n---\n\n### 1.2 Level 2：关键人物战略洞察\n\n| 人物 | 动态 | 日期 |\n|---|---|---|\n| @karpathy | 自动采集未配置（需 WebSearch / X 间接源） | — |\n| @bcherny | 自动采集未配置（需 WebSearch / X 间接源） | — |\n| @sundarpichai | 自动采集未配置（需 WebSearch / X 间接源） | — |\n| @sama | 自动采集未配置（需 WebSearch / X 间接源） | — |\n| @gdb | 自动采集未配置（需 WebSearch / X 间接源） | — |\n| @DarioAmodei | 自动采集未配置（需 WebSearch / X 间接源） | — |\n\n---\n\n### 1.3 Level 3：行业研究与数据\n\n> **本日未扫描**（周报/月报降频）。\n\n---\n\n### 1.4 Level 4：补充信源（HN）\n\n- **2026-08-25**：[80% of developers find AI coding more addictive than helpful](https://www.zdnet.com/article/i-cant-stop-80-of-developers-find-ai-coding-more-addictive-than-helpful/) （38 pts / 4 comments）\n- **2026-08-25**：[Code maintainability plummets in the AI coding era](https://leaddev.com/ai/code-maintainability-plummets-in-the-ai-coding-era) （4 pts / 0 comments）\n- **2026-08-26**：[Show HN: A local tool that logs every time you swear at your AI coding assistant](https://github.com/fireinbelly/biomass-conversion-index-monitoring-system) （3 pts / 1 comments）\n- **2026-08-25**：[The AI-coding stack: a map for a landscape that won't sit still](https://mineti.dev/articles/the-ai-coding-stack/) （3 pts / 0 comments）\n- **2026-08-25**：[AI Coding Has Erased the Supposed Advantage of Statically Typed Languages](https://yyhh.org/blog/2026/08/ai-coding-has-erased-the-supposed-advantage-of-statically-typed-languages/) （3 pts / 0 comments）\n\n---\n\n## 附录：采集日志\n\n| 环节 | 状态 |\n|---|---|\n| GitHub Releases API | ✅ 4 条 |\n| HN Algolia API | ✅ 5 条 |\n| 生成时间 (UTC) | 2026-08-26 13:43 |\n\n*自动生成版 · 可在 Cursor 中基于本稿补充 Level 2 分析与专题*\n",
+  "level1_releases": [
+    {
+      "product": "Hermes Agent",
+      "repo": "NousResearch/hermes-agent",
+      "tag": "v2026.8.27",
+      "name": "Hermes Agent v0.20.6 (v2026.8.27)",
+      "published": "2026-08-27",
+      "url": "https://github.com/NousResearch/hermes-agent/releases/tag/v2026.8.27",
+      "summary": "# Hermes Agent v0.20.6 (v2026.8.27)",
+      "body_excerpt": "# Hermes Agent v0.20.6 (v2026.8.27)\n\n**Release Date:** August 27, 2026\n\n> Patch release. This tag rolls up the ~525 PRs merged since v0.20.5 into a stable tagged release for downstream consumers (Docker images, hosted deployments, fresh installs).\n\n---\n\n## About this release\n\nSince v0.20.5 (v2026.8.19, tagged August 21), this window landed **~1,313 commits** across **~1,557 files** (+177,113 / −21,682) — **~525 merged PRs** including consent-gated real-profile browsing (use your default Chromium profile for local browsing, with Windows close-with-approval flow); the desktop Browser getting its own OS window plus a managed SSH remote-update engine and fleet profile rail; a large remote MCP catalog expansion (50+ live-verified vendor-hosted servers incl. Cloudflare, Grafana Cloud, Better Stack, Railway); TTL result caching for web_search/web_extract; lean-tail compression as the default; multi-query tool_search with stemming; opt-in OS-keychain encryption for stored secrets (no more per-launch macOS Keychain prompts); updaters pausing gateways over the control socket instead of tree-killing them; image/package-managed installs refusing unsafe in-place updates (#91277 Phase 3); cron durable-incident acks and clearer code-skew failures; Slack link-unfurl controls; shared Docker container identities; pluggable terminal environment backends; and new models across the pickers (GLM-5.3-Flash, MiniMax M3 free, MiniMax H3 Max video).\n\n**Full curated release notes for this window will ship with v0.21.0**, which will document everything from v0.20.0 onward — highlights, feature areas, and complete contributor credits. Nothing in this window is skipped.\n\n## Updating\n\n- `hermes update` from an existing install\n- Fresh install: `curl -fsSL https://raw.githubusercontent.com/NousResearch/hermes-agent/main/scripts/install.sh | bash`\n\n**Full Changelog**: [v2026.8.19...v2026.8.27](https://github.com/NousResearch/hermes-agent/compare/v2026.8.19...v2026.8.27)",
+      "prerelease": false
+    },
+    {
+      "product": "Claude Code",
+      "repo": "anthropics/claude-code",
+      "tag": "v2.1.248",
+      "name": "v2.1.248",
+      "published": "2026-08-27",
+      "url": "https://github.com/anthropics/claude-code/releases/tag/v2.1.248",
+      "summary": "## What's changed",
+      "body_excerpt": "## What's changed\n\n- Added `--restricted` (or `CLAUDE_CODE_RESTRICTED=1`): removes the built-in tools that run commands or code and `WebFetch` (unless named in `--tools`), keeps file tools inside the working directory, refuses `bypassPermissions`, and ignores user, project and local settings files\n- Added `experimental.cacheTtl` (`\"5m\"` or `\"1h\"`) to agent frontmatter: a per-agent prompt cache TTL used when no subagent TTL setting is configured\n- Added `claude self-hosted-runner --client-label <label>` (or `SELF_HOSTED_RUNNER_CLIENT_LABEL`) to override the label the runner registers with (default: hostname)\n- Added server-managed settings diagnostics: a startup warning when the settings fail to load, and a `/doctor` and `/status` line explaining a load failure or why they weren't fetched (Bedrock/Vertex/third-party provider, custom `ANTHROPIC_BASE_URL`)\n- Added a warning in `/web-setup` when the GitHub CLI token lacks the `workflow` scope, since pushes to very large repositories can be rejected without it\n- Added `/usage-credits` for Enterprise organizations billed through AWS Marketplace, self-serve Enterprise, and Enterprise trials, so members can request a higher usage limit from their admin\n- Added cross-session messaging (`SendMessage` / `ListAgents`) between sessions on the same machine on Bedrock, Vertex, and Foundry, and when telemetry is disabled\n- Fixed a prompt-cache miss (and lost extended-thinking context) roughly once an hour in long sessions, caused by tool definitions being re-rendered after an OAuth token refresh\n- Fixed the `ScheduleWakeup` tool definition changing between a session and its `--resume` when the account had entered usage overage, causing a full prompt-cache miss on the resumed session's first turn\n- Fixed Claude Desktop and Cowork sessions disappearing after 30 days: the transcript cleanup now keeps desktop-written sessions while they are in the app (unless org policy manages retention); the new `desktopSessionCleanupPeriodDays` setting caps the exemption\n- Fixed being sent to the login screen when another Claude Code process held the token refresh lock while the session token had expired; the request now fails with a retryable error instead\n- Windows: Fixed the `claude agents` list not responding to the keyboard after detaching from a session, or when launched in a terminal tab left in win32-input-mode\n- Fixed the recommended Console sign-in in `/login` failing with an OAuth error before showing a sign-in URL on machines w",
+      "prerelease": false
+    },
+    {
+      "product": "Gemini CLI",
+      "repo": "google-gemini/gemini-cli",
+      "tag": "v0.59.0-nightly.20260827.g3c311beac",
+      "name": "Release v0.59.0-nightly.20260827.g3c311beac",
+      "published": "2026-08-27",
+      "url": "https://github.com/google-gemini/gemini-cli/releases/tag/v0.59.0-nightly.20260827.g3c311beac",
+      "summary": "## What's Changed",
+      "body_excerpt": "## What's Changed\n* fix(core): prevent SSRF in MCP OAuth metadata discovery and authentication by @josebalius in https://github.com/google-gemini/gemini-cli/pull/29081\n\n\n**Full Changelog**: https://github.com/google-gemini/gemini-cli/compare/v0.59.0-nightly.20260826.g64b5b79a6...v0.59.0-nightly.20260827.g3c311beac",
+      "prerelease": true
+    },
+    {
+      "product": "Codex",
+      "repo": "openai/codex",
+      "tag": "rust-v0.150.1",
+      "name": "0.150.1",
+      "published": "2026-08-27",
+      "url": "https://github.com/openai/codex/releases/tag/rust-v0.150.1",
+      "summary": "## Bug Fixes",
+      "body_excerpt": "## Bug Fixes\n- Remote compaction now counts retained images toward its token budget by default, trimming older images as needed. (#41003)\n\n## Changelog\n\nFull Changelog: https://github.com/openai/codex/compare/rust-v0.150.0...rust-v0.150.1\n\n- #41003 Backport retained-image compaction budgeting to 0.150 @rhan-oai",
+      "prerelease": false
+    }
+  ],
+  "level2_people": [
+    "@karpathy",
+    "@bcherny",
+    "@sundarpichai",
+    "@sama",
+    "@gdb",
+    "@DarioAmodei"
+  ],
+  "level2_note": "raw 无人物搜索；无依据时 Level 2 标无新增，勿编造",
+  "level3_note": "本日未扫描行业报告（周报降频）",
+  "level4_hn": [
+    {
+      "title": "80% of developers find AI coding more addictive than helpful",
+      "url": "https://www.zdnet.com/article/i-cant-stop-80-of-developers-find-ai-coding-more-addictive-than-helpful/",
+      "points": 38,
+      "comments": 4,
+      "created": "2026-08-25"
+    },
+    {
+      "title": "Show HN: Devx – Autonomous AI coding agent built for Android Termux and desktop",
+      "url": "https://github.com/apvcode/Termux-Dev",
+      "points": 12,
+      "comments": 1,
+      "created": "2026-08-26"
+    },
+    {
+      "title": "Show HN: A local tool that logs every time you swear at your AI coding assistant",
+      "url": "https://github.com/fireinbelly/biomass-conversion-index-monitoring-system",
+      "points": 9,
+      "comments": 5,
+      "created": "2026-08-26"
+    },
+    {
+      "title": "Code maintainability plummets in the AI coding era",
+      "url": "https://leaddev.com/ai/code-maintainability-plummets-in-the-ai-coding-era",
+      "points": 4,
+      "comments": 0,
+      "created": "2026-08-25"
+    },
+    {
+      "title": "The AI-coding stack: a map for a landscape that won't sit still",
+      "url": "https://mineti.dev/articles/the-ai-coding-stack/",
+      "points": 3,
+      "comments": 0,
+      "created": "2026-08-25"
+    }
+  ]
+}
