@@ -1,0 +1,100 @@
+{
+  "briefing_date": "2026-08-30",
+  "period_start": "2026-08-28",
+  "period_end": "2026-08-30",
+  "previous_briefing_date": "2026-08-29",
+  "previous_briefing_excerpt": "# AI x 研发效能 每日简报 2026-08-29\n\n> 覆盖周期：2026-08-27 ~ 2026-08-29（上一期：2026-08-28）\n\n> **采集方式**：GitHub Actions 自动采集（Level 1 GitHub API + Level 4 HN API）｜Level 2/3 待人工或 API 密钥补充\n\n---\n\n## 头条速览\n\n1. **OpenClaw v2026.9.1-beta.1**——## 2026.9.1\n2. **Claude Code v2.1.251**——## What's changed\n3. **Gemini CLI v0.59.0-nightly.20260828.g3c311beac**——**Full Changelog**: https://github.com/google-ge\n\n---\n\n## 一、AI 增强软件研发（AI4SE）\n\n### 1.1 Level 1：核心产品与工程更新\n\n#### 1️⃣ OpenClaw v2026.9.1-beta.1（2026-08-28）\n\n## 2026.9.1\n\n来源：[v2026.9.1-beta.1](https://github.com/openclaw/openclaw/releases/tag/v2026.9.1-beta.1) — 2026-08-28\n\n#### 2️⃣ Claude Code v2.1.251（2026-08-28）\n\n## What's changed\n\n来源：[v2.1.251](https://github.com/anthropics/claude-code/releases/tag/v2.1.251) — 2026-08-28\n\n#### 3️⃣ Gemini CLI v0.59.0-nightly.20260828.g3c311beac（2026-08-28）\n\n**Full Changelog**: https://github.com/google-gemini/gemini-cli/compare/v0.59.0-nightly.20260827.g3c311beac...v0.59.0-nightly.20260828.g3c311beac\n\n来源：[v0.59.0-nightly.20260828.g3c311beac](https://github.com/google-gemini/gemini-cli/releases/tag/v0.59.0-nightly.20260828.g3c311beac) — 2026-08-28\n\n#### 4️⃣ Hermes Agent v2026.8.27（2026-08-27）\n\n# Hermes Agent v0.20.6 (v2026.8.27)\n\n来源：[v2026.8.27](https://github.com/NousResearch/hermes-agent/releases/tag/v2026.8.27) — 2026-08-27\n\n#### 5️⃣ Codex rust-v0.150.1（2026-08-27）\n\n## Bug Fixes\n\n来源：[rust-v0.150.1](https://github.com/openai/codex/releases/tag/rust-v0.150.1) — 2026-08-27\n\n---\n\n### 1.2 Level 2：关键人物战略洞察\n\n| 人物 | 动态 | 日期 |\n|---|---|---|\n| @karpathy | 自动采集未配置（需 WebSearch / X 间接源） | — |\n| @bcherny | 自动采集未配置（需 WebSearch / X 间接源） | — |\n| @sundarpichai | 自动采集未配置（需 WebSearch / X 间接源） | — |\n| @sama | 自动采集未配置（需 WebSearch / X 间接源） | — |\n| @gdb | 自动采集未配置（需 WebSearch / X 间接源） | — |\n| @DarioAmodei | 自动采集未配置（需 WebSearch / X 间接源） | — |\n\n---\n\n### 1.3 Level 3：行业研究与数据\n\n> **本日未扫描**（周报/月报降频）。\n\n---\n\n### 1.4 Level 4：补充信源（HN）\n\n- **2026-08-26**：[Show HN: Devx – Autonomous AI coding agent built for Android Termux and desktop](https://github.com/apvcode/Termux-Dev) （13 pts / 1 comments）\n- **2026-08-26**：[Show HN: A local tool that logs every time you swear at your AI coding assistant](https://github.com/fireinbelly/biomass-conversion-index-monitoring-system) （9 pts / 5 comments）\n- **2026-08-28**：[Grith is live – security proxy for AI coding agents](https://grith.ai/blog/grith-is-live) （4 pts / 1 comments）\n- **2026-08-28**：[Show HN: Grith – syscall-level supervision for AI coding agents on Linux](https://github.com/grith-ai/grith) （3 pts / 0 comments）\n- **2026-08-27**：[Ask HN: What do you do when your AI coding agent is doing its job?](https://news.ycombinator.com/item?id=49461055) （2 pts / 2 comments）\n\n---\n\n## 附录：采集日志\n\n| 环节 | 状态 |\n|---|---|\n| GitHub Releases API | ✅ 5 条 |\n| HN Algolia API | ✅ 5 条 |\n| 生成时间 (UTC) | 2026-08-28 22:46 |\n\n*自动生成版 · 可在 Cursor 中基于本稿补充 Level 2 分析与专题*\n",
+  "level1_releases": [
+    {
+      "product": "Gemini CLI",
+      "repo": "google-gemini/gemini-cli",
+      "tag": "v0.59.0-nightly.20260829.g0bd1d4397",
+      "name": "Release v0.59.0-nightly.20260829.g0bd1d4397",
+      "published": "2026-08-29",
+      "url": "https://github.com/google-gemini/gemini-cli/releases/tag/v0.59.0-nightly.20260829.g0bd1d4397",
+      "summary": "## What's Changed",
+      "body_excerpt": "## What's Changed\n* fix(core): enforce fail-closed workspace trust and filter mcpServers in restricted mode by @luisfelipe-alt in https://github.com/google-gemini/gemini-cli/pull/29099\n\n\n**Full Changelog**: https://github.com/google-gemini/gemini-cli/compare/v0.59.0-nightly.20260828.g3c311beac...v0.59.0-nightly.20260829.g0bd1d4397",
+      "prerelease": true
+    },
+    {
+      "product": "Codex",
+      "repo": "openai/codex",
+      "tag": "rust-v0.151.0",
+      "name": "0.151.0",
+      "published": "2026-08-29",
+      "url": "https://github.com/openai/codex/releases/tag/rust-v0.151.0",
+      "summary": "## New Features",
+      "body_excerpt": "## New Features\n\n- Added a configurable grace period for discovering tools from optional MCP servers. (#41199)\n- Extensions can now inspect or replace MCP tool results before they reach the model. (#41202)\n- Plugin catalogs now combine per-repository configuration and report invalid project marketplaces without hiding valid plugins. (#41208)\n\n## Bug Fixes\n\n- Preserved restored permission profiles across TUI turns and prevented `/cd` from weakening sandbox restrictions. (#41192)\n- Kept tool availability and reasoning effort correct when switching models or falling back to another model. (#41195, #41206)\n- Improved remote sandbox enforcement using the executor’s actual home directory, operating system, and path conventions. (#41196, #41204, #41207, #41209)\n- Preserved structured MCP tool and resource errors in app-server responses. (#41196)\n- Counted nested subagent token usage toward root goal budgets. (#41183)\n- Prevented stale Guardian classifications from authorizing actions after permission state changes. (#41196)\n\n## Chores\n\n- Added telemetry for escalated stdin reviews and remote executor MCP discovery. (#41189, #41205)\n- Stabilized Guardian WebSocket and core fixture tests under slow or highly concurrent CI. (#41191, #41194)\n\n## Changelog\n\nFull Changelog: https://github.com/openai/codex/compare/rust-v0.150.0...rust-v0.151.0\n\n- #41183 Account subagent token usage toward root goals @copyberry\n- #41189 Instrument stdin review size checks @copyberry\n- #41191 Stabilize Guardian WebSocket tests @copyberry\n- #41192 Preserve restored permission profiles in TUI sessions @copyberry\n- #41193 Report affected capabilities from remote plugin syncs @copyberry\n- #41194 Harden core test fixture startup assertions @copyberry\n- #41195 Finalize model-specific tool plans in `ToolRouter` @copyberry\n- #41196 Improve sandboxing, MCP errors, and cached approvals @copyberry\n- #41199 Make the optional MCP startup grace configurable @copyberry\n- #41202 Let extensions process MCP tool results @copyberry\n- #41204 Propagate executor home directories into sandbox contexts @copyberry\n- #41205 Track executor MCP discovery telemetry @copyberry\n- #41206 Make Ultra reasoning fallback model-aware @copyberry\n- #41207 Propagate executor OS into turn environments @copyberry\n- #41208 Honor per-repository plugin configuration in catalog requests @copyberry\n- #41209 Align deny-read matching with executor path semantics @copyberry",
+      "prerelease": false
+    },
+    {
+      "product": "OpenClaw",
+      "repo": "openclaw/openclaw",
+      "tag": "v2026.9.1-beta.1",
+      "name": "openclaw 2026.9.1-beta.1",
+      "published": "2026-08-28",
+      "url": "https://github.com/openclaw/openclaw/releases/tag/v2026.9.1-beta.1",
+      "summary": "## 2026.9.1",
+      "body_excerpt": "## 2026.9.1\n\n### Highlights\n\n- **Gateway restart recovery:** preserve admitted turns across repeated Gateway restarts so restart-safe runs continue through each checkpoint and deliver their final response. (#130491) Thanks @jalehman.\n- **Gateway config-write reliability:** keep committed config writes pending through watcher handoff so same-write reloads settle against the observed generation instead of failing during source transfer. (#131515)\n- **Codex managed runtime:** update the bundled Codex runtime to 0.150.1 across Linux, macOS, and Windows while retaining platform-specific package resolution and current compaction behavior. (#130685) Thanks @vincentkoc.\n- **Linux installation reliability:** provision the stable Node 24 LTS stream and constrain RPM installs to the configured NodeSource repository so Linux setup cannot select an incompatible prerelease. [PR 130369](https://github.com/openclaw/openclaw/pull/130369). Thanks @RomneyDa and @vincentkoc.\n- **Worker recovery:** re-arm admission-deadline launches, terminalize dead-worker turns, and defer debris cleanup so interrupted delegated work settles visibly. (#130446)\n- **Control UI file safety:** preserve confirmed agent-file saves during overlapping reads and refreshes while keeping newer drafts intact. (#130468)\n- **Model browsing reliability:** keep model discovery available after automatic plugin activation instead of losing the selected provider catalog. (#130481)\n\n### Changes\n\n- **Audit decisions:** record generic tool-action decisions at their authoritative execution boundary for clearer operator diagnostics. (#130358) Thanks @joshavant.\n- **Codex app-server compatibility:** carry Codex 0.150.1 collaboration, status, and activity protocol additions through the managed bridge without weakening exact platform package checks. (#130685) Thanks @vincentkoc.\n- **Control UI appearance:** save appearance preferences per user profile so shared browsers no longer collapse everyone onto one visual setup. (#130340)\n- **Model selection scopes:** add configurable model-selection scopes while preserving the canonical provider and runtime policy path. (#127813) Thanks @Marvinthebored and @Peetiegonzalez.\n\n### Fixes\n\n- **Gateway restart recovery:** retain admitted restart-safe runs across cleanup and repeated restarts, preserving checkpoints and final delivery. (#130491) Thanks @jalehman.\n- **Gateway config watcher handoff:** preserve pending config writes until the watcher observes the committed generation, ",
+      "prerelease": true
+    },
+    {
+      "product": "Claude Code",
+      "repo": "anthropics/claude-code",
+      "tag": "v2.1.251",
+      "name": "v2.1.251",
+      "published": "2026-08-28",
+      "url": "https://github.com/anthropics/claude-code/releases/tag/v2.1.251",
+      "summary": "## What's changed",
+      "body_excerpt": "## What's changed\n\n- Added `PreModelSwitch` and `PostModelSwitch` hook events (block, confirm, or annotate a model switch); `SessionStart` resume hooks now receive session staleness and the estimated re-cache cost\n- Added live streaming of a foreground subagent's tool calls and results to Remote Control clients (background subagents, the default, still show status only)\n- Added a Spend limit bar to `/usage` and a `rate_limits.spend_limit` status line field for developers behind a Claude apps gateway with spend limits\n- Added a per-session prompt-cache line to `/cost` (hit ratio, misses, tokens re-cached, warm/cold) and a matching `prompt_cache` object for status line scripts\n- Added `attach`, `logs`, `stop`, `respawn`, and `rm` to `claude --help`; the `--resume` message for a running background session now names the exact `claude attach <id>` command\n- Fixed file tools (Read, Write, Edit) following a symlink swapped inside the working directory after the permission check, which could read or write outside the approved location\n- Fixed plugin commands declared in a marketplace entry being able to point outside the plugin directory; such paths are now rejected with a path-traversal error\n- Fixed project settings being able to enable detailed beta tracing or raw API body logging, and a lower-scope beta tracing endpoint bypassing an OTLP collector pinned by managed settings or a host app\n- Fixed the Workflow tool reading (and quoting in errors) a `scriptPath` outside what the session may read before the permission check ran\n- Fixed Grep and Glob not applying `Read(...)` deny rules to files reached through a symlinked search path\n- Fixed conversations getting stuck on \"text content blocks must be non-empty\" errors after a turn where the model produced only thinking\n- Fixed the first launch on a fresh install starting in default mode instead of auto mode for accounts whose startup default is auto mode\n- Fixed Opus 5 requests failing with \"effort … is not supported when thinking is disabled\" when effort was xhigh/max and thinking was turned off; effort is now sent as `high` in that case\n- Fixed replying to a message Claude Desktop delivered from another session: `SendMessage` to that session id now delivers through Claude Desktop instead of failing with \"not reachable\"\n- Fixed TUI lag with many parallel subagents: per-second progress ticks now replace their predecessor instead of piling up in the transcript\n- Fixed agent teams: a teammate's final answer not reach",
+      "prerelease": false
+    }
+  ],
+  "level2_people": [
+    "@karpathy",
+    "@bcherny",
+    "@sundarpichai",
+    "@sama",
+    "@gdb",
+    "@DarioAmodei"
+  ],
+  "level2_note": "raw 无人物搜索；无依据时 Level 2 标无新增，勿编造",
+  "level3_note": "本日未扫描行业报告（周报降频）",
+  "level4_hn": [
+    {
+      "title": "Grith is live – security proxy for AI coding agents",
+      "url": "https://grith.ai/blog/grith-is-live",
+      "points": 4,
+      "comments": 1,
+      "created": "2026-08-28"
+    },
+    {
+      "title": "Show HN: Grith – syscall-level supervision for AI coding agents on Linux",
+      "url": "https://github.com/grith-ai/grith",
+      "points": 4,
+      "comments": 0,
+      "created": "2026-08-28"
+    },
+    {
+      "title": "OpenAI to end agreement with SpaceX's AI coding tool Cursor",
+      "url": "https://www.reuters.com/business/media-telecom/openai-end-partnership-with-spacexs-cursor-2026-08-29/",
+      "points": 3,
+      "comments": 1,
+      "created": "2026-08-29"
+    },
+    {
+      "title": "Ask HN: What do you do when your AI coding agent is doing its job?",
+      "url": "https://news.ycombinator.com/item?id=49461055",
+      "points": 2,
+      "comments": 2,
+      "created": "2026-08-27"
+    },
+    {
+      "title": "Locus – A small, deterministic safety barrier for AI coding agents",
+      "url": "https://github.com/ahmadshady747-create/LOCUS",
+      "points": 2,
+      "comments": 0,
+      "created": "2026-08-28"
+    }
+  ]
+}
