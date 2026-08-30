@@ -1,0 +1,78 @@
+{
+  "briefing_date": "2026-08-31",
+  "period_start": "2026-08-29",
+  "period_end": "2026-08-31",
+  "previous_briefing_date": "2026-08-30",
+  "previous_briefing_excerpt": "# AI x 研发效能 每日简报 2026-08-30\n\n> 覆盖周期：2026-08-28 ~ 2026-08-30（上一期：2026-08-29）\n\n> **采集方式**：GitHub Actions 自动采集（Level 1 GitHub API + Level 4 HN API）｜Level 2/3 待人工或 API 密钥补充\n\n---\n\n## 头条速览\n\n1. **Gemini CLI v0.59.0-nightly.20260829.g0bd1d4397**——## What's Changed\n2. **Codex rust-v0.151.0**——## New Features\n3. **OpenClaw v2026.9.1-beta.1**——## 2026.9.1\n\n---\n\n## 一、AI 增强软件研发（AI4SE）\n\n### 1.1 Level 1：核心产品与工程更新\n\n#### 1️⃣ Gemini CLI v0.59.0-nightly.20260829.g0bd1d4397（2026-08-29）\n\n## What's Changed\n\n来源：[v0.59.0-nightly.20260829.g0bd1d4397](https://github.com/google-gemini/gemini-cli/releases/tag/v0.59.0-nightly.20260829.g0bd1d4397) — 2026-08-29\n\n#### 2️⃣ Codex rust-v0.151.0（2026-08-29）\n\n## New Features\n\n来源：[rust-v0.151.0](https://github.com/openai/codex/releases/tag/rust-v0.151.0) — 2026-08-29\n\n#### 3️⃣ OpenClaw v2026.9.1-beta.1（2026-08-28）\n\n## 2026.9.1\n\n来源：[v2026.9.1-beta.1](https://github.com/openclaw/openclaw/releases/tag/v2026.9.1-beta.1) — 2026-08-28\n\n#### 4️⃣ Claude Code v2.1.251（2026-08-28）\n\n## What's changed\n\n来源：[v2.1.251](https://github.com/anthropics/claude-code/releases/tag/v2.1.251) — 2026-08-28\n\n---\n\n### 1.2 Level 2：关键人物战略洞察\n\n| 人物 | 动态 | 日期 |\n|---|---|---|\n| @karpathy | 自动采集未配置（需 WebSearch / X 间接源） | — |\n| @bcherny | 自动采集未配置（需 WebSearch / X 间接源） | — |\n| @sundarpichai | 自动采集未配置（需 WebSearch / X 间接源） | — |\n| @sama | 自动采集未配置（需 WebSearch / X 间接源） | — |\n| @gdb | 自动采集未配置（需 WebSearch / X 间接源） | — |\n| @DarioAmodei | 自动采集未配置（需 WebSearch / X 间接源） | — |\n\n---\n\n### 1.3 Level 3：行业研究与数据\n\n> **本日未扫描**（周报/月报降频）。\n\n---\n\n### 1.4 Level 4：补充信源（HN）\n\n- **2026-08-28**：[Grith is live – security proxy for AI coding agents](https://grith.ai/blog/grith-is-live) （4 pts / 1 comments）\n- **2026-08-28**：[Show HN: Grith – syscall-level supervision for AI coding agents on Linux](https://github.com/grith-ai/grith) （4 pts / 0 comments）\n- **2026-08-29**：[OpenAI to end agreement with SpaceX's AI coding tool Cursor](https://www.reuters.com/business/media-telecom/openai-end-partnership-with-spacexs-cursor-2026-08-29/) （3 pts / 1 comments）\n- **2026-08-27**：[Ask HN: What do you do when your AI coding agent is doing its job?](https://news.ycombinator.com/item?id=49461055) （2 pts / 2 comments）\n- **2026-08-28**：[Locus – A small, deterministic safety barrier for AI coding agents](https://github.com/ahmadshady747-create/LOCUS) （2 pts / 0 comments）\n\n---\n\n## 附录：采集日志\n\n| 环节 | 状态 |\n|---|---|\n| GitHub Releases API | ✅ 4 条 |\n| HN Algolia API | ✅ 5 条 |\n| 生成时间 (UTC) | 2026-08-29 16:54 |\n\n*自动生成版 · 可在 Cursor 中基于本稿补充 Level 2 分析与专题*\n",
+  "level1_releases": [
+    {
+      "product": "Gemini CLI",
+      "repo": "google-gemini/gemini-cli",
+      "tag": "v0.59.0-nightly.20260830.g0bd1d4397",
+      "name": "Release v0.59.0-nightly.20260830.g0bd1d4397",
+      "published": "2026-08-30",
+      "url": "https://github.com/google-gemini/gemini-cli/releases/tag/v0.59.0-nightly.20260830.g0bd1d4397",
+      "summary": "**Full Changelog**: https://github.com/google-gemini/gemini-cli/compare/v0.59.0-nightly.20260829.g0bd1d4397...v0.59.0-nightly.20260830.g0bd1d4397",
+      "body_excerpt": "**Full Changelog**: https://github.com/google-gemini/gemini-cli/compare/v0.59.0-nightly.20260829.g0bd1d4397...v0.59.0-nightly.20260830.g0bd1d4397",
+      "prerelease": true
+    },
+    {
+      "product": "Codex",
+      "repo": "openai/codex",
+      "tag": "rust-v0.151.0",
+      "name": "0.151.0",
+      "published": "2026-08-29",
+      "url": "https://github.com/openai/codex/releases/tag/rust-v0.151.0",
+      "summary": "## New Features",
+      "body_excerpt": "## New Features\n\n- Added a configurable grace period for discovering tools from optional MCP servers. (#41199)\n- Extensions can now inspect or replace MCP tool results before they reach the model. (#41202)\n- Plugin catalogs now combine per-repository configuration and report invalid project marketplaces without hiding valid plugins. (#41208)\n\n## Bug Fixes\n\n- Preserved restored permission profiles across TUI turns and prevented `/cd` from weakening sandbox restrictions. (#41192)\n- Kept tool availability and reasoning effort correct when switching models or falling back to another model. (#41195, #41206)\n- Improved remote sandbox enforcement using the executor’s actual home directory, operating system, and path conventions. (#41196, #41204, #41207, #41209)\n- Preserved structured MCP tool and resource errors in app-server responses. (#41196)\n- Counted nested subagent token usage toward root goal budgets. (#41183)\n- Prevented stale Guardian classifications from authorizing actions after permission state changes. (#41196)\n\n## Chores\n\n- Added telemetry for escalated stdin reviews and remote executor MCP discovery. (#41189, #41205)\n- Stabilized Guardian WebSocket and core fixture tests under slow or highly concurrent CI. (#41191, #41194)\n\n## Changelog\n\nFull Changelog: https://github.com/openai/codex/compare/rust-v0.150.0...rust-v0.151.0\n\n- #41183 Account subagent token usage toward root goals @copyberry\n- #41189 Instrument stdin review size checks @copyberry\n- #41191 Stabilize Guardian WebSocket tests @copyberry\n- #41192 Preserve restored permission profiles in TUI sessions @copyberry\n- #41193 Report affected capabilities from remote plugin syncs @copyberry\n- #41194 Harden core test fixture startup assertions @copyberry\n- #41195 Finalize model-specific tool plans in `ToolRouter` @copyberry\n- #41196 Improve sandboxing, MCP errors, and cached approvals @copyberry\n- #41199 Make the optional MCP startup grace configurable @copyberry\n- #41202 Let extensions process MCP tool results @copyberry\n- #41204 Propagate executor home directories into sandbox contexts @copyberry\n- #41205 Track executor MCP discovery telemetry @copyberry\n- #41206 Make Ultra reasoning fallback model-aware @copyberry\n- #41207 Propagate executor OS into turn environments @copyberry\n- #41208 Honor per-repository plugin configuration in catalog requests @copyberry\n- #41209 Align deny-read matching with executor path semantics @copyberry",
+      "prerelease": false
+    }
+  ],
+  "level2_people": [
+    "@karpathy",
+    "@bcherny",
+    "@sundarpichai",
+    "@sama",
+    "@gdb",
+    "@DarioAmodei"
+  ],
+  "level2_note": "raw 无人物搜索；无依据时 Level 2 标无新增，勿编造",
+  "level3_note": "本日未扫描行业报告（周报降频）",
+  "level4_hn": [
+    {
+      "title": "Grith is live – security proxy for AI coding agents",
+      "url": "https://grith.ai/blog/grith-is-live",
+      "points": 4,
+      "comments": 1,
+      "created": "2026-08-28"
+    },
+    {
+      "title": "OpenContext – Persistent, project-local memory for AI coding agents via MCP",
+      "url": "https://www.opencntx.dev/",
+      "points": 4,
+      "comments": 0,
+      "created": "2026-08-29"
+    },
+    {
+      "title": "Show HN: Grith – syscall-level supervision for AI coding agents on Linux",
+      "url": "https://github.com/grith-ai/grith",
+      "points": 4,
+      "comments": 0,
+      "created": "2026-08-28"
+    },
+    {
+      "title": "OpenAI to end agreement with SpaceX's AI coding tool Cursor",
+      "url": "https://www.reuters.com/business/media-telecom/openai-end-partnership-with-spacexs-cursor-2026-08-29/",
+      "points": 3,
+      "comments": 1,
+      "created": "2026-08-29"
+    },
+    {
+      "title": "Getting into Flow with AI Coding",
+      "url": "https://www.natashatherobot.com/p/flow-ai-coding",
+      "points": 2,
+      "comments": 1,
+      "created": "2026-08-30"
+    }
+  ]
+}
