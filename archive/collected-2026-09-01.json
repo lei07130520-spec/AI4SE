@@ -1,0 +1,89 @@
+{
+  "briefing_date": "2026-09-01",
+  "period_start": "2026-08-30",
+  "period_end": "2026-09-01",
+  "previous_briefing_date": "2026-08-31",
+  "previous_briefing_excerpt": "# AI x 研发效能 每日简报 2026-08-31\n\n> 覆盖周期：2026-08-29 ~ 2026-08-31（上一期：2026-08-30）\n\n> **采集方式**：GitHub Actions 自动采集（Level 1 GitHub API + Level 4 HN API）｜Level 2/3 待人工或 API 密钥补充\n\n---\n\n## 头条速览\n\n1. **Gemini CLI v0.59.0-nightly.20260830.g0bd1d4397**——**Full Changelog**: https://github.com/google-ge\n2. **Codex rust-v0.151.0**——## New Features\n\n---\n\n## 一、AI 增强软件研发（AI4SE）\n\n### 1.1 Level 1：核心产品与工程更新\n\n#### 1️⃣ Gemini CLI v0.59.0-nightly.20260830.g0bd1d4397（2026-08-30）\n\n**Full Changelog**: https://github.com/google-gemini/gemini-cli/compare/v0.59.0-nightly.20260829.g0bd1d4397...v0.59.0-nightly.20260830.g0bd1d4397\n\n来源：[v0.59.0-nightly.20260830.g0bd1d4397](https://github.com/google-gemini/gemini-cli/releases/tag/v0.59.0-nightly.20260830.g0bd1d4397) — 2026-08-30\n\n#### 2️⃣ Codex rust-v0.151.0（2026-08-29）\n\n## New Features\n\n来源：[rust-v0.151.0](https://github.com/openai/codex/releases/tag/rust-v0.151.0) — 2026-08-29\n\n---\n\n### 1.2 Level 2：关键人物战略洞察\n\n| 人物 | 动态 | 日期 |\n|---|---|---|\n| @karpathy | 自动采集未配置（需 WebSearch / X 间接源） | — |\n| @bcherny | 自动采集未配置（需 WebSearch / X 间接源） | — |\n| @sundarpichai | 自动采集未配置（需 WebSearch / X 间接源） | — |\n| @sama | 自动采集未配置（需 WebSearch / X 间接源） | — |\n| @gdb | 自动采集未配置（需 WebSearch / X 间接源） | — |\n| @DarioAmodei | 自动采集未配置（需 WebSearch / X 间接源） | — |\n\n---\n\n### 1.3 Level 3：行业研究与数据\n\n> **本日未扫描**（周报/月报降频）。\n\n---\n\n### 1.4 Level 4：补充信源（HN）\n\n- **2026-08-28**：[Grith is live – security proxy for AI coding agents](https://grith.ai/blog/grith-is-live) （4 pts / 1 comments）\n- **2026-08-29**：[OpenContext – Persistent, project-local memory for AI coding agents via MCP](https://www.opencntx.dev/) （4 pts / 0 comments）\n- **2026-08-28**：[Show HN: Grith – syscall-level supervision for AI coding agents on Linux](https://github.com/grith-ai/grith) （4 pts / 0 comments）\n- **2026-08-29**：[OpenAI to end agreement with SpaceX's AI coding tool Cursor](https://www.reuters.com/business/media-telecom/openai-end-partnership-with-spacexs-cursor-2026-08-29/) （3 pts / 1 comments）\n- **2026-08-30**：[Getting into Flow with AI Coding](https://www.natashatherobot.com/p/flow-ai-coding) （2 pts / 1 comments）\n\n---\n\n## 附录：采集日志\n\n| 环节 | 状态 |\n|---|---|\n| GitHub Releases API | ✅ 2 条 |\n| HN Algolia API | ✅ 5 条 |\n| 生成时间 (UTC) | 2026-08-30 17:01 |\n\n*自动生成版 · 可在 Cursor 中基于本稿补充 Level 2 分析与专题*\n",
+  "level1_releases": [
+    {
+      "product": "OpenClaw",
+      "repo": "openclaw/openclaw",
+      "tag": "v2026.8.1",
+      "name": "OpenClaw 2026.8.1",
+      "published": "2026-08-31",
+      "url": "https://github.com/openclaw/openclaw/releases/tag/v2026.8.1",
+      "summary": "## 2026.8.1",
+      "body_excerpt": "## 2026.8.1\n\n[2026.8.1 release notes](https://docs.openclaw.ai/releases/2026.8.1)\n\n> **Update help:** If the automatic update fails, use a local coding harness to help complete the update, diagnose any migration errors, and verify that the Gateway starts correctly. Back up your configuration and state before making changes.\n\n### Highlights\n\n- **Find past conversations:** search visible conversation text by exact words or phrases and reopen the surrounding messages from a matching result. (#105057, #105635, #105585) Thanks @hercial61.\n- **Sessions beyond your Gateway:** run work on paired devices or cloud workers, move the session workspace with it, and reuse warm machines and project seeds for later cloud sessions. (#123280, #127752, #131744, #132374)\n- **Follow work as it happens:** keep a durable session progress card through reloads and follow subagent activity and accumulating edits across web and native chat. (#125125, #125438, #125442, #125444, #121549, #121840, #121815, #121813)\n- **Answer clearly:** respond to structured agent questions through web and native cards, messaging buttons, or plain text, with free-text alternatives and an explicit Skip path. (#109922, #110372, #130262) Thanks @obviyus.\n- **Interactive results and dashboards:** use widgets in chat, pin them to session dashboards, grant specific actions or network origins, and export rendered views as images. (#101840, #108983, #110960, #127315) Thanks @100yenadmin and @hannesrudolph.\n- **Private credential requests:** let your agent request a credential through a masked prompt without putting its value in chat or model context, and use an opt-in proxy to limit protected-secret substitution to approved destinations. (#129670, #123216, #132122)\n- **Approve recurring work once:** grant an automation permission for an exact operation, inspect or revoke that permission later, and require a fresh approval when the job or operation changes. (#129526, #131602)\n- **Richer audio and video:** keep media attached to the conversation across uploads, generated replies, playback, and reloads, with native playback controls and video uploads on Apple and Android clients. (#115842, #116051, #116037)\n\n### Changes\n\n- **OpenProse migration (breaking):** remove the bundled OpenProse plugin and `/prose` command; run `openclaw doctor --fix` to clean stale configuration and follow the [upstream Agent Skill migration](https://docs.openclaw.ai/prose), keeping existing `.prose` source files. (#128494) Thanks @obviy",
+      "prerelease": false
+    },
+    {
+      "product": "Gemini CLI",
+      "repo": "google-gemini/gemini-cli",
+      "tag": "v0.59.0-nightly.20260831.g0bd1d4397",
+      "name": "Release v0.59.0-nightly.20260831.g0bd1d4397",
+      "published": "2026-08-31",
+      "url": "https://github.com/google-gemini/gemini-cli/releases/tag/v0.59.0-nightly.20260831.g0bd1d4397",
+      "summary": "**Full Changelog**: https://github.com/google-gemini/gemini-cli/compare/v0.59.0-nightly.20260830.g0bd1d4397...v0.59.0-nightly.20260831.g0bd1d4397",
+      "body_excerpt": "**Full Changelog**: https://github.com/google-gemini/gemini-cli/compare/v0.59.0-nightly.20260830.g0bd1d4397...v0.59.0-nightly.20260831.g0bd1d4397",
+      "prerelease": true
+    },
+    {
+      "product": "Codex",
+      "repo": "openai/codex",
+      "tag": "rust-v0.152.0-alpha.7",
+      "name": "0.152.0-alpha.7",
+      "published": "2026-08-31",
+      "url": "https://github.com/openai/codex/releases/tag/rust-v0.152.0-alpha.7",
+      "summary": "Release 0.152.0-alpha.7",
+      "body_excerpt": "Release 0.152.0-alpha.7",
+      "prerelease": true
+    }
+  ],
+  "level2_people": [
+    "@karpathy",
+    "@bcherny",
+    "@sundarpichai",
+    "@sama",
+    "@gdb",
+    "@DarioAmodei"
+  ],
+  "level2_note": "raw 无人物搜索；无依据时 Level 2 标无新增，勿编造",
+  "level3_note": "本日未扫描行业报告（周报降频）",
+  "level4_hn": [
+    {
+      "title": "\"Personally, I've given up on AI assisted coding\"",
+      "url": "https://twitter.com/Dev_Tobby/status/2094154755928949191",
+      "points": 7,
+      "comments": 1,
+      "created": "2026-08-31"
+    },
+    {
+      "title": "OpenContext – Persistent, project-local memory for AI coding agents via MCP",
+      "url": "https://www.opencntx.dev/",
+      "points": 4,
+      "comments": 0,
+      "created": "2026-08-29"
+    },
+    {
+      "title": "OpenAI to end agreement with SpaceX's AI coding tool Cursor",
+      "url": "https://www.reuters.com/business/media-telecom/openai-end-partnership-with-spacexs-cursor-2026-08-29/",
+      "points": 3,
+      "comments": 1,
+      "created": "2026-08-29"
+    },
+    {
+      "title": "Getting into Flow with AI Coding",
+      "url": "https://www.natashatherobot.com/p/flow-ai-coding",
+      "points": 2,
+      "comments": 1,
+      "created": "2026-08-30"
+    },
+    {
+      "title": "AI coding agents followed abandoned package references, 6K domains analyzed",
+      "url": "https://forgeeks.net/ai-agents-abandoned-package-references/",
+      "points": 2,
+      "comments": 0,
+      "created": "2026-08-30"
+    }
+  ]
+}
