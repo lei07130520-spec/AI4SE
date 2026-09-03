@@ -1,0 +1,89 @@
+{
+  "briefing_date": "2026-09-04",
+  "period_start": "2026-09-02",
+  "period_end": "2026-09-04",
+  "previous_briefing_date": "2026-09-03",
+  "previous_briefing_excerpt": "# AI x 研发效能 每日简报 2026-09-03\n\n> 覆盖周期：2026-09-01 ~ 2026-09-03（上一期：2026-09-02）\n\n> **采集方式**：GitHub Actions 自动采集（Level 1 GitHub API + Level 4 HN API）｜Level 2/3 待人工或 API 密钥补充\n\n---\n\n## 头条速览\n\n1. **OpenClaw v2026.8.2**——## 2026.8.2\n2. **Claude Code v2.1.258**——## What's changed\n3. **Gemini CLI v0.58.0**——## What's Changed\n\n---\n\n## 一、AI 增强软件研发（AI4SE）\n\n### 1.1 Level 1：核心产品与工程更新\n\n#### 1️⃣ OpenClaw v2026.8.2（2026-09-01）\n\n## 2026.8.2\n\n来源：[v2026.8.2](https://github.com/openclaw/openclaw/releases/tag/v2026.8.2) — 2026-09-01\n\n#### 2️⃣ Claude Code v2.1.258（2026-09-01）\n\n## What's changed\n\n来源：[v2.1.258](https://github.com/anthropics/claude-code/releases/tag/v2.1.258) — 2026-09-01\n\n#### 3️⃣ Gemini CLI v0.58.0（2026-09-01）\n\n## What's Changed\n\n来源：[v0.58.0](https://github.com/google-gemini/gemini-cli/releases/tag/v0.58.0) — 2026-09-01\n\n#### 4️⃣ Codex rust-v0.152.1（2026-09-01）\n\n## Bug Fixes\n\n来源：[rust-v0.152.1](https://github.com/openai/codex/releases/tag/rust-v0.152.1) — 2026-09-01\n\n---\n\n### 1.2 Level 2：关键人物战略洞察\n\n| 人物 | 动态 | 日期 |\n|---|---|---|\n| @karpathy | 自动采集未配置（需 WebSearch / X 间接源） | — |\n| @bcherny | 自动采集未配置（需 WebSearch / X 间接源） | — |\n| @sundarpichai | 自动采集未配置（需 WebSearch / X 间接源） | — |\n| @sama | 自动采集未配置（需 WebSearch / X 间接源） | — |\n| @gdb | 自动采集未配置（需 WebSearch / X 间接源） | — |\n| @DarioAmodei | 自动采集未配置（需 WebSearch / X 间接源） | — |\n\n---\n\n### 1.3 Level 3：行业研究与数据\n\n> **本日未扫描**（周报/月报降频）。\n\n---\n\n### 1.4 Level 4：补充信源（HN）\n\n- **2026-09-01**：[AI Coding Agent Skills for Real Engineers](https://github.com/mattpocock/skills) （38 pts / 14 comments）\n- **2026-08-31**：[\"Personally, I've given up on AI assisted coding\"](https://twitter.com/Dev_Tobby/status/2094154755928949191) （7 pts / 1 comments）\n- **2026-09-02**：[Why Pi is my AI coding harness](https://blog.kulman.sk/pi-is-now-my-ai-harness/) （3 pts / 0 comments）\n- **2026-09-02**：[How much of your coding is done by AI coding agents these days?](https://slashdot.org/poll/3284/how-much-of-your-coding-is-done-by-ai-coding-agents-these-days) （2 pts / 0 comments）\n- **2026-09-01**：[Dev-sandbox – One bash script to isolate AI coding agents with Podman](https://github.com/kosmrljt/dev-sandbox) （2 pts / 0 comments）\n\n---\n\n## 附录：采集日志\n\n| 环节 | 状态 |\n|---|---|\n| GitHub Releases API | ✅ 4 条 |\n| HN Algolia API | ✅ 5 条 |\n| 生成时间 (UTC) | 2026-09-02 16:54 |\n\n*自动生成版 · 可在 Cursor 中基于本稿补充 Level 2 分析与专题*\n",
+  "level1_releases": [
+    {
+      "product": "Codex",
+      "repo": "openai/codex",
+      "tag": "rust-v0.153.0",
+      "name": "0.153.0",
+      "published": "2026-09-03",
+      "url": "https://github.com/openai/codex/releases/tag/rust-v0.153.0",
+      "summary": "## New Features",
+      "body_excerpt": "## New Features\n\n- Vim mode now supports undo with `u` and redo with `Ctrl+R`, preserving complete drafts including pasted content and attachments. ([#41941](https://github.com/openai/codex/pull/41941), [#42140](https://github.com/openai/codex/pull/42140))\n- The plugin CLI can list, install, and remove plugins from remote marketplaces. ([#42150](https://github.com/openai/codex/pull/42150))\n- Set `tui.auto_recap = false` to disable automatic recaps while keeping manual `/recap` available. ([#42101](https://github.com/openai/codex/pull/42101))\n- TUI history shows complete patches, input sent to background terminals, and individual completed commands. ([#41893](https://github.com/openai/codex/pull/41893), [#42107](https://github.com/openai/codex/pull/42107))\n- Plus and Team users receive an earlier warning when less than half of their allowance remains in an approximately five-hour usage window. ([#42142](https://github.com/openai/codex/pull/42142))\n\n## Bug Fixes\n\n- TUI sessions reconnect after an external app-server connection drops, preserving drafts and transcripts while keeping uncertain or queued submissions paused for review. ([#41911](https://github.com/openai/codex/pull/41911), [#41916](https://github.com/openai/codex/pull/41916), [#41918](https://github.com/openai/codex/pull/41918))\n- Full Access skips Guardian reviews for confirmation-only actions. User approval mode skips background Guardian scoring and prewarming, while sensitive-action checks and requests for user input retain their existing handling. ([#42147](https://github.com/openai/codex/pull/42147), [#42256](https://github.com/openai/codex/pull/42256))\n- Guardian review history survives compaction, restarts, and user-created forks while respecting rollback boundaries and isolating subagent history. ([#41879](https://github.com/openai/codex/pull/41879), [#42065](https://github.com/openai/codex/pull/42065))\n- Remembered MCP tool approvals are scoped to the selected app account, and relative MCP executable paths start more reliably on macOS. ([#42133](https://github.com/openai/codex/pull/42133), [#42117](https://github.com/openai/codex/pull/42117))\n- Rollout compression includes shared histories, `codex exec resume` handles compressed rollouts when selecting by working directory, and thread forks work with symlinked session roots. ([#42039](https://github.com/openai/codex/pull/42039), [#42135](https://github.com/openai/codex/pull/42135))\n\n## Configuration and API Updates\n\n- App-server thread m",
+      "prerelease": false
+    },
+    {
+      "product": "Claude Code",
+      "repo": "anthropics/claude-code",
+      "tag": "v2.1.259",
+      "name": "v2.1.259",
+      "published": "2026-09-02",
+      "url": "https://github.com/anthropics/claude-code/releases/tag/v2.1.259",
+      "summary": "## What's changed",
+      "body_excerpt": "## What's changed\n\n- Added `managedMcpServers` managed setting: organizations can provide HTTP/SSE MCP servers to every user (same entry shape as `.mcp.json`); entries that name a command to run are skipped\n- Added `--permission-prompts none` for unattended headless hosts: anything that would prompt is denied automatically while the active permission mode (including auto mode) keeps deciding\n- Added recognition of `glab mr create/merge/close/reopen/note/update` so GitLab merge requests show as `MR !N` in the collapsed tool summary and refresh the footer MR badge\n- Added `--json` to `claude plugin validate` for a machine-readable validation report\n- Fixed concurrent sessions silently reverting each other's `~/.claude.json` changes — workspace trust no longer resets and MCP/project state is no longer lost when running many sessions at once\n- Fixed a conversation whose thinking was rejected once being rejected again on every later turn\n- Fixed Bash `Read()` deny rules not covering files given as option values (`--ignore-revs-file=.env`, `-f.env`, `@file`), `git diff`/`git grep` file operands, or `cd DIR && cat FILE` compounds; `grep -r`/`cp -r` over a directory holding a denied file now asks\n- Fixed the prompt cache being invalidated when the OAuth token refreshed in sessions with telemetry disabled\n- Fixed fullscreen mode showing a blank conversation after a long turn with hundreds of tool calls\n- Fixed auto mode running a turn on a model it doesn't support when a command or skill's frontmatter `model:` named one; the turn now keeps the session model\n- Fixed `CLAUDE_CODE_MAX_CONTEXT_TOKENS` being ignored for Vertex-style model IDs (`@YYYYMMDD` suffix) of model versions Claude Code doesn't recognize\n- Fixed the live output preview of a running shell command hiding its newest lines when an earlier line wrapped\n- Fixed a background GitHub connection check that ran on every launch for claude.ai users; the result is now remembered across launches\n- Fixed `--resume` failing (and `--continue` opening an empty conversation) when a saved session contains an attachment entry with no payload\n- Fixed frontmatter `model:` on custom commands and skills being ignored in interactive sessions\n- Fixed Artifact publishing failing once with an \"unexpected parameter `note`\" error in conversations continued from an older version\n- Fixed managed `forceRemoteSettingsRefresh` being ignored at startup when a policy helper configured by MDM or the managed settings file had already run",
+      "prerelease": false
+    },
+    {
+      "product": "Gemini CLI",
+      "repo": "google-gemini/gemini-cli",
+      "tag": "v0.59.0-nightly.20260902.g4963a4456",
+      "name": "Release v0.59.0-nightly.20260902.g4963a4456",
+      "published": "2026-09-02",
+      "url": "https://github.com/google-gemini/gemini-cli/releases/tag/v0.59.0-nightly.20260902.g4963a4456",
+      "summary": "## What's Changed",
+      "body_excerpt": "## What's Changed\n* fix(core): improve destination validation and connection routing in web fetch utilities by @diegogodinezr in https://github.com/google-gemini/gemini-cli/pull/29120\n\n## New Contributors\n* @diegogodinezr made their first contribution in https://github.com/google-gemini/gemini-cli/pull/29120\n\n**Full Changelog**: https://github.com/google-gemini/gemini-cli/compare/v0.59.0-nightly.20260901.g0bd1d4397...v0.59.0-nightly.20260902.g4963a4456",
+      "prerelease": true
+    }
+  ],
+  "level2_people": [
+    "@karpathy",
+    "@bcherny",
+    "@sundarpichai",
+    "@sama",
+    "@gdb",
+    "@DarioAmodei"
+  ],
+  "level2_note": "raw 无人物搜索；无依据时 Level 2 标无新增，勿编造",
+  "level3_note": "本日未扫描行业报告（周报降频）",
+  "level4_hn": [
+    {
+      "title": "AI Coding Agent Skills for Real Engineers",
+      "url": "https://github.com/mattpocock/skills",
+      "points": 43,
+      "comments": 14,
+      "created": "2026-09-01"
+    },
+    {
+      "title": "Show HN: A Context Registry for AI coding agents",
+      "url": "https://context.apimatic.io/",
+      "points": 6,
+      "comments": 1,
+      "created": "2026-09-03"
+    },
+    {
+      "title": "Why Pi is my AI coding harness",
+      "url": "https://blog.kulman.sk/pi-is-now-my-ai-harness/",
+      "points": 3,
+      "comments": 0,
+      "created": "2026-09-02"
+    },
+    {
+      "title": "Why Short AI Coding Prompts Can Cost You More Time",
+      "url": "https://deanhume.com/why-short-ai-coding-prompts-can-cost-you-more-time/",
+      "points": 2,
+      "comments": 0,
+      "created": "2026-09-03"
+    },
+    {
+      "title": "Show HN: Oconee Runtime – Policy enforcement for browser AI and coding agents",
+      "url": "https://www.oconeeruntime.com/news/policy-enforcement-for-browser-ai-and-coding-agents",
+      "points": 2,
+      "comments": 0,
+      "created": "2026-09-03"
+    }
+  ]
+}
