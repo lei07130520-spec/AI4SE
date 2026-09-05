@@ -8,13 +8,35 @@
     {
       "product": "Gemini CLI",
       "repo": "google-gemini/gemini-cli",
-      "tag": "v0.60.0-nightly.20260904.g87a9c71d5",
-      "name": "Release v0.60.0-nightly.20260904.g87a9c71d5",
-      "published": "2026-09-04",
-      "url": "https://github.com/google-gemini/gemini-cli/releases/tag/v0.60.0-nightly.20260904.g87a9c71d5",
+      "tag": "v0.60.0-nightly.20260905.g85aca163f",
+      "name": "Release v0.60.0-nightly.20260905.g85aca163f",
+      "published": "2026-09-05",
+      "url": "https://github.com/google-gemini/gemini-cli/releases/tag/v0.60.0-nightly.20260905.g85aca163f",
       "summary": "## What's Changed",
-      "body_excerpt": "## What's Changed\n* fix(core): enforce RFC 9207 issuer identification in MCP OAuth flow by @jvargassanchez-dot in https://github.com/google-gemini/gemini-cli/pull/29117\n* chore(release): bump version to 0.60.0-nightly.20260901.g0bd1d4397 by @gemini-cli-robot in https://github.com/google-gemini/gemini-cli/pull/29162\n* Changelog for v0.58.0 by @gemini-cli-robot in https://github.com/google-gemini/gemini-cli/pull/29161\n* fix(cli): isolate temporary directory for macOS Seatbelt sandbox by @jvargassanchez-dot in https://github.com/google-gemini/gemini-cli/pull/29171\n* feat(extensions): harden path resolution and boundary validation in extension loader by @diegogodinezr in https://github.com/google-gemini/gemini-cli/pull/29169\n* Changelog for v0.59.0-preview.0 by @gemini-cli-robot in https://github.com/google-gemini/gemini-cli/pull/29159\n* fix(core): sanitize and remove hardcoded Google CrUX API key in chrome-devtools-mcp by @amelidev in https://github.com/google-gemini/gemini-cli/pull/29158\n\n\n**Full Changelog**: https://github.com/google-gemini/gemini-cli/compare/v0.59.0-nightly.20260902.g4963a4456...v0.60.0-nightly.20260904.g87a9c71d5",
+      "body_excerpt": "## What's Changed\n* fix(extensions): prompt for consent on environment changes and sanitize runtime-altering environment variables by @amelidev in https://github.com/google-gemini/gemini-cli/pull/28863\n* fix(core): enhance workspace path boundary checks and symlink resolution in command safety and file discovery by @jesussamuel-byte in https://github.com/google-gemini/gemini-cli/pull/29170\n* fix(config): enforce strict permission and ownership checks on system-wide configuration paths by @jesussamuel-byte in https://github.com/google-gemini/gemini-cli/pull/29115\n\n## New Contributors\n* @jesussamuel-byte made their first contribution in https://github.com/google-gemini/gemini-cli/pull/29170\n\n**Full Changelog**: https://github.com/google-gemini/gemini-cli/compare/v0.60.0-nightly.20260904.g87a9c71d5...v0.60.0-nightly.20260905.g85aca163f",
       "prerelease": true
+    },
+    {
+      "product": "Claude Code",
+      "repo": "anthropics/claude-code",
+      "tag": "v2.1.261",
+      "name": "v2.1.261",
+      "published": "2026-09-04",
+      "url": "https://github.com/anthropics/claude-code/releases/tag/v2.1.261",
+      "summary": "## What's changed",
+      "body_excerpt": "## What's changed\n\n- Added an \"Organization policy\" line to `/status` and `claude doctor` that says why your organization's policy could not be loaded, such as a proxy not passing the endpoint through\n- Added `bashOutputMaxChars` and `taskOutputMaxChars` settings to raise how much command and background-task output Claude receives inline before it is saved to a file, up to 128K characters\n- Added `--append-subagent-system-prompt-file` to read the subagent system prompt from a file, for prompts too large to pass on the command line\n- Added `/skill-doctor` to show which loaded skills go unused and what they cost in context, so you can prune them\n- Fixed typed or pasted characters occasionally landing out of order or being dropped during fast input or key repeat\n- Fixed `/add-dir <subdirectory>` printing a false \"couldn't be resolved\" error when the working directory is on a `/net` automount\n- Fixed the Bedrock setup wizard hanging when AWS or an AWS credential helper never responds (it now times out with a clear error), and its model checks failing behind a TLS-inspecting proxy\n- Fixed cloud sessions discarding a plugin synced from claude.ai when managed settings force-enable it in `enabledPlugins`, then falling back to a marketplace clone that could fail\n- Fixed being unable to delete the character immediately before an inline `[Image #N]` chip in the prompt input\n- Fixed resuming a session losing hook output and other context around parallel tool calls, which changed the resumed request\n- Fixed Remote Control showing a stale permission mode when a phone, browser, or claude.ai app attaches to a terminal session or after the mode changes in the terminal\n- Fixed Remote Control sessions showing as still working (stuck spinner and Stop button) after stopping a turn from a connected phone or browser, or after a local slash command like `/clear`\n- Fixed SDK and cloud sessions ignoring a Stop or interrupt sent just after the first prompt, before the turn had started; the turn now stops instead of running to completion\n- Fixed Remote Control uploading a session pulled with `/teleport` into the connected session, which appeared appended to the original on phone and web\n- Fixed Remote Control's inbound event stream failing behind TLS-inspecting corporate proxies on native Windows\n- Fixed Remote Control sessions showing the default effort level on claude.ai when the effort comes from settings\n- Fixed `gcpAuthRefresh` opening a browser at startup when the Google creden",
+      "prerelease": false
+    },
+    {
+      "product": "Codex",
+      "repo": "openai/codex",
+      "tag": "rust-v0.153.4",
+      "name": "0.153.4",
+      "published": "2026-09-04",
+      "url": "https://github.com/openai/codex/releases/tag/rust-v0.153.4",
+      "summary": "## Bug Fixes",
+      "body_excerpt": "## Bug Fixes\n\n- Fixed Astra’s visibility in the bundled model picker and made it the bundled default when no model is explicitly configured. (#42874)\n- Updated Astra’s guidance to use asynchronous questions only when the tool is available in the session. (#42878)\n\n## Changelog\n\nFull Changelog: https://github.com/openai/codex/compare/rust-v0.153.3...rust-v0.153.4\n\n- #42874 [0.153 hotfix] Show Astra in bundled model picker @rhan-oai\n- #42878 [0.153 hotfix] Qualify Astra async-question guidance by tool availability @rhan-oai",
+      "prerelease": false
     },
     {
       "product": "OpenClaw",
@@ -25,28 +47,6 @@
       "url": "https://github.com/openclaw/openclaw/releases/tag/v2026.9.1",
       "summary": "## 2026.9.1\r",
       "body_excerpt": "## 2026.9.1\r\n\r\n### Highlights\r\n\r\n- **Diagrams in every chat:** Mermaid blocks now render as diagrams in the Control UI and in the native macOS, iOS, and Android apps, with enlarge previews and a retry when a diagram fails to render on mobile. (#134913, #135746, #135470, #135342)\r\n- **From install to chat in one prompt:** fresh installs (including `npx openclaw@latest`) get a quick-start lane that detects existing Claude Code or Codex logins and API keys, verifies them live, and opens the web dashboard from a foreground Gateway; the full wizard stays available as Custom setup. (#134221) Thanks @fuller-stack-dev.\r\n- **Personal skill libraries on shared Gateways:** keep your own skills beside the workspace set with `openclaw skills library`, import them from ZIP archives, and share or publish them per identity on team Gateways. Related #133602. (#134068)\r\n- **Updates that leave you working:** `openclaw update` now rolls back the npm candidate when the post-update Doctor fails, preserves your configuration and secret references across a failed upgrade, hands failures to a built-in triage agent, waits for plugin readiness before restarting, accepts npm 12 local archives, lets agent-launched updates finish outside the Gateway process tree, and proceeds without a Gateway service instead of refusing when no service manager exists (users on 2026.8.2 without a service manager should run `openclaw update --no-restart` once). Related #134204, #135655. (#135462, #134490, #134865, #134699, #134663, #136316, #135701) Thanks @fuller-stack-dev, @Patrick-Erichsen, @vyctorbrzezowski, @jalehman, @devzeroLL, and @obviyus.\r\n- **A Gateway that stays up:** startup recovers under load and with large agent rosters, malformed legacy cron rows are quarantined instead of blocking boot, migration warnings degrade the Gateway instead of refusing to start, local model servers become the preferred OOM victims, and Windows Gateways stay online after an agent restart. Related #135743, #134458, #135150, #136275, #120134, #134851. (#132186, #135773, #134704, #135713, #136276, #134549, #134853) Thanks @galiniliev, @LiuwqGit, @obviyus, @609NFT, @Nielsh82, @Zak-Finance, @vincentkoc, @nerclid, @w1130150306, and @cmanrav.\r\n- **Codex approvals that stick:** \"Allow Always\" is durable for MCP tools on OpenClaw-configured servers, tool approvals follow the session's posture, and approvals granted to an active Codex placement are reused instead of asked again. Related #132369. (#136019, #135812, #13237",
-      "prerelease": false
-    },
-    {
-      "product": "Claude Code",
-      "repo": "anthropics/claude-code",
-      "tag": "v2.1.260",
-      "name": "v2.1.260",
-      "published": "2026-09-03",
-      "url": "https://github.com/anthropics/claude-code/releases/tag/v2.1.260",
-      "summary": "## What's changed",
-      "body_excerpt": "## What's changed\n\n- Added a diff panel that opens beside the conversation in fullscreen mode and shows your uncommitted changes as Claude edits; toggle it with `/diff`\n- Added a likely cause for prompt-cache misses (e.g. tool definitions or system prompt changed, idle past the TTL) to `/cost` and the status line's `prompt_cache` field\n- Added `/reload-plugins` to headless sessions, so it appears in the Claude Code Desktop and SDK command lists\n- Added a text form of `/advisor` (`/advisor`, `/advisor <model>`, `/advisor off`) for the desktop app, Remote Control, and other headless (`-p`/Agent SDK) sessions\n- Added `oidc.scope_on_refresh` to the Claude apps gateway for IdPs that return an id_token on refresh only when asked for `openid` again\n- Added Claude apps gateway support for newer Claude Desktop keys in `desktop` policy blocks, including `userPluginMarketplacesEnabled` and `userPluginUploadsEnabled`\n- Fixed `Edit`/`Write`/`Read` permission rules whose path contains parentheses being dropped as invalid or ignored by the Bash sandbox, which left \"read-only\" folders writable\n- Fixed one file permission rule with an uncompilable pattern (e.g. an unclosed `[`) making every file edit fail with `Invalid regular expression`; such a deny rule now guards the literal path it spells\n- Fixed Bash permission checks auto-approving zsh commands that hide a command substitution in a REPORTTIME, REPORTMEMORY or DIRSTACKSIZE assignment; these now prompt for approval\n- Fixed Bedrock model discovery, token counting and AWS SSO/STS credential calls failing with \"unable to get local issuer certificate\" when the corporate root CA is only in the OS certificate store\n- Fixed `permissions.blockReadsOutsideWorkingDirectories` on macOS hiding the user's git config from sandboxed git and hiding a worktree-isolated sub-agent's own checkout\n- Fixed managed settings not loading for claude.ai Enterprise/Team users who also had a leftover API key from an earlier `/login`\n- Fixed `/status` listing a signed-in claude.ai account and a configured API key as if both were in effect; the credential not in use is now marked\n- Fixed managed `skillOverrides` entries keyed on a bundled skill's alias (e.g. `checkup` for `/doctor`) not applying, and `Skill(name)` deny rules not covering a nested skill listed as `<dir>:name`\n- Fixed `model: fable` agents ignoring the `[1m]` tag on an `ANTHROPIC_DEFAULT_FABLE_MODEL` pin and silently running with a 200K context window\n- Fixed the `/model` picker not ",
-      "prerelease": false
-    },
-    {
-      "product": "Codex",
-      "repo": "openai/codex",
-      "tag": "rust-v0.153.2",
-      "name": "0.153.2",
-      "published": "2026-09-03",
-      "url": "https://github.com/openai/codex/releases/tag/rust-v0.153.2",
-      "summary": "## Bug Fixes",
-      "body_excerpt": "## Bug Fixes\n\n- Corrected the GPT-6-Astra Fast tier description to say “2x speed, increased usage” instead of “1.5x.” This changes only the displayed text, not how requests run. (#42632)\n\n## Changelog\n\nFull Changelog: https://github.com/openai/codex/compare/rust-v0.153.1...rust-v0.153.2\n\n- #42632 Fix GPT-6-Astra Fast tier description for 0.153.2 @anp-oai",
       "prerelease": false
     }
   ],
@@ -69,6 +69,20 @@
       "created": "2026-09-03"
     },
     {
+      "title": "Show HN: Rubato – Retro-Mac desk device mirrors AI coding state-ESP8266",
+      "url": "https://github.com/lovaxi/Rubato_Device",
+      "points": 5,
+      "comments": 2,
+      "created": "2026-09-05"
+    },
+    {
+      "title": "GitSpawn: Untrusted repos can execute code via AI coding agents",
+      "url": "https://www.manifold.security/blog/ai-coding-agents-git-hijack",
+      "points": 4,
+      "comments": 1,
+      "created": "2026-09-05"
+    },
+    {
       "title": "Why Pi is my AI coding harness",
       "url": "https://blog.kulman.sk/pi-is-now-my-ai-harness/",
       "points": 3,
@@ -78,20 +92,6 @@
     {
       "title": "Why Short AI Coding Prompts Can Cost You More Time",
       "url": "https://deanhume.com/why-short-ai-coding-prompts-can-cost-you-more-time/",
-      "points": 2,
-      "comments": 0,
-      "created": "2026-09-03"
-    },
-    {
-      "title": "Show HN: Oconee Runtime – Policy enforcement for browser AI and coding agents",
-      "url": "https://www.oconeeruntime.com/news/policy-enforcement-for-browser-ai-and-coding-agents",
-      "points": 2,
-      "comments": 0,
-      "created": "2026-09-03"
-    },
-    {
-      "title": "Marvin – Open-source macOS AI coding IDE that learns from its own sessions",
-      "url": "https://github.com/RobertIlisei/MARVIN",
       "points": 2,
       "comments": 0,
       "created": "2026-09-03"
