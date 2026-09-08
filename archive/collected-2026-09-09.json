@@ -1,0 +1,100 @@
+{
+  "briefing_date": "2026-09-09",
+  "period_start": "2026-09-07",
+  "period_end": "2026-09-09",
+  "previous_briefing_date": "2026-09-08",
+  "previous_briefing_excerpt": "# AI x 研发效能 每日简报 2026-09-08\n\n> 覆盖周期：2026-09-06 ~ 2026-09-08（上一期：2026-09-06）\n\n> **采集方式**：GitHub Actions 自动采集（Level 1 GitHub API + Level 4 HN API）｜Level 2/3 待人工或 API 密钥补充\n\n---\n\n## 头条速览\n\n1. **Gemini CLI v0.60.0-nightly.20260907.g85aca163f**——**Full Changelog**: https://github.com/google-ge\n2. **Claude Code v2.1.263**——## What's changed\n\n---\n\n## 一、AI 增强软件研发（AI4SE）\n\n### 1.1 Level 1：核心产品与工程更新\n\n#### 1️⃣ Gemini CLI v0.60.0-nightly.20260907.g85aca163f（2026-09-07）\n\n**Full Changelog**: https://github.com/google-gemini/gemini-cli/compare/v0.60.0-nightly.20260906.g85aca163f...v0.60.0-nightly.20260907.g85aca163f\n\n来源：[v0.60.0-nightly.20260907.g85aca163f](https://github.com/google-gemini/gemini-cli/releases/tag/v0.60.0-nightly.20260907.g85aca163f) — 2026-09-07\n\n#### 2️⃣ Claude Code v2.1.263（2026-09-06）\n\n## What's changed\n\n来源：[v2.1.263](https://github.com/anthropics/claude-code/releases/tag/v2.1.263) — 2026-09-06\n\n---\n\n### 1.2 Level 2：关键人物战略洞察\n\n| 人物 | 动态 | 日期 |\n|---|---|---|\n| @karpathy | 自动采集未配置（需 WebSearch / X 间接源） | — |\n| @bcherny | 自动采集未配置（需 WebSearch / X 间接源） | — |\n| @sundarpichai | 自动采集未配置（需 WebSearch / X 间接源） | — |\n| @sama | 自动采集未配置（需 WebSearch / X 间接源） | — |\n| @gdb | 自动采集未配置（需 WebSearch / X 间接源） | — |\n| @DarioAmodei | 自动采集未配置（需 WebSearch / X 间接源） | — |\n\n---\n\n### 1.3 Level 3：行业研究与数据\n\n> **本日未扫描**（周报/月报降频）。\n\n---\n\n### 1.4 Level 4：补充信源（HN）\n\n- **2026-09-05**：[OKF Agent Memory – Git-native persistent memory for AI coding agents](https://github.com/okf-memory/okf-agent-memory) （78 pts / 26 comments）\n- **2026-09-05**：[GitSpawn: Untrusted repos can execute code via AI coding agents](https://www.manifold.security/blog/ai-coding-agents-git-hijack) （8 pts / 3 comments）\n- **2026-09-05**：[Show HN: Rubato – Retro-Mac desk device mirrors AI coding state-ESP8266](https://github.com/lovaxi/Rubato_Device) （7 pts / 2 comments）\n- **2026-09-06**：[DHH: Programming, AI, Vibe Coding and Linux (Lex Fridman Podcast)](https://lexfridman.com/dhh-2-transcript/) （6 pts / 1 comments）\n- **2026-09-06**：[Ask HN: What's the best place to learn about skills and AI for coding in general](https://news.ycombinator.com/item?id=49590168) （4 pts / 4 comments）\n\n---\n\n## 附录：采集日志\n\n| 环节 | 状态 |\n|---|---|\n| GitHub Releases API | ✅ 2 条 |\n| HN Algolia API | ✅ 5 条 |\n| 生成时间 (UTC) | 2026-09-07 17:58 |\n\n*自动生成版 · 可在 Cursor 中基于本稿补充 Level 2 分析与专题*\n",
+  "level1_releases": [
+    {
+      "product": "OpenClaw",
+      "repo": "openclaw/openclaw",
+      "tag": "v2026.9.3",
+      "name": "openclaw 2026.9.3",
+      "published": "2026-09-08",
+      "url": "https://github.com/openclaw/openclaw/releases/tag/v2026.9.3",
+      "summary": "## 2026.9.3",
+      "body_excerpt": "## 2026.9.3\n\n### Highlights\n\n- **Safer updates:** rehearse core and plugin changes in isolated candidate state before activation, support eligible 2026.9.2 migrations, and recover abandoned update records without stopping a healthy matching Gateway. Related #136997. (#138839, #141109, #141175, #141562)\n- **Performance:** preserve warm prompt caches, reduce unnecessary work during cold session updates and memory search, and reuse worker builds between sessions. Related #140681. (#140449, #140730, #140799, #140840, #141141) Thanks @justinkirklin-gif, @NianJiuZst, and @obviyus.\n- **Skill Workshop:** keep skills in one persistent agent-owned collection across workspaces, compare complete skill instructions, and retire missing-draft suggestions safely through Doctor. Related #135291. (#135528, #139248, #140300, #141009) Thanks @khaisis and @obviyus.\n- **Browser tabs, live and native:** watch agent pages repaint and open external links in native Mac tabs that remain with their window across chat switches. (#140988, #141031)\n- **Your provider accounts, together:** manage connected accounts and supported account priority directly in Models settings. (#132451) Thanks @jesse-merhi.\n- **Share selected conversations:** explicitly publish a revocable read-only view of a session’s existing and future conversation text, accessible to anyone with its public link. (#139489)\n- **A searchable meeting library:** browse saved notes, search full transcripts, download complete Markdown or JSONL archives, and manage capture sources from the Control UI. (#139875, #140084)\n- **Optional team activity reports:** install and enable Team Reports to browse authenticated GitHub activity and explicitly configured Discord discussion, with stored history and optional model summaries. (#139850, #141327)\n\n### Changes\n\n- **Breaking — Node runtime:** require Node 24.16.0 or newer on 24.x, or Node 26.1.0 or newer; Node 26 is recommended. Upgrade Node before OpenClaw to prevent SQLite text truncation: Node 22, Node 25, and earlier 24.x/26.x builds are no longer supported. Node-based CLI/Gateway installs on macOS 11–13.4 or official Linux ARMv7 provisioning need a supported host; see [Node requirements](https://docs.openclaw.ai/install/node). (#140672)\n- **Breaking — execution-policy SDK:** move the retired exec-mode and comparator helpers from `infra-runtime` to `execPolicy` on `openclaw/plugin-sdk/agent-harness-runtime`; use `resolveExecModePolicy` and select the returned fields needed by the ca",
+      "prerelease": false
+    },
+    {
+      "product": "Gemini CLI",
+      "repo": "google-gemini/gemini-cli",
+      "tag": "v0.60.0-nightly.20260908.g85aca163f",
+      "name": "Release v0.60.0-nightly.20260908.g85aca163f",
+      "published": "2026-09-08",
+      "url": "https://github.com/google-gemini/gemini-cli/releases/tag/v0.60.0-nightly.20260908.g85aca163f",
+      "summary": "**Full Changelog**: https://github.com/google-gemini/gemini-cli/compare/v0.60.0-nightly.20260907.g85aca163f...v0.60.0-nightly.20260908.g85aca163f",
+      "body_excerpt": "**Full Changelog**: https://github.com/google-gemini/gemini-cli/compare/v0.60.0-nightly.20260907.g85aca163f...v0.60.0-nightly.20260908.g85aca163f",
+      "prerelease": true
+    },
+    {
+      "product": "Hermes Agent",
+      "repo": "NousResearch/hermes-agent",
+      "tag": "v2026.9.7",
+      "name": "Hermes Agent v0.21.1 (v2026.9.7)",
+      "published": "2026-09-07",
+      "url": "https://github.com/NousResearch/hermes-agent/releases/tag/v2026.9.7",
+      "summary": "# Hermes Agent v0.21.1 (v2026.9.7)",
+      "body_excerpt": "# Hermes Agent v0.21.1 (v2026.9.7)\n\n**Release Date:** September 7, 2026\n\n> Patch release. This tag rolls up current main since v0.21.0 for tagged deployments and downstream consumers.\n\n## About this release\n\nMeasured at commit `6178e9f4eed8d99f4fc550add939d58c7bed6206`, the window since v0.21.0 contains **5,139 non-merge commits** across **4,364 changed files** (+601,014 / −768,419). GitHub reports **632 merged PRs** in the release window at preparation time. These figures exclude the release-version commit.\n\nThe rollup includes the codebase modularization, file-operation and startup performance work, provider and model updates, desktop session controls and browser annotations, MCP authorization improvements, cron scheduling and delivery fixes, and delegation reliability improvements. This patch does not attempt to enumerate or announce every feature in the window.\n\n**Full curated release notes for this window will ship with v0.22.0**, covering everything since v0.21.0, including the intervening patch releases, feature details, and complete contributor credits.\n\n## Updating\n\n- Existing install: `hermes update`\n- Fresh install: `curl -fsSL https://raw.githubusercontent.com/NousResearch/hermes-agent/main/scripts/install.sh | bash`\n- Managed deployments should update through their deployment tooling using the new tag.\n\n**Full Changelog:** [v2026.8.31...v2026.9.7](https://github.com/NousResearch/hermes-agent/compare/v2026.8.31...v2026.9.7)",
+      "prerelease": false
+    },
+    {
+      "product": "Codex",
+      "repo": "openai/codex",
+      "tag": "rust-v0.154.0-alpha.6",
+      "name": "0.154.0-alpha.6",
+      "published": "2026-09-07",
+      "url": "https://github.com/openai/codex/releases/tag/rust-v0.154.0-alpha.6",
+      "summary": "Release 0.154.0-alpha.6",
+      "body_excerpt": "Release 0.154.0-alpha.6",
+      "prerelease": true
+    }
+  ],
+  "level2_people": [
+    "@karpathy",
+    "@bcherny",
+    "@sundarpichai",
+    "@sama",
+    "@gdb",
+    "@DarioAmodei"
+  ],
+  "level2_note": "raw 无人物搜索；无依据时 Level 2 标无新增，勿编造",
+  "level3_note": "本日未扫描行业报告（周报降频）",
+  "level4_hn": [
+    {
+      "title": "DHH: Programming, AI, Vibe Coding and Linux (Lex Fridman Podcast)",
+      "url": "https://lexfridman.com/dhh-2-transcript/",
+      "points": 6,
+      "comments": 1,
+      "created": "2026-09-06"
+    },
+    {
+      "title": "Ask HN: What's the best place to learn about skills and AI for coding in general",
+      "url": "https://news.ycombinator.com/item?id=49590168",
+      "points": 5,
+      "comments": 4,
+      "created": "2026-09-06"
+    },
+    {
+      "title": "AI coding agents forget the codebase between sessions",
+      "url": "https://github.com/thecolourfoundation/rune",
+      "points": 3,
+      "comments": 0,
+      "created": "2026-09-06"
+    },
+    {
+      "title": "Ask HN: How do you keep AI coding agents in sync with a changing Figma file?",
+      "url": "https://news.ycombinator.com/item?id=49595961",
+      "points": 2,
+      "comments": 1,
+      "created": "2026-09-07"
+    },
+    {
+      "title": "Catenary – A spatial canvas IDE for AI coding agents",
+      "url": "https://thecatenary.app",
+      "points": 2,
+      "comments": 0,
+      "created": "2026-09-08"
+    }
+  ]
+}
