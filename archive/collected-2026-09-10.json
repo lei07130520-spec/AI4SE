@@ -1,0 +1,100 @@
+{
+  "briefing_date": "2026-09-10",
+  "period_start": "2026-09-08",
+  "period_end": "2026-09-10",
+  "previous_briefing_date": "2026-09-09",
+  "previous_briefing_excerpt": "# AI x 研发效能 每日简报 2026-09-09\n\n> 覆盖周期：2026-09-07 ~ 2026-09-09（上一期：2026-09-08）\n\n> **采集方式**：GitHub Actions 自动采集（Level 1 GitHub API + Level 4 HN API）｜Level 2/3 待人工或 API 密钥补充\n\n---\n\n## 头条速览\n\n1. **OpenClaw v2026.9.3**——## 2026.9.3\n2. **Gemini CLI v0.60.0-nightly.20260908.g85aca163f**——**Full Changelog**: https://github.com/google-ge\n3. **Hermes Agent v2026.9.7**——# Hermes Agent v0.21.1 (v2026.9.7)\n\n---\n\n## 一、AI 增强软件研发（AI4SE）\n\n### 1.1 Level 1：核心产品与工程更新\n\n#### 1️⃣ OpenClaw v2026.9.3（2026-09-08）\n\n## 2026.9.3\n\n来源：[v2026.9.3](https://github.com/openclaw/openclaw/releases/tag/v2026.9.3) — 2026-09-08\n\n#### 2️⃣ Gemini CLI v0.60.0-nightly.20260908.g85aca163f（2026-09-08）\n\n**Full Changelog**: https://github.com/google-gemini/gemini-cli/compare/v0.60.0-nightly.20260907.g85aca163f...v0.60.0-nightly.20260908.g85aca163f\n\n来源：[v0.60.0-nightly.20260908.g85aca163f](https://github.com/google-gemini/gemini-cli/releases/tag/v0.60.0-nightly.20260908.g85aca163f) — 2026-09-08\n\n#### 3️⃣ Hermes Agent v2026.9.7（2026-09-07）\n\n# Hermes Agent v0.21.1 (v2026.9.7)\n\n来源：[v2026.9.7](https://github.com/NousResearch/hermes-agent/releases/tag/v2026.9.7) — 2026-09-07\n\n#### 4️⃣ Codex rust-v0.154.0-alpha.6（2026-09-07）\n\nRelease 0.154.0-alpha.6\n\n来源：[rust-v0.154.0-alpha.6](https://github.com/openai/codex/releases/tag/rust-v0.154.0-alpha.6) — 2026-09-07\n\n---\n\n### 1.2 Level 2：关键人物战略洞察\n\n| 人物 | 动态 | 日期 |\n|---|---|---|\n| @karpathy | 自动采集未配置（需 WebSearch / X 间接源） | — |\n| @bcherny | 自动采集未配置（需 WebSearch / X 间接源） | — |\n| @sundarpichai | 自动采集未配置（需 WebSearch / X 间接源） | — |\n| @sama | 自动采集未配置（需 WebSearch / X 间接源） | — |\n| @gdb | 自动采集未配置（需 WebSearch / X 间接源） | — |\n| @DarioAmodei | 自动采集未配置（需 WebSearch / X 间接源） | — |\n\n---\n\n### 1.3 Level 3：行业研究与数据\n\n> **本日未扫描**（周报/月报降频）。\n\n---\n\n### 1.4 Level 4：补充信源（HN）\n\n- **2026-09-06**：[DHH: Programming, AI, Vibe Coding and Linux (Lex Fridman Podcast)](https://lexfridman.com/dhh-2-transcript/) （6 pts / 1 comments）\n- **2026-09-06**：[Ask HN: What's the best place to learn about skills and AI for coding in general](https://news.ycombinator.com/item?id=49590168) （5 pts / 4 comments）\n- **2026-09-06**：[AI coding agents forget the codebase between sessions](https://github.com/thecolourfoundation/rune) （3 pts / 0 comments）\n- **2026-09-07**：[Ask HN: How do you keep AI coding agents in sync with a changing Figma file?](https://news.ycombinator.com/item?id=49595961) （2 pts / 1 comments）\n- **2026-09-08**：[Catenary – A spatial canvas IDE for AI coding agents](https://thecatenary.app) （2 pts / 0 comments）\n\n---\n\n## 附录：采集日志\n\n| 环节 | 状态 |\n|---|---|\n| GitHub Releases API | ✅ 4 条 |\n| HN Algolia API | ✅ 5 条 |\n| 生成时间 (UTC) | 2026-09-08 16:53 |\n\n*自动生成版 · 可在 Cursor 中基于本稿补充 Level 2 分析与专题*\n",
+  "level1_releases": [
+    {
+      "product": "Codex",
+      "repo": "openai/codex",
+      "tag": "rust-v0.154.0-alpha.6.1",
+      "name": "0.154.0-alpha.6.1",
+      "published": "2026-09-09",
+      "url": "https://github.com/openai/codex/releases/tag/rust-v0.154.0-alpha.6.1",
+      "summary": "Release 0.154.0-alpha.6.1",
+      "body_excerpt": "Release 0.154.0-alpha.6.1",
+      "prerelease": true
+    },
+    {
+      "product": "OpenClaw",
+      "repo": "openclaw/openclaw",
+      "tag": "v2026.9.3",
+      "name": "openclaw 2026.9.3",
+      "published": "2026-09-08",
+      "url": "https://github.com/openclaw/openclaw/releases/tag/v2026.9.3",
+      "summary": "## 2026.9.3",
+      "body_excerpt": "## 2026.9.3\n\n### Highlights\n\n- **Safer updates:** rehearse core and plugin changes in isolated candidate state before activation, support eligible 2026.9.2 migrations, and recover abandoned update records without stopping a healthy matching Gateway. Related #136997. (#138839, #141109, #141175, #141562)\n- **Performance:** preserve warm prompt caches, reduce unnecessary work during cold session updates and memory search, and reuse worker builds between sessions. Related #140681. (#140449, #140730, #140799, #140840, #141141) Thanks @justinkirklin-gif, @NianJiuZst, and @obviyus.\n- **Skill Workshop:** keep skills in one persistent agent-owned collection across workspaces, compare complete skill instructions, and retire missing-draft suggestions safely through Doctor. Related #135291. (#135528, #139248, #140300, #141009) Thanks @khaisis and @obviyus.\n- **Browser tabs, live and native:** watch agent pages repaint and open external links in native Mac tabs that remain with their window across chat switches. (#140988, #141031)\n- **Your provider accounts, together:** manage connected accounts and supported account priority directly in Models settings. (#132451) Thanks @jesse-merhi.\n- **Share selected conversations:** explicitly publish a revocable read-only view of a session’s existing and future conversation text, accessible to anyone with its public link. (#139489)\n- **A searchable meeting library:** browse saved notes, search full transcripts, download complete Markdown or JSONL archives, and manage capture sources from the Control UI. (#139875, #140084)\n- **Optional team activity reports:** install and enable Team Reports to browse authenticated GitHub activity and explicitly configured Discord discussion, with stored history and optional model summaries. (#139850, #141327)\n\n### Changes\n\n- **Breaking — Node runtime:** require Node 24.16.0 or newer on 24.x, or Node 26.1.0 or newer; Node 26 is recommended. Upgrade Node before OpenClaw to prevent SQLite text truncation: Node 22, Node 25, and earlier 24.x/26.x builds are no longer supported. Node-based CLI/Gateway installs on macOS 11–13.4 or official Linux ARMv7 provisioning need a supported host; see [Node requirements](https://docs.openclaw.ai/install/node). (#140672)\n- **Breaking — execution-policy SDK:** move the retired exec-mode and comparator helpers from `infra-runtime` to `execPolicy` on `openclaw/plugin-sdk/agent-harness-runtime`; use `resolveExecModePolicy` and select the returned fields needed by the ca",
+      "prerelease": false
+    },
+    {
+      "product": "Claude Code",
+      "repo": "anthropics/claude-code",
+      "tag": "v2.1.266",
+      "name": "v2.1.266",
+      "published": "2026-09-08",
+      "url": "https://github.com/anthropics/claude-code/releases/tag/v2.1.266",
+      "summary": "## What's changed",
+      "body_excerpt": "## What's changed\n\n- Fixed a 2.1.265 regression affecting LLM-gateway and proxy setups: the undocumented `CLAUDE_CODE_USE_GATEWAY` environment variable, previously ignored unless `ANTHROPIC_BASE_URL` and `ANTHROPIC_AUTH_TOKEN` were both set, began forcing Cloud-gateway sign-in on its own in 2.1.265, so configurations that set it alongside an API key, `apiKeyHelper`, or custom auth headers failed every request with \"Not signed in to the Cloud gateway\". The variable on its own is ignored again; no configuration change is needed",
+      "prerelease": false
+    },
+    {
+      "product": "Gemini CLI",
+      "repo": "google-gemini/gemini-cli",
+      "tag": "v0.59.0",
+      "name": "Release v0.59.0",
+      "published": "2026-09-08",
+      "url": "https://github.com/google-gemini/gemini-cli/releases/tag/v0.59.0",
+      "summary": "## What's Changed",
+      "body_excerpt": "## What's Changed\n* Changelog for v0.58.0-preview.0 by @gemini-cli-robot in https://github.com/google-gemini/gemini-cli/pull/29082\n* chore(release): bump version to 0.59.0-nightly.20260825.g812f7a2bc by @gemini-cli-robot in https://github.com/google-gemini/gemini-cli/pull/29083\n* fix(core): prevent SSRF in MCP OAuth metadata discovery and authentication by @josebalius in https://github.com/google-gemini/gemini-cli/pull/29081\n* fix(core): enforce fail-closed workspace trust and filter mcpServers in restricted mode by @luisfelipe-alt in https://github.com/google-gemini/gemini-cli/pull/29099\n\n\n**Full Changelog**: https://github.com/google-gemini/gemini-cli/compare/v0.58.0...v0.59.0",
+      "prerelease": false
+    }
+  ],
+  "level2_people": [
+    "@karpathy",
+    "@bcherny",
+    "@sundarpichai",
+    "@sama",
+    "@gdb",
+    "@DarioAmodei"
+  ],
+  "level2_note": "raw 无人物搜索；无依据时 Level 2 标无新增，勿编造",
+  "level3_note": "本日未扫描行业报告（周报降频）",
+  "level4_hn": [
+    {
+      "title": "Ask HN: How do you keep AI coding agents in sync with a changing Figma file?",
+      "url": "https://news.ycombinator.com/item?id=49595961",
+      "points": 2,
+      "comments": 2,
+      "created": "2026-09-07"
+    },
+    {
+      "title": "Validating snapshots before restoring an AI coding workspace",
+      "url": "https://github.com/croviatrust/causari/pull/44",
+      "points": 2,
+      "comments": 0,
+      "created": "2026-09-09"
+    },
+    {
+      "title": "There has to be an in between with AI coding",
+      "url": "https://gabrielsampson.com/blog/there-has-to-be-an-in-between-with-ai-coding/",
+      "points": 2,
+      "comments": 0,
+      "created": "2026-09-08"
+    },
+    {
+      "title": "Catenary – A spatial canvas IDE for AI coding agents",
+      "url": "https://thecatenary.app",
+      "points": 2,
+      "comments": 0,
+      "created": "2026-09-08"
+    },
+    {
+      "title": "Where every AI coding tool keeps its config",
+      "url": "https://github.com/moneytool/agentmeld/blob/main/docs/where-ai-coding-tools-keep-their-config.md",
+      "points": 2,
+      "comments": 0,
+      "created": "2026-09-07"
+    }
+  ]
+}
