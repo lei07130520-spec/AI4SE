@@ -1,0 +1,100 @@
+{
+  "briefing_date": "2026-09-11",
+  "period_start": "2026-09-09",
+  "period_end": "2026-09-11",
+  "previous_briefing_date": "2026-09-10",
+  "previous_briefing_excerpt": "# AI x 研发效能 每日简报 2026-09-10\n\n> 覆盖周期：2026-09-08 ~ 2026-09-10（上一期：2026-09-09）\n\n> **采集方式**：GitHub Actions 自动采集（Level 1 GitHub API + Level 4 HN API）｜Level 2/3 待人工或 API 密钥补充\n\n---\n\n## 头条速览\n\n1. **Codex rust-v0.154.0-alpha.6.1**——Release 0.154.0-alpha.6.1\n2. **OpenClaw v2026.9.3**——## 2026.9.3\n3. **Claude Code v2.1.266**——## What's changed\n\n---\n\n## 一、AI 增强软件研发（AI4SE）\n\n### 1.1 Level 1：核心产品与工程更新\n\n#### 1️⃣ Codex rust-v0.154.0-alpha.6.1（2026-09-09）\n\nRelease 0.154.0-alpha.6.1\n\n来源：[rust-v0.154.0-alpha.6.1](https://github.com/openai/codex/releases/tag/rust-v0.154.0-alpha.6.1) — 2026-09-09\n\n#### 2️⃣ OpenClaw v2026.9.3（2026-09-08）\n\n## 2026.9.3\n\n来源：[v2026.9.3](https://github.com/openclaw/openclaw/releases/tag/v2026.9.3) — 2026-09-08\n\n#### 3️⃣ Claude Code v2.1.266（2026-09-08）\n\n## What's changed\n\n来源：[v2.1.266](https://github.com/anthropics/claude-code/releases/tag/v2.1.266) — 2026-09-08\n\n#### 4️⃣ Gemini CLI v0.59.0（2026-09-08）\n\n## What's Changed\n\n来源：[v0.59.0](https://github.com/google-gemini/gemini-cli/releases/tag/v0.59.0) — 2026-09-08\n\n---\n\n### 1.2 Level 2：关键人物战略洞察\n\n| 人物 | 动态 | 日期 |\n|---|---|---|\n| @karpathy | 自动采集未配置（需 WebSearch / X 间接源） | — |\n| @bcherny | 自动采集未配置（需 WebSearch / X 间接源） | — |\n| @sundarpichai | 自动采集未配置（需 WebSearch / X 间接源） | — |\n| @sama | 自动采集未配置（需 WebSearch / X 间接源） | — |\n| @gdb | 自动采集未配置（需 WebSearch / X 间接源） | — |\n| @DarioAmodei | 自动采集未配置（需 WebSearch / X 间接源） | — |\n\n---\n\n### 1.3 Level 3：行业研究与数据\n\n> **本日未扫描**（周报/月报降频）。\n\n---\n\n### 1.4 Level 4：补充信源（HN）\n\n- **2026-09-07**：[Ask HN: How do you keep AI coding agents in sync with a changing Figma file?](https://news.ycombinator.com/item?id=49595961) （2 pts / 2 comments）\n- **2026-09-09**：[Validating snapshots before restoring an AI coding workspace](https://github.com/croviatrust/causari/pull/44) （2 pts / 0 comments）\n- **2026-09-08**：[There has to be an in between with AI coding](https://gabrielsampson.com/blog/there-has-to-be-an-in-between-with-ai-coding/) （2 pts / 0 comments）\n- **2026-09-08**：[Catenary – A spatial canvas IDE for AI coding agents](https://thecatenary.app) （2 pts / 0 comments）\n- **2026-09-07**：[Where every AI coding tool keeps its config](https://github.com/moneytool/agentmeld/blob/main/docs/where-ai-coding-tools-keep-their-config.md) （2 pts / 0 comments）\n\n---\n\n## 附录：采集日志\n\n| 环节 | 状态 |\n|---|---|\n| GitHub Releases API | ✅ 4 条 |\n| HN Algolia API | ✅ 5 条 |\n| 生成时间 (UTC) | 2026-09-09 16:55 |\n\n*自动生成版 · 可在 Cursor 中基于本稿补充 Level 2 分析与专题*\n",
+  "level1_releases": [
+    {
+      "product": "OpenClaw",
+      "repo": "openclaw/openclaw",
+      "tag": "v2026.6.35",
+      "name": "openclaw 2026.6.35",
+      "published": "2026-09-10",
+      "url": "https://github.com/openclaw/openclaw/releases/tag/v2026.6.35",
+      "summary": "## 2026.6.35\r",
+      "body_excerpt": "## 2026.6.35\r\n\r\nThis is the final June 2026 Extended Stable (LTS) release.\r\n\r\n### Highlights\r\n\r\n- **Safer provider and channel boundaries:** bundled providers and channel adapters now bound untrusted response bodies, reject oversized inputs before expensive work, and preserve safe recovery when transports fail. (#119942) Thanks @RomneyDa, @vincentkoc, @Pick-cat, @RileyJJY, @ZengWen-DT, @Monkey-wusky, @chengzhichao-xydt, @mushuiyu886, @masatohoshino, @moguangyu5-design, @sunlit-deng, @ZOOWH, @NianJiuZst, @Alix-007, @aniruddhaadak80, @eleqtrizit, @yetval, @rvdlaar, @litang9, @machine3at, @miorbnli, @sallyom, @obviyus, @hugenshen, @cursoragent, @cxbAsDev, @wangmiao0668000666, @lsr911, and @jalfaro2876.\r\n- **More reliable long-running delivery:** agent, gateway, retry, and channel paths now handle cancellation, retries, partial sends, and process-stream failures without losing work or replaying unsafe operations. (#119942) Thanks @RomneyDa, @vincentkoc, @Pick-cat, @RileyJJY, @ZengWen-DT, @Monkey-wusky, @chengzhichao-xydt, @mushuiyu886, @masatohoshino, @moguangyu5-design, @sunlit-deng, @ZOOWH, @NianJiuZst, @Alix-007, @aniruddhaadak80, @eleqtrizit, @yetval, @rvdlaar, @litang9, @machine3at, @miorbnli, @sallyom, @obviyus, @hugenshen, @cursoragent, @cxbAsDev, @wangmiao0668000666, @lsr911, and @jalfaro2876.\r\n- **Stronger bundled-plugin resilience:** local-model, browser, media, and collaboration plugins recover cleanly from malformed payloads, timeouts, and transient upstream failures. (#119942) Thanks @RomneyDa, @vincentkoc, @Pick-cat, @RileyJJY, @ZengWen-DT, @Monkey-wusky, @chengzhichao-xydt, @mushuiyu886, @masatohoshino, @moguangyu5-design, @sunlit-deng, @ZOOWH, @NianJiuZst, @Alix-007, @aniruddhaadak80, @eleqtrizit, @yetval, @rvdlaar, @litang9, @machine3at, @miorbnli, @sallyom, @obviyus, @hugenshen, @cursoragent, @cxbAsDev, @wangmiao0668000666, @lsr911, and @jalfaro2876.\r\n- **Safer tool and workspace use:** browser automation, local tools, workspace reads, and plugin metadata handling now reject malformed or oversized inputs before they can interrupt an active agent run. (#119942) Thanks @RomneyDa, @vincentkoc, @Pick-cat, @RileyJJY, @ZengWen-DT, @Monkey-wusky, @chengzhichao-xydt, @mushuiyu886, @masatohoshino, @moguangyu5-design, @sunlit-deng, @ZOOWH, @NianJiuZst, @Alix-007, @aniruddhaadak80, @eleqtrizit, @yetval, @rvdlaar, @litang9, @machine3at, @miorbnli, @sallyom, @obviyus, @hugenshen, @cursoragent, @cxbAsDev, @wangmiao0668000666, @lsr911, and @jalfaro2876.\r\n- ",
+      "prerelease": false
+    },
+    {
+      "product": "Gemini CLI",
+      "repo": "google-gemini/gemini-cli",
+      "tag": "v0.61.0-nightly.20260910.ged2ac40df",
+      "name": "Release v0.61.0-nightly.20260910.ged2ac40df",
+      "published": "2026-09-10",
+      "url": "https://github.com/google-gemini/gemini-cli/releases/tag/v0.61.0-nightly.20260910.ged2ac40df",
+      "summary": "**Full Changelog**: https://github.com/google-gemini/gemini-cli/compare/v0.61.0-nightly.20260909.ged2ac40df...v0.61.0-nightly.20260910.ged2ac40df",
+      "body_excerpt": "**Full Changelog**: https://github.com/google-gemini/gemini-cli/compare/v0.61.0-nightly.20260909.ged2ac40df...v0.61.0-nightly.20260910.ged2ac40df",
+      "prerelease": true
+    },
+    {
+      "product": "Claude Code",
+      "repo": "anthropics/claude-code",
+      "tag": "v2.1.267",
+      "name": "v2.1.267",
+      "published": "2026-09-09",
+      "url": "https://github.com/anthropics/claude-code/releases/tag/v2.1.267",
+      "summary": "## What's changed",
+      "body_excerpt": "## What's changed\n\n- Added `maxEffortLevel` setting (top-level or per model under `modelSettings`): caps the effort level on every provider, including Bedrock, Vertex and Foundry; users can still pick a lower level\n- Added `--system-prompt-snapshot off` to render the system prompt fresh on every request instead of reusing the conversation's recorded prompt (for iterating on prompt text)\n- Fixed Cowork scheduled tasks in the cloud failing at startup for organizations whose managed settings require sandboxing\n- Fixed `/context` and other local command output rendering blank on mobile clients\n- Fixed shift+enter and option+backspace not working after reconnecting to a tmux or ssh session inside an agent view\n- Fixed the dim last-prompt header not appearing at the top of the conversation when scrolling up in fullscreen mode\n- Fixed Workflow `agent()` calls with large output schemas being refused in auto mode instead of being checked by the safety classifier\n- Fixed a case where a marketplace entry path containing a backslash could bypass the containment check for fetched marketplaces on macOS and Linux\n- Fixed expired AWS or Google Cloud credentials under a host app such as Claude Desktop retrying ten times with a generic \"request failed\" before the re-authenticate error appeared\n- Fixed resuming a session after `/compact` or another slash command ran via `-p --resume`: a spurious \"Continue from where you left off.\" turn is no longer inserted\n- Fixed resuming a large session (transcript over 5 MB): parallel tool calls and their hook output are no longer dropped from the reloaded conversation\n- Fixed managed `allowedHttpHookUrls`, `httpHookAllowedEnvVars` and `allowedChannelPlugins` to admit nothing, not everything, when unreadable\n- Fixed `/login` on machines whose managed settings require Claude apps gateway sign-in: Esc now closes the dialog instead of doing nothing\n- Fixed artifact publishes cut off by a dropped connection mid-upload: they now retry once when Claude Code can tell the upload never completed, instead of reporting an unknown outcome\n- Fixed `effort:` frontmatter on custom commands, skills, and subagents being ignored on models whose default effort is still pinned (Opus 4.7, Opus 4.8, Fable 5)\n- Fixed artifact publish failing with an unhelpful error when the page file isn't valid UTF-8 or contains a replacement character (U+FFFD); the error now names the line and column to fix\n- Fixed `claude agents` `@` directory menu not listing repositories ",
+      "prerelease": false
+    },
+    {
+      "product": "Codex",
+      "repo": "openai/codex",
+      "tag": "rust-v0.154.0",
+      "name": "0.154.0",
+      "published": "2026-09-09",
+      "url": "https://github.com/openai/codex/releases/tag/rust-v0.154.0",
+      "summary": "## New Features",
+      "body_excerpt": "## New Features\n\n- GPT-6-Astra is now available in the model picker and Amazon Bedrock catalogs. (#42879, #42619)\n- Experimental worktree support lets you create isolated checkouts for new or forked sessions using `--worktree` or `/worktree`, then browse and resume them. (#42652, #43069, #43120, #43286)\n- Answer questions inline while Codex continues working, using suggested choices or custom text without losing your main draft. (#42891, #42894, #42897)\n- Windows sessions can now share a background Codex server, with daemon lifecycle commands and managed updates. (#42405, #42392)\n- Vim editing gains `R` replace mode with undo and dot-repeat, plus more reliable Escape handling in legacy terminals. (#42194, #42584)\n- Copying responses preserves formatting in rich-text apps, and `/copy` can copy status output or individual session fields. (#42847, #43055)\n\n## Bug Fixes\n\n- Existing sessions pick up newly installed plugin tools and refresh skills and hooks after external plugin upgrades or rollbacks. (#42284, #42593, #42990)\n- MCP connections coordinate OAuth token refreshes and surface login challenges when refresh fails, without automatically replaying rejected tool calls. (#42413, #42552)\n- Startup avoids running workspace-controlled helpers before trust is established, and the macOS sandbox blocks terminal input injection. (#42324, #42590)\n- Remote resume and fork operations preserve saved permissions; fresh sessions and forks respect server model defaults unless explicitly overridden. (#43330, #43177, #43355)\n- Resuming a conversation open in another app now shows a read-only transcript with a retry option while preserving your draft. (#43253)\n- Automatic approval reviews better preserve authorization context through compaction and reject approvals invalidated by new user instructions or answers. (#42844, #42852, #43442)\n\n## Documentation\n\n- Updated the bundled OpenAI Docs skill with GPT-6-Astra migration, compatibility, and prompting guidance. (#42931)\n\n## Chores\n\n- The deprecated `codex mcp-server` entry point is no longer available. (#42993)\n\n## Changelog\n\nFull Changelog: https://github.com/openai/codex/compare/rust-v0.153.0...rust-v0.154.0\n\n- #42188 Fix punctuation in npm packaging documentation @copyberry\n- #42192 Use native spawning for bare macOS MCP commands @copyberry\n- #42194 Add Vim replace mode to the TUI composer @copyberry\n- #42196 Add managed worktree creation @copyberry\n- #42199 Refactor shared TUI input routing @copyberry\n- #42202 Separate",
+      "prerelease": false
+    }
+  ],
+  "level2_people": [
+    "@karpathy",
+    "@bcherny",
+    "@sundarpichai",
+    "@sama",
+    "@gdb",
+    "@DarioAmodei"
+  ],
+  "level2_note": "raw 无人物搜索；无依据时 Level 2 标无新增，勿编造",
+  "level3_note": "本日未扫描行业报告（周报降频）",
+  "level4_hn": [
+    {
+      "title": "Ask HN: What's your AI coding set up?",
+      "url": "https://news.ycombinator.com/item?id=49636239",
+      "points": 6,
+      "comments": 3,
+      "created": "2026-09-09"
+    },
+    {
+      "title": "AI Coding Assistants Almost Never Check Supply-Chain Trust Signals",
+      "url": "https://arxiv.org/abs/2609.07754",
+      "points": 3,
+      "comments": 0,
+      "created": "2026-09-10"
+    },
+    {
+      "title": "Show HN: Symphony – a live map of your AI coding agents",
+      "url": "https://github.com/itsloganmann/symphony",
+      "points": 2,
+      "comments": 0,
+      "created": "2026-09-10"
+    },
+    {
+      "title": "The Anatomy of Harness Engineering for AI Coding Agents",
+      "url": "https://developers.googleblog.com/the-anatomy-of-harness-engineering-how-to-evaluate-iterate-and-guard-ai-coding-agents/",
+      "points": 2,
+      "comments": 0,
+      "created": "2026-09-09"
+    },
+    {
+      "title": "Validating snapshots before restoring an AI coding workspace",
+      "url": "https://github.com/croviatrust/causari/pull/44",
+      "points": 2,
+      "comments": 0,
+      "created": "2026-09-09"
+    }
+  ]
+}
