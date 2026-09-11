@@ -1,0 +1,100 @@
+{
+  "briefing_date": "2026-09-12",
+  "period_start": "2026-09-10",
+  "period_end": "2026-09-12",
+  "previous_briefing_date": "2026-09-11",
+  "previous_briefing_excerpt": "# AI x 研发效能 每日简报 2026-09-11\n\n> 覆盖周期：2026-09-09 ~ 2026-09-11（上一期：2026-09-10）\n\n> **采集方式**：GitHub Actions 自动采集（Level 1 GitHub API + Level 4 HN API）｜Level 2/3 待人工或 API 密钥补充\n\n---\n\n## 头条速览\n\n1. **OpenClaw v2026.6.35**——## 2026.6.35\n2. **Gemini CLI v0.61.0-nightly.20260910.ged2ac40df**——**Full Changelog**: https://github.com/google-ge\n3. **Claude Code v2.1.267**——## What's changed\n\n---\n\n## 一、AI 增强软件研发（AI4SE）\n\n### 1.1 Level 1：核心产品与工程更新\n\n#### 1️⃣ OpenClaw v2026.6.35（2026-09-10）\n\n## 2026.6.35\n\n来源：[v2026.6.35](https://github.com/openclaw/openclaw/releases/tag/v2026.6.35) — 2026-09-10\n\n#### 2️⃣ Gemini CLI v0.61.0-nightly.20260910.ged2ac40df（2026-09-10）\n\n**Full Changelog**: https://github.com/google-gemini/gemini-cli/compare/v0.61.0-nightly.20260909.ged2ac40df...v0.61.0-nightly.20260910.ged2ac40df\n\n来源：[v0.61.0-nightly.20260910.ged2ac40df](https://github.com/google-gemini/gemini-cli/releases/tag/v0.61.0-nightly.20260910.ged2ac40df) — 2026-09-10\n\n#### 3️⃣ Claude Code v2.1.267（2026-09-09）\n\n## What's changed\n\n来源：[v2.1.267](https://github.com/anthropics/claude-code/releases/tag/v2.1.267) — 2026-09-09\n\n#### 4️⃣ Codex rust-v0.154.0（2026-09-09）\n\n## New Features\n\n来源：[rust-v0.154.0](https://github.com/openai/codex/releases/tag/rust-v0.154.0) — 2026-09-09\n\n---\n\n### 1.2 Level 2：关键人物战略洞察\n\n| 人物 | 动态 | 日期 |\n|---|---|---|\n| @karpathy | 自动采集未配置（需 WebSearch / X 间接源） | — |\n| @bcherny | 自动采集未配置（需 WebSearch / X 间接源） | — |\n| @sundarpichai | 自动采集未配置（需 WebSearch / X 间接源） | — |\n| @sama | 自动采集未配置（需 WebSearch / X 间接源） | — |\n| @gdb | 自动采集未配置（需 WebSearch / X 间接源） | — |\n| @DarioAmodei | 自动采集未配置（需 WebSearch / X 间接源） | — |\n\n---\n\n### 1.3 Level 3：行业研究与数据\n\n> **本日未扫描**（周报/月报降频）。\n\n---\n\n### 1.4 Level 4：补充信源（HN）\n\n- **2026-09-09**：[Ask HN: What's your AI coding set up?](https://news.ycombinator.com/item?id=49636239) （6 pts / 3 comments）\n- **2026-09-10**：[AI Coding Assistants Almost Never Check Supply-Chain Trust Signals](https://arxiv.org/abs/2609.07754) （3 pts / 0 comments）\n- **2026-09-10**：[Show HN: Symphony – a live map of your AI coding agents](https://github.com/itsloganmann/symphony) （2 pts / 0 comments）\n- **2026-09-09**：[The Anatomy of Harness Engineering for AI Coding Agents](https://developers.googleblog.com/the-anatomy-of-harness-engineering-how-to-evaluate-iterate-and-guard-ai-coding-agents/) （2 pts / 0 comments）\n- **2026-09-09**：[Validating snapshots before restoring an AI coding workspace](https://github.com/croviatrust/causari/pull/44) （2 pts / 0 comments）\n\n---\n\n## 附录：采集日志\n\n| 环节 | 状态 |\n|---|---|\n| GitHub Releases API | ✅ 4 条 |\n| HN Algolia API | ✅ 5 条 |\n| 生成时间 (UTC) | 2026-09-10 16:43 |\n\n*自动生成版 · 可在 Cursor 中基于本稿补充 Level 2 分析与专题*\n",
+  "level1_releases": [
+    {
+      "product": "OpenClaw",
+      "repo": "openclaw/openclaw",
+      "tag": "v2026.9.4",
+      "name": "openclaw 2026.9.4",
+      "published": "2026-09-11",
+      "url": "https://github.com/openclaw/openclaw/releases/tag/v2026.9.4",
+      "summary": "## 2026.9.4",
+      "body_excerpt": "## 2026.9.4\n\n### Highlights\n\n- **Recover from compatible failed updates:** retain the previous package and restore it with the previous configuration and service when schema and configuration checks prove rollback is safe; database migrations still require a verified pre-update backup. (#140339) Thanks @fuller-stack-dev.\n- **Plugins in one place:** discover bundled and ClawHub plugins, install them from the Control UI, and manage their setup, settings, and access in a unified Plugins workspace. (#135839, #135840, #139042, #137659, #137886, #138755, #142624, #142782) Thanks @Patrick-Erichsen.\n- **Prepared cloud sessions:** start eligible Linux sessions from prepared local projects or public GitHub repositories, and build reusable snapshots from the Control UI before starting a conversation. (#143227, #143372, #143410, #143838, #143929)\n- **Answer questions in the terminal:** use keyboard-driven choices, free-text answers, and multi-question prompts in both Gateway-connected and local TUI sessions. (#143273)\n- **GPT Image 2.5:** select the new Flare and Sunburst variants for image generation and editing through OpenAI or fal without changing your existing default model. Related #143007. (#143068, #143069) Thanks @vincentkoc.\n- **More dependable conversation history:** recover final replies after interrupted streams, retain timeout notices after reload, and prevent duplicate final answers when live chat hands off to saved history. Related #141839. (#142168, #142135, #142422) Thanks @LiuwqGit, @obviyus, @chelsealong, @von8794, and @jalehman.\n- **Voice that finishes delegated work:** return subagent results to Talk and deliver the final answer even after repeated rounds of delegation. (#129535, #142830) Thanks @vincentkoc.\n- **Externally managed configuration:** set `OPENCLAW_CONFIG_READONLY=1` to keep OpenClaw from rewriting deployment-managed configuration while preserving read-only diagnostics and ordinary runtime state. Related #140706. (#140719) Thanks @sallyom.\n\n### Changes\n\n- **Rollback and recovery:** eligible schema-neutral update failures restore the retained package, command shim, service, and pre-activation configuration, then verify the previous Gateway again. Changed database schemas, incompatible new databases, or intervening operator configuration edits block automatic rollback; a recovered update remains a failed update with a recorded rollback outcome. Use a [verified backup](https://docs.openclaw.ai/install/updating/rollback-and-recovery) bef",
+      "prerelease": false
+    },
+    {
+      "product": "Gemini CLI",
+      "repo": "google-gemini/gemini-cli",
+      "tag": "v0.61.0-nightly.20260911.ged2ac40df",
+      "name": "Release v0.61.0-nightly.20260911.ged2ac40df",
+      "published": "2026-09-11",
+      "url": "https://github.com/google-gemini/gemini-cli/releases/tag/v0.61.0-nightly.20260911.ged2ac40df",
+      "summary": "**Full Changelog**: https://github.com/google-gemini/gemini-cli/compare/v0.61.0-nightly.20260910.ged2ac40df...v0.61.0-nightly.20260911.ged2ac40df",
+      "body_excerpt": "**Full Changelog**: https://github.com/google-gemini/gemini-cli/compare/v0.61.0-nightly.20260910.ged2ac40df...v0.61.0-nightly.20260911.ged2ac40df",
+      "prerelease": true
+    },
+    {
+      "product": "Claude Code",
+      "repo": "anthropics/claude-code",
+      "tag": "v2.1.268",
+      "name": "v2.1.268",
+      "published": "2026-09-10",
+      "url": "https://github.com/anthropics/claude-code/releases/tag/v2.1.268",
+      "summary": "## What's changed",
+      "body_excerpt": "## What's changed\n\n- Added to the Claude apps gateway: with `pricing:` set in `gateway.yaml`, signed-in Claude Code clients receive the same rates through managed settings, so `/cost` and telemetry match the spend meter\n- Added a startup warning for gateways when `access_control.allow_cidrs` is empty, and a one-time warning the first time a request arrives from a public address\n- Added the `gatewayInternalNetworks` managed setting, letting administrators allow `/login` to a Claude apps gateway on their organization's own public IPv4 block\n- Added `claude self-hosted-runner --remove-session-state` (default off): delete each session's per-session directories under `<base-dir>/_sessions/` when the session ends\n- Added `configDirectory` to the output of `claude auth status --json`\n- Added `--json` to `claude plugin install`, `uninstall`, `update`, `enable` and `disable`, and `errorDetails`/`noteDetails` to each row of `claude plugin list --json`\n- Added browser-tab icons for published artifacts, chosen by Claude to match each page\n- Fixed every turn failing with HTTP 400 on third-party Anthropic-compatible endpoints (`ANTHROPIC_BASE_URL`) since 2.1.265: a regex in the Artifact tool's input schema that those endpoints reject\n- Fixed WebFetch hanging indefinitely on a server that keeps the response open without finishing; a fetch now fails after 300 seconds. Set `CLAUDE_CODE_WEBFETCH_DEADLINE_MS` to override the deadline (0 turns it off)\n- Fixed a respawned in-process teammate picking up tools or a system prompt from a same-named agent file in a folder you have not trusted\n- Fixed sustained high CPU usage: a busy loop in long-running idle sessions no longer pins a CPU core, and rapid terminal focus reports during a session recap no longer keep the CPU high\n- Fixed Claude sometimes replying \"your message came through empty\" after an MCP tool call\n- Fixed deny and ask permission rules on symlinked directories (`/etc`, `/tmp`, `/var` on macOS; `/bin` on Linux) not applying when a path was given by its real location, and Bash commands ignoring deny rules written on a symlinked path spelling\n- Fixed a case where a Read or Edit deny rule did not apply when an `env -C`, `eval` or similar command the permission checker cannot analyze was on the same line\n- Fixed plugin and marketplace errors showing a token or password from a git source URL\n- Fixed `/mcp` and `/plugin` server details, `claude mcp list`/`get`, and MCP login errors showing secrets resolved from `${VAR}` p",
+      "prerelease": false
+    },
+    {
+      "product": "Codex",
+      "repo": "openai/codex",
+      "tag": "python-v0.154.0",
+      "name": "Python SDK 0.154.0",
+      "published": "2026-09-10",
+      "url": "https://github.com/openai/codex/releases/tag/python-v0.154.0",
+      "summary": "Install with `pip install --upgrade openai-codex==0.154.0` (Python 3.10 or later). This release includes the matching `openai-codex-cli-bin==0.154.0` runtime.",
+      "body_excerpt": "Install with `pip install --upgrade openai-codex==0.154.0` (Python 3.10 or later). This release includes the matching `openai-codex-cli-bin==0.154.0` runtime.\n\n- Add `max` and `ultra` reasoning-effort values. [#39662](https://github.com/openai/codex/pull/39662)\n- Add `ExternalMessage` to synchronous and asynchronous `run()` and `turn()` calls. External content can start a turn or join an active regular turn with tool-level authority; it does not grant user authorization. Consumers receive independent event streams. [#44086](https://github.com/openai/codex/pull/44086)\n- Add `include_turns` on resume/fork, `turn_service_tier` for one newly started turn, and `source` metadata. History selection changes the returned response, not model context. Existing defaults are preserved when these options are omitted. [#44084](https://github.com/openai/codex/pull/44084)\n- Refresh generated protocol models and notifications, and preserve completion events that arrive before a turn-start response. [#44032](https://github.com/openai/codex/pull/44032), [#44400](https://github.com/openai/codex/pull/44400)\n\nCheck these migrations when upgrading:\n\n- `HookMetadata` wraps its handler in `.root`. Replace accesses such as `hook.command` with `hook.root.command`, checking `hook.root.handler_type` before reading handler-specific fields.\n- Some previously unknown notifications now have typed payloads. Read named fields instead of `.params`; unknown or invalid payloads still use `UnknownNotification`.\n- Manually constructed or late-joining turn handles receive events from their attachment point. Earlier output is not replayed, so collected results can be partial; attaching after completion can raise `TransportClosedError`. Use `thread.read(include_turns=True)` for saved history. Handles returned directly by `thread.turn(...)` retain events from when their request is sent.\n\nCustom `codex_bin` overrides require CLI 0.151.0 or newer for `ExternalMessage` and the new history/per-turn options.",
+      "prerelease": false
+    }
+  ],
+  "level2_people": [
+    "@karpathy",
+    "@bcherny",
+    "@sundarpichai",
+    "@sama",
+    "@gdb",
+    "@DarioAmodei"
+  ],
+  "level2_note": "raw 无人物搜索；无依据时 Level 2 标无新增，勿编造",
+  "level3_note": "本日未扫描行业报告（周报降频）",
+  "level4_hn": [
+    {
+      "title": "Ask HN: What's your AI coding set up?",
+      "url": "https://news.ycombinator.com/item?id=49636239",
+      "points": 6,
+      "comments": 4,
+      "created": "2026-09-09"
+    },
+    {
+      "title": "Show HN: Symphony – a live map of your AI coding agents",
+      "url": "https://github.com/itsloganmann/symphony",
+      "points": 3,
+      "comments": 0,
+      "created": "2026-09-10"
+    },
+    {
+      "title": "AI Coding Assistants Almost Never Check Supply-Chain Trust Signals",
+      "url": "https://arxiv.org/abs/2609.07754",
+      "points": 3,
+      "comments": 0,
+      "created": "2026-09-10"
+    },
+    {
+      "title": "Coding Sahayi – Local-first autonomous AI coding IDE (WinUI 3 and Ollama)",
+      "url": "https://codingsahayi.github.io/",
+      "points": 2,
+      "comments": 0,
+      "created": "2026-09-10"
+    },
+    {
+      "title": "The Anatomy of Harness Engineering for AI Coding Agents",
+      "url": "https://developers.googleblog.com/the-anatomy-of-harness-engineering-how-to-evaluate-iterate-and-guard-ai-coding-agents/",
+      "points": 2,
+      "comments": 0,
+      "created": "2026-09-09"
+    }
+  ]
+}
