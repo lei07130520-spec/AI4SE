@@ -6,6 +6,17 @@
   "previous_briefing_excerpt": "# AI x 研发效能 每日简报 2026-09-11\n\n> 覆盖周期：2026-09-09 ~ 2026-09-11（上一期：2026-09-10）\n\n> **采集方式**：GitHub Actions 自动采集（Level 1 GitHub API + Level 4 HN API）｜Level 2/3 待人工或 API 密钥补充\n\n---\n\n## 头条速览\n\n1. **OpenClaw v2026.6.35**——## 2026.6.35\n2. **Gemini CLI v0.61.0-nightly.20260910.ged2ac40df**——**Full Changelog**: https://github.com/google-ge\n3. **Claude Code v2.1.267**——## What's changed\n\n---\n\n## 一、AI 增强软件研发（AI4SE）\n\n### 1.1 Level 1：核心产品与工程更新\n\n#### 1️⃣ OpenClaw v2026.6.35（2026-09-10）\n\n## 2026.6.35\n\n来源：[v2026.6.35](https://github.com/openclaw/openclaw/releases/tag/v2026.6.35) — 2026-09-10\n\n#### 2️⃣ Gemini CLI v0.61.0-nightly.20260910.ged2ac40df（2026-09-10）\n\n**Full Changelog**: https://github.com/google-gemini/gemini-cli/compare/v0.61.0-nightly.20260909.ged2ac40df...v0.61.0-nightly.20260910.ged2ac40df\n\n来源：[v0.61.0-nightly.20260910.ged2ac40df](https://github.com/google-gemini/gemini-cli/releases/tag/v0.61.0-nightly.20260910.ged2ac40df) — 2026-09-10\n\n#### 3️⃣ Claude Code v2.1.267（2026-09-09）\n\n## What's changed\n\n来源：[v2.1.267](https://github.com/anthropics/claude-code/releases/tag/v2.1.267) — 2026-09-09\n\n#### 4️⃣ Codex rust-v0.154.0（2026-09-09）\n\n## New Features\n\n来源：[rust-v0.154.0](https://github.com/openai/codex/releases/tag/rust-v0.154.0) — 2026-09-09\n\n---\n\n### 1.2 Level 2：关键人物战略洞察\n\n| 人物 | 动态 | 日期 |\n|---|---|---|\n| @karpathy | 自动采集未配置（需 WebSearch / X 间接源） | — |\n| @bcherny | 自动采集未配置（需 WebSearch / X 间接源） | — |\n| @sundarpichai | 自动采集未配置（需 WebSearch / X 间接源） | — |\n| @sama | 自动采集未配置（需 WebSearch / X 间接源） | — |\n| @gdb | 自动采集未配置（需 WebSearch / X 间接源） | — |\n| @DarioAmodei | 自动采集未配置（需 WebSearch / X 间接源） | — |\n\n---\n\n### 1.3 Level 3：行业研究与数据\n\n> **本日未扫描**（周报/月报降频）。\n\n---\n\n### 1.4 Level 4：补充信源（HN）\n\n- **2026-09-09**：[Ask HN: What's your AI coding set up?](https://news.ycombinator.com/item?id=49636239) （6 pts / 3 comments）\n- **2026-09-10**：[AI Coding Assistants Almost Never Check Supply-Chain Trust Signals](https://arxiv.org/abs/2609.07754) （3 pts / 0 comments）\n- **2026-09-10**：[Show HN: Symphony – a live map of your AI coding agents](https://github.com/itsloganmann/symphony) （2 pts / 0 comments）\n- **2026-09-09**：[The Anatomy of Harness Engineering for AI Coding Agents](https://developers.googleblog.com/the-anatomy-of-harness-engineering-how-to-evaluate-iterate-and-guard-ai-coding-agents/) （2 pts / 0 comments）\n- **2026-09-09**：[Validating snapshots before restoring an AI coding workspace](https://github.com/croviatrust/causari/pull/44) （2 pts / 0 comments）\n\n---\n\n## 附录：采集日志\n\n| 环节 | 状态 |\n|---|---|\n| GitHub Releases API | ✅ 4 条 |\n| HN Algolia API | ✅ 5 条 |\n| 生成时间 (UTC) | 2026-09-10 16:43 |\n\n*自动生成版 · 可在 Cursor 中基于本稿补充 Level 2 分析与专题*\n",
   "level1_releases": [
     {
+      "product": "Gemini CLI",
+      "repo": "google-gemini/gemini-cli",
+      "tag": "v0.61.0-nightly.20260912.g9c1b0a610",
+      "name": "Release v0.61.0-nightly.20260912.g9c1b0a610",
+      "published": "2026-09-12",
+      "url": "https://github.com/google-gemini/gemini-cli/releases/tag/v0.61.0-nightly.20260912.g9c1b0a610",
+      "summary": "## What's Changed",
+      "body_excerpt": "## What's Changed\n* fix(core): prevent indirect prompt injection via build file modifications and untrusted flags by @villahernandez-coder in https://github.com/google-gemini/gemini-cli/pull/29250\n* fix(sandbox): harden filesystem boundaries and isolate runtime state by @diegogodinezr in https://github.com/google-gemini/gemini-cli/pull/29214\n\n## New Contributors\n* @villahernandez-coder made their first contribution in https://github.com/google-gemini/gemini-cli/pull/29250\n\n**Full Changelog**: https://github.com/google-gemini/gemini-cli/compare/v0.61.0-nightly.20260911.ged2ac40df...v0.61.0-nightly.20260912.g9c1b0a610",
+      "prerelease": true
+    },
+    {
       "product": "OpenClaw",
       "repo": "openclaw/openclaw",
       "tag": "v2026.9.4",
@@ -17,25 +28,25 @@
       "prerelease": false
     },
     {
-      "product": "Gemini CLI",
-      "repo": "google-gemini/gemini-cli",
-      "tag": "v0.61.0-nightly.20260911.ged2ac40df",
-      "name": "Release v0.61.0-nightly.20260911.ged2ac40df",
+      "product": "Hermes Agent",
+      "repo": "NousResearch/hermes-agent",
+      "tag": "v2026.9.11",
+      "name": "Hermes Agent v0.21.2 (v2026.9.11)",
       "published": "2026-09-11",
-      "url": "https://github.com/google-gemini/gemini-cli/releases/tag/v0.61.0-nightly.20260911.ged2ac40df",
-      "summary": "**Full Changelog**: https://github.com/google-gemini/gemini-cli/compare/v0.61.0-nightly.20260910.ged2ac40df...v0.61.0-nightly.20260911.ged2ac40df",
-      "body_excerpt": "**Full Changelog**: https://github.com/google-gemini/gemini-cli/compare/v0.61.0-nightly.20260910.ged2ac40df...v0.61.0-nightly.20260911.ged2ac40df",
-      "prerelease": true
+      "url": "https://github.com/NousResearch/hermes-agent/releases/tag/v2026.9.11",
+      "summary": "# Hermes Agent v0.21.2 (v2026.9.11) — The state.db Patch Release",
+      "body_excerpt": "# Hermes Agent v0.21.2 (v2026.9.11) — The state.db Patch Release\n\n**Release Date:** September 11, 2026\n\n> Patch release. v0.21.0 shipped a large rewrite of the session store's connection handling, and for some installs it made `state.db` fragile: second writers cancelling each other's locks, healthy databases reported as corrupt, one bad row killing `sessions list`. This release closes that class and rolls up everything else that landed on `main` in the four days since v0.21.1.\n\n## About this release\n\nMeasured at commit `04dd80a977f40b05e5b2054111747af07a61886a`, the window since v0.21.1 contains **947 non-merge commits** across **1,869 changed files** (+182,504 / −15,564) and **312 merged PRs**. **140 contributors** appear in commits, co-author trailers, or salvage credits.\n\n## ✨ Highlights\n\n### state.db reliability campaign (six PRs, 44 issues closed)\n\nIf your `state.db` broke after 0.21.0, this is the release for you. Six PRs fix the root causes rather than the symptoms:\n\n- **No more second writers.** Profile gateways wrote hosted-room state into the *root* `state.db` every 5 seconds; the dashboard opened a writable handle on startup; cron's lifecycle guard did a raw `open()` on a live database (which cancels the gateway's POSIX locks — the classic \"how to corrupt SQLite\" recipe); `doctor --fix` would checkpoint under a live holder. All four are gone: hosted rooms live in `shared-state.db`, the dashboard opens read-only first, the guard goes through the tracked connection registry, and `doctor --fix` refuses a checkpoint it can't prove is safe. (#108076 — salvage #103489 @RikETS, #102682 @JoaoMarcos44, #108012 @Halldrix, #105428 @TaoMasterCoder)\n- **Healthy WAL databases stop wedging.** OpenZFS `(deleted)` dentries and a `close()` racing an `append_message` both produced a sticky `DeletedWalGenerationError` on a perfectly good store; the read pool was handed out under an unconfirmed journal mode; a transient `disk I/O error` on WSL2 killed `get_session` on the first attempt; and a \"state.db locked\" banner was broadcast after the lock had already cleared. (#108082 — salvage #107411 @chelsealong, #105578 @ca-shrimp, #105711 @gaoanze888, #106958 @nikkoxgonzales; co-authored @QDung210, @fangliquanflq, @Sahilvishnaliya)\n- **FTS damage no longer kills your turn.** An error scoped to the full-text-search index was classified as whole-file corruption and fail-closed the conversation. It's now `fts_index`: search degrades, the index rebuilds later, the transcrip",
+      "prerelease": false
     },
     {
       "product": "Claude Code",
       "repo": "anthropics/claude-code",
-      "tag": "v2.1.268",
-      "name": "v2.1.268",
-      "published": "2026-09-10",
-      "url": "https://github.com/anthropics/claude-code/releases/tag/v2.1.268",
+      "tag": "v2.1.269",
+      "name": "v2.1.269",
+      "published": "2026-09-11",
+      "url": "https://github.com/anthropics/claude-code/releases/tag/v2.1.269",
       "summary": "## What's changed",
-      "body_excerpt": "## What's changed\n\n- Added to the Claude apps gateway: with `pricing:` set in `gateway.yaml`, signed-in Claude Code clients receive the same rates through managed settings, so `/cost` and telemetry match the spend meter\n- Added a startup warning for gateways when `access_control.allow_cidrs` is empty, and a one-time warning the first time a request arrives from a public address\n- Added the `gatewayInternalNetworks` managed setting, letting administrators allow `/login` to a Claude apps gateway on their organization's own public IPv4 block\n- Added `claude self-hosted-runner --remove-session-state` (default off): delete each session's per-session directories under `<base-dir>/_sessions/` when the session ends\n- Added `configDirectory` to the output of `claude auth status --json`\n- Added `--json` to `claude plugin install`, `uninstall`, `update`, `enable` and `disable`, and `errorDetails`/`noteDetails` to each row of `claude plugin list --json`\n- Added browser-tab icons for published artifacts, chosen by Claude to match each page\n- Fixed every turn failing with HTTP 400 on third-party Anthropic-compatible endpoints (`ANTHROPIC_BASE_URL`) since 2.1.265: a regex in the Artifact tool's input schema that those endpoints reject\n- Fixed WebFetch hanging indefinitely on a server that keeps the response open without finishing; a fetch now fails after 300 seconds. Set `CLAUDE_CODE_WEBFETCH_DEADLINE_MS` to override the deadline (0 turns it off)\n- Fixed a respawned in-process teammate picking up tools or a system prompt from a same-named agent file in a folder you have not trusted\n- Fixed sustained high CPU usage: a busy loop in long-running idle sessions no longer pins a CPU core, and rapid terminal focus reports during a session recap no longer keep the CPU high\n- Fixed Claude sometimes replying \"your message came through empty\" after an MCP tool call\n- Fixed deny and ask permission rules on symlinked directories (`/etc`, `/tmp`, `/var` on macOS; `/bin` on Linux) not applying when a path was given by its real location, and Bash commands ignoring deny rules written on a symlinked path spelling\n- Fixed a case where a Read or Edit deny rule did not apply when an `env -C`, `eval` or similar command the permission checker cannot analyze was on the same line\n- Fixed plugin and marketplace errors showing a token or password from a git source URL\n- Fixed `/mcp` and `/plugin` server details, `claude mcp list`/`get`, and MCP login errors showing secrets resolved from `${VAR}` p",
+      "body_excerpt": "## What's changed\n\n- Added `claude plugin eval`: run a plugin's eval suite against Claude Code and get scored, reproducible results (JSON + HTML report); see `claude plugin eval --help`\n- Added `/output-style [name]` to list and switch output styles, including over Remote Control and in cloud and other headless sessions\n- Added a diff of the files a Bash command changed to the Bash tool result when the Bash tool handles file edits (setting `bashEditDiffEnabled`)\n- Added `OTEL_METRICS_INCLUDE_REPOSITORY` to tag OpenTelemetry metrics and events with `vcs.*` repository attributes; commit events get `vcs.ref.head.*` with `OTEL_LOG_TOOL_DETAILS`\n- Added `CLAUDE_CODE_GATEWAY_MODEL_DISCOVERY_TIMEOUT_MS` to extend the LLM gateway `/v1/models` discovery timeout (default 3s)\n- Added a spinner tip suggesting `/focus` for a view with just your prompt, a one-line work summary, and the response\n- Added `CLAUDE_CODE_WORKFLOW_MAX_CONCURRENT_AGENTS` (1–256) to raise the Workflow tool's per-run concurrent agent limit for inference-bound fan-outs\n- Fixed the prompt cache being partially invalidated on the turn after a response was cut off at the output-token limit and automatically resumed\n- Fixed a case where resuming a session after interrupting Claude mid-thought could change how earlier context was re-sent, hurting prompt-cache reuse\n- Fixed F1/F2/F4 not working in kitty-protocol terminals and Delete in st, Alt+arrows acting as Escape in rxvt-unicode, and Shift+punctuation typing the unshifted key in WezTerm (regression in 2.1.247)\n- Fixed remote and headless sessions reporting \"waiting for your input\" while background agents were still running (set `CLAUDE_CODE_BG_TASKS_REPORT_RUNNING=0` to restore the old behavior)\n- Fixed the terminal's replies to capability queries (`^[[?1;2c`) appearing as stray text at startup in some terminals\n- Fixed rows at the top or bottom of the transcript going blank in fullscreen after resizing the terminal\n- Fixed a deny or ask permission rule starting with `!` applying beyond the settings source that wrote it; such a rule now applies only within its own source, and a bare `!` negation is ignored\n- Fixed the git status Claude is told after a compaction: it is now the current status, not the one from the start of the session\n- Fixed synced plugin MCP servers not connecting when a remote session resumes\n- Fixed resumed headless sessions losing a turn's replies when the model was switched or a request was retried mid-turn\n- Fixed terminal esc",
       "prerelease": false
     },
     {
@@ -83,18 +94,18 @@
       "created": "2026-09-10"
     },
     {
+      "title": "Show HN: Viaduct – Architecture change sets for AI coding agents",
+      "url": "https://c4.quietgridlabs.com/",
+      "points": 2,
+      "comments": 0,
+      "created": "2026-09-11"
+    },
+    {
       "title": "Coding Sahayi – Local-first autonomous AI coding IDE (WinUI 3 and Ollama)",
       "url": "https://codingsahayi.github.io/",
       "points": 2,
       "comments": 0,
       "created": "2026-09-10"
-    },
-    {
-      "title": "The Anatomy of Harness Engineering for AI Coding Agents",
-      "url": "https://developers.googleblog.com/the-anatomy-of-harness-engineering-how-to-evaluate-iterate-and-guard-ai-coding-agents/",
-      "points": 2,
-      "comments": 0,
-      "created": "2026-09-09"
     }
   ]
 }
