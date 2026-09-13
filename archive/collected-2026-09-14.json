@@ -1,0 +1,78 @@
+{
+  "briefing_date": "2026-09-14",
+  "period_start": "2026-09-12",
+  "period_end": "2026-09-14",
+  "previous_briefing_date": "2026-09-12",
+  "previous_briefing_excerpt": "# AI x 研发效能 每日简报 2026-09-12\n\n> 覆盖周期：2026-09-10 ~ 2026-09-12（上一期：2026-09-11）\n\n> **采集方式**：GitHub Actions 自动采集（Level 1 GitHub API + Level 4 HN API）｜Level 2/3 待人工或 API 密钥补充\n\n---\n\n## 头条速览\n\n1. **Gemini CLI v0.61.0-nightly.20260912.g9c1b0a610**——## What's Changed\n2. **OpenClaw v2026.9.4**——## 2026.9.4\n3. **Hermes Agent v2026.9.11**——# Hermes Agent v0.21.2 (v2026.9.11) — The state.\n\n---\n\n## 一、AI 增强软件研发（AI4SE）\n\n### 1.1 Level 1：核心产品与工程更新\n\n#### 1️⃣ Gemini CLI v0.61.0-nightly.20260912.g9c1b0a610（2026-09-12）\n\n## What's Changed\n\n来源：[v0.61.0-nightly.20260912.g9c1b0a610](https://github.com/google-gemini/gemini-cli/releases/tag/v0.61.0-nightly.20260912.g9c1b0a610) — 2026-09-12\n\n#### 2️⃣ OpenClaw v2026.9.4（2026-09-11）\n\n## 2026.9.4\n\n来源：[v2026.9.4](https://github.com/openclaw/openclaw/releases/tag/v2026.9.4) — 2026-09-11\n\n#### 3️⃣ Hermes Agent v2026.9.11（2026-09-11）\n\n# Hermes Agent v0.21.2 (v2026.9.11) — The state.db Patch Release\n\n来源：[v2026.9.11](https://github.com/NousResearch/hermes-agent/releases/tag/v2026.9.11) — 2026-09-11\n\n#### 4️⃣ Claude Code v2.1.269（2026-09-11）\n\n## What's changed\n\n来源：[v2.1.269](https://github.com/anthropics/claude-code/releases/tag/v2.1.269) — 2026-09-11\n\n#### 5️⃣ Codex python-v0.154.0（2026-09-10）\n\nInstall with `pip install --upgrade openai-codex==0.154.0` (Python 3.10 or later). This release includes the matching `openai-codex-cli-bin==0.154.0` runtime.\n\n来源：[python-v0.154.0](https://github.com/openai/codex/releases/tag/python-v0.154.0) — 2026-09-10\n\n---\n\n### 1.2 Level 2：关键人物战略洞察\n\n| 人物 | 动态 | 日期 |\n|---|---|---|\n| @karpathy | 自动采集未配置（需 WebSearch / X 间接源） | — |\n| @bcherny | 自动采集未配置（需 WebSearch / X 间接源） | — |\n| @sundarpichai | 自动采集未配置（需 WebSearch / X 间接源） | — |\n| @sama | 自动采集未配置（需 WebSearch / X 间接源） | — |\n| @gdb | 自动采集未配置（需 WebSearch / X 间接源） | — |\n| @DarioAmodei | 自动采集未配置（需 WebSearch / X 间接源） | — |\n\n---\n\n### 1.3 Level 3：行业研究与数据\n\n> **本日未扫描**（周报/月报降频）。\n\n---\n\n### 1.4 Level 4：补充信源（HN）\n\n- **2026-09-09**：[Ask HN: What's your AI coding set up?](https://news.ycombinator.com/item?id=49636239) （6 pts / 4 comments）\n- **2026-09-10**：[Show HN: Symphony – a live map of your AI coding agents](https://github.com/itsloganmann/symphony) （3 pts / 0 comments）\n- **2026-09-10**：[AI Coding Assistants Almost Never Check Supply-Chain Trust Signals](https://arxiv.org/abs/2609.07754) （3 pts / 0 comments）\n- **2026-09-11**：[Show HN: Viaduct – Architecture change sets for AI coding agents](https://c4.quietgridlabs.com/) （2 pts / 0 comments）\n- **2026-09-10**：[Coding Sahayi – Local-first autonomous AI coding IDE (WinUI 3 and Ollama)](https://codingsahayi.github.io/) （2 pts / 0 comments）\n\n---\n\n## 附录：采集日志\n\n| 环节 | 状态 |\n|---|---|\n| GitHub Releases API | ✅ 5 条 |\n| HN Algolia API | ✅ 5 条 |\n| 生成时间 (UTC) | 2026-09-12 15:54 |\n\n*自动生成版 · 可在 Cursor 中基于本稿补充 Level 2 分析与专题*\n",
+  "level1_releases": [
+    {
+      "product": "Gemini CLI",
+      "repo": "google-gemini/gemini-cli",
+      "tag": "v0.61.0-nightly.20260913.g9c1b0a610",
+      "name": "Release v0.61.0-nightly.20260913.g9c1b0a610",
+      "published": "2026-09-13",
+      "url": "https://github.com/google-gemini/gemini-cli/releases/tag/v0.61.0-nightly.20260913.g9c1b0a610",
+      "summary": "**Full Changelog**: https://github.com/google-gemini/gemini-cli/compare/v0.61.0-nightly.20260912.g9c1b0a610...v0.61.0-nightly.20260913.g9c1b0a610",
+      "body_excerpt": "**Full Changelog**: https://github.com/google-gemini/gemini-cli/compare/v0.61.0-nightly.20260912.g9c1b0a610...v0.61.0-nightly.20260913.g9c1b0a610",
+      "prerelease": true
+    },
+    {
+      "product": "Claude Code",
+      "repo": "anthropics/claude-code",
+      "tag": "v2.1.270",
+      "name": "v2.1.270",
+      "published": "2026-09-12",
+      "url": "https://github.com/anthropics/claude-code/releases/tag/v2.1.270",
+      "summary": "## What's changed",
+      "body_excerpt": "## What's changed\n\n- Fixed read-only git commands in Bash unexpectedly asking for permission after a session had been running for a while (regression in 2.1.269)",
+      "prerelease": false
+    }
+  ],
+  "level2_people": [
+    "@karpathy",
+    "@bcherny",
+    "@sundarpichai",
+    "@sama",
+    "@gdb",
+    "@DarioAmodei"
+  ],
+  "level2_note": "raw 无人物搜索；无依据时 Level 2 标无新增，勿编造",
+  "level3_note": "本日未扫描行业报告（周报降频）",
+  "level4_hn": [
+    {
+      "title": "Show HN: Viaduct – Architecture change sets for AI coding agents",
+      "url": "https://c4.quietgridlabs.com/",
+      "points": 3,
+      "comments": 0,
+      "created": "2026-09-11"
+    },
+    {
+      "title": "Show HN: No_human – The AI coding factory that you can TRUST",
+      "url": "https://github.com/no-human-ai/no_human",
+      "points": 2,
+      "comments": 1,
+      "created": "2026-09-12"
+    },
+    {
+      "title": "RTK reports token savings, but our cost benchmarks disagree",
+      "url": "https://quesma.com/blog/does-rtk-make-ai-coding-cheaper/",
+      "points": 168,
+      "comments": 83,
+      "created": "2026-09-11"
+    },
+    {
+      "title": "A.I. Slopware Is Everywhere Now. Nobody Is Using It",
+      "url": "https://www.nytimes.com/2026/09/12/opinion/ai-software-coding-apps.html",
+      "points": 16,
+      "comments": 0,
+      "created": "2026-09-13"
+    },
+    {
+      "title": "A.I. Was Supposed to Give Us New Killer Apps. What Happened?",
+      "url": "https://www.nytimes.com/2026/09/12/opinion/ai-software-coding-apps.html",
+      "points": 8,
+      "comments": 2,
+      "created": "2026-09-12"
+    }
+  ]
+}
