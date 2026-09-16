@@ -1,0 +1,89 @@
+{
+  "briefing_date": "2026-09-17",
+  "period_start": "2026-09-15",
+  "period_end": "2026-09-17",
+  "previous_briefing_date": "2026-09-16",
+  "previous_briefing_excerpt": "# AI x 研发效能 每日简报 2026-09-16\n\n> 覆盖周期：2026-09-14 ~ 2026-09-16（上一期：2026-09-15）\n\n> **采集方式**：GitHub Actions 自动采集（Level 1 GitHub API + Level 4 HN API）｜Level 2/3 待人工或 API 密钥补充\n\n---\n\n## 头条速览\n\n1. **Claude Code v2.1.272**——## What's changed\n2. **Gemini CLI v0.61.0-nightly.20260915.g9c1b0a610**——**Full Changelog**: https://github.com/google-ge\n3. **Codex rust-v0.155.0-alpha.6**——Release 0.155.0-alpha.6\n\n---\n\n## 一、AI 增强软件研发（AI4SE）\n\n### 1.1 Level 1：核心产品与工程更新\n\n#### 1️⃣ Claude Code v2.1.272（2026-09-15）\n\n## What's changed\n\n来源：[v2.1.272](https://github.com/anthropics/claude-code/releases/tag/v2.1.272) — 2026-09-15\n\n#### 2️⃣ Gemini CLI v0.61.0-nightly.20260915.g9c1b0a610（2026-09-15）\n\n**Full Changelog**: https://github.com/google-gemini/gemini-cli/compare/v0.61.0-nightly.20260914.g9c1b0a610...v0.61.0-nightly.20260915.g9c1b0a610\n\n来源：[v0.61.0-nightly.20260915.g9c1b0a610](https://github.com/google-gemini/gemini-cli/releases/tag/v0.61.0-nightly.20260915.g9c1b0a610) — 2026-09-15\n\n#### 3️⃣ Codex rust-v0.155.0-alpha.6（2026-09-15）\n\nRelease 0.155.0-alpha.6\n\n来源：[rust-v0.155.0-alpha.6](https://github.com/openai/codex/releases/tag/rust-v0.155.0-alpha.6) — 2026-09-15\n\n#### 4️⃣ Hermes Agent v2026.9.14（2026-09-14）\n\n# Hermes Agent v0.21.3 (v2026.9.14)\n\n来源：[v2026.9.14](https://github.com/NousResearch/hermes-agent/releases/tag/v2026.9.14) — 2026-09-14\n\n---\n\n### 1.2 Level 2：关键人物战略洞察\n\n| 人物 | 动态 | 日期 |\n|---|---|---|\n| @karpathy | 自动采集未配置（需 WebSearch / X 间接源） | — |\n| @bcherny | 自动采集未配置（需 WebSearch / X 间接源） | — |\n| @sundarpichai | 自动采集未配置（需 WebSearch / X 间接源） | — |\n| @sama | 自动采集未配置（需 WebSearch / X 间接源） | — |\n| @gdb | 自动采集未配置（需 WebSearch / X 间接源） | — |\n| @DarioAmodei | 自动采集未配置（需 WebSearch / X 间接源） | — |\n\n---\n\n### 1.3 Level 3：行业研究与数据\n\n> **本日未扫描**（周报/月报降频）。\n\n---\n\n### 1.4 Level 4：补充信源（HN）\n\n- **2026-09-15**：[Show HN: Prokop – Open-source AI coding workspace with cross-project memory](https://github.com/capek-dev/prokop) （4 pts / 3 comments）\n- **2026-09-14**：[Has anyone made a legacy codebase more legible to AI coding agents?](https://news.ycombinator.com/item?id=49698073) （2 pts / 2 comments）\n- **2026-09-15**：[Scalpel – give AI coding agents get_symbol() instead of a whole file](https://github.com/amritessh/scalpel-mcp) （2 pts / 0 comments）\n- **2026-09-15**：[Show HN: Leo – a Markdown engineering process for AI coding agents](https://github.com/alex-zaporozhan/leo) （2 pts / 0 comments）\n- **2026-09-15**：[MiSeGuard – Deterministic runtime safety layer for AI coding agents](https://github.com/midhunweb/miseguard) （2 pts / 0 comments）\n\n---\n\n## 附录：采集日志\n\n| 环节 | 状态 |\n|---|---|\n| GitHub Releases API | ✅ 4 条 |\n| HN Algolia API | ✅ 5 条 |\n| 生成时间 (UTC) | 2026-09-15 17:21 |\n\n*自动生成版 · 可在 Cursor 中基于本稿补充 Level 2 分析与专题*\n",
+  "level1_releases": [
+    {
+      "product": "Codex",
+      "repo": "openai/codex",
+      "tag": "rusty-v8-v152.2.0",
+      "name": "rusty-v8-v152.2.0",
+      "published": "2026-09-16",
+      "url": "https://github.com/openai/codex/releases/tag/rusty-v8-v152.2.0",
+      "summary": "（无 release notes）",
+      "body_excerpt": "",
+      "prerelease": true
+    },
+    {
+      "product": "Claude Code",
+      "repo": "anthropics/claude-code",
+      "tag": "v2.1.273",
+      "name": "v2.1.273",
+      "published": "2026-09-15",
+      "url": "https://github.com/anthropics/claude-code/releases/tag/v2.1.273",
+      "summary": "## What's changed",
+      "body_excerpt": "## What's changed\n\n- Added `x-claude-code-request-class`, `x-claude-code-agent-type`, `x-claude-code-prev-tool-durations`, `x-claude-code-compaction` and `x-claude-code-context-compacted` request headers for LLM gateways; opt in with `CLAUDE_CODE_GATEWAY_HINT_HEADERS=1`\n- Added a notification when an MCP server disconnects mid-session and automatic reconnection gives up, pointing at `/mcp`\n- Added forking a session started with `claude --remote-control` or `/remote-control` from the Claude app; the fork runs as a background session on your computer\n- Fixed Bash commands the permission checker cannot fully analyze skipping the prompt under `permissions.blockReadsOutsideWorkingDirectories`, and a subshell hiding a dangerous `rm` in bypass mode\n- Fixed skills synced from claude.ai staying available after your organization turns Skills off; they now move to the recoverable trash\n- Fixed `allowManagedMcpServersOnly`, `deniedMcpServers` and `disableClaudeAiConnectors` set via MDM or `managed-settings.json` being ignored when server-managed settings are also present\n- Fixed 401/403 errors on Bedrock, Vertex and Foundry, and Claude apps gateway 403s, telling you to run `/login`; the message now names the credential to refresh or points to your gateway administrator\n- Fixed `/login`, `/upgrade`, and `/extra-usage` discarding earlier thinking from the conversation, which forced a full prompt-cache rewrite on the next request\n- Fixed auto mode stopping for approval when the Artifact tool uploads a file you attached to the chat in a cloud or Remote Control session\n- Fixed a long-running session recreating a stub `.git/info/exclude` after the repository's `.git` directory was removed or moved away\n- Fixed the main prompt dropping a `!` typed at the start while already in shell mode, so negated commands like `! grep …` can be typed\n- Fixed Read on macOS refusing a dragged-in screenshot, or any file the system reports under a second path, with \"symlink resolution changed after permission was checked\"\n- Fixed `permissions.blockReadsOutsideWorkingDirectories`: a memory directory chosen by a repository's settings is no longer loaded into the prompt, recalled, indexed, or used by memory extraction\n- Fixed sub-agents and background agents being reported as failed, with their result never delivered, when the final streamed reply omitted token usage or carried no model id\n- Fixed the context meter and auto-compact counting advisor-tool turns at roughly twice their real context ",
+      "prerelease": false
+    },
+    {
+      "product": "Gemini CLI",
+      "repo": "google-gemini/gemini-cli",
+      "tag": "v0.60.0",
+      "name": "Release v0.60.0",
+      "published": "2026-09-15",
+      "url": "https://github.com/google-gemini/gemini-cli/releases/tag/v0.60.0",
+      "summary": "## What's Changed",
+      "body_excerpt": "## What's Changed\n* fix(core): improve destination validation and connection routing in web fetch utilities by @diegogodinezr in https://github.com/google-gemini/gemini-cli/pull/29120\n* fix(core): enforce RFC 9207 issuer identification in MCP OAuth flow by @jvargassanchez-dot in https://github.com/google-gemini/gemini-cli/pull/29117\n* chore(release): bump version to 0.60.0-nightly.20260901.g0bd1d4397 by @gemini-cli-robot in https://github.com/google-gemini/gemini-cli/pull/29162\n* Changelog for v0.58.0 by @gemini-cli-robot in https://github.com/google-gemini/gemini-cli/pull/29161\n* fix(cli): isolate temporary directory for macOS Seatbelt sandbox by @jvargassanchez-dot in https://github.com/google-gemini/gemini-cli/pull/29171\n* feat(extensions): harden path resolution and boundary validation in extension loader by @diegogodinezr in https://github.com/google-gemini/gemini-cli/pull/29169\n* Changelog for v0.59.0-preview.0 by @gemini-cli-robot in https://github.com/google-gemini/gemini-cli/pull/29159\n* fix(core): sanitize and remove hardcoded Google CrUX API key in chrome-devtools-mcp by @amelidev in https://github.com/google-gemini/gemini-cli/pull/29158\n* fix(extensions): prompt for consent on environment changes and sanitize runtime-altering environment variables by @amelidev in https://github.com/google-gemini/gemini-cli/pull/28863\n* fix(core): enhance workspace path boundary checks and symlink resolution in command safety and file discovery by @jesussamuel-byte in https://github.com/google-gemini/gemini-cli/pull/29170\n* fix(config): enforce strict permission and ownership checks on system-wide configuration paths by @jesussamuel-byte in https://github.com/google-gemini/gemini-cli/pull/29115\n* fix(core): mitigate NTFS 8.3 short name (SFN) path by @urielefrenvirtusa in https://github.com/google-gemini/gemini-cli/pull/29116\n* fix(cli): isolate settings directory in sandbox containers by @jvargassanchez-dot in https://github.com/google-gemini/gemini-cli/pull/29216\n* fix(core): enforce envelope metadata provenance for untrusted tool outputs by @luisfelipe-alt in https://github.com/google-gemini/gemini-cli/pull/29215\n\n## New Contributors\n* @urielefrenvirtusa made their first contribution in https://github.com/google-gemini/gemini-cli/pull/29116\n\n**Full Changelog**: https://github.com/google-gemini/gemini-cli/compare/v0.59.0...v0.60.0",
+      "prerelease": false
+    }
+  ],
+  "level2_people": [
+    "@karpathy",
+    "@bcherny",
+    "@sundarpichai",
+    "@sama",
+    "@gdb",
+    "@DarioAmodei"
+  ],
+  "level2_note": "raw 无人物搜索；无依据时 Level 2 标无新增，勿编造",
+  "level3_note": "本日未扫描行业报告（周报降频）",
+  "level4_hn": [
+    {
+      "title": "Show HN: Prokop – Open-source AI coding workspace with cross-project memory",
+      "url": "https://github.com/capek-dev/prokop",
+      "points": 4,
+      "comments": 3,
+      "created": "2026-09-15"
+    },
+    {
+      "title": "Has anyone made a legacy codebase more legible to AI coding agents?",
+      "url": "https://news.ycombinator.com/item?id=49698073",
+      "points": 3,
+      "comments": 2,
+      "created": "2026-09-14"
+    },
+    {
+      "title": "Factory – AI Coding Startup More Than Triples Valuation to $5B",
+      "url": "https://www.wsj.com/tech/ai/ai-coding-startup-factory-more-than-triples-valuation-to-5-billion-871da697",
+      "points": 2,
+      "comments": 1,
+      "created": "2026-09-15"
+    },
+    {
+      "title": "Show HN: Cleanroom – An AI coding agent you can learn from at your own pace",
+      "url": "https://github.com/Ag3497120/cleanroom",
+      "points": 2,
+      "comments": 0,
+      "created": "2026-09-16"
+    },
+    {
+      "title": "Show HN: Leo – a Markdown engineering process for AI coding agents",
+      "url": "https://github.com/alex-zaporozhan/leo",
+      "points": 2,
+      "comments": 0,
+      "created": "2026-09-16"
+    }
+  ]
+}
