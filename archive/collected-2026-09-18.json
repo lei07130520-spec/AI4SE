@@ -1,0 +1,89 @@
+{
+  "briefing_date": "2026-09-18",
+  "period_start": "2026-09-16",
+  "period_end": "2026-09-18",
+  "previous_briefing_date": "2026-09-17",
+  "previous_briefing_excerpt": "# AI x 研发效能 每日简报 2026-09-17\n\n> 覆盖周期：2026-09-15 ~ 2026-09-17（上一期：2026-09-16）\n\n> **采集方式**：GitHub Actions 自动采集（Level 1 GitHub API + Level 4 HN API）｜Level 2/3 待人工或 API 密钥补充\n\n---\n\n## 头条速览\n\n1. **Codex rusty-v8-v152.2.0**——（无 release notes）\n2. **Claude Code v2.1.273**——## What's changed\n3. **Gemini CLI v0.60.0**——## What's Changed\n\n---\n\n## 一、AI 增强软件研发（AI4SE）\n\n### 1.1 Level 1：核心产品与工程更新\n\n#### 1️⃣ Codex rusty-v8-v152.2.0（2026-09-16）\n\n（无 release notes）\n\n来源：[rusty-v8-v152.2.0](https://github.com/openai/codex/releases/tag/rusty-v8-v152.2.0) — 2026-09-16\n\n#### 2️⃣ Claude Code v2.1.273（2026-09-15）\n\n## What's changed\n\n来源：[v2.1.273](https://github.com/anthropics/claude-code/releases/tag/v2.1.273) — 2026-09-15\n\n#### 3️⃣ Gemini CLI v0.60.0（2026-09-15）\n\n## What's Changed\n\n来源：[v0.60.0](https://github.com/google-gemini/gemini-cli/releases/tag/v0.60.0) — 2026-09-15\n\n---\n\n### 1.2 Level 2：关键人物战略洞察\n\n| 人物 | 动态 | 日期 |\n|---|---|---|\n| @karpathy | 自动采集未配置（需 WebSearch / X 间接源） | — |\n| @bcherny | 自动采集未配置（需 WebSearch / X 间接源） | — |\n| @sundarpichai | 自动采集未配置（需 WebSearch / X 间接源） | — |\n| @sama | 自动采集未配置（需 WebSearch / X 间接源） | — |\n| @gdb | 自动采集未配置（需 WebSearch / X 间接源） | — |\n| @DarioAmodei | 自动采集未配置（需 WebSearch / X 间接源） | — |\n\n---\n\n### 1.3 Level 3：行业研究与数据\n\n> **本日未扫描**（周报/月报降频）。\n\n---\n\n### 1.4 Level 4：补充信源（HN）\n\n- **2026-09-15**：[Show HN: Prokop – Open-source AI coding workspace with cross-project memory](https://github.com/capek-dev/prokop) （4 pts / 3 comments）\n- **2026-09-14**：[Has anyone made a legacy codebase more legible to AI coding agents?](https://news.ycombinator.com/item?id=49698073) （3 pts / 2 comments）\n- **2026-09-15**：[Factory – AI Coding Startup More Than Triples Valuation to $5B](https://www.wsj.com/tech/ai/ai-coding-startup-factory-more-than-triples-valuation-to-5-billion-871da697) （2 pts / 1 comments）\n- **2026-09-16**：[Show HN: Cleanroom – An AI coding agent you can learn from at your own pace](https://github.com/Ag3497120/cleanroom) （2 pts / 0 comments）\n- **2026-09-16**：[Show HN: Leo – a Markdown engineering process for AI coding agents](https://github.com/alex-zaporozhan/leo) （2 pts / 0 comments）\n\n---\n\n## 附录：采集日志\n\n| 环节 | 状态 |\n|---|---|\n| GitHub Releases API | ✅ 3 条 |\n| HN Algolia API | ✅ 5 条 |\n| 生成时间 (UTC) | 2026-09-16 17:21 |\n\n*自动生成版 · 可在 Cursor 中基于本稿补充 Level 2 分析与专题*\n",
+  "level1_releases": [
+    {
+      "product": "Claude Code",
+      "repo": "anthropics/claude-code",
+      "tag": "v2.1.274",
+      "name": "v2.1.274",
+      "published": "2026-09-17",
+      "url": "https://github.com/anthropics/claude-code/releases/tag/v2.1.274",
+      "summary": "## What's changed",
+      "body_excerpt": "## What's changed\n\n- Added a visible warning when memory usage is critical, with steps to free memory or restart safely\n- Added `CLAUDE_CODE_MCP_STARTUP_WAIT_MS` to bound how long the first non-interactive turn waits for connecting MCP servers (`0` = don't wait)\n- Added `effort` attribute to the `claude_code.llm_request` OpenTelemetry trace span, matching the `api_request` event\n- Added `claude_code.managed_settings_resolved` OTel event: managed-settings sources and policy helper state; redacted settings and digests with `OTEL_LOG_MANAGED_SETTINGS=1`\n- Added `store.connect_timeout_seconds` to the Claude apps gateway config to lengthen the Postgres connect timeout (default 5 seconds), and improved the boot error when the database is unreachable to point to `store.postgres_url` and the configured timeout\n- Added `enduser.sub`, the IdP subject, to the telemetry Claude Desktop and Cowork send through a Claude apps gateway\n- Added a Claude apps gateway warning when a replica has more requests open than the 256 it sends upstream at once, and a startup log line showing that limit\n- Added click-to-expand for collapsed teammate and agent messages in fullscreen mode\n- Fixed sessions getting stuck endlessly retrying \"unexpected tool_use_id\" 400 errors: corrupted transcripts now self-heal where possible, and otherwise a clear error (with a `/rewind` hint) ends the loop\n- Fixed MCP servers configured as `http` that only speak legacy HTTP+SSE failing to connect when they answer the first request with 422 or another 4xx error\n- Fixed Streamable HTTP MCP tool calls timing out after about 5 minutes even when a longer per-server `timeout` was set\n- Fixed MCP prompts and resources not refreshing when a server sends list-changed notifications without declaring `listChanged`\n- Fixed MCP tool calls refused with 403 insufficient_scope being reported as an expired sign-in: the error now names the missing permissions and points to `/mcp` re-authentication\n- Fixed hook-driven sessions (such as an active `/goal`) ending with \"Prompt is too long\" instead of compacting when the context overflowed again after a reactive compaction\n- Fixed an active `/goal` being lost when resuming (`--continue` / `--resume`) a session that had compacted\n- Fixed `claude agents` losing `--model`, `--effort`, `--permission-mode`, `--allow-dangerously-skip-permissions` and `--agent` after an auto-update relaunch\n- Fixed a per-turn slowdown when a language server publishes project-wide diagnostics for thous",
+      "prerelease": false
+    },
+    {
+      "product": "Gemini CLI",
+      "repo": "google-gemini/gemini-cli",
+      "tag": "v0.62.0-nightly.20260917.g6a466a7e2",
+      "name": "Release v0.62.0-nightly.20260917.g6a466a7e2",
+      "published": "2026-09-17",
+      "url": "https://github.com/google-gemini/gemini-cli/releases/tag/v0.62.0-nightly.20260917.g6a466a7e2",
+      "summary": "**Full Changelog**: https://github.com/google-gemini/gemini-cli/compare/v0.62.0-nightly.20260916.g6a466a7e2...v0.62.0-nightly.20260917.g6a466a7e2",
+      "body_excerpt": "**Full Changelog**: https://github.com/google-gemini/gemini-cli/compare/v0.62.0-nightly.20260916.g6a466a7e2...v0.62.0-nightly.20260917.g6a466a7e2",
+      "prerelease": true
+    },
+    {
+      "product": "Codex",
+      "repo": "openai/codex",
+      "tag": "rust-v0.155.0-alpha.16",
+      "name": "0.155.0-alpha.16",
+      "published": "2026-09-17",
+      "url": "https://github.com/openai/codex/releases/tag/rust-v0.155.0-alpha.16",
+      "summary": "Release 0.155.0-alpha.16",
+      "body_excerpt": "Release 0.155.0-alpha.16",
+      "prerelease": true
+    }
+  ],
+  "level2_people": [
+    "@karpathy",
+    "@bcherny",
+    "@sundarpichai",
+    "@sama",
+    "@gdb",
+    "@DarioAmodei"
+  ],
+  "level2_note": "raw 无人物搜索；无依据时 Level 2 标无新增，勿编造",
+  "level3_note": "本日未扫描行业报告（周报降频）",
+  "level4_hn": [
+    {
+      "title": "PC ports of old console games are the new AI vibe coding battleground",
+      "url": "https://www.pcgamer.com/gaming-industry/pc-ports-of-old-console-games-are-the-new-ai-vibe-coding-battleground/",
+      "points": 10,
+      "comments": 0,
+      "created": "2026-09-17"
+    },
+    {
+      "title": "Show HN: Friday – Self-hosted persistent memory for AI coding agents (MCP)",
+      "url": "https://github.com/itskie/friday",
+      "points": 9,
+      "comments": 4,
+      "created": "2026-09-16"
+    },
+    {
+      "title": "Show HN: Prokop – Open-source AI coding workspace with cross-project memory",
+      "url": "https://github.com/capek-dev/prokop",
+      "points": 4,
+      "comments": 3,
+      "created": "2026-09-15"
+    },
+    {
+      "title": "Factory – AI Coding Startup More Than Triples Valuation to $5B",
+      "url": "https://www.wsj.com/tech/ai/ai-coding-startup-factory-more-than-triples-valuation-to-5-billion-871da697",
+      "points": 2,
+      "comments": 1,
+      "created": "2026-09-15"
+    },
+    {
+      "title": "Show HN: What sandboxing an AI coding agent in a VM costs",
+      "url": "https://www.veloworkspaces.com/blog/vm-sandboxing-cost/",
+      "points": 2,
+      "comments": 0,
+      "created": "2026-09-17"
+    }
+  ]
+}
