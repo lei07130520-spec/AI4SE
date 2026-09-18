@@ -1,0 +1,100 @@
+{
+  "briefing_date": "2026-09-19",
+  "period_start": "2026-09-17",
+  "period_end": "2026-09-19",
+  "previous_briefing_date": "2026-09-18",
+  "previous_briefing_excerpt": "# AI x 研发效能 每日简报 2026-09-18\n\n> 覆盖周期：2026-09-16 ~ 2026-09-18（上一期：2026-09-17）\n\n> **采集方式**：GitHub Actions 自动采集（Level 1 GitHub API + Level 4 HN API）｜Level 2/3 待人工或 API 密钥补充\n\n---\n\n## 头条速览\n\n1. **Claude Code v2.1.274**——## What's changed\n2. **Gemini CLI v0.62.0-nightly.20260917.g6a466a7e2**——**Full Changelog**: https://github.com/google-ge\n3. **Codex rust-v0.155.0-alpha.16**——Release 0.155.0-alpha.16\n\n---\n\n## 一、AI 增强软件研发（AI4SE）\n\n### 1.1 Level 1：核心产品与工程更新\n\n#### 1️⃣ Claude Code v2.1.274（2026-09-17）\n\n## What's changed\n\n来源：[v2.1.274](https://github.com/anthropics/claude-code/releases/tag/v2.1.274) — 2026-09-17\n\n#### 2️⃣ Gemini CLI v0.62.0-nightly.20260917.g6a466a7e2（2026-09-17）\n\n**Full Changelog**: https://github.com/google-gemini/gemini-cli/compare/v0.62.0-nightly.20260916.g6a466a7e2...v0.62.0-nightly.20260917.g6a466a7e2\n\n来源：[v0.62.0-nightly.20260917.g6a466a7e2](https://github.com/google-gemini/gemini-cli/releases/tag/v0.62.0-nightly.20260917.g6a466a7e2) — 2026-09-17\n\n#### 3️⃣ Codex rust-v0.155.0-alpha.16（2026-09-17）\n\nRelease 0.155.0-alpha.16\n\n来源：[rust-v0.155.0-alpha.16](https://github.com/openai/codex/releases/tag/rust-v0.155.0-alpha.16) — 2026-09-17\n\n---\n\n### 1.2 Level 2：关键人物战略洞察\n\n| 人物 | 动态 | 日期 |\n|---|---|---|\n| @karpathy | 自动采集未配置（需 WebSearch / X 间接源） | — |\n| @bcherny | 自动采集未配置（需 WebSearch / X 间接源） | — |\n| @sundarpichai | 自动采集未配置（需 WebSearch / X 间接源） | — |\n| @sama | 自动采集未配置（需 WebSearch / X 间接源） | — |\n| @gdb | 自动采集未配置（需 WebSearch / X 间接源） | — |\n| @DarioAmodei | 自动采集未配置（需 WebSearch / X 间接源） | — |\n\n---\n\n### 1.3 Level 3：行业研究与数据\n\n> **本日未扫描**（周报/月报降频）。\n\n---\n\n### 1.4 Level 4：补充信源（HN）\n\n- **2026-09-17**：[PC ports of old console games are the new AI vibe coding battleground](https://www.pcgamer.com/gaming-industry/pc-ports-of-old-console-games-are-the-new-ai-vibe-coding-battleground/) （10 pts / 0 comments）\n- **2026-09-16**：[Show HN: Friday – Self-hosted persistent memory for AI coding agents (MCP)](https://github.com/itskie/friday) （9 pts / 4 comments）\n- **2026-09-15**：[Show HN: Prokop – Open-source AI coding workspace with cross-project memory](https://github.com/capek-dev/prokop) （4 pts / 3 comments）\n- **2026-09-15**：[Factory – AI Coding Startup More Than Triples Valuation to $5B](https://www.wsj.com/tech/ai/ai-coding-startup-factory-more-than-triples-valuation-to-5-billion-871da697) （2 pts / 1 comments）\n- **2026-09-17**：[Show HN: What sandboxing an AI coding agent in a VM costs](https://www.veloworkspaces.com/blog/vm-sandboxing-cost/) （2 pts / 0 comments）\n\n---\n\n## 附录：采集日志\n\n| 环节 | 状态 |\n|---|---|\n| GitHub Releases API | ✅ 3 条 |\n| HN Algolia API | ✅ 5 条 |\n| 生成时间 (UTC) | 2026-09-17 17:20 |\n\n*自动生成版 · 可在 Cursor 中基于本稿补充 Level 2 分析与专题*\n",
+  "level1_releases": [
+    {
+      "product": "OpenClaw",
+      "repo": "openclaw/openclaw",
+      "tag": "v2026.7.33",
+      "name": "openclaw 2026.7.33",
+      "published": "2026-09-18",
+      "url": "https://github.com/openclaw/openclaw/releases/tag/v2026.7.33",
+      "summary": "## 2026.7.33",
+      "body_excerpt": "## 2026.7.33\n\nThis is the July 2026 Extended Stable release, covering the Gateway, official npm plugins, and matching Docker images.\n\n### Highlights\n\n- **Security and credential safety:** harden command parsing, browser origin checks, plugin Git installs, diagnostics, service credentials, and webhook logging across Gateway and official plugins.\n- **Message and session integrity:** preserve queued, imported, streamed, and tool-result messages across retries, hooks, recovery, and channel lifecycle transitions.\n- **Gateway reliability:** close failed HTTP and Responses streams, bound expensive reads and history queries, and settle shutdown work before reporting completion. Thanks @RomneyDa.\n- **Channel delivery:** repair Discord, Matrix, Telegram, Slack, WhatsApp, LINE, Feishu, Zalo, and meeting-plugin edge cases that could lose, corrupt, or stall messages.\n- **Provider and media robustness:** bound provider requests and diagnostics, reject malformed payloads, and preserve valid tool schemas and response lifecycles. Thanks @RomneyDa.\n\n### Changes\n\n- **Extended-stable release tooling:** carry the current Docker channel classifier, promoter, verification policy, and tests so `v2026.7.33` can move only the `extended-stable*` aliases. Thanks @RomneyDa.\n\n### Fixes\n\n- **Security boundaries:** reject escaped-newline command words, exact-origin mismatches, injected Git option arguments, inherited secret-response identifiers, unsafe browser mutations, and malformed or oversized node payloads.\n- **Delivery and transcript recovery:** keep retry delays accurate, preserve imported messages and plugin-blocked tool results, retain detached admissions, and avoid silently dropping channel actions or recovery work. Thanks @RomneyDa.\n- **Resource and lifecycle safety:** bound catalog, history, media, stderr, API, and provider waits; stop canceled parallel tools; drain channel shutdown; and reject queued worker requests after close. Thanks @RomneyDa.\n- **Text and schema correctness:** preserve UTF-16 boundaries across user-visible truncation paths, keep root tool-schema properties, reject non-finite schema values, and report exact UTF-8 write sizes.\n- **Official plugins:** repair message parsing, proxy paths, request timeouts, media handling, privacy-safe logging, and runtime aliases across the npm-published plugin inventory.\n\n### Complete contribution record\n\nThis audited record covers the complete v2026.7.1-2..42625327f91254cfe66cbeb6d7a1812780b1a694 history: 126 merged PRs. T",
+      "prerelease": false
+    },
+    {
+      "product": "Claude Code",
+      "repo": "anthropics/claude-code",
+      "tag": "v2.1.276",
+      "name": "v2.1.276",
+      "published": "2026-09-18",
+      "url": "https://github.com/anthropics/claude-code/releases/tag/v2.1.276",
+      "summary": "## What's changed",
+      "body_excerpt": "## What's changed\n\n- Fixed every request failing with `400 … Input tag 'advisor_20260301'` when `ANTHROPIC_BASE_URL` points at a proxy or gateway (2.1.275 regression)",
+      "prerelease": false
+    },
+    {
+      "product": "Gemini CLI",
+      "repo": "google-gemini/gemini-cli",
+      "tag": "v0.62.0-nightly.20260918.g9450ade79",
+      "name": "Release v0.62.0-nightly.20260918.g9450ade79",
+      "published": "2026-09-18",
+      "url": "https://github.com/google-gemini/gemini-cli/releases/tag/v0.62.0-nightly.20260918.g9450ade79",
+      "summary": "## What's Changed",
+      "body_excerpt": "## What's Changed\n* fix(core): retain oauth refresh token on refresh and make credential deletion idempotent by @villahernandez-coder in https://github.com/google-gemini/gemini-cli/pull/29339\n* fix(ui): guard against negative layout dimensions in border rendering by @diegogodinezr in https://github.com/google-gemini/gemini-cli/pull/29347\n* test(integration): deflake run_shell_command and file-system-interactive tests by @DavidAPierce in https://github.com/google-gemini/gemini-cli/pull/29185\n* fix(core): improve PTY file descriptor cleanup and execution lifecycle management by @jesussamuel-byte in https://github.com/google-gemini/gemini-cli/pull/29340\n\n\n**Full Changelog**: https://github.com/google-gemini/gemini-cli/compare/v0.62.0-nightly.20260917.g6a466a7e2...v0.62.0-nightly.20260918.g9450ade79",
+      "prerelease": true
+    },
+    {
+      "product": "Codex",
+      "repo": "openai/codex",
+      "tag": "rust-v0.155.0",
+      "name": "0.155.0",
+      "published": "2026-09-17",
+      "url": "https://github.com/openai/codex/releases/tag/rust-v0.155.0",
+      "summary": "## New Features",
+      "body_excerpt": "## New Features\n\n- Added experimental `/voice` conversations with live transcripts and microphone controls on supported builds, enabled through `/experimental`. (#43581, #43651, #44331)\n- The TUI now shows live reasoning summaries in the status row and completion timestamps after successful turns. (#43558, #43921)\n- Added task hiding, archiving, and deletion in the agents overview, plus worktree ownership details and confirmed deletion of clean managed worktrees. (#43942, #44424, #44433)\n- Added Touch ID verification for MCP requests in local TUI sessions on supported Macs. (#43624, #43712, #43715)\n- Added configurable daemon update schedules and `codex app-server daemon update`; saved threads and active goals can recover after daemon restarts. (#43542, #43562, #44314)\n- Amazon Bedrock can now obtain AWS credentials from configured commands, with caching, expiration-based refresh, and authentication recovery. (#44028)\n\n## Bug Fixes\n\n- Accepted prompts are now saved even when compaction fails before a turn starts. (#44487)\n- Fixed missed tmux resizes, transcript viewport restoration, and stale history appearing after switching threads. (#43603, #43889, #43994)\n- MCP servers now report expired OAuth credentials accurately and provide reconnect guidance when token refresh fails. (#43947, #44359)\n- Automatic approval reviews now preserve complete actions and authorization evidence more reliably, retry transient failures, and distinguish review failures from unsafe-action findings. (#44482, #44569, #44570)\n- Switching accounts now invalidates remote-control sessions, cached WebSocket state, and model catalogs belonging to the previous identity. (#43906, #44341, #44489)\n- Blocked Windows-process escapes from restricted WSL sandboxes and hardened brokered shell snapshots against credential exposure. (#44286, #43909, #44040)\n\n## Chores\n\n- Aligned Python SDK and runtime publishing with stable CLI releases, using matching versions and verifying runtime assets before SDK publication. (#44067)\n\n## Changelog\n\nFull Changelog: https://github.com/openai/codex/compare/rust-v0.154.0...rust-v0.155.0\n\n- #43521 Preserve standalone release pins during daemon updates @copyberry\n- #43524 Restrict MCP user verification and add workspace-scoped identity @copyberry\n- #43527 Discount an approval's own code-mode wrapper from Guardian score lag @copyberry\n- #43529 Ensure the standalone updater runs on managed daemon starts @copyberry\n- #43533 Fix jemalloc tools and compiler flags for B",
+      "prerelease": false
+    }
+  ],
+  "level2_people": [
+    "@karpathy",
+    "@bcherny",
+    "@sundarpichai",
+    "@sama",
+    "@gdb",
+    "@DarioAmodei"
+  ],
+  "level2_note": "raw 无人物搜索；无依据时 Level 2 标无新增，勿编造",
+  "level3_note": "本日未扫描行业报告（周报降频）",
+  "level4_hn": [
+    {
+      "title": "PC ports of old console games are the new AI vibe coding battleground",
+      "url": "https://www.pcgamer.com/gaming-industry/pc-ports-of-old-console-games-are-the-new-ai-vibe-coding-battleground/",
+      "points": 11,
+      "comments": 0,
+      "created": "2026-09-17"
+    },
+    {
+      "title": "Reflections on Trusting Trust, Revisited: Poisoning Self-Modifying AI Coding",
+      "url": "https://arxiv.org/abs/2609.17817",
+      "points": 10,
+      "comments": 1,
+      "created": "2026-09-18"
+    },
+    {
+      "title": "Show HN: Friday – Self-hosted persistent memory for AI coding agents (MCP)",
+      "url": "https://github.com/itskie/friday",
+      "points": 9,
+      "comments": 4,
+      "created": "2026-09-16"
+    },
+    {
+      "title": "Show HN: What sandboxing an AI coding agent in a VM costs",
+      "url": "https://www.veloworkspaces.com/blog/vm-sandboxing-cost/",
+      "points": 2,
+      "comments": 0,
+      "created": "2026-09-17"
+    },
+    {
+      "title": "Show HN: Cleanroom – An AI coding agent you can learn from at your own pace",
+      "url": "https://github.com/Ag3497120/cleanroom",
+      "points": 2,
+      "comments": 0,
+      "created": "2026-09-16"
+    }
+  ]
+}
