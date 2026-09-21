@@ -1,0 +1,100 @@
+{
+  "briefing_date": "2026-09-22",
+  "period_start": "2026-09-20",
+  "period_end": "2026-09-22",
+  "previous_briefing_date": "2026-09-21",
+  "previous_briefing_excerpt": "# AI x 研发效能 每日简报 2026-09-21\n\n> 覆盖周期：2026-09-19 ~ 2026-09-21（上一期：2026-09-20）\n\n> **采集方式**：GitHub Actions 自动采集（Level 1 GitHub API + Level 4 HN API）｜Level 2/3 待人工或 API 密钥补充\n\n---\n\n## 头条速览\n\n1. **Gemini CLI v0.62.0-nightly.20260920.gcfbcaa8df**——**Full Changelog**: https://github.com/google-ge\n2. **Codex rust-v0.156.0-alpha.9**——Release 0.156.0-alpha.9\n3. **OpenClaw v2026.9.5**——<!-- openclaw-release-publication:docs-v1 -->\n\n---\n\n## 一、AI 增强软件研发（AI4SE）\n\n### 1.1 Level 1：核心产品与工程更新\n\n#### 1️⃣ Gemini CLI v0.62.0-nightly.20260920.gcfbcaa8df（2026-09-20）\n\n**Full Changelog**: https://github.com/google-gemini/gemini-cli/compare/v0.62.0-nightly.20260919.gcfbcaa8df...v0.62.0-nightly.20260920.gcfbcaa8df\n\n来源：[v0.62.0-nightly.20260920.gcfbcaa8df](https://github.com/google-gemini/gemini-cli/releases/tag/v0.62.0-nightly.20260920.gcfbcaa8df) — 2026-09-20\n\n#### 2️⃣ Codex rust-v0.156.0-alpha.9（2026-09-20）\n\nRelease 0.156.0-alpha.9\n\n来源：[rust-v0.156.0-alpha.9](https://github.com/openai/codex/releases/tag/rust-v0.156.0-alpha.9) — 2026-09-20\n\n#### 3️⃣ OpenClaw v2026.9.5（2026-09-19）\n\n<!-- openclaw-release-publication:docs-v1 -->\n\n来源：[v2026.9.5](https://github.com/openclaw/openclaw/releases/tag/v2026.9.5) — 2026-09-19\n\n#### 4️⃣ Claude Code v2.1.278（2026-09-19）\n\n## What's changed\n\n来源：[v2.1.278](https://github.com/anthropics/claude-code/releases/tag/v2.1.278) — 2026-09-19\n\n---\n\n### 1.2 Level 2：关键人物战略洞察\n\n| 人物 | 动态 | 日期 |\n|---|---|---|\n| @karpathy | 自动采集未配置（需 WebSearch / X 间接源） | — |\n| @bcherny | 自动采集未配置（需 WebSearch / X 间接源） | — |\n| @sundarpichai | 自动采集未配置（需 WebSearch / X 间接源） | — |\n| @sama | 自动采集未配置（需 WebSearch / X 间接源） | — |\n| @gdb | 自动采集未配置（需 WebSearch / X 间接源） | — |\n| @DarioAmodei | 自动采集未配置（需 WebSearch / X 间接源） | — |\n\n---\n\n### 1.3 Level 3：行业研究与数据\n\n> **本日未扫描**（周报/月报降频）。\n\n---\n\n### 1.4 Level 4：补充信源（HN）\n\n- **2026-09-20**：[If AI coding is lowering your code quality, you're not managing quality right](https://www.i-kh.net/p/if-ai-coding-is-lowering-your-code) （59 pts / 102 comments）\n- **2026-09-18**：[Reflections on Trusting Trust, Revisited: Poisoning Self-Modifying AI Coding](https://arxiv.org/abs/2609.17817) （12 pts / 1 comments）\n- **2026-09-19**：[PC ports of old console games are the new AI vibe coding battleground](https://www.pcgamer.com/gaming-industry/pc-ports-of-old-console-games-are-the-new-ai-vibe-coding-battleground/) （4 pts / 0 comments）\n- **2026-09-18**：[PC ports of old console games are the new AI vibe coding battleground](https://www.pcgamer.com/gaming-industry/pc-ports-of-old-console-games-are-the-new-ai-vibe-coding-battleground/) （3 pts / 0 comments）\n- **2026-09-19**：[AI coding agents' 0-click RCE flaw could hand attackers keys to the kingdom](https://www.theregister.com/security/2026/09/17/ai-coding-agents-0-click-rce-flaw-could-hand-attackers-keys-to-the-kingdom/5297335) （2 pts / 0 comments）\n\n---\n\n## 附录：采集日志\n\n| 环节 | 状态 |\n|---|---|\n| GitHub Releases API | ✅ 4 条 |\n| HN Algolia API | ✅ 5 条 |\n| 生成时间 (UTC) | 2026-09-20 16:35 |\n\n*自动生成版 · 可在 Cursor 中基于本稿补充 Level 2 分析与专题*\n",
+  "level1_releases": [
+    {
+      "product": "Hermes Agent",
+      "repo": "NousResearch/hermes-agent",
+      "tag": "v2026.9.21",
+      "name": "Hermes Agent v0.21.4 (v2026.9.21)",
+      "published": "2026-09-21",
+      "url": "https://github.com/NousResearch/hermes-agent/releases/tag/v2026.9.21",
+      "summary": "# Hermes Agent v0.21.4 (v2026.9.21)",
+      "body_excerpt": "# Hermes Agent v0.21.4 (v2026.9.21)\n\n**Release Date:** September 21, 2026\n\n> Patch release. This tag rolls up the ~1,800 PRs merged since v0.21.3 into a stable tagged release for downstream consumers (Docker images, Hermes Cloud, hosted deployments). Full curated notes for this window are deferred to v0.22.0.\n\n## About this release\n\nMeasured at commit `4b8a8134009a8727a289bcabeb0019fedd353128`, the window since v0.21.3 contains **5,071 non-merge commits** across **5,169 changed files** (+312,961 / −62,855), **1,812 merged PRs** and **2,116 closed issues**.\n\nAlso in the window, undocumented here on purpose: a host-wide gateway singleton lock with a rendezvous record, and Desktop attaching to the running host backend instead of spawning a second one; one backend-owned connector operation with a setup card on Desktop, TUI and CLI; `--format stream-json` structured JSONL output for the CLI; `skills.auto_load` pinning skills into every new session's prompt; a Desktop chat/UI font picker, one-click local engine updates, and plugin uninstall from the Plugins hub; a `decline` unauthorized-DM behavior for the gateway; a configurable MCP discovery connect cap (`mcp.discovery_concurrency`); `session_search` after/before bounds plus OR-relaxed recall retry; `hermes sessions set-journal-mode`; LTX 2.5 and Kling O3 in the video catalogs; a website page for every catalog plugin and author, with pinned-commit READMEs and added/updated sorting; a dozen new community plugins in the catalog (tailscale, ssh, shodan, terminal, rss, resetwatch, done-bell, kiwi, cognee, Octen); and a large run of profile/multiplex isolation, cron, kanban, Desktop and state.db fixes.\n\n**Full curated release notes for this window ship with v0.22.0**, which will document everything from v0.21.0 onward — highlights, feature areas, and complete contributor credits. Nothing in this window is skipped.\n\n## Updating\n\n- `hermes update` (git installs), or re-run the installer one-liner.\n- Docker / Hermes Cloud: images build from this tag (`nousresearch/hermes-agent:v2026.9.21`).\n\n**Full changelog:** https://github.com/NousResearch/hermes-agent/compare/v2026.9.14...v2026.9.21",
+      "prerelease": false
+    },
+    {
+      "product": "OpenClaw",
+      "repo": "openclaw/openclaw",
+      "tag": "v2026.7.35",
+      "name": "openclaw 2026.7.35",
+      "published": "2026-09-21",
+      "url": "https://github.com/openclaw/openclaw/releases/tag/v2026.7.35",
+      "summary": "## 2026.7.35",
+      "body_excerpt": "## 2026.7.35\n\n### Fixes\n\n- **Doctor plugin registry:** preserve the complete bundled plugin inventory when Doctor creates or repairs registry state, so default Browser, Canvas, pairing, file-transfer, phone-control, Talk voice, and Bonjour plugins remain available after restart. State-migration discovery now also recovers from the partial registry written by 2026.7.34 while retaining external plugin install records. Backported from #136045. Thanks @wangmiao0668000666.\n\n### Complete contribution record\n\nThis extended-stable follow-up was selected from a complete 1,418-commit audit after the prior 2026.7.34 audit cursor. No other defect observed during clean install or the 2026.6.35 upgrade required a July-line backport.\n\n## Cumulative July extended-stable notes\n\nOpenClaw 2026.7.33 and 2026.7.34 were unstable extended-stable builds and were intentionally not published as GitHub Releases. Because 2026.7.35 is the first GitHub Release for the July maintenance line, it includes their complete changelogs below.\n\n## 2026.7.33\n\n### Highlights\n\n- **Security and credential safety:** harden command parsing, browser origin checks, plugin Git installs, diagnostics, service credentials, and webhook logging across Gateway and official plugins.\n- **Message and session integrity:** preserve queued, imported, streamed, and tool-result messages across retries, hooks, recovery, and channel lifecycle transitions.\n- **Gateway reliability:** close failed HTTP and Responses streams, bound expensive reads and history queries, and settle shutdown work before reporting completion. Thanks @RomneyDa.\n- **Channel delivery:** repair Discord, Matrix, Telegram, Slack, WhatsApp, LINE, Feishu, Zalo, and meeting-plugin edge cases that could lose, corrupt, or stall messages.\n- **Provider and media robustness:** bound provider requests and diagnostics, reject malformed payloads, and preserve valid tool schemas and response lifecycles. Thanks @RomneyDa.\n\n### Changes\n\n- **Extended-stable release tooling:** carry the current Docker channel classifier, promoter, verification policy, and tests so `v2026.7.33` can move only the `extended-stable*` aliases. Thanks @RomneyDa.\n\n### Fixes\n\n- **Security boundaries:** reject escaped-newline command words, exact-origin mismatches, injected Git option arguments, inherited secret-response identifiers, unsafe browser mutations, and malformed or oversized node payloads.\n- **Delivery and transcript recovery:** keep retry delays accurate, preserve imported messag",
+      "prerelease": false
+    },
+    {
+      "product": "Gemini CLI",
+      "repo": "google-gemini/gemini-cli",
+      "tag": "v0.62.0-nightly.20260921.gcfbcaa8df",
+      "name": "Release v0.62.0-nightly.20260921.gcfbcaa8df",
+      "published": "2026-09-21",
+      "url": "https://github.com/google-gemini/gemini-cli/releases/tag/v0.62.0-nightly.20260921.gcfbcaa8df",
+      "summary": "**Full Changelog**: https://github.com/google-gemini/gemini-cli/compare/v0.62.0-nightly.20260920.gcfbcaa8df...v0.62.0-nightly.20260921.gcfbcaa8df",
+      "body_excerpt": "**Full Changelog**: https://github.com/google-gemini/gemini-cli/compare/v0.62.0-nightly.20260920.gcfbcaa8df...v0.62.0-nightly.20260921.gcfbcaa8df",
+      "prerelease": true
+    },
+    {
+      "product": "Codex",
+      "repo": "openai/codex",
+      "tag": "rust-v0.157.0-alpha.1",
+      "name": "0.157.0-alpha.1",
+      "published": "2026-09-21",
+      "url": "https://github.com/openai/codex/releases/tag/rust-v0.157.0-alpha.1",
+      "summary": "Release 0.157.0-alpha.1",
+      "body_excerpt": "Release 0.157.0-alpha.1",
+      "prerelease": true
+    }
+  ],
+  "level2_people": [
+    "@karpathy",
+    "@bcherny",
+    "@sundarpichai",
+    "@sama",
+    "@gdb",
+    "@DarioAmodei"
+  ],
+  "level2_note": "raw 无人物搜索；无依据时 Level 2 标无新增，勿编造",
+  "level3_note": "本日未扫描行业报告（周报降频）",
+  "level4_hn": [
+    {
+      "title": "If AI coding is lowering your code quality, you're not managing quality right",
+      "url": "https://www.i-kh.net/p/if-ai-coding-is-lowering-your-code",
+      "points": 112,
+      "comments": 158,
+      "created": "2026-09-20"
+    },
+    {
+      "title": "ZCode: Z.ai's coding agent harness. Powerful, intelligent, extensible",
+      "url": "https://github.com/zai-org/ZCode",
+      "points": 4,
+      "comments": 0,
+      "created": "2026-09-21"
+    },
+    {
+      "title": "PC ports of old console games are the new AI vibe coding battleground",
+      "url": "https://www.pcgamer.com/gaming-industry/pc-ports-of-old-console-games-are-the-new-ai-vibe-coding-battleground/",
+      "points": 4,
+      "comments": 0,
+      "created": "2026-09-19"
+    },
+    {
+      "title": "Casbin Gateway: a security gateway for the AI coding agents on your machine",
+      "url": "https://github.com/apache/casbin-gateway",
+      "points": 3,
+      "comments": 0,
+      "created": "2026-09-20"
+    },
+    {
+      "title": "Show HN: Open-source shared memory for teams of AI coding agents",
+      "url": "https://github.com/motif-Labs/motif",
+      "points": 2,
+      "comments": 0,
+      "created": "2026-09-21"
+    }
+  ]
+}
