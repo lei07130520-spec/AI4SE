@@ -1,0 +1,89 @@
+{
+  "briefing_date": "2026-09-24",
+  "period_start": "2026-09-22",
+  "period_end": "2026-09-24",
+  "previous_briefing_date": "2026-09-23",
+  "previous_briefing_excerpt": "# AI x 研发效能 每日简报 2026-09-23\n\n> 覆盖周期：2026-09-21 ~ 2026-09-23（上一期：2026-09-22）\n\n> **采集方式**：GitHub Actions 自动采集（Level 1 GitHub API + Level 4 HN API）｜Level 2/3 待人工或 API 密钥补充\n\n---\n\n## 头条速览\n\n1. **Claude Code v2.1.280**——## What's changed\n2. **Gemini CLI v0.62.0-nightly.20260922.gd5b3e3acc**——## What's Changed\n3. **Codex rust-v0.157.0-alpha.8**——Release 0.157.0-alpha.8\n\n---\n\n## 一、AI 增强软件研发（AI4SE）\n\n### 1.1 Level 1：核心产品与工程更新\n\n#### 1️⃣ Claude Code v2.1.280（2026-09-22）\n\n## What's changed\n\n来源：[v2.1.280](https://github.com/anthropics/claude-code/releases/tag/v2.1.280) — 2026-09-22\n\n#### 2️⃣ Gemini CLI v0.62.0-nightly.20260922.gd5b3e3acc（2026-09-22）\n\n## What's Changed\n\n来源：[v0.62.0-nightly.20260922.gd5b3e3acc](https://github.com/google-gemini/gemini-cli/releases/tag/v0.62.0-nightly.20260922.gd5b3e3acc) — 2026-09-22\n\n#### 3️⃣ Codex rust-v0.157.0-alpha.8（2026-09-22）\n\nRelease 0.157.0-alpha.8\n\n来源：[rust-v0.157.0-alpha.8](https://github.com/openai/codex/releases/tag/rust-v0.157.0-alpha.8) — 2026-09-22\n\n#### 4️⃣ Hermes Agent v2026.9.21（2026-09-21）\n\n# Hermes Agent v0.21.4 (v2026.9.21)\n\n来源：[v2026.9.21](https://github.com/NousResearch/hermes-agent/releases/tag/v2026.9.21) — 2026-09-21\n\n#### 5️⃣ OpenClaw v2026.7.35（2026-09-21）\n\nThis is a gateway-only `extended-stable` release, which is our current equivalent to LTS. This release is OpenClaw from the end of July 2026, plus critical security updates, reliability and performanc\n\n来源：[v2026.7.35](https://github.com/openclaw/openclaw/releases/tag/v2026.7.35) — 2026-09-21\n\n---\n\n### 1.2 Level 2：关键人物战略洞察\n\n| 人物 | 动态 | 日期 |\n|---|---|---|\n| @karpathy | 自动采集未配置（需 WebSearch / X 间接源） | — |\n| @bcherny | 自动采集未配置（需 WebSearch / X 间接源） | — |\n| @sundarpichai | 自动采集未配置（需 WebSearch / X 间接源） | — |\n| @sama | 自动采集未配置（需 WebSearch / X 间接源） | — |\n| @gdb | 自动采集未配置（需 WebSearch / X 间接源） | — |\n| @DarioAmodei | 自动采集未配置（需 WebSearch / X 间接源） | — |\n\n---\n\n### 1.3 Level 3：行业研究与数据\n\n> **本日未扫描**（周报/月报降频）。\n\n---\n\n### 1.4 Level 4：补充信源（HN）\n\n- **2026-09-21**：[AI coding has made CI a bottleneck, so we reworked ours to keep up](https://linear.app/now/ci-bottleneck-reworked) （301 pts / 367 comments）\n- **2026-09-20**：[If AI coding is lowering your code quality, you're not managing quality right](https://www.i-kh.net/p/if-ai-coding-is-lowering-your-code) （124 pts / 169 comments）\n- **2026-09-22**：[Show HN: Brig – A MicroVM sandbox for AI coding agents on Mac and Linux](https://news.ycombinator.com/item?id=49802729) （6 pts / 1 comments）\n- **2026-09-21**：[ZCode: Z.ai's coding agent harness. Powerful, intelligent, extensible](https://github.com/zai-org/ZCode) （4 pts / 0 comments）\n- **2026-09-20**：[Casbin Gateway: a security gateway for the AI coding agents on your machine](https://github.com/apache/casbin-gateway) （3 pts / 0 comments）\n\n---\n\n## 附录：采集日志\n\n| 环节 | 状态 |\n|---|---|\n| GitHub Releases API | ✅ 5 条 |\n| HN Algolia API | ✅ 5 条 |\n| 生成时间 (UTC) | 2026-09-22 17:24 |\n\n*自动生成版 · 可在 Cursor 中基于本稿补充 Level 2 分析与专题*\n",
+  "level1_releases": [
+    {
+      "product": "Gemini CLI",
+      "repo": "google-gemini/gemini-cli",
+      "tag": "v0.62.0-nightly.20260923.g62364cb20",
+      "name": "Release v0.62.0-nightly.20260923.g62364cb20",
+      "published": "2026-09-23",
+      "url": "https://github.com/google-gemini/gemini-cli/releases/tag/v0.62.0-nightly.20260923.g62364cb20",
+      "summary": "## What's Changed",
+      "body_excerpt": "## What's Changed\n* Feat/gemini 3.8 flash 3.5 flash lite by @DavidAPierce in https://github.com/google-gemini/gemini-cli/pull/29443\n\n\n**Full Changelog**: https://github.com/google-gemini/gemini-cli/compare/v0.62.0-nightly.20260922.gd5b3e3acc...v0.62.0-nightly.20260923.g62364cb20",
+      "prerelease": true
+    },
+    {
+      "product": "Codex",
+      "repo": "openai/codex",
+      "tag": "rust-v0.156.1",
+      "name": "0.156.1",
+      "published": "2026-09-23",
+      "url": "https://github.com/openai/codex/releases/tag/rust-v0.156.1",
+      "summary": "## New Features",
+      "body_excerpt": "## New Features\n\n- Choose GPT-6 Sol or GPT-6 Luna from the model picker. The rate-limit switch prompt now recommends GPT-6 Luna. (#47405)\n\n## Changelog\n\nFull Changelog: https://github.com/openai/codex/compare/rust-v0.156.0...rust-v0.156.1\n\n- #47405 [hotfix 0.156.0] Add GPT-6 Sol and Luna to the model catalog (#47332) @imac-oai",
+      "prerelease": false
+    },
+    {
+      "product": "Claude Code",
+      "repo": "anthropics/claude-code",
+      "tag": "v2.1.280",
+      "name": "v2.1.280",
+      "published": "2026-09-22",
+      "url": "https://github.com/anthropics/claude-code/releases/tag/v2.1.280",
+      "summary": "## What's changed",
+      "body_excerpt": "## What's changed\n\n- Added Claude Opus 5.5 (`claude-opus-5-5`), now the default Opus model — 1M context, $4/$20 per Mtok with $0.20/Mtok cache reads\n- Added mouse support to more lists in fullscreen mode: the wheel scrolls the `/skills` list, and a skill's state options in `/plugin` can be clicked\n- Added `CLAUDE_CODE_MAX_MCP_DESCRIPTION_LENGTH` to change the 2,048-character cap on MCP tool descriptions and server instructions for every MCP server in the session\n- Added hook output sizes and the number of oversized outputs saved to a file to the `hook_execution_complete` OpenTelemetry event\n- Fixed writes through a symlinked path being judged by their in-tree spelling: the prompt names where the write lands, and `acceptEdits`, allow rules and auto mode no longer approve one landing outside\n- Fixed auto mode retrying an action over and over when a safety check declined to review it; the action is now denied once, noting that retrying won't help\n- Fixed auto mode denying actions over and over without pause when a safety check gave no answer; retries now back off, and the turn stops with a message after ten in a row\n- Fixed Write calls failing validation when a model sends `path`, `file_text`, `file_content` or a stray `description` instead of `file_path` and `content`\n- Fixed Ctrl+C or Ctrl+D pressed twice in most dialogs (`/model`, `/effort`, `/config`, `/status`, `/usage`, `/plugin`, `/sandbox`, `/permissions`, `/artifacts`, `/mobile`, `/login`, `/upgrade`, `/usage-credits`, `/install-github-app`, `/setup-bedrock`, `/setup-vertex`) quitting Claude Code instead of closing the dialog\n- Fixed a click that only brought the terminal window to the front also triggering the item under the pointer — in search pickers, tab bars, agent/workflow rows, slash-command links and suggestion dropdowns\n- Fixed a stray `n` closing dialogs and a stray `y` confirming them; Enter and Esc accept and cancel (bind `y`/`n` to `confirm:yes`/`confirm:no` in `keybindings.json` to restore)\n- Fixed text fields in dialogs losing a typed letter, digit or Space to a keybinding on that key\n- Fixed the prompt line staying scrambled on Windows terminals after invisible characters were removed on Enter; the screen is now repainted so you review the exact text that will be sent\n- Fixed the invisible-character cleanup removing the zero-width non-joiner that Persian and Arabic text uses to attach a suffix to a Latin word or number, such as the plural of \"PDF\"\n- Fixed voice dictation not stopping ",
+      "prerelease": false
+    }
+  ],
+  "level2_people": [
+    "@karpathy",
+    "@bcherny",
+    "@sundarpichai",
+    "@sama",
+    "@gdb",
+    "@DarioAmodei"
+  ],
+  "level2_note": "raw 无人物搜索；无依据时 Level 2 标无新增，勿编造",
+  "level3_note": "本日未扫描行业报告（周报降频）",
+  "level4_hn": [
+    {
+      "title": "AI coding has made CI a bottleneck, so we reworked ours to keep up",
+      "url": "https://linear.app/now/ci-bottleneck-reworked",
+      "points": 312,
+      "comments": 399,
+      "created": "2026-09-21"
+    },
+    {
+      "title": "Show HN: Brig – A MicroVM sandbox for AI coding agents on Mac and Linux",
+      "url": "https://news.ycombinator.com/item?id=49802729",
+      "points": 9,
+      "comments": 1,
+      "created": "2026-09-22"
+    },
+    {
+      "title": "ZCode: Z.ai's coding agent harness. Powerful, intelligent, extensible",
+      "url": "https://github.com/zai-org/ZCode",
+      "points": 4,
+      "comments": 0,
+      "created": "2026-09-21"
+    },
+    {
+      "title": "Show HN: Z8Log – Structured logging your AI coding agent can query",
+      "url": "https://z8log.com/welcome",
+      "points": 2,
+      "comments": 0,
+      "created": "2026-09-22"
+    },
+    {
+      "title": "Show HN: Open-source shared memory for teams of AI coding agents",
+      "url": "https://github.com/motif-Labs/motif",
+      "points": 2,
+      "comments": 0,
+      "created": "2026-09-21"
+    }
+  ]
+}
