@@ -1,0 +1,111 @@
+{
+  "briefing_date": "2026-09-25",
+  "period_start": "2026-09-23",
+  "period_end": "2026-09-25",
+  "previous_briefing_date": "2026-09-24",
+  "previous_briefing_excerpt": "# AI x 研发效能 每日简报 2026-09-24\n\n> 覆盖周期：2026-09-22 ~ 2026-09-24（上一期：2026-09-23）\n\n> **采集方式**：GitHub Actions 自动采集（Level 1 GitHub API + Level 4 HN API）｜Level 2/3 待人工或 API 密钥补充\n\n---\n\n## 头条速览\n\n1. **Gemini CLI v0.62.0-nightly.20260923.g62364cb20**——## What's Changed\n2. **Codex rust-v0.156.1**——## New Features\n3. **Claude Code v2.1.280**——## What's changed\n\n---\n\n## 一、AI 增强软件研发（AI4SE）\n\n### 1.1 Level 1：核心产品与工程更新\n\n#### 1️⃣ Gemini CLI v0.62.0-nightly.20260923.g62364cb20（2026-09-23）\n\n## What's Changed\n\n来源：[v0.62.0-nightly.20260923.g62364cb20](https://github.com/google-gemini/gemini-cli/releases/tag/v0.62.0-nightly.20260923.g62364cb20) — 2026-09-23\n\n#### 2️⃣ Codex rust-v0.156.1（2026-09-23）\n\n## New Features\n\n来源：[rust-v0.156.1](https://github.com/openai/codex/releases/tag/rust-v0.156.1) — 2026-09-23\n\n#### 3️⃣ Claude Code v2.1.280（2026-09-22）\n\n## What's changed\n\n来源：[v2.1.280](https://github.com/anthropics/claude-code/releases/tag/v2.1.280) — 2026-09-22\n\n---\n\n### 1.2 Level 2：关键人物战略洞察\n\n| 人物 | 动态 | 日期 |\n|---|---|---|\n| @karpathy | 自动采集未配置（需 WebSearch / X 间接源） | — |\n| @bcherny | 自动采集未配置（需 WebSearch / X 间接源） | — |\n| @sundarpichai | 自动采集未配置（需 WebSearch / X 间接源） | — |\n| @sama | 自动采集未配置（需 WebSearch / X 间接源） | — |\n| @gdb | 自动采集未配置（需 WebSearch / X 间接源） | — |\n| @DarioAmodei | 自动采集未配置（需 WebSearch / X 间接源） | — |\n\n---\n\n### 1.3 Level 3：行业研究与数据\n\n> **本日未扫描**（周报/月报降频）。\n\n---\n\n### 1.4 Level 4：补充信源（HN）\n\n- **2026-09-21**：[AI coding has made CI a bottleneck, so we reworked ours to keep up](https://linear.app/now/ci-bottleneck-reworked) （312 pts / 399 comments）\n- **2026-09-22**：[Show HN: Brig – A MicroVM sandbox for AI coding agents on Mac and Linux](https://news.ycombinator.com/item?id=49802729) （9 pts / 1 comments）\n- **2026-09-21**：[ZCode: Z.ai's coding agent harness. Powerful, intelligent, extensible](https://github.com/zai-org/ZCode) （4 pts / 0 comments）\n- **2026-09-22**：[Show HN: Z8Log – Structured logging your AI coding agent can query](https://z8log.com/welcome) （2 pts / 0 comments）\n- **2026-09-21**：[Show HN: Open-source shared memory for teams of AI coding agents](https://github.com/motif-Labs/motif) （2 pts / 0 comments）\n\n---\n\n## 附录：采集日志\n\n| 环节 | 状态 |\n|---|---|\n| GitHub Releases API | ✅ 3 条 |\n| HN Algolia API | ✅ 5 条 |\n| 生成时间 (UTC) | 2026-09-23 17:31 |\n\n*自动生成版 · 可在 Cursor 中基于本稿补充 Level 2 分析与专题*\n",
+  "level1_releases": [
+    {
+      "product": "Hermes Agent",
+      "repo": "NousResearch/hermes-agent",
+      "tag": "v2026.9.24",
+      "name": "Hermes Agent v0.21.5 (v2026.9.24)",
+      "published": "2026-09-24",
+      "url": "https://github.com/NousResearch/hermes-agent/releases/tag/v2026.9.24",
+      "summary": "# Hermes Agent v0.21.5 (v2026.9.24)",
+      "body_excerpt": "# Hermes Agent v0.21.5 (v2026.9.24)\n\n**Release Date:** September 24, 2026\n\n> Patch release. This tag rolls up the ~460 PRs merged since v0.21.4 into a stable tagged release for downstream consumers (Docker images, Hermes Cloud, hosted deployments). Full curated notes for this window are deferred to v0.22.0.\n\n## About this release\n\nMeasured at commit `f97608f178d1ffeca59860195ab7da295f7c8e5f`, the window since v0.21.4 contains **1,610 non-merge commits** across **4,828 changed files** (+164,132 / −149,440), **460 merged PRs** and **475 closed issues**.\n\nAlso in the window, undocumented here on purpose: a Desktop plugin SDK wave (composer draft API, session-list and row-decoration slots, sidebar nav prefs, model-pill label providers, typed settings/skills/toolsets/profiles bridges, a sandboxed embed primitive, appearance-settings slot, and a public event bridge for plugin backends); a Simple/Advanced interface mode for Desktop; the Connectors page replacing the MCP tab, with \"Connect now\" for a freshly installed plugin's MCP servers and installed plugins' tools and skills going live in every open chat; onboarding that offers catalog plugins beside connectors; complete French, German and Spanish Desktop catalogs plus an RTL/LTR text direction setting; custom model entry from the composer and Settings pickers; function-key and dictation voice shortcuts; per-profile stop/start/restart under the host multiplexer and `gateway.standalone` to opt a profile out; the live dock showing the standing `/goal` and queued prompts in the CLI and TUI; a kanban design pass with a two-column ticket modal and markdown task text; webhook deliveries mirrored into the target chat session; Bot Screen on hosted `-desktop` images; GPT-6 Sol/Terra/Luna and Claude Opus 5.5 in the Nous and OpenRouter catalogs; an official Blender Lab integration and NVIDIA app/Broadcast plugins; a long run of hot-path performance work across config loading, the tool registry, gateway message handling and the model picker; and dozens of new community plugins in the catalog.\n\n**Full curated release notes for this window ship with v0.22.0**, which will document everything from v0.21.0 onward — highlights, feature areas, and complete contributor credits. Nothing in this window is skipped.\n\n## Updating\n\n- `hermes update` (git installs), or re-run the installer one-liner.\n- Docker / Hermes Cloud: images build from this tag (`nousresearch/hermes-agent:v2026.9.24`).\n\n**Full changelog:** https://github.com/NousR",
+      "prerelease": false
+    },
+    {
+      "product": "OpenClaw",
+      "repo": "openclaw/openclaw",
+      "tag": "v2026.9.6",
+      "name": "openclaw 2026.9.6",
+      "published": "2026-09-23",
+      "url": "https://github.com/openclaw/openclaw/releases/tag/v2026.9.6",
+      "summary": "> **macOS app rebuilt 2026-09-24:** the original 2026.9.6 macOS build crashed at launch (#156861) and was replaced at 09:52 UTC by a rebuilt, notarized 2026.9.6 build with the fix (#156881). Download ",
+      "body_excerpt": "> **macOS app rebuilt 2026-09-24:** the original 2026.9.6 macOS build crashed at launch (#156861) and was replaced at 09:52 UTC by a rebuilt, notarized 2026.9.6 build with the fix (#156881). Download the DMG below or update from 2026.9.5 in the app. If you installed the earlier 2026.9.6 build and it does not launch, install the DMG once. The npm package is unchanged.\n\n<!-- openclaw-release-publication:docs-v1 -->\n\n## OpenClaw v2026.9.6\n\n178 direct commits · 2,614 pull requests · 351 contributors\n\n### Changes included in this release\n\nThe release notes and changelog contain the same content, presented in two formats:\n\n- [Release notes](https://docs.openclaw.ai/releases/2026.9.6) — formatted for people, with expandable sections.\n- [Changelog](https://raw.githubusercontent.com/openclaw/openclaw/main/CHANGELOG/2026.9.6.md) — plain Markdown for AI agents and tools.\n\n### Thanks\n\n@0-danielviktorovich-0 @1Vision365-PeterTijsma @609NFT @aatreya @abacha @AbuSido82 @agebreak0083 @agent-axos @AgentSolomon @ago1776 @Albertyn87 @alex-brave @alexey-pelykh @Alix-007 @allen0373 @altaywtf @alvelda @amittell @Andapeng @aniketkrs @aniruddhaadak80 @anyech @ayoakouh @azuretek @baiwei0427 @baovo15 @Bartok9 @Baumus @bdjben @beeven @beings1988-lab @bek91 @benediktweber @berklingtools @bharatvasan @BinChenUtrecht @bipolar84 @bitbalancer @blackeyes-boy @bobbygaerd @BodegaClaw @BorClaw @BottaniCals @britrik @brokemac79 @Bruce-Yii @brunorapido @BsnizND @camerono @Carme99 @ceckert @CHE10X @chelsealong @cipp-ashe @cjn119-ui @ckupferschmid @cloudgg82-blip @cnflwzh @cognos2013 @colehammond65 @Colton-Harris @ComfyChloe @Conan-Scott @cookywook @cortanapham @cpsleepy @ctbritt @Cyb3rb1ade @dale-goes-fast @damiansmazurek @dankarization @DasX @davidchyi-beep @davidcittadini @Davidofflol12 @Dazlarus @ddupg @Deregtx @desksk @destinedenergy @dh-js @dimonnld @dltlaos11 @dmlau76 @dmnksss @dom521 @DonnieFi @droidyouwerelookingfor @DrToNy1 @dustytext-bot @duybaovin @easyteacher @edenfunf @edgarstool @edrwalker @eefreenyc @Eragim @ericcaiwx-star @ericcurtin @ericpearson @ERMALTA @etzelm @ezimerman @Fatal0607 @fduch-stranger @fede-kamel @flynnmcpoc @flyto168 @fozzels-assistant @fray-ai @freshxiaoyao @fulgerulnegru @fuller-stack-dev @Gabrielnkl @galiniliev @ge0el @gennadyclaw @giodl73-repo @GoldenrodScript @gorkem2020 @goutamadwant @Grynn @guarismo @guerilla47 @gwjr @Haderach-Ram @hannesrudolph @hannnnn-l @harjothkhara @harshitgupta31415 @hartmark @HaukeSchnau @hhkwoong @holny @hpyhandsome @hxy8241 @hxy9",
+      "prerelease": false
+    },
+    {
+      "product": "Claude Code",
+      "repo": "anthropics/claude-code",
+      "tag": "v2.1.281",
+      "name": "v2.1.281",
+      "published": "2026-09-23",
+      "url": "https://github.com/anthropics/claude-code/releases/tag/v2.1.281",
+      "summary": "## What's changed",
+      "body_excerpt": "## What's changed\n\n- Added Claude apps gateway support for newer Claude Desktop keys in `desktop` policy blocks, including `blockReadsOutsideWorkingDirectories` and `disableBypassPermissionsMode`\n- Added `assume_role` on Claude apps gateway Bedrock upstreams: the gateway calls Bedrock as an IAM role it assumes through STS, in another AWS account if needed, optionally one session per developer\n- Added `guardrail: {id, version}` on Claude apps gateway Bedrock upstreams to apply an Amazon Bedrock guardrail to every request sent through them (set it on all Bedrock upstreams or none)\n- Added `telemetry.resource_attributes` to the Claude apps gateway config, to put fixed labels on the telemetry of Claude Desktop and `/login` sessions\n- Added `\"attribution\": false` in `settings.json` to hide all commit and PR attribution; older CLI versions skip a settings file that holds it, so keep the object form in files shared across versions\n- Added MCP URL-mode elicitation on 2026-07-28 protocol connections, so servers can ask Claude Code to open a browser-based flow; no waiting dialog is left on screen when the server has no way to confirm completion\n- Added MCP server checks to `claude plugin validate`: it reports `.mcp.json` entries that would be silently dropped at load, undeclared `${user_config.*}` references, and insecure URLs\n- Added an auto mode recommendation to `/insights` that estimates how many permission prompts auto mode could have handled in your recent sessions\n- Added a scrollbar to the `/skills`, `/mcp` and `/plugin` Installed lists in fullscreen mode, like the one `/workflows` now has: it appears while the mouse is over the list and can be clicked or dragged\n- Fixed a crash (\"unrecoverable interface error\") that could end a session while an API request was being retried\n- Fixed a turn that could retry indefinitely, ignoring `--max-turns`, when the model alternated unparseable tool calls and output-limit truncation\n- Fixed resumed sessions re-sending earlier turns in a changed form (a parallel tool-call turn, an MCP tool call's input or a tool-search result while its server was still reconnecting, or a tool-search result whose loading turn was interrupted), which could make the API drop the conversation's prior reasoning\n- Fixed resuming a very large session sometimes restoring only its last few messages\n- Fixed a session resumed after a restart during a pending permission prompt sending a different history than before, which broke the prompt cache from ",
+      "prerelease": false
+    },
+    {
+      "product": "Gemini CLI",
+      "repo": "google-gemini/gemini-cli",
+      "tag": "v0.61.0",
+      "name": "Release v0.61.0",
+      "published": "2026-09-23",
+      "url": "https://github.com/google-gemini/gemini-cli/releases/tag/v0.61.0",
+      "summary": "## What's Changed",
+      "body_excerpt": "## What's Changed\n* Changelog for v0.60.0-preview.0 by @gemini-cli-robot in https://github.com/google-gemini/gemini-cli/pull/29251\n* chore(release): bump version to 0.61.0-nightly.20260908.gc647533d6 by @gemini-cli-robot in https://github.com/google-gemini/gemini-cli/pull/29254\n* Changelog for v0.59.0 by @gemini-cli-robot in https://github.com/google-gemini/gemini-cli/pull/29253\n* fix(core): preserve explicit versioned Flash model IDs by @SandyTao520 in https://github.com/google-gemini/gemini-cli/pull/29252\n* fix(core): prevent indirect prompt injection via build file modifications and untrusted flags by @villahernandez-coder in https://github.com/google-gemini/gemini-cli/pull/29250\n* fix(sandbox): harden filesystem boundaries and isolate runtime state by @diegogodinezr in https://github.com/google-gemini/gemini-cli/pull/29214\n* fix(core): ensure AgentLoopContext properties are preserved across object spread by @diegogodinezr in https://github.com/google-gemini/gemini-cli/pull/29335\n* fix(patch): cherry-pick 62364cb to release/v0.61.0-preview.0-pr-29443 to patch version v0.61.0-preview.0 and create version 0.61.0-preview.1 by @gemini-cli-robot in https://github.com/google-gemini/gemini-cli/pull/29455\n\n\n**Full Changelog**: https://github.com/google-gemini/gemini-cli/compare/v0.60.0...v0.61.0",
+      "prerelease": false
+    },
+    {
+      "product": "Codex",
+      "repo": "openai/codex",
+      "tag": "rust-v0.156.1",
+      "name": "0.156.1",
+      "published": "2026-09-23",
+      "url": "https://github.com/openai/codex/releases/tag/rust-v0.156.1",
+      "summary": "## New Features",
+      "body_excerpt": "## New Features\n\n- Choose GPT-6 Sol or GPT-6 Luna from the model picker. The rate-limit switch prompt now recommends GPT-6 Luna. (#47405)\n\n## Changelog\n\nFull Changelog: https://github.com/openai/codex/compare/rust-v0.156.0...rust-v0.156.1\n\n- #47405 [hotfix 0.156.0] Add GPT-6 Sol and Luna to the model catalog (#47332) @imac-oai",
+      "prerelease": false
+    }
+  ],
+  "level2_people": [
+    "@karpathy",
+    "@bcherny",
+    "@sundarpichai",
+    "@sama",
+    "@gdb",
+    "@DarioAmodei"
+  ],
+  "level2_note": "raw 无人物搜索；无依据时 Level 2 标无新增，勿编造",
+  "level3_note": "本日未扫描行业报告（周报降频）",
+  "level4_hn": [
+    {
+      "title": "Show HN: Brig – A MicroVM sandbox for AI coding agents on Mac and Linux",
+      "url": "https://news.ycombinator.com/item?id=49802729",
+      "points": 9,
+      "comments": 1,
+      "created": "2026-09-22"
+    },
+    {
+      "title": "Holistic design systems for the AI coding era",
+      "url": "https://numeric.substack.com/p/design-systems-at-numeric",
+      "points": 3,
+      "comments": 0,
+      "created": "2026-09-24"
+    },
+    {
+      "title": "Utyansky Index: Deterministic O(1) slot isolation for AI vibe coding",
+      "url": "https://github.com/vlad-utyansky/utyansky-index",
+      "points": 2,
+      "comments": 0,
+      "created": "2026-09-24"
+    },
+    {
+      "title": "Show HN: Z8Log – Structured logging your AI coding agent can query",
+      "url": "https://z8log.com/welcome",
+      "points": 2,
+      "comments": 0,
+      "created": "2026-09-22"
+    },
+    {
+      "title": "Squelette – keep AI coding agents inside the scope you approved",
+      "url": "https://github.com/JyMinet/squelette",
+      "points": 1,
+      "comments": 0,
+      "created": "2026-09-24"
+    }
+  ]
+}
