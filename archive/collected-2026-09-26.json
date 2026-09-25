@@ -1,0 +1,100 @@
+{
+  "briefing_date": "2026-09-26",
+  "period_start": "2026-09-24",
+  "period_end": "2026-09-26",
+  "previous_briefing_date": "2026-09-25",
+  "previous_briefing_excerpt": "# AI x 研发效能 每日简报 2026-09-25\n\n> 覆盖周期：2026-09-23 ~ 2026-09-25（上一期：2026-09-24）\n\n> **采集方式**：GitHub Actions 自动采集（Level 1 GitHub API + Level 4 HN API）｜Level 2/3 待人工或 API 密钥补充\n\n---\n\n## 头条速览\n\n1. **Hermes Agent v2026.9.24**——# Hermes Agent v0.21.5 (v2026.9.24)\n2. **OpenClaw v2026.9.6**——> **macOS app rebuilt 2026-09-24:** the original\n3. **Claude Code v2.1.281**——## What's changed\n\n---\n\n## 一、AI 增强软件研发（AI4SE）\n\n### 1.1 Level 1：核心产品与工程更新\n\n#### 1️⃣ Hermes Agent v2026.9.24（2026-09-24）\n\n# Hermes Agent v0.21.5 (v2026.9.24)\n\n来源：[v2026.9.24](https://github.com/NousResearch/hermes-agent/releases/tag/v2026.9.24) — 2026-09-24\n\n#### 2️⃣ OpenClaw v2026.9.6（2026-09-23）\n\n> **macOS app rebuilt 2026-09-24:** the original 2026.9.6 macOS build crashed at launch (#156861) and was replaced at 09:52 UTC by a rebuilt, notarized 2026.9.6 build with the fix (#156881). Download \n\n来源：[v2026.9.6](https://github.com/openclaw/openclaw/releases/tag/v2026.9.6) — 2026-09-23\n\n#### 3️⃣ Claude Code v2.1.281（2026-09-23）\n\n## What's changed\n\n来源：[v2.1.281](https://github.com/anthropics/claude-code/releases/tag/v2.1.281) — 2026-09-23\n\n#### 4️⃣ Gemini CLI v0.61.0（2026-09-23）\n\n## What's Changed\n\n来源：[v0.61.0](https://github.com/google-gemini/gemini-cli/releases/tag/v0.61.0) — 2026-09-23\n\n#### 5️⃣ Codex rust-v0.156.1（2026-09-23）\n\n## New Features\n\n来源：[rust-v0.156.1](https://github.com/openai/codex/releases/tag/rust-v0.156.1) — 2026-09-23\n\n---\n\n### 1.2 Level 2：关键人物战略洞察\n\n| 人物 | 动态 | 日期 |\n|---|---|---|\n| @karpathy | 自动采集未配置（需 WebSearch / X 间接源） | — |\n| @bcherny | 自动采集未配置（需 WebSearch / X 间接源） | — |\n| @sundarpichai | 自动采集未配置（需 WebSearch / X 间接源） | — |\n| @sama | 自动采集未配置（需 WebSearch / X 间接源） | — |\n| @gdb | 自动采集未配置（需 WebSearch / X 间接源） | — |\n| @DarioAmodei | 自动采集未配置（需 WebSearch / X 间接源） | — |\n\n---\n\n### 1.3 Level 3：行业研究与数据\n\n> **本日未扫描**（周报/月报降频）。\n\n---\n\n### 1.4 Level 4：补充信源（HN）\n\n- **2026-09-22**：[Show HN: Brig – A MicroVM sandbox for AI coding agents on Mac and Linux](https://news.ycombinator.com/item?id=49802729) （9 pts / 1 comments）\n- **2026-09-24**：[Holistic design systems for the AI coding era](https://numeric.substack.com/p/design-systems-at-numeric) （3 pts / 0 comments）\n- **2026-09-24**：[Utyansky Index: Deterministic O(1) slot isolation for AI vibe coding](https://github.com/vlad-utyansky/utyansky-index) （2 pts / 0 comments）\n- **2026-09-22**：[Show HN: Z8Log – Structured logging your AI coding agent can query](https://z8log.com/welcome) （2 pts / 0 comments）\n- **2026-09-24**：[Squelette – keep AI coding agents inside the scope you approved](https://github.com/JyMinet/squelette) （1 pts / 0 comments）\n\n---\n\n## 附录：采集日志\n\n| 环节 | 状态 |\n|---|---|\n| GitHub Releases API | ✅ 5 条 |\n| HN Algolia API | ✅ 5 条 |\n| 生成时间 (UTC) | 2026-09-24 17:36 |\n\n*自动生成版 · 可在 Cursor 中基于本稿补充 Level 2 分析与专题*\n",
+  "level1_releases": [
+    {
+      "product": "Gemini CLI",
+      "repo": "google-gemini/gemini-cli",
+      "tag": "v0.62.0-nightly.20260925.gbedef96ef",
+      "name": "Release v0.62.0-nightly.20260925.gbedef96ef",
+      "published": "2026-09-25",
+      "url": "https://github.com/google-gemini/gemini-cli/releases/tag/v0.62.0-nightly.20260925.gbedef96ef",
+      "summary": "## What's Changed",
+      "body_excerpt": "## What's Changed\n* Changelog for v0.61.0-preview.1 by @gemini-cli-robot in https://github.com/google-gemini/gemini-cli/pull/29469\n* Changelog for v0.61.0 by @gemini-cli-robot in https://github.com/google-gemini/gemini-cli/pull/29472\n* fix(cli): distinguish missing MCP enablement config from malformed JSON by @jesussamuel-byte in https://github.com/google-gemini/gemini-cli/pull/29446\n* fix(cli): restore paused stdin after capability detection by @ugorla-dev in https://github.com/google-gemini/gemini-cli/pull/29487\n* fix(core): bound tool output size and optimize memory lifecycle in long-running agent loops by @diegogodinezr in https://github.com/google-gemini/gemini-cli/pull/29451\n\n## New Contributors\n* @ugorla-dev made their first contribution in https://github.com/google-gemini/gemini-cli/pull/29487\n\n**Full Changelog**: https://github.com/google-gemini/gemini-cli/compare/v0.62.0-nightly.20260924.g8e70c862f...v0.62.0-nightly.20260925.gbedef96ef",
+      "prerelease": true
+    },
+    {
+      "product": "Codex",
+      "repo": "openai/codex",
+      "tag": "rust-v0.157.0",
+      "name": "0.157.0",
+      "published": "2026-09-25",
+      "url": "https://github.com/openai/codex/releases/tag/rust-v0.157.0",
+      "summary": "## New Features",
+      "body_excerpt": "## New Features\n\n- Added GPT-6 Sol and Luna, including Amazon Bedrock support and migration prompts for older models. (#47332, #47347)\n- Enabled fullscreen transcripts by default and added Shift-click to extend text selections. (#47178, #47414)\n- Enabled automatic background-server startup for eligible interactive sessions, with recovery choices when server settings are incompatible. (#47179, #47318)\n- Added an `f` shortcut to fork conversations open in another app, preserving drafts and queued prompts. (#47185)\n- Made `/import` available in remote sessions and local background-server sessions. (#47317)\n- Improved terminal rendering with Unicode bullets, checkboxes, aligned equations, and optimization notation. (#47191, #47322)\n\n## Bug Fixes\n\n- Preserved active voice conversations when switching threads. (#47381)\n- Recovered unsent question answers into the composer when turns end, without disrupting active history searches. (#47422, #47423)\n- Respected tmux mouse settings and restored native scrollback for Terminal.app over SSH in automatic screen mode. (#47399, #47417)\n- Fixed configured proxy routing for realtime connections and standalone web search, including search redirects. (#47101, #47142, #47204)\n- Added retries for transient file-upload failures and increased the upload timeout to five minutes. (#47122, #47393)\n- Enforced network restrictions across redirects and ongoing HTTP and WebSocket traffic, including cancellation when policy changes revoke access. (#47389, #47407)\n\n## Changelog\n\nFull Changelog: https://github.com/openai/codex/compare/rust-v0.156.0...rust-v0.157.0\n\n- #47063 Add a partial index for agent message board root posts @jif-oai\n- #47064 Stop redundant message-board reads when limits reach one @jif-oai\n- #47065 Deduplicate deprecation notices in the TUI transcript @etraut-openai\n- #47068 Highlight selected newlines in the transcript view @etraut-openai\n- #47073 Wait for thread idle in Guardian context budget tests @jif-oai\n- #47074 Refresh host-supplied cloud skills at turn startup @TAFOYA-OAI\n- #47075 Include attributed previews in agent message board notifications @jif-oai\n- #47077 Serialize environment updates and cancel removed pending attachments @sayan-oai\n- #47079 Mask daemon socket paths exposed through ancestor bind mounts @nicksteele-oai\n- #47081 Track cumulative MCP attribution across requests and thread history @peilin-openai\n- #47082 Show the voice toggle in the TUI shortcut overlay @etraut-openai\n- #47083 Extract per",
+      "prerelease": false
+    },
+    {
+      "product": "Hermes Agent",
+      "repo": "NousResearch/hermes-agent",
+      "tag": "v2026.9.24",
+      "name": "Hermes Agent v0.21.5 (v2026.9.24)",
+      "published": "2026-09-24",
+      "url": "https://github.com/NousResearch/hermes-agent/releases/tag/v2026.9.24",
+      "summary": "# Hermes Agent v0.21.5 (v2026.9.24)",
+      "body_excerpt": "# Hermes Agent v0.21.5 (v2026.9.24)\n\n**Release Date:** September 24, 2026\n\n> Patch release. This tag rolls up the ~460 PRs merged since v0.21.4 into a stable tagged release for downstream consumers (Docker images, Hermes Cloud, hosted deployments). Full curated notes for this window are deferred to v0.22.0.\n\n## About this release\n\nMeasured at commit `f97608f178d1ffeca59860195ab7da295f7c8e5f`, the window since v0.21.4 contains **1,610 non-merge commits** across **4,828 changed files** (+164,132 / −149,440), **460 merged PRs** and **475 closed issues**.\n\nAlso in the window, undocumented here on purpose: a Desktop plugin SDK wave (composer draft API, session-list and row-decoration slots, sidebar nav prefs, model-pill label providers, typed settings/skills/toolsets/profiles bridges, a sandboxed embed primitive, appearance-settings slot, and a public event bridge for plugin backends); a Simple/Advanced interface mode for Desktop; the Connectors page replacing the MCP tab, with \"Connect now\" for a freshly installed plugin's MCP servers and installed plugins' tools and skills going live in every open chat; onboarding that offers catalog plugins beside connectors; complete French, German and Spanish Desktop catalogs plus an RTL/LTR text direction setting; custom model entry from the composer and Settings pickers; function-key and dictation voice shortcuts; per-profile stop/start/restart under the host multiplexer and `gateway.standalone` to opt a profile out; the live dock showing the standing `/goal` and queued prompts in the CLI and TUI; a kanban design pass with a two-column ticket modal and markdown task text; webhook deliveries mirrored into the target chat session; Bot Screen on hosted `-desktop` images; GPT-6 Sol/Terra/Luna and Claude Opus 5.5 in the Nous and OpenRouter catalogs; an official Blender Lab integration and NVIDIA app/Broadcast plugins; a long run of hot-path performance work across config loading, the tool registry, gateway message handling and the model picker; and dozens of new community plugins in the catalog.\n\n**Full curated release notes for this window ship with v0.22.0**, which will document everything from v0.21.0 onward — highlights, feature areas, and complete contributor credits. Nothing in this window is skipped.\n\n## Updating\n\n- `hermes update` (git installs), or re-run the installer one-liner.\n- Docker / Hermes Cloud: images build from this tag (`nousresearch/hermes-agent:v2026.9.24`).\n\n**Full changelog:** https://github.com/NousR",
+      "prerelease": false
+    },
+    {
+      "product": "Claude Code",
+      "repo": "anthropics/claude-code",
+      "tag": "v2.1.282",
+      "name": "v2.1.282",
+      "published": "2026-09-24",
+      "url": "https://github.com/anthropics/claude-code/releases/tag/v2.1.282",
+      "summary": "## What's changed",
+      "body_excerpt": "## What's changed\n\n- Added a `maxProseWidth` setting that caps the width of Claude's prose in wide terminals while tables and code blocks keep the full width\n- Added a startup notice, and `/status` and `claude doctor` entries, listing telemetry variables in a project's settings files that were ignored or that turned telemetry off\n- Added the `allowClaudeInChromeWithManagedMcp` managed setting to let `claude --chrome` run alongside an exclusive `managed-mcp.json`; the error shown when Chrome is blocked now names it\n- Added `store.readiness_grace_seconds` to the Claude apps gateway so `/readyz` can stay ready through a short Postgres outage such as a database failover\n- Added a scrollbar to the `/feedback` drafts list in fullscreen mode; it appears while the mouse is over the list\n- Fixed every request failing with a 400 error in conversations whose history holds web search results the API cannot decrypt (for example, from a turn answered through a third-party gateway)\n- Fixed more cases of continued or resumed sessions (`--continue`, `--resume`) re-sending earlier messages in a changed form, which could make the API drop Claude's earlier reasoning\n- Fixed earlier extended thinking being dropped when `/model`, `/rename`, `/artifacts` or another immediate slash command was used while Claude was working\n- Fixed continued or resumed conversations losing earlier extended thinking when relaunched with a `--tools` list that leaves out a built-in tool offered earlier in the conversation\n- Fixed sessions failing on every turn with an \"Invalid `data` in `redacted_thinking` block\" API error; Claude Code now drops the conversation's thinking blocks and retries once\n- Fixed compaction failing when the summarization request is refused; it now retries on a fallback model\n- Fixed a failed turn (\"Effort 'xhigh' isn't available with thinking turned off\") after a safety-related model switch in sessions with thinking off and effort above high\n- Fixed an unanswered Fable usage-credits prompt switching models in SDK-hosted sessions such as Claude Desktop; the turn now ends instead, and Remote Control clients now see the model-switch notice\n- Fixed `/model` with a full Fable model id stopping at an API error instead of opening the usage-credits prompt when the plan needs usage credits that aren't turned on yet\n- Fixed requests failing for up to a minute with an \"another Claude Code process is refreshing it\" login error after that other process was closed or killed mid-refresh\n- F",
+      "prerelease": false
+    }
+  ],
+  "level2_people": [
+    "@karpathy",
+    "@bcherny",
+    "@sundarpichai",
+    "@sama",
+    "@gdb",
+    "@DarioAmodei"
+  ],
+  "level2_note": "raw 无人物搜索；无依据时 Level 2 标无新增，勿编造",
+  "level3_note": "本日未扫描行业报告（周报降频）",
+  "level4_hn": [
+    {
+      "title": "Vibe Coding Production Kit – a production workflow for AI coding agents",
+      "url": "https://github.com/Moeeryani/Vibe-Coding-Production-Kit",
+      "points": 9,
+      "comments": 6,
+      "created": "2026-09-24"
+    },
+    {
+      "title": "Cargo-atlas – A compiler-accurate Rust code map for AI coding agents",
+      "url": "https://github.com/TheBlitzschnell/cargo-atlas",
+      "points": 3,
+      "comments": 0,
+      "created": "2026-09-25"
+    },
+    {
+      "title": "Holistic design systems for the AI coding era",
+      "url": "https://numeric.substack.com/p/design-systems-at-numeric",
+      "points": 3,
+      "comments": 0,
+      "created": "2026-09-24"
+    },
+    {
+      "title": "Utyansky Index: Deterministic O(1) slot isolation for AI vibe coding",
+      "url": "https://github.com/vlad-utyansky/utyansky-index",
+      "points": 2,
+      "comments": 0,
+      "created": "2026-09-24"
+    },
+    {
+      "title": "Show HN: StackReplay – analyze and replay your AI coding history locally",
+      "url": "https://stackreplay.com",
+      "points": 1,
+      "comments": 0,
+      "created": "2026-09-25"
+    }
+  ]
+}
