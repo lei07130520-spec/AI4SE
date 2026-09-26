@@ -1,0 +1,89 @@
+{
+  "briefing_date": "2026-09-27",
+  "period_start": "2026-09-25",
+  "period_end": "2026-09-27",
+  "previous_briefing_date": "2026-09-26",
+  "previous_briefing_excerpt": "# AI x 研发效能 每日简报 2026-09-26\n\n> 覆盖周期：2026-09-24 ~ 2026-09-26（上一期：2026-09-25）\n\n> **采集方式**：GitHub Actions 自动采集（Level 1 GitHub API + Level 4 HN API）｜Level 2/3 待人工或 API 密钥补充\n\n---\n\n## 头条速览\n\n1. **Gemini CLI v0.62.0-nightly.20260925.gbedef96ef**——## What's Changed\n2. **Codex rust-v0.157.0**——## New Features\n3. **Hermes Agent v2026.9.24**——# Hermes Agent v0.21.5 (v2026.9.24)\n\n---\n\n## 一、AI 增强软件研发（AI4SE）\n\n### 1.1 Level 1：核心产品与工程更新\n\n#### 1️⃣ Gemini CLI v0.62.0-nightly.20260925.gbedef96ef（2026-09-25）\n\n## What's Changed\n\n来源：[v0.62.0-nightly.20260925.gbedef96ef](https://github.com/google-gemini/gemini-cli/releases/tag/v0.62.0-nightly.20260925.gbedef96ef) — 2026-09-25\n\n#### 2️⃣ Codex rust-v0.157.0（2026-09-25）\n\n## New Features\n\n来源：[rust-v0.157.0](https://github.com/openai/codex/releases/tag/rust-v0.157.0) — 2026-09-25\n\n#### 3️⃣ Hermes Agent v2026.9.24（2026-09-24）\n\n# Hermes Agent v0.21.5 (v2026.9.24)\n\n来源：[v2026.9.24](https://github.com/NousResearch/hermes-agent/releases/tag/v2026.9.24) — 2026-09-24\n\n#### 4️⃣ Claude Code v2.1.282（2026-09-24）\n\n## What's changed\n\n来源：[v2.1.282](https://github.com/anthropics/claude-code/releases/tag/v2.1.282) — 2026-09-24\n\n---\n\n### 1.2 Level 2：关键人物战略洞察\n\n| 人物 | 动态 | 日期 |\n|---|---|---|\n| @karpathy | 自动采集未配置（需 WebSearch / X 间接源） | — |\n| @bcherny | 自动采集未配置（需 WebSearch / X 间接源） | — |\n| @sundarpichai | 自动采集未配置（需 WebSearch / X 间接源） | — |\n| @sama | 自动采集未配置（需 WebSearch / X 间接源） | — |\n| @gdb | 自动采集未配置（需 WebSearch / X 间接源） | — |\n| @DarioAmodei | 自动采集未配置（需 WebSearch / X 间接源） | — |\n\n---\n\n### 1.3 Level 3：行业研究与数据\n\n> **本日未扫描**（周报/月报降频）。\n\n---\n\n### 1.4 Level 4：补充信源（HN）\n\n- **2026-09-24**：[Vibe Coding Production Kit – a production workflow for AI coding agents](https://github.com/Moeeryani/Vibe-Coding-Production-Kit) （9 pts / 6 comments）\n- **2026-09-25**：[Cargo-atlas – A compiler-accurate Rust code map for AI coding agents](https://github.com/TheBlitzschnell/cargo-atlas) （3 pts / 0 comments）\n- **2026-09-24**：[Holistic design systems for the AI coding era](https://numeric.substack.com/p/design-systems-at-numeric) （3 pts / 0 comments）\n- **2026-09-24**：[Utyansky Index: Deterministic O(1) slot isolation for AI vibe coding](https://github.com/vlad-utyansky/utyansky-index) （2 pts / 0 comments）\n- **2026-09-25**：[Show HN: StackReplay – analyze and replay your AI coding history locally](https://stackreplay.com) （1 pts / 0 comments）\n\n---\n\n## 附录：采集日志\n\n| 环节 | 状态 |\n|---|---|\n| GitHub Releases API | ✅ 4 条 |\n| HN Algolia API | ✅ 5 条 |\n| 生成时间 (UTC) | 2026-09-25 17:36 |\n\n*自动生成版 · 可在 Cursor 中基于本稿补充 Level 2 分析与专题*\n",
+  "level1_releases": [
+    {
+      "product": "Gemini CLI",
+      "repo": "google-gemini/gemini-cli",
+      "tag": "v0.63.0-nightly.20260926.g2fe7c2d3f",
+      "name": "Release v0.63.0-nightly.20260926.g2fe7c2d3f",
+      "published": "2026-09-26",
+      "url": "https://github.com/google-gemini/gemini-cli/releases/tag/v0.63.0-nightly.20260926.g2fe7c2d3f",
+      "summary": "## What's Changed",
+      "body_excerpt": "## What's Changed\n* fix(core): remove invalid diff.external override by @urielefrenvirtusa in https://github.com/google-gemini/gemini-cli/pull/29467\n* chore(release): bump version to 0.63.0-nightly.20260923.gf50ba8608 by @gemini-cli-robot in https://github.com/google-gemini/gemini-cli/pull/29471\n* Changelog for v0.62.0-preview.0 by @gemini-cli-robot in https://github.com/google-gemini/gemini-cli/pull/29470\n* fix(core): clean up temporary directory when background shell execution exits by @jesussamuel-byte in https://github.com/google-gemini/gemini-cli/pull/29437\n* fix(acp): resolve session before config initialization and avoid same-minute filename collisions by @jesussamuel-byte in https://github.com/google-gemini/gemini-cli/pull/29463\n* fix(core): align policy redirection gates, path validation, and workflow parsing by @DavidAPierce in https://github.com/google-gemini/gemini-cli/pull/29506\n\n\n**Full Changelog**: https://github.com/google-gemini/gemini-cli/compare/v0.62.0-nightly.20260925.gbedef96ef...v0.63.0-nightly.20260926.g2fe7c2d3f",
+      "prerelease": true
+    },
+    {
+      "product": "Codex",
+      "repo": "openai/codex",
+      "tag": "rust-v0.157.1",
+      "name": "0.157.1",
+      "published": "2026-09-26",
+      "url": "https://github.com/openai/codex/releases/tag/rust-v0.157.1",
+      "summary": "## Chores",
+      "body_excerpt": "## Chores\n\n- Release highlights could not be determined: the supplied PR index is empty, and the GitHub tag comparison returned 404.\n\n## Changelog\n\nFull Changelog: https://github.com/openai/codex/compare/rust-v0.157.0...rust-v0.157.1",
+      "prerelease": false
+    },
+    {
+      "product": "Claude Code",
+      "repo": "anthropics/claude-code",
+      "tag": "v2.1.283",
+      "name": "v2.1.283",
+      "published": "2026-09-25",
+      "url": "https://github.com/anthropics/claude-code/releases/tag/v2.1.283",
+      "summary": "## What's changed",
+      "body_excerpt": "## What's changed\n\n- Added `x-claude-code-prompt-id` to the gateway hint headers so LLM gateways can group the requests that serve one user prompt; opt in with `CLAUDE_CODE_GATEWAY_HINT_HEADERS=1`\n- Added `availableModelsMatch` managed setting: with `\"exact\"`, an `availableModels` entry allows only the model version it names, so new releases stay blocked until listed\n- Added `deniedModels` managed setting to block specific models, even when `availableModels` allows them\n- Added MCP tool, WebFetch and WebSearch outputs to the `tool.output` OpenTelemetry span event when `OTEL_LOG_TOOL_CONTENT=1`\n- Added `/doctor prompt-audit` (also `/checkup prompt-audit`) to audit your CLAUDE.md files, skills, agents and commands for prompting patterns written for older models\n- Added click-to-expand for truncated messages from your other sessions in fullscreen mode\n- Added `path` to `--plugin-dir` load-failure entries in the stream-json `system/init` `plugin_errors`, naming the directory that did not load\n- Added an opt-in `load_test_mode` block to the Claude apps gateway config: requests are built and signed but not sent upstream, and clients get a canned reply, so a deployment can be load tested\n- Added a `mantle` upstream provider to the Claude apps gateway for Amazon Bedrock's Mantle endpoint\n- Fixed SDK sessions losing a deferred tool call or finished tool result when a turn ended early, a held approval prompt after a worker restart, and a non-streaming fallback's `result.usage`\n- Fixed MCP progress notifications being discarded once a long-running tool call moved to the background; the background task now shows the latest progress\n- Fixed stdio MCP servers being left running when the session ended while they were still starting\n- Fixed a brief HTTP 404 from a stateless remote MCP server (for example a proxy mid-redeploy) leaving that server unusable for the rest of the session while still shown as connected\n- Fixed MCP sign-in for a server with no valid URL failing with an opaque SDK error; `/mcp` no longer offers Authenticate for such servers\n- Fixed the weekly Fable limit not appearing in `/usage` and the VS Code usage meters when telemetry is disabled\n- Fixed `/model` accepting Sonnet 4.6 or Sonnet 5 with `[1m]` when the id carried a date or `-v1:0` suffix, in the cases where the plain id was refused\n- Fixed `/model` picker showing a hardcoded Haiku version and price when `ANTHROPIC_DEFAULT_HAIKU_MODEL` pins a different model\n- Fixed dynamic workflows started duri",
+      "prerelease": false
+    }
+  ],
+  "level2_people": [
+    "@karpathy",
+    "@bcherny",
+    "@sundarpichai",
+    "@sama",
+    "@gdb",
+    "@DarioAmodei"
+  ],
+  "level2_note": "raw 无人物搜索；无依据时 Level 2 标无新增，勿编造",
+  "level3_note": "本日未扫描行业报告（周报降频）",
+  "level4_hn": [
+    {
+      "title": "Vibe Coding Production Kit – a production workflow for AI coding agents",
+      "url": "https://github.com/Moeeryani/Vibe-Coding-Production-Kit",
+      "points": 9,
+      "comments": 6,
+      "created": "2026-09-24"
+    },
+    {
+      "title": "Cargo-atlas – A compiler-accurate Rust code map for AI coding agents",
+      "url": "https://github.com/TheBlitzschnell/cargo-atlas",
+      "points": 3,
+      "comments": 0,
+      "created": "2026-09-25"
+    },
+    {
+      "title": "Holistic design systems for the AI coding era",
+      "url": "https://numeric.substack.com/p/design-systems-at-numeric",
+      "points": 3,
+      "comments": 0,
+      "created": "2026-09-24"
+    },
+    {
+      "title": "Utyansky Index: Deterministic O(1) slot isolation for AI vibe coding",
+      "url": "https://github.com/vlad-utyansky/utyansky-index",
+      "points": 2,
+      "comments": 0,
+      "created": "2026-09-24"
+    },
+    {
+      "title": "Show HN: AI coding agents that prove their work",
+      "url": "https://daneb.github.io/keel/",
+      "points": 1,
+      "comments": 1,
+      "created": "2026-09-26"
+    }
+  ]
+}
