@@ -1,0 +1,100 @@
+{
+  "briefing_date": "2026-10-01",
+  "period_start": "2026-09-29",
+  "period_end": "2026-10-01",
+  "previous_briefing_date": "2026-09-30",
+  "previous_briefing_excerpt": "# AI x 研发效能 每日简报 2026-09-30\n\n> 覆盖周期：2026-09-28 ~ 2026-09-30（上一期：2026-09-29）\n\n> **采集方式**：GitHub Actions 自动采集（Level 1 GitHub API + Level 4 HN API）｜Level 2/3 待人工或 API 密钥补充\n\n---\n\n## 头条速览\n\n1. **OpenClaw v2026.8.33**——This is a gateway-only `extended-stable` release\n2. **Gemini CLI v0.63.0-nightly.20260929.gfe6350238**——## What's Changed\n3. **Codex rust-v0.159.0**——## New Features\n\n---\n\n## 一、AI 增强软件研发（AI4SE）\n\n### 1.1 Level 1：核心产品与工程更新\n\n#### 1️⃣ OpenClaw v2026.8.33（2026-09-29）\n\nThis is a gateway-only `extended-stable` release, which is our current equivalent to LTS. This release is OpenClaw from the end of August 2026, plus critical security updates, reliability and performa\n\n来源：[v2026.8.33](https://github.com/openclaw/openclaw/releases/tag/v2026.8.33) — 2026-09-29\n\n#### 2️⃣ Gemini CLI v0.63.0-nightly.20260929.gfe6350238（2026-09-29）\n\n## What's Changed\n\n来源：[v0.63.0-nightly.20260929.gfe6350238](https://github.com/google-gemini/gemini-cli/releases/tag/v0.63.0-nightly.20260929.gfe6350238) — 2026-09-29\n\n#### 3️⃣ Codex rust-v0.159.0（2026-09-29）\n\n## New Features\n\n来源：[rust-v0.159.0](https://github.com/openai/codex/releases/tag/rust-v0.159.0) — 2026-09-29\n\n#### 4️⃣ Claude Code v2.1.284（2026-09-28）\n\n## What's changed\n\n来源：[v2.1.284](https://github.com/anthropics/claude-code/releases/tag/v2.1.284) — 2026-09-28\n\n---\n\n### 1.2 Level 2：关键人物战略洞察\n\n| 人物 | 动态 | 日期 |\n|---|---|---|\n| @karpathy | 自动采集未配置（需 WebSearch / X 间接源） | — |\n| @bcherny | 自动采集未配置（需 WebSearch / X 间接源） | — |\n| @sundarpichai | 自动采集未配置（需 WebSearch / X 间接源） | — |\n| @sama | 自动采集未配置（需 WebSearch / X 间接源） | — |\n| @gdb | 自动采集未配置（需 WebSearch / X 间接源） | — |\n| @DarioAmodei | 自动采集未配置（需 WebSearch / X 间接源） | — |\n\n---\n\n### 1.3 Level 3：行业研究与数据\n\n> **本日未扫描**（周报/月报降频）。\n\n---\n\n### 1.4 Level 4：补充信源（HN）\n\n- **2026-09-27**：[George Hotz’s opinion on AI coding](https://twitter.com/__tinygrad__/status/2044354852663558370) （21 pts / 11 comments）\n- **2026-09-28**：[Coding AI without deterministic outcomes](https://www.aha.io/engineering/articles/coding-ai-without-deterministic-outcomes) （6 pts / 3 comments）\n- **2026-09-29**：[Show HN: 5 mins daily programming quiz to prevent skill rot from AI coding](https://fata.app/daily) （4 pts / 0 comments）\n- **2026-09-29**：[AI coding models state their assumptions only 46% of the time](https://bito.ai/benchmarks/ai-coding-model-cost/) （2 pts / 1 comments）\n- **2026-09-29**：[AI Coding Agents: Between Two Uncomfortable Choices](https://sidekernel.com/essay/) （2 pts / 0 comments）\n\n---\n\n## 附录：采集日志\n\n| 环节 | 状态 |\n|---|---|\n| GitHub Releases API | ✅ 4 条 |\n| HN Algolia API | ✅ 5 条 |\n| 生成时间 (UTC) | 2026-09-29 18:21 |\n\n*自动生成版 · 可在 Cursor 中基于本稿补充 Level 2 分析与专题*\n",
+  "level1_releases": [
+    {
+      "product": "OpenClaw",
+      "repo": "openclaw/openclaw",
+      "tag": "v2026.9.7",
+      "name": "openclaw 2026.9.7",
+      "published": "2026-09-30",
+      "url": "https://github.com/openclaw/openclaw/releases/tag/v2026.9.7",
+      "summary": "## 2026.9.7",
+      "body_excerpt": "## 2026.9.7\n\n### Highlights\n\n- Update safety: updates now back up every state and agent database before migrations and restore them on rollback, take consistent snapshots while the Gateway keeps writing, and stop before schema changes when snapshot cleanup fails. Fixes #157846 and #157603. (#158163, #158317, #156265) Thanks @blyszcz, @Nickfost, and @fuller-stack-dev.\n- Upgrades from 2026.9.5: managed updates no longer always roll back with a stack overflow, Windows updates finish after state migration instead of stranding the new schema, verified macOS app handoffs activate, fresh npm updates load their HTTP client, and interrupted npm package updates recover. Fixes #157011, #157077, and #156878. (#157273, #157262, #156972, #157756, #160015, #158491) Thanks @yoyo837, @joshbunker, @hannesrudolph, and @fuller-stack-dev.\n- OpenAI Agents API: run agents on OpenAI-hosted or self-hosted environments through the new Agents API plugin, with streamed replies, steering, live web search, OpenClaw tools, attachments and hosted files, preserved tool history, OpenClaw persona and workspace context, self-hosted skill discovery, and accurate token usage. (#151176, #156092, #156167, #156306, #156182, #154208, #154229, #158328, #159375, #158775, #158307, #159363, #156549, #158744) Thanks @sjf-oa, @sjf, @vincentkoc, and @Patrick-Erichsen.\n- Sign in with ChatGPT: add Sign in with ChatGPT (Beta) as an OpenAI authentication choice beside Codex login and API keys, with clearer capability and limitation notes, restored first-run provider choices, and SIWC credentials kept out of unsupported media requests. (#148567, #160011, #160078, #160023, #159920, #159412) Thanks @stevenlee-oai.\n- Gateway responsiveness: busy chats no longer stall everyone else, because transcript writes and projections, cold history preparation, artifact reads and downloads, Control UI file reads, profile avatars, roster discovery, prompt hashing, and placement claims now run off the Gateway main thread, and large uploads, long streams, big message saves, file edits, and database maintenance stay responsive. (#147914, #154069, #156095, #158450, #158583, #158464, #158445, #158676, #158404, #158797, #159463, #158486, #158848, #155779, #158443, #158420, #158489, #158570, #158402, #158449, #159818, #158655) Thanks @joshavant, @fuller-stack-dev, and @vincentkoc.\n- Chat performance: long conversations now scroll smoothly, typing in the composer stays responsive in long chats, streaming replies no longer stall the ",
+      "prerelease": false
+    },
+    {
+      "product": "Claude Code",
+      "repo": "anthropics/claude-code",
+      "tag": "v2.1.285",
+      "name": "v2.1.285",
+      "published": "2026-09-29",
+      "url": "https://github.com/anthropics/claude-code/releases/tag/v2.1.285",
+      "summary": "## What's changed",
+      "body_excerpt": "## What's changed\n\n- Added `CLAUDE_CODE_DISABLE_WEB_FETCH` environment variable to turn off the WebFetch tool\n- Added `claude --desktop` to open the Claude desktop app on the current directory, or on a session with `--continue` / `--resume <id>`\n- Added `claude plugin configure <plugin>` to show a plugin's options and which are unset, or save new values read from stdin with `--values-stdin`\n- Added `<server>.<key>=<value>` to `claude plugin install --config`, so a bundled `.mcpb` MCP server's own settings can be set at install time and it starts without visiting `/plugin` → Configure\n- Added `allowedProviders` managed setting to limit which API providers a machine may use (Anthropic API, a custom endpoint, Bedrock, Mantle, Vertex AI, Foundry, Claude Platform on AWS, or a Cloud gateway)\n- Added `CLAUDE_CODE_NONSTREAMING_TIMEOUT_RETRIES` environment variable to cap re-sends of a non-streaming fallback request that timed out\n- Fixed `claude -p` with `CLAUDE_CODE_FORK_SUBAGENT=1`: a subagent's own Agent call now runs in the foreground, so the subagent gets the child's result\n- Fixed plugin and marketplace installs and updates over SSH ignoring the ssh program set in `GIT_SSH` or in your git config's `core.sshCommand`\n- Fixed Claude Code refusing to start when the OS denies reading the managed settings file; it now warns and starts without that file's policies. Other read errors and unparseable files stop every session\n- Fixed cloud sessions that restarted after their conversation was compacted refusing the next update to an artifact the session had already read or published\n- Fixed `claude plugin disable` and `enable` with a full `name@marketplace` id changing a settings entry in another letter case instead of the installed plugin's own\n- Fixed files attached to a message sent over Remote Control being left out after a single failed download; a network error, timeout or server error is now retried up to twice\n- Fixed switching models mid-session with a `set_model` request (such as the Agent SDK's `setModel`) leaving the new model on the built-in output-token limit and auto-compact window until restart\n- Fixed redacted logs and transcripts showing part of a URL password that contains `@`, or all of it when the URL writes its `@` as `%40`\n- Fixed SSH passphrase and new-host prompts from worktree and `/teleport` fetches taking over the terminal; these fetches now fail fast instead of asking\n- Fixed switching off an MCP server added mid-session in SDK and `-p` ses",
+      "prerelease": false
+    },
+    {
+      "product": "Gemini CLI",
+      "repo": "google-gemini/gemini-cli",
+      "tag": "v0.62.0",
+      "name": "Release v0.62.0",
+      "published": "2026-09-29",
+      "url": "https://github.com/google-gemini/gemini-cli/releases/tag/v0.62.0",
+      "summary": "## What's Changed",
+      "body_excerpt": "## What's Changed\n* fix(a2a-server): add early return on unsupported store in tasks metadata endpoint by @jesussamuel-byte in https://github.com/google-gemini/gemini-cli/pull/29334\n* Changelog for v0.61.0-preview.0 by @gemini-cli-robot in https://github.com/google-gemini/gemini-cli/pull/29344\n* Changelog for v0.60.0 by @gemini-cli-robot in https://github.com/google-gemini/gemini-cli/pull/29345\n* fix(core,acp): format MCP tool call titles as structured signatures and segregate explanations by @jvargassanchez-dot in https://github.com/google-gemini/gemini-cli/pull/29341\n* chore(release): bump version to 0.62.0-nightly.20260915.gae28844fb by @gemini-cli-robot in https://github.com/google-gemini/gemini-cli/pull/29346\n* fix(core): retain oauth refresh token on refresh and make credential deletion idempotent by @villahernandez-coder in https://github.com/google-gemini/gemini-cli/pull/29339\n* fix(ui): guard against negative layout dimensions in border rendering by @diegogodinezr in https://github.com/google-gemini/gemini-cli/pull/29347\n* test(integration): deflake run_shell_command and file-system-interactive tests by @DavidAPierce in https://github.com/google-gemini/gemini-cli/pull/29185\n* fix(core): improve PTY file descriptor cleanup and execution lifecycle management by @jesussamuel-byte in https://github.com/google-gemini/gemini-cli/pull/29340\n* chore/release: bump version to 0.62.0-nightly.20260918.g9450ade79 by @gemini-cli-robot in https://github.com/google-gemini/gemini-cli/pull/29383\n* fix(core): synchronize ConPTY process exit lifecycle and harden PTY output finalization by @jvargassanchez-dot in https://github.com/google-gemini/gemini-cli/pull/29379\n* fix(cli): suppress uncaught AbortError logs during request cancellation by @urielefrenvirtusa in https://github.com/google-gemini/gemini-cli/pull/29343\n* fix(core,cli): improve terminal buffer memory management and format Windows diagnostic paths by @jesussamuel-byte in https://github.com/google-gemini/gemini-cli/pull/29380\n* fix(vscode-ide-companion): preserve terminal focus when closing diff tabs by @amelidev in https://github.com/google-gemini/gemini-cli/pull/29378\n* fix(core): update auth error documentation link to valid anchor and add fallback (#26140) by @villahernandez-coder in https://github.com/google-gemini/gemini-cli/pull/29377\n* fix(core): normalize proxy-agent esbuild interop for environment proxy resolution by @diegogodinezr in https://github.com/google-gemini/gemini-cli/pull/29401\n* fix(cl",
+      "prerelease": false
+    },
+    {
+      "product": "Codex",
+      "repo": "openai/codex",
+      "tag": "rust-v0.159.2",
+      "name": "0.159.2",
+      "published": "2026-09-29",
+      "url": "https://github.com/openai/codex/releases/tag/rust-v0.159.2",
+      "summary": "## Bug Fixes",
+      "body_excerpt": "## Bug Fixes\n\n- Suppressed console windows flashing on Windows when Codex launches background processes and sandboxed commands. (#49385)\n\n## Changelog\n\nFull Changelog: https://github.com/openai/codex/compare/rust-v0.159.1...rust-v0.159.2\n\n- #49385 [0.159] Backport Windows console suppression for 0.159.2 @andrewgu-oai",
+      "prerelease": false
+    }
+  ],
+  "level2_people": [
+    "@karpathy",
+    "@bcherny",
+    "@sundarpichai",
+    "@sama",
+    "@gdb",
+    "@DarioAmodei"
+  ],
+  "level2_note": "raw 无人物搜索；无依据时 Level 2 标无新增，勿编造",
+  "level3_note": "本日未扫描行业报告（周报降频）",
+  "level4_hn": [
+    {
+      "title": "Coding AI without deterministic outcomes",
+      "url": "https://www.aha.io/engineering/articles/coding-ai-without-deterministic-outcomes",
+      "points": 6,
+      "comments": 3,
+      "created": "2026-09-28"
+    },
+    {
+      "title": "Show HN: 5 mins daily programming quiz to prevent skill rot from AI coding",
+      "url": "https://fata.app/daily",
+      "points": 4,
+      "comments": 0,
+      "created": "2026-09-29"
+    },
+    {
+      "title": "Show HN: Relay – a harness for AI coding agents that recover and verify",
+      "url": "https://relayevals.com",
+      "points": 3,
+      "comments": 0,
+      "created": "2026-09-29"
+    },
+    {
+      "title": "AI coding models state their assumptions only 46% of the time",
+      "url": "https://bito.ai/benchmarks/ai-coding-model-cost/",
+      "points": 2,
+      "comments": 1,
+      "created": "2026-09-29"
+    },
+    {
+      "title": "AI Coding Agents: Between Two Uncomfortable Choices",
+      "url": "https://sidekernel.com/essay/",
+      "points": 2,
+      "comments": 0,
+      "created": "2026-09-29"
+    }
+  ]
+}
