@@ -1,0 +1,100 @@
+{
+  "briefing_date": "2026-10-02",
+  "period_start": "2026-09-30",
+  "period_end": "2026-10-02",
+  "previous_briefing_date": "2026-10-01",
+  "previous_briefing_excerpt": "# AI x 研发效能 每日简报 2026-10-01\n\n> 覆盖周期：2026-09-29 ~ 2026-10-01（上一期：2026-09-30）\n\n> **采集方式**：GitHub Actions 自动采集（Level 1 GitHub API + Level 4 HN API）｜Level 2/3 待人工或 API 密钥补充\n\n---\n\n## 头条速览\n\n1. **OpenClaw v2026.9.7**——## 2026.9.7\n2. **Claude Code v2.1.285**——## What's changed\n3. **Gemini CLI v0.62.0**——## What's Changed\n\n---\n\n## 一、AI 增强软件研发（AI4SE）\n\n### 1.1 Level 1：核心产品与工程更新\n\n#### 1️⃣ OpenClaw v2026.9.7（2026-09-30）\n\n## 2026.9.7\n\n来源：[v2026.9.7](https://github.com/openclaw/openclaw/releases/tag/v2026.9.7) — 2026-09-30\n\n#### 2️⃣ Claude Code v2.1.285（2026-09-29）\n\n## What's changed\n\n来源：[v2.1.285](https://github.com/anthropics/claude-code/releases/tag/v2.1.285) — 2026-09-29\n\n#### 3️⃣ Gemini CLI v0.62.0（2026-09-29）\n\n## What's Changed\n\n来源：[v0.62.0](https://github.com/google-gemini/gemini-cli/releases/tag/v0.62.0) — 2026-09-29\n\n#### 4️⃣ Codex rust-v0.159.2（2026-09-29）\n\n## Bug Fixes\n\n来源：[rust-v0.159.2](https://github.com/openai/codex/releases/tag/rust-v0.159.2) — 2026-09-29\n\n---\n\n### 1.2 Level 2：关键人物战略洞察\n\n| 人物 | 动态 | 日期 |\n|---|---|---|\n| @karpathy | 自动采集未配置（需 WebSearch / X 间接源） | — |\n| @bcherny | 自动采集未配置（需 WebSearch / X 间接源） | — |\n| @sundarpichai | 自动采集未配置（需 WebSearch / X 间接源） | — |\n| @sama | 自动采集未配置（需 WebSearch / X 间接源） | — |\n| @gdb | 自动采集未配置（需 WebSearch / X 间接源） | — |\n| @DarioAmodei | 自动采集未配置（需 WebSearch / X 间接源） | — |\n\n---\n\n### 1.3 Level 3：行业研究与数据\n\n> **本日未扫描**（周报/月报降频）。\n\n---\n\n### 1.4 Level 4：补充信源（HN）\n\n- **2026-09-28**：[Coding AI without deterministic outcomes](https://www.aha.io/engineering/articles/coding-ai-without-deterministic-outcomes) （6 pts / 3 comments）\n- **2026-09-29**：[Show HN: 5 mins daily programming quiz to prevent skill rot from AI coding](https://fata.app/daily) （4 pts / 0 comments）\n- **2026-09-29**：[Show HN: Relay – a harness for AI coding agents that recover and verify](https://relayevals.com) （3 pts / 0 comments）\n- **2026-09-29**：[AI coding models state their assumptions only 46% of the time](https://bito.ai/benchmarks/ai-coding-model-cost/) （2 pts / 1 comments）\n- **2026-09-29**：[AI Coding Agents: Between Two Uncomfortable Choices](https://sidekernel.com/essay/) （2 pts / 0 comments）\n\n---\n\n## 附录：采集日志\n\n| 环节 | 状态 |\n|---|---|\n| GitHub Releases API | ✅ 4 条 |\n| HN Algolia API | ✅ 5 条 |\n| 生成时间 (UTC) | 2026-09-30 18:10 |\n\n*自动生成版 · 可在 Cursor 中基于本稿补充 Level 2 分析与专题*\n",
+  "level1_releases": [
+    {
+      "product": "Claude Code",
+      "repo": "anthropics/claude-code",
+      "tag": "v2.1.287",
+      "name": "v2.1.287",
+      "published": "2026-10-01",
+      "url": "https://github.com/anthropics/claude-code/releases/tag/v2.1.287",
+      "summary": "## What's changed",
+      "body_excerpt": "## What's changed\n\n- Added Claude Mods: plugins may now modify deeper behavior\n- Added You should know, an opt-in plugin where a side agent watches your back and flags things you or Claude might miss. Turn it on with `/plugin enable cc-plugin-you-should-know@builtin` (for first-party sessions with telemetry on)\n- Added an `n:<text>` filter to the agents view that matches session names and tasks; a filter now shows matches in collapsed sections and Enter opens the first match\n- Added `prompt_text` to the OpenTelemetry `user_prompt` event, a copy of `prompt` for backends that nest dotted keys; drop or mask it wherever you drop or mask `prompt` (anthropics/claude-code#70763)\n- Added URL prompts from MCP servers on the 2025-11-25 protocol, for example to sign in. If a server no longer connects after this update, add \"bareElicitationCapability\": true to its MCP config entry\n- Windows: Added a startup warning when denying the Bash tool also turns off the PowerShell tool, so Claude has no shell tool\n- Self-hosted runner: Added a built-in `gh api` (REST only) for sessions that use Anthropic-managed git on macOS and Linux machines where the GitHub CLI is not installed\n- Fixed fast mode staying off in remote sessions owned by an agent with no user account, even when the organization allows it\n- Fixed Remote Control not receiving messages for minutes at a time when a reconnect request got no response; it now gives up after 30 seconds and retries\n- Fixed hooks configured with `asyncRewake` waking Claude over and over with \"found issues\" notifications when the hook's script file is missing; the broken hook is now reported once\n- Fixed tool heartbeats not reaching SDK hosts while the model's response stream was stalled with no data arriving\n- Fixed Bedrock and Vertex startup model checks ignoring an enforced `availableModels` list, which could collapse `/model` to one Opus row\n- Fixed the Claude in Chrome browser picker showing a JSON parse error when Chrome could not be reached\n- Fixed picking Fable in `/model` on a claude.ai login saving the current version's id, so your saved default now follows the newest Fable like Opus and Sonnet do\n- Fixed switching between Opus 5.5 and Sonnet 5.5 (`/model`, `opusplan`) rewriting earlier MCP tool announcements, which could drop earlier extended thinking\n- Fixed Amazon Bedrock Guardrails blocks that arrive mid-response ending the turn with an API error instead of the guardrail's message when the reply began with thinking\n- Fixed a",
+      "prerelease": false
+    },
+    {
+      "product": "Gemini CLI",
+      "repo": "google-gemini/gemini-cli",
+      "tag": "v0.64.0-nightly.20261001.gc6bccb7ec",
+      "name": "Release v0.64.0-nightly.20261001.gc6bccb7ec",
+      "published": "2026-10-01",
+      "url": "https://github.com/google-gemini/gemini-cli/releases/tag/v0.64.0-nightly.20261001.gc6bccb7ec",
+      "summary": "## What's Changed",
+      "body_excerpt": "## What's Changed\n* fix(cli): prevent CPU hang and quote swallowing on @ within code (#29434) by @elberthc-byte in https://github.com/google-gemini/gemini-cli/pull/29557\n* fix(core): serialize file tool operations and make writes atomic (#29078) by @elberthc-byte in https://github.com/google-gemini/gemini-cli/pull/29499\n\n\n**Full Changelog**: https://github.com/google-gemini/gemini-cli/compare/v0.64.0-nightly.20260930.g38700b4b3...v0.64.0-nightly.20261001.gc6bccb7ec",
+      "prerelease": true
+    },
+    {
+      "product": "OpenClaw",
+      "repo": "openclaw/openclaw",
+      "tag": "v2026.9.7",
+      "name": "openclaw 2026.9.7",
+      "published": "2026-09-30",
+      "url": "https://github.com/openclaw/openclaw/releases/tag/v2026.9.7",
+      "summary": "<!-- openclaw-release-publication:docs-v1 -->",
+      "body_excerpt": "<!-- openclaw-release-publication:docs-v1 -->\n\n## OpenClaw v2026.9.7\n\n518 direct commits · 2,818 pull requests · 334 contributors\n\n### Changes included in this release\n\nThe release notes and changelog contain the same content, presented in two formats:\n\n- [Release notes](https://docs.openclaw.ai/releases/2026.9.7) — formatted for people, with expandable sections.\n- [Changelog](https://raw.githubusercontent.com/openclaw/openclaw/main/CHANGELOG/2026.9.7.md) — plain Markdown for AI agents and tools.\n\n### Thanks\n\n[@609NFT](https://github.com/609NFT) [@Aalmann](https://github.com/Aalmann) [@aatreya](https://github.com/aatreya) [@abacha](https://github.com/abacha) [@abuegab1-spec](https://github.com/abuegab1-spec) [@ada-KVR](https://github.com/ada-KVR) [@AgentSolomon](https://github.com/AgentSolomon) [@aicyberg](https://github.com/aicyberg) [@ajmtrz](https://github.com/ajmtrz) [@Alekstodo](https://github.com/Alekstodo) [@aleps001](https://github.com/aleps001) [@alexph-dev](https://github.com/alexph-dev) [@alibux](https://github.com/alibux) [@Alix-007](https://github.com/Alix-007) [@altaywtf](https://github.com/altaywtf) [@amarsmission](https://github.com/amarsmission) [@AmesGit](https://github.com/AmesGit) [@anarchia-99](https://github.com/anarchia-99) [@andersonjeccel](https://github.com/andersonjeccel) [@aniruddhaadak80](https://github.com/aniruddhaadak80) [@anyech](https://github.com/anyech) [@apple2345-pixel](https://github.com/apple2345-pixel) [@areslp](https://github.com/areslp) [@AS76](https://github.com/AS76) [@aspalagin](https://github.com/aspalagin) [@auriga-agents](https://github.com/auriga-agents) [@avirtudazo-officeconnect](https://github.com/avirtudazo-officeconnect) [@AXEG0](https://github.com/AXEG0) [@axiom-ncis](https://github.com/axiom-ncis) [@Ayushdevo](https://github.com/Ayushdevo) [@azakharko](https://github.com/azakharko) [@baiwei0427](https://github.com/baiwei0427) [@bappamp4](https://github.com/bappamp4) [@Baumus](https://github.com/Baumus) [@bdjben](https://github.com/bdjben) [@benlaube](https://github.com/benlaube) [@bill-starfoundry](https://github.com/bill-starfoundry) [@BillVerhelle](https://github.com/BillVerhelle) [@bitkylin](https://github.com/bitkylin) [@blackdiamondcyber-png](https://github.com/blackdiamondcyber-png) [@blackeyes-boy](https://github.com/blackeyes-boy) [@blyszcz](https://github.com/blyszcz) [@BoatAngle](https://github.com/BoatAngle) [@bogdandragosvasile](https://github.com/bogdandragosvasile) [@boycez](https://git",
+      "prerelease": false
+    },
+    {
+      "product": "Codex",
+      "repo": "openai/codex",
+      "tag": "rust-v0.159.3",
+      "name": "0.159.3",
+      "published": "2026-09-30",
+      "url": "https://github.com/openai/codex/releases/tag/rust-v0.159.3",
+      "summary": "## New Features",
+      "body_excerpt": "## New Features\n\n- Eligible local sessions signed in with ChatGPT can now show optional reminders to complete account security setup. (#49744)\n\n## Changelog\n\nFull Changelog: https://github.com/openai/codex/compare/rust-v0.159.2...rust-v0.159.3\n\n- #49744 [0.159] Backport account security setup reminders for 0.159.3 @andrewgu-oai",
+      "prerelease": false
+    }
+  ],
+  "level2_people": [
+    "@karpathy",
+    "@bcherny",
+    "@sundarpichai",
+    "@sama",
+    "@gdb",
+    "@DarioAmodei"
+  ],
+  "level2_note": "raw 无人物搜索；无依据时 Level 2 标无新增，勿编造",
+  "level3_note": "本日未扫描行业报告（周报降频）",
+  "level4_hn": [
+    {
+      "title": "Show HN: 5 mins daily programming quiz to prevent skill rot from AI coding",
+      "url": "https://fata.app/daily",
+      "points": 4,
+      "comments": 0,
+      "created": "2026-09-29"
+    },
+    {
+      "title": "Show HN: Relay – a harness for AI coding agents that recover and verify",
+      "url": "https://relayevals.com",
+      "points": 3,
+      "comments": 1,
+      "created": "2026-09-29"
+    },
+    {
+      "title": "AI coding models state their assumptions only 46% of the time",
+      "url": "https://bito.ai/benchmarks/ai-coding-model-cost/",
+      "points": 2,
+      "comments": 1,
+      "created": "2026-09-29"
+    },
+    {
+      "title": "AI Coding Agents: Between Two Uncomfortable Choices",
+      "url": "https://sidekernel.com/essay/",
+      "points": 2,
+      "comments": 0,
+      "created": "2026-09-29"
+    },
+    {
+      "title": "Ask HN: How do you handle hitting AI coding agent usage limits?",
+      "url": "https://news.ycombinator.com/item?id=49904074",
+      "points": 1,
+      "comments": 3,
+      "created": "2026-09-30"
+    }
+  ]
+}
