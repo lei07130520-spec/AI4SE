@@ -1,0 +1,100 @@
+{
+  "briefing_date": "2026-10-04",
+  "period_start": "2026-10-02",
+  "period_end": "2026-10-04",
+  "previous_briefing_date": "2026-10-03",
+  "previous_briefing_excerpt": "# AI x 研发效能 每日简报 2026-10-03\n\n> 覆盖周期：2026-10-01 ~ 2026-10-03（上一期：2026-10-02）\n\n> **采集方式**：GitHub Actions 自动采集（Level 1 GitHub API + Level 4 HN API）｜Level 2/3 待人工或 API 密钥补充\n\n---\n\n## 头条速览\n\n1. **OpenClaw v2026.8.35**——This is a gateway-only `extended-stable` release\n2. **Gemini CLI v0.64.0-nightly.20261002.gc9096a847**——## What's Changed\n3. **Claude Code v2.1.287**——## What's changed\n\n---\n\n## 一、AI 增强软件研发（AI4SE）\n\n### 1.1 Level 1：核心产品与工程更新\n\n#### 1️⃣ OpenClaw v2026.8.35（2026-10-02）\n\nThis is a gateway-only `extended-stable` release, which is our current equivalent to LTS. This release is OpenClaw from the end of August 2026, plus critical security updates, reliability and performa\n\n来源：[v2026.8.35](https://github.com/openclaw/openclaw/releases/tag/v2026.8.35) — 2026-10-02\n\n#### 2️⃣ Gemini CLI v0.64.0-nightly.20261002.gc9096a847（2026-10-02）\n\n## What's Changed\n\n来源：[v0.64.0-nightly.20261002.gc9096a847](https://github.com/google-gemini/gemini-cli/releases/tag/v0.64.0-nightly.20261002.gc9096a847) — 2026-10-02\n\n#### 3️⃣ Claude Code v2.1.287（2026-10-01）\n\n## What's changed\n\n来源：[v2.1.287](https://github.com/anthropics/claude-code/releases/tag/v2.1.287) — 2026-10-01\n\n#### 4️⃣ Codex rust-v0.160.0（2026-10-01）\n\n## New Features\n\n来源：[rust-v0.160.0](https://github.com/openai/codex/releases/tag/rust-v0.160.0) — 2026-10-01\n\n---\n\n### 1.2 Level 2：关键人物战略洞察\n\n| 人物 | 动态 | 日期 |\n|---|---|---|\n| @karpathy | 自动采集未配置（需 WebSearch / X 间接源） | — |\n| @bcherny | 自动采集未配置（需 WebSearch / X 间接源） | — |\n| @sundarpichai | 自动采集未配置（需 WebSearch / X 间接源） | — |\n| @sama | 自动采集未配置（需 WebSearch / X 间接源） | — |\n| @gdb | 自动采集未配置（需 WebSearch / X 间接源） | — |\n| @DarioAmodei | 自动采集未配置（需 WebSearch / X 间接源） | — |\n\n---\n\n### 1.3 Level 3：行业研究与数据\n\n> **本日未扫描**（周报/月报降频）。\n\n---\n\n### 1.4 Level 4：补充信源（HN）\n\n- **2026-10-01**：[Crafting Express – isolated local environments for AI coding agents](https://github.com/crafting-dev/express) （2 pts / 0 comments）\n- **2026-09-30**：[Ask HN: How do you handle hitting AI coding agent usage limits?](https://news.ycombinator.com/item?id=49904074) （1 pts / 3 comments）\n- **2026-10-01**：[AI coding agents leaked 13,000 screenshots, and nobody hacked them](https://thenewstack.io/coding-agents-leaked-screenshots/) （1 pts / 0 comments）\n- **2026-10-01**：[AI Coding Startup Cognition Hits $1B in Annualized Revenue](https://www.bloomberg.com/news/articles/2026-09-25/ai-coding-startup-cognition-hits-1-billion-in-annualized-revenue) （1 pts / 0 comments）\n- **2026-10-01**：[Polytoken is a local-first AI coding agent daemon](https://docs.polytoken.dev/introduction/) （1 pts / 0 comments）\n\n---\n\n## 附录：采集日志\n\n| 环节 | 状态 |\n|---|---|\n| GitHub Releases API | ✅ 4 条 |\n| HN Algolia API | ✅ 5 条 |\n| 生成时间 (UTC) | 2026-10-02 18:05 |\n\n*自动生成版 · 可在 Cursor 中基于本稿补充 Level 2 分析与专题*\n",
+  "level1_releases": [
+    {
+      "product": "OpenClaw",
+      "repo": "openclaw/openclaw",
+      "tag": "v2026.9.8",
+      "name": "openclaw 2026.9.8",
+      "published": "2026-10-03",
+      "url": "https://github.com/openclaw/openclaw/releases/tag/v2026.9.8",
+      "summary": "<!-- openclaw-release-publication:docs-v1 -->",
+      "body_excerpt": "<!-- openclaw-release-publication:docs-v1 -->\n\n## OpenClaw v2026.9.8\n\n58 commits · 43 pull requests · 21 contributors\n\n### Changes included in this release\n\nThe release notes and changelog contain the same content, presented in two formats:\n\n- [Release notes](https://docs.openclaw.ai/releases/2026.9.8) — formatted for people, with expandable sections.\n- [Changelog](https://raw.githubusercontent.com/openclaw/openclaw/main/CHANGELOG/2026.9.8.md) — plain Markdown for AI agents and tools.\n\n### Thanks\n\n[@609NFT](https://github.com/609NFT) [@aniketkrs](https://github.com/aniketkrs) [@aniruddhaadak80](https://github.com/aniruddhaadak80) [@EndeavorPioneer](https://github.com/EndeavorPioneer) [@ericcaiwx-star](https://github.com/ericcaiwx-star) [@fuller-stack-dev](https://github.com/fuller-stack-dev) [@hailongguo0530-alt](https://github.com/hailongguo0530-alt) [@jasdeepohri-max](https://github.com/jasdeepohri-max) [@miguelpt2026](https://github.com/miguelpt2026) [@NickM83](https://github.com/NickM83) [@obviyus](https://github.com/obviyus) [@Patrick-Erichsen](https://github.com/Patrick-Erichsen) [@PennyVibe](https://github.com/PennyVibe) [@RomneyDa](https://github.com/RomneyDa) [@scotthuang](https://github.com/scotthuang) [@steipete](https://github.com/steipete) [@VACInc](https://github.com/VACInc) [@vincentkoc](https://github.com/vincentkoc) [@WG-Mojo](https://github.com/WG-Mojo) [@xilopaint](https://github.com/xilopaint) [@yashas-13](https://github.com/yashas-13)\n\n### Release verification\n\n- npm package: https://www.npmjs.com/package/openclaw/v/2026.9.8\n- registry tarball: https://registry.npmjs.org/openclaw/-/openclaw-2026.9.8.tgz\n- integrity: `sha512-G+JkNUhtpDE3cXR4AEi2NyyG9fqI/T2WUSl8ZnR8AATH8Dh1kC3qYFL7wwPoZtgHiP/cszA86PEiE0PDysxb9Q==`\n- release SHA: `fc23bc864e4553c2d215e479eeec47b67a0bf943`\n- full release CI report: https://github.com/openclaw/releases/blob/main/evidence/2026.9.8/release-evidence.md\n- release publish: https://github.com/openclaw/openclaw/actions/runs/37089852299\n- npm preflight: https://github.com/openclaw/openclaw/actions/runs/37046778498\n- full release validation: https://github.com/openclaw/openclaw/actions/runs/37045896743\n- plugin npm publish: https://github.com/openclaw/openclaw/actions/runs/37090141905\n- plugin ClawHub submission: https://github.com/openclaw/openclaw/actions/runs/37090144556; public artifact verification follows successful release-parent completion\n- plugin ClawHub bootstrap: not needed\n- OpenClaw npm publish: https:",
+      "prerelease": false
+    },
+    {
+      "product": "Gemini CLI",
+      "repo": "google-gemini/gemini-cli",
+      "tag": "v0.64.0-nightly.20261003.gfb972b2f8",
+      "name": "Release v0.64.0-nightly.20261003.gfb972b2f8",
+      "published": "2026-10-03",
+      "url": "https://github.com/google-gemini/gemini-cli/releases/tag/v0.64.0-nightly.20261003.gfb972b2f8",
+      "summary": "## What's Changed",
+      "body_excerpt": "## What's Changed\n* fix(cli): ensure Enter and Spacebar reliably confirm selection list options by @ugorla-dev in https://github.com/google-gemini/gemini-cli/pull/29502\n\n\n**Full Changelog**: https://github.com/google-gemini/gemini-cli/compare/v0.64.0-nightly.20261002.gc9096a847...v0.64.0-nightly.20261003.gfb972b2f8",
+      "prerelease": true
+    },
+    {
+      "product": "Codex",
+      "repo": "openai/codex",
+      "tag": "rust-v0.162.0-alpha.9",
+      "name": "0.162.0-alpha.9",
+      "published": "2026-10-03",
+      "url": "https://github.com/openai/codex/releases/tag/rust-v0.162.0-alpha.9",
+      "summary": "Release 0.162.0-alpha.9",
+      "body_excerpt": "Release 0.162.0-alpha.9",
+      "prerelease": true
+    },
+    {
+      "product": "Claude Code",
+      "repo": "anthropics/claude-code",
+      "tag": "v2.1.288",
+      "name": "v2.1.288",
+      "published": "2026-10-02",
+      "url": "https://github.com/anthropics/claude-code/releases/tag/v2.1.288",
+      "summary": "## What's changed",
+      "body_excerpt": "## What's changed\n\n- Added `$.ui.selection()` for mods: returns the text you last selected in fullscreen mode and, when the selection lies within one transcript row, that row\n- Added a built-in `gh api` to cloud sessions whose image has no GitHub CLI, and fixed the built-in sending control characters from file names, jq filters or GitHub errors to the terminal\n- Added recovery for a prompt cleared with Ctrl+C: pressing Up on the empty prompt brings the draft back, including pasted text and images\n- Added a re-authenticate prompt when an MCP server asks for more OAuth scope during a tool call\n- Added `--max-findings <n>|all` to /code-review to report more or fewer findings than the usual limit; the choice is reused until you pass `--max-findings default`\n- Added Ctrl+F to find a session by name and Alt+↑/↓ to jump between groups in the agents view; both, and rename, can be rebound in keybindings.json\n- Added a screen reader mode announcement of the new permission mode when you approve a plan, including with Shift+Tab\n- Fixed mid-response API timeouts failing the turn: non-interactive sessions and subagents now continue from the partial response, and thinking-only responses are retried\n- Fixed long conversations failing with \"Prompt is too long\" instead of auto-compacting when the last reply reported zero token usage\n- Fixed `--resume` sometimes dropping files and other context that a compaction had just restored\n- Fixed a resumed session sometimes not saving the last response of a turn, so that the next `--resume` showed the prompt unanswered\n- Fixed resume occasionally loading a transcript cut short when the same session rewrote the file during the load\n- Fixed resuming a conversation started on 2.1.286 or earlier dropping the model's earlier thinking\n- Fixed session titles, memory recall and prompt hooks failing on Mantle or behind gateways that reject structured outputs; added `CLAUDE_CODE_DISABLE_STRUCTURED_OUTPUTS` to turn structured outputs off\n- Fixed auto mode denials pointing Claude at a Bash permission rule when the blocked tool was not Bash\n- Fixed auto mode on Bedrock and Mantle switching to the local classifier for the rest of the session after a request to an older model, such as a WebFetch summary or a `sonnet` subagent\n- Fixed cloud sessions that restarted on a newly picked model replying with that model after the server refused it\n- Fixed Cowork cloud sessions staying marked as waiting for input after a WebFetch permission prompt for an una",
+      "prerelease": false
+    }
+  ],
+  "level2_people": [
+    "@karpathy",
+    "@bcherny",
+    "@sundarpichai",
+    "@sama",
+    "@gdb",
+    "@DarioAmodei"
+  ],
+  "level2_note": "raw 无人物搜索；无依据时 Level 2 标无新增，勿编造",
+  "level3_note": "本日未扫描行业报告（周报降频）",
+  "level4_hn": [
+    {
+      "title": "Show HN: UsageAtlas(OSS), All your AI coding usage insights. One beautiful view",
+      "url": "https://usageatlas.com",
+      "points": 2,
+      "comments": 0,
+      "created": "2026-10-03"
+    },
+    {
+      "title": "Crafting Express – isolated local environments for AI coding agents",
+      "url": "https://github.com/crafting-dev/express",
+      "points": 2,
+      "comments": 0,
+      "created": "2026-10-01"
+    },
+    {
+      "title": "Universal Modder: Let Any AI Coding Agent Mod Almost Any PC Game",
+      "url": "https://github.com/rehan-remade/universal-modder",
+      "points": 2,
+      "comments": 0,
+      "created": "2026-10-01"
+    },
+    {
+      "title": "AI coding agents leaked 13,000 screenshots, and nobody hacked them",
+      "url": "https://thenewstack.io/coding-agents-leaked-screenshots/",
+      "points": 1,
+      "comments": 0,
+      "created": "2026-10-01"
+    },
+    {
+      "title": "AI Coding Startup Cognition Hits $1B in Annualized Revenue",
+      "url": "https://www.bloomberg.com/news/articles/2026-09-25/ai-coding-startup-cognition-hits-1-billion-in-annualized-revenue",
+      "points": 1,
+      "comments": 0,
+      "created": "2026-10-01"
+    }
+  ]
+}
