@@ -1,0 +1,111 @@
+{
+  "briefing_date": "2026-10-09",
+  "period_start": "2026-10-07",
+  "period_end": "2026-10-09",
+  "previous_briefing_date": "2026-10-08",
+  "previous_briefing_excerpt": "# AI x 研发效能 每日简报 2026-10-08\n\n> 覆盖周期：2026-10-06 ~ 2026-10-08（上一期：2026-10-07）\n\n> **采集方式**：GitHub Actions 自动采集（Level 1 GitHub API + Level 4 HN API）｜Level 2/3 待人工或 API 密钥补充\n\n---\n\n## 头条速览\n\n1. **Claude Code v2.1.293**——## What's changed\n2. **Codex rust-v0.161.0**——## New Features\n3. **Gemini CLI v0.63.0**——## What's Changed\n\n---\n\n## 一、AI 增强软件研发（AI4SE）\n\n### 1.1 Level 1：核心产品与工程更新\n\n#### 1️⃣ Claude Code v2.1.293（2026-10-07）\n\n## What's changed\n\n来源：[v2.1.293](https://github.com/anthropics/claude-code/releases/tag/v2.1.293) — 2026-10-07\n\n#### 2️⃣ Codex rust-v0.161.0（2026-10-07）\n\n## New Features\n\n来源：[rust-v0.161.0](https://github.com/openai/codex/releases/tag/rust-v0.161.0) — 2026-10-07\n\n#### 3️⃣ Gemini CLI v0.63.0（2026-10-06）\n\n## What's Changed\n\n来源：[v0.63.0](https://github.com/google-gemini/gemini-cli/releases/tag/v0.63.0) — 2026-10-06\n\n---\n\n### 1.2 Level 2：关键人物战略洞察\n\n| 人物 | 动态 | 日期 |\n|---|---|---|\n| @karpathy | 自动采集未配置（需 WebSearch / X 间接源） | — |\n| @bcherny | 自动采集未配置（需 WebSearch / X 间接源） | — |\n| @sundarpichai | 自动采集未配置（需 WebSearch / X 间接源） | — |\n| @sama | 自动采集未配置（需 WebSearch / X 间接源） | — |\n| @gdb | 自动采集未配置（需 WebSearch / X 间接源） | — |\n| @DarioAmodei | 自动采集未配置（需 WebSearch / X 间接源） | — |\n\n---\n\n### 1.3 Level 3：行业研究与数据\n\n> **本日未扫描**（周报/月报降频）。\n\n---\n\n### 1.4 Level 4：补充信源（HN）\n\n- **2026-10-07**：[Reasons to Dislike AI Coding](https://www.sicpers.info/2026/10/reasons-to-dislike-ai-coding/) （53 pts / 85 comments）\n- **2026-10-05**：[Show HN: Rashomon – An independent execution record for AI coding agents](https://github.com/altrace-dev-role/rashomon) （2 pts / 2 comments）\n- **2026-10-07**：[Multiplayer AI coding workspace for teams and agents](https://www.tryfridaywork.com) （2 pts / 0 comments）\n- **2026-10-06**：[Show HN: Orbtile – See which AI coding agent needs you, on a Logitech keypad](https://orbtile.com/?s=hn) （1 pts / 0 comments）\n- **2026-10-05**：[AI coding agents implemented six ways to update a Matter device on real hardware](https://groundrun.io/blog/ai-agents-matter-ota-updates-esp32-h2/) （1 pts / 0 comments）\n\n---\n\n## 附录：采集日志\n\n| 环节 | 状态 |\n|---|---|\n| GitHub Releases API | ✅ 3 条 |\n| HN Algolia API | ✅ 5 条 |\n| 生成时间 (UTC) | 2026-10-07 19:06 |\n\n*自动生成版 · 可在 Cursor 中基于本稿补充 Level 2 分析与专题*\n",
+  "level1_releases": [
+    {
+      "product": "OpenClaw",
+      "repo": "openclaw/openclaw",
+      "tag": "v2026.9.9",
+      "name": "openclaw 2026.9.9",
+      "published": "2026-10-08",
+      "url": "https://github.com/openclaw/openclaw/releases/tag/v2026.9.9",
+      "summary": "<!-- openclaw-release-publication:docs-v1 -->",
+      "body_excerpt": "<!-- openclaw-release-publication:docs-v1 -->\n\n## OpenClaw v2026.9.9\n\n185 commits · 112 pull requests · 92 contributors\n\n### Changes included in this release\n\nThe release notes and changelog contain the same content, presented in two formats:\n\n- [Release notes](https://docs.openclaw.ai/releases/2026.9.9) — formatted for people, with expandable sections.\n- [Changelog](https://raw.githubusercontent.com/openclaw/openclaw/main/CHANGELOG/2026.9.9.md) — plain Markdown for AI agents and tools.\n\n### Thanks\n\n[@A1fred-AI](https://github.com/A1fred-AI) [@adele-with-a-b](https://github.com/adele-with-a-b) [@alexph-dev](https://github.com/alexph-dev) [@Alix-007](https://github.com/Alix-007) [@alkor2000](https://github.com/alkor2000) [@altaywtf](https://github.com/altaywtf) [@aniruddhaadak80](https://github.com/aniruddhaadak80) [@aounakram](https://github.com/aounakram) [@armstrongsam25](https://github.com/armstrongsam25) [@AXEG0](https://github.com/AXEG0) [@azuretek](https://github.com/azuretek) [@big-hill](https://github.com/big-hill) [@carlosjarenom](https://github.com/carlosjarenom) [@cestercian](https://github.com/cestercian) [@changeroa](https://github.com/changeroa) [@ChuLaiTheGreat](https://github.com/ChuLaiTheGreat) [@cmrstudio56](https://github.com/cmrstudio56) [@danieljimz](https://github.com/danieljimz) [@dapangkai11](https://github.com/dapangkai11) [@DasX](https://github.com/DasX) [@davidcittadini](https://github.com/davidcittadini) [@dh-js](https://github.com/dh-js) [@drakeo338](https://github.com/drakeo338) [@ekinnee](https://github.com/ekinnee) [@eleqtrizit](https://github.com/eleqtrizit) [@ericcaiwx-star](https://github.com/ericcaiwx-star) [@ericcurtin](https://github.com/ericcurtin) [@fenglanhua](https://github.com/fenglanhua) [@FlagshipClaw](https://github.com/FlagshipClaw) [@Flakedict](https://github.com/Flakedict) [@fuller-stack-dev](https://github.com/fuller-stack-dev) [@gokay-ai](https://github.com/gokay-ai) [@goncalonc](https://github.com/goncalonc) [@hannesrudolph](https://github.com/hannesrudolph) [@hansraj316](https://github.com/hansraj316) [@holgergruenhagen](https://github.com/holgergruenhagen) [@hshs38033-cmd](https://github.com/hshs38033-cmd) [@ignamiranda](https://github.com/ignamiranda) [@IstiqlalBhat](https://github.com/IstiqlalBhat) [@jamiezigelbaum](https://github.com/jamiezigelbaum) [@jarvisnextgeneration20-lang](https://github.com/jarvisnextgeneration20-lang) [@jayzhou2309](https://github.com/jayzhou2309) [@jgs-jeeves](https://githu",
+      "prerelease": false
+    },
+    {
+      "product": "Claude Code",
+      "repo": "anthropics/claude-code",
+      "tag": "v2.1.294",
+      "name": "v2.1.294",
+      "published": "2026-10-08",
+      "url": "https://github.com/anthropics/claude-code/releases/tag/v2.1.294",
+      "summary": "## What's changed",
+      "body_excerpt": "## What's changed\n\n- Fixed `prompt` and `agent` hooks written as instructions (such as \"Block commands that...\") allowing what they should block\n- Improved how `prompt` hooks on Stop and SubagentStop written as instructions (such as \"Carry on if the build is broken\") are judged, so Claude is less likely to stop early",
+      "prerelease": false
+    },
+    {
+      "product": "Gemini CLI",
+      "repo": "google-gemini/gemini-cli",
+      "tag": "v0.65.0-nightly.20261008.g44d764ee5",
+      "name": "Release v0.65.0-nightly.20261008.g44d764ee5",
+      "published": "2026-10-08",
+      "url": "https://github.com/google-gemini/gemini-cli/releases/tag/v0.65.0-nightly.20261008.g44d764ee5",
+      "summary": "## What's Changed",
+      "body_excerpt": "## What's Changed\n* fix(ci): add missing loop in unassign-inactive-assignees workflow by @ugorla-dev in https://github.com/google-gemini/gemini-cli/pull/29609\n* fix(core): enforce terminal user turn invariant and normalize request contents by @luisfelipe-alt in https://github.com/google-gemini/gemini-cli/pull/29612\n* `feat(telemetry): support custom OTLP headers in telemetry configuration` by @jesussamuel-byte in https://github.com/google-gemini/gemini-cli/pull/29641\n* fix(auth): prevent infinite verification and OAuth retry loops by @villahernandez-coder in https://github.com/google-gemini/gemini-cli/pull/29655\n\n\n**Full Changelog**: https://github.com/google-gemini/gemini-cli/compare/v0.65.0-nightly.20261007.gef59c532f...v0.65.0-nightly.20261008.g44d764ee5",
+      "prerelease": true
+    },
+    {
+      "product": "Hermes Agent",
+      "repo": "NousResearch/hermes-agent",
+      "tag": "v0.21.6",
+      "name": "Hermes Agent v0.21.6",
+      "published": "2026-10-08",
+      "url": "https://github.com/NousResearch/hermes-agent/releases/tag/v0.21.6",
+      "summary": "# Hermes Agent v0.21.6\r",
+      "body_excerpt": "# Hermes Agent v0.21.6\r\n\r\n**Release Date:** October 8, 2026\r\n\r\n> Patch release. This tag rolls up the ~2,100 PRs merged since v0.21.5 into a stable tagged release for Docker and Hermes Cloud. Full curated notes for this window ship with v0.22.0.\r\n\r\n<!-- HERMES_BUILDS_TABLE -->\r\n\r\n## About this release\r\n\r\nThis is the first release cut by the new stable release pipeline: one attempt ref, a tested Docker image, and a receipt tag at publish. It ships the tag, this GitHub release and the Docker image. The desktop app, Termux packages and the Microsoft Store stay on their current build for now and move with the next bundled release.\r\n\r\nMeasured at commit `818c13be1dc4fd28987e1e881a9408224afd4535`, the window since v0.21.5 contains **8,867 non-merge commits** across **8,342 changed files** (+772,490 / −225,600), **2,106 merged PRs** and **3,027 closed issues**.\r\n\r\nAlso in the window, undocumented here on purpose: live transcription while you speak on CLI, TUI and Desktop (`stt.streaming`); spoken voice turns routed to their own model (`auxiliary.voice_chat`) with reasoning off by default; third-party plugins running in a per-profile plugin host (`plugins.isolation: host`) and one Settings ▸ Plugins home for their settings pages; favorite and pinned models at the top of the Desktop picker, a usage chip before a subscription hits its wall, and rate-limited providers that say why and until when; local models in `hermes model` plus llama.cpp CUDA on Linux x64 and arm64; pluggable, layered language packs across core, Desktop and TUI; a summary-first `hermes status` (`--short`, `--full`); a review-pane diff scope selector (Uncommitted / Branch / Last turn) and keep-awake that follows the turn; cron, `doctor` and home-channel warnings when the cron store goes unwritable; approval flags for credential uploads and invisible Unicode in terminal commands; a Discord setup that checks the bot token and prints the invite link; a unified Kanban workflow definition; `activate.fish`; GPT-6.1 Sol and Claude Sonnet 5.5 / Haiku 5.5 in the catalogs; and dozens of new community plugins.\r\n\r\n**Full curated release notes for this window ship with v0.22.0**, which will document everything from v0.21.0 onward — highlights, feature areas, and complete contributor credits. Nothing in this window is skipped.\r\n\r\n## Updating\r\n\r\n- Docker / Hermes Cloud: `nousresearch/hermes-agent:stable` (or `:latest`).\r\n- CLI (git installs): `hermes update`, or re-run the installer one-liner.\r\n- Desktop app and",
+      "prerelease": false
+    },
+    {
+      "product": "Codex",
+      "repo": "openai/codex",
+      "tag": "rust-v0.162.0",
+      "name": "0.162.0",
+      "published": "2026-10-08",
+      "url": "https://github.com/openai/codex/releases/tag/rust-v0.162.0",
+      "summary": "## New Features",
+      "body_excerpt": "## New Features\n\n- Add tools for creating and listing managed Git worktrees from trusted local projects when the worktrees feature is enabled. (#50148)\n- Pin tasks in the agent Command Center with `p` and keep them in a shared Pinned group when supported by the server. (#51500)\n- Navigate and copy transcript blocks with `/copy`, use `Ctrl+Insert` to copy selections, and tune mouse-wheel scrolling with `tui.mouse_scroll_speed`. (#50434, #50215, #50209)\n- Make URLs clickable in approval headers, questions, MCP prompts, warnings, banners, and verification prompts, including when links wrap across lines. (#51439, #51449, #51450, #51451, #51452, #51458)\n- Configure live web access and remote compaction capabilities for custom Responses-compatible model providers. (#50459)\n- Add JavaScript helpers for streaming promise results as they settle, plus opt-in ranked tool search in Code Mode. (#51126, #51209)\n\n## Bug Fixes\n\n- Respect server model and reasoning-summary defaults for new TUI threads while retaining explicit launch overrides. (#50013, #50811, #50913)\n- Preserve existing CRLF line endings in `apply_patch` updates without requiring an opt-in. (#51203)\n- Fix Linux sandbox startup with multiple denied files, reject writable sandbox-construction executables, and keep ripgrep configuration from weakening deny-glob masks. (#50059, #51211, #51407, #51527)\n- Restore ordinary drive-letter file access on Windows 10 and match Windows sandbox temp permissions to the child process environment. (#51511, #51512)\n- Honor server `Retry-After` advice for retryable Responses and WebSocket failures. (#50418, #51440)\n- Fix archive checksum verification when installing through Windows PowerShell with PowerShell 7 module paths present. (#51257)\n\n## Chores\n\n- Publish a signed PowerShell installer with Windows releases. (#51158)\n- Keep older stable releases and prereleases from replacing newer stable download targets or installer aliases. (#51186, #51425)\n\n## Changelog\n\nFull Changelog: https://github.com/openai/codex/compare/rust-v0.161.0...rust-v0.162.0\n\n- #50013 Honor server model defaults when starting fresh TUI threads @etraut-openai\n- #50018 Use descriptor-safe helpers for executable test fixtures @jif-oai\n- #50019 Protect the guardian decisions API key from environment forwarding @swastik-oai\n- #50026 Preserve user restrictions in Guardian handoff context @jif-oai\n- #50035 Follow MCP tool pagination in legacy protocol mode @jif-oai\n- #50039 Keep transcript Find results reada",
+      "prerelease": false
+    }
+  ],
+  "level2_people": [
+    "@karpathy",
+    "@bcherny",
+    "@sundarpichai",
+    "@sama",
+    "@gdb",
+    "@DarioAmodei"
+  ],
+  "level2_note": "raw 无人物搜索；无依据时 Level 2 标无新增，勿编造",
+  "level3_note": "本日未扫描行业报告（周报降频）",
+  "level4_hn": [
+    {
+      "title": "Reasons to Dislike AI Coding",
+      "url": "https://www.sicpers.info/2026/10/reasons-to-dislike-ai-coding/",
+      "points": 77,
+      "comments": 109,
+      "created": "2026-10-07"
+    },
+    {
+      "title": "Show HN: Pacer – will your AI coding subscription last until the reset?",
+      "url": "https://github.com/dkremsa/claude-pacer",
+      "points": 10,
+      "comments": 8,
+      "created": "2026-10-08"
+    },
+    {
+      "title": "Show HN: StayLeet – keeping skills sharp in AI coding era",
+      "url": "https://stayleet.com/",
+      "points": 6,
+      "comments": 0,
+      "created": "2026-10-07"
+    },
+    {
+      "title": "Show HN: Viberuler – measure where your AI coding context goes",
+      "url": "https://github.com/master5d/viberuler",
+      "points": 3,
+      "comments": 0,
+      "created": "2026-10-08"
+    },
+    {
+      "title": "AI coding's Fermi paradox: where are the apps that last?",
+      "url": "https://medium.com/@giovambattista.fazioli/ai-codings-fermi-paradox-where-are-the-apps-that-last-c10b22fad263",
+      "points": 3,
+      "comments": 0,
+      "created": "2026-10-08"
+    }
+  ]
+}
