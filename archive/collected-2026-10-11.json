@@ -1,0 +1,89 @@
+{
+  "briefing_date": "2026-10-11",
+  "period_start": "2026-10-09",
+  "period_end": "2026-10-11",
+  "previous_briefing_date": "2026-10-10",
+  "previous_briefing_excerpt": "# AI x 研发效能 每日简报 2026-10-10\n\n> 覆盖周期：2026-10-08 ~ 2026-10-10（上一期：2026-10-09）\n\n> **采集方式**：GitHub Actions 自动采集（Level 1 GitHub API + Level 4 HN API）｜Level 2/3 待人工或 API 密钥补充\n\n---\n\n## 头条速览\n\n1. **OpenClaw v2026.9.9**——<!-- openclaw-release-publication:docs-v1 -->\n2. **Claude Code v2.1.295**——## What's changed\n3. **Gemini CLI v0.65.0-nightly.20261008.g44d764ee5**——## What's Changed\n\n---\n\n## 一、AI 增强软件研发（AI4SE）\n\n### 1.1 Level 1：核心产品与工程更新\n\n#### 1️⃣ OpenClaw v2026.9.9（2026-10-08）\n\n<!-- openclaw-release-publication:docs-v1 -->\n\n来源：[v2026.9.9](https://github.com/openclaw/openclaw/releases/tag/v2026.9.9) — 2026-10-08\n\n#### 2️⃣ Claude Code v2.1.295（2026-10-08）\n\n## What's changed\n\n来源：[v2.1.295](https://github.com/anthropics/claude-code/releases/tag/v2.1.295) — 2026-10-08\n\n#### 3️⃣ Gemini CLI v0.65.0-nightly.20261008.g44d764ee5（2026-10-08）\n\n## What's Changed\n\n来源：[v0.65.0-nightly.20261008.g44d764ee5](https://github.com/google-gemini/gemini-cli/releases/tag/v0.65.0-nightly.20261008.g44d764ee5) — 2026-10-08\n\n#### 4️⃣ Hermes Agent v0.21.6（2026-10-08）\n\n# Hermes Agent v0.21.6\n\n来源：[v0.21.6](https://github.com/NousResearch/hermes-agent/releases/tag/v0.21.6) — 2026-10-08\n\n#### 5️⃣ Codex rust-v0.162.0（2026-10-08）\n\n## New Features\n\n来源：[rust-v0.162.0](https://github.com/openai/codex/releases/tag/rust-v0.162.0) — 2026-10-08\n\n---\n\n### 1.2 Level 2：关键人物战略洞察\n\n| 人物 | 动态 | 日期 |\n|---|---|---|\n| @karpathy | 自动采集未配置（需 WebSearch / X 间接源） | — |\n| @bcherny | 自动采集未配置（需 WebSearch / X 间接源） | — |\n| @sundarpichai | 自动采集未配置（需 WebSearch / X 间接源） | — |\n| @sama | 自动采集未配置（需 WebSearch / X 间接源） | — |\n| @gdb | 自动采集未配置（需 WebSearch / X 间接源） | — |\n| @DarioAmodei | 自动采集未配置（需 WebSearch / X 间接源） | — |\n\n---\n\n### 1.3 Level 3：行业研究与数据\n\n> **本日未扫描**（周报/月报降频）。\n\n---\n\n### 1.4 Level 4：补充信源（HN）\n\n- **2026-10-07**：[Reasons to Dislike AI Coding](https://www.sicpers.info/2026/10/reasons-to-dislike-ai-coding/) （79 pts / 112 comments）\n- **2026-10-08**：[Show HN: Pacer – will your AI coding subscription last until the reset?](https://github.com/dkremsa/claude-pacer) （10 pts / 8 comments）\n- **2026-10-08**：[AI Coding Tools – Architecture diagrams, local models, and SWE-bench](https://github.com/mahmoudsajjadi/awesome-ai-coding-tools) （8 pts / 0 comments）\n- **2026-10-07**：[Show HN: StayLeet – keeping skills sharp in AI coding era](https://stayleet.com/) （6 pts / 0 comments）\n- **2026-10-08**：[Show HN: Viberuler – measure where your AI coding context goes](https://github.com/master5d/viberuler) （5 pts / 0 comments）\n\n---\n\n## 附录：采集日志\n\n| 环节 | 状态 |\n|---|---|\n| GitHub Releases API | ✅ 5 条 |\n| HN Algolia API | ✅ 5 条 |\n| 生成时间 (UTC) | 2026-10-09 18:33 |\n\n*自动生成版 · 可在 Cursor 中基于本稿补充 Level 2 分析与专题*\n",
+  "level1_releases": [
+    {
+      "product": "Gemini CLI",
+      "repo": "google-gemini/gemini-cli",
+      "tag": "v0.65.0-nightly.20261010.g9b6e0265d",
+      "name": "Release v0.65.0-nightly.20261010.g9b6e0265d",
+      "published": "2026-10-10",
+      "url": "https://github.com/google-gemini/gemini-cli/releases/tag/v0.65.0-nightly.20261010.g9b6e0265d",
+      "summary": "## What's Changed",
+      "body_excerpt": "## What's Changed\n* fix(cli): handle JSON parse and response stream errors in fetchJson by @jesussamuel-byte in https://github.com/google-gemini/gemini-cli/pull/29658\n* fix(core): preserve line terminators in truncateString by @diegogodinezr in https://github.com/google-gemini/gemini-cli/pull/29673\n* fix(vscode-ide-companion): make IdeServer.stop() resolve while MCP sessions are open by @elberthc-byte in https://github.com/google-gemini/gemini-cli/pull/29674\n* fix(core): retain ask_user question text in the tool result display by @elberthc-byte in https://github.com/google-gemini/gemini-cli/pull/29677\n* fix(core): eliminate false positives on untrusted command flags and compound loops by @DavidAPierce in https://github.com/google-gemini/gemini-cli/pull/29672\n* fix(cli): clear cached credentials when re-selecting Google login by @urielefrenvirtusa in https://github.com/google-gemini/gemini-cli/pull/29643\n* fix(cli): resolve hang on Enter keypress in interactive mode (#23297) by @elberthc-byte in https://github.com/google-gemini/gemini-cli/pull/29476\n* perf(core): optimize ignore filtering and enable subtree pruning (#29077) by @amelidev in https://github.com/google-gemini/gemini-cli/pull/29582\n* fix(a2a-server): isolate tool rejection to active call in sequential batches by @jvargassanchez-dot in https://github.com/google-gemini/gemini-cli/pull/29683\n* fix(cli): skip eager recursive file reading for @<directory> references by @jvargassanchez-dot in https://github.com/google-gemini/gemini-cli/pull/29617\n\n\n**Full Changelog**: https://github.com/google-gemini/gemini-cli/compare/v0.65.0-nightly.20261008.g44d764ee5...v0.65.0-nightly.20261010.g9b6e0265d",
+      "prerelease": true
+    },
+    {
+      "product": "Claude Code",
+      "repo": "anthropics/claude-code",
+      "tag": "v2.1.296",
+      "name": "v2.1.296",
+      "published": "2026-10-09",
+      "url": "https://github.com/anthropics/claude-code/releases/tag/v2.1.296",
+      "summary": "## What's changed",
+      "body_excerpt": "## What's changed\n\n- Added a `code` key to the Claude apps gateway's `managed.policies[]`: the same settings as `cli`, also applied in Claude Desktop's Code tab; beside `desktop`, it turns on Claude Desktop's gateway mode\n- Added `autoCompactWindow` to subagent frontmatter and `--agents` definitions, so a subagent can auto-compact earlier than the main conversation's window\n- Added `CLAUDE_CODE_WORKFLOW_SUBAGENT_MODEL` to run every workflow agent on one model while other subagents keep theirs\n- Added `CLAUDE_CODE_OVERLOADED_RETRY_MAX_DELAY_MS` environment variable to set a longer maximum delay for the backoff when retrying an overloaded (529) request\n- Added a note in `/plugin` on a plugin whose hooks are left out because another enabled plugin has the same name\n- Added an `allow_large` option to the Read tool so Claude can read a text file past the usual size limits in one call when it needs the whole file and the context has room\n- Fixed managed-settings `PreToolUse` hooks that deny a tool call with `\"continue\": false`, and managed `prompt` hooks that block one, refusing the call but not ending the turn\n- Fixed PostToolUse hooks in managed settings not applying `updatedMCPToolOutput` in some sessions\n- Fixed headless sessions starting a folder's `.mcp.json` or plugin MCP server that was switched off for that folder, after changing directory or reloading plugins\n- Fixed a Claude apps gateway that serves `allowedProviders` with `\"gateway\"` locking out laptops that name that gateway in user settings\n- Fixed a saved Claude apps gateway sign-in being ignored on machines whose managed settings set `forceLoginMethod` to `gateway` with no `forceLoginGatewayUrl` (regression in 2.1.295)\n- Fixed `--teleport` opening an empty conversation when the session's history could not be read\n- Fixed token counts for Haiku 5.5 and other models that take only adaptive thinking, which failed behind some gateways and were counted with budget thinking elsewhere\n- Fixed resumed subagents being told that the user rejected a tool call that a session shutdown had interrupted\n- Fixed hook output being altered when it contained text resembling a plugin hint tag\n- Fixed secret redaction in shared transcripts and debug logs missing some values that follow a key with no value, including in JSON written inside a shell string\n- Fixed a stray `52;c;…` escape sequence printed on screen after copying in older VTE-based terminals such as MATE Terminal\n- Fixed toasts and notifications waiting un",
+      "prerelease": false
+    },
+    {
+      "product": "Codex",
+      "repo": "openai/codex",
+      "tag": "rust-v0.162.1",
+      "name": "0.162.1",
+      "published": "2026-10-09",
+      "url": "https://github.com/openai/codex/releases/tag/rust-v0.162.1",
+      "summary": "## Bug Fixes",
+      "body_excerpt": "## Bug Fixes\n\n- Fixed a TUI crash when asynchronous questions contain multiple lines, preserving line breaks and complete hyperlink destinations. (#51866)\n- Fixed startup failures caused by differences between a running background server's feature settings and CLI defaults. Compatibility checks now apply only to explicit command-line feature overrides. (#52648)\n\nFull Changelog: https://github.com/openai/codex/compare/rust-v0.162.0...rust-v0.162.1",
+      "prerelease": false
+    }
+  ],
+  "level2_people": [
+    "@karpathy",
+    "@bcherny",
+    "@sundarpichai",
+    "@sama",
+    "@gdb",
+    "@DarioAmodei"
+  ],
+  "level2_note": "raw 无人物搜索；无依据时 Level 2 标无新增，勿编造",
+  "level3_note": "本日未扫描行业报告（周报降频）",
+  "level4_hn": [
+    {
+      "title": "Show HN: Pacer – will your AI coding subscription last until the reset?",
+      "url": "https://github.com/dkremsa/claude-pacer",
+      "points": 10,
+      "comments": 8,
+      "created": "2026-10-08"
+    },
+    {
+      "title": "Study on AI coding agents finds gains \"absorbed\" by human review \"bottleneck.\"",
+      "url": "https://arstechnica.com/ai/2026/10/ai-coding-agents-generate-more-code-but-not-more-software/",
+      "points": 9,
+      "comments": 3,
+      "created": "2026-10-10"
+    },
+    {
+      "title": "AI Coding Tools – Architecture diagrams, local models, and SWE-bench",
+      "url": "https://github.com/mahmoudsajjadi/awesome-ai-coding-tools",
+      "points": 8,
+      "comments": 0,
+      "created": "2026-10-08"
+    },
+    {
+      "title": "Show HN: Viberuler – measure where your AI coding context goes",
+      "url": "https://github.com/master5d/viberuler",
+      "points": 5,
+      "comments": 0,
+      "created": "2026-10-08"
+    },
+    {
+      "title": "Show HN: Crashlytics for AI Coding Agents",
+      "url": "https://github.com/0xfirattamur/xcrashlytics",
+      "points": 3,
+      "comments": 0,
+      "created": "2026-10-08"
+    }
+  ]
+}
