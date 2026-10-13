@@ -1,0 +1,100 @@
+{
+  "briefing_date": "2026-10-14",
+  "period_start": "2026-10-12",
+  "period_end": "2026-10-14",
+  "previous_briefing_date": "2026-10-13",
+  "previous_briefing_excerpt": "# AI x 研发效能 每日简报 2026-10-13\n\n> 覆盖周期：2026-10-11 ~ 2026-10-13（上一期：2026-10-12）\n\n> **采集方式**：GitHub Actions 自动采集（Level 1 GitHub API + Level 4 HN API）｜Level 2/3 待人工或 API 密钥补充\n\n---\n\n## 头条速览\n\n1. **OpenClaw v2026.10.2**——## 2026.10.2\n2. **Gemini CLI v0.65.0-nightly.20261012.g9b6e0265d**——**Full Changelog**: https://github.com/google-ge\n3. **Hermes Agent v0.21.7**——# Hermes Agent v0.21.7\n\n---\n\n## 一、AI 增强软件研发（AI4SE）\n\n### 1.1 Level 1：核心产品与工程更新\n\n#### 1️⃣ OpenClaw v2026.10.2（2026-10-12）\n\n## 2026.10.2\n\n来源：[v2026.10.2](https://github.com/openclaw/openclaw/releases/tag/v2026.10.2) — 2026-10-12\n\n#### 2️⃣ Gemini CLI v0.65.0-nightly.20261012.g9b6e0265d（2026-10-12）\n\n**Full Changelog**: https://github.com/google-gemini/gemini-cli/compare/v0.65.0-nightly.20261010.g9b6e0265d...v0.65.0-nightly.20261012.g9b6e0265d\n\n来源：[v0.65.0-nightly.20261012.g9b6e0265d](https://github.com/google-gemini/gemini-cli/releases/tag/v0.65.0-nightly.20261012.g9b6e0265d) — 2026-10-12\n\n#### 3️⃣ Hermes Agent v0.21.7（2026-10-12）\n\n# Hermes Agent v0.21.7\n\n来源：[v0.21.7](https://github.com/NousResearch/hermes-agent/releases/tag/v0.21.7) — 2026-10-12\n\n---\n\n### 1.2 Level 2：关键人物战略洞察\n\n| 人物 | 动态 | 日期 |\n|---|---|---|\n| @karpathy | 自动采集未配置（需 WebSearch / X 间接源） | — |\n| @bcherny | 自动采集未配置（需 WebSearch / X 间接源） | — |\n| @sundarpichai | 自动采集未配置（需 WebSearch / X 间接源） | — |\n| @sama | 自动采集未配置（需 WebSearch / X 间接源） | — |\n| @gdb | 自动采集未配置（需 WebSearch / X 间接源） | — |\n| @DarioAmodei | 自动采集未配置（需 WebSearch / X 间接源） | — |\n\n---\n\n### 1.3 Level 3：行业研究与数据\n\n> **本日未扫描**（周报/月报降频）。\n\n---\n\n### 1.4 Level 4：补充信源（HN）\n\n- **2026-10-12**：[AI coding agents generate more code, but not more software](https://arstechnica.com/ai/2026/10/ai-coding-agents-generate-more-code-but-not-more-software/) （241 pts / 196 comments）\n- **2026-10-12**：[AI coding agents generate more code, but not more software](https://arstechnica.com/ai/2026/10/ai-coding-agents-generate-more-code-but-not-more-software/) （12 pts / 1 comments）\n- **2026-10-10**：[Study on AI coding agents finds gains \"absorbed\" by human review \"bottleneck.\"](https://arstechnica.com/ai/2026/10/ai-coding-agents-generate-more-code-but-not-more-software/) （9 pts / 3 comments）\n- **2026-10-12**：[The Tragedy of AI Coding](https://www.theatlantic.com/ideas/2026/10/ai-programming-big-tech-regulations/688960/) （5 pts / 1 comments）\n- **2026-10-11**：[Long-term memory for AI coding agents as a tree of plain files](https://github.com/gonzaroman/IHMT-MEMORY) （4 pts / 0 comments）\n\n---\n\n## 附录：采集日志\n\n| 环节 | 状态 |\n|---|---|\n| GitHub Releases API | ✅ 3 条 |\n| HN Algolia API | ✅ 5 条 |\n| 生成时间 (UTC) | 2026-10-12 21:26 |\n\n*自动生成版 · 可在 Cursor 中基于本稿补充 Level 2 分析与专题*\n",
+  "level1_releases": [
+    {
+      "product": "OpenClaw",
+      "repo": "openclaw/openclaw",
+      "tag": "v2026.10.3",
+      "name": "openclaw 2026.10.3",
+      "published": "2026-10-13",
+      "url": "https://github.com/openclaw/openclaw/releases/tag/v2026.10.3",
+      "summary": "## 2026.10.3",
+      "body_excerpt": "## 2026.10.3\n\n### Highlights\n\n- Updates that were stuck behind lost leases, completed-but-unrecognized receipts, or legacy 2026.9.8 activation records now recover and finish instead of refusing every retry. (#168388, #169038, #169027, #170195, #170170) Thanks @k94118, @mkdelta221, @waynegault, @chedong, and @Warhangel.\n- Windows, macOS, and pnpm updates no longer leave the Gateway stopped or roll back: machine-qualified task accounts, short-name install paths, Doctor ancestry re-checks, protected Bun service commands, and pnpm 12 launchers all keep working. (#169481, #169292, #169563, #170006, #170003, #170131) Thanks @RomneyDa, @jokerman1302-eng, @xilopaint, and @k-sekula.\n- Doctor no longer destroys data during repair: unreadable legacy auth keeps OAuth profiles, malformed UTF-8 memory files stay byte-exact, and blocked plugins keep their enabled state. (#170256, #169029, #168111) Thanks @Yolo521-bot, @wangmiao0668000666, and @obviyus.\n- The \"On this Mac\" first run on a fresh Mac authenticates the app-hosted Gateway instead of failing with \"Gateway rejected auth\", and the Mac app reconnects after a trusted certificate renewal. (#169403, #168151)\n- Chat-requested updates and plugin upgrades no longer roll back during Doctor cleanup, and stale Codex runtimes no longer break turns after an update. (#170218, #170306, #170339) Thanks @RomneyDa, @hannesrudolph, and @ezimerman.\n- Agent turns are more reliable: the next turn after native compaction, ChatGPT WebSocket closes mid-stream, switching back to OpenAI without the Codex plugin, and Codex follow-ups after failed thread preparation all succeed. (#169583, #167512, #169412, #169431) Thanks @obviyus, @ericcurtin, @mightyx, @jjjhenriksen, and @RomneyDa.\n\n### Changes\n\n- Meta: Muse Wonder is available as a model. (#170232) Thanks @RomneyDa.\n- MiniMax: M3.1 models honor the selected thinking effort level, and OAuth sign-ins refresh expired tokens at the issuing regional endpoint instead of failing about two hours after login. (#160089, #160459) Thanks @NianJiuZst, @php737, @masatohoshino, and @rongtianhua.\n\n### Fixes\n\n- Doctor: keep canonical OAuth profiles when the legacy auth store is unreadable or malformed instead of deleting them. (#170256) Thanks @Yolo521-bot.\n- Doctor: never rewrite root memory files with replacement characters, and reject malformed UTF-8 before `path set` writes an edited file. (#169029, #168491) Thanks @wangmiao0668000666 and @Takhoffman.\n- Doctor: preserve installed plugins when path-sa",
+      "prerelease": false
+    },
+    {
+      "product": "Gemini CLI",
+      "repo": "google-gemini/gemini-cli",
+      "tag": "v0.65.0-nightly.20261013.g51617c1bc",
+      "name": "Release v0.65.0-nightly.20261013.g51617c1bc",
+      "published": "2026-10-13",
+      "url": "https://github.com/google-gemini/gemini-cli/releases/tag/v0.65.0-nightly.20261013.g51617c1bc",
+      "summary": "## What's Changed",
+      "body_excerpt": "## What's Changed\n* fix(cli): keep loading other extensions when one fails the allowlist check by @jesussamuel-byte in https://github.com/google-gemini/gemini-cli/pull/29720\n\n\n**Full Changelog**: https://github.com/google-gemini/gemini-cli/compare/v0.65.0-nightly.20261012.g9b6e0265d...v0.65.0-nightly.20261013.g51617c1bc",
+      "prerelease": true
+    },
+    {
+      "product": "Codex",
+      "repo": "openai/codex",
+      "tag": "rust-v0.163.0-alpha.9",
+      "name": "0.163.0-alpha.9",
+      "published": "2026-10-13",
+      "url": "https://github.com/openai/codex/releases/tag/rust-v0.163.0-alpha.9",
+      "summary": "Release 0.163.0-alpha.9",
+      "body_excerpt": "Release 0.163.0-alpha.9",
+      "prerelease": true
+    },
+    {
+      "product": "Hermes Agent",
+      "repo": "NousResearch/hermes-agent",
+      "tag": "v0.21.7",
+      "name": "Hermes Agent v0.21.7",
+      "published": "2026-10-12",
+      "url": "https://github.com/NousResearch/hermes-agent/releases/tag/v0.21.7",
+      "summary": "# Hermes Agent v0.21.7",
+      "body_excerpt": "# Hermes Agent v0.21.7\n\n**Release Date:** October 11, 2026\n\n> Patch release. This tag rolls up the ~204 PRs merged since v0.21.6 into a stable release for the desktop app (macOS Apple silicon, Windows), the Microsoft Store and MSIX, the installer, Docker and Hermes Cloud. Full curated notes for this window ship with v0.22.0.\n\n<!-- HERMES_BUILDS_TABLE -->\n\n**What this patch ships for source installs (`hermes update` and the desktop app's updater on a git checkout):**\n\n- **Updates now follow tagged releases.** A source install of the official repository updates to the latest published `vX.Y.Z` release instead of every commit on `main`. An install already newer than the latest release stays where it is and waits for the next one; nothing is moved back. To keep following every commit: `hermes update --set-channel main`. Forks and mirrors keep following `main`. Store, MSIX and bundled desktop installs are unchanged.\n- **Choose the channel in the desktop app.** Settings ▸ About ▸ Updates has an *Update channel* switch (Stable releases / Every commit) for source installs, and the update dialog now shows which channel you are on.\n- **Reasoning survives resume.** Signed thinking replays after `hermes chat --resume` and on the next gateway turn, and Bedrock Converse reasoning models no longer get rejected on resumed sessions.\n- **Updates no longer fail behind some firewalls.** Installs on `main` no longer fetch a release record that regional firewalls could answer with 403. The stable check uses your GitHub token when one is set (`GITHUB_TOKEN` or `gh auth login`) and reports a GitHub rate limit as a rate limit.\n\n## About this release\n\nMeasured at commit `1fd18277267152893a8a24792b79213e7ca3f899`, the window since v0.21.6 contains **740 non-merge commits** across **4,156 changed files** (+86,775 / −26,980), **204 merged PRs** and **69 closed issues**.\n\nAlso in the window, undocumented here on purpose: plugins running built-in Desktop app actions (`ctx.runAction`) and a plugin SDK pet bubble (`ctx.pet.say`); core-made Codex requests so plugins never hold the token; skills installed mid-session reaching the model without a prompt rebuild; Krea 2 Medium Turbo as the default image lane for new paid subscribers, with a FAL fallback when managed Krea refuses a request; faster desktop updates (the React Compiler pass cached by content, the compiled renderer reused when only the install stamp changed, unchanged native inputs left in place); pinned installs that check out on",
+      "prerelease": false
+    }
+  ],
+  "level2_people": [
+    "@karpathy",
+    "@bcherny",
+    "@sundarpichai",
+    "@sama",
+    "@gdb",
+    "@DarioAmodei"
+  ],
+  "level2_note": "raw 无人物搜索；无依据时 Level 2 标无新增，勿编造",
+  "level3_note": "本日未扫描行业报告（周报降频）",
+  "level4_hn": [
+    {
+      "title": "AI coding agents generate more code, but not more software",
+      "url": "https://arstechnica.com/ai/2026/10/ai-coding-agents-generate-more-code-but-not-more-software/",
+      "points": 356,
+      "comments": 295,
+      "created": "2026-10-12"
+    },
+    {
+      "title": "AI coding agents generate more code, but not more software",
+      "url": "https://arstechnica.com/ai/2026/10/ai-coding-agents-generate-more-code-but-not-more-software/",
+      "points": 13,
+      "comments": 1,
+      "created": "2026-10-12"
+    },
+    {
+      "title": "The Tragedy of AI Coding",
+      "url": "https://www.theatlantic.com/ideas/2026/10/ai-programming-big-tech-regulations/688960/",
+      "points": 7,
+      "comments": 1,
+      "created": "2026-10-12"
+    },
+    {
+      "title": "Long-term memory for AI coding agents as a tree of plain files",
+      "url": "https://github.com/gonzaroman/IHMT-MEMORY",
+      "points": 4,
+      "comments": 0,
+      "created": "2026-10-11"
+    },
+    {
+      "title": "The Tragedy of AI Coding",
+      "url": "https://www.theatlantic.com/ideas/2026/10/ai-programming-big-tech-regulations/688960/",
+      "points": 3,
+      "comments": 0,
+      "created": "2026-10-13"
+    }
+  ]
+}
