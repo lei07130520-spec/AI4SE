@@ -1,0 +1,111 @@
+{
+  "briefing_date": "2026-10-15",
+  "period_start": "2026-10-13",
+  "period_end": "2026-10-15",
+  "previous_briefing_date": "2026-10-14",
+  "previous_briefing_excerpt": "# AI x 研发效能 每日简报 2026-10-14\n\n> 覆盖周期：2026-10-12 ~ 2026-10-14（上一期：2026-10-13）\n\n> **采集方式**：GitHub Actions 自动采集（Level 1 GitHub API + Level 4 HN API）｜Level 2/3 待人工或 API 密钥补充\n\n---\n\n## 头条速览\n\n1. **OpenClaw v2026.10.3**——## 2026.10.3\n2. **Gemini CLI v0.65.0-nightly.20261013.g51617c1bc**——## What's Changed\n3. **Codex rust-v0.163.0-alpha.9**——Release 0.163.0-alpha.9\n\n---\n\n## 一、AI 增强软件研发（AI4SE）\n\n### 1.1 Level 1：核心产品与工程更新\n\n#### 1️⃣ OpenClaw v2026.10.3（2026-10-13）\n\n## 2026.10.3\n\n来源：[v2026.10.3](https://github.com/openclaw/openclaw/releases/tag/v2026.10.3) — 2026-10-13\n\n#### 2️⃣ Gemini CLI v0.65.0-nightly.20261013.g51617c1bc（2026-10-13）\n\n## What's Changed\n\n来源：[v0.65.0-nightly.20261013.g51617c1bc](https://github.com/google-gemini/gemini-cli/releases/tag/v0.65.0-nightly.20261013.g51617c1bc) — 2026-10-13\n\n#### 3️⃣ Codex rust-v0.163.0-alpha.9（2026-10-13）\n\nRelease 0.163.0-alpha.9\n\n来源：[rust-v0.163.0-alpha.9](https://github.com/openai/codex/releases/tag/rust-v0.163.0-alpha.9) — 2026-10-13\n\n#### 4️⃣ Hermes Agent v0.21.7（2026-10-12）\n\n# Hermes Agent v0.21.7\n\n来源：[v0.21.7](https://github.com/NousResearch/hermes-agent/releases/tag/v0.21.7) — 2026-10-12\n\n---\n\n### 1.2 Level 2：关键人物战略洞察\n\n| 人物 | 动态 | 日期 |\n|---|---|---|\n| @karpathy | 自动采集未配置（需 WebSearch / X 间接源） | — |\n| @bcherny | 自动采集未配置（需 WebSearch / X 间接源） | — |\n| @sundarpichai | 自动采集未配置（需 WebSearch / X 间接源） | — |\n| @sama | 自动采集未配置（需 WebSearch / X 间接源） | — |\n| @gdb | 自动采集未配置（需 WebSearch / X 间接源） | — |\n| @DarioAmodei | 自动采集未配置（需 WebSearch / X 间接源） | — |\n\n---\n\n### 1.3 Level 3：行业研究与数据\n\n> **本日未扫描**（周报/月报降频）。\n\n---\n\n### 1.4 Level 4：补充信源（HN）\n\n- **2026-10-12**：[AI coding agents generate more code, but not more software](https://arstechnica.com/ai/2026/10/ai-coding-agents-generate-more-code-but-not-more-software/) （356 pts / 295 comments）\n- **2026-10-12**：[AI coding agents generate more code, but not more software](https://arstechnica.com/ai/2026/10/ai-coding-agents-generate-more-code-but-not-more-software/) （13 pts / 1 comments）\n- **2026-10-12**：[The Tragedy of AI Coding](https://www.theatlantic.com/ideas/2026/10/ai-programming-big-tech-regulations/688960/) （7 pts / 1 comments）\n- **2026-10-11**：[Long-term memory for AI coding agents as a tree of plain files](https://github.com/gonzaroman/IHMT-MEMORY) （4 pts / 0 comments）\n- **2026-10-13**：[The Tragedy of AI Coding](https://www.theatlantic.com/ideas/2026/10/ai-programming-big-tech-regulations/688960/) （3 pts / 0 comments）\n\n---\n\n## 附录：采集日志\n\n| 环节 | 状态 |\n|---|---|\n| GitHub Releases API | ✅ 4 条 |\n| HN Algolia API | ✅ 5 条 |\n| 生成时间 (UTC) | 2026-10-13 19:35 |\n\n*自动生成版 · 可在 Cursor 中基于本稿补充 Level 2 分析与专题*\n",
+  "level1_releases": [
+    {
+      "product": "Claude Code",
+      "repo": "anthropics/claude-code",
+      "tag": "v2.1.299",
+      "name": "v2.1.299",
+      "published": "2026-10-14",
+      "url": "https://github.com/anthropics/claude-code/releases/tag/v2.1.299",
+      "summary": "## What's changed",
+      "body_excerpt": "## What's changed\n\n- Added `CLAUDE_CODE_DISABLE_FILE_MENTIONS` environment variable: Claude gets the paths of `@` file mentions to read with its file tools, not the files' contents\n- Added idle compaction in the terminal: a 200K+ token conversation left idle for about 54 minutes is compacted before its one-hour prompt cache expires, so your next message doesn't reprocess it all\n- Added `CLAUDE_CODE_IDLE_COMPACT_MIN_TOKENS` to change idle compaction's 200K-token minimum; `\"idleCompaction\": false` in settings.json turns it off. Both need v2.1.290 or later\n- Added `$.prompt.media` so a `prompt.submit` hook of a mod installed by managed settings can read the bytes of an image or document attached to the prompt\n- Added `$.session.identity()` for mods installed by managed settings: how the session is signed in, and its organization and email when managed `forceLoginOrgUUID` lists that organization\n- Added `size`, `weight`, `mono` and `tabular` to a mod's `Text` and named spacing steps (`xs` to `xl`) to its `Box`; `bold` is deprecated in favor of `weight`\n- Added `--shutdown-drain-sec` to `claude self-hosted-runner orchestrator`: on SIGTERM it stops polling and gives the poll in flight and running spawn hooks up to that many seconds to finish\n- Added the skill's frontmatter, source, plugin name and file path to what a mod's `skill.prompt` hook receives\n- Added `/effort` and `/fast` in agent view to set what new sessions start with; a bare `/model`, `/effort` or `/fast` there now opens a picker\n- Added a \"safe mode\" line to the agents view peek panel for background sessions started with `--safe-mode`\n- Added a one-time note when plan mode won't ask before most edits or commands because bypass permissions is available\n- Added `--disallow-tools` and a `disallowed_tools` case field to `claude plugin eval` to keep specific built-in tools, such as Agent, out of eval runs\n- Added support for turning off the attribution block in Claude Desktop's Code tab: set `CLAUDE_CODE_ATTRIBUTION_HEADER=0` in the `env` of a Claude apps gateway's `code` policy\n- Added a field to the attribution block in Claude Code sessions behind a Claude apps gateway; remove the block with `CLAUDE_CODE_ATTRIBUTION_HEADER=0`\n- Added a `queue` door to the `session.append` mod hook, so a mod can make the transcript's queue records differ from the prompt as sent\n- Added a note in `/plugin` and `claude plugin validate` naming a mod's hooks that are skipped where an organization manages Claude Code\n- Adde",
+      "prerelease": false
+    },
+    {
+      "product": "Hermes Agent",
+      "repo": "NousResearch/hermes-agent",
+      "tag": "v0.22.0",
+      "name": "Hermes Agent v0.22.0 — The Threshold Release",
+      "published": "2026-10-14",
+      "url": "https://github.com/NousResearch/hermes-agent/releases/tag/v0.22.0",
+      "summary": "# Hermes Agent v0.22.0",
+      "body_excerpt": "# Hermes Agent v0.22.0\n\n**Release Date:** October 13, 2026\n**Since v0.21.0:** ~24,200 commits · ~6,080 merged PRs · ~15,600 files changed · ~2,045,000 insertions · ~1,140,000 deletions · **~7,180 issues closed** · ~2,520 contributors\n\n> **The Threshold Release.** Hermes was the god of thresholds: the doorway, the crossing, the boundary stone. v0.21.0 assembled the pantheon; v0.22.0 is about getting through the door. A fresh desktop install now opens on a guided setup chat that runs on a free trial model, so a newcomer is talking to Hermes before they own an API key. Connectors carry the agent across into the apps you already use, with no account needed to start. Local models bring it home to your own hardware with a one-click llama.cpp runtime. And the threshold itself got sturdier: tested SemVer stable releases that installs follow by default, signed desktop packages (including the Microsoft Store), and one package manager underneath everything. Around that spine: a 600-plugin catalog, the Claude 5.5 / GPT-6 model wave, password-manager sign-in for the browser, a bot screen you can take over, one backend and one gateway for every profile, and a codebase a third smaller. This is the largest window Hermes has shipped, about 2.5x the v0.21.0 cycle, and it rolls up and fully documents the v0.21.1–v0.21.7 patch releases.\n\n<!-- HERMES_BUILDS_TABLE -->\n\n---\n\n## ✨ Highlights\n\n- **A first launch that sets itself up** — Open the desktop app on a computer where you have never used Hermes and it starts a short setup chat instead of a settings screen. One card at a time it asks your name, an accent color and a layout, which apps to connect, which plugins to install, then gives a quick tour and offers up to four first tasks picked for you. It runs on a free trial model (`nous/welcome`, once per OS user), so it needs no key; **Skip setup** ends it and **Settings → Run onboarding again** brings it back. The agent also gained `set_theme`, so \"make it violet, dark mode\" works in any desktop chat. ([#137429](https://github.com/NousResearch/hermes-agent/pull/137429), [#137522](https://github.com/NousResearch/hermes-agent/pull/137522), [#137807](https://github.com/NousResearch/hermes-agent/pull/137807), [#134209](https://github.com/NousResearch/hermes-agent/pull/134209), [#105258](https://github.com/NousResearch/hermes-agent/pull/105258) — @alt-glitch, @OutThisLife, @ethernet8023, @rewbs)\n\n- **Connectors: Hermes works inside your apps** — The agent can now act in hosted apps ",
+      "prerelease": false
+    },
+    {
+      "product": "Codex",
+      "repo": "openai/codex",
+      "tag": "rust-v0.163.0-alpha.11",
+      "name": "0.163.0-alpha.11",
+      "published": "2026-10-14",
+      "url": "https://github.com/openai/codex/releases/tag/rust-v0.163.0-alpha.11",
+      "summary": "Release 0.163.0-alpha.11",
+      "body_excerpt": "Release 0.163.0-alpha.11",
+      "prerelease": true
+    },
+    {
+      "product": "OpenClaw",
+      "repo": "openclaw/openclaw",
+      "tag": "v2026.10.3",
+      "name": "openclaw 2026.10.3",
+      "published": "2026-10-13",
+      "url": "https://github.com/openclaw/openclaw/releases/tag/v2026.10.3",
+      "summary": "<!-- openclaw-release-publication:docs-v1 -->",
+      "body_excerpt": "<!-- openclaw-release-publication:docs-v1 -->\n\n## OpenClaw v2026.10.3\n\n90 commits · 79 pull requests · 99 contributors\n\n### Changes included in this release\n\nThe release notes and changelog contain the same content, presented in two formats:\n\n- [Release notes](https://docs.openclaw.ai/releases/2026.10.3) — formatted for people.\n- [Changelog](https://raw.githubusercontent.com/openclaw/openclaw/main/CHANGELOG/2026.10.3.md) — plain Markdown for AI agents and tools.\n\n### Thanks\n\n[@aaajiao](https://github.com/aaajiao) [@adenzhou1350](https://github.com/adenzhou1350) [@aia007731-lab](https://github.com/aia007731-lab) [@aleps001](https://github.com/aleps001) [@alexph-dev](https://github.com/alexph-dev) [@an2in](https://github.com/an2in) [@arifarai](https://github.com/arifarai) [@bluet](https://github.com/bluet) [@ceckert](https://github.com/ceckert) [@chedong](https://github.com/chedong) [@clawdgawd](https://github.com/clawdgawd) [@Claynetic](https://github.com/Claynetic) [@CodeForcer](https://github.com/CodeForcer) [@creanet-64](https://github.com/creanet-64) [@davidevelyn](https://github.com/davidevelyn) [@davidmackrory-byte](https://github.com/davidmackrory-byte) [@destinedenergy](https://github.com/destinedenergy) [@DonnieFi](https://github.com/DonnieFi) [@eduherranz](https://github.com/eduherranz) [@ericcurtin](https://github.com/ericcurtin) [@ezimerman](https://github.com/ezimerman) [@frxiaobei](https://github.com/frxiaobei) [@fuller-stack-dev](https://github.com/fuller-stack-dev) [@georgenaz](https://github.com/georgenaz) [@gisk0](https://github.com/gisk0) [@GoldenrodScript](https://github.com/GoldenrodScript) [@goutamadwant](https://github.com/goutamadwant) [@Grynn](https://github.com/Grynn) [@h6y3](https://github.com/h6y3) [@hannesrudolph](https://github.com/hannesrudolph) [@Hansen1018](https://github.com/Hansen1018) [@harshitgupta31415](https://github.com/harshitgupta31415) [@holgergruenhagen](https://github.com/holgergruenhagen) [@Jeehut](https://github.com/Jeehut) [@jjjhenriksen](https://github.com/jjjhenriksen) [@jlapenna](https://github.com/jlapenna) [@jokerman1302-eng](https://github.com/jokerman1302-eng) [@josephsilvagnoli](https://github.com/josephsilvagnoli) [@joshpetras](https://github.com/joshpetras) [@jullianatolentino](https://github.com/jullianatolentino) [@justinforsound](https://github.com/justinforsound) [@k-sekula](https://github.com/k-sekula) [@k94118](https://github.com/k94118) [@kimjinsuhh](https://github.com/kimjinsuhh) [@kiranvk-20",
+      "prerelease": false
+    },
+    {
+      "product": "Gemini CLI",
+      "repo": "google-gemini/gemini-cli",
+      "tag": "v0.64.0",
+      "name": "Release v0.64.0",
+      "published": "2026-10-13",
+      "url": "https://github.com/google-gemini/gemini-cli/releases/tag/v0.64.0",
+      "summary": "## What's Changed",
+      "body_excerpt": "## What's Changed\n* refactor(a2a-server): implement V1 to V2 settings migration logic by @jvargassanchez-dot in https://github.com/google-gemini/gemini-cli/pull/29450\n* fix(acp): bridge PromptResponse.usage and emit usage_update notifications (#29389) by @elberthc-byte in https://github.com/google-gemini/gemini-cli/pull/29549\n* Changelog for v0.63.0-preview.0 by @gemini-cli-robot in https://github.com/google-gemini/gemini-cli/pull/29565\n* fix(cli): propagate resolved folder trust state in headless mode (#29031) by @amelidev in https://github.com/google-gemini/gemini-cli/pull/29528\n* chore(release): bump version to 0.64.0-nightly.20260929.gd75234cae by @gemini-cli-robot in https://github.com/google-gemini/gemini-cli/pull/29567\n* fix(cli): prevent CPU hang and quote swallowing on @ within code (#29434) by @elberthc-byte in https://github.com/google-gemini/gemini-cli/pull/29557\n* fix(core): serialize file tool operations and make writes atomic (#29078) by @elberthc-byte in https://github.com/google-gemini/gemini-cli/pull/29499\n* fix(core): implement append-only delta patching and bounded history windowing in ChatRecordingService by @jvargassanchez-dot in https://github.com/google-gemini/gemini-cli/pull/29568\n* fix(cli): persist state atomically and recover from backup on corruption by @urielefrenvirtusa in https://github.com/google-gemini/gemini-cli/pull/29558\n* fix(cli): ensure Ctrl+C emergency abort reaches cancellation handler during active operations by @urielefrenvirtusa in https://github.com/google-gemini/gemini-cli/pull/29586\n* fix(cli): resolve @file:line references and prevent ghost text wrap hang by @jesussamuel-byte in https://github.com/google-gemini/gemini-cli/pull/29581\n* fix(ui): ensure Windows ConPTY forwards IME cursor position by @jesussamuel-byte in https://github.com/google-gemini/gemini-cli/pull/29560\n* fix(cli): retry directory removal on Windows locking errors during extension updates by @jesussamuel-byte in https://github.com/google-gemini/gemini-cli/pull/29540\n* fix(acp): resolve session by exact id and handle listener cleanup on session failure by @diegogodinezr in https://github.com/google-gemini/gemini-cli/pull/29580\n* fix(cli): preserve scroll position and partition pending height budget by @luisfelipe-alt in https://github.com/google-gemini/gemini-cli/pull/29520\n* fix(cli): ensure Enter and Spacebar reliably confirm selection list options by @ugorla-dev in https://github.com/google-gemini/gemini-cli/pull/29502\n* fix(patch): cherr",
+      "prerelease": false
+    }
+  ],
+  "level2_people": [
+    "@karpathy",
+    "@bcherny",
+    "@sundarpichai",
+    "@sama",
+    "@gdb",
+    "@DarioAmodei"
+  ],
+  "level2_note": "raw 无人物搜索；无依据时 Level 2 标无新增，勿编造",
+  "level3_note": "本日未扫描行业报告（周报降频）",
+  "level4_hn": [
+    {
+      "title": "AI coding agents generate more code, but not more software",
+      "url": "https://arstechnica.com/ai/2026/10/ai-coding-agents-generate-more-code-but-not-more-software/",
+      "points": 364,
+      "comments": 308,
+      "created": "2026-10-12"
+    },
+    {
+      "title": "AI coding agents generate more code, but not more software",
+      "url": "https://arstechnica.com/ai/2026/10/ai-coding-agents-generate-more-code-but-not-more-software/",
+      "points": 13,
+      "comments": 1,
+      "created": "2026-10-12"
+    },
+    {
+      "title": "The Tragedy of AI Coding",
+      "url": "https://www.theatlantic.com/ideas/2026/10/ai-programming-big-tech-regulations/688960/",
+      "points": 7,
+      "comments": 1,
+      "created": "2026-10-12"
+    },
+    {
+      "title": "The Tragedy of AI Coding",
+      "url": "https://www.theatlantic.com/ideas/2026/10/ai-programming-big-tech-regulations/688960/",
+      "points": 5,
+      "comments": 0,
+      "created": "2026-10-13"
+    },
+    {
+      "title": "In the AI era, coding means thinking like a systems architect",
+      "url": "https://www.nature.com/articles/d41586-026-02715-x",
+      "points": 2,
+      "comments": 0,
+      "created": "2026-10-14"
+    }
+  ]
+}
