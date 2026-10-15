@@ -1,0 +1,111 @@
+{
+  "briefing_date": "2026-10-16",
+  "period_start": "2026-10-14",
+  "period_end": "2026-10-16",
+  "previous_briefing_date": "2026-10-15",
+  "previous_briefing_excerpt": "# AI x 研发效能 每日简报 2026-10-15\n\n> 覆盖周期：2026-10-13 ~ 2026-10-15（上一期：2026-10-14）\n\n> **采集方式**：GitHub Actions 自动采集（Level 1 GitHub API + Level 4 HN API）｜Level 2/3 待人工或 API 密钥补充\n\n---\n\n## 头条速览\n\n1. **Claude Code v2.1.299**——## What's changed\n2. **Hermes Agent v0.22.0**——# Hermes Agent v0.22.0\n3. **Codex rust-v0.163.0-alpha.11**——Release 0.163.0-alpha.11\n\n---\n\n## 一、AI 增强软件研发（AI4SE）\n\n### 1.1 Level 1：核心产品与工程更新\n\n#### 1️⃣ Claude Code v2.1.299（2026-10-14）\n\n## What's changed\n\n来源：[v2.1.299](https://github.com/anthropics/claude-code/releases/tag/v2.1.299) — 2026-10-14\n\n#### 2️⃣ Hermes Agent v0.22.0（2026-10-14）\n\n# Hermes Agent v0.22.0\n\n来源：[v0.22.0](https://github.com/NousResearch/hermes-agent/releases/tag/v0.22.0) — 2026-10-14\n\n#### 3️⃣ Codex rust-v0.163.0-alpha.11（2026-10-14）\n\nRelease 0.163.0-alpha.11\n\n来源：[rust-v0.163.0-alpha.11](https://github.com/openai/codex/releases/tag/rust-v0.163.0-alpha.11) — 2026-10-14\n\n#### 4️⃣ OpenClaw v2026.10.3（2026-10-13）\n\n<!-- openclaw-release-publication:docs-v1 -->\n\n来源：[v2026.10.3](https://github.com/openclaw/openclaw/releases/tag/v2026.10.3) — 2026-10-13\n\n#### 5️⃣ Gemini CLI v0.64.0（2026-10-13）\n\n## What's Changed\n\n来源：[v0.64.0](https://github.com/google-gemini/gemini-cli/releases/tag/v0.64.0) — 2026-10-13\n\n---\n\n### 1.2 Level 2：关键人物战略洞察\n\n| 人物 | 动态 | 日期 |\n|---|---|---|\n| @karpathy | 自动采集未配置（需 WebSearch / X 间接源） | — |\n| @bcherny | 自动采集未配置（需 WebSearch / X 间接源） | — |\n| @sundarpichai | 自动采集未配置（需 WebSearch / X 间接源） | — |\n| @sama | 自动采集未配置（需 WebSearch / X 间接源） | — |\n| @gdb | 自动采集未配置（需 WebSearch / X 间接源） | — |\n| @DarioAmodei | 自动采集未配置（需 WebSearch / X 间接源） | — |\n\n---\n\n### 1.3 Level 3：行业研究与数据\n\n> **本日未扫描**（周报/月报降频）。\n\n---\n\n### 1.4 Level 4：补充信源（HN）\n\n- **2026-10-12**：[AI coding agents generate more code, but not more software](https://arstechnica.com/ai/2026/10/ai-coding-agents-generate-more-code-but-not-more-software/) （364 pts / 308 comments）\n- **2026-10-12**：[AI coding agents generate more code, but not more software](https://arstechnica.com/ai/2026/10/ai-coding-agents-generate-more-code-but-not-more-software/) （13 pts / 1 comments）\n- **2026-10-12**：[The Tragedy of AI Coding](https://www.theatlantic.com/ideas/2026/10/ai-programming-big-tech-regulations/688960/) （7 pts / 1 comments）\n- **2026-10-13**：[The Tragedy of AI Coding](https://www.theatlantic.com/ideas/2026/10/ai-programming-big-tech-regulations/688960/) （5 pts / 0 comments）\n- **2026-10-14**：[In the AI era, coding means thinking like a systems architect](https://www.nature.com/articles/d41586-026-02715-x) （2 pts / 0 comments）\n\n---\n\n## 附录：采集日志\n\n| 环节 | 状态 |\n|---|---|\n| GitHub Releases API | ✅ 5 条 |\n| HN Algolia API | ✅ 5 条 |\n| 生成时间 (UTC) | 2026-10-14 17:39 |\n\n*自动生成版 · 可在 Cursor 中基于本稿补充 Level 2 分析与专题*\n",
+  "level1_releases": [
+    {
+      "product": "OpenClaw",
+      "repo": "openclaw/openclaw",
+      "tag": "v2026.9.33",
+      "name": "openclaw 2026.9.33",
+      "published": "2026-10-15",
+      "url": "https://github.com/openclaw/openclaw/releases/tag/v2026.9.33",
+      "summary": "This is a gateway-only `extended-stable` release, which is our current equivalent to LTS. This release is OpenClaw from the end of September 2026, plus critical security updates, reliability and perfo",
+      "body_excerpt": "This is a gateway-only `extended-stable` release, which is our current equivalent to LTS. This release is OpenClaw from the end of September 2026, plus critical security updates, reliability and performance fixes, and features like new model support. The latest version of OpenClaw at the time of this release is [2026.10.3](https://github.com/openclaw/openclaw/releases#release-v2026.10.3)\n\n## 2026.9.33\n\n### Highlights\n\n- **Safer September upgrades:** updates on the 2026.9 line keep state, plugin data, service ownership, and Windows state paths intact, and refuse automatic restore over unattributed Doctor writes. (#160167, #166755) Thanks @RomneyDa, @vyctorbrzezowski, @jalehman, @Alix-007, @jayzhou2309, @nitinjwadhawan, @SunnyShu0925, @obviyus, @vincentkoc, @taihartman, and @DonnieFi.\n- **Updates that finish on pnpm, npm, and Windows:** pnpm 12 Gateway services and launchers survive native updates, retained updater runtimes no longer block npm recovery, and Windows updates no longer roll back after Doctor rechecks driver ancestry. (#170003, #170131, #170170, #169563) Thanks @xilopaint, @k-sekula, @Warhangel, @RomneyDa, @DonnieFi, @Takhoffman, @NianJiuZst, @masatohoshino, @obviyus, @ericcurtin, @jjjhenriksen, @sjf-oa, @ceckert, @jayzhou2309, @brokemac79, @Yolo521-bot, @mightyx, and @ajmtrz.\n- **New model support:** run Meta Muse Wonder, use MiniMax M3.1 thinking effort levels, and stay signed in to MiniMax portal OAuth past token expiry. (#170232, #160089, #160459) Thanks @RomneyDa, @NianJiuZst, @Takhoffman, @php737, @masatohoshino, @rongtianhua, @DonnieFi, @obviyus, @ericcurtin, @jjjhenriksen, @sjf-oa, @ceckert, @jayzhou2309, @brokemac79, @xilopaint, @k-sekula, @Warhangel, @Yolo521-bot, @mightyx, and @ajmtrz.\n- **More reliable model turns:** agent runs honor live thinking levels, local providers get response-header deadlines, ChatGPT WebSocket normal closes recover, and Codex replies keep their final tokens. (#168566, #168282, #167512, #168400) Thanks @obviyus, @ericcurtin, @mightyx, @RomneyDa, @DonnieFi, @Takhoffman, @NianJiuZst, @masatohoshino, @jjjhenriksen, @sjf-oa, @ceckert, @jayzhou2309, @brokemac79, @xilopaint, @k-sekula, @Warhangel, @Yolo521-bot, and @ajmtrz.\n- **Work survives Gateway restarts:** interrupted automation turns, steered sessions, cloud worker claims, and partial worker replies now resume or persist after a restart. (#170162, #170252, #170161, #170223) Thanks @DonnieFi, @Takhoffman, @NianJiuZst, @RomneyDa, @masatohoshino, @obviyus, @eric",
+      "prerelease": false
+    },
+    {
+      "product": "Hermes Agent",
+      "repo": "NousResearch/hermes-agent",
+      "tag": "v0.22.2",
+      "name": "Hermes Agent v0.22.2",
+      "published": "2026-10-15",
+      "url": "https://github.com/NousResearch/hermes-agent/releases/tag/v0.22.2",
+      "summary": "# Hermes Agent v0.22.2",
+      "body_excerpt": "# Hermes Agent v0.22.2\n\n**Release Date:** October 15, 2026\n\nv0.22.1 was built from the wrong commit. It shipped unreleased gateway work, and the Microsoft Store app could stick on \"Connecting.\" 0.22.2 is the release 0.22.1 was meant to be.\n\n> **Known issue:** Sessions that ran under the 0.22.1 gateway can't be deleted in 0.22.2.\n\n<!-- HERMES_BUILDS_TABLE -->\n\n## Highlights\n\n- **The gateway starts after a reboot again.** After a restart, Linux can hand an early PID to an unrelated process, and the gateway could mistake it for a running gateway, so a supervised gateway (systemd, launchd, Docker) refused to start. Hermes now records the boot it started in, and when it can't tell, it asks the host lock, which only a live gateway holds. ([#138594](https://github.com/NousResearch/hermes-agent/pull/138594), fixes [#133744](https://github.com/NousResearch/hermes-agent/issues/133744))\n- **Long local-model turns survive on laptops.** Local requests always stream with prompt-reading progress (shown in the status line), stall timers skip time the machine was asleep, a recovered local server gets another try instead of a breaker that failed every later message, and compression no longer times out while the server is still reading a long conversation. On Windows unified-memory machines, model launch and the prompt cache are sized to free memory. ([#138560](https://github.com/NousResearch/hermes-agent/pull/138560))\n\nBelow is everything in the 0.22 release line since v0.22.0: the fixes 0.22.1 was meant to ship, plus the two above. Work that is only on `main` ships with v0.23.0.\n\n## ✨ Features\n\n- **Release:** split the Microsoft Store bundle into its own windows-store lane ([`f9d8a740`](https://github.com/NousResearch/hermes-agent/commit/f9d8a74035101d95ef2a622fb01b2f9bbc34f0ef)) — @ethernet8023\n- **Agent:** add nemotron super 3.5 default parameters ([`c59d2994`](https://github.com/NousResearch/hermes-agent/commit/c59d299408e924c3682619e7d9d368891d4b709e)) — @elisam0\n- **Cli:** add nemotron to NVIDIA NIM default model list ([`cc55270e`](https://github.com/NousResearch/hermes-agent/commit/cc55270ec033729ed04f510fba3737aa65e027a7)) — @elisam0\n- **Cli:** add curated model list at the top in the model picker list ([`e6835fd3`](https://github.com/NousResearch/hermes-agent/commit/e6835fd3cb3bb399ce06cac5356c36226483b889)) — @elisam0\n- **Release:** choose what a stable release builds and tests with lanes ([`36a8ee18`](https://github.com/NousResearch/hermes-agent/commit/36a8ee18cd",
+      "prerelease": false
+    },
+    {
+      "product": "Claude Code",
+      "repo": "anthropics/claude-code",
+      "tag": "v2.1.300",
+      "name": "v2.1.300",
+      "published": "2026-10-14",
+      "url": "https://github.com/anthropics/claude-code/releases/tag/v2.1.300",
+      "summary": "## What's changed",
+      "body_excerpt": "## What's changed\n\n- Added `virtualText` to a mod's prompt decorations: text drawn in the prompt box that never enters the draft or the submitted prompt\n- Added `cache_creation_5m_tokens` and `cache_creation_1h_tokens` to the OpenTelemetry `api_request` event, splitting cache writes by lifetime\n- Added `$.ui.view({ agentId })` for mods: shows an agent's transcript in the main view when you ask, and `$.ui.view({})` goes back\n- Added a `dir` prop on a mod's `Text` for right-to-left text: on Windows and in VS Code's terminal its rows read in that direction and sit flush right\n- Added `/advisor` on Claude Platform on AWS; no advisor runs until you pick one with `/advisor`, `advisorModel` or `--advisor`, and `CLAUDE_CODE_DISABLE_ADVISOR_TOOL=1` turns it off\n- Added OpenTelemetry GenAI semantic-convention attributes to trace spans, such as `gen_ai.provider.name`, `gen_ai.conversation.id`, `gen_ai.tool.name` and `error.type`\n- Added support for rewriting a workflow agent's `prompt` and `model` in the `agent.spawn` mod hook, which could only refuse workflow agents before\n- Added the `prompt.change` mod hook, raised when the prompt box's text changes without a typed edit: a recalled history entry, a clear, an undo, or a plugin's fill\n- Fixed cloud sessions telling Claude that an organization policy blocked a host when the session's own network settings did\n- Fixed `/autocompact` warning about high token usage when you choose a smaller auto-compact window\n- Fixed SessionEnd hooks sometimes not running when you exit while a background command is still running\n- Fixed `claude --help` naming a removed tool in its description of `--restricted`\n- Fixed `claude agents` not refreshing any pull request's status when the data for one of them came back incomplete\n- Fixed Claude being told a background agent was lost, not resumable, after a cloud session's container was replaced, when the agent had already been resumed once\n- Fixed subagents you had typed messages to disappearing from `/tasks` shortly after finishing, leaving no way back to the conversation\n- Fixed a completed parent agent dropping off the breadcrumb (its child shown re-rooted at top level) while you were viewing the child\n- Fixed the agents view taking a typed word such as \"up\", \"down\" or \"escape\" for that key when input arrived in a burst, which could move the peek mid-reply or clear a draft\n- Fixed automatic tool search (`ENABLE_TOOL_SEARCH=auto`) turning off part-way through a conversation, for example whi",
+      "prerelease": false
+    },
+    {
+      "product": "Gemini CLI",
+      "repo": "google-gemini/gemini-cli",
+      "tag": "v0.65.0-nightly.20261014.g42c518220",
+      "name": "Release v0.65.0-nightly.20261014.g42c518220",
+      "published": "2026-10-14",
+      "url": "https://github.com/google-gemini/gemini-cli/releases/tag/v0.65.0-nightly.20261014.g42c518220",
+      "summary": "## What's Changed",
+      "body_excerpt": "## What's Changed\n* fix(cli): correct reverse search highlight index for expanding unicode characters by @diegogodinezr in https://github.com/google-gemini/gemini-cli/pull/29699\n* fix(core): treat whitespace-only UTF-16 and UTF-32 files as empty by @jesussamuel-byte in https://github.com/google-gemini/gemini-cli/pull/29722\n* fix(cli): restore debounced static UI refresh on terminal width changes by @jvargassanchez-dot in https://github.com/google-gemini/gemini-cli/pull/29644\n* fix(cli): prevent session poisoning on rapid Ctrl-C interruption by @villahernandez-coder in https://github.com/google-gemini/gemini-cli/pull/29728\n* Update ROADMAP.md to no longer reference outdated 2025 roadmap by @DavidAPierce in https://github.com/google-gemini/gemini-cli/pull/29723\n* Changelog for v0.65.0-preview.0 by @gemini-cli-robot in https://github.com/google-gemini/gemini-cli/pull/29739\n\n\n**Full Changelog**: https://github.com/google-gemini/gemini-cli/compare/v0.65.0-nightly.20261013.g51617c1bc...v0.65.0-nightly.20261014.g42c518220",
+      "prerelease": true
+    },
+    {
+      "product": "Codex",
+      "repo": "openai/codex",
+      "tag": "rust-v0.163.0-alpha.11",
+      "name": "0.163.0-alpha.11",
+      "published": "2026-10-14",
+      "url": "https://github.com/openai/codex/releases/tag/rust-v0.163.0-alpha.11",
+      "summary": "Release 0.163.0-alpha.11",
+      "body_excerpt": "Release 0.163.0-alpha.11",
+      "prerelease": true
+    }
+  ],
+  "level2_people": [
+    "@karpathy",
+    "@bcherny",
+    "@sundarpichai",
+    "@sama",
+    "@gdb",
+    "@DarioAmodei"
+  ],
+  "level2_note": "raw 无人物搜索；无依据时 Level 2 标无新增，勿编造",
+  "level3_note": "本日未扫描行业报告（周报降频）",
+  "level4_hn": [
+    {
+      "title": "Aidlc: Adaptive workflow steering rules for AI coding agents",
+      "url": "https://github.com/awslabs/aidlc-workflows",
+      "points": 18,
+      "comments": 16,
+      "created": "2026-10-15"
+    },
+    {
+      "title": "The Tragedy of AI Coding",
+      "url": "https://www.theatlantic.com/ideas/2026/10/ai-programming-big-tech-regulations/688960/",
+      "points": 5,
+      "comments": 0,
+      "created": "2026-10-13"
+    },
+    {
+      "title": "RenkuOS: Haiku OS forked with AI-assisted coding and LLM integrations",
+      "url": "https://renkuos.org/",
+      "points": 2,
+      "comments": 1,
+      "created": "2026-10-15"
+    },
+    {
+      "title": "In the AI era, coding means thinking like a systems architect",
+      "url": "https://www.nature.com/articles/d41586-026-02715-x",
+      "points": 2,
+      "comments": 0,
+      "created": "2026-10-14"
+    },
+    {
+      "title": "Show HN: AI Interview Index – which companies allow AI in coding interviews",
+      "url": "https://aiinterviewindex.com",
+      "points": 1,
+      "comments": 1,
+      "created": "2026-10-14"
+    }
+  ]
+}
