@@ -1,0 +1,111 @@
+{
+  "briefing_date": "2026-10-17",
+  "period_start": "2026-10-15",
+  "period_end": "2026-10-17",
+  "previous_briefing_date": "2026-10-16",
+  "previous_briefing_excerpt": "# AI x 研发效能 每日简报 2026-10-16\n\n> 覆盖周期：2026-10-14 ~ 2026-10-16（上一期：2026-10-15）\n\n> **采集方式**：GitHub Actions 自动采集（Level 1 GitHub API + Level 4 HN API）｜Level 2/3 待人工或 API 密钥补充\n\n---\n\n## 头条速览\n\n1. **OpenClaw v2026.9.33**——This is a gateway-only `extended-stable` release\n2. **Hermes Agent v0.22.2**——# Hermes Agent v0.22.2\n3. **Claude Code v2.1.300**——## What's changed\n\n---\n\n## 一、AI 增强软件研发（AI4SE）\n\n### 1.1 Level 1：核心产品与工程更新\n\n#### 1️⃣ OpenClaw v2026.9.33（2026-10-15）\n\nThis is a gateway-only `extended-stable` release, which is our current equivalent to LTS. This release is OpenClaw from the end of September 2026, plus critical security updates, reliability and perfo\n\n来源：[v2026.9.33](https://github.com/openclaw/openclaw/releases/tag/v2026.9.33) — 2026-10-15\n\n#### 2️⃣ Hermes Agent v0.22.2（2026-10-15）\n\n# Hermes Agent v0.22.2\n\n来源：[v0.22.2](https://github.com/NousResearch/hermes-agent/releases/tag/v0.22.2) — 2026-10-15\n\n#### 3️⃣ Claude Code v2.1.300（2026-10-14）\n\n## What's changed\n\n来源：[v2.1.300](https://github.com/anthropics/claude-code/releases/tag/v2.1.300) — 2026-10-14\n\n#### 4️⃣ Gemini CLI v0.65.0-nightly.20261014.g42c518220（2026-10-14）\n\n## What's Changed\n\n来源：[v0.65.0-nightly.20261014.g42c518220](https://github.com/google-gemini/gemini-cli/releases/tag/v0.65.0-nightly.20261014.g42c518220) — 2026-10-14\n\n#### 5️⃣ Codex rust-v0.163.0-alpha.11（2026-10-14）\n\nRelease 0.163.0-alpha.11\n\n来源：[rust-v0.163.0-alpha.11](https://github.com/openai/codex/releases/tag/rust-v0.163.0-alpha.11) — 2026-10-14\n\n---\n\n### 1.2 Level 2：关键人物战略洞察\n\n| 人物 | 动态 | 日期 |\n|---|---|---|\n| @karpathy | 自动采集未配置（需 WebSearch / X 间接源） | — |\n| @bcherny | 自动采集未配置（需 WebSearch / X 间接源） | — |\n| @sundarpichai | 自动采集未配置（需 WebSearch / X 间接源） | — |\n| @sama | 自动采集未配置（需 WebSearch / X 间接源） | — |\n| @gdb | 自动采集未配置（需 WebSearch / X 间接源） | — |\n| @DarioAmodei | 自动采集未配置（需 WebSearch / X 间接源） | — |\n\n---\n\n### 1.3 Level 3：行业研究与数据\n\n> **本日未扫描**（周报/月报降频）。\n\n---\n\n### 1.4 Level 4：补充信源（HN）\n\n- **2026-10-15**：[Aidlc: Adaptive workflow steering rules for AI coding agents](https://github.com/awslabs/aidlc-workflows) （18 pts / 16 comments）\n- **2026-10-13**：[The Tragedy of AI Coding](https://www.theatlantic.com/ideas/2026/10/ai-programming-big-tech-regulations/688960/) （5 pts / 0 comments）\n- **2026-10-15**：[RenkuOS: Haiku OS forked with AI-assisted coding and LLM integrations](https://renkuos.org/) （2 pts / 1 comments）\n- **2026-10-14**：[In the AI era, coding means thinking like a systems architect](https://www.nature.com/articles/d41586-026-02715-x) （2 pts / 0 comments）\n- **2026-10-14**：[Show HN: AI Interview Index – which companies allow AI in coding interviews](https://aiinterviewindex.com) （1 pts / 1 comments）\n\n---\n\n## 附录：采集日志\n\n| 环节 | 状态 |\n|---|---|\n| GitHub Releases API | ✅ 5 条 |\n| HN Algolia API | ✅ 5 条 |\n| 生成时间 (UTC) | 2026-10-15 17:26 |\n\n*自动生成版 · 可在 Cursor 中基于本稿补充 Level 2 分析与专题*\n",
+  "level1_releases": [
+    {
+      "product": "OpenClaw",
+      "repo": "openclaw/openclaw",
+      "tag": "v2026.10.4",
+      "name": "openclaw 2026.10.4",
+      "published": "2026-10-16",
+      "url": "https://github.com/openclaw/openclaw/releases/tag/v2026.10.4",
+      "summary": "## 2026.10.4",
+      "body_excerpt": "## 2026.10.4\n\n### Highlights\n\n- The Gateway keeps running after the computer sleeps or the system clock jumps, instead of restarting itself because its ownership heartbeat looked stale. (#170790) Thanks @AnvinaLI, @sgh6688, @waynegault, and @RomneyDa.\n- Gateway shutdown and restart no longer hang on a stalled transcript worker or in-flight session lifecycle events. (#170493, #170555) Thanks @Oldrich333.\n- Tlon group DMs no longer treat other participants as the owner, closing an owner-impersonation path. (#165801) Thanks @eleqtrizit.\n- Headless browser pages keep responding to clicks while a site waits for a passkey. (#170857) Thanks @trukhinyuri.\n- Manual `/compact` settles the active run before compacting instead of aborting it and dropping the pending request. (#166163) Thanks @holny and @alexph-dev.\n\n### Changes\n\n- Stability patch for 2026.10.3 with no new features or configuration changes. Thanks @RomneyDa.\n\n### Fixes\n\n- Gateway: stays responsive during long reply-tagged streams, and long replies that quote tool-call XML no longer re-parse Markdown on every token. (#166782, #171573) Thanks @boeingchoco.\n- Gateway: blocked durable context-engine turns are logged once instead of on every run. (#167595) Thanks @jalehman.\n- Control UI: delayed application heartbeats no longer force a reconnect. (#171253)\n- Gateway: recover state ownership after sleep and wall-clock changes, and allow `openclaw gateway restart` from verified external macOS terminals. (#170790, #170354) Thanks @AnvinaLI, @sgh6688, @waynegault, and @RomneyDa.\n- Gateway: bound transcript-worker shutdown waits and wait for session lifecycle publication during shutdown. (#170493, #170555) Thanks @Oldrich333.\n- Gateway: start enabled standalone plugin files with the Gateway, and keep worker heap limits enforced when the managed service sets a process-wide heap flag. (#171330, #166581) Thanks @holgergruenhagen, @valkyriweb, @xydigitLybnnnn, @goslingmanagment, @waynegault, and @obviyus.\n- Agents: launched plugin turns no longer fail with writer-claim errors, and Claude CLI sessions no longer fork history across message routes. (#170077, #167241) Thanks @cmatrx0.\n- Agents: manual compaction settles the active run instead of aborting it. (#166163) Thanks @holny and @alexph-dev.\n- OpenAI: tool turns for reasoning models on api.openai.com Completions routes no longer fail with a 400. (#166182) Thanks @obviyus and @AsTutoAI.\n- Updates: agent databases are no longer flagged as changed during snapshot ca",
+      "prerelease": false
+    },
+    {
+      "product": "Gemini CLI",
+      "repo": "google-gemini/gemini-cli",
+      "tag": "v0.66.0-nightly.20261016.gdebf42324",
+      "name": "Release v0.66.0-nightly.20261016.gdebf42324",
+      "published": "2026-10-16",
+      "url": "https://github.com/google-gemini/gemini-cli/releases/tag/v0.66.0-nightly.20261016.gdebf42324",
+      "summary": "## What's Changed",
+      "body_excerpt": "## What's Changed\n* chore(release): bump version to 0.66.0-nightly.20261013.g204db94ae by @gemini-cli-robot in https://github.com/google-gemini/gemini-cli/pull/29740\n* Changelog for v0.64.0 by @gemini-cli-robot in https://github.com/google-gemini/gemini-cli/pull/29741\n* fix(ui): implement synchronized output and isolate spinner rendering by @diegogodinezr in https://github.com/google-gemini/gemini-cli/pull/29725\n* fix(ui): fix debug console height calculation and terminalBuffer flickering by @ugorla-dev in https://github.com/google-gemini/gemini-cli/pull/29695\n* fix(cli): prevent right-hand border bleed in scrollable tool containers by @villahernandez-coder in https://github.com/google-gemini/gemini-cli/pull/29742\n* refactor(core,cli): emit tool call groups from the scheduler and drop the UI lookahead by @jesussamuel-byte in https://github.com/google-gemini/gemini-cli/pull/29736\n* fix(core): format and quote Windows diff command arguments in openDiff by @jvargassanchez-dot in https://github.com/google-gemini/gemini-cli/pull/29753\n* fix(cli): round before selecting units in formatDuration by @diegogodinezr in https://github.com/google-gemini/gemini-cli/pull/29766\n* fix(core): disable interactive credential and SSH prompts in getSafeGitEnv by @villahernandez-coder in https://github.com/google-gemini/gemini-cli/pull/29760\n* fix(cli): resolve settings placeholders after loading .env files by @elberthc-byte in https://github.com/google-gemini/gemini-cli/pull/29750\n* fix(core): harden SKILL.md frontmatter parsing for single-line descriptions by @jesussamuel-byte in https://github.com/google-gemini/gemini-cli/pull/29769\n\n\n**Full Changelog**: https://github.com/google-gemini/gemini-cli/compare/v0.65.0-nightly.20261014.g42c518220...v0.66.0-nightly.20261016.gdebf42324",
+      "prerelease": true
+    },
+    {
+      "product": "Claude Code",
+      "repo": "anthropics/claude-code",
+      "tag": "v2.1.301",
+      "name": "v2.1.301",
+      "published": "2026-10-15",
+      "url": "https://github.com/anthropics/claude-code/releases/tag/v2.1.301",
+      "summary": "## What's changed",
+      "body_excerpt": "## What's changed\n\n- Added `CLAUDE_CODE_RETRY_WATCHDOG_MAX_USAGE_LIMIT_WAIT_MS` so unattended retry mode (`CLAUDE_CODE_RETRY_WATCHDOG`) ends a request at a usage limit that resets too far away instead of waiting\n- Added OpenTelemetry tracing guidance to the `claude-api` skill, including setting up trace destinations with the `ant` CLI\n- Added the `%` motion to vim mode: jump to the matching bracket, alone or with d/c/y\n- Added `rows` to a mod's `Input`: a text field of several lines in the terminal, where Enter submits and Shift+Enter or a backslash before Enter starts a new line\n- Added `classifier_verdict` and `permission_mode` to OpenTelemetry `tool_decision` events, so auto mode classifier decisions can be told apart from permission rules\n- Added `classifier_category` to OpenTelemetry `tool_decision` events, naming the built-in rule a classifier block matched, when `OTEL_LOG_TOOL_DETAILS=1`\n- Fixed quitting removing a worktree made by a `WorktreeCreate` hook without asking when it may hold unpushed commits\n- Fixed the `fable` (and `best`) model alias erroring on the Anthropic API when the newest Fable model is not available to your organization: Claude Code now retries once on the previous Fable model\n- Fixed a misleading \"Please run /login\" error when a full disk keeps the login from being refreshed; the error now names the disk and says to delete files\n- Fixed Grep and Glob reporting no matches when the search program failed unexpectedly before returning any results; they now return an error saying the search failed\n- Fixed workflow agents sometimes skipping their step, and the run still reporting success, after reading the harness note that their task text carries no user authority\n- Fixed artifact updates being refused where a PreToolUse hook covers Edit or Write; Claude now edits the file and then republishes instead of changing it in the publish call\n- Fixed skills and commands with very many or very long argument names stalling for seconds when invoked; only the first 64 names, each up to 64 characters, are now filled in\n- Fixed skills, commands and hooks using very large amounts of memory when their arguments fill many placeholders\n- Fixed stray characters such as `>0q` covering the folder trust prompt, and `>4m` before the shell prompt at exit, in terminals built on VTE older than 0.53 such as MATE Terminal on RHEL 8\n- Fixed stray `GOK` text appearing in the prompt at startup in some versions of iTerm2\n- Fixed switching to a model whose name c",
+      "prerelease": false
+    },
+    {
+      "product": "Hermes Agent",
+      "repo": "NousResearch/hermes-agent",
+      "tag": "v0.22.2",
+      "name": "Hermes Agent v0.22.2",
+      "published": "2026-10-15",
+      "url": "https://github.com/NousResearch/hermes-agent/releases/tag/v0.22.2",
+      "summary": "# Hermes Agent v0.22.2",
+      "body_excerpt": "# Hermes Agent v0.22.2\n\n**Release Date:** October 15, 2026\n\nv0.22.1 was built from the wrong commit. It shipped unreleased gateway work, and the Microsoft Store app could stick on \"Connecting.\" 0.22.2 is the release 0.22.1 was meant to be.\n\n> **Known issue:** Sessions that ran under the 0.22.1 gateway can't be deleted in 0.22.2.\n\n<!-- HERMES_BUILDS_TABLE -->\n\n## Highlights\n\n- **The gateway starts after a reboot again.** After a restart, Linux can hand an early PID to an unrelated process, and the gateway could mistake it for a running gateway, so a supervised gateway (systemd, launchd, Docker) refused to start. Hermes now records the boot it started in, and when it can't tell, it asks the host lock, which only a live gateway holds. ([#138594](https://github.com/NousResearch/hermes-agent/pull/138594), fixes [#133744](https://github.com/NousResearch/hermes-agent/issues/133744))\n- **Long local-model turns survive on laptops.** Local requests always stream with prompt-reading progress (shown in the status line), stall timers skip time the machine was asleep, a recovered local server gets another try instead of a breaker that failed every later message, and compression no longer times out while the server is still reading a long conversation. On Windows unified-memory machines, model launch and the prompt cache are sized to free memory. ([#138560](https://github.com/NousResearch/hermes-agent/pull/138560))\n\nBelow is everything in the 0.22 release line since v0.22.0: the fixes 0.22.1 was meant to ship, plus the two above. Work that is only on `main` ships with v0.23.0.\n\n## ✨ Features\n\n- **Release:** split the Microsoft Store bundle into its own windows-store lane ([`f9d8a740`](https://github.com/NousResearch/hermes-agent/commit/f9d8a74035101d95ef2a622fb01b2f9bbc34f0ef)) — @ethernet8023\n- **Agent:** add nemotron super 3.5 default parameters ([`c59d2994`](https://github.com/NousResearch/hermes-agent/commit/c59d299408e924c3682619e7d9d368891d4b709e)) — @elisam0\n- **Cli:** add nemotron to NVIDIA NIM default model list ([`cc55270e`](https://github.com/NousResearch/hermes-agent/commit/cc55270ec033729ed04f510fba3737aa65e027a7)) — @elisam0\n- **Cli:** add curated model list at the top in the model picker list ([`e6835fd3`](https://github.com/NousResearch/hermes-agent/commit/e6835fd3cb3bb399ce06cac5356c36226483b889)) — @elisam0\n- **Release:** choose what a stable release builds and tests with lanes ([`36a8ee18`](https://github.com/NousResearch/hermes-agent/commit/36a8ee18cd",
+      "prerelease": false
+    },
+    {
+      "product": "Codex",
+      "repo": "openai/codex",
+      "tag": "rust-v0.163.0",
+      "name": "0.163.0",
+      "published": "2026-10-15",
+      "url": "https://github.com/openai/codex/releases/tag/rust-v0.163.0",
+      "summary": "## New Features",
+      "body_excerpt": "## New Features\n\n- Open `/config` to search preferences across categories, change supported settings immediately, and see which changes require a restart. (#52990, #53429)\n- Send a follow-up while Codex is responding to steer it immediately. Interrupting a turn also stops active Code Mode cells and their nested tool calls. (#51812, #51835)\n- Configure a leader key in `/keymap`. The default is `Ctrl+X`, shortcut hints stay open until you choose or cancel, and voice mute moves to `F9`. (#52273)\n- Restart a managed background server from `/daemon`. Codex warns about work the restart could interrupt, then reconnects automatically. (#53173)\n- Codex can run independent read-only tools in parallel, including skill, memory, and conversation-history lookups. (#52245)\n- Daybreak is enabled by default for eligible accounts. `codex exec` can also select it with an OpenAI API key when the server offers access. (#53701, #53717)\n\n## Bug Fixes\n\n- Resuming a saved thread restores its permissions and network approvals, while respecting explicit overrides and current managed policy. (#53150, #53419, #53424)\n- The network proxy now checks permission before a DNS lookup, rejects duplicate `Host` headers, and prevents credential aliases from bypassing inspection hooks. (#51650, #52661, #53506)\n- Return to an existing side conversation with `/side` after switching threads. Answers to pending prompts also go back to the thread that asked. (#52184, #53436)\n- On Windows, `Ctrl+V` and `Shift+Insert` paste text as well as images. On WSL, repeated pastes reuse the clipboard reader, and copy attempts time out instead of hanging. (#53224, #52967, #53453)\n- Local commands finish promptly when a child keeps an output pipe open. Remote commands preserve late-arriving output so the final poll can still collect it. (#52652, #53331, #53622)\n- `codex exec` no longer prints the same file diff again after an unrelated command. (#53444)\n\n## Documentation\n\n- Updated the bundled OpenAI Docs guidance for migrations to the GPT-6 family, including model-specific reasoning, tool use, and data residency considerations. (#51768)\n- Clarified how the Linux sandbox uses bubblewrap for filesystem isolation and seccomp for syscall filtering. (#52610)\n\n## Chores\n\n- Codex now uses its standard shell executor and no longer bundles a patched `zsh`. Configurations using the retired shell flags receive a migration notice. (#52160, #52213)\n- Reduced Linux and macOS release package size by stripping symbols from pack",
+      "prerelease": false
+    }
+  ],
+  "level2_people": [
+    "@karpathy",
+    "@bcherny",
+    "@sundarpichai",
+    "@sama",
+    "@gdb",
+    "@DarioAmodei"
+  ],
+  "level2_note": "raw 无人物搜索；无依据时 Level 2 标无新增，勿编造",
+  "level3_note": "本日未扫描行业报告（周报降频）",
+  "level4_hn": [
+    {
+      "title": "Aidlc: Adaptive workflow steering rules for AI coding agents",
+      "url": "https://github.com/awslabs/aidlc-workflows",
+      "points": 26,
+      "comments": 22,
+      "created": "2026-10-15"
+    },
+    {
+      "title": "RenkuOS: Haiku OS forked with AI-assisted coding and LLM integrations",
+      "url": "https://renkuos.org/",
+      "points": 2,
+      "comments": 1,
+      "created": "2026-10-15"
+    },
+    {
+      "title": "Show HN: Heldkeys, see which credentials your AI coding agent can reach",
+      "url": "https://github.com/hugomn/heldkeys",
+      "points": 2,
+      "comments": 0,
+      "created": "2026-10-16"
+    },
+    {
+      "title": "In the AI era, coding means thinking like a systems architect",
+      "url": "https://www.nature.com/articles/d41586-026-02715-x",
+      "points": 2,
+      "comments": 0,
+      "created": "2026-10-14"
+    },
+    {
+      "title": "Show HN: AI Interview Index – which companies allow AI in coding interviews",
+      "url": "https://aiinterviewindex.com",
+      "points": 1,
+      "comments": 1,
+      "created": "2026-10-14"
+    }
+  ]
+}
