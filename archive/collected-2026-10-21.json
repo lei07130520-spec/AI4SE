@@ -1,0 +1,100 @@
+{
+  "briefing_date": "2026-10-21",
+  "period_start": "2026-10-19",
+  "period_end": "2026-10-21",
+  "previous_briefing_date": "2026-10-20",
+  "previous_briefing_excerpt": "# AI x 研发效能 每日简报 2026-10-20\n\n> 覆盖周期：2026-10-18 ~ 2026-10-20（上一期：2026-10-19）\n\n> **采集方式**：GitHub Actions 自动采集（Level 1 GitHub API + Level 4 HN API）｜Level 2/3 待人工或 API 密钥补充\n\n---\n\n## 头条速览\n\n1. **Gemini CLI v0.66.0-nightly.20261019.ged96faedf**——**Full Changelog**: https://github.com/google-ge\n2. **Codex rust-v0.164.0-alpha.5**——Release 0.164.0-alpha.5\n3. **OpenClaw v2026.10.5**——<!-- openclaw-release-publication:docs-v1 -->\n\n---\n\n## 一、AI 增强软件研发（AI4SE）\n\n### 1.1 Level 1：核心产品与工程更新\n\n#### 1️⃣ Gemini CLI v0.66.0-nightly.20261019.ged96faedf（2026-10-19）\n\n**Full Changelog**: https://github.com/google-gemini/gemini-cli/compare/v0.66.0-nightly.20261018.ged96faedf...v0.66.0-nightly.20261019.ged96faedf\n\n来源：[v0.66.0-nightly.20261019.ged96faedf](https://github.com/google-gemini/gemini-cli/releases/tag/v0.66.0-nightly.20261019.ged96faedf) — 2026-10-19\n\n#### 2️⃣ Codex rust-v0.164.0-alpha.5（2026-10-19）\n\nRelease 0.164.0-alpha.5\n\n来源：[rust-v0.164.0-alpha.5](https://github.com/openai/codex/releases/tag/rust-v0.164.0-alpha.5) — 2026-10-19\n\n#### 3️⃣ OpenClaw v2026.10.5（2026-10-18）\n\n<!-- openclaw-release-publication:docs-v1 -->\n\n来源：[v2026.10.5](https://github.com/openclaw/openclaw/releases/tag/v2026.10.5) — 2026-10-18\n\n#### 4️⃣ Claude Code v2.1.303（2026-10-18）\n\n## What's changed\n\n来源：[v2.1.303](https://github.com/anthropics/claude-code/releases/tag/v2.1.303) — 2026-10-18\n\n---\n\n### 1.2 Level 2：关键人物战略洞察\n\n| 人物 | 动态 | 日期 |\n|---|---|---|\n| @karpathy | 自动采集未配置（需 WebSearch / X 间接源） | — |\n| @bcherny | 自动采集未配置（需 WebSearch / X 间接源） | — |\n| @sundarpichai | 自动采集未配置（需 WebSearch / X 间接源） | — |\n| @sama | 自动采集未配置（需 WebSearch / X 间接源） | — |\n| @gdb | 自动采集未配置（需 WebSearch / X 间接源） | — |\n| @DarioAmodei | 自动采集未配置（需 WebSearch / X 间接源） | — |\n\n---\n\n### 1.3 Level 3：行业研究与数据\n\n> **本日未扫描**（周报/月报降频）。\n\n---\n\n### 1.4 Level 4：补充信源（HN）\n\n- **2026-10-18**：[Show HN: DocuMemory – Persistent memory and context for AI coding tools](https://www.documemory.dev/) （4 pts / 0 comments）\n- **2026-10-17**：[Using fzf with AI coding agents](https://junegunn.github.io/fzf/tips/using-fzf-with-ai-agents/) （3 pts / 0 comments）\n- **2026-10-17**：[Show HN: Bitty – Turn AI coding wait time into brain breaks](https://playbitty.com/) （2 pts / 1 comments）\n- **2026-10-18**：[Lazyagents – Lazygit for AI coding agents](https://github.com/rogeriojunior31/lazyagents) （2 pts / 0 comments）\n- **2026-10-17**：[AI coding interfaces make approval easy and understanding hard](https://www.aymannadeem.com/artificial/intelligence,/developer/tools/2026/10/10/ai-coding-interfaces-make-approval-easy-and-understanding-hard.html) （1 pts / 0 comments）\n\n---\n\n## 附录：采集日志\n\n| 环节 | 状态 |\n|---|---|\n| GitHub Releases API | ✅ 4 条 |\n| HN Algolia API | ✅ 5 条 |\n| 生成时间 (UTC) | 2026-10-19 18:52 |\n\n*自动生成版 · 可在 Cursor 中基于本稿补充 Level 2 分析与专题*\n",
+  "level1_releases": [
+    {
+      "product": "Gemini CLI",
+      "repo": "google-gemini/gemini-cli",
+      "tag": "v0.66.0-nightly.20261020.g76e4d7c04",
+      "name": "Release v0.66.0-nightly.20261020.g76e4d7c04",
+      "published": "2026-10-20",
+      "url": "https://github.com/google-gemini/gemini-cli/releases/tag/v0.66.0-nightly.20261020.g76e4d7c04",
+      "summary": "## What's Changed",
+      "body_excerpt": "## What's Changed\n* fix(ui): preserve terminal scrollback during viewport refreshes by @diegogodinezr in https://github.com/google-gemini/gemini-cli/pull/29792\n* fix(cli): decode streamed Node HTTP activity chunks with StringDecoder by @jesussamuel-byte in https://github.com/google-gemini/gemini-cli/pull/29827\n\n\n**Full Changelog**: https://github.com/google-gemini/gemini-cli/compare/v0.66.0-nightly.20261019.ged96faedf...v0.66.0-nightly.20261020.g76e4d7c04",
+      "prerelease": true
+    },
+    {
+      "product": "Codex",
+      "repo": "openai/codex",
+      "tag": "rust-v0.164.0-alpha.7",
+      "name": "0.164.0-alpha.7",
+      "published": "2026-10-20",
+      "url": "https://github.com/openai/codex/releases/tag/rust-v0.164.0-alpha.7",
+      "summary": "Release 0.164.0-alpha.7",
+      "body_excerpt": "Release 0.164.0-alpha.7",
+      "prerelease": true
+    },
+    {
+      "product": "OpenClaw",
+      "repo": "openclaw/openclaw",
+      "tag": "v2026.10.10-beta.2",
+      "name": "openclaw 2026.10.10-beta.2",
+      "published": "2026-10-19",
+      "url": "https://github.com/openclaw/openclaw/releases/tag/v2026.10.10-beta.2",
+      "summary": "## 2026.10.10-beta.2",
+      "body_excerpt": "## 2026.10.10-beta.2\n\n### Highlights\n\n### Changes\n\n### Fixes\n\n- Workspace safety: reject a multi-file `apply_patch` before changing files when a later update target is missing or its context does not match, preserving the original workspace for the next attempt. Commit-time I/O failures can still leave partial effects. (#160409; related #117742 and #127496) Thanks @masatohoshino, @obviyus, and @yetval.\n- Tool policy: run plugin `before_tool_call` hooks in standalone `openclaw agent exec` sessions so plugin tool guards take effect. (#159333; fixes #158824) Thanks @joseairosa and @obviyus.\n- Buzz: reconnect when a relay closes during NIP-42 authentication without terminating the Gateway or interrupting other channels and sessions. (#170591; fixes #147269) Thanks @masatohoshino, @obviyus, @jarvis-modern-mail, and @RomneyDa.\n- macOS downloads: save dashboard and conversation attachments through the native Save dialog while keeping the current page open. (#173654) Thanks @Patrick-Erichsen.\n- OpenRouter onboarding: accept valid API keys with the default `openrouter/auto` model instead of rejecting setup with a route mismatch. (#173292; related #162798) Thanks @chandraveshchaudhari and @obviyus.\n- macOS setup: let fresh native profiles start the Gateway and complete automatic setup, including when supervised startup needs a retry. (#173246)\n- Gateway startup: follow a replacement model-runtime refresh instead of exiting when initial preparation is superseded. (#173366; related #173357) Thanks @Jackten and @RomneyDa.\n- Gateway logging: keep serving and shut down normally when a deleted temporary-directory backing path makes daily log rollover fail. (#160433; fixes #130807) Thanks @masatohoshino, @obviyus, @WadeOwenWatts, and @Patrick-Erichsen.\n- Gateway stability: stop session diff capture from opening live SQLite and hard-linked files, preventing SIGBUS crash loops when the shared-memory file is truncated. (#174017)\n- Native app updates: let Doctor finish agent database upgrades on native-first profiles instead of reporting success while the Gateway refuses to start on an older schema. (#174297)\n- Cron: plan history maintenance from run identities and load full payloads only for rows it updates, so large cron histories no longer exhaust the SQLite worker's memory and take channels down. (#174530; fixes #174078) Thanks @wangmiao0668000666, @RomneyDa, and @asikorskiy.\n- Windows Claude CLI: stop every turn with a stored Anthropic credential from stalling until the n",
+      "prerelease": true
+    },
+    {
+      "product": "Claude Code",
+      "repo": "anthropics/claude-code",
+      "tag": "v2.1.304",
+      "name": "v2.1.304",
+      "published": "2026-10-19",
+      "url": "https://github.com/anthropics/claude-code/releases/tag/v2.1.304",
+      "summary": "## What's changed",
+      "body_excerpt": "## What's changed\n\n- Added a transcript line when a plugin that runs first skips one of your mod's hooks, naming the event and the plugin\n- Added `decider: \"person\"` to a mod's `tool.check` answer: only the permission dialog or a host's callback can approve the ask, and it is refused with the mod's reason where nobody can be asked\n- Added `e.isReadOnly` to a mod's `tool.check` event, set when the tool call is read-only\n- Added `/auto-mode-setup`: a guided setup that reads your project and recent sessions to teach auto mode about your environment, now also available on Bedrock, Vertex, Foundry, Claude apps gateway and telemetry-disabled sessions\n- Added `/claude-api managed-agents-secure`, which compares a Managed Agents agent's settings with Anthropic's published security guide, without changing anything\n- Added the names of the tools called earlier to the compaction summary in the transcript view (Ctrl+O)\n- Added a warning on Pro and Max plans when resuming an inactive conversation would use a noticeable share of your 5-hour usage limit: resume anyway, or start a new conversation and Claude can look up the previous one if you refer to it\n- Fixed the organization policy not refreshing until the hourly check after approving an `ANTHROPIC_API_KEY` at startup or switching \"Use custom API key\" in `/config`\n- Fixed sandboxed commands failing to start on Linux when a `sandbox.filesystem.denyRead` glob contains brackets that are not a character class, such as a `[user-id]` route folder\n- Fixed `rm -r` of a mounted drive or a folder at its top level (`/Volumes`, `/media`, WSL's `/mnt/c`) not getting the safety prompt that `rm -rf /Applications` gets\n- Fixed `CLAUDE_CODE_TRANSCRIPT_LOCAL_GC` dropping messages from the saved transcript when the disk filled up while the file was being trimmed\n- Fixed a plugin keeping a headless run going past `--max-turns`, Stop, or ended input by spawning subagents or re-running a finished one\n- Fixed a failed mod reload removing the tools and commands of the version that stays loaded, and its messages being wrong or silent about whether the previous version is still loaded\n- Fixed a click on a mod's button being lost when buttons with the same label and no `key` were redrawn unchanged\n- Fixed mod sharing in the built-in `plugin-authoring` skill stopping at the secret scan on machines with managed settings and on Team and Enterprise plans\n- Fixed scheduled Cowork cloud sessions waiting five minutes again for each subagent whose WebF",
+      "prerelease": false
+    }
+  ],
+  "level2_people": [
+    "@karpathy",
+    "@bcherny",
+    "@sundarpichai",
+    "@sama",
+    "@gdb",
+    "@DarioAmodei"
+  ],
+  "level2_note": "raw 无人物搜索；无依据时 Level 2 标无新增，勿编造",
+  "level3_note": "本日未扫描行业报告（周报降频）",
+  "level4_hn": [
+    {
+      "title": "Show HN: Make AI coding agents verify its own work",
+      "url": "https://github.com/reticlehq/reticle",
+      "points": 11,
+      "comments": 6,
+      "created": "2026-10-20"
+    },
+    {
+      "title": "Show HN: DocuMemory – Persistent memory and context for AI coding tools",
+      "url": "https://www.documemory.dev/",
+      "points": 6,
+      "comments": 0,
+      "created": "2026-10-18"
+    },
+    {
+      "title": "What is still hard to become good at as AI makes coding easier?",
+      "url": "https://news.ycombinator.com/item?id=50157098",
+      "points": 4,
+      "comments": 6,
+      "created": "2026-10-19"
+    },
+    {
+      "title": "Ask HN: Best value/money AI coding plan bundle?",
+      "url": "https://news.ycombinator.com/item?id=50167220",
+      "points": 4,
+      "comments": 4,
+      "created": "2026-10-20"
+    },
+    {
+      "title": "Unofficial Android app for Multica, the AI coding agent task board",
+      "url": "https://github.com/1270011/multica-android-unofficial",
+      "points": 3,
+      "comments": 0,
+      "created": "2026-10-20"
+    }
+  ]
+}
