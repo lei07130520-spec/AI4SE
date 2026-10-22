@@ -1,0 +1,111 @@
+{
+  "briefing_date": "2026-10-23",
+  "period_start": "2026-10-21",
+  "period_end": "2026-10-23",
+  "previous_briefing_date": "2026-10-22",
+  "previous_briefing_excerpt": "# AI x 研发效能 每日简报 2026-10-22\n\n> 覆盖周期：2026-10-20 ~ 2026-10-22（上一期：2026-10-21）\n\n> **采集方式**：GitHub Actions 自动采集（Level 1 GitHub API + Level 4 HN API）｜Level 2/3 待人工或 API 密钥补充\n\n---\n\n## 头条速览\n\n1. **OpenClaw v2026.10.10-beta.3**——## 2026.10.10-beta.3\n2. **Claude Code v2.1.306**——## What's changed\n3. **Hermes Agent v0.22.3**——# Hermes Agent v0.22.3\n\n---\n\n## 一、AI 增强软件研发（AI4SE）\n\n### 1.1 Level 1：核心产品与工程更新\n\n#### 1️⃣ OpenClaw v2026.10.10-beta.3（2026-10-21）\n\n## 2026.10.10-beta.3\n\n来源：[v2026.10.10-beta.3](https://github.com/openclaw/openclaw/releases/tag/v2026.10.10-beta.3) — 2026-10-21\n\n#### 2️⃣ Claude Code v2.1.306（2026-10-21）\n\n## What's changed\n\n来源：[v2.1.306](https://github.com/anthropics/claude-code/releases/tag/v2.1.306) — 2026-10-21\n\n#### 3️⃣ Hermes Agent v0.22.3（2026-10-21）\n\n# Hermes Agent v0.22.3\n\n来源：[v0.22.3](https://github.com/NousResearch/hermes-agent/releases/tag/v0.22.3) — 2026-10-21\n\n#### 4️⃣ Codex rust-v0.164.0-alpha.9（2026-10-21）\n\nRelease 0.164.0-alpha.9\n\n来源：[rust-v0.164.0-alpha.9](https://github.com/openai/codex/releases/tag/rust-v0.164.0-alpha.9) — 2026-10-21\n\n#### 5️⃣ Gemini CLI v0.65.0（2026-10-20）\n\n## What's Changed\n\n来源：[v0.65.0](https://github.com/google-gemini/gemini-cli/releases/tag/v0.65.0) — 2026-10-20\n\n---\n\n### 1.2 Level 2：关键人物战略洞察\n\n| 人物 | 动态 | 日期 |\n|---|---|---|\n| @karpathy | 自动采集未配置（需 WebSearch / X 间接源） | — |\n| @bcherny | 自动采集未配置（需 WebSearch / X 间接源） | — |\n| @sundarpichai | 自动采集未配置（需 WebSearch / X 间接源） | — |\n| @sama | 自动采集未配置（需 WebSearch / X 间接源） | — |\n| @gdb | 自动采集未配置（需 WebSearch / X 间接源） | — |\n| @DarioAmodei | 自动采集未配置（需 WebSearch / X 间接源） | — |\n\n---\n\n### 1.3 Level 3：行业研究与数据\n\n> **本日未扫描**（周报/月报降频）。\n\n---\n\n### 1.4 Level 4：补充信源（HN）\n\n- **2026-10-21**：[LayerFS: The filesystem for AI coding agents](https://layerfs.ai/) （62 pts / 32 comments）\n- **2026-10-20**：[Show HN: Make AI coding agents verify its own work](https://github.com/reticlehq/reticle) （11 pts / 6 comments）\n- **2026-10-19**：[What is still hard to become good at as AI makes coding easier?](https://news.ycombinator.com/item?id=50157098) （4 pts / 6 comments）\n- **2026-10-20**：[Ask HN: Best value/money AI coding plan bundle?](https://news.ycombinator.com/item?id=50167220) （4 pts / 4 comments）\n- **2026-10-20**：[Via reduces AI-coding costs](https://via.dev/blogs/introducing-via) （3 pts / 3 comments）\n\n---\n\n## 附录：采集日志\n\n| 环节 | 状态 |\n|---|---|\n| GitHub Releases API | ✅ 5 条 |\n| HN Algolia API | ✅ 5 条 |\n| 生成时间 (UTC) | 2026-10-21 17:43 |\n\n*自动生成版 · 可在 Cursor 中基于本稿补充 Level 2 分析与专题*\n",
+  "level1_releases": [
+    {
+      "product": "OpenClaw",
+      "repo": "openclaw/openclaw",
+      "tag": "v2026.10.6",
+      "name": "openclaw 2026.10.6",
+      "published": "2026-10-22",
+      "url": "https://github.com/openclaw/openclaw/releases/tag/v2026.10.6",
+      "summary": "## 2026.10.6",
+      "body_excerpt": "## 2026.10.6\n\n### Highlights\n\n- **Patched Node runtime required:** OpenClaw now requires Node 24.22.1+ on the 24 line or 26.12.1+ on the 26 line, which reject TLS chains signed with the compromised certificate keys addressed in the October 2026 Node.js security releases. Docker images ship Node 24.22.1, installers select the patched runtimes, and `openclaw update` refuses with recovery guidance before installing on an older Node instead of breaking the running install. Source builds now pin pnpm 12.15.0. (#179992) Thanks @joshavant.\n- **Safer updates and recovery:** package swaps now refuse unsafe service states, Windows and macOS package-manager updates recover from platform-specific failures, and frozen Gateway startup owners can be retired cleanly. (#171101, #170940, #171936, #171678) Thanks @RomneyDa, @homeworld520, @Yolo521-bot, @stop-time, @AntaresGG, and @TommyLei666.\n- **Data-preserving migrations and backups:** Doctor and migration paths now refuse malformed or lossy workspace imports, preserve malformed Notes bytes, reject unsafe non-UTF-8 wiki rewrites, keep deeply nested SQLite backups, and retain staging evidence when restore inspection fails. (#172293, #172953, #172742, #174573, #168583, #170867, #172028) Thanks @wangmiao0668000666, @RomneyDa, @Leon-SK668, @ericcurtin, @Yolo521-bot, @obviyus, and @altaywtf.\n- **Reliable delivery across restarts:** queued turns, watched child results, dead-lettered deliveries, and streamed replies now survive recovery without disappearing, duplicating, or producing false missing-answer notices. (#170384, #169489, #169932, #173798) Thanks @RomneyDa, @huyengiang101086-spec, and @Yolo521-bot.\n- **Provider and model resilience:** GPT-5.6 tool turns, OpenRouter DeepSeek tool calls, LM Studio overflow recovery, parallel OpenAI reasoning settings, and model retry/fallback budgets now behave consistently. (#176709, #175058, #169189, #169322, #164808) Thanks @RomneyDa, @Linux2010, @ZhimingQ, @xpeng5278-web, and @anyech.\n- **Windows and mobile stability:** fresh Windows state stores, Proxy-backed environments, and stored Anthropic credentials no longer block startup, while iOS Talk and chat connectivity recover from first-reply and timeout failures. (#176174, #176194, #174571, #168416, #169912) Thanks @RomneyDa, @tjarrau-dev, @skyzhao1223, @easyteacher, @scalesmart, @masatohoshino, @Takhoffman, and @Solvely-Colin.\n- **Agent and tool-call recovery:** unfinished tools now time out visibly, context overflow compacts after ",
+      "prerelease": false
+    },
+    {
+      "product": "Claude Code",
+      "repo": "anthropics/claude-code",
+      "tag": "v2.1.308",
+      "name": "v2.1.308",
+      "published": "2026-10-22",
+      "url": "https://github.com/anthropics/claude-code/releases/tag/v2.1.308",
+      "summary": "## What's changed",
+      "body_excerpt": "## What's changed\n\n- Bug fixes and reliability improvements",
+      "prerelease": false
+    },
+    {
+      "product": "Gemini CLI",
+      "repo": "google-gemini/gemini-cli",
+      "tag": "v0.67.0-nightly.20261022.g09d81bf11",
+      "name": "Release v0.67.0-nightly.20261022.g09d81bf11",
+      "published": "2026-10-22",
+      "url": "https://github.com/google-gemini/gemini-cli/releases/tag/v0.67.0-nightly.20261022.g09d81bf11",
+      "summary": "## What's Changed",
+      "body_excerpt": "## What's Changed\n* Changelog for v0.66.0-preview.0 by @gemini-cli-robot in https://github.com/google-gemini/gemini-cli/pull/29852\n* feat(cli): bridge the IDE companion into container sandboxes over exec stdio by @elberthc-byte in https://github.com/google-gemini/gemini-cli/pull/29858\n* fix(core): prevent duplicate agent loading when workspace is home directory (#27692) by @urielefrenvirtusa in https://github.com/google-gemini/gemini-cli/pull/29847\n* fix(ide): exclude IDE settings and GEMINI.md files from open file con text by @villahernandez-coder in https://github.com/google-gemini/gemini-cli/pull/29848\n* fix(core): scope untrusted flag checks to external output and remember approved flags by @luisfelipe-alt in https://github.com/google-gemini/gemini-cli/pull/29833\n* fix(a2a-server): mount express.json() before A2A SDK route registration by @jesussamuel-byte in https://github.com/google-gemini/gemini-cli/pull/29850\n* fix(core): adhere to RFC 9110 token rules when splitting custom headers by @diegogodinezr in https://github.com/google-gemini/gemini-cli/pull/29865\n* fix(core): respect read-only files and hard links in atomic writeTextFile by @elberthc-byte in https://github.com/google-gemini/gemini-cli/pull/29749\n\n\n**Full Changelog**: https://github.com/google-gemini/gemini-cli/compare/v0.67.0-nightly.20261021.gd00859d6b...v0.67.0-nightly.20261022.g09d81bf11",
+      "prerelease": true
+    },
+    {
+      "product": "Codex",
+      "repo": "openai/codex",
+      "tag": "rust-v0.164.0-alpha.12",
+      "name": "0.164.0-alpha.12",
+      "published": "2026-10-22",
+      "url": "https://github.com/openai/codex/releases/tag/rust-v0.164.0-alpha.12",
+      "summary": "Release 0.164.0-alpha.12",
+      "body_excerpt": "Release 0.164.0-alpha.12",
+      "prerelease": true
+    },
+    {
+      "product": "Hermes Agent",
+      "repo": "NousResearch/hermes-agent",
+      "tag": "v0.22.4",
+      "name": "Hermes Agent v0.22.4",
+      "published": "2026-10-21",
+      "url": "https://github.com/NousResearch/hermes-agent/releases/tag/v0.22.4",
+      "summary": "# Hermes Agent v0.22.4",
+      "body_excerpt": "# Hermes Agent v0.22.4\n\n**Release Date:** October 21, 2026\n\n> Patch release. Desktop stops showing suggestion pills above the composer, plus small plugin and dashboard fixes, for the CLI and installer, the Microsoft Store app, Docker and Hermes Cloud.\n\n<!-- HERMES_BUILDS_TABLE -->\n\n## Fixes\n\n- **Desktop no longer shows suggestion pills above the composer.** The pills appeared for no clear reason, mostly nudging you to set up MCP servers. They and the helpers that only they used are gone. ([#142559](https://github.com/NousResearch/hermes-agent/pull/142559))\n- **Plugins that install nothing skip the dependency consent step.** A plugin that declares no dependencies, or whose `pyproject.toml` installs nothing, now enables without an empty consent prompt. ([#142569](https://github.com/NousResearch/hermes-agent/pull/142569))\n- **Dashboard: WhatsApp can be safely re-paired after logging out.** ([#142439](https://github.com/NousResearch/hermes-agent/pull/142439))\n- **Desktop plugin review:** the surface lint no longer flags prototype writes; reviewers check them by hand. ([#142586](https://github.com/NousResearch/hermes-agent/pull/142586))\n- **Desktop: the approval-mode chip follows the active profile's mode.** ([#142565](https://github.com/NousResearch/hermes-agent/pull/142565))\n- **Release builds:** the desktop bundle's pre-build check gets enough time to verify archived build inputs when storage is slow. ([#142623](https://github.com/NousResearch/hermes-agent/pull/142623))\n\nAlso new in the plugin catalog: bubblewrap (bwrap terminal backend on Linux), Singularity/Apptainer, mcp-serve (Hermes as an MCP server), agent-importers (`hermes import-agent`, now with Cursor), inbox and workflow-record from Hermes Labs. Telegram Business moves to the Hermes Labs community tier.\n\n## About this release\n\nMeasured at commit `4d04303818b`, the window since v0.22.3 contains **14 non-merge commits** across **82 changed files** (+1,475 / −3,022) and **13 merged PRs**.\n\n## Updating\n\n- Microsoft Store app: updates through the Store.\n- Desktop app installed from the installer (.exe / .dmg): no change in this release; it updates with the next bundled release.\n- CLI: `hermes update`, or re-run the installer one-liner.\n- Docker / Hermes Cloud: `nousresearch/hermes-agent:stable` (or `:latest`).\n\n**Full Changelog**: [v0.22.3...v0.22.4](https://github.com/NousResearch/hermes-agent/compare/v0.22.3...v0.22.4)",
+      "prerelease": false
+    }
+  ],
+  "level2_people": [
+    "@karpathy",
+    "@bcherny",
+    "@sundarpichai",
+    "@sama",
+    "@gdb",
+    "@DarioAmodei"
+  ],
+  "level2_note": "raw 无人物搜索；无依据时 Level 2 标无新增，勿编造",
+  "level3_note": "本日未扫描行业报告（周报降频）",
+  "level4_hn": [
+    {
+      "title": "LayerFS: The filesystem for AI coding agents",
+      "url": "https://layerfs.ai/",
+      "points": 72,
+      "comments": 45,
+      "created": "2026-10-21"
+    },
+    {
+      "title": "Show HN: Make AI coding agents verify its own work",
+      "url": "https://github.com/reticlehq/reticle",
+      "points": 11,
+      "comments": 6,
+      "created": "2026-10-20"
+    },
+    {
+      "title": "Ask HN: Best value/money AI coding plan bundle?",
+      "url": "https://news.ycombinator.com/item?id=50167220",
+      "points": 4,
+      "comments": 4,
+      "created": "2026-10-20"
+    },
+    {
+      "title": "Via reduces AI-coding costs",
+      "url": "https://via.dev/blogs/introducing-via",
+      "points": 3,
+      "comments": 3,
+      "created": "2026-10-20"
+    },
+    {
+      "title": "With AI coding the future of software development looks more grim",
+      "url": "https://unixdigest.com/articles/with-ai-coding-the-future-of-software-development-looks-more-grim-than-ever-before.html",
+      "points": 3,
+      "comments": 1,
+      "created": "2026-10-21"
+    }
+  ]
+}
