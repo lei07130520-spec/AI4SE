@@ -1,0 +1,111 @@
+{
+  "briefing_date": "2026-10-24",
+  "period_start": "2026-10-22",
+  "period_end": "2026-10-24",
+  "previous_briefing_date": "2026-10-23",
+  "previous_briefing_excerpt": "# AI x 研发效能 每日简报 2026-10-23\n\n> 覆盖周期：2026-10-21 ~ 2026-10-23（上一期：2026-10-22）\n\n> **采集方式**：GitHub Actions 自动采集（Level 1 GitHub API + Level 4 HN API）｜Level 2/3 待人工或 API 密钥补充\n\n---\n\n## 头条速览\n\n1. **OpenClaw v2026.10.6**——## 2026.10.6\n2. **Claude Code v2.1.308**——## What's changed\n3. **Gemini CLI v0.67.0-nightly.20261022.g09d81bf11**——## What's Changed\n\n---\n\n## 一、AI 增强软件研发（AI4SE）\n\n### 1.1 Level 1：核心产品与工程更新\n\n#### 1️⃣ OpenClaw v2026.10.6（2026-10-22）\n\n## 2026.10.6\n\n来源：[v2026.10.6](https://github.com/openclaw/openclaw/releases/tag/v2026.10.6) — 2026-10-22\n\n#### 2️⃣ Claude Code v2.1.308（2026-10-22）\n\n## What's changed\n\n来源：[v2.1.308](https://github.com/anthropics/claude-code/releases/tag/v2.1.308) — 2026-10-22\n\n#### 3️⃣ Gemini CLI v0.67.0-nightly.20261022.g09d81bf11（2026-10-22）\n\n## What's Changed\n\n来源：[v0.67.0-nightly.20261022.g09d81bf11](https://github.com/google-gemini/gemini-cli/releases/tag/v0.67.0-nightly.20261022.g09d81bf11) — 2026-10-22\n\n#### 4️⃣ Codex rust-v0.164.0-alpha.12（2026-10-22）\n\nRelease 0.164.0-alpha.12\n\n来源：[rust-v0.164.0-alpha.12](https://github.com/openai/codex/releases/tag/rust-v0.164.0-alpha.12) — 2026-10-22\n\n#### 5️⃣ Hermes Agent v0.22.4（2026-10-21）\n\n# Hermes Agent v0.22.4\n\n来源：[v0.22.4](https://github.com/NousResearch/hermes-agent/releases/tag/v0.22.4) — 2026-10-21\n\n---\n\n### 1.2 Level 2：关键人物战略洞察\n\n| 人物 | 动态 | 日期 |\n|---|---|---|\n| @karpathy | 自动采集未配置（需 WebSearch / X 间接源） | — |\n| @bcherny | 自动采集未配置（需 WebSearch / X 间接源） | — |\n| @sundarpichai | 自动采集未配置（需 WebSearch / X 间接源） | — |\n| @sama | 自动采集未配置（需 WebSearch / X 间接源） | — |\n| @gdb | 自动采集未配置（需 WebSearch / X 间接源） | — |\n| @DarioAmodei | 自动采集未配置（需 WebSearch / X 间接源） | — |\n\n---\n\n### 1.3 Level 3：行业研究与数据\n\n> **本日未扫描**（周报/月报降频）。\n\n---\n\n### 1.4 Level 4：补充信源（HN）\n\n- **2026-10-21**：[LayerFS: The filesystem for AI coding agents](https://layerfs.ai/) （72 pts / 45 comments）\n- **2026-10-20**：[Show HN: Make AI coding agents verify its own work](https://github.com/reticlehq/reticle) （11 pts / 6 comments）\n- **2026-10-20**：[Ask HN: Best value/money AI coding plan bundle?](https://news.ycombinator.com/item?id=50167220) （4 pts / 4 comments）\n- **2026-10-20**：[Via reduces AI-coding costs](https://via.dev/blogs/introducing-via) （3 pts / 3 comments）\n- **2026-10-21**：[With AI coding the future of software development looks more grim](https://unixdigest.com/articles/with-ai-coding-the-future-of-software-development-looks-more-grim-than-ever-before.html) （3 pts / 1 comments）\n\n---\n\n## 附录：采集日志\n\n| 环节 | 状态 |\n|---|---|\n| GitHub Releases API | ✅ 5 条 |\n| HN Algolia API | ✅ 5 条 |\n| 生成时间 (UTC) | 2026-10-22 17:42 |\n\n*自动生成版 · 可在 Cursor 中基于本稿补充 Level 2 分析与专题*\n",
+  "level1_releases": [
+    {
+      "product": "Gemini CLI",
+      "repo": "google-gemini/gemini-cli",
+      "tag": "v0.67.0-nightly.20261023.ga713410ab",
+      "name": "Release v0.67.0-nightly.20261023.ga713410ab",
+      "published": "2026-10-23",
+      "url": "https://github.com/google-gemini/gemini-cli/releases/tag/v0.67.0-nightly.20261023.ga713410ab",
+      "summary": "## What's Changed",
+      "body_excerpt": "## What's Changed\n* fix(a2a-server,core): preserve extended token usage metadata and align per-turn reporting by @jvargassanchez-dot in https://github.com/google-gemini/gemini-cli/pull/29834\n* fix(core): ensure all model turns with function calls receive thought signatures by @amelidev in https://github.com/google-gemini/gemini-cli/pull/29828\n* fix(cli): handle termination signals and prevent tool execution after cancellation in non-interactive mode by @urielefrenvirtusa in https://github.com/google-gemini/gemini-cli/pull/29849\n* fix(cli): preserve ${VAR} placeholders during deprecated settings migration by @villahernandez-coder in https://github.com/google-gemini/gemini-cli/pull/29867\n\n\n**Full Changelog**: https://github.com/google-gemini/gemini-cli/compare/v0.67.0-nightly.20261022.g09d81bf11...v0.67.0-nightly.20261023.ga713410ab",
+      "prerelease": true
+    },
+    {
+      "product": "Hermes Agent",
+      "repo": "NousResearch/hermes-agent",
+      "tag": "v0.22.5",
+      "name": "Hermes Agent v0.22.5",
+      "published": "2026-10-23",
+      "url": "https://github.com/NousResearch/hermes-agent/releases/tag/v0.22.5",
+      "summary": "# Hermes Agent v0.22.5",
+      "body_excerpt": "# Hermes Agent v0.22.5\n\n**Release Date:** October 22, 2026\n\n> Patch release. This tag rolls up the ~81 PRs merged since v0.22.4 into a stable release for the GitHub release (CLI and installers), the Microsoft Store app, Docker and Hermes Cloud. Full curated notes for this window ship with v0.23.0.\n\n<!-- HERMES_BUILDS_TABLE -->\n\n## About this release\n\nMeasured at commit `bf0203a794a`, the window since v0.22.4 contains **231 non-merge commits** across **804 changed files** (+35,212 / −17,885), **81 merged PRs** and **30 closed issues**.\n\nAlso in the window, undocumented here on purpose: Nous sign-in reworked (every sign-in is the plain device login, the free-tier guest hands over to your account, the result shows who signed in, connectors offer sign-in instead of opening a guest), `hermes update` holding back a stable release it refuses instead of offering it, Windows `hermes update` no longer stuck on the old launcher after a Python repin, usage-window plan support (plan gauges, limit cards and model-switch recovery for window-based plans), pluggable delegation backends (route subagents by model map or profile, switchable per session), plugin slash commands that can ask you to pick an option, `hermes import-agent`, OpenClaw migration, `hermes mcp serve` and the Singularity backend moving out of core into plugins (setup offers the importer when it finds another agent), Desktop drag-to-pin in the sidebar and one-click plugin installs with tier badges, the Electron 44 upgrade, Pillow 13 and a batch of dependency security bumps, a clear message when a chat's working folder is gone, `hermes update` recovering paused gateways after a damaged `.git`, long Claude DirectSDK answers no longer cut off by the stall timer, Desktop group chats showing which bot is working again, and the experimental webhook-mode MCP events client.\n\n**Full curated release notes for this window ship with v0.23.0**, which will document everything from v0.22.0 onward — highlights, feature areas, and complete contributor credits. Nothing in this window is skipped.\n\n## Updating\n\n- Microsoft Store app: updates through the Store.\n- Desktop app installed from the installer (.exe / .dmg): no change in this release; it updates with the next bundled release.\n- CLI: `hermes update`, or re-run the installer one-liner.\n- Docker / Hermes Cloud: `nousresearch/hermes-agent:stable` (or `:latest`).\n\n**Full Changelog**: [v0.22.4...v0.22.5](https://github.com/NousResearch/hermes-agent/compare/v0.22.4...v0.22.",
+      "prerelease": false
+    },
+    {
+      "product": "Codex",
+      "repo": "openai/codex",
+      "tag": "rust-v0.164.0",
+      "name": "0.164.0",
+      "published": "2026-10-23",
+      "url": "https://github.com/openai/codex/releases/tag/rust-v0.164.0",
+      "summary": "## New Features",
+      "body_excerpt": "## New Features\n\n- Save reusable prompts and slash commands in ten numbered `/presets` slots, with a keyboard menu for quick access. (#54380, #54381)\n- Set model, reasoning effort, speed, and permission profiles directly with inline `/model` and `/permissions` arguments. (#54378, #54383)\n- Preview viewed and generated images in the fullscreen transcript on terminals supporting Kitty or Sixel graphics. (#54216)\n- Authenticate enterprise MCP connections using eligible Codex account grants or dedicated sign-in, including OAuth clients requiring secrets. (#55334, #55859, #56001)\n- Mask credentials during supported remote Bash commands and Zsh snapshot sessions, including credentials from custom providers. (#54309, #54432, #56049)\n- The Amazon Bedrock setup wizard is now enabled by default, with API key entry grouped alongside other AWS sign-in methods when credentials are detected. (#56033, #56023)\n\n## Bug Fixes\n\n- Failed compaction no longer leaves partial summaries in conversation history, and background compaction failures fall back without panicking. (#53932, #55581)\n- Resuming sessions now finds compressed histories and restores saved thread settings instead of replacing them with global defaults. (#54008, #55923)\n- Windows HTTPS and WebSocket connections now handle proxy authentication challenges using the signed-in user’s Negotiate or NTLM credentials. (#55994, #56000)\n- CLI configuration overrides are preserved when `-c` or `--config` appears at multiple subcommand levels. (#56022)\n- Queued prompts now wait for pending permission selections to resolve before continuing. (#55682)\n- Hardened sandbox checks for case-variant metadata paths on macOS and replaceable symlinks used to locate executables. (#54273, #55384)\n\n## Chores\n\n- Reduced disk usage by pruning unused installations, cleaning abandoned marketplace checkouts, and bounding daemon logs. (#53827, #55149, #55689, #55690, #55856)\n- Updated the embedded JavaScript runtime with safety checks for optimized `Array.sort` operations. (#54519)\n\n## Changelog\n\nFull Changelog: https://github.com/openai/codex/compare/rust-v0.163.0...rust-v0.164.0\n\n- #53725 Render Markdown web links as labels in Rex @bc-openai\n- #53728 Preserve the remote cwd filter in the in-app resume picker @fcoury-oai\n- #53732 Reuse compiled search patterns across compressed rollouts @ethernetdan-openai\n- #53733 Default Guardian v2 async classification to conversation mode @felixxia-oai\n- #53736 Acquire and cache opt-in executor capabilit",
+      "prerelease": false
+    },
+    {
+      "product": "OpenClaw",
+      "repo": "openclaw/openclaw",
+      "tag": "v2026.10.6",
+      "name": "openclaw 2026.10.6",
+      "published": "2026-10-22",
+      "url": "https://github.com/openclaw/openclaw/releases/tag/v2026.10.6",
+      "summary": "## 2026.10.6",
+      "body_excerpt": "## 2026.10.6\n\n### Highlights\n\n- **Patched Node runtime required:** OpenClaw now requires Node 24.22.1+ on the 24 line or 26.12.1+ on the 26 line, which reject TLS chains signed with the compromised certificate keys addressed in the October 2026 Node.js security releases. Docker images ship Node 24.22.1, installers select the patched runtimes, and `openclaw update` refuses with recovery guidance before installing on an older Node instead of breaking the running install. Source builds now pin pnpm 12.15.0. (#179992) Thanks @joshavant.\n- **Safer updates and recovery:** package swaps now refuse unsafe service states, Windows and macOS package-manager updates recover from platform-specific failures, and frozen Gateway startup owners can be retired cleanly. (#171101, #170940, #171936, #171678) Thanks @RomneyDa, @homeworld520, @Yolo521-bot, @stop-time, @AntaresGG, and @TommyLei666.\n- **Data-preserving migrations and backups:** Doctor and migration paths now refuse malformed or lossy workspace imports, preserve malformed Notes bytes, reject unsafe non-UTF-8 wiki rewrites, keep deeply nested SQLite backups, and retain staging evidence when restore inspection fails. (#172293, #172953, #172742, #174573, #168583, #170867, #172028) Thanks @wangmiao0668000666, @RomneyDa, @Leon-SK668, @ericcurtin, @Yolo521-bot, @obviyus, and @altaywtf.\n- **Reliable delivery across restarts:** queued turns, watched child results, dead-lettered deliveries, and streamed replies now survive recovery without disappearing, duplicating, or producing false missing-answer notices. (#170384, #169489, #169932, #173798) Thanks @RomneyDa, @huyengiang101086-spec, and @Yolo521-bot.\n- **Provider and model resilience:** GPT-5.6 tool turns, OpenRouter DeepSeek tool calls, LM Studio overflow recovery, parallel OpenAI reasoning settings, and model retry/fallback budgets now behave consistently. (#176709, #175058, #169189, #169322, #164808) Thanks @RomneyDa, @Linux2010, @ZhimingQ, @xpeng5278-web, and @anyech.\n- **Windows and mobile stability:** fresh Windows state stores, Proxy-backed environments, and stored Anthropic credentials no longer block startup, while iOS Talk and chat connectivity recover from first-reply and timeout failures. (#176174, #176194, #174571, #168416, #169912) Thanks @RomneyDa, @tjarrau-dev, @skyzhao1223, @easyteacher, @scalesmart, @masatohoshino, @Takhoffman, and @Solvely-Colin.\n- **Agent and tool-call recovery:** unfinished tools now time out visibly, context overflow compacts after ",
+      "prerelease": false
+    },
+    {
+      "product": "Claude Code",
+      "repo": "anthropics/claude-code",
+      "tag": "v2.1.309",
+      "name": "v2.1.309",
+      "published": "2026-10-22",
+      "url": "https://github.com/anthropics/claude-code/releases/tag/v2.1.309",
+      "summary": "## What's changed",
+      "body_excerpt": "## What's changed\n\n- Fixed sandboxed Bash commands on macOS and Linux running the shell's startup files outside the sandbox before each command\n- Fixed macOS sandbox `denyWrite` glob patterns not applying at a path's real location when the pattern's folder is reached through a symlink\n- Fixed sandboxed commands and auto-accepted edits being able to modify the MCP config file passed with `--mcp-config`\n- Fixed a disabled MCP server being reconnected by a later permission prompt in print and SDK sessions\n- Fixed the Bash permission check trusting a variable set by a command whose redirect can fail to open\n- Fixed Bash permission checks not prompting for some compound commands that change directory before running git when the `cd` is wrapped or prefixed, as they do for a plain `cd`\n- Fixed an `Edit(path)` deny rule not blocking a Bash redirect to that path in some commands that also held a subshell\n- Fixed worktree-isolated sessions accepting some locale-prefixed commands the isolation guard should refuse\n- Fixed worktree-isolated sessions on zsh accepting some arithmetic commands that the isolation guard should refuse\n- Fixed worktrees and branch checkouts that Claude Code creates so they ignore git replace refs, as its other git operations already do\n- Fixed profile store write protection not applying when the config directory is reached through a symlink\n- Fixed sessions compacting repeatedly after reading files under a very large nested CLAUDE.md; a nested CLAUDE.md over the size limit now loads only its start\n- Fixed ctrl+enter (send now) only queuing a message when pressed before the response had started, and restarting a prompt's hooks while leaving the message queued when pressed while those hooks were running\n- Fixed key-bound slash commands running in the shell from `!` mode\n- Fixed ctrl+o not showing messages from other agents and sessions that are still waiting to be delivered; they now appear in full under the transcript, marked as waiting\n- Fixed long tool output previews being cut through an emoji, leaving session transcripts that `jq` could not parse\n- Fixed Read reporting \"File does not exist\" for PDF page ranges in Linux sandboxes that share the parent's `/proc`\n- Fixed messages from a Claude Desktop-hosted session sometimes being lost when its connection refreshed\n- Fixed features missing from Claude Code sessions in the Claude desktop app when the terminal on the same computer was signed in to a different account or organization\n- Fixed th",
+      "prerelease": false
+    }
+  ],
+  "level2_people": [
+    "@karpathy",
+    "@bcherny",
+    "@sundarpichai",
+    "@sama",
+    "@gdb",
+    "@DarioAmodei"
+  ],
+  "level2_note": "raw 无人物搜索；无依据时 Level 2 标无新增，勿编造",
+  "level3_note": "本日未扫描行业报告（周报降频）",
+  "level4_hn": [
+    {
+      "title": "LayerFS: A filesystem for AI coding agents",
+      "url": "https://layerfs.ai/",
+      "points": 75,
+      "comments": 47,
+      "created": "2026-10-21"
+    },
+    {
+      "title": "With AI coding the future of software development looks more grim",
+      "url": "https://unixdigest.com/articles/with-ai-coding-the-future-of-software-development-looks-more-grim-than-ever-before.html",
+      "points": 3,
+      "comments": 1,
+      "created": "2026-10-21"
+    },
+    {
+      "title": "OpenAI Says 2 Internal AI Coding Agents Turned Off Their Own Safeguards",
+      "url": "https://www.pcmag.com/news/openai-says-2-internal-ai-coding-agents-turned-off-their-own-safeguards",
+      "points": 2,
+      "comments": 1,
+      "created": "2026-10-21"
+    },
+    {
+      "title": "The Customer Is the Builder: how AI coding agents change software economics",
+      "url": "https://arxiv.org/abs/2610.30307",
+      "points": 2,
+      "comments": 0,
+      "created": "2026-10-23"
+    },
+    {
+      "title": "My Spec-First Workflow for AI Coding Agents",
+      "url": "https://www.i-kh.net/p/my-spec-first-workflow-for-ai-coding",
+      "points": 2,
+      "comments": 0,
+      "created": "2026-10-22"
+    }
+  ]
+}
