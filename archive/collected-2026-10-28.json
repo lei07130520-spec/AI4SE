@@ -1,0 +1,100 @@
+{
+  "briefing_date": "2026-10-28",
+  "period_start": "2026-10-26",
+  "period_end": "2026-10-28",
+  "previous_briefing_date": "2026-10-27",
+  "previous_briefing_excerpt": "# AI x 研发效能 每日简报 2026-10-27\n\n> 覆盖周期：2026-10-25 ~ 2026-10-27（上一期：2026-10-26）\n\n> **采集方式**：GitHub Actions 自动采集（Level 1 GitHub API + Level 4 HN API）｜Level 2/3 待人工或 API 密钥补充\n\n---\n\n## 头条速览\n\n1. **Gemini CLI v0.67.0-nightly.20261025.gcd1b45c2d**——**Full Changelog**: https://github.com/google-ge\n\n---\n\n## 一、AI 增强软件研发（AI4SE）\n\n### 1.1 Level 1：核心产品与工程更新\n\n#### 1️⃣ Gemini CLI v0.67.0-nightly.20261025.gcd1b45c2d（2026-10-25）\n\n**Full Changelog**: https://github.com/google-gemini/gemini-cli/compare/v0.67.0-nightly.20261024.gcd1b45c2d...v0.67.0-nightly.20261025.gcd1b45c2d\n\n来源：[v0.67.0-nightly.20261025.gcd1b45c2d](https://github.com/google-gemini/gemini-cli/releases/tag/v0.67.0-nightly.20261025.gcd1b45c2d) — 2026-10-25\n\n---\n\n### 1.2 Level 2：关键人物战略洞察\n\n| 人物 | 动态 | 日期 |\n|---|---|---|\n| @karpathy | 自动采集未配置（需 WebSearch / X 间接源） | — |\n| @bcherny | 自动采集未配置（需 WebSearch / X 间接源） | — |\n| @sundarpichai | 自动采集未配置（需 WebSearch / X 间接源） | — |\n| @sama | 自动采集未配置（需 WebSearch / X 间接源） | — |\n| @gdb | 自动采集未配置（需 WebSearch / X 间接源） | — |\n| @DarioAmodei | 自动采集未配置（需 WebSearch / X 间接源） | — |\n\n---\n\n### 1.3 Level 3：行业研究与数据\n\n> **本日未扫描**（周报/月报降频）。\n\n---\n\n### 1.4 Level 4：补充信源（HN）\n\n- **2026-10-25**：[Show HN: Kolo – share your AI coding sessions with anyone](https://github.com/komovaar/kolo) （4 pts / 0 comments）\n- **2026-10-26**：[I wrote a chess engine and still can't play chess: AI coding and skill decay](https://www.youtube.com/watch?v=DJa1JGji2V0) （2 pts / 0 comments）\n- **2026-10-26**：[Humanlayer: Way to get AI coding agents in complex codebases](https://github.com/humanlayer/humanlayer) （1 pts / 0 comments）\n- **2026-10-26**：[AI coding agents hijacked using AGENTS.md file in Downloads folder](https://www.bleepingcomputer.com/news/security/ai-coding-agents-hijacked-using-agentsmd-file-in-downloads-folder/) （1 pts / 0 comments）\n- **2026-10-26**：[Show HN: Graph-MIND – Local memory for AI coding agents, no LLM calls to save](https://github.com/goyohan0611-png/graph-mind) （1 pts / 0 comments）\n\n---\n\n## 附录：采集日志\n\n| 环节 | 状态 |\n|---|---|\n| GitHub Releases API | ✅ 1 条 |\n| HN Algolia API | ✅ 5 条 |\n| 生成时间 (UTC) | 2026-10-26 18:54 |\n\n*自动生成版 · 可在 Cursor 中基于本稿补充 Level 2 分析与专题*\n",
+  "level1_releases": [
+    {
+      "product": "OpenClaw",
+      "repo": "openclaw/openclaw",
+      "tag": "v2026.10.8",
+      "name": "openclaw 2026.10.8",
+      "published": "2026-10-27",
+      "url": "https://github.com/openclaw/openclaw/releases/tag/v2026.10.8",
+      "summary": "## 2026.10.8",
+      "body_excerpt": "## 2026.10.8\n\n### Highlights\n\n- **Updates that finish and recover:** an ordinary post-update Doctor failure restarts the Gateway instead of leaving it stopped, an orphaned maintenance worker no longer blocks every CLI command and Gateway start, and updates no longer abort on ACL filesystems, Windows pnpm optional-dependency links, pnpm 10 global installs, debug console logging, or a missing legacy OAuth directory. (#180668, #181695, #181141, #181596, #181456, #182850, #180174) Thanks @hannesrudolph, @SMF12138, @rayluo88, @PonySlayer28, and @VN77-77VN.\n- **Gateway service installs on every desktop:** macOS recovers a loaded launchd registration whose plist was deleted, Linux installs under the Ubuntu default umask create a private state directory instead of being refused, and the macOS updater waits for the serving Gateway to release its databases before Doctor runs. (#180390, #179538, #182055) Thanks @avnishkirnalli and @XiaoPengYouCode.\n- **Conversations keep accepting messages:** killed runs release their restart-recovery fence, interrupted and just-accepted child sessions recover after a Gateway restart, inbound messages stop retrying forever when the reply runtime cannot publish, and the Control UI forgotten-send retry delivers the reply instead of an authoring error. (#181992, #178888, #181871, #181300, #182219) Thanks @najef1979-code, @handcraftrc-pixel, @sukhdeepjohar, and @teddashh.\n- **Startup and database resilience:** startup work no longer inherits a closed SQLite reader scope, so models, chat metadata and channel replies stay available; transient lock contention during agent database startup is retried; and model catalogs stay available during skill runs. (#182615, #182446, #182385)\n- **Security hardening:** exec allowlist mode requires approval for `test -v` operand expansion, generic node invoke refuses browser proxy commands, sandboxed spawned children cannot run host CLI backends, the secret egress proxy rejects distrusted eMudhra chains, Fish Audio and Gradium errors no longer expose API keys, and deeply nested Tlon content can no longer stall the channel. (#180880, #179880, #178742, #179249, #178877, #177536) Thanks @eleqtrizit and @joshavant.\n- **Windows exec and plugins:** agent exec works under S4U scheduled tasks while Store PowerShell is installed, native plugins load on machines with Endpoint DLP, and Doctor recovers dangling dependency junctions and plugins on another filesystem. (#182898, #179949, #179549, #179445) Fixes #182652 ",
+      "prerelease": false
+    },
+    {
+      "product": "Gemini CLI",
+      "repo": "google-gemini/gemini-cli",
+      "tag": "v0.67.0-nightly.20261027.g363a13119",
+      "name": "Release v0.67.0-nightly.20261027.g363a13119",
+      "published": "2026-10-27",
+      "url": "https://github.com/google-gemini/gemini-cli/releases/tag/v0.67.0-nightly.20261027.g363a13119",
+      "summary": "## What's Changed",
+      "body_excerpt": "## What's Changed\n* fix(core): classify project spending cap errors as terminal quota errors by @jesussamuel-byte in https://github.com/google-gemini/gemini-cli/pull/29961\n* fix(acp): include MCP server and tool metadata in permission requests by @duvanka-prasad in https://github.com/google-gemini/gemini-cli/pull/29910\n* fix(cli): prevent parent command name insertion on /chat list autocomplete by @urielefrenvirtusa in https://github.com/google-gemini/gemini-cli/pull/29967\n* fix(cli): validate finite numbers in numeric settings editor by @diegogodinezr in https://github.com/google-gemini/gemini-cli/pull/29968\n\n## New Contributors\n* @duvanka-prasad made their first contribution in https://github.com/google-gemini/gemini-cli/pull/29910\n\n**Full Changelog**: https://github.com/google-gemini/gemini-cli/compare/v0.67.0-nightly.20261025.gcd1b45c2d...v0.67.0-nightly.20261027.g363a13119",
+      "prerelease": true
+    },
+    {
+      "product": "Codex",
+      "repo": "openai/codex",
+      "tag": "rust-v0.166.0-alpha.2",
+      "name": "0.166.0-alpha.2",
+      "published": "2026-10-27",
+      "url": "https://github.com/openai/codex/releases/tag/rust-v0.166.0-alpha.2",
+      "summary": "Release 0.166.0-alpha.2",
+      "body_excerpt": "Release 0.166.0-alpha.2",
+      "prerelease": true
+    },
+    {
+      "product": "Claude Code",
+      "repo": "anthropics/claude-code",
+      "tag": "v2.1.311",
+      "name": "v2.1.311",
+      "published": "2026-10-26",
+      "url": "https://github.com/anthropics/claude-code/releases/tag/v2.1.311",
+      "summary": "## What's changed",
+      "body_excerpt": "## What's changed\n\n- Added `--hold-idle-file` and `--max-hold-min` to `self-hosted-runner`, to keep an idle session while your host reports processes it left running\n- Added a tip for the Explanatory output style, shown when you ask Claude for explanations\n- Fixed long freezes at startup and after reading or editing files when a CLAUDE.md file holds a very long list item\n- Fixed interrupting Claude not taking effect until a timeout while an MCP server had not answered a resource read or a skill was still downloading\n- Fixed standard-context sessions stopping with \"Usage credits required for 1M context\" when a request ran over 200K tokens; Claude Code now compacts the conversation and continues\n- Fixed Write and Edit stalling for up to 5 seconds after they ran, and reporting 0 lines changed, when changing thousands of lines in a file\n- Fixed subagents being unable to use MCP tools from servers that finish connecting after the subagent starts\n- Fixed Claude seeing stale MEMORY.md and CLAUDE.md content right after automatic compaction when those files were edited earlier in the session\n- Fixed `claude -p` and SDK sessions saving transcript messages out of order or keeping messages that were taken back\n- Fixed `SubagentStop` hooks running about twice a minute for each running subagent instead of once when it finishes\n- Fixed the @ file picker ignoring `.ignore`/`.rgignore` negation rules that re-include git-ignored files\n- Fixed a subagent's isolated worktree being removed while a background subagent it started was still working in it\n- Fixed background agents in auto mode that wait on their own shells starting a new main conversation turn on every wake\n- Fixed the Bash tool description claiming the working directory always persists between calls\n- Fixed the environment block naming a shell commands don't run in, such as fish when the Bash tool uses zsh\n- Fixed `claude mcp add`, `claude mcp remove` and `/mcp` naming the current folder instead of the project entry in `~/.claude.json` that holds a local-scope server when run below a repository root\n- Fixed `claude mcp list` and `claude mcp get` showing the error code twice on failed-connection lines (for example `ENOENT: ENOENT: …`)\n- Fixed Remote Control sessions staying on \"Connecting\" for about two minutes when a network proxy blocks a startup request\n- Fixed messages that Claude sends to a cloud or Remote Control session appearing as your own message in the Claude mobile apps\n- Fixed Claude not being told th",
+      "prerelease": false
+    }
+  ],
+  "level2_people": [
+    "@karpathy",
+    "@bcherny",
+    "@sundarpichai",
+    "@sama",
+    "@gdb",
+    "@DarioAmodei"
+  ],
+  "level2_note": "raw 无人物搜索；无依据时 Level 2 标无新增，勿编造",
+  "level3_note": "本日未扫描行业报告（周报降频）",
+  "level4_hn": [
+    {
+      "title": "Ask HN: Do you feel like you're seeing fewer bugs since the AI coding era began?",
+      "url": "https://news.ycombinator.com/item?id=50254174",
+      "points": 4,
+      "comments": 4,
+      "created": "2026-10-27"
+    },
+    {
+      "title": "Show HN: Kolo – share your AI coding sessions with anyone",
+      "url": "https://github.com/komovaar/kolo",
+      "points": 4,
+      "comments": 0,
+      "created": "2026-10-25"
+    },
+    {
+      "title": "Why AI coding tools assume a clean slate",
+      "url": "https://loopsfinity.com/blog-greenfield-bias-ai-tools",
+      "points": 3,
+      "comments": 0,
+      "created": "2026-10-27"
+    },
+    {
+      "title": "Show HN: AgenticBench, 9 security tests run on 25 AI coding agents",
+      "url": "https://agenticbench.org/",
+      "points": 2,
+      "comments": 0,
+      "created": "2026-10-27"
+    },
+    {
+      "title": "I wrote a chess engine and still can't play chess: AI coding and skill decay",
+      "url": "https://www.youtube.com/watch?v=DJa1JGji2V0",
+      "points": 2,
+      "comments": 0,
+      "created": "2026-10-26"
+    }
+  ]
+}
