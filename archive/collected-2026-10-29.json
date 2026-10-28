@@ -1,0 +1,100 @@
+{
+  "briefing_date": "2026-10-29",
+  "period_start": "2026-10-27",
+  "period_end": "2026-10-29",
+  "previous_briefing_date": "2026-10-28",
+  "previous_briefing_excerpt": "# AI x 研发效能 每日简报 2026-10-28\n\n> 覆盖周期：2026-10-26 ~ 2026-10-28（上一期：2026-10-27）\n\n> **采集方式**：GitHub Actions 自动采集（Level 1 GitHub API + Level 4 HN API）｜Level 2/3 待人工或 API 密钥补充\n\n---\n\n## 头条速览\n\n1. **OpenClaw v2026.10.8**——## 2026.10.8\n2. **Gemini CLI v0.67.0-nightly.20261027.g363a13119**——## What's Changed\n3. **Codex rust-v0.166.0-alpha.2**——Release 0.166.0-alpha.2\n\n---\n\n## 一、AI 增强软件研发（AI4SE）\n\n### 1.1 Level 1：核心产品与工程更新\n\n#### 1️⃣ OpenClaw v2026.10.8（2026-10-27）\n\n## 2026.10.8\n\n来源：[v2026.10.8](https://github.com/openclaw/openclaw/releases/tag/v2026.10.8) — 2026-10-27\n\n#### 2️⃣ Gemini CLI v0.67.0-nightly.20261027.g363a13119（2026-10-27）\n\n## What's Changed\n\n来源：[v0.67.0-nightly.20261027.g363a13119](https://github.com/google-gemini/gemini-cli/releases/tag/v0.67.0-nightly.20261027.g363a13119) — 2026-10-27\n\n#### 3️⃣ Codex rust-v0.166.0-alpha.2（2026-10-27）\n\nRelease 0.166.0-alpha.2\n\n来源：[rust-v0.166.0-alpha.2](https://github.com/openai/codex/releases/tag/rust-v0.166.0-alpha.2) — 2026-10-27\n\n#### 4️⃣ Claude Code v2.1.311（2026-10-26）\n\n## What's changed\n\n来源：[v2.1.311](https://github.com/anthropics/claude-code/releases/tag/v2.1.311) — 2026-10-26\n\n---\n\n### 1.2 Level 2：关键人物战略洞察\n\n| 人物 | 动态 | 日期 |\n|---|---|---|\n| @karpathy | 自动采集未配置（需 WebSearch / X 间接源） | — |\n| @bcherny | 自动采集未配置（需 WebSearch / X 间接源） | — |\n| @sundarpichai | 自动采集未配置（需 WebSearch / X 间接源） | — |\n| @sama | 自动采集未配置（需 WebSearch / X 间接源） | — |\n| @gdb | 自动采集未配置（需 WebSearch / X 间接源） | — |\n| @DarioAmodei | 自动采集未配置（需 WebSearch / X 间接源） | — |\n\n---\n\n### 1.3 Level 3：行业研究与数据\n\n> **本日未扫描**（周报/月报降频）。\n\n---\n\n### 1.4 Level 4：补充信源（HN）\n\n- **2026-10-27**：[Ask HN: Do you feel like you're seeing fewer bugs since the AI coding era began?](https://news.ycombinator.com/item?id=50254174) （4 pts / 4 comments）\n- **2026-10-25**：[Show HN: Kolo – share your AI coding sessions with anyone](https://github.com/komovaar/kolo) （4 pts / 0 comments）\n- **2026-10-27**：[Why AI coding tools assume a clean slate](https://loopsfinity.com/blog-greenfield-bias-ai-tools) （3 pts / 0 comments）\n- **2026-10-27**：[Show HN: AgenticBench, 9 security tests run on 25 AI coding agents](https://agenticbench.org/) （2 pts / 0 comments）\n- **2026-10-26**：[I wrote a chess engine and still can't play chess: AI coding and skill decay](https://www.youtube.com/watch?v=DJa1JGji2V0) （2 pts / 0 comments）\n\n---\n\n## 附录：采集日志\n\n| 环节 | 状态 |\n|---|---|\n| GitHub Releases API | ✅ 4 条 |\n| HN Algolia API | ✅ 5 条 |\n| 生成时间 (UTC) | 2026-10-27 18:28 |\n\n*自动生成版 · 可在 Cursor 中基于本稿补充 Level 2 分析与专题*\n",
+  "level1_releases": [
+    {
+      "product": "OpenClaw",
+      "repo": "openclaw/openclaw",
+      "tag": "v2026.10.8",
+      "name": "openclaw 2026.10.8",
+      "published": "2026-10-27",
+      "url": "https://github.com/openclaw/openclaw/releases/tag/v2026.10.8",
+      "summary": "## 2026.10.8",
+      "body_excerpt": "## 2026.10.8\n\n### Highlights\n\n- **Updates that finish and recover:** an ordinary post-update Doctor failure restarts the Gateway instead of leaving it stopped, an orphaned maintenance worker no longer blocks every CLI command and Gateway start, and updates no longer abort on ACL filesystems, Windows pnpm optional-dependency links, pnpm 10 global installs, debug console logging, or a missing legacy OAuth directory. (#180668, #181695, #181141, #181596, #181456, #182850, #180174) Thanks @hannesrudolph, @SMF12138, @rayluo88, @PonySlayer28, and @VN77-77VN.\n- **Gateway service installs on every desktop:** macOS recovers a loaded launchd registration whose plist was deleted, Linux installs under the Ubuntu default umask create a private state directory instead of being refused, and the macOS updater waits for the serving Gateway to release its databases before Doctor runs. (#180390, #179538, #182055) Thanks @avnishkirnalli and @XiaoPengYouCode.\n- **Conversations keep accepting messages:** killed runs release their restart-recovery fence, interrupted and just-accepted child sessions recover after a Gateway restart, inbound messages stop retrying forever when the reply runtime cannot publish, and the Control UI forgotten-send retry delivers the reply instead of an authoring error. (#181992, #178888, #181871, #181300, #182219) Thanks @najef1979-code, @handcraftrc-pixel, @sukhdeepjohar, and @teddashh.\n- **Startup and database resilience:** startup work no longer inherits a closed SQLite reader scope, so models, chat metadata and channel replies stay available; transient lock contention during agent database startup is retried; and model catalogs stay available during skill runs. (#182615, #182446, #182385)\n- **Security hardening:** exec allowlist mode requires approval for `test -v` operand expansion, generic node invoke refuses browser proxy commands, sandboxed spawned children cannot run host CLI backends, the secret egress proxy rejects distrusted eMudhra chains, Fish Audio and Gradium errors no longer expose API keys, and deeply nested Tlon content can no longer stall the channel. (#180880, #179880, #178742, #179249, #178877, #177536) Thanks @eleqtrizit and @joshavant.\n- **Windows exec and plugins:** agent exec works under S4U scheduled tasks while Store PowerShell is installed, native plugins load on machines with Endpoint DLP, and Doctor recovers dangling dependency junctions and plugins on another filesystem. (#182898, #179949, #179549, #179445) Fixes #182652 ",
+      "prerelease": false
+    },
+    {
+      "product": "Claude Code",
+      "repo": "anthropics/claude-code",
+      "tag": "v2.1.312",
+      "name": "v2.1.312",
+      "published": "2026-10-27",
+      "url": "https://github.com/anthropics/claude-code/releases/tag/v2.1.312",
+      "summary": "## What's changed",
+      "body_excerpt": "## What's changed\n\n- Added `oidc.user_id_claim` to the Claude apps gateway, to identify people by an id_token claim other than `sub`, such as Microsoft Entra ID's `oid`\n- Added click to send: in fullscreen, clicking the \"to send now\" hint under a queued message sends it right away, as its key does\n- Fixed managed settings and organization policy not being fetched for the rest of the session after signing in from the VS Code extension\n- Fixed Claude overwriting a very large CLAUDE.md, rules file or @-included file in a subdirectory after seeing only its start; Write now asks Claude to read it all or edit in place\n- Fixed per-directory and `paths:` skills not being found after a Bash `cd` deeper into a git repository\n- Fixed a rare case where the first reply after resuming a session in the terminal could be missing the next time the session was resumed\n- Fixed a command with an invalid name stopping all commands from loading, which could leave `claude -p` with no output\n- Fixed the Read tool sometimes failing on PDF pages with \"pdftoppm failed: Could not write image\" when the clean-up of old session files ran at the same time\n- Fixed the spinner, OpenTelemetry `effort` values and transcripts naming a newly picked effort level during a task before the model applied it; they now show the level in force\n- Fixed the `/model` and `/effort` cache warning saying the re-read waits for your next message; a change made while Claude is working can trigger it sooner\n- Fixed some sessions showing as waiting on you when the last message only mentioned items waiting on you mid-sentence\n- Fixed agent view restoring input text on the next launch after it was cleared with Ctrl+C just before exiting\n- Fixed agent view reopening in shell mode after exiting with Ctrl+D from an empty `!` input\n- Fixed vim mode `d`, `c` and `y` with a `gj` or `gk` count larger than the lines left deleting or copying text; like Vim, they now only move the cursor\n- Fixed `/verify` showing a long description meant for Claude in `/help` and the `/` command menu instead of a short one\n- Improved the prompt's effort indicator: a change made mid-task now says it may wait for your next message, and the note clears when it no longer applies\n- Improved WebFetch errors in cloud sessions: a host that does not resolve is now explained as possibly outside the allowed network domains, so Claude names the host to allow\n- Changed Bedrock, Vertex, Foundry and Mantle to use the shorter system prompt for model names ",
+      "prerelease": false
+    },
+    {
+      "product": "Gemini CLI",
+      "repo": "google-gemini/gemini-cli",
+      "tag": "v0.66.0",
+      "name": "Release v0.66.0",
+      "published": "2026-10-27",
+      "url": "https://github.com/google-gemini/gemini-cli/releases/tag/v0.66.0",
+      "summary": "## What's Changed",
+      "body_excerpt": "## What's Changed\n* Update ROADMAP.md to no longer reference outdated 2025 roadmap by @DavidAPierce in https://github.com/google-gemini/gemini-cli/pull/29723\n* Changelog for v0.65.0-preview.0 by @gemini-cli-robot in https://github.com/google-gemini/gemini-cli/pull/29739\n* chore(release): bump version to 0.66.0-nightly.20261013.g204db94ae by @gemini-cli-robot in https://github.com/google-gemini/gemini-cli/pull/29740\n* Changelog for v0.64.0 by @gemini-cli-robot in https://github.com/google-gemini/gemini-cli/pull/29741\n* fix(ui): implement synchronized output and isolate spinner rendering by @diegogodinezr in https://github.com/google-gemini/gemini-cli/pull/29725\n* fix(ui): fix debug console height calculation and terminalBuffer flickering by @ugorla-dev in https://github.com/google-gemini/gemini-cli/pull/29695\n* fix(cli): prevent right-hand border bleed in scrollable tool containers by @villahernandez-coder in https://github.com/google-gemini/gemini-cli/pull/29742\n* refactor(core,cli): emit tool call groups from the scheduler and drop the UI lookahead by @jesussamuel-byte in https://github.com/google-gemini/gemini-cli/pull/29736\n* fix(core): format and quote Windows diff command arguments in openDiff by @jvargassanchez-dot in https://github.com/google-gemini/gemini-cli/pull/29753\n* fix(cli): round before selecting units in formatDuration by @diegogodinezr in https://github.com/google-gemini/gemini-cli/pull/29766\n* fix(core): disable interactive credential and SSH prompts in getSafeGitEnv by @villahernandez-coder in https://github.com/google-gemini/gemini-cli/pull/29760\n* fix(cli): resolve settings placeholders after loading .env files by @elberthc-byte in https://github.com/google-gemini/gemini-cli/pull/29750\n* fix(core): harden SKILL.md frontmatter parsing for single-line descriptions by @jesussamuel-byte in https://github.com/google-gemini/gemini-cli/pull/29769\n* Add Banner about Gemini CLI not being optimized for Gemini 4 by @srithreepo in https://github.com/google-gemini/gemini-cli/pull/29774\n* Update README to remove obsolete content by @srithreepo in https://github.com/google-gemini/gemini-cli/pull/29775\n* fix(ci): remove unsupported members permission in unassign-inactive-assignees workflow by @ugorla-dev in https://github.com/google-gemini/gemini-cli/pull/29770\n* fix(cli): reset slash-command conflict dedupe when conflicts reappear by @jvargassanchez-dot in https://github.com/google-gemini/gemini-cli/pull/29768\n* fix(cli): verify active binary update",
+      "prerelease": false
+    },
+    {
+      "product": "Codex",
+      "repo": "openai/codex",
+      "tag": "rust-v0.165.0",
+      "name": "0.165.0",
+      "published": "2026-10-27",
+      "url": "https://github.com/openai/codex/releases/tag/rust-v0.165.0",
+      "summary": "## New Features",
+      "body_excerpt": "## New Features\n\n- Added a built-in Google Cloud Vertex AI provider, configured with `model_provider = \"gcp\"`. (#56265)\n- Added GPT-6.1 Terra to the model catalogs. (#57337)\n- Added a repository filter to the session picker and directory grouping to the agent command center, making it easier to navigate sessions across linked worktrees. (#56308)\n- Added experimental attached thread forks to the app-server API. (#56351)\n- Enabled reasoning effort changes during a conversation by default for supported models. (#56163)\n- Enabled memory v2 by default for fresh profiles and added support for importing external-agent memories into it. (#56211, #56414)\n\n## Bug Fixes\n\n- Fixed fresh TUI sessions to honor the server’s default approval reviewer when no explicit override is provided. (#56090)\n- Kept TUI preferences editable and immediately applicable when execution settings are invalid. (#56091)\n- Cancelled remote MCP tool requests when their local response futures are dropped. (#56132)\n- Prevented queued agent messages from restarting work after an interrupt or a switch to Plan mode. (#56330)\n- Stopped retrying when a provider reports that a model was not found, preserving its error message. (#56445)\n- Closed a marketplace URL validation gap that could allow Git to connect to a different host than the one checked against allowed patterns. (#56263)\n\n## Changelog\n\nFull Changelog: https://github.com/openai/codex/compare/rust-v0.164.0...rust-v0.165.0\n\n- #56081 Cache decrypted Codex auth and managed secrets @celia-oai\n- #56090 Honor server approval reviewer defaults on fresh TUI startup @etraut-openai\n- #56091 Keep TUI preferences editable when execution settings are invalid @etraut-openai\n- #56097 Prepare TUI startup to accept multiple backend sessions @bc-openai\n- #56124 Forward Guardian reviewer events to parent raw-event subscribers @jif-oai\n- #56127 Avoid blocking EMA auth status checks on account refresh @jif-oai\n- #56132 Cancel MCP tool requests when response futures are dropped @rhan-oai\n- #56133 Defer agent mail after empty final answers @eknight-oai\n- #56139 Fix the MCP auth status test's IdP OAuth configuration @jif-oai\n- #56153 Preserve safe enterprise MCP authentication error details @jif-oai\n- #56154 Add managed network review domains before allow rules @olliem-oai\n- #56163 Enable reasoning effort overrides by default @felixxia-oai\n- #56182 Add AWS SigV4 signing to network proxy MITM hooks @viyatb-oai\n- #56210 Stabilize the marketplace staging cleanup test @",
+      "prerelease": false
+    }
+  ],
+  "level2_people": [
+    "@karpathy",
+    "@bcherny",
+    "@sundarpichai",
+    "@sama",
+    "@gdb",
+    "@DarioAmodei"
+  ],
+  "level2_note": "raw 无人物搜索；无依据时 Level 2 标无新增，勿编造",
+  "level3_note": "本日未扫描行业报告（周报降频）",
+  "level4_hn": [
+    {
+      "title": "Ask HN: Do you feel like you're seeing fewer bugs since the AI coding era began?",
+      "url": "https://news.ycombinator.com/item?id=50254174",
+      "points": 4,
+      "comments": 4,
+      "created": "2026-10-27"
+    },
+    {
+      "title": "Show HN: AgenticBench, 9 security tests run on 25 AI coding agents",
+      "url": "https://agenticbench.org/",
+      "points": 3,
+      "comments": 0,
+      "created": "2026-10-27"
+    },
+    {
+      "title": "Why AI coding tools assume a clean slate",
+      "url": "https://loopsfinity.com/blog-greenfield-bias-ai-tools",
+      "points": 3,
+      "comments": 0,
+      "created": "2026-10-27"
+    },
+    {
+      "title": "I ran each AI coding-agent sandbox's own tests against the others",
+      "url": "https://github.com/carlostapiacl/sandbox-conformance",
+      "points": 2,
+      "comments": 1,
+      "created": "2026-10-28"
+    },
+    {
+      "title": "Do Guardrails Make AI Coding Agents Better? What 270 Runs Showed",
+      "url": "https://secondtimeisabug.com/blog/coding-agent-guardrails-270-runs/",
+      "points": 2,
+      "comments": 0,
+      "created": "2026-10-28"
+    }
+  ]
+}
