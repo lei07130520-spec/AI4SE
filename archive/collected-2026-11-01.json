@@ -1,0 +1,89 @@
+{
+  "briefing_date": "2026-11-01",
+  "period_start": "2026-10-30",
+  "period_end": "2026-11-01",
+  "previous_briefing_date": "2026-10-31",
+  "previous_briefing_excerpt": "# AI x 研发效能 每日简报 2026-10-31\n\n> 覆盖周期：2026-10-29 ~ 2026-10-31（上一期：2026-10-30）\n\n> **采集方式**：GitHub Actions 自动采集（Level 1 GitHub API + Level 4 HN API）｜Level 2/3 待人工或 API 密钥补充\n\n---\n\n## 头条速览\n\n1. **Claude Code v2.1.314**——## What's changed\n2. **Gemini CLI v0.67.0-nightly.20261030.gb633c0703**——## What's Changed\n3. **OpenClaw v2026.10.9**——## 2026.10.9\n\n---\n\n## 一、AI 增强软件研发（AI4SE）\n\n### 1.1 Level 1：核心产品与工程更新\n\n#### 1️⃣ Claude Code v2.1.314（2026-10-30）\n\n## What's changed\n\n来源：[v2.1.314](https://github.com/anthropics/claude-code/releases/tag/v2.1.314) — 2026-10-30\n\n#### 2️⃣ Gemini CLI v0.67.0-nightly.20261030.gb633c0703（2026-10-30）\n\n## What's Changed\n\n来源：[v0.67.0-nightly.20261030.gb633c0703](https://github.com/google-gemini/gemini-cli/releases/tag/v0.67.0-nightly.20261030.gb633c0703) — 2026-10-30\n\n#### 3️⃣ OpenClaw v2026.10.9（2026-10-29）\n\n## 2026.10.9\n\n来源：[v2026.10.9](https://github.com/openclaw/openclaw/releases/tag/v2026.10.9) — 2026-10-29\n\n#### 4️⃣ Codex rust-v0.166.0（2026-10-29）\n\n## New Features\n\n来源：[rust-v0.166.0](https://github.com/openai/codex/releases/tag/rust-v0.166.0) — 2026-10-29\n\n---\n\n### 1.2 Level 2：关键人物战略洞察\n\n| 人物 | 动态 | 日期 |\n|---|---|---|\n| @karpathy | 自动采集未配置（需 WebSearch / X 间接源） | — |\n| @bcherny | 自动采集未配置（需 WebSearch / X 间接源） | — |\n| @sundarpichai | 自动采集未配置（需 WebSearch / X 间接源） | — |\n| @sama | 自动采集未配置（需 WebSearch / X 间接源） | — |\n| @gdb | 自动采集未配置（需 WebSearch / X 间接源） | — |\n| @DarioAmodei | 自动采集未配置（需 WebSearch / X 间接源） | — |\n\n---\n\n### 1.3 Level 3：行业研究与数据\n\n> **本日未扫描**（周报/月报降频）。\n\n---\n\n### 1.4 Level 4：补充信源（HN）\n\n- **2026-10-30**：[Show HN: Beolis – Manage your coding AI agents](https://beolis.com) （3 pts / 1 comments）\n- **2026-10-29**：[Former GitHub CEO launches rival Git forge built for AI coding agents](https://www.geekwire.com/2026/former-github-ceo-launches-rival-platform-built-for-ai-coding-agents/) （3 pts / 1 comments）\n- **2026-10-30**：[Ask HN: Are you putting off hardware upgrades because of AI coding tools?](https://news.ycombinator.com/item?id=50307060) （3 pts / 0 comments）\n- **2026-10-28**：[Agent Scrum: Running a team of AI coding agents in two-hour sprints](https://daveremy.github.io/agent-scrum/) （2 pts / 2 comments）\n- **2026-10-28**：[I ran each AI coding-agent sandbox's own tests against the others](https://github.com/carlostapiacl/sandbox-conformance) （2 pts / 1 comments）\n\n---\n\n## 附录：采集日志\n\n| 环节 | 状态 |\n|---|---|\n| GitHub Releases API | ✅ 4 条 |\n| HN Algolia API | ✅ 5 条 |\n| 生成时间 (UTC) | 2026-10-30 18:18 |\n\n*自动生成版 · 可在 Cursor 中基于本稿补充 Level 2 分析与专题*\n",
+  "level1_releases": [
+    {
+      "product": "Claude Code",
+      "repo": "anthropics/claude-code",
+      "tag": "v2.1.316",
+      "name": "v2.1.316",
+      "published": "2026-10-31",
+      "url": "https://github.com/anthropics/claude-code/releases/tag/v2.1.316",
+      "summary": "## What's changed",
+      "body_excerpt": "## What's changed\n\n- Added `CLAUDE_CODE_DISABLE_ULTRATHINK`, which turns the `ultrathink` keyword off\n- Added pooled group budgets to the Claude apps gateway: one monthly budget that a group's members share, on top of each member's own limit, set with `pooled_budget` on the spend limits admin API\n- Added `CLAUDE_CODE_DISABLE_LOOPED_CROSS_CERT_DROP` to keep system cross-certificates that certify each other in a loop, for servers whose private CA needs one\n- Added `CLAUDE_CODE_SUBAGENT_EFFORT` to set the effort level subagents run at when nothing else names one, instead of inheriting the session's\n- Added `managed.policy_mode: layered` to the Claude apps gateway: every policy that matches a developer applies, each merged over the ones listed below it, not only the first\n- Added `guardrail.input_tagging` on Claude apps gateway Bedrock upstreams, which wraps prompts in the input tags that an Amazon Bedrock guardrail's prompt attacks filter needs; `all_messages_and_system` also tags the system prompt\n- Deprecated fast mode for Opus 4.8 as of October 30, 2026; it will be removed on November 30, 2026. After removal, fast mode requests on Opus 4.8 return an error and do not fall back to standard Opus 4.8. Migrate to Opus 5.5 to keep the speedup\n- Fixed shell commands being left running on macOS and Linux when Claude Code exits by itself, for example when credentials are refused or a cloud session is archived\n- Fixed bash aliases with line breaks in their value (except in Git Bash), and functions whose names start with a dash, being garbled or lost in the Bash tool's shell\n- Fixed bash scripts started from the Bash tool stopping after their first command when `SHELLOPTS` is exported\n- Fixed PowerShell hooks not blocking on exit code 2 when the command begins with a type cast, `param`, `using` or an attribute\n- Fixed some network requests hanging when a compressed response was cut off or corrupted\n- Fixed `sonnet`, `opus` and `haiku` on Vertex AI and Amazon Bedrock showing an error mid-session instead of switching to an older model when the newest is not yet available to the account or region\n- Fixed the Claude apps gateway not checking every model a request names against `availableModels`, `deniedModels` and `models`; a request that names a blocked model now gets a 400 naming the field\n- Fixed `claude auth login` refusing to run where managed settings require a Claude apps gateway; in a terminal it now shows the gateway sign-in\n- Fixed `--restricted` sessions uploa",
+      "prerelease": false
+    },
+    {
+      "product": "Gemini CLI",
+      "repo": "google-gemini/gemini-cli",
+      "tag": "v0.67.0-nightly.20261031.g6814e00d6",
+      "name": "Release v0.67.0-nightly.20261031.g6814e00d6",
+      "published": "2026-10-31",
+      "url": "https://github.com/google-gemini/gemini-cli/releases/tag/v0.67.0-nightly.20261031.g6814e00d6",
+      "summary": "## What's Changed",
+      "body_excerpt": "## What's Changed\n* fix(core): honor .git/info/exclude and core.excludesFile in shadow repo by @urielefrenvirtusa in https://github.com/google-gemini/gemini-cli/pull/30034\n* fix(core): flush pending SSE event buffer at stream EOF in CodeAssistServer by @tadipavan in https://github.com/google-gemini/gemini-cli/pull/30050\n* fix(core): handle Windows libuv zero-device stat reporting in readSecureFileBuffer by @jvargassanchez-dot in https://github.com/google-gemini/gemini-cli/pull/30044\n* fix(cli): serialize concurrent extension installs with per-extension lock (#29036) by @diegogodinezr in https://github.com/google-gemini/gemini-cli/pull/30039\n* fix(core): resolve symlinked paths canonically in GlobTool by @ugorla-dev in https://github.com/google-gemini/gemini-cli/pull/30042\n* fix(cli): add missing active and focus keys to custom theme ui schema by @villahernandez-coder in https://github.com/google-gemini/gemini-cli/pull/30032\n* fix(core,cli): preserve selected model across transient fallback, cancel, and rewind by @villahernandez-coder in https://github.com/google-gemini/gemini-cli/pull/30059\n\n\n**Full Changelog**: https://github.com/google-gemini/gemini-cli/compare/v0.67.0-nightly.20261030.gb633c0703...v0.67.0-nightly.20261031.g6814e00d6",
+      "prerelease": true
+    },
+    {
+      "product": "OpenClaw",
+      "repo": "openclaw/openclaw",
+      "tag": "v2026.10.10-beta.5",
+      "name": "openclaw 2026.10.10-beta.5",
+      "published": "2026-10-30",
+      "url": "https://github.com/openclaw/openclaw/releases/tag/v2026.10.10-beta.5",
+      "summary": "## 2026.10.10-beta.5",
+      "body_excerpt": "## 2026.10.10-beta.5\n\n### Highlights\n\n- Node compatibility: installs and updates work again on Node `>=24.16.0 <25 || >=26.1.0`; Node 24.22.1 or 26.12.1 is now a security recommendation instead of a hard requirement, and Node 26 workers no longer abort when stdin is a file. (#186589, #187516) Thanks @RomneyDa.\n- Gateway streaming: replies that contain tool-call-like XML, look like tool calls, or end long HTML at a partial tag no longer stall the Gateway. (#181397, #183252, #180765; related #175156, #180720) Thanks @RomneyDa, @JasonBuildAI, and @LeizhenZhang.\n- Updates and rollback: a failed npm rollback no longer strands the installed package, an immediate Git rollback keeps operator edits, and an update whose executor dies recovers its offline state. (#185160, #185201, #181695; related #184889, #184887, #181649) Thanks @LiuwqGit, @RomneyDa, @syxscott, @wr-web, and @PonySlayer28.\n- Cron: missed slots with a stale stored next run time are no longer dropped, and startup catch-up runs are admitted after a restart. (#179928; related #179927) Thanks @andrewbowlds, @RomneyDa, and @shakkernerd.\n\n### Changes\n\n### Fixes\n\n- Security boundaries: require approval for `test`/`[ -v` operands in exec allowlist mode, refuse browser proxy commands sent through generic node invoke, fail closed when sandboxed spawned children resolve CLI-backed models, carry `workspaceOnly` into Gateway-built delegate and media tools, keep unresolved Microsoft Teams allowlists restrictive, stop crafted Teams HTML from stalling the Gateway before sender checks, refuse embedded Control UI auth on pinned Android Gateway connections, and audit symlinked workspace skill roots. (#180880, #179880, #178742, #185094, #184989, #183438, #180843, #182384; related #111797) Thanks @eleqtrizit, @RomneyDa, @LeizhenZhang, and @dineshsuthar123.\n- Security: keep browser pairing credentials out of opener process arguments, mask Google OAuth client secrets in logs, redact credentials from MCP CLI inspection, omit credentials from rejected search endpoint errors, and keep malformed piped input from corrupting model credentials. (#170289, #183193, #180321, #182534, #167251; related #180308) Thanks @eleqtrizit, @LeizhenZhang, @RomneyDa, @brandon-julio-t, @wr-web, and @Alix-007.\n- Dependency security: update fast-uri, bound vendored Zod traversal for A2UI and Discord input, scope the patched MSAL for Microsoft Teams, and pick up nodemailer sender-parsing fixes for IMAP. (#187285, #187304, #187297, #187293, #187301) ",
+      "prerelease": true
+    }
+  ],
+  "level2_people": [
+    "@karpathy",
+    "@bcherny",
+    "@sundarpichai",
+    "@sama",
+    "@gdb",
+    "@DarioAmodei"
+  ],
+  "level2_note": "raw 无人物搜索；无依据时 Level 2 标无新增，勿编造",
+  "level3_note": "本日未扫描行业报告（周报降频）",
+  "level4_hn": [
+    {
+      "title": "Ask HN: Are you putting off hardware upgrades because of AI coding tools?",
+      "url": "https://news.ycombinator.com/item?id=50307060",
+      "points": 5,
+      "comments": 1,
+      "created": "2026-10-30"
+    },
+    {
+      "title": "Show HN: Beolis – Manage your coding AI agents",
+      "url": "https://beolis.com",
+      "points": 3,
+      "comments": 1,
+      "created": "2026-10-30"
+    },
+    {
+      "title": "Former GitHub CEO launches rival Git forge built for AI coding agents",
+      "url": "https://www.geekwire.com/2026/former-github-ceo-launches-rival-platform-built-for-ai-coding-agents/",
+      "points": 3,
+      "comments": 1,
+      "created": "2026-10-29"
+    },
+    {
+      "title": "mobile-agent: faster mobile app iteration for AI coding agents",
+      "url": "https://mobileagent.dev",
+      "points": 3,
+      "comments": 0,
+      "created": "2026-10-31"
+    },
+    {
+      "title": "Praex The AI coding agent that answers the question",
+      "url": "https://github.com/ailucius/praex-cli",
+      "points": 2,
+      "comments": 0,
+      "created": "2026-10-31"
+    }
+  ]
+}
