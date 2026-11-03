@@ -1,0 +1,111 @@
+{
+  "briefing_date": "2026-11-04",
+  "period_start": "2026-11-02",
+  "period_end": "2026-11-04",
+  "previous_briefing_date": "2026-11-03",
+  "previous_briefing_excerpt": "# AI x 研发效能 每日简报 2026-11-03\n\n> 覆盖周期：2026-11-01 ~ 2026-11-03（上一期：2026-11-02）\n\n> **采集方式**：GitHub Actions 自动采集（Level 1 GitHub API + Level 4 HN API）｜Level 2/3 待人工或 API 密钥补充\n\n---\n\n## 头条速览\n\n1. **Gemini CLI v0.67.0-nightly.20261102.g6814e00d6**——**Full Changelog**: https://github.com/google-ge\n2. **Hermes Agent v0.22.6**——# Hermes Agent v0.22.6\n3. **Codex rust-v0.167.0-alpha.3**——Release 0.167.0-alpha.3\n\n---\n\n## 一、AI 增强软件研发（AI4SE）\n\n### 1.1 Level 1：核心产品与工程更新\n\n#### 1️⃣ Gemini CLI v0.67.0-nightly.20261102.g6814e00d6（2026-11-02）\n\n**Full Changelog**: https://github.com/google-gemini/gemini-cli/compare/v0.67.0-nightly.20261101.g6814e00d6...v0.67.0-nightly.20261102.g6814e00d6\n\n来源：[v0.67.0-nightly.20261102.g6814e00d6](https://github.com/google-gemini/gemini-cli/releases/tag/v0.67.0-nightly.20261102.g6814e00d6) — 2026-11-02\n\n#### 2️⃣ Hermes Agent v0.22.6（2026-11-02）\n\n# Hermes Agent v0.22.6\n\n来源：[v0.22.6](https://github.com/NousResearch/hermes-agent/releases/tag/v0.22.6) — 2026-11-02\n\n#### 3️⃣ Codex rust-v0.167.0-alpha.3（2026-11-01）\n\nRelease 0.167.0-alpha.3\n\n来源：[rust-v0.167.0-alpha.3](https://github.com/openai/codex/releases/tag/rust-v0.167.0-alpha.3) — 2026-11-01\n\n---\n\n### 1.2 Level 2：关键人物战略洞察\n\n| 人物 | 动态 | 日期 |\n|---|---|---|\n| @karpathy | 自动采集未配置（需 WebSearch / X 间接源） | — |\n| @bcherny | 自动采集未配置（需 WebSearch / X 间接源） | — |\n| @sundarpichai | 自动采集未配置（需 WebSearch / X 间接源） | — |\n| @sama | 自动采集未配置（需 WebSearch / X 间接源） | — |\n| @gdb | 自动采集未配置（需 WebSearch / X 间接源） | — |\n| @DarioAmodei | 自动采集未配置（需 WebSearch / X 间接源） | — |\n\n---\n\n### 1.3 Level 3：行业研究与数据\n\n> **本日未扫描**（周报/月报降频）。\n\n---\n\n### 1.4 Level 4：补充信源（HN）\n\n- **2026-10-31**：[mobile-agent: faster mobile app iteration for AI coding agents](https://mobileagent.dev) （4 pts / 0 comments）\n- **2026-11-02**：[Your AI Coding Agent Needs More Than a Good Prompt](https://medium.com/@ajseven/your-ai-coding-agent-needs-more-than-a-good-prompt-8b5b4de1cf70) （3 pts / 0 comments）\n- **2026-10-31**：[Praex The AI coding agent that answers the question](https://github.com/ailucius/praex-cli) （2 pts / 0 comments）\n- **2026-11-02**：[Bcbsa Analysis How AI Coding Tools Affect Healthcare Costs](https://www.bcbs.com/about-us/association-news/bcbsa-analysis-ai-coding-tools-affects-healthcare-costs) （1 pts / 0 comments）\n- **2026-11-02**：[Show HN: AgentTM – A time-travel debugger for AI coding agents built in Go](https://github.com/Jyotishmoy12/AgentTM) （1 pts / 0 comments）\n\n---\n\n## 附录：采集日志\n\n| 环节 | 状态 |\n|---|---|\n| GitHub Releases API | ✅ 3 条 |\n| HN Algolia API | ✅ 5 条 |\n| 生成时间 (UTC) | 2026-11-02 21:58 |\n\n*自动生成版 · 可在 Cursor 中基于本稿补充 Level 2 分析与专题*\n",
+  "level1_releases": [
+    {
+      "product": "OpenClaw",
+      "repo": "openclaw/openclaw",
+      "tag": "v2026.10.10",
+      "name": "openclaw 2026.10.10",
+      "published": "2026-11-03",
+      "url": "https://github.com/openclaw/openclaw/releases/tag/v2026.10.10",
+      "summary": "<!-- openclaw-release-publication:docs-v1 -->",
+      "body_excerpt": "<!-- openclaw-release-publication:docs-v1 -->\n\n## OpenClaw v2026.10.10\n\n4,825 commits · 3,028 pull requests · 454 contributors\n\n### Changes included in this release\n\nThe release notes and changelog contain the same content, presented in two formats:\n\n- [Release notes](https://docs.openclaw.ai/releases/2026.10.10) — formatted for people.\n- [Changelog](https://raw.githubusercontent.com/openclaw/openclaw/main/CHANGELOG/2026.10.10.md) — plain Markdown for AI agents and tools.\n\n### Thanks\n\n[@3n8](https://github.com/3n8) [@555aaditya](https://github.com/555aaditya) [@5jrfrbd6z9-spec](https://github.com/5jrfrbd6z9-spec) [@609NFT](https://github.com/609NFT) [@67-luck](https://github.com/67-luck) [@888achtachtacht-commits](https://github.com/888achtachtacht-commits) [@8bitsforge](https://github.com/8bitsforge) [@A-Raphie](https://github.com/A-Raphie) [@aaa2015](https://github.com/aaa2015) [@abacha](https://github.com/abacha) [@Abhishek-B-R](https://github.com/Abhishek-B-R) [@acedatacloud-dev](https://github.com/acedatacloud-dev) [@actwebmaster](https://github.com/actwebmaster) [@adamdksaad-ops](https://github.com/adamdksaad-ops) [@adeepn](https://github.com/adeepn) [@adembektas](https://github.com/adembektas) [@agierror](https://github.com/agierror) [@aleps001](https://github.com/aleps001) [@alexm](https://github.com/alexm) [@alexph-dev](https://github.com/alexph-dev) [@Alix-007](https://github.com/Alix-007) [@alkor2000](https://github.com/alkor2000) [@altaywtf](https://github.com/altaywtf) [@alter](https://github.com/alter) [@AmelioMansour](https://github.com/AmelioMansour) [@amirarenco-create](https://github.com/amirarenco-create) [@amittell](https://github.com/amittell) [@amueller80](https://github.com/amueller80) [@amyduquette](https://github.com/amyduquette) [@andrewbowlds](https://github.com/andrewbowlds) [@andris9](https://github.com/andris9) [@aniruddhaadak80](https://github.com/aniruddhaadak80) [@anmol0b](https://github.com/anmol0b) [@anyech](https://github.com/anyech) [@areslp](https://github.com/areslp) [@arhxam](https://github.com/arhxam) [@arquiteto-raiz](https://github.com/arquiteto-raiz) [@art22s](https://github.com/art22s) [@arthur-drozdov](https://github.com/arthur-drozdov) [@ArthurNie](https://github.com/ArthurNie) [@ashukla147](https://github.com/ashukla147) [@AVCarp](https://github.com/AVCarp) [@AXEG0](https://github.com/AXEG0) [@ayaangazali](https://github.com/ayaangazali) [@Ayushdevo](https://github.com/Ayushdevo) [@bajiaoshan](https://github.",
+      "prerelease": false
+    },
+    {
+      "product": "Claude Code",
+      "repo": "anthropics/claude-code",
+      "tag": "v2.1.317",
+      "name": "v2.1.317",
+      "published": "2026-11-03",
+      "url": "https://github.com/anthropics/claude-code/releases/tag/v2.1.317",
+      "summary": "## What's changed",
+      "body_excerpt": "## What's changed\n\n- Added a warning to `/schedule` when a new cloud scheduled task gets connectors you did not ask for, with how to remove them\n- Added a check that asks before a web or shell tool call sends your account email address to the network\n- Added `onFailure: \"block\"` for Agent SDK hook callbacks, so a callback that fails blocks the action instead of letting it run\n- Added a notice in Claude Desktop's Code tab when your organization's remote managed settings haven't loaded for the session, and another once they do\n- Added a notice when auto mode's check has no answer for a subagent's tool call, which used to leave nothing in the main view\n- Added `anthropic.plan`, `anthropic.seat_type`, `anthropic.provider` and `anthropic.custom_base_url` to OTel metrics, events and spans\n- Added a cost report to the Claude apps gateway admin API, `GET /v1/organizations/analytics/cost`, for reading past spend over a date range in total, per developer, per day or per IdP group\n- Added a daily record of each developer's IdP groups on Claude apps gateways with `admin:` set, kept for `admin.identity_retention_days`, which the cost report groups by\n- Added `CLAUDE_CODE_DISABLE_NESTED_SESSION_ID`: set it to `1` on a self-hosted runner to have `claude -p` run inside a session use that session's ID and transcript, as in earlier versions\n- Fixed project and local MCP servers disconnecting after the first turn in some Claude desktop sessions\n- Fixed auto mode failing every turn when an LLM gateway set as the base URL answers 403 or 422 to its server-side safety check (a 403 with an apiKeyHelper is unchanged)\n- Fixed `claude auth status` exiting before a slow token refresh was saved, which could sign you out on the next run\n- Fixed a project's `effortLevel` setting being ignored by sessions that an app starts ahead of time and then opens in the project, such as new sessions in the desktop app's Code tab\n- Fixed `claude --from-pr` reporting \"No conversations found\" in projects with many sessions when the linked session was older than the first page\n- Fixed the second of two simultaneous permission prompts showing no file path or command on claude.ai and the mobile apps\n- Fixed Remote Control and SDK hosts offering \"don't ask again\" on a mod's tool calls\n- Fixed session titles being lost in cloud and SDK sessions when a new message or Stop arrived while the title was generating\n- Fixed self-paced `/loop` wakeups sometimes not being scheduled when Claude left a field out of i",
+      "prerelease": false
+    },
+    {
+      "product": "Gemini CLI",
+      "repo": "google-gemini/gemini-cli",
+      "tag": "v0.67.0-nightly.20261103.g0ac57c029",
+      "name": "Release v0.67.0-nightly.20261103.g0ac57c029",
+      "published": "2026-11-03",
+      "url": "https://github.com/google-gemini/gemini-cli/releases/tag/v0.67.0-nightly.20261103.g0ac57c029",
+      "summary": "## What's Changed",
+      "body_excerpt": "## What's Changed\n* fix(core): prevent interrupted Whisper model downloads from being treated as installed by @tadipavan in https://github.com/google-gemini/gemini-cli/pull/30058\n\n\n**Full Changelog**: https://github.com/google-gemini/gemini-cli/compare/v0.67.0-nightly.20261102.g6814e00d6...v0.67.0-nightly.20261103.g0ac57c029",
+      "prerelease": true
+    },
+    {
+      "product": "Codex",
+      "repo": "openai/codex",
+      "tag": "rust-v0.167.0-alpha.4",
+      "name": "0.167.0-alpha.4",
+      "published": "2026-11-03",
+      "url": "https://github.com/openai/codex/releases/tag/rust-v0.167.0-alpha.4",
+      "summary": "Release 0.167.0-alpha.4",
+      "body_excerpt": "Release 0.167.0-alpha.4",
+      "prerelease": true
+    },
+    {
+      "product": "Hermes Agent",
+      "repo": "NousResearch/hermes-agent",
+      "tag": "v0.22.6",
+      "name": "Hermes Agent v0.22.6",
+      "published": "2026-11-02",
+      "url": "https://github.com/NousResearch/hermes-agent/releases/tag/v0.22.6",
+      "summary": "# Hermes Agent v0.22.6",
+      "body_excerpt": "# Hermes Agent v0.22.6\n\n**Release Date:** November 2, 2026\n\n> Patch release. This tag rolls up the ~776 PRs merged since v0.22.5 into a stable release for the GitHub release (CLI and installers), the Microsoft Store app, Docker and Hermes Cloud. Full curated notes for this window ship with v0.23.0.\n\n<!-- HERMES_BUILDS_TABLE -->\n\n## About this release\n\nMeasured at commit `f0d94882e89`, the window since v0.22.5 contains **3,448 non-merge commits** across **4,316 changed files** (+248,579 / −94,077), **776 merged PRs** and **385 closed issues**.\n\nAlso in the window, undocumented here on purpose: the Webapp served from the gateway's own listener (`hermes webapp`, a Desktop Web Access pane to open it on your network or your own URL behind Nous sign-in, and Desktop plugins loading in a browser tab), `/model reset` to clear a session's model pin without losing history, per-skill locks against autonomous writes (lockable from the Desktop Capabilities pane), opt-in prepared compaction (`compression.prepare_ahead`), `hermes cron cancel` plus a per-job missed-run policy and a Stop button in the Desktop cron editor, `/delegation` choices saved for the next session, `hermes migrate` and setup moving Grok Bot and OpenBot users over, opt-in OS-keychain storage for the vault key, the catalog's `requires_hermes` enforced at plugin install and update, agent-picked ElevenLabs voices in `text_to_speech`, a `pre_llm_call` hook that can block a turn before inference, Desktop group chat rename, disband, mentions and attachment paste, every profile shown as a Desktop sidebar section, Telegram video notes, Slack emoji reactions in thread context, and resumable downloads in the package manager.\n\n**Full curated release notes for this window ship with v0.23.0**, which will document everything from v0.22.0 onward — highlights, feature areas, and complete contributor credits. Nothing in this window is skipped.\n\n## Updating\n\n- Microsoft Store app: updates through the Store.\n- Desktop app installed from the installer (.exe / .dmg): no change in this release; it updates with the next bundled release.\n- CLI: `hermes update`, or re-run the installer one-liner.\n- Docker / Hermes Cloud: `nousresearch/hermes-agent:stable` (or `:latest`).\n\n**Full Changelog**: [v0.22.5...v0.22.6](https://github.com/NousResearch/hermes-agent/compare/v0.22.5...v0.22.6)",
+      "prerelease": false
+    }
+  ],
+  "level2_people": [
+    "@karpathy",
+    "@bcherny",
+    "@sundarpichai",
+    "@sama",
+    "@gdb",
+    "@DarioAmodei"
+  ],
+  "level2_note": "raw 无人物搜索；无依据时 Level 2 标无新增，勿编造",
+  "level3_note": "本日未扫描行业报告（周报降频）",
+  "level4_hn": [
+    {
+      "title": "Your AI Coding Agent Needs More Than a Good Prompt",
+      "url": "https://medium.com/@ajseven/your-ai-coding-agent-needs-more-than-a-good-prompt-8b5b4de1cf70",
+      "points": 3,
+      "comments": 0,
+      "created": "2026-11-02"
+    },
+    {
+      "title": "Show HN: React and NextJS Interactions with MCP for AI Coding – Hyperiux Vault",
+      "url": "https://vault.hyperiux.com",
+      "points": 2,
+      "comments": 0,
+      "created": "2026-11-03"
+    },
+    {
+      "title": "Bcbsa Analysis How AI Coding Tools Affect Healthcare Costs",
+      "url": "https://www.bcbs.com/about-us/association-news/bcbsa-analysis-ai-coding-tools-affects-healthcare-costs",
+      "points": 1,
+      "comments": 0,
+      "created": "2026-11-02"
+    },
+    {
+      "title": "Show HN: AgentTM – A time-travel debugger for AI coding agents built in Go",
+      "url": "https://github.com/Jyotishmoy12/AgentTM",
+      "points": 1,
+      "comments": 0,
+      "created": "2026-11-02"
+    },
+    {
+      "title": "Show HN: Skep – live cross-device sessions for AI coding agents",
+      "url": "https://skepagent.com/",
+      "points": 1,
+      "comments": 0,
+      "created": "2026-11-02"
+    }
+  ]
+}
