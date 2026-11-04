@@ -1,0 +1,111 @@
+{
+  "briefing_date": "2026-11-05",
+  "period_start": "2026-11-03",
+  "period_end": "2026-11-05",
+  "previous_briefing_date": "2026-11-04",
+  "previous_briefing_excerpt": "# AI x 研发效能 每日简报 2026-11-04\n\n> 覆盖周期：2026-11-02 ~ 2026-11-04（上一期：2026-11-03）\n\n> **采集方式**：GitHub Actions 自动采集（Level 1 GitHub API + Level 4 HN API）｜Level 2/3 待人工或 API 密钥补充\n\n---\n\n## 头条速览\n\n1. **OpenClaw v2026.10.10**——<!-- openclaw-release-publication:docs-v1 -->\n2. **Claude Code v2.1.317**——## What's changed\n3. **Gemini CLI v0.67.0-nightly.20261103.g0ac57c029**——## What's Changed\n\n---\n\n## 一、AI 增强软件研发（AI4SE）\n\n### 1.1 Level 1：核心产品与工程更新\n\n#### 1️⃣ OpenClaw v2026.10.10（2026-11-03）\n\n<!-- openclaw-release-publication:docs-v1 -->\n\n来源：[v2026.10.10](https://github.com/openclaw/openclaw/releases/tag/v2026.10.10) — 2026-11-03\n\n#### 2️⃣ Claude Code v2.1.317（2026-11-03）\n\n## What's changed\n\n来源：[v2.1.317](https://github.com/anthropics/claude-code/releases/tag/v2.1.317) — 2026-11-03\n\n#### 3️⃣ Gemini CLI v0.67.0-nightly.20261103.g0ac57c029（2026-11-03）\n\n## What's Changed\n\n来源：[v0.67.0-nightly.20261103.g0ac57c029](https://github.com/google-gemini/gemini-cli/releases/tag/v0.67.0-nightly.20261103.g0ac57c029) — 2026-11-03\n\n#### 4️⃣ Codex rust-v0.167.0-alpha.4（2026-11-03）\n\nRelease 0.167.0-alpha.4\n\n来源：[rust-v0.167.0-alpha.4](https://github.com/openai/codex/releases/tag/rust-v0.167.0-alpha.4) — 2026-11-03\n\n#### 5️⃣ Hermes Agent v0.22.6（2026-11-02）\n\n# Hermes Agent v0.22.6\n\n来源：[v0.22.6](https://github.com/NousResearch/hermes-agent/releases/tag/v0.22.6) — 2026-11-02\n\n---\n\n### 1.2 Level 2：关键人物战略洞察\n\n| 人物 | 动态 | 日期 |\n|---|---|---|\n| @karpathy | 自动采集未配置（需 WebSearch / X 间接源） | — |\n| @bcherny | 自动采集未配置（需 WebSearch / X 间接源） | — |\n| @sundarpichai | 自动采集未配置（需 WebSearch / X 间接源） | — |\n| @sama | 自动采集未配置（需 WebSearch / X 间接源） | — |\n| @gdb | 自动采集未配置（需 WebSearch / X 间接源） | — |\n| @DarioAmodei | 自动采集未配置（需 WebSearch / X 间接源） | — |\n\n---\n\n### 1.3 Level 3：行业研究与数据\n\n> **本日未扫描**（周报/月报降频）。\n\n---\n\n### 1.4 Level 4：补充信源（HN）\n\n- **2026-11-02**：[Your AI Coding Agent Needs More Than a Good Prompt](https://medium.com/@ajseven/your-ai-coding-agent-needs-more-than-a-good-prompt-8b5b4de1cf70) （3 pts / 0 comments）\n- **2026-11-03**：[Show HN: React and NextJS Interactions with MCP for AI Coding – Hyperiux Vault](https://vault.hyperiux.com) （2 pts / 0 comments）\n- **2026-11-02**：[Bcbsa Analysis How AI Coding Tools Affect Healthcare Costs](https://www.bcbs.com/about-us/association-news/bcbsa-analysis-ai-coding-tools-affects-healthcare-costs) （1 pts / 0 comments）\n- **2026-11-02**：[Show HN: AgentTM – A time-travel debugger for AI coding agents built in Go](https://github.com/Jyotishmoy12/AgentTM) （1 pts / 0 comments）\n- **2026-11-02**：[Show HN: Skep – live cross-device sessions for AI coding agents](https://skepagent.com/) （1 pts / 0 comments）\n\n---\n\n## 附录：采集日志\n\n| 环节 | 状态 |\n|---|---|\n| GitHub Releases API | ✅ 5 条 |\n| HN Algolia API | ✅ 5 条 |\n| 生成时间 (UTC) | 2026-11-03 19:52 |\n\n*自动生成版 · 可在 Cursor 中基于本稿补充 Level 2 分析与专题*\n",
+  "level1_releases": [
+    {
+      "product": "Claude Code",
+      "repo": "anthropics/claude-code",
+      "tag": "v2.1.318",
+      "name": "v2.1.318",
+      "published": "2026-11-04",
+      "url": "https://github.com/anthropics/claude-code/releases/tag/v2.1.318",
+      "summary": "## What's changed",
+      "body_excerpt": "## What's changed\n\n- Added a record of your answer when Claude Code asks to turn on the mods it writes in a session\n- Added `assume_role` on `mantle` upstreams of the Claude apps gateway, for a role in another AWS account and for per-developer AWS cost attribution\n- Added an `effort` option to a mod's `$.model.fork`, so a quick side job can run at `low` whatever effort the session uses; the result reports the effort sent\n- Added the date a stored claude.ai sign-in ends to `claude auth status` (`loginExpiresAt`) and to `claude -p` JSON results (`credential_expires_at`)\n- Added a one-line stderr warning to `claude -p` text output, starting 10 days before a stored claude.ai sign-in ends\n- Fixed `--continue` sometimes losing the earlier conversation after a malformed tool call's retries ran out (regression in 2.1.314)\n- Fixed macOS sessions with many running Bash commands stalling while memory grew\n- Fixed permission prompts being answered by keys typed just after sending a message, or before a slow prompt appeared\n- Fixed `/logout`, `claude auth logout` and `claude mcp remove` reporting success, and changes to trust, consent or MCP settings being dropped with no word, when the config file could not be updated on a shared network home directory\n- Fixed jobs exiting with `Not logged in` when another terminal or host signs in again to the same account and organization on the same home\n- Fixed `claude mcp add` and `remove` writing the config without its lock: they now wait for it or exit 1, though another job's save can still replace a saved server\n- Fixed `claude plugin` commands exiting before a slow token refresh was saved, which could sign you out on the next run\n- Fixed `claude plugin validate` passing a custom-named marketplace file that `claude plugin marketplace add` rejects\n- Fixed stdio MCP servers that exit on the version probe being re-probed on every start; a server that dies in under 3s for its own reason is also pinned to the legacy handshake for 7 days\n- Fixed sessions being refused at startup by an `allowedProviders` list that another login on the same machine had stored\n- Fixed idle compaction replacing a conversation with a reply that was not a summary\n- Fixed the \"Now using usage credits\" notice reappearing about every 30 seconds while a background subagent is running\n- Fixed custom slash commands that fail, or that only Claude can invoke, printing nothing in `claude -p` and SDK sessions\n- Fixed `claude -p` and Agent SDK sessions reporting suc",
+      "prerelease": false
+    },
+    {
+      "product": "Gemini CLI",
+      "repo": "google-gemini/gemini-cli",
+      "tag": "v0.68.0-preview.0",
+      "name": "Release v0.68.0-preview.0",
+      "published": "2026-11-04",
+      "url": "https://github.com/google-gemini/gemini-cli/releases/tag/v0.68.0-preview.0",
+      "summary": "## What's Changed",
+      "body_excerpt": "## What's Changed\n* Changelog for v0.67.0-preview.0 by @gemini-cli-robot in https://github.com/google-gemini/gemini-cli/pull/29990\n* Changelog for v0.66.0 by @gemini-cli-robot in https://github.com/google-gemini/gemini-cli/pull/29992\n* docs(readme): clarify Gemini CLI scope, limitations, and tool landscape by @LyalinDotCom in https://github.com/google-gemini/gemini-cli/pull/29995\n* fix(cli): bound inline history re-render after terminal width changes by @jvargassanchez-dot in https://github.com/google-gemini/gemini-cli/pull/29904\n* fix(ui): handle surrogate pairs when truncating in sanitizeForDisplay by @diegogodinezr in https://github.com/google-gemini/gemini-cli/pull/29993\n* fix(core): make isWithinRoot case-insensitive on Windows by @duvanka-prasad in https://github.com/google-gemini/gemini-cli/pull/29999\n* fix(core): recognize dotted Gemini 3 models in supportsMultimodalFunctionResponse by @jesussamuel-byte in https://github.com/google-gemini/gemini-cli/pull/29982\n* feat(cli): add extension validation command and evaluation tests by @tadipavan in https://github.com/google-gemini/gemini-cli/pull/29980\n* fix(core): normalize leading slashes in file search query for @ autocomplete by @urielefrenvirtusa in https://github.com/google-gemini/gemini-cli/pull/29987\n* fix(vscode-ide-companion): register all extension disposables in context.subscriptions by @jvargassanchez-dot in https://github.com/google-gemini/gemini-cli/pull/29994\n* fix(core): list Auto in /model when dynamicModelConfiguration is enabled and preview access is disabled by @villahernandez-coder in https://github.com/google-gemini/gemini-cli/pull/29998\n* fix(core,cli): fix instances of incorrect \\n escape behavior by @ugorla-dev in https://github.com/google-gemini/gemini-cli/pull/29989\n* fix(core): use PowerShell CIM fallback for Windows IDE process lookup by @tadipavan in https://github.com/google-gemini/gemini-cli/pull/30006\n* fix(cli): surface 429 rate limit cool-down and countdown in loading indicator by @urielefrenvirtusa in https://github.com/google-gemini/gemini-cli/pull/30012\n* fix(cli): anchor .git suffix removal to end of repo URL by @diegogodinezr in https://github.com/google-gemini/gemini-cli/pull/30013\n* fix(ci,sdk): run SDK tests in PR CI and fix AgentLoopContext mock in session.test.ts by @duvanka-prasad in https://github.com/google-gemini/gemini-cli/pull/30023\n* fix(core): prevent $-pattern corruption in LLM prompt templates by @duvanka-prasad in https://github.com/google-gemini/g",
+      "prerelease": true
+    },
+    {
+      "product": "Codex",
+      "repo": "openai/codex",
+      "tag": "rust-v0.168.0-alpha.1",
+      "name": "0.168.0-alpha.1",
+      "published": "2026-11-04",
+      "url": "https://github.com/openai/codex/releases/tag/rust-v0.168.0-alpha.1",
+      "summary": "Release 0.168.0-alpha.1",
+      "body_excerpt": "Release 0.168.0-alpha.1",
+      "prerelease": true
+    },
+    {
+      "product": "OpenClaw",
+      "repo": "openclaw/openclaw",
+      "tag": "v2026.10.10",
+      "name": "openclaw 2026.10.10",
+      "published": "2026-11-03",
+      "url": "https://github.com/openclaw/openclaw/releases/tag/v2026.10.10",
+      "summary": "<!-- openclaw-release-publication:docs-v1 -->",
+      "body_excerpt": "<!-- openclaw-release-publication:docs-v1 -->\n\n## OpenClaw v2026.10.10\n\n4,825 commits · 3,028 pull requests · 454 contributors\n\n### Changes included in this release\n\nThe release notes and changelog contain the same content, presented in two formats:\n\n- [Release notes](https://docs.openclaw.ai/releases/2026.10.10) — formatted for people.\n- [Changelog](https://raw.githubusercontent.com/openclaw/openclaw/main/CHANGELOG/2026.10.10.md) — plain Markdown for AI agents and tools.\n\n### Thanks\n\n[@3n8](https://github.com/3n8) [@555aaditya](https://github.com/555aaditya) [@5jrfrbd6z9-spec](https://github.com/5jrfrbd6z9-spec) [@609NFT](https://github.com/609NFT) [@67-luck](https://github.com/67-luck) [@888achtachtacht-commits](https://github.com/888achtachtacht-commits) [@8bitsforge](https://github.com/8bitsforge) [@A-Raphie](https://github.com/A-Raphie) [@aaa2015](https://github.com/aaa2015) [@abacha](https://github.com/abacha) [@Abhishek-B-R](https://github.com/Abhishek-B-R) [@acedatacloud-dev](https://github.com/acedatacloud-dev) [@actwebmaster](https://github.com/actwebmaster) [@adamdksaad-ops](https://github.com/adamdksaad-ops) [@adeepn](https://github.com/adeepn) [@adembektas](https://github.com/adembektas) [@agierror](https://github.com/agierror) [@aleps001](https://github.com/aleps001) [@alexm](https://github.com/alexm) [@alexph-dev](https://github.com/alexph-dev) [@Alix-007](https://github.com/Alix-007) [@alkor2000](https://github.com/alkor2000) [@altaywtf](https://github.com/altaywtf) [@alter](https://github.com/alter) [@AmelioMansour](https://github.com/AmelioMansour) [@amirarenco-create](https://github.com/amirarenco-create) [@amittell](https://github.com/amittell) [@amueller80](https://github.com/amueller80) [@amyduquette](https://github.com/amyduquette) [@andrewbowlds](https://github.com/andrewbowlds) [@andris9](https://github.com/andris9) [@aniruddhaadak80](https://github.com/aniruddhaadak80) [@anmol0b](https://github.com/anmol0b) [@anyech](https://github.com/anyech) [@areslp](https://github.com/areslp) [@arhxam](https://github.com/arhxam) [@arquiteto-raiz](https://github.com/arquiteto-raiz) [@art22s](https://github.com/art22s) [@arthur-drozdov](https://github.com/arthur-drozdov) [@ArthurNie](https://github.com/ArthurNie) [@ashukla147](https://github.com/ashukla147) [@AVCarp](https://github.com/AVCarp) [@AXEG0](https://github.com/AXEG0) [@ayaangazali](https://github.com/ayaangazali) [@Ayushdevo](https://github.com/Ayushdevo) [@bajiaoshan](https://github.",
+      "prerelease": false
+    },
+    {
+      "product": "Hermes Agent",
+      "repo": "NousResearch/hermes-agent",
+      "tag": "v0.22.7",
+      "name": "Hermes Agent v0.22.7",
+      "published": "2026-11-03",
+      "url": "https://github.com/NousResearch/hermes-agent/releases/tag/v0.22.7",
+      "summary": "# Hermes Agent v0.22.7",
+      "body_excerpt": "# Hermes Agent v0.22.7\n\n**Release Date:** November 3, 2026\n\n> Patch release. This tag rolls up the ~174 PRs merged since v0.22.6 into a stable release for the GitHub release (CLI and installers), the Microsoft Store app, Docker and Hermes Cloud. Full curated notes for this window ship with v0.23.0.\n\n<!-- HERMES_BUILDS_TABLE -->\n\n## About this release\n\nMeasured at commit `b200f5bc60e`, the window since v0.22.6 contains **581 non-merge commits** across **554 changed files** (+24,012 / −3,144), **174 merged PRs** and **29 closed issues**.\n\nAlso in the window, undocumented here on purpose: opt-in lead routing for Desktop Group Chats (with a Lead badge on the room header), cron jobs that post into Group Chats, room purpose and shared notes, group rooms laid out in one chat column with each member's live state, pinned Kanban boards as quick-switch tabs, `$$TeX$$` diagram labels and mermaid diagrams rendered through Pele, a Desktop update error box that shows the failed update's output with a report link, Web Access naming the step Start is on with a running clock, Telegram on Team Gateway set up by linking an account to the shared bot, an opt-in Slack `thread_followup_silence` for unaddressed thread replies, a Daybreak switch for catalog-listed ChatGPT subscription models, and a batch of new plugin-catalog entries.\n\n**Full curated release notes for this window ship with v0.23.0**, which will document everything from v0.22.0 onward — highlights, feature areas, and complete contributor credits. Nothing in this window is skipped.\n\n## Updating\n\n- Microsoft Store app: updates through the Store.\n- Desktop app installed from the installer (.exe / .dmg): no change in this release; it updates with the next bundled release.\n- CLI: `hermes update`, or re-run the installer one-liner.\n- Docker / Hermes Cloud: `nousresearch/hermes-agent:stable` (or `:latest`).\n\n**Full Changelog**: [v0.22.6...v0.22.7](https://github.com/NousResearch/hermes-agent/compare/v0.22.6...v0.22.7)",
+      "prerelease": false
+    }
+  ],
+  "level2_people": [
+    "@karpathy",
+    "@bcherny",
+    "@sundarpichai",
+    "@sama",
+    "@gdb",
+    "@DarioAmodei"
+  ],
+  "level2_note": "raw 无人物搜索；无依据时 Level 2 标无新增，勿编造",
+  "level3_note": "本日未扫描行业报告（周报降频）",
+  "level4_hn": [
+    {
+      "title": "British fintech Revolut slashes AI coding costs 10x by going self-hosted",
+      "url": "https://www.theregister.com/ai-and-ml/2026/11/03/british-fintech-revolut-slashes-ai-coding-costs-10x-by-cutting-out-claude-and-going-self-hosted/5307345",
+      "points": 21,
+      "comments": 1,
+      "created": "2026-11-03"
+    },
+    {
+      "title": "Revolut slashes AI coding costs 10x by cutting out Claude and going self-hosted",
+      "url": "https://www.theregister.com/ai-and-ml/2026/11/03/british-fintech-revolut-slashes-ai-coding-costs-10x-by-cutting-out-claude-and-going-self-hosted/5307345",
+      "points": 13,
+      "comments": 3,
+      "created": "2026-11-04"
+    },
+    {
+      "title": "Revolut swaps Claude for GLM open-weight model, cutting AI coding bill by 90%",
+      "url": "https://dealroom.co/news/169124-revolut-swaps-claude-code-for-a-chinese-open-weight-model-cutting-its-ai/",
+      "points": 12,
+      "comments": 1,
+      "created": "2026-11-03"
+    },
+    {
+      "title": "Your AI Coding Agent Needs More Than a Good Prompt",
+      "url": "https://medium.com/@ajseven/your-ai-coding-agent-needs-more-than-a-good-prompt-8b5b4de1cf70",
+      "points": 3,
+      "comments": 0,
+      "created": "2026-11-02"
+    },
+    {
+      "title": "Show HN: SpaceApp – Self-hosted workspace running AI coding CLIs in parallel",
+      "url": "https://github.com/oll4com/spaceapp",
+      "points": 2,
+      "comments": 0,
+      "created": "2026-11-04"
+    }
+  ]
+}
