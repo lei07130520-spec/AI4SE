@@ -1,0 +1,100 @@
+{
+  "briefing_date": "2026-11-06",
+  "period_start": "2026-11-04",
+  "period_end": "2026-11-06",
+  "previous_briefing_date": "2026-11-05",
+  "previous_briefing_excerpt": "# AI x 研发效能 每日简报 2026-11-05\n\n> 覆盖周期：2026-11-03 ~ 2026-11-05（上一期：2026-11-04）\n\n> **采集方式**：GitHub Actions 自动采集（Level 1 GitHub API + Level 4 HN API）｜Level 2/3 待人工或 API 密钥补充\n\n---\n\n## 头条速览\n\n1. **Claude Code v2.1.318**——## What's changed\n2. **Gemini CLI v0.68.0-preview.0**——## What's Changed\n3. **Codex rust-v0.168.0-alpha.1**——Release 0.168.0-alpha.1\n\n---\n\n## 一、AI 增强软件研发（AI4SE）\n\n### 1.1 Level 1：核心产品与工程更新\n\n#### 1️⃣ Claude Code v2.1.318（2026-11-04）\n\n## What's changed\n\n来源：[v2.1.318](https://github.com/anthropics/claude-code/releases/tag/v2.1.318) — 2026-11-04\n\n#### 2️⃣ Gemini CLI v0.68.0-preview.0（2026-11-04）\n\n## What's Changed\n\n来源：[v0.68.0-preview.0](https://github.com/google-gemini/gemini-cli/releases/tag/v0.68.0-preview.0) — 2026-11-04\n\n#### 3️⃣ Codex rust-v0.168.0-alpha.1（2026-11-04）\n\nRelease 0.168.0-alpha.1\n\n来源：[rust-v0.168.0-alpha.1](https://github.com/openai/codex/releases/tag/rust-v0.168.0-alpha.1) — 2026-11-04\n\n#### 4️⃣ OpenClaw v2026.10.10（2026-11-03）\n\n<!-- openclaw-release-publication:docs-v1 -->\n\n来源：[v2026.10.10](https://github.com/openclaw/openclaw/releases/tag/v2026.10.10) — 2026-11-03\n\n#### 5️⃣ Hermes Agent v0.22.7（2026-11-03）\n\n# Hermes Agent v0.22.7\n\n来源：[v0.22.7](https://github.com/NousResearch/hermes-agent/releases/tag/v0.22.7) — 2026-11-03\n\n---\n\n### 1.2 Level 2：关键人物战略洞察\n\n| 人物 | 动态 | 日期 |\n|---|---|---|\n| @karpathy | 自动采集未配置（需 WebSearch / X 间接源） | — |\n| @bcherny | 自动采集未配置（需 WebSearch / X 间接源） | — |\n| @sundarpichai | 自动采集未配置（需 WebSearch / X 间接源） | — |\n| @sama | 自动采集未配置（需 WebSearch / X 间接源） | — |\n| @gdb | 自动采集未配置（需 WebSearch / X 间接源） | — |\n| @DarioAmodei | 自动采集未配置（需 WebSearch / X 间接源） | — |\n\n---\n\n### 1.3 Level 3：行业研究与数据\n\n> **本日未扫描**（周报/月报降频）。\n\n---\n\n### 1.4 Level 4：补充信源（HN）\n\n- **2026-11-03**：[British fintech Revolut slashes AI coding costs 10x by going self-hosted](https://www.theregister.com/ai-and-ml/2026/11/03/british-fintech-revolut-slashes-ai-coding-costs-10x-by-cutting-out-claude-and-going-self-hosted/5307345) （21 pts / 1 comments）\n- **2026-11-04**：[Revolut slashes AI coding costs 10x by cutting out Claude and going self-hosted](https://www.theregister.com/ai-and-ml/2026/11/03/british-fintech-revolut-slashes-ai-coding-costs-10x-by-cutting-out-claude-and-going-self-hosted/5307345) （13 pts / 3 comments）\n- **2026-11-03**：[Revolut swaps Claude for GLM open-weight model, cutting AI coding bill by 90%](https://dealroom.co/news/169124-revolut-swaps-claude-code-for-a-chinese-open-weight-model-cutting-its-ai/) （12 pts / 1 comments）\n- **2026-11-02**：[Your AI Coding Agent Needs More Than a Good Prompt](https://medium.com/@ajseven/your-ai-coding-agent-needs-more-than-a-good-prompt-8b5b4de1cf70) （3 pts / 0 comments）\n- **2026-11-04**：[Show HN: SpaceApp – Self-hosted workspace running AI coding CLIs in parallel](https://github.com/oll4com/spaceapp) （2 pts / 0 comments）\n\n---\n\n## 附录：采集日志\n\n| 环节 | 状态 |\n|---|---|\n| GitHub Releases API | ✅ 5 条 |\n| HN Algolia API | ✅ 5 条 |\n| 生成时间 (UTC) | 2026-11-04 20:06 |\n\n*自动生成版 · 可在 Cursor 中基于本稿补充 Level 2 分析与专题*\n",
+  "level1_releases": [
+    {
+      "product": "OpenClaw",
+      "repo": "openclaw/openclaw",
+      "tag": "v2026.11.1",
+      "name": "openclaw 2026.11.1",
+      "published": "2026-11-05",
+      "url": "https://github.com/openclaw/openclaw/releases/tag/v2026.11.1",
+      "summary": "## 2026.11.1",
+      "body_excerpt": "## 2026.11.1\n\n### Highlights\n\n- Safer Mac settings: failed config saves no longer overwrite secrets, and turning off Tailscale exposure keeps Gateway authentication intact. (#187734, #187664) Fixes #187600, #187597 Thanks @anmol0b.\n- More reliable channel replies: Telegram, Discord, and webhook conversations keep reaching the agent after request handlers or earlier turns finish. (#179200, #179385, #179704, #189457) Fixes #178554 Thanks @steipete, @LiuwqGit, @jalehman, and @vincentkoc.\n- Conversations survive more interruptions: oversized turns retain useful history, and stopping the first Claude CLI turn no longer starts the next message from scratch. (#191146, #181966, #186380) Fixes #191133, #181945 Thanks @Yun-0000, @obviyus, @mirasrael, and @holgergruenhagen.\n- Update recovery gets unstuck after crashed or canceled updaters, restores the Windows Gateway after failed verification, and avoids repeated full-database copying during large-state checks. (#177932, #186787, #189647, #182632, #187921) Fixes #177684, #184893, #189620 Thanks @duyufansh2008, @RomneyDa, @fuller-stack-dev, @TheAngryPit, @sukhdeepjohar, @steipete, @syxscott, and @stephen3303.\n- Subagents keep their follow-ups through model and session changes, while parent sessions receive child approvals even with a custom session store. (#186238, #183501, #189827) Fixes #179289, #189823 Thanks @steipete, @Marvinthebored, @RomneyDa, and @ekinnee.\n- Android End Talk with a compatible Gateway stops listening without canceling accepted agent work, so its answer can still arrive in chat; explicit cancellation remains available. (#172276, #188798) Thanks @RomneyDa.\n- Provider recovery respects provider-specified rate-limit timing, and Gemini Flash text models use Interactions by default on the official API-key endpoint while custom proxies retain their existing default. (#180280, #189395) Thanks Ayaan Zaidi, @evomach, @sukhdeepjohar, @RomneyDa.\n\n### Changes\n\n- Claude CLI: saved subscription accounts can make configured models available without a separate native login, and operators can opt into native Agent and Workflow orchestration through `plugins.entries.anthropic.config.managedNativeTools`; the default remains off and restricted runs keep their existing tool limits. (#179203, #183765) Thanks @RomneyDa.\n- Anthropic: API-key setup can record an optional Anthropic workspace ID; existing workspace headers are preserved, and workspace-scoped keys need no extra setting. (#186976) Thanks Ayaan Zaidi, @evom",
+      "prerelease": false
+    },
+    {
+      "product": "Codex",
+      "repo": "openai/codex",
+      "tag": "rust-v0.168.0-alpha.6",
+      "name": "0.168.0-alpha.6",
+      "published": "2026-11-05",
+      "url": "https://github.com/openai/codex/releases/tag/rust-v0.168.0-alpha.6",
+      "summary": "Release 0.168.0-alpha.6",
+      "body_excerpt": "Release 0.168.0-alpha.6",
+      "prerelease": true
+    },
+    {
+      "product": "Claude Code",
+      "repo": "anthropics/claude-code",
+      "tag": "v2.1.318",
+      "name": "v2.1.318",
+      "published": "2026-11-04",
+      "url": "https://github.com/anthropics/claude-code/releases/tag/v2.1.318",
+      "summary": "## What's changed",
+      "body_excerpt": "## What's changed\n\n- Added a record of your answer when Claude Code asks to turn on the mods it writes in a session\n- Added `assume_role` on `mantle` upstreams of the Claude apps gateway, for a role in another AWS account and for per-developer AWS cost attribution\n- Added an `effort` option to a mod's `$.model.fork`, so a quick side job can run at `low` whatever effort the session uses; the result reports the effort sent\n- Added the date a stored claude.ai sign-in ends to `claude auth status` (`loginExpiresAt`) and to `claude -p` JSON results (`credential_expires_at`)\n- Added a one-line stderr warning to `claude -p` text output, starting 10 days before a stored claude.ai sign-in ends\n- Fixed `--continue` sometimes losing the earlier conversation after a malformed tool call's retries ran out (regression in 2.1.314)\n- Fixed macOS sessions with many running Bash commands stalling while memory grew\n- Fixed permission prompts being answered by keys typed just after sending a message, or before a slow prompt appeared\n- Fixed `/logout`, `claude auth logout` and `claude mcp remove` reporting success, and changes to trust, consent or MCP settings being dropped with no word, when the config file could not be updated on a shared network home directory\n- Fixed jobs exiting with `Not logged in` when another terminal or host signs in again to the same account and organization on the same home\n- Fixed `claude mcp add` and `remove` writing the config without its lock: they now wait for it or exit 1, though another job's save can still replace a saved server\n- Fixed `claude plugin` commands exiting before a slow token refresh was saved, which could sign you out on the next run\n- Fixed `claude plugin validate` passing a custom-named marketplace file that `claude plugin marketplace add` rejects\n- Fixed stdio MCP servers that exit on the version probe being re-probed on every start; a server that dies in under 3s for its own reason is also pinned to the legacy handshake for 7 days\n- Fixed sessions being refused at startup by an `allowedProviders` list that another login on the same machine had stored\n- Fixed idle compaction replacing a conversation with a reply that was not a summary\n- Fixed the \"Now using usage credits\" notice reappearing about every 30 seconds while a background subagent is running\n- Fixed custom slash commands that fail, or that only Claude can invoke, printing nothing in `claude -p` and SDK sessions\n- Fixed `claude -p` and Agent SDK sessions reporting suc",
+      "prerelease": false
+    },
+    {
+      "product": "Gemini CLI",
+      "repo": "google-gemini/gemini-cli",
+      "tag": "v0.67.0",
+      "name": "Release v0.67.0",
+      "published": "2026-11-04",
+      "url": "https://github.com/google-gemini/gemini-cli/releases/tag/v0.67.0",
+      "summary": "## What's Changed",
+      "body_excerpt": "## What's Changed\n* Changelog for v0.65.0 by @gemini-cli-robot in https://github.com/google-gemini/gemini-cli/pull/29853\n* chore(release): bump version to 0.67.0-nightly.20261020.gb041de017 by @gemini-cli-robot in https://github.com/google-gemini/gemini-cli/pull/29854\n* Changelog for v0.66.0-preview.0 by @gemini-cli-robot in https://github.com/google-gemini/gemini-cli/pull/29852\n* feat(cli): bridge the IDE companion into container sandboxes over exec stdio by @elberthc-byte in https://github.com/google-gemini/gemini-cli/pull/29858\n* fix(core): prevent duplicate agent loading when workspace is home directory (#27692) by @urielefrenvirtusa in https://github.com/google-gemini/gemini-cli/pull/29847\n* fix(ide): exclude IDE settings and GEMINI.md files from open file con text by @villahernandez-coder in https://github.com/google-gemini/gemini-cli/pull/29848\n* fix(core): scope untrusted flag checks to external output and remember approved flags by @luisfelipe-alt in https://github.com/google-gemini/gemini-cli/pull/29833\n* fix(a2a-server): mount express.json() before A2A SDK route registration by @jesussamuel-byte in https://github.com/google-gemini/gemini-cli/pull/29850\n* fix(core): adhere to RFC 9110 token rules when splitting custom headers by @diegogodinezr in https://github.com/google-gemini/gemini-cli/pull/29865\n* fix(core): respect read-only files and hard links in atomic writeTextFile by @elberthc-byte in https://github.com/google-gemini/gemini-cli/pull/29749\n* fix(a2a-server,core): preserve extended token usage metadata and align per-turn reporting by @jvargassanchez-dot in https://github.com/google-gemini/gemini-cli/pull/29834\n* fix(core): ensure all model turns with function calls receive thought signatures by @amelidev in https://github.com/google-gemini/gemini-cli/pull/29828\n* fix(cli): handle termination signals and prevent tool execution after cancellation in non-interactive mode by @urielefrenvirtusa in https://github.com/google-gemini/gemini-cli/pull/29849\n* fix(cli): preserve ${VAR} placeholders during deprecated settings migration by @villahernandez-coder in https://github.com/google-gemini/gemini-cli/pull/29867\n* fix(cli): stop continuation stream processing and auto-nudge after request cancellation by @jesussamuel-byte in https://github.com/google-gemini/gemini-cli/pull/29868\n* fix(cli): correct Thai and Lao SARA AM display width by @elberthc-byte in https://github.com/google-gemini/gemini-cli/pull/29883\n* fix(core): resolve relative file path",
+      "prerelease": false
+    }
+  ],
+  "level2_people": [
+    "@karpathy",
+    "@bcherny",
+    "@sundarpichai",
+    "@sama",
+    "@gdb",
+    "@DarioAmodei"
+  ],
+  "level2_note": "raw 无人物搜索；无依据时 Level 2 标无新增，勿编造",
+  "level3_note": "本日未扫描行业报告（周报降频）",
+  "level4_hn": [
+    {
+      "title": "British fintech Revolut slashes AI coding costs 10x by going self-hosted",
+      "url": "https://www.theregister.com/ai-and-ml/2026/11/03/british-fintech-revolut-slashes-ai-coding-costs-10x-by-cutting-out-claude-and-going-self-hosted/5307345",
+      "points": 26,
+      "comments": 1,
+      "created": "2026-11-03"
+    },
+    {
+      "title": "Revolut slashes AI coding costs 10x by cutting out Claude and going self-hosted",
+      "url": "https://www.theregister.com/ai-and-ml/2026/11/03/british-fintech-revolut-slashes-ai-coding-costs-10x-by-cutting-out-claude-and-going-self-hosted/5307345",
+      "points": 13,
+      "comments": 3,
+      "created": "2026-11-04"
+    },
+    {
+      "title": "Revolut swaps Claude for GLM open-weight model, cutting AI coding bill by 90%",
+      "url": "https://dealroom.co/news/169124-revolut-swaps-claude-code-for-a-chinese-open-weight-model-cutting-its-ai/",
+      "points": 12,
+      "comments": 1,
+      "created": "2026-11-03"
+    },
+    {
+      "title": "What's the worst bug an AI coding agent silently introduced into your code?",
+      "url": "https://news.ycombinator.com/item?id=50374984",
+      "points": 4,
+      "comments": 2,
+      "created": "2026-11-05"
+    },
+    {
+      "title": "Ask HN: AI Coding Preference",
+      "url": "https://news.ycombinator.com/item?id=50374297",
+      "points": 3,
+      "comments": 4,
+      "created": "2026-11-05"
+    }
+  ]
+}
