@@ -1,0 +1,100 @@
+{
+  "briefing_date": "2026-11-07",
+  "period_start": "2026-11-05",
+  "period_end": "2026-11-07",
+  "previous_briefing_date": "2026-11-06",
+  "previous_briefing_excerpt": "# AI x 研发效能 每日简报 2026-11-06\n\n> 覆盖周期：2026-11-04 ~ 2026-11-06（上一期：2026-11-05）\n\n> **采集方式**：GitHub Actions 自动采集（Level 1 GitHub API + Level 4 HN API）｜Level 2/3 待人工或 API 密钥补充\n\n---\n\n## 头条速览\n\n1. **OpenClaw v2026.11.1**——## 2026.11.1\n2. **Codex rust-v0.168.0-alpha.6**——Release 0.168.0-alpha.6\n3. **Claude Code v2.1.318**——## What's changed\n\n---\n\n## 一、AI 增强软件研发（AI4SE）\n\n### 1.1 Level 1：核心产品与工程更新\n\n#### 1️⃣ OpenClaw v2026.11.1（2026-11-05）\n\n## 2026.11.1\n\n来源：[v2026.11.1](https://github.com/openclaw/openclaw/releases/tag/v2026.11.1) — 2026-11-05\n\n#### 2️⃣ Codex rust-v0.168.0-alpha.6（2026-11-05）\n\nRelease 0.168.0-alpha.6\n\n来源：[rust-v0.168.0-alpha.6](https://github.com/openai/codex/releases/tag/rust-v0.168.0-alpha.6) — 2026-11-05\n\n#### 3️⃣ Claude Code v2.1.318（2026-11-04）\n\n## What's changed\n\n来源：[v2.1.318](https://github.com/anthropics/claude-code/releases/tag/v2.1.318) — 2026-11-04\n\n#### 4️⃣ Gemini CLI v0.67.0（2026-11-04）\n\n## What's Changed\n\n来源：[v0.67.0](https://github.com/google-gemini/gemini-cli/releases/tag/v0.67.0) — 2026-11-04\n\n---\n\n### 1.2 Level 2：关键人物战略洞察\n\n| 人物 | 动态 | 日期 |\n|---|---|---|\n| @karpathy | 自动采集未配置（需 WebSearch / X 间接源） | — |\n| @bcherny | 自动采集未配置（需 WebSearch / X 间接源） | — |\n| @sundarpichai | 自动采集未配置（需 WebSearch / X 间接源） | — |\n| @sama | 自动采集未配置（需 WebSearch / X 间接源） | — |\n| @gdb | 自动采集未配置（需 WebSearch / X 间接源） | — |\n| @DarioAmodei | 自动采集未配置（需 WebSearch / X 间接源） | — |\n\n---\n\n### 1.3 Level 3：行业研究与数据\n\n> **本日未扫描**（周报/月报降频）。\n\n---\n\n### 1.4 Level 4：补充信源（HN）\n\n- **2026-11-03**：[British fintech Revolut slashes AI coding costs 10x by going self-hosted](https://www.theregister.com/ai-and-ml/2026/11/03/british-fintech-revolut-slashes-ai-coding-costs-10x-by-cutting-out-claude-and-going-self-hosted/5307345) （26 pts / 1 comments）\n- **2026-11-04**：[Revolut slashes AI coding costs 10x by cutting out Claude and going self-hosted](https://www.theregister.com/ai-and-ml/2026/11/03/british-fintech-revolut-slashes-ai-coding-costs-10x-by-cutting-out-claude-and-going-self-hosted/5307345) （13 pts / 3 comments）\n- **2026-11-03**：[Revolut swaps Claude for GLM open-weight model, cutting AI coding bill by 90%](https://dealroom.co/news/169124-revolut-swaps-claude-code-for-a-chinese-open-weight-model-cutting-its-ai/) （12 pts / 1 comments）\n- **2026-11-05**：[What's the worst bug an AI coding agent silently introduced into your code?](https://news.ycombinator.com/item?id=50374984) （4 pts / 2 comments）\n- **2026-11-05**：[Ask HN: AI Coding Preference](https://news.ycombinator.com/item?id=50374297) （3 pts / 4 comments）\n\n---\n\n## 附录：采集日志\n\n| 环节 | 状态 |\n|---|---|\n| GitHub Releases API | ✅ 4 条 |\n| HN Algolia API | ✅ 5 条 |\n| 生成时间 (UTC) | 2026-11-05 20:22 |\n\n*自动生成版 · 可在 Cursor 中基于本稿补充 Level 2 分析与专题*\n",
+  "level1_releases": [
+    {
+      "product": "Claude Code",
+      "repo": "anthropics/claude-code",
+      "tag": "v2.1.319",
+      "name": "v2.1.319",
+      "published": "2026-11-06",
+      "url": "https://github.com/anthropics/claude-code/releases/tag/v2.1.319",
+      "summary": "## What's changed",
+      "body_excerpt": "## What's changed\n\n- Changed auto mode with telemetry or feature flags off, including behind LLM gateways: calls the server can't check are asked about or denied, with no fallback to the built-in classifier; set `CLAUDE_CODE_AUTO_MODE_SERVER=0` to keep using it (Bedrock, Vertex and Foundry are unchanged)\n- Changed auto mode behind an LLM gateway: `CLAUDE_CODE_AUTO_MODE_SERVER=1` turns on the server-side check even with `CLAUDE_CODE_DISABLE_EXPERIMENTAL_BETAS` set; if managed settings set the latter, they must set the `1` too\n- Added support for MCP tasks in the terminal: when an MCP server runs a tool call as a task, Claude Code moves it to the background right away and tells Claude the result when it finishes\n- Added the `CLAUDE_CODE_DISABLE_MCP_TASK_BACKGROUND` environment variable to make Claude Code wait for an MCP task inside its tool call instead of moving it to the background right away\n- Added `permissions.denyInsteadOfPrompting` setting: a tool call that would wait on a permission prompt is denied and the turn continues, in terminal sessions, subagents and teammates\n- Added `/claude-api latency-optimize` to find where your Claude API code makes people wait and try faster settings against your eval\n- Added the `CLAUDE_CODE_DISABLE_FEATURE_FLAGS` environment variable, which stops feature-flag fetching without turning off telemetry; every flag then uses its built-in default\n- Added spend for today, this week and this month to `/usage` for developers behind a Claude apps gateway who have no spend limit, when the gateway runs this version or later\n- Added `admin.pooled_conflict_rule` and `admin.pooled_priority_order` to the Claude apps gateway, to set which pooled group budget pays first for a developer in several groups\n- Added an optional `login_notice` setting to the Claude apps gateway that shows an operator-defined message on the gateway's browser verification page and on Claude Code's sign-in screen\n- Added `CLAUDE_GATEWAY_LOG_FORMAT=json` to the Claude apps gateway: operational log lines become JSON with `severity`, `time` and `message`, for log collectors that read the level from a field\n- Added a Claude apps gateway boot warning for a case where another policy's `availableModels` also allows a custom model id that one policy lists by name\n- Added start-up warnings to the Claude apps gateway for policies with no `desktopHome` that rely on `coworkTabEnabled: false` or `chatSessionRetentionDays`, ahead of Claude Desktop's November 10 change\n- Add",
+      "prerelease": false
+    },
+    {
+      "product": "Codex",
+      "repo": "openai/codex",
+      "tag": "rust-v0.167.0",
+      "name": "0.167.0",
+      "published": "2026-11-06",
+      "url": "https://github.com/openai/codex/releases/tag/rust-v0.167.0",
+      "summary": "## New Features",
+      "body_excerpt": "## New Features\n\n- Open the agent command center with `codex agents --no-daemon`. The command center and session picker now mark unread results (#58238, #58239, #58263, #58264).\n- Switch between connected backends from the terminal session picker and keep your drafts when switching (#58280, #58457).\n- Preview local image attachments while composing on supported terminals, and open viewed local images from clickable transcript paths (#58261, #58446).\n- Find API key and cloud provider options under “Sign in another way.” Enable `gcp_setup_wizard` to set up Google Cloud Vertex AI with Application Default Credentials or a credential file (#57857, #58427).\n- Opt into macOS or Windows system proxy settings from `/experimental` (#58157).\n- Expand patch details directly in the transcript while an approval prompt is open (#58281).\n\n## Bug Fixes\n\n- Saved chats stay visible after you switch model providers. If a chat can’t resume, you can read its transcript and prepare an editable prompt to continue in a new chat (#58202).\n- `Ctrl+L` clears the terminal display while keeping earlier messages available through `Ctrl+T` (#58266).\n- Deleting text that exposes a leading `!` keeps an ordinary draft in chat mode (#58412).\n- Network approval prompts close when their requests end. Concurrent requests to the same endpoint prompt one at a time (#58350, #58351).\n- Long realtime V3 conversations save completed speech to chat history as the transcript grows (#58221).\n- Automatic context compaction now accounts for retained output from failed responses and responses with missing token usage data (#58404).\n\n## Documentation\n\n- The app-server README covers managed network constraints under `[permissions.network]` and `prompt-user` command rules that require fresh human approval (#58045, #58182).\n- The `openai-docs` skill recommends the documented replacement when migrating away from a deprecated model (#58134).\n\n## Chores\n\n- DotSlash manifests now reference the Cargo packages shipped with the release (#58717, #58757).\n- Linux musl builds use fewer allocator arenas to reduce idle memory after conversations unload (#58399).\n\n## Changelog\n\nFull Changelog: https://github.com/openai/codex/compare/rust-v0.166.0...rust-v0.167.0\n\n- #57848 Add bounded Code Mode output collection and rendering @seanh-oai\n- #57850 Wire bounded output collection into the code mode runtime @seanh-oai\n- #57855 Load TUI plugin mentions from installed plugins @zamoshchin-openai\n- #57857 Add Google Cloud Vertex AI ",
+      "prerelease": false
+    },
+    {
+      "product": "OpenClaw",
+      "repo": "openclaw/openclaw",
+      "tag": "v2026.11.1",
+      "name": "openclaw 2026.11.1",
+      "published": "2026-11-05",
+      "url": "https://github.com/openclaw/openclaw/releases/tag/v2026.11.1",
+      "summary": "## 2026.11.1",
+      "body_excerpt": "## 2026.11.1\n\n### Highlights\n\n- Safer Mac settings: failed config saves no longer overwrite secrets, and turning off Tailscale exposure keeps Gateway authentication intact. (#187734, #187664) Fixes #187600, #187597 Thanks @anmol0b.\n- More reliable channel replies: Telegram, Discord, and webhook conversations keep reaching the agent after request handlers or earlier turns finish. (#179200, #179385, #179704, #189457) Fixes #178554 Thanks @steipete, @LiuwqGit, @jalehman, and @vincentkoc.\n- Conversations survive more interruptions: oversized turns retain useful history, and stopping the first Claude CLI turn no longer starts the next message from scratch. (#191146, #181966, #186380) Fixes #191133, #181945 Thanks @Yun-0000, @obviyus, @mirasrael, and @holgergruenhagen.\n- Update recovery gets unstuck after crashed or canceled updaters, restores the Windows Gateway after failed verification, and avoids repeated full-database copying during large-state checks. (#177932, #186787, #189647, #182632, #187921) Fixes #177684, #184893, #189620 Thanks @duyufansh2008, @RomneyDa, @fuller-stack-dev, @TheAngryPit, @sukhdeepjohar, @steipete, @syxscott, and @stephen3303.\n- Subagents keep their follow-ups through model and session changes, while parent sessions receive child approvals even with a custom session store. (#186238, #183501, #189827) Fixes #179289, #189823 Thanks @steipete, @Marvinthebored, @RomneyDa, and @ekinnee.\n- Android End Talk with a compatible Gateway stops listening without canceling accepted agent work, so its answer can still arrive in chat; explicit cancellation remains available. (#172276, #188798) Thanks @RomneyDa.\n- Provider recovery respects provider-specified rate-limit timing, and Gemini Flash text models use Interactions by default on the official API-key endpoint while custom proxies retain their existing default. (#180280, #189395) Thanks Ayaan Zaidi, @evomach, @sukhdeepjohar, @RomneyDa.\n\n### Changes\n\n- Claude CLI: saved subscription accounts can make configured models available without a separate native login, and operators can opt into native Agent and Workflow orchestration through `plugins.entries.anthropic.config.managedNativeTools`; the default remains off and restricted runs keep their existing tool limits. (#179203, #183765) Thanks @RomneyDa.\n- Anthropic: API-key setup can record an optional Anthropic workspace ID; existing workspace headers are preserved, and workspace-scoped keys need no extra setting. (#186976) Thanks Ayaan Zaidi, @evom",
+      "prerelease": false
+    },
+    {
+      "product": "Hermes Agent",
+      "repo": "NousResearch/hermes-agent",
+      "tag": "v0.23.0",
+      "name": "Hermes Agent v0.23.0 — The Hearth Release",
+      "published": "2026-11-05",
+      "url": "https://github.com/NousResearch/hermes-agent/releases/tag/v0.23.0",
+      "summary": "# Hermes Agent v0.23.0",
+      "body_excerpt": "# Hermes Agent v0.23.0\n\n**Release Date:** November 5, 2026\n**Since v0.22.0:** ~10,080 commits · ~1,950 merged PRs · ~8,720 files changed · ~725,200 insertions · ~201,400 deletions · **~850 issues closed** · 666 contributors\n\n> **The Hearth Release.** In the old hymns Hermes kept the threshold and Hestia kept the hearth, and the two were honored side by side. v0.22.0 got newcomers through the door; v0.23.0 builds the fire they gather around. The headline: your whole Desktop workspace now opens in a browser tab, served by your own gateway. Underneath it, every conversation lives in one place: a single gateway owns each session, and the CLI, TUI, Desktop, editors, bots and cron all sit down at the same table instead of each running its own agent. From that one hearth, Desktop keeps every machine you run Hermes on connected at once, Group Chats route their own conversations, and the terminal finally draws your images inline and lets you rewind a conversation. Around it: plugins that keep themselves updated, price tags and spend limits on paid MCP tools, pluggable delegation, a plugin catalog that grew from about 600 to over 1,050 entries, a leaner built-in skill set, and a long run of memory and latency work for long-lived gateways. This release rolls up and fully documents the v0.22.1–v0.22.7 patch releases.\n\n<!-- HERMES_BUILDS_TABLE -->\n\n---\n\n## ✨ Highlights\n\n- **Your Desktop workspace in a browser tab** — The new Webapp serves the full Desktop workspace from your own gateway: the same chats, Group Chats, plugins and settings, in any browser on your network or behind a public URL with sign-in. The Docker image and Nix package ship it. It is off by default; turn it on with `webapp.enabled` or Web Access in Settings. ([#141864](https://github.com/NousResearch/hermes-agent/pull/141864), [#145598](https://github.com/NousResearch/hermes-agent/pull/145598), [#145536](https://github.com/NousResearch/hermes-agent/pull/145536), [#145072](https://github.com/NousResearch/hermes-agent/pull/145072), [#145153](https://github.com/NousResearch/hermes-agent/pull/145153) — @jquesnelle, @BearHuddleston, @IAvecilla, @Adolanium)\n\n- **One gateway owns every conversation** — Before, the CLI, TUI, Desktop, editors (ACP), messaging bots and cron could each run their own copy of the agent against the same chat, which is how messages got written twice or went missing between surfaces. Now each machine runs one gateway that owns every session, and every surface attaches to it as a clie",
+      "prerelease": false
+    }
+  ],
+  "level2_people": [
+    "@karpathy",
+    "@bcherny",
+    "@sundarpichai",
+    "@sama",
+    "@gdb",
+    "@DarioAmodei"
+  ],
+  "level2_note": "raw 无人物搜索；无依据时 Level 2 标无新增，勿编造",
+  "level3_note": "本日未扫描行业报告（周报降频）",
+  "level4_hn": [
+    {
+      "title": "Revolut slashes AI coding costs 10x by cutting out Claude and going self-hosted",
+      "url": "https://www.theregister.com/ai-and-ml/2026/11/03/british-fintech-revolut-slashes-ai-coding-costs-10x-by-cutting-out-claude-and-going-self-hosted/5307345",
+      "points": 13,
+      "comments": 3,
+      "created": "2026-11-04"
+    },
+    {
+      "title": "AI coding agent setups from 663 Hacker News comments",
+      "url": "https://theainewsreport.com/2026-11-06-hn-agentic-setups-counted.html",
+      "points": 7,
+      "comments": 0,
+      "created": "2026-11-06"
+    },
+    {
+      "title": "Ask HN: AI Coding Preference",
+      "url": "https://news.ycombinator.com/item?id=50374297",
+      "points": 4,
+      "comments": 5,
+      "created": "2026-11-05"
+    },
+    {
+      "title": "What's the worst bug an AI coding agent silently introduced into your code?",
+      "url": "https://news.ycombinator.com/item?id=50374984",
+      "points": 4,
+      "comments": 3,
+      "created": "2026-11-05"
+    },
+    {
+      "title": "Advancing the Quality-Efficiency Frontier for Coding AI on Windows PCs",
+      "url": "https://devblogs.microsoft.com/foundry-on-windows/coding-ai-on-windows-pcs-quality-efficiency/",
+      "points": 3,
+      "comments": 0,
+      "created": "2026-11-04"
+    }
+  ]
+}
