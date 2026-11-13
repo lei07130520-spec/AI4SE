@@ -1,0 +1,100 @@
+{
+  "briefing_date": "2026-11-14",
+  "period_start": "2026-11-12",
+  "period_end": "2026-11-14",
+  "previous_briefing_date": "2026-11-13",
+  "previous_briefing_excerpt": "# AI x 研发效能 每日简报 2026-11-13\n\n> 覆盖周期：2026-11-11 ~ 2026-11-13（上一期：2026-11-12）\n\n> **采集方式**：GitHub Actions 自动采集（Level 1 GitHub API + Level 4 HN API）｜Level 2/3 待人工或 API 密钥补充\n\n---\n\n## 头条速览\n\n1. **OpenClaw v2026.11.5-beta.2**——## 2026.11.5-beta.2\n2. **Codex rust-v0.167.2**——## New Features\n\n---\n\n## 一、AI 增强软件研发（AI4SE）\n\n### 1.1 Level 1：核心产品与工程更新\n\n#### 1️⃣ OpenClaw v2026.11.5-beta.2（2026-11-12）\n\n## 2026.11.5-beta.2\n\n来源：[v2026.11.5-beta.2](https://github.com/openclaw/openclaw/releases/tag/v2026.11.5-beta.2) — 2026-11-12\n\n#### 2️⃣ Codex rust-v0.167.2（2026-11-11）\n\n## New Features\n\n来源：[rust-v0.167.2](https://github.com/openai/codex/releases/tag/rust-v0.167.2) — 2026-11-11\n\n---\n\n### 1.2 Level 2：关键人物战略洞察\n\n| 人物 | 动态 | 日期 |\n|---|---|---|\n| @karpathy | 自动采集未配置（需 WebSearch / X 间接源） | — |\n| @bcherny | 自动采集未配置（需 WebSearch / X 间接源） | — |\n| @sundarpichai | 自动采集未配置（需 WebSearch / X 间接源） | — |\n| @sama | 自动采集未配置（需 WebSearch / X 间接源） | — |\n| @gdb | 自动采集未配置（需 WebSearch / X 间接源） | — |\n| @DarioAmodei | 自动采集未配置（需 WebSearch / X 间接源） | — |\n\n---\n\n### 1.3 Level 3：行业研究与数据\n\n> **本日未扫描**（周报/月报降频）。\n\n---\n\n### 1.4 Level 4：补充信源（HN）\n\n- **2026-11-11**：[AI Coding CLI Tools to Try Beyond Claude Code and Codex](https://medium.com/@ajseven/7-ai-coding-cli-tools-to-try-beyond-claude-code-and-codex-e95155e153bd7AICodingCLIToolstoTryBeyondClaudeCodeandCodex) （2 pts / 2 comments）\n- **2026-11-12**：[The Hard Part of AI Coding Is the Second Change](https://brian.biz/blog/ai-agents-keep-it-working/) （2 pts / 1 comments）\n- **2026-11-12**：[Why AI Coding Agents Lose Context After the PR, and How to Keep It](https://www.harness.io/blog/why-ai-coding-agents-lose-context-after-pr) （1 pts / 0 comments）\n- **2026-11-11**：[Apple II Agent: An AI Coding Environment for the Apple II](https://www.vintagecomputing.com/index.php/archives/3746/apple-ii-agent-an-ai-coding-environment-for-the-apple-ii) （1 pts / 0 comments）\n- **2026-11-11**：[I built a dice football game solo with an AI coding assistant](https://apps.apple.com/us/app/hex-soccer-dice-football/id6830311319) （1 pts / 0 comments）\n\n---\n\n## 附录：采集日志\n\n| 环节 | 状态 |\n|---|---|\n| GitHub Releases API | ✅ 2 条 |\n| HN Algolia API | ✅ 5 条 |\n| 生成时间 (UTC) | 2026-11-12 20:30 |\n\n*自动生成版 · 可在 Cursor 中基于本稿补充 Level 2 分析与专题*\n",
+  "level1_releases": [
+    {
+      "product": "Hermes Agent",
+      "repo": "NousResearch/hermes-agent",
+      "tag": "v0.23.1+canary.20261113T064447Z",
+      "name": "Hermes Agent canary v0.23.1+canary.20261113T064447Z",
+      "published": "2026-11-13",
+      "url": "https://github.com/NousResearch/hermes-agent/releases/tag/v0.23.1%2Bcanary.20261113T064447Z",
+      "summary": "# Hermes Agent v0.23.1+canary.20261113T064447Z (v0.23.1+canary.20261113T064447Z)",
+      "body_excerpt": "# Hermes Agent v0.23.1+canary.20261113T064447Z (v0.23.1+canary.20261113T064447Z)\n\n**Release Date:** November 13, 2026\n\n<!-- HERMES_BUILDS_TABLE -->\n## Downloads\n\n### Hermes Desktop\n\n| OS | Architecture | Download |\n|---|---|---|\n| macOS | Apple Silicon (M-series) | [DMG](https://hermes-assets.nousresearch.com/releases/tag/v0.23.1%2Bcanary.20261113T064447Z/HermesBundled-0.23.1%2Bcanary.20261113T064447Z-mac-arm64.dmg) |\n| Windows | x86 (64-bit) | [MSIX](https://hermes-assets.nousresearch.com/releases/tag/v0.23.1%2Bcanary.20261113T064447Z/HermesBundled-0.23.1%2Bcanary.20261113T064447Z-win-x64.msix) |\n| Windows | ARM (arm64 / aarch64) | [MSIX](https://hermes-assets.nousresearch.com/releases/tag/v0.23.1%2Bcanary.20261113T064447Z/HermesBundled-0.23.1%2Bcanary.20261113T064447Z-win-arm64.msix) |\n\n### Native install/chat smoke\n\nDownload availability is independent of smoke status. Each result covers all native legs in that format group. Linux bundles are disabled; unsigned Store envelopes are not install-smoked. No-upload dry tags have no download handoff and are not smoke-qualified.\n\n| Packages | Smoke status |\n|---|---|\n| macOS DMG + ZIP (arm64) | Passed |\n| Windows MSIX (arm64) | Passed |\n| Windows MSIX (x64) | Passed |\n<!-- /HERMES_BUILDS_TABLE -->\n\n**Full Changelog**: [v0.23.1+canary.20261112T064528Z...v0.23.1+canary.20261113T064447Z](https://github.com/NousResearch/hermes-agent/compare/v0.23.1+canary.20261112T064528Z...v0.23.1+canary.20261113T064447Z)",
+      "prerelease": true
+    },
+    {
+      "product": "Codex",
+      "repo": "openai/codex",
+      "tag": "rust-v0.169.0",
+      "name": "0.169.0",
+      "published": "2026-11-13",
+      "url": "https://github.com/openai/codex/releases/tag/rust-v0.169.0",
+      "summary": "## New Features",
+      "body_excerpt": "## New Features\n\n- The opt-in terminal workspace supports multiple side-chat tabs. Switch between them with the keyboard or mouse, and reopen saved local side chats after restarting Codex. (#59784, #60152, #60181)\n- Search older tasks from the agent command center by name, prompt preview, or working directory. (#60286)\n- Turn on **Collapse turn details** in the full-screen transcript to fold completed activity beneath each prompt while keeping answers visible and tool output searchable. (#60554, #60555, #60556, #60557)\n- Add or edit custom model providers from the terminal. With custom gateway onboarding enabled, you can create a provider during sign-in and use a device code for supported gateways over SSH or without a local browser. (#59779, #60009, #60186, #60486, #60662)\n- Press `Ctrl+S` in the terminal report editor to save a diagnostic ZIP locally, even when uploads are disabled. (#60542)\n- With the opt-in Cloud connection on macOS and Linux, send images, choose a model and reasoning effort, and archive or restore Cloud conversations from the terminal. (#59828, #60061, #60635, #60651)\n\n## Bug Fixes\n\n- `codex exec` keeps project configuration and MCP servers disabled in untrusted directories, even with `--sandbox workspace-write`. Use `--trust` with `codex exec` or `codex review` to explicitly save project trust. (#60041)\n- **Yes, clear context and implement** now hands the full approved plan to the fresh session and keeps the current session open if the handoff fails. (#60763)\n- Fixed Windows sandbox handling for quoted `cmd.exe` paths and for PowerShell sessions whose working directory has an unreadable parent. (#60624, #60647)\n- Pasted images on macOS retain their intended orientation and use native PNG or JPEG clipboard data when available. (#60455)\n- The terminal no longer stays busy waiting for MCP servers that a shared app server did not report. (#60280, #60622)\n- Interrupted turns now close cleanly, and delayed aborts or file approval cancellations no longer interrupt a later turn. (#59910, #60700)\n\n## Documentation\n\n- Updated the `openai-docs` skill to focus on Codex and ChatGPT Work questions and first-time API setup, with dedicated guidance for configuring Codex across a team. (#59944, #59949)\n- Documented how app-server clients can list models or authorize a gateway for a configured provider without changing the default provider. (#59776, #59819)\n\n## Chores\n\n- Updated bundled SQLite to 3.54 to pick up write-ahead log fixes. (#60432)\n- Plugi",
+      "prerelease": false
+    },
+    {
+      "product": "OpenClaw",
+      "repo": "openclaw/openclaw",
+      "tag": "v2026.11.5-beta.2",
+      "name": "openclaw 2026.11.5-beta.2",
+      "published": "2026-11-12",
+      "url": "https://github.com/openclaw/openclaw/releases/tag/v2026.11.5-beta.2",
+      "summary": "## 2026.11.5-beta.2",
+      "body_excerpt": "## 2026.11.5-beta.2\n\n### Highlights\n\n- Large conversations remain browsable with paged history in both directions, visible history boundaries, and bounded archive reads. (#188450 #188483 #188557 #188372 #190690) Authored by @steipete. Thanks @xydt-tanshanshan.\n- The macOS app preserves saved secrets and Gateway authentication when configuration saves fail or Tailscale exposure is turned off. (#187734 #187664; related #187600, #187597) Thanks @anmol0b.\n- Ending Talk on Android no longer cancels work the Gateway has already accepted. (#188798; related #188134) Thanks @RomneyDa and @jeffjhunter.\n\n### Changes\n\n- Google: use the Interactions API for Gemini Flash models on the official endpoint while retaining custom endpoint overrides. (#189395) Thanks @obviyus.\n\n### Fixes\n\n- Security: reject malformed URI identifiers using fast-uri 4.2.3 while preserving valid relative references. (#187284) Thanks @RomneyDa and @shakkernerd.\n- Security: reject oversized bounded collections early in the Discord SDK and its transitive Zod 3 parser without restoring the retired A2UI integration. (#187296 #187303) Thanks @RomneyDa and @shakkernerd.\n- Message delivery: acknowledge retried committed input without starting duplicate turns, retain queued messages during inline edits, and keep Control UI plugin-reload replies from leaking into the last external chat. (#188527 #189869 #190982; related #189845, #190980) Authored by @steipete. Thanks @RomneyDa, @shakkernerd, and @Satoshi-Kusumoto.\n- Chat recovery: preserve completed reasoning, refill chat snapshots, retain active-request provenance through compaction, and resume configured fallbacks after interrupted attempts. (#188203 #180214 #188672; related #188181) Authored by @steipete. Thanks @shakkernerd and @RomneyDa.\n- Sessions: bound listing, imported-history, and accounting reads without blocking writers; omit misleading continuation metadata from centered history. (#189284 #190182 #188612) Authored by @steipete. Thanks @RomneyDa and @shakkernerd.\n- PostgreSQL: keep session search on its text index across repeated searches, use a safe iMessage recovery cursor, and allow Boards widgets to publish. (#187909 #188979 #184919 #189564; related #187908, #188954, #184862) Thanks @etzelm, @obviyus, and @galiniliev.\n- Files: preserve the identity of Unicode keys when reading and editing workspace paths. (#189868; related #189866) Thanks @Malpin07 and @obviyus.\n- File transfer: avoid first-turn workspace-memory and skills import races whe",
+      "prerelease": true
+    },
+    {
+      "product": "Claude Code",
+      "repo": "anthropics/claude-code",
+      "tag": "v2.1.323",
+      "name": "v2.1.323",
+      "published": "2026-11-12",
+      "url": "https://github.com/anthropics/claude-code/releases/tag/v2.1.323",
+      "summary": "## What's changed",
+      "body_excerpt": "## What's changed\n\n- Added Code Mode, an experimental opt-in in which Claude writes JavaScript to call its tools; see https://code.claude.com/docs/en/code-mode to turn it on, or to turn it off for an organization\n- Added `engines[\"claude-code\"]` to `plugin.json`: plugins outside their stated Claude Code version range are not installed, updated or loaded, and install and update pick the newest version that fits\n- Added type checking of a plugin's TypeScript hooks module to `claude plugin validate`; each finding is a warning, and `--strict` fails on it\n- Added to `claude plugin validate` the `$` nouns a mod's `engine.create` hook adds, withholds or replaces\n- Added support for `CLAUDE_CODE_AUTO_MODE_MODEL` in managed settings for Claude Desktop sessions on third-party providers (takes effect once Claude Desktop includes this version)\n- Added an options menu (stop, switch to usage credits, upgrade) when a model needs usage credits that are turned off or used up\n- Added a progress heartbeat every 30 seconds while hooks run long in `claude -p` and SDK sessions, so a host such as Claude Desktop won't end the turn as hung (once it includes this version)\n- Added `.docx` support to Artifact tool asset uploads\n- Added a `/diff to close` hint to the diff panel, and the keys that focus and close a panel to the `?` shortcut guide\n- Added a start-up warning for Bash allow rules with a `*` in a variable's value, such as `Bash(PORT=* npm run dev)`\n- Added a warning when a plugin's language server can't start, naming the server and what to check\n- Added a one-time startup notice naming `CLAUDE_CODE_PERFORCE_MODE` when Perforce settings are found and the mode is off\n- Added `CLAUDE_CODE_DISABLE_AGENT_PROGRESS_SUMMARIES` (available since 2.1.318): set it to `1` to turn off subagent progress summaries and the requests that write them (anthropics/claude-code#86879)\n- Added `CLAUDE_CODE_RESUME_HINT_COMMAND`, which a program that starts Claude Code can set to have the exit hint name its own resume command\n- Added `unsetOptionCount` to the `claude plugin install --json` result: how many `userConfig` options are not yet set\n- Added `isPromptCovered` to the props a mod's pane is drawn with, telling it when a dialog or a field above the prompt covers the prompt\n- Fixed running `/compact` again, or after a command such as `/context`, summarizing away a message that Claude had not answered yet\n- Fixed a resumed session joining your next message to an old interrupted message that was n",
+      "prerelease": false
+    }
+  ],
+  "level2_people": [
+    "@karpathy",
+    "@bcherny",
+    "@sundarpichai",
+    "@sama",
+    "@gdb",
+    "@DarioAmodei"
+  ],
+  "level2_note": "raw 无人物搜索；无依据时 Level 2 标无新增，勿编造",
+  "level3_note": "本日未扫描行业报告（周报降频）",
+  "level4_hn": [
+    {
+      "title": "Jonathan Blow – If AI Solved Coding, Why Is My Software Still the Same? [video]",
+      "url": "https://www.youtube.com/watch?v=IRK8h67ol7Q",
+      "points": 136,
+      "comments": 109,
+      "created": "2026-11-13"
+    },
+    {
+      "title": "Ask HN: Has AI coding changed who builds your internal tools?",
+      "url": "https://news.ycombinator.com/item?id=50473926",
+      "points": 2,
+      "comments": 2,
+      "created": "2026-11-12"
+    },
+    {
+      "title": "AI Coding CLI Tools to Try Beyond Claude Code and Codex",
+      "url": "https://medium.com/@ajseven/7-ai-coding-cli-tools-to-try-beyond-claude-code-and-codex-e95155e153bd7AICodingCLIToolstoTryBeyondClaudeCodeandCodex",
+      "points": 2,
+      "comments": 2,
+      "created": "2026-11-11"
+    },
+    {
+      "title": "Ask HN: Has AI coding changed who builds your internal tools?",
+      "url": "https://news.ycombinator.com/item?id=50485228",
+      "points": 2,
+      "comments": 1,
+      "created": "2026-11-13"
+    },
+    {
+      "title": "The Hard Part of AI Coding Is the Second Change",
+      "url": "https://brian.biz/blog/ai-agents-keep-it-working/",
+      "points": 2,
+      "comments": 1,
+      "created": "2026-11-12"
+    }
+  ]
+}
