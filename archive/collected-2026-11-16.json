@@ -1,0 +1,89 @@
+{
+  "briefing_date": "2026-11-16",
+  "period_start": "2026-11-14",
+  "period_end": "2026-11-16",
+  "previous_briefing_date": "2026-11-15",
+  "previous_briefing_excerpt": "# AI x 研发效能 每日简报 2026-11-15\n\n> 覆盖周期：2026-11-13 ~ 2026-11-15（上一期：2026-11-14）\n\n> **采集方式**：GitHub Actions 自动采集（Level 1 GitHub API + Level 4 HN API）｜Level 2/3 待人工或 API 密钥补充\n\n---\n\n## 头条速览\n\n1. **Hermes Agent v0.23.1+canary.20261114T064334Z**——# Hermes Agent v0.23.1+canary.20261114T064334Z (\n2. **Claude Code v2.1.325**——## What's changed\n3. **Codex rust-v0.169.0**——## New Features\n\n---\n\n## 一、AI 增强软件研发（AI4SE）\n\n### 1.1 Level 1：核心产品与工程更新\n\n#### 1️⃣ Hermes Agent v0.23.1+canary.20261114T064334Z（2026-11-14）\n\n# Hermes Agent v0.23.1+canary.20261114T064334Z (v0.23.1+canary.20261114T064334Z)\n\n来源：[v0.23.1+canary.20261114T064334Z](https://github.com/NousResearch/hermes-agent/releases/tag/v0.23.1%2Bcanary.20261114T064334Z) — 2026-11-14\n\n#### 2️⃣ Claude Code v2.1.325（2026-11-13）\n\n## What's changed\n\n来源：[v2.1.325](https://github.com/anthropics/claude-code/releases/tag/v2.1.325) — 2026-11-13\n\n#### 3️⃣ Codex rust-v0.169.0（2026-11-13）\n\n## New Features\n\n来源：[rust-v0.169.0](https://github.com/openai/codex/releases/tag/rust-v0.169.0) — 2026-11-13\n\n---\n\n### 1.2 Level 2：关键人物战略洞察\n\n| 人物 | 动态 | 日期 |\n|---|---|---|\n| @karpathy | 自动采集未配置（需 WebSearch / X 间接源） | — |\n| @bcherny | 自动采集未配置（需 WebSearch / X 间接源） | — |\n| @sundarpichai | 自动采集未配置（需 WebSearch / X 间接源） | — |\n| @sama | 自动采集未配置（需 WebSearch / X 间接源） | — |\n| @gdb | 自动采集未配置（需 WebSearch / X 间接源） | — |\n| @DarioAmodei | 自动采集未配置（需 WebSearch / X 间接源） | — |\n\n---\n\n### 1.3 Level 3：行业研究与数据\n\n> **本日未扫描**（周报/月报降频）。\n\n---\n\n### 1.4 Level 4：补充信源（HN）\n\n- **2026-11-13**：[Jonathan Blow – If AI solved coding, why is my software still the same? [video]](https://www.youtube.com/watch?v=IRK8h67ol7Q) （439 pts / 622 comments）\n- **2026-11-13**：[Skills that stop AI coding agents from touching production](https://github.com/simbaTmotsi/simba-skills) （3 pts / 1 comments）\n- **2026-11-12**：[Ask HN: Has AI coding changed who builds your internal tools?](https://news.ycombinator.com/item?id=50473926) （2 pts / 2 comments）\n- **2026-11-13**：[Ask HN: Has AI coding changed who builds your internal tools?](https://news.ycombinator.com/item?id=50485228) （2 pts / 1 comments）\n- **2026-11-12**：[The Hard Part of AI Coding Is the Second Change](https://brian.biz/blog/ai-agents-keep-it-working/) （2 pts / 1 comments）\n\n---\n\n## 附录：采集日志\n\n| 环节 | 状态 |\n|---|---|\n| GitHub Releases API | ✅ 3 条 |\n| HN Algolia API | ✅ 5 条 |\n| 生成时间 (UTC) | 2026-11-14 18:33 |\n\n*自动生成版 · 可在 Cursor 中基于本稿补充 Level 2 分析与专题*\n",
+  "level1_releases": [
+    {
+      "product": "OpenClaw",
+      "repo": "openclaw/openclaw",
+      "tag": "v2026.11.5-beta.3",
+      "name": "openclaw 2026.11.5-beta.3",
+      "published": "2026-11-15",
+      "url": "https://github.com/openclaw/openclaw/releases/tag/v2026.11.5-beta.3",
+      "summary": "## 2026.11.5-beta.3",
+      "body_excerpt": "## 2026.11.5-beta.3\n\n### Highlights\n\n- **Large-session reliability:** reduce memory pressure during transcript indexing, trimming, and compaction; stream only selected hydration payloads and honor configurable summary limits. (#194099, #194066, #194536, #196207) Thanks @vincentkoc, @aniruddhaadak80, @RomneyDa, @garrytan.\n- **Restart and delivery safety:** preserve queued-message permission ceilings and accepted ingress during restarts, drain final chat writes before handoff, and retain delivery ownership through the final RPC. (#196540, #196923, #196493, #197427) Thanks @joshavant, @vincentkoc.\n- **Recovery and setup:** improve cold-start initialization, interrupted workspace recovery, installer permissions, and actionable iMessage Automation status. (#192552, #196423, #186782, #186117) Thanks @javiermv, @anmol0b, @RomneyDa, @vincentkoc.\n\n### Changes\n\n- **Models and tools:** restore context-sized default output budgets, expose effective deferred MCP tools with bounded input hints, and deduplicate wrapped structured MCP results. (#193899, #196766, #196252, #196266, #196243) Thanks @RomneyDa, @jalehman, @GrahamMcBain, @VACInc, @vincentkoc.\n- **Compaction:** support a configurable summary-character limit while retaining foreground request-budget constraints and redacting credentials in quoted summary content. (#196207, #197349) Thanks @aniruddhaadak80, @RomneyDa, @garrytan, @obviyus.\n- **Browser and workspaces:** route Lightpanda navigation through its supported connection path and wait for sandbox files to become ready. (#196400, #197248) Thanks @RomneyDa, @mmaps.\n\n### Fixes\n\n- **Startup and updates:** retry transient shared-state schema admission, defer cold-start runtime initialization, preserve external-plugin data during update rehearsals, keep idle cron workers disabled, and split timed-out SQLite header probes. Conflicting legacy exec-approval files no longer prevent startup; canonical policy remains authoritative. (#195398, #192552, #196301, #196387, #193970, #194239, #196401) Thanks @RomneyDa, @vincentkoc.\n- **Sessions and storage:** bound large-transcript indexing and trimming, stream selected compaction payloads, exclude consumed inputs from actor hydration, and recover cold PostgreSQL conversations after readers close. Preserve active turns across session rollover, settle suspended descendants, and repair persisted internal-wake titles. (#194099, #194066, #194536, #196277, #189991, #197345, #197323, #196362) Thanks @vincentkoc, @etzelm, @Jo2234, @",
+      "prerelease": true
+    },
+    {
+      "product": "Hermes Agent",
+      "repo": "NousResearch/hermes-agent",
+      "tag": "v0.23.1+canary.20261115T064406Z",
+      "name": "Hermes Agent canary v0.23.1+canary.20261115T064406Z",
+      "published": "2026-11-15",
+      "url": "https://github.com/NousResearch/hermes-agent/releases/tag/v0.23.1%2Bcanary.20261115T064406Z",
+      "summary": "# Hermes Agent v0.23.1+canary.20261115T064406Z (v0.23.1+canary.20261115T064406Z)",
+      "body_excerpt": "# Hermes Agent v0.23.1+canary.20261115T064406Z (v0.23.1+canary.20261115T064406Z)\n\n**Release Date:** November 15, 2026\n\n<!-- HERMES_BUILDS_TABLE -->\n## Downloads\n\n### Hermes Desktop\n\n| OS | Architecture | Download |\n|---|---|---|\n| macOS | Apple Silicon (M-series) | [DMG](https://hermes-assets.nousresearch.com/releases/tag/v0.23.1%2Bcanary.20261115T064406Z/HermesBundled-0.23.1%2Bcanary.20261115T064406Z-mac-arm64.dmg) |\n| Windows | x86 (64-bit) | [MSIX](https://hermes-assets.nousresearch.com/releases/tag/v0.23.1%2Bcanary.20261115T064406Z/HermesBundled-0.23.1%2Bcanary.20261115T064406Z-win-x64.msix) |\n| Windows | ARM (arm64 / aarch64) | [MSIX](https://hermes-assets.nousresearch.com/releases/tag/v0.23.1%2Bcanary.20261115T064406Z/HermesBundled-0.23.1%2Bcanary.20261115T064406Z-win-arm64.msix) |\n\n### Native install/chat smoke\n\nDownload availability is independent of smoke status. Each result covers all native legs in that format group. Linux bundles are disabled; unsigned Store envelopes are not install-smoked. No-upload dry tags have no download handoff and are not smoke-qualified.\n\n| Packages | Smoke status |\n|---|---|\n| macOS DMG + ZIP (arm64) | Passed |\n| Windows MSIX (arm64) | Passed |\n| Windows MSIX (x64) | Passed |\n<!-- /HERMES_BUILDS_TABLE -->\n\n## ✨ Features\n\n- Plugin \"dosbox-mcp\" ([`4c02a304`](https://github.com/NousResearch/hermes-agent/commit/4c02a30498d5f458e2da2276f978e436fb9c51fc)) — @shakeyourbunny\n- Hermes-eye-memory to the plugin catalog ([`e71d2da7`](https://github.com/NousResearch/hermes-agent/commit/e71d2da7928fcf976f076715230356f6fa5b13ac)) — @isthatananya\n- Plugin-catalog): add permission-tiers (f5f6183) ([`c2779be8`](https://github.com/NousResearch/hermes-agent/commit/c2779be89a3293075a3e892b7f8f2817c1797e02)) — @imperator-clawdius\n- Plugin-catalog): add neuralwatt-provider ([`5dcd3b55`](https://github.com/NousResearch/hermes-agent/commit/5dcd3b55983654ccc552a977a2cd20ee50dfddeb)) — @ptaranat\n- QMD Workspaces to plugin catalog ([`09adb261`](https://github.com/NousResearch/hermes-agent/commit/09adb261c2fefba343ca922573efe0049d39816e)) — @lad75020\n- Catalog): add Asset Curator ([`36890962`](https://github.com/NousResearch/hermes-agent/commit/36890962216343833dd6deef29446de58f59b3d3)) — @dev-willbird1936\n- Catalog: add video-xray (video analysis workbench) ([`57c44c75`](https://github.com/NousResearch/hermes-agent/commit/57c44c757472e65d8a4ba7b33fb7661e62ef9e5c)) — @LuuMoss\n- Plugin-catalog): bump ascii-worlds to 1.4.0 (pipes and thirteen chara",
+      "prerelease": true
+    },
+    {
+      "product": "Codex",
+      "repo": "openai/codex",
+      "tag": "rust-v0.171.0-alpha.6",
+      "name": "0.171.0-alpha.6",
+      "published": "2026-11-15",
+      "url": "https://github.com/openai/codex/releases/tag/rust-v0.171.0-alpha.6",
+      "summary": "Release 0.171.0-alpha.6",
+      "body_excerpt": "Release 0.171.0-alpha.6",
+      "prerelease": true
+    }
+  ],
+  "level2_people": [
+    "@karpathy",
+    "@bcherny",
+    "@sundarpichai",
+    "@sama",
+    "@gdb",
+    "@DarioAmodei"
+  ],
+  "level2_note": "raw 无人物搜索；无依据时 Level 2 标无新增，勿编造",
+  "level3_note": "本日未扫描行业报告（周报降频）",
+  "level4_hn": [
+    {
+      "title": "Jonathan Blow – If AI solved coding, why is my software still the same? [video]",
+      "url": "https://www.youtube.com/watch?v=IRK8h67ol7Q",
+      "points": 478,
+      "comments": 722,
+      "created": "2026-11-13"
+    },
+    {
+      "title": "Skills that stop AI coding agents from touching production",
+      "url": "https://github.com/simbaTmotsi/simba-skills",
+      "points": 3,
+      "comments": 1,
+      "created": "2026-11-13"
+    },
+    {
+      "title": "Ask HN: Has AI coding changed who builds your internal tools?",
+      "url": "https://news.ycombinator.com/item?id=50485228",
+      "points": 2,
+      "comments": 1,
+      "created": "2026-11-13"
+    },
+    {
+      "title": "GitSeed – Self-hosted control plane for AI coding agents",
+      "url": "https://github.com/gitseed-dev/gitseed",
+      "points": 2,
+      "comments": 0,
+      "created": "2026-11-15"
+    },
+    {
+      "title": "Why I'm opposed to AI writing but not AI coding",
+      "url": "https://josh.earth/2026/11/14/writing-is-thinking",
+      "points": 2,
+      "comments": 0,
+      "created": "2026-11-15"
+    }
+  ]
+}
