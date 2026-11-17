@@ -1,0 +1,100 @@
+{
+  "briefing_date": "2026-11-18",
+  "period_start": "2026-11-16",
+  "period_end": "2026-11-18",
+  "previous_briefing_date": "2026-11-17",
+  "previous_briefing_excerpt": "# AI x 研发效能 每日简报 2026-11-17\n\n> 覆盖周期：2026-11-15 ~ 2026-11-17（上一期：2026-11-16）\n\n> **采集方式**：GitHub Actions 自动采集（Level 1 GitHub API + Level 4 HN API）｜Level 2/3 待人工或 API 密钥补充\n\n---\n\n## 头条速览\n\n1. **OpenClaw v2026.11.4**——<!-- openclaw-release-publication:docs-v1 -->\n2. **Claude Code v2.1.326**——## What's changed\n3. **Hermes Agent v0.23.2**——# Hermes Agent v0.23.2\n\n---\n\n## 一、AI 增强软件研发（AI4SE）\n\n### 1.1 Level 1：核心产品与工程更新\n\n#### 1️⃣ OpenClaw v2026.11.4（2026-11-16）\n\n<!-- openclaw-release-publication:docs-v1 -->\n\n来源：[v2026.11.4](https://github.com/openclaw/openclaw/releases/tag/v2026.11.4) — 2026-11-16\n\n#### 2️⃣ Claude Code v2.1.326（2026-11-16）\n\n## What's changed\n\n来源：[v2.1.326](https://github.com/anthropics/claude-code/releases/tag/v2.1.326) — 2026-11-16\n\n#### 3️⃣ Hermes Agent v0.23.2（2026-11-16）\n\n# Hermes Agent v0.23.2\n\n来源：[v0.23.2](https://github.com/NousResearch/hermes-agent/releases/tag/v0.23.2) — 2026-11-16\n\n#### 4️⃣ Codex rust-v0.171.0-alpha.9（2026-11-16）\n\nRelease 0.171.0-alpha.9\n\n来源：[rust-v0.171.0-alpha.9](https://github.com/openai/codex/releases/tag/rust-v0.171.0-alpha.9) — 2026-11-16\n\n---\n\n### 1.2 Level 2：关键人物战略洞察\n\n| 人物 | 动态 | 日期 |\n|---|---|---|\n| @karpathy | 自动采集未配置（需 WebSearch / X 间接源） | — |\n| @bcherny | 自动采集未配置（需 WebSearch / X 间接源） | — |\n| @sundarpichai | 自动采集未配置（需 WebSearch / X 间接源） | — |\n| @sama | 自动采集未配置（需 WebSearch / X 间接源） | — |\n| @gdb | 自动采集未配置（需 WebSearch / X 间接源） | — |\n| @DarioAmodei | 自动采集未配置（需 WebSearch / X 间接源） | — |\n\n---\n\n### 1.3 Level 3：行业研究与数据\n\n> **本日未扫描**（周报/月报降频）。\n\n---\n\n### 1.4 Level 4：补充信源（HN）\n\n- **2026-11-15**：[GLM Models Cut AI Coding Costs 90% for 2k Engineers](https://finance.biggo.com/news/71888475bad974d6) （8 pts / 0 comments）\n- **2026-11-16**：[Show HN: CoderBaba – An open-source AI Coding Agent with security scanning](https://coderbaba.si) （4 pts / 0 comments）\n- **2026-11-16**：[Where Are Our 10× Engineers? The Math of AI-Assisted Coding [video]](https://www.youtube.com/watch?v=go_Fjw_51W4) （4 pts / 0 comments）\n- **2026-11-16**：[Skills for AI coding agents to create diagrams in Markdown](https://github.com/markdown-viewer/skills) （4 pts / 0 comments）\n- **2026-11-15**：[GitSeed – Self-hosted control plane for AI coding agents](https://github.com/gitseed-dev/gitseed) （3 pts / 0 comments）\n\n---\n\n## 附录：采集日志\n\n| 环节 | 状态 |\n|---|---|\n| GitHub Releases API | ✅ 4 条 |\n| HN Algolia API | ✅ 5 条 |\n| 生成时间 (UTC) | 2026-11-16 22:36 |\n\n*自动生成版 · 可在 Cursor 中基于本稿补充 Level 2 分析与专题*\n",
+  "level1_releases": [
+    {
+      "product": "OpenClaw",
+      "repo": "openclaw/openclaw",
+      "tag": "v2026.11.5",
+      "name": "openclaw 2026.11.5",
+      "published": "2026-11-17",
+      "url": "https://github.com/openclaw/openclaw/releases/tag/v2026.11.5",
+      "summary": "## 2026.11.5",
+      "body_excerpt": "## 2026.11.5\n\n### Highlights\n\n- **Restart-safe conversations:** Queued messages, send permissions, and final chat writes are retained across Gateway restarts. (#196923, #196540, #196493) Authored by @steipete. Thanks @joshavant.\n- **Safer updates:** Failed Doctor or Gateway startup rolls back an activated update, while restored npm packages remain readable by non-root services. (#197851, #193272) Thanks @RomneyDa, @obviyus, and @vincentkoc.\n- **Telegram widgets:** Interactive widgets now render in Telegram messages, including private-chat topics. (#196991, #198022). Related #197923 Thanks @obviyus and @dankarization.\n- **Faster memory recovery:** Large memory-index rebuilds finish reliably, and embedding indexing recovers when a gateway truncates a batch-limit error. (#196378, #187797). Related #187788 Thanks @TameTheGame, @RomneyDa, @vincentkoc, @garrytan, @obviyus, and @fredtanxo.\n- **More reliable model fallback:** A configured primary account no longer blocks Claude CLI fallback, and OpenAI sessions recover from compaction item conflicts. (#198427, #198357). Related #158421 Authored by @steipete. Thanks @RomneyDa, @obviyus, @alkor2000, and @HerbertHuerto.\n- **Usable device folders:** Existing device folders remain selectable with the default runtime, and each folder choice gets a clear, compact menu row. (#190065, #190088) Thanks @RomneyDa and @obviyus.\n- **Content boundaries:** Binary attachments no longer become garbled prompt text, and authenticated browser CDP URLs stay out of tool results. (#198309, #196262). Related #198289 Thanks @Yun-0000, @obviyus, @mulderp82, @PollyBot13, and @sallyom.\n\n### Changes\n\n- **Busy-session messages and security presets:** Personal-mode messages steer compatible work or queue quietly instead of requiring a manual resend. The personal and corporate security presets provide coherent defaults; explicit settings and mandatory access/approval limits still apply. (#185477) Authored by @steipete. Thanks @joshavant.\n- **Compaction:** Set maxSummaryChars to control the summary character cap. (#196207). Related #194408 Thanks @aniruddhaadak80, @RomneyDa, and @garrytan.\n- **Knowledge:** Keep pages within a read-sized budget and extract sections without loading an oversized page. (#186270) Thanks @jalehman.\n- **Breaking: harness and plugin session control:** Third-party harnesses must register session-keyed active runs inside the host runAttempt callback and retain the returned cleanup function. Plugin RPC handlers must replace ",
+      "prerelease": false
+    },
+    {
+      "product": "Codex",
+      "repo": "openai/codex",
+      "tag": "rust-v0.171.0-alpha.12",
+      "name": "0.171.0-alpha.12",
+      "published": "2026-11-17",
+      "url": "https://github.com/openai/codex/releases/tag/rust-v0.171.0-alpha.12",
+      "summary": "Release 0.171.0-alpha.12",
+      "body_excerpt": "Release 0.171.0-alpha.12",
+      "prerelease": true
+    },
+    {
+      "product": "Claude Code",
+      "repo": "anthropics/claude-code",
+      "tag": "v2.1.326",
+      "name": "v2.1.326",
+      "published": "2026-11-16",
+      "url": "https://github.com/anthropics/claude-code/releases/tag/v2.1.326",
+      "summary": "## What's changed",
+      "body_excerpt": "## What's changed\n\n- Added support for turning on Code Mode while agent teams are enabled; if you already turned it on, sessions with teams on now start in Code Mode\n- Added a startup warning when an `--allowedTools`, `--disallowedTools` or `--tools` value has an entry that doesn't look like a complete rule\n- Added a message explaining why MCP servers stop loading when an administrator adds `managed-mcp.json` during a session\n- Added a row to `/status` that says when your provider or an environment variable such as `DISABLE_TELEMETRY` turns features off\n- Added a note in `/plugin` and `claude plugin list` when a malformed `plugin.json` field such as `author` or `homepage` is ignored\n- Added Ctrl+O to show hidden startup notices\n- Added a hint in the empty prompt that says what to do after a request fails\n- Added an `esc to stop` footer hint in a subagent's view where Esc would stop it\n- Added `OTEL_RESOURCE_INCLUDE_HOST` to include `host.name` and `host.id` in OpenTelemetry resource attributes (off by default)\n- Added `overflowX=\"scroll\"` on a mod's `Box`, and `maxLines` and `wrap=\"clip\"` on its `Text`\n- Fixed `cp` of a file being refused when only its source was covered by an `Edit` deny rule\n- Fixed Bash commands that delete or overwrite files (`find -delete`, `cat a > b`, `sort -o`) being summed up in the transcript as a search or a read\n- Fixed a misleading \"Dangerous rm operation\" warning in the Bash permission prompt on some commands with no rm that Claude Code can't read reliably\n- Fixed background sessions losing the LLM gateway your shell exported after a crash, after a reopen from another folder, or when the background service lacks it: they now stop before any model request\n- Fixed the background service ending your own processes, such as an SSH login, when a process number on its list had been reused by another user's process\n- Fixed rules added in `/permissions` or at a main-conversation tool prompt, and `/add-dir` folders, looking saved when the settings file couldn't be written; the terminal now warns and names it\n- Fixed a failed MCP `headersHelper`, or one not run in an untrusted folder, making other sessions start without that server, for most servers with no stored OAuth refresh token\n- Fixed managed settings with certain key names stopping Claude Code from starting or affecting other managed files\n- Fixed settings files with values nested thousands of levels deep crashing Claude Code or applying only some of the time; values past 64 lev",
+      "prerelease": false
+    },
+    {
+      "product": "Hermes Agent",
+      "repo": "NousResearch/hermes-agent",
+      "tag": "v0.23.2",
+      "name": "Hermes Agent v0.23.2",
+      "published": "2026-11-16",
+      "url": "https://github.com/NousResearch/hermes-agent/releases/tag/v0.23.2",
+      "summary": "# Hermes Agent v0.23.2",
+      "body_excerpt": "# Hermes Agent v0.23.2\n\n**Release Date:** November 16, 2026\n\n> Patch release. This tag rolls up the ~1,989 PRs merged since v0.23.1 into a stable release for the GitHub release (CLI and installers), the Microsoft Store app, Docker and Hermes Cloud. Full curated notes for this window ship with v0.24.0.\n\n<!-- HERMES_BUILDS_TABLE -->\n\n## About this release\n\nMeasured at commit `ae2a81ccc00`, the window since v0.23.1 contains **7,918 non-merge commits** across **5,211 changed files** (+239,733 / −22,788), **1,989 merged PRs** and **940 closed issues**.\n\nAlso in the window, undocumented here on purpose: durable subagents that survive a gateway restart or crash and can be continued on their own conversation, one prompt-cache clock per session, `hermes fallback check` for fallback-chain readiness, `hermes update --force` to stop gateways at once instead of draining, one-time browser_vault codes entered from Telegram and Discord, opt-in shared Telegram DM threads, the Gemini Interactions API by default for Gemini 3 and later plus Gemini 4 Carbon, fast mode for Claude Mythos 5.2, per-job cron options (`wrap_response`, a fresh thread per run), new plugin APIs (`ctx.fork_session`, `ctx.redact_text()`, `ctx.register_idle_task`), compatibility shims so updates work across module moves, a slimmer macOS bundle that installs Chromium on first use, and a large batch of new plugin-catalog entries.\n\n**Full curated release notes for this window ship with v0.24.0**, which will document everything from v0.23.0 onward — highlights, feature areas, and complete contributor credits. Nothing in this window is skipped.\n\n## Fixed in the release candidate\n\n- Desktop chats created by an August build with a bare `custom` provider can send again after updating (#156545).\n- A Desktop or TUI reply that streamed beside a todo or memory call now settles instead of leaving the Stop button up (#156553).\n- A crash mid-stream on Telegram and other edit-streaming chats no longer shows a duplicate \"Recovered reply\"; a word holding a key prefix mid-word (`program_id`) is shown on time again (#156546).\n- Desktop no longer loses or scrambles what you type while it starts and resumes your last chat (#156615, #156642).\n- After a reconnect mid-reply, Desktop shows the reply once and in full, attachments included (#156611).\n- In the Webapp, opening Hermes Cloud agents while this install isn't signed in to Nous Portal now tells you to sign in to Nous Portal instead of sending you to the Webapp login (#15665",
+      "prerelease": false
+    }
+  ],
+  "level2_people": [
+    "@karpathy",
+    "@bcherny",
+    "@sundarpichai",
+    "@sama",
+    "@gdb",
+    "@DarioAmodei"
+  ],
+  "level2_note": "raw 无人物搜索；无依据时 Level 2 标无新增，勿编造",
+  "level3_note": "本日未扫描行业报告（周报降频）",
+  "level4_hn": [
+    {
+      "title": "GLM Models Cut AI Coding Costs 90% for 2k Engineers",
+      "url": "https://finance.biggo.com/news/71888475bad974d6",
+      "points": 8,
+      "comments": 0,
+      "created": "2026-11-15"
+    },
+    {
+      "title": "Harvard researchers find AI coding agents shifted the bottleneck to code review",
+      "url": "https://complexdiscovery.com/harvard-researchers-find-ai-coding-agents-shifted-the-bottleneck-to-code-review/",
+      "points": 5,
+      "comments": 2,
+      "created": "2026-11-17"
+    },
+    {
+      "title": "Show HN: CoderBaba – An open-source AI Coding Agent with security scanning",
+      "url": "https://coderbaba.si",
+      "points": 5,
+      "comments": 0,
+      "created": "2026-11-16"
+    },
+    {
+      "title": "Ask HN: Who's really winning with AI-Coding?",
+      "url": "https://news.ycombinator.com/item?id=50525329",
+      "points": 4,
+      "comments": 4,
+      "created": "2026-11-16"
+    },
+    {
+      "title": "Where Are Our 10× Engineers? The Math of AI-Assisted Coding [video]",
+      "url": "https://www.youtube.com/watch?v=go_Fjw_51W4",
+      "points": 4,
+      "comments": 0,
+      "created": "2026-11-16"
+    }
+  ]
+}
