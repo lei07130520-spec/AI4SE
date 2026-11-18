@@ -1,0 +1,100 @@
+{
+  "briefing_date": "2026-11-19",
+  "period_start": "2026-11-17",
+  "period_end": "2026-11-19",
+  "previous_briefing_date": "2026-11-18",
+  "previous_briefing_excerpt": "# AI x 研发效能 每日简报 2026-11-18\n\n> 覆盖周期：2026-11-16 ~ 2026-11-18（上一期：2026-11-17）\n\n> **采集方式**：GitHub Actions 自动采集（Level 1 GitHub API + Level 4 HN API）｜Level 2/3 待人工或 API 密钥补充\n\n---\n\n## 头条速览\n\n1. **OpenClaw v2026.11.5**——## 2026.11.5\n2. **Codex rust-v0.171.0-alpha.12**——Release 0.171.0-alpha.12\n3. **Claude Code v2.1.326**——## What's changed\n\n---\n\n## 一、AI 增强软件研发（AI4SE）\n\n### 1.1 Level 1：核心产品与工程更新\n\n#### 1️⃣ OpenClaw v2026.11.5（2026-11-17）\n\n## 2026.11.5\n\n来源：[v2026.11.5](https://github.com/openclaw/openclaw/releases/tag/v2026.11.5) — 2026-11-17\n\n#### 2️⃣ Codex rust-v0.171.0-alpha.12（2026-11-17）\n\nRelease 0.171.0-alpha.12\n\n来源：[rust-v0.171.0-alpha.12](https://github.com/openai/codex/releases/tag/rust-v0.171.0-alpha.12) — 2026-11-17\n\n#### 3️⃣ Claude Code v2.1.326（2026-11-16）\n\n## What's changed\n\n来源：[v2.1.326](https://github.com/anthropics/claude-code/releases/tag/v2.1.326) — 2026-11-16\n\n#### 4️⃣ Hermes Agent v0.23.2（2026-11-16）\n\n# Hermes Agent v0.23.2\n\n来源：[v0.23.2](https://github.com/NousResearch/hermes-agent/releases/tag/v0.23.2) — 2026-11-16\n\n---\n\n### 1.2 Level 2：关键人物战略洞察\n\n| 人物 | 动态 | 日期 |\n|---|---|---|\n| @karpathy | 自动采集未配置（需 WebSearch / X 间接源） | — |\n| @bcherny | 自动采集未配置（需 WebSearch / X 间接源） | — |\n| @sundarpichai | 自动采集未配置（需 WebSearch / X 间接源） | — |\n| @sama | 自动采集未配置（需 WebSearch / X 间接源） | — |\n| @gdb | 自动采集未配置（需 WebSearch / X 间接源） | — |\n| @DarioAmodei | 自动采集未配置（需 WebSearch / X 间接源） | — |\n\n---\n\n### 1.3 Level 3：行业研究与数据\n\n> **本日未扫描**（周报/月报降频）。\n\n---\n\n### 1.4 Level 4：补充信源（HN）\n\n- **2026-11-15**：[GLM Models Cut AI Coding Costs 90% for 2k Engineers](https://finance.biggo.com/news/71888475bad974d6) （8 pts / 0 comments）\n- **2026-11-17**：[Harvard researchers find AI coding agents shifted the bottleneck to code review](https://complexdiscovery.com/harvard-researchers-find-ai-coding-agents-shifted-the-bottleneck-to-code-review/) （5 pts / 2 comments）\n- **2026-11-16**：[Show HN: CoderBaba – An open-source AI Coding Agent with security scanning](https://coderbaba.si) （5 pts / 0 comments）\n- **2026-11-16**：[Ask HN: Who's really winning with AI-Coding?](https://news.ycombinator.com/item?id=50525329) （4 pts / 4 comments）\n- **2026-11-16**：[Where Are Our 10× Engineers? The Math of AI-Assisted Coding [video]](https://www.youtube.com/watch?v=go_Fjw_51W4) （4 pts / 0 comments）\n\n---\n\n## 附录：采集日志\n\n| 环节 | 状态 |\n|---|---|\n| GitHub Releases API | ✅ 4 条 |\n| HN Algolia API | ✅ 5 条 |\n| 生成时间 (UTC) | 2026-11-17 21:24 |\n\n*自动生成版 · 可在 Cursor 中基于本稿补充 Level 2 分析与专题*\n",
+  "level1_releases": [
+    {
+      "product": "OpenClaw",
+      "repo": "openclaw/openclaw",
+      "tag": "v2026.10.33",
+      "name": "openclaw 2026.10.33",
+      "published": "2026-11-18",
+      "url": "https://github.com/openclaw/openclaw/releases/tag/v2026.10.33",
+      "summary": "This is a gateway-only `extended-stable` release, which is our current equivalent to LTS. This release is OpenClaw from the end of October 2026, plus critical security updates, reliability and perform",
+      "body_excerpt": "This is a gateway-only `extended-stable` release, which is our current equivalent to LTS. This release is OpenClaw from the end of October 2026, plus critical security updates, reliability and performance fixes, and features like new model support. The latest version of OpenClaw at the time of this release is [2026.11.5](https://github.com/openclaw/openclaw/releases#release-v2026.11.5)\n\n## 2026.10.33\n\nThis extended-stable release brings cumulative Gateway and core-plugin improvements since 2026.9.37, plus the selected maintenance fixes on the approved 2026.11.4 product baseline. Distribution covers the core npm package, matching official npm plugins, and Gateway Docker images; native-app releases are not included.\n\n### Highlights\n\n- Long conversations and large session stores use bounded export and recovery work, reducing out-of-memory failures during chat, memory export, Doctor repair, and Gateway startup. (#194066, #196158, #195459, #196480, #176737, #181289) Authored by @steipete. Thanks @RomneyDa, @vincentkoc, @ericcaiwx-star, @obviyus, @garrytan, and @oxen-horse.\n- Interrupted updates recover when their executor dies instead of leaving the Gateway stuck offline, while version-skew checks protect state still used by an installed service. (#181695, #186971, #187819) Authored by @steipete. Thanks @RomneyDa, @PonySlayer28, @tomdailey55, @jalehman, @fuller-stack-dev, and @vincentkoc.\n- Replies survive more restart and reconnect paths, preserving original prompts, recovering Telegram responses, and avoiding lost WhatsApp replies or skipped Signal messages. (#187157, #195400, #168778, #187667) Thanks @shakkernerd, @jason-allen-oneal, @mcaxtr, @HermanZeng, and @obviyus.\n- Shared-session privacy is stronger: Side chat stays private to its viewer, internal model prompts stay out of displayed output, and compaction redacts credentials in quoted summaries. (#185390, #173460, #197349) Authored by @steipete. Thanks @Satoshi-Kusumoto, @RomneyDa, @zhangguiping-xydt, @Patrick-Erichsen, and @obviyus.\n- Automations can react to polled conditions and MCP events, run repeatable scripts, and use explicitly allowed MCP servers. (#101195, #165399, #160996, #160995) Authored by @steipete. Thanks @obviyus.\n- Installed skills can be searched and read on demand, helping agents find relevant instructions without putting every installed skill into the prompt. (#158089, #158090, #158091, #160538) Authored by @steipete. Thanks @RomneyDa and @vincentkoc.\n- Sessions can import existin",
+      "prerelease": false
+    },
+    {
+      "product": "Hermes Agent",
+      "repo": "NousResearch/hermes-agent",
+      "tag": "v0.23.2+canary.20261118T064620Z",
+      "name": "Hermes Agent canary v0.23.2+canary.20261118T064620Z",
+      "published": "2026-11-18",
+      "url": "https://github.com/NousResearch/hermes-agent/releases/tag/v0.23.2%2Bcanary.20261118T064620Z",
+      "summary": "# Hermes Agent v0.23.2+canary.20261118T064620Z (v0.23.2+canary.20261118T064620Z)",
+      "body_excerpt": "# Hermes Agent v0.23.2+canary.20261118T064620Z (v0.23.2+canary.20261118T064620Z)\n\n**Release Date:** November 18, 2026\n\n<!-- HERMES_BUILDS_TABLE -->\n## Downloads\n\n### Hermes Desktop\n\n| OS | Architecture | Download |\n|---|---|---|\n| macOS | Apple Silicon (M-series) | [DMG](https://hermes-assets.nousresearch.com/releases/tag/v0.23.2%2Bcanary.20261118T064620Z/HermesBundled-0.23.2%2Bcanary.20261118T064620Z-mac-arm64.dmg) |\n| Windows | x86 (64-bit) | [MSIX](https://hermes-assets.nousresearch.com/releases/tag/v0.23.2%2Bcanary.20261118T064620Z/HermesBundled-0.23.2%2Bcanary.20261118T064620Z-win-x64.msix) |\n| Windows | ARM (arm64 / aarch64) | [MSIX](https://hermes-assets.nousresearch.com/releases/tag/v0.23.2%2Bcanary.20261118T064620Z/HermesBundled-0.23.2%2Bcanary.20261118T064620Z-win-arm64.msix) |\n\n### Native install/chat smoke\n\nDownload availability is independent of smoke status. Each result covers all native legs in that format group. Linux bundles are disabled; unsigned Store envelopes are not install-smoked. No-upload dry tags have no download handoff and are not smoke-qualified.\n\n| Packages | Smoke status |\n|---|---|\n| macOS DMG + ZIP (arm64) | Passed |\n| Windows MSIX (arm64) | Passed |\n| Windows MSIX (x64) | Passed |\n<!-- /HERMES_BUILDS_TABLE -->\n\n## ✨ Features\n\n- Models): support GPT-6.2 Astra and Sol ([`786314ce`](https://github.com/NousResearch/hermes-agent/commit/786314cef191e1cda1b5842fd1973e45697655ff)) — @vortexopenclaw\n- Image_gen): GPT Image 2.6 Flare and Sunburst join the FAL catalog ([`8f2c6064`](https://github.com/NousResearch/hermes-agent/commit/8f2c6064fa80f3b9b0bc4965ae6f409da4415a21))\n- Plugin-catalog: add barrier-shield, chaos-takens, eigen ([`4841eebc`](https://github.com/NousResearch/hermes-agent/commit/4841eebcb15dbd599bb5522410d31a675678bda0)) — @arjunbagga-xyz\n- Plugin-catalog: add axiom (Neural-Symbolic Conservation-Law Verifier & SMT Ce) ([`2bff853a`](https://github.com/NousResearch/hermes-agent/commit/2bff853ac794dfbfd862472a8d0480478bfe0639)) — @arjunbagga-xyz\n- Hermes-safeguard plugin configuration ([`781cc939`](https://github.com/NousResearch/hermes-agent/commit/781cc93941ed220a8c362c23fef080dfd2f9ef19)) — @robberdom\n- Catalog: add safari plugin ([`1addeb7b`](https://github.com/NousResearch/hermes-agent/commit/1addeb7b5167d1980072055235dc5cb461b520dd)) — @Thorballer\n- Plugin-catalog): add relatedb-memory ([`7a324936`](https://github.com/NousResearch/hermes-agent/commit/7a324936fa404c918d4d9e9b703dd763d76919bc)) — @loheander\n- Catal",
+      "prerelease": true
+    },
+    {
+      "product": "Codex",
+      "repo": "openai/codex",
+      "tag": "rust-v0.170.0",
+      "name": "0.170.0",
+      "published": "2026-11-18",
+      "url": "https://github.com/openai/codex/releases/tag/rust-v0.170.0",
+      "summary": "## New Features",
+      "body_excerpt": "## New Features\n- Added WebRTC negotiation for realtime voice calls in the TUI. (#61172)\n- Added automatically refreshed authentication headers for OpenTelemetry HTTP exporters. (#61028)\n- Added experimental support for using identically named MCP servers across environments. (#60905)\n\n## Bug Fixes\n- Oversized WebSocket requests now fall back to HTTP without unnecessary retries. (#60840, #60841)\n- Fixed MCP OAuth credential races during cancellation, login, and logout. (#60849, #60981)\n- Improved automatic reconnection for Cloud conversations and preserved active recovery turns when clients reconnect. (#60969, #61014)\n- Fixed Windows file replacement, sandbox permission preservation, and runtime registration recovery. (#60872, #60943, #60944)\n- Fixed permission updates and child threads losing existing sandbox restrictions. (#60936, #61134)\n- Removed duplicate file search results and fixed thread search snippets for queries containing whitespace. (#60845, #60846)\n\n## Documentation\n- Updated sandbox documentation to explain permission profiles and filesystem rules. (#61133)\n\n## Changelog\n\nFull Changelog: https://github.com/openai/codex/compare/rust-v0.169.0...rust-v0.170.0\n\n- #60770 Derive history and notes tool schemas from typed requests @euroelessar\n- #60771 Preserve model-facing ID allocations in saved history @euroelessar\n- #60773 Resolve saved Daybreak choices for each subagent turn @sayan-oai\n- #60784 Centralize synchronous Guardian reviewer selection @felixxia-oai\n- #60839 Preserve retained assistant revisions across rollout replay @euroelessar\n- #60840 Fall back to HTTP immediately for oversized WebSocket requests @charliemarsh-oai\n- #60841 Honor advertised WebSocket message size limits @charliemarsh-oai\n- #60842 Make TUI thread titles resilient to generation failures @etraut-openai\n- #60845 Deduplicate file search results from overlapping roots @etraut-openai\n- #60846 Fix thread search snippets for whitespace-containing queries @etraut-openai\n- #60848 Enable incremental tool declarations by default for GCP @akira-oai\n- #60849 Protect MCP OAuth persistence from stale credential writes @mzeng-openai\n- #60871 Wait for the in-process initialization handshake to finish @goodman-oai\n- #60872 Fix Windows atomic writes and refresh build maintenance @zm-oai\n- #60882 Stabilize tracing in the cancellation timing test @bc-openai\n- #60897 Use the Responses API for issue label suggestions @GrantBirki\n- #60898 Include bundled bubblewrap in the root metadata test",
+      "prerelease": false
+    },
+    {
+      "product": "Claude Code",
+      "repo": "anthropics/claude-code",
+      "tag": "v2.1.327",
+      "name": "v2.1.327",
+      "published": "2026-11-17",
+      "url": "https://github.com/anthropics/claude-code/releases/tag/v2.1.327",
+      "summary": "## What's changed",
+      "body_excerpt": "## What's changed\n\n- Added a confirmation before `/install-github-app` changes a repository\n- Added `claude mcp add-json <name> -` to read the server's JSON from stdin, so tokens can stay off the command line; not available inside a Claude Code session\n- Added a line when a resumed session's earlier messages can't be loaded\n- Added a list in `/status` of broken agent, skill, command and output style files, keybinding errors, an unavailable sandbox, ignored permission settings and hook matchers that never match\n- Added a note in `/config` when other settings override a row\n- Added `x-claude-code-managed-settings-checksum` to the gateway hint headers; sent where managed settings set `CLAUDE_CODE_GATEWAY_HINT_HEADERS=1`, including where they already do\n- Added support for naming a session's billing group with the `attributionProject` setting, for Claude apps gateways that set `admin.billing_group_tag`\n- Added `/tui classic` as the name for the non-fullscreen renderer; `/tui default` still works\n- Remote Control: Fixed stopping the server in worktree mode deleting a running session's git-ignored files, such as `.env`\n- Fixed self-hosted runners with `--use-anthropic-git-proxy` deleting a non-empty directory named by `GIT_CONFIG_GLOBAL` at startup: the runner now keeps it, ignores the variable and warns\n- Fixed `claude mcp add` and `claude mcp remove` with project scope deleting other top-level keys from `.mcp.json`, such as `$schema` or another tool's `servers`\n- Fixed `/export` overwriting an existing file without asking: the dialog now asks, and `/export <name>` keeps the file and says to run `/export`\n- Fixed a command you had allowed still running after you pressed Stop, when the approval arrived after a restart, in cloud and self-hosted runner sessions with no feature flags loaded\n- Fixed Enter closing `/teleport`'s load error screen\n- Fixed a click followed by Enter in `/plugin` installing or disabling a plugin\n- Fixed a half-typed `!` command running on an extra Enter after the usage limit menu\n- Fixed some `--disallowedTools` rules with parentheses in their content\n- Fixed auto mode ignoring some wildcard PowerShell allow rules that name a script with `.\\`, such as `PowerShell(.\\scripts\\build.ps1 *)`\n- Fixed a running Code Mode script in auto mode getting permission prompts and denials once Claude started a second script that auto mode also allowed\n- Changed some pre-started background sessions to be discarded after an account change\n- Changed a workfl",
+      "prerelease": false
+    }
+  ],
+  "level2_people": [
+    "@karpathy",
+    "@bcherny",
+    "@sundarpichai",
+    "@sama",
+    "@gdb",
+    "@DarioAmodei"
+  ],
+  "level2_note": "raw 无人物搜索；无依据时 Level 2 标无新增，勿编造",
+  "level3_note": "本日未扫描行业报告（周报降频）",
+  "level4_hn": [
+    {
+      "title": "Harvard researchers find AI coding agents shifted the bottleneck to code review",
+      "url": "https://complexdiscovery.com/harvard-researchers-find-ai-coding-agents-shifted-the-bottleneck-to-code-review/",
+      "points": 311,
+      "comments": 420,
+      "created": "2026-11-17"
+    },
+    {
+      "title": "Ask HN: Who's really winning with AI-Coding?",
+      "url": "https://news.ycombinator.com/item?id=50525329",
+      "points": 5,
+      "comments": 6,
+      "created": "2026-11-16"
+    },
+    {
+      "title": "Show HN: CoderBaba – An open-source AI Coding Agent with security scanning",
+      "url": "https://coderbaba.si",
+      "points": 5,
+      "comments": 0,
+      "created": "2026-11-16"
+    },
+    {
+      "title": "Where Are Our 10× Engineers? The Math of AI-Assisted Coding [video]",
+      "url": "https://www.youtube.com/watch?v=go_Fjw_51W4",
+      "points": 4,
+      "comments": 0,
+      "created": "2026-11-16"
+    },
+    {
+      "title": "Skills for AI coding agents to create diagrams in Markdown",
+      "url": "https://github.com/markdown-viewer/skills",
+      "points": 4,
+      "comments": 0,
+      "created": "2026-11-16"
+    }
+  ]
+}
