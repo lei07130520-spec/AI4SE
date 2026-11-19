@@ -1,0 +1,111 @@
+{
+  "briefing_date": "2026-11-20",
+  "period_start": "2026-11-18",
+  "period_end": "2026-11-20",
+  "previous_briefing_date": "2026-11-19",
+  "previous_briefing_excerpt": "# AI x 研发效能 每日简报 2026-11-19\n\n> 覆盖周期：2026-11-17 ~ 2026-11-19（上一期：2026-11-18）\n\n> **采集方式**：GitHub Actions 自动采集（Level 1 GitHub API + Level 4 HN API）｜Level 2/3 待人工或 API 密钥补充\n\n---\n\n## 头条速览\n\n1. **OpenClaw v2026.10.33**——This is a gateway-only `extended-stable` release\n2. **Hermes Agent v0.23.2+canary.20261118T064620Z**——# Hermes Agent v0.23.2+canary.20261118T064620Z (\n3. **Codex rust-v0.170.0**——## New Features\n\n---\n\n## 一、AI 增强软件研发（AI4SE）\n\n### 1.1 Level 1：核心产品与工程更新\n\n#### 1️⃣ OpenClaw v2026.10.33（2026-11-18）\n\nThis is a gateway-only `extended-stable` release, which is our current equivalent to LTS. This release is OpenClaw from the end of October 2026, plus critical security updates, reliability and perform\n\n来源：[v2026.10.33](https://github.com/openclaw/openclaw/releases/tag/v2026.10.33) — 2026-11-18\n\n#### 2️⃣ Hermes Agent v0.23.2+canary.20261118T064620Z（2026-11-18）\n\n# Hermes Agent v0.23.2+canary.20261118T064620Z (v0.23.2+canary.20261118T064620Z)\n\n来源：[v0.23.2+canary.20261118T064620Z](https://github.com/NousResearch/hermes-agent/releases/tag/v0.23.2%2Bcanary.20261118T064620Z) — 2026-11-18\n\n#### 3️⃣ Codex rust-v0.170.0（2026-11-18）\n\n## New Features\n\n来源：[rust-v0.170.0](https://github.com/openai/codex/releases/tag/rust-v0.170.0) — 2026-11-18\n\n#### 4️⃣ Claude Code v2.1.327（2026-11-17）\n\n## What's changed\n\n来源：[v2.1.327](https://github.com/anthropics/claude-code/releases/tag/v2.1.327) — 2026-11-17\n\n---\n\n### 1.2 Level 2：关键人物战略洞察\n\n| 人物 | 动态 | 日期 |\n|---|---|---|\n| @karpathy | 自动采集未配置（需 WebSearch / X 间接源） | — |\n| @bcherny | 自动采集未配置（需 WebSearch / X 间接源） | — |\n| @sundarpichai | 自动采集未配置（需 WebSearch / X 间接源） | — |\n| @sama | 自动采集未配置（需 WebSearch / X 间接源） | — |\n| @gdb | 自动采集未配置（需 WebSearch / X 间接源） | — |\n| @DarioAmodei | 自动采集未配置（需 WebSearch / X 间接源） | — |\n\n---\n\n### 1.3 Level 3：行业研究与数据\n\n> **本日未扫描**（周报/月报降频）。\n\n---\n\n### 1.4 Level 4：补充信源（HN）\n\n- **2026-11-17**：[Harvard researchers find AI coding agents shifted the bottleneck to code review](https://complexdiscovery.com/harvard-researchers-find-ai-coding-agents-shifted-the-bottleneck-to-code-review/) （311 pts / 420 comments）\n- **2026-11-16**：[Ask HN: Who's really winning with AI-Coding?](https://news.ycombinator.com/item?id=50525329) （5 pts / 6 comments）\n- **2026-11-16**：[Show HN: CoderBaba – An open-source AI Coding Agent with security scanning](https://coderbaba.si) （5 pts / 0 comments）\n- **2026-11-16**：[Where Are Our 10× Engineers? The Math of AI-Assisted Coding [video]](https://www.youtube.com/watch?v=go_Fjw_51W4) （4 pts / 0 comments）\n- **2026-11-16**：[Skills for AI coding agents to create diagrams in Markdown](https://github.com/markdown-viewer/skills) （4 pts / 0 comments）\n\n---\n\n## 附录：采集日志\n\n| 环节 | 状态 |\n|---|---|\n| GitHub Releases API | ✅ 4 条 |\n| HN Algolia API | ✅ 5 条 |\n| 生成时间 (UTC) | 2026-11-18 20:56 |\n\n*自动生成版 · 可在 Cursor 中基于本稿补充 Level 2 分析与专题*\n",
+  "level1_releases": [
+    {
+      "product": "OpenClaw",
+      "repo": "openclaw/openclaw",
+      "tag": "v2026.11.6",
+      "name": "openclaw 2026.11.6",
+      "published": "2026-11-19",
+      "url": "https://github.com/openclaw/openclaw/releases/tag/v2026.11.6",
+      "summary": "## 2026.11.6",
+      "body_excerpt": "## 2026.11.6\n\n### Highlights\n\n- **Smoother upgrades:** bridge the 2026.11.5 updater to the current release path and validate staged plugin dependencies correctly on Windows. (#200662, #200595) Authored by @steipete. Thanks @RomneyDa and @desksk.\n- **More resilient conversations:** keep subagent and background turns running through configuration edits, and deliver final answers when a Gateway restart interrupted sending. (#200516, #200553) Thanks @obviyus and @RomneyDa.\n- **Lighter, more responsive Gateway:** reduce startup memory pressure and resident memory on constrained hosts, defer unused local credential runtimes, and keep plugin tool discovery from blocking the Gateway. (#191272, #198194, #188033) Authored by @steipete. Thanks @RomneyDa, @vincentkoc, @ctbritt, and @obviyus.\n- **Reliable long-running model turns:** preserve append-only provider history, exact Responses tool-argument bytes, and final replies from long, tool-heavy Claude CLI turns. (#197874, #200020, #200501) Authored by @steipete. Thanks @RomneyDa, @ZengWen-DT, @obviyus, @boeingchoco, @n1hility, and @Trinity-AI-Coder.\n- **Better conversation continuity:** keep loaded chat history visible during compaction and allow iOS Talk turns to continue beyond the previous 30-second cutoff. (#199534, #163474) Authored by @steipete. Thanks @RomneyDa, @fuller-stack-dev, @vincentkoc, @Olli0103, and @keysersozeh.\n\n### Changes\n\n- **ChatGPT setup and models:** update Sign in with ChatGPT labels and Business usage guidance, refresh bundled Codex support for newer ChatGPT models, and restore model catalog requests through the inference relay. (#196330, #200784, #197768) Thanks @stevenlee-oai, @hannesrudolph, @VACInc, and @bdjben.\n\n### Fixes\n\n- **Git updates:** skip unnecessary declaration builds during ordinary Git updates while preserving explicit build settings and release-build behavior. (#189463) Thanks @vincentkoc.\n- **Responses recovery:** recover saved conversation item conflicts before output and across runs without replaying completed effects. (#199757, #199896, #200020) Authored by @steipete.\n- **Subagent results:** retain results through Gateway restarts and resume requester settlement without replaying already-consumed results; keep actual delivery failures distinct from successful consumption. (#199695, #199868, #200249) Authored by @steipete. Thanks @RomneyDa, @vincentkoc, @yousan, @Marvinthebored, @sallyom, and @obviyus.\n- **Large file reads:** stop scanning after the requested text page in",
+      "prerelease": false
+    },
+    {
+      "product": "Claude Code",
+      "repo": "anthropics/claude-code",
+      "tag": "v2.1.328",
+      "name": "v2.1.328",
+      "published": "2026-11-19",
+      "url": "https://github.com/anthropics/claude-code/releases/tag/v2.1.328",
+      "summary": "## What's changed",
+      "body_excerpt": "## What's changed\n\n- Added auto mode for Claude Opus 4.6 and Sonnet 4.6 on Amazon Bedrock, Google Cloud's Agent Platform, Microsoft Foundry and Claude apps gateway; interactive sessions with no permission mode start in it\n- Added `\"onFailure\": \"block\"` for `mcp_tool` hooks, as for command and HTTP hooks: a hook whose call fails blocks the action\n- Added a warning when a message from a session that skips permission prompts may be held and dropped by a cloud session\n- Added a notice in `/status` and `claude doctor` when an OpenTelemetry exporter has no endpoint and its data would likely be lost\n- Added `CLAUDE_CODE_DISABLE_DEFERRED_TOOL_RESUME`, which lets a host stop `claude -p --resume` and `--continue` from running a tool call that a hook deferred\n- Added support for apps that embed Claude Code to switch on the policy plugin's `allowManagedModsOnly` option; an admin's managed settings still win\n- Added a startup warning to the Claude apps gateway when a policy's `maxEffortLevel` is not a valid effort level\n- Self-hosted runner: Added `--repository-folder` to name the folder that sessions use for a repository at `--capacity 1`, in place of its path under the base folder, which can't be a symbolic link\n- Self-hosted runner: Added a start-up warning when the host's settings.json sets a default permission mode that sessions ignore\n- Self-hosted runner: Added `--hook-label` to `claude self-hosted-runner orchestrator`, to hand chosen session labels to the `spawn-runner` hook\n- Self-hosted runner: Added `--metadata key=value` to `claude --environment`, to label a session for the `spawn-runner` hook\n- Self-hosted runner: Added `claude_code_self_hosted_orchestrator_session_queue_wait_by_reason_seconds` to the orchestrator's `/metrics`, so a re-opened session's wait can be told from a new one's\n- Self-hosted runner: Added an orchestrator metric, `claude_code_self_hosted_orchestrator_sessions_given_up_total`, that counts by cause how often Anthropic gave up starting a runner for a session\n- Fixed Bash commands in zsh stopping with a \"not found\" error at a word that starts with `=`, such as `echo ====` or `[ a == b ]`; `=cmd` no longer expands to a command's path\n- Fixed automatic compaction reusing the session's earlier system prompt instead of rebuilding it the way `/compact` does\n- Fixed markdown rendering freezing on some very long or malformed input\n- Fixed rare screen freezes\n- Fixed Esc often being lost at a permission prompt or question when you typed straigh",
+      "prerelease": false
+    },
+    {
+      "product": "Gemini CLI",
+      "repo": "google-gemini/gemini-cli",
+      "tag": "v0.69.0",
+      "name": "Release v0.69.0",
+      "published": "2026-11-19",
+      "url": "https://github.com/google-gemini/gemini-cli/releases/tag/v0.69.0",
+      "summary": "## What's Changed",
+      "body_excerpt": "## What's Changed\n* fix(core,cli): preserve literal `$` characters during template placeholder replacement by @jesussamuel-byte in https://github.com/google-gemini/gemini-cli/pull/30136\n* feat(cli): add /stats heatmap subcommand for daily token usage by @jvargassanchez-dot in https://github.com/google-gemini/gemini-cli/pull/30135\n* fix(core): prevent __GCLI_EXPAND_TARGET__ env collision in expandEnvVars by @villahernandez-coder in https://github.com/google-gemini/gemini-cli/pull/30138\n* chore(release): bump version to 0.69.0-nightly.20261104.g89e9d25d6 by @gemini-cli-robot in https://github.com/google-gemini/gemini-cli/pull/30140\n* fix(cli): serialize AnsiOutput to text content in ACP tool call updates by @diegogodinezr in https://github.com/google-gemini/gemini-cli/pull/30141\n* Changelog for v0.67.0 by @gemini-cli-robot in https://github.com/google-gemini/gemini-cli/pull/30145\n* Changelog for v0.68.0-preview.0 by @gemini-cli-robot in https://github.com/google-gemini/gemini-cli/pull/30146\n* fix(core): fix Windows PowerShell substitution false positives and policy handling by @duvanka-prasad in https://github.com/google-gemini/gemini-cli/pull/30110\n* fix(cli): preserve leading and trailing whitespace in @file references by @duvanka-prasad in https://github.com/google-gemini/gemini-cli/pull/30150\n* fix(core): prevent thoughtSignature-only turns and preserve multimodal tool responses  by @tadipavan in https://github.com/google-gemini/gemini-cli/pull/30153\n* fix(cli): wait for piped stdin EOF and avoid destroying process.stdin by @villahernandez-coder in https://github.com/google-gemini/gemini-cli/pull/30163\n* fix(cli): preserve pending tool confirmation when escaping editor selection by @jvargassanchez-dot in https://github.com/google-gemini/gemini-cli/pull/30147\n* feat(cli): support standalone theme.json configuration for custom themes by @jesussamuel-byte in https://github.com/google-gemini/gemini-cli/pull/30119\n* fix(cli): normalize error payloads in headless CLI formatting by @jvargassanchez-dot in https://github.com/google-gemini/gemini-cli/pull/30117\n* fix(core): require path-separator boundary in tildeifyPath by @villahernandez-coder in https://github.com/google-gemini/gemini-cli/pull/30124\n* fix(cli): validate model names and support direct arguments in /model command by @jesussamuel-byte in https://github.com/google-gemini/gemini-cli/pull/30137\n* fix(cli): handle file watcher errors and permit FSEvents in macOS permissive sandbox by @diegogodinezr in",
+      "prerelease": false
+    },
+    {
+      "product": "Hermes Agent",
+      "repo": "NousResearch/hermes-agent",
+      "tag": "v0.23.2+canary.20261119T064637Z",
+      "name": "Hermes Agent canary v0.23.2+canary.20261119T064637Z",
+      "published": "2026-11-19",
+      "url": "https://github.com/NousResearch/hermes-agent/releases/tag/v0.23.2%2Bcanary.20261119T064637Z",
+      "summary": "# Hermes Agent v0.23.2+canary.20261119T064637Z (v0.23.2+canary.20261119T064637Z)",
+      "body_excerpt": "# Hermes Agent v0.23.2+canary.20261119T064637Z (v0.23.2+canary.20261119T064637Z)\n\n**Release Date:** November 19, 2026\n\n<!-- HERMES_BUILDS_TABLE -->\n## Downloads\n\n### Hermes Desktop\n\n| OS | Architecture | Download |\n|---|---|---|\n| macOS | Apple Silicon (M-series) | [DMG](https://hermes-assets.nousresearch.com/releases/tag/v0.23.2%2Bcanary.20261119T064637Z/HermesBundled-0.23.2%2Bcanary.20261119T064637Z-mac-arm64.dmg) |\n| Windows | x86 (64-bit) | [MSIX](https://hermes-assets.nousresearch.com/releases/tag/v0.23.2%2Bcanary.20261119T064637Z/HermesBundled-0.23.2%2Bcanary.20261119T064637Z-win-x64.msix) |\n| Windows | ARM (arm64 / aarch64) | [MSIX](https://hermes-assets.nousresearch.com/releases/tag/v0.23.2%2Bcanary.20261119T064637Z/HermesBundled-0.23.2%2Bcanary.20261119T064637Z-win-arm64.msix) |\n\n### Native install/chat smoke\n\nDownload availability is independent of smoke status. Each result covers all native legs in that format group. Linux bundles are disabled; unsigned Store envelopes are not install-smoked. No-upload dry tags have no download handoff and are not smoke-qualified.\n\n| Packages | Smoke status |\n|---|---|\n| macOS DMG + ZIP (arm64) | Passed |\n| Windows MSIX (arm64) | Passed |\n| Windows MSIX (x64) | Passed |\n<!-- /HERMES_BUILDS_TABLE -->\n\n## ✨ Features\n\n- Remedigenius to the plugin catalog ([`a66bd08e`](https://github.com/NousResearch/hermes-agent/commit/a66bd08e2e4cc1c4baecbd4fc546400db4860894)) — @RajaRenga\n- Compression): cache-expiry compaction summarises on the conversation's warm prefix ([`4adb21a6`](https://github.com/NousResearch/hermes-agent/commit/4adb21a64e2a4f991b55839b21363a2dc9e83a25))\n\n## 🔧 Improvements\n\n- Caching): prompt_cache_lifecycle becomes a package ([`58d6946d`](https://github.com/NousResearch/hermes-agent/commit/58d6946da593e8c4d7768a3788d95af6ca352c48))\n\n## 🐛 Bug Fixes\n\n- Compression): clean up failed exclusive archives ([`6a5cee05`](https://github.com/NousResearch/hermes-agent/commit/6a5cee0598a4ff2b202b549dee15fc53a88e1a53)) — @100yenadmin\n- Terminal): keep session exports under noclobber; make two test files host-independent ([`8a5207ef`](https://github.com/NousResearch/hermes-agent/commit/8a5207efc275c449872596d4f3ff9e4c22cb120a))\n- Search_files): honour an inline (?i) prefix on the grep fallback ([`ba0ccdaa`](https://github.com/NousResearch/hermes-agent/commit/ba0ccdaa7d849933380cda3b3d4ea540af96af66))\n- Gateway): release the failed accept frame before retry ([`e42af44d`](https://github.com/NousResearch/hermes-agent/comm",
+      "prerelease": true
+    },
+    {
+      "product": "Codex",
+      "repo": "openai/codex",
+      "tag": "rust-v0.170.0",
+      "name": "0.170.0",
+      "published": "2026-11-18",
+      "url": "https://github.com/openai/codex/releases/tag/rust-v0.170.0",
+      "summary": "## New Features",
+      "body_excerpt": "## New Features\n- Added WebRTC negotiation for realtime voice calls in the TUI. (#61172)\n- Added automatically refreshed authentication headers for OpenTelemetry HTTP exporters. (#61028)\n- Added experimental support for using identically named MCP servers across environments. (#60905)\n\n## Bug Fixes\n- Oversized WebSocket requests now fall back to HTTP without unnecessary retries. (#60840, #60841)\n- Fixed MCP OAuth credential races during cancellation, login, and logout. (#60849, #60981)\n- Improved automatic reconnection for Cloud conversations and preserved active recovery turns when clients reconnect. (#60969, #61014)\n- Fixed Windows file replacement, sandbox permission preservation, and runtime registration recovery. (#60872, #60943, #60944)\n- Fixed permission updates and child threads losing existing sandbox restrictions. (#60936, #61134)\n- Removed duplicate file search results and fixed thread search snippets for queries containing whitespace. (#60845, #60846)\n\n## Documentation\n- Updated sandbox documentation to explain permission profiles and filesystem rules. (#61133)\n\n## Changelog\n\nFull Changelog: https://github.com/openai/codex/compare/rust-v0.169.0...rust-v0.170.0\n\n- #60770 Derive history and notes tool schemas from typed requests @euroelessar\n- #60771 Preserve model-facing ID allocations in saved history @euroelessar\n- #60773 Resolve saved Daybreak choices for each subagent turn @sayan-oai\n- #60784 Centralize synchronous Guardian reviewer selection @felixxia-oai\n- #60839 Preserve retained assistant revisions across rollout replay @euroelessar\n- #60840 Fall back to HTTP immediately for oversized WebSocket requests @charliemarsh-oai\n- #60841 Honor advertised WebSocket message size limits @charliemarsh-oai\n- #60842 Make TUI thread titles resilient to generation failures @etraut-openai\n- #60845 Deduplicate file search results from overlapping roots @etraut-openai\n- #60846 Fix thread search snippets for whitespace-containing queries @etraut-openai\n- #60848 Enable incremental tool declarations by default for GCP @akira-oai\n- #60849 Protect MCP OAuth persistence from stale credential writes @mzeng-openai\n- #60871 Wait for the in-process initialization handshake to finish @goodman-oai\n- #60872 Fix Windows atomic writes and refresh build maintenance @zm-oai\n- #60882 Stabilize tracing in the cancellation timing test @bc-openai\n- #60897 Use the Responses API for issue label suggestions @GrantBirki\n- #60898 Include bundled bubblewrap in the root metadata test",
+      "prerelease": false
+    }
+  ],
+  "level2_people": [
+    "@karpathy",
+    "@bcherny",
+    "@sundarpichai",
+    "@sama",
+    "@gdb",
+    "@DarioAmodei"
+  ],
+  "level2_note": "raw 无人物搜索；无依据时 Level 2 标无新增，勿编造",
+  "level3_note": "本日未扫描行业报告（周报降频）",
+  "level4_hn": [
+    {
+      "title": "Harvard researchers find AI coding agents shifted the bottleneck to code review",
+      "url": "https://complexdiscovery.com/harvard-researchers-find-ai-coding-agents-shifted-the-bottleneck-to-code-review/",
+      "points": 322,
+      "comments": 455,
+      "created": "2026-11-17"
+    },
+    {
+      "title": "With AI Gateway, coding agents perform bulk tasks 8x faster and 20x cheaper",
+      "url": "https://ploy.ai/blog/ploy-ai-gateway",
+      "points": 7,
+      "comments": 0,
+      "created": "2026-11-19"
+    },
+    {
+      "title": "Will AI Coding Eat Video Game Engines?",
+      "url": "https://spectrum.ieee.org/epic-games-unreal-engine-ai",
+      "points": 2,
+      "comments": 1,
+      "created": "2026-11-19"
+    },
+    {
+      "title": "TokenEconomizer: Learning from Experience to Make AI Coding Agents Efficient",
+      "url": "https://www.microsoft.com/en-us/research/blog/tokeneconomizer-learning-from-experience-to-make-ai-coding-agents-more-efficient/",
+      "points": 2,
+      "comments": 0,
+      "created": "2026-11-17"
+    },
+    {
+      "title": "Show HN: Project-M – Stop re-explaining project context between AI coding tools",
+      "url": "https://github.com/adityadebnath009/Project-M",
+      "points": 1,
+      "comments": 0,
+      "created": "2026-11-19"
+    }
+  ]
+}
