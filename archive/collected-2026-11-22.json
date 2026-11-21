@@ -1,0 +1,100 @@
+{
+  "briefing_date": "2026-11-22",
+  "period_start": "2026-11-20",
+  "period_end": "2026-11-22",
+  "previous_briefing_date": "2026-11-21",
+  "previous_briefing_excerpt": "# AI x 研发效能 每日简报 2026-11-21\n\n> 覆盖周期：2026-11-19 ~ 2026-11-21（上一期：2026-11-20）\n\n> **采集方式**：GitHub Actions 自动采集（Level 1 GitHub API + Level 4 HN API）｜Level 2/3 待人工或 API 密钥补充\n\n---\n\n## 头条速览\n\n1. **Hermes Agent v0.23.3**——# Hermes Agent v0.23.3\n2. **Codex rust-v0.171.0**——## New Features\n3. **OpenClaw v2026.11.6**——<!-- openclaw-release-publication:docs-v1 -->\n\n---\n\n## 一、AI 增强软件研发（AI4SE）\n\n### 1.1 Level 1：核心产品与工程更新\n\n#### 1️⃣ Hermes Agent v0.23.3（2026-11-20）\n\n# Hermes Agent v0.23.3\n\n来源：[v0.23.3](https://github.com/NousResearch/hermes-agent/releases/tag/v0.23.3) — 2026-11-20\n\n#### 2️⃣ Codex rust-v0.171.0（2026-11-20）\n\n## New Features\n\n来源：[rust-v0.171.0](https://github.com/openai/codex/releases/tag/rust-v0.171.0) — 2026-11-20\n\n#### 3️⃣ OpenClaw v2026.11.6（2026-11-19）\n\n<!-- openclaw-release-publication:docs-v1 -->\n\n来源：[v2026.11.6](https://github.com/openclaw/openclaw/releases/tag/v2026.11.6) — 2026-11-19\n\n#### 4️⃣ Claude Code v2.1.329（2026-11-19）\n\n## What's changed\n\n来源：[v2.1.329](https://github.com/anthropics/claude-code/releases/tag/v2.1.329) — 2026-11-19\n\n#### 5️⃣ Gemini CLI v0.70.0（2026-11-19）\n\n## What's Changed\n\n来源：[v0.70.0](https://github.com/google-gemini/gemini-cli/releases/tag/v0.70.0) — 2026-11-19\n\n---\n\n### 1.2 Level 2：关键人物战略洞察\n\n| 人物 | 动态 | 日期 |\n|---|---|---|\n| @karpathy | 自动采集未配置（需 WebSearch / X 间接源） | — |\n| @bcherny | 自动采集未配置（需 WebSearch / X 间接源） | — |\n| @sundarpichai | 自动采集未配置（需 WebSearch / X 间接源） | — |\n| @sama | 自动采集未配置（需 WebSearch / X 间接源） | — |\n| @gdb | 自动采集未配置（需 WebSearch / X 间接源） | — |\n| @DarioAmodei | 自动采集未配置（需 WebSearch / X 间接源） | — |\n\n---\n\n### 1.3 Level 3：行业研究与数据\n\n> **本日未扫描**（周报/月报降频）。\n\n---\n\n### 1.4 Level 4：补充信源（HN）\n\n- **2026-11-20**：[Epic Games Turns to AI Coding for the Unreal Engine](https://spectrum.ieee.org/epic-games-unreal-engine-ai) （54 pts / 58 comments）\n- **2026-11-19**：[With AI Gateway, coding agents perform bulk tasks 8x faster and 20x cheaper](https://ploy.ai/blog/ploy-ai-gateway) （7 pts / 0 comments）\n- **2026-11-19**：[Will AI Coding Eat Video Game Engines?](https://spectrum.ieee.org/epic-games-unreal-engine-ai) （3 pts / 1 comments）\n- **2026-11-20**：[Keeping AI Coding Agent Memory Relevant as Code Changes](https://enola.tech/blog/agent-memory-needs-a-code-reference) （2 pts / 0 comments）\n- **2026-11-20**：[Show HN: Sandscale – Firecracker microVMs for AI coding agents](https://sandscale.dev) （2 pts / 0 comments）\n\n---\n\n## 附录：采集日志\n\n| 环节 | 状态 |\n|---|---|\n| GitHub Releases API | ✅ 5 条 |\n| HN Algolia API | ✅ 5 条 |\n| 生成时间 (UTC) | 2026-11-20 20:49 |\n\n*自动生成版 · 可在 Cursor 中基于本稿补充 Level 2 分析与专题*\n",
+  "level1_releases": [
+    {
+      "product": "Gemini CLI",
+      "repo": "google-gemini/gemini-cli",
+      "tag": "v0.71.0-nightly.20261121.geecccfcd5",
+      "name": "Release v0.71.0-nightly.20261121.geecccfcd5",
+      "published": "2026-11-21",
+      "url": "https://github.com/google-gemini/gemini-cli/releases/tag/v0.71.0-nightly.20261121.geecccfcd5",
+      "summary": "## What's Changed",
+      "body_excerpt": "## What's Changed\n* fix(cli): expand Windows home-relative paths using tilde and backslash by @urielefrenvirtusa in https://github.com/google-gemini/gemini-cli/pull/30376\n* fix(cli): resume most recently active session instead of most recently started by @urielefrenvirtusa in https://github.com/google-gemini/gemini-cli/pull/30389\n\n\n**Full Changelog**: https://github.com/google-gemini/gemini-cli/compare/v0.71.0-nightly.20261120.gd4cb1713f...v0.71.0-nightly.20261121.geecccfcd5",
+      "prerelease": true
+    },
+    {
+      "product": "Claude Code",
+      "repo": "anthropics/claude-code",
+      "tag": "v2.1.330",
+      "name": "v2.1.330",
+      "published": "2026-11-20",
+      "url": "https://github.com/anthropics/claude-code/releases/tag/v2.1.330",
+      "summary": "## What's changed",
+      "body_excerpt": "## What's changed\n\n- Added sign-in to organizations managed in Anthropic's Enterprise Admin Console: after `claude auth login`, Claude Code applies the organization's settings and uses its cloud provider or gateway\n- Added easel, a built-in mod that draws charts when asked and under MCP metrics results, on Pro, Max and, where available, Team and Enterprise on macOS and Linux; turn automatic charts off in `/config`\n- Added `CLAUDE_CODE_FULL_SIGN_IN_LINK=1` to print the full sign-in link, if the short one shows an error or a script reads values from it\n- Self-hosted runner: Added `--start-dir` / `SELF_HOSTED_RUNNER_START_DIR` to have Claude start its work in a folder of a repository, while settings and hooks load as without it\n- Added a notice in cloud and self-hosted runner sessions when a plugin marketplace can't be fetched because its repository isn't one of the session's\n- Self-hosted runner: Added a notice when Anthropic-managed git refuses a plugin's own repository, naming the plugin and what to do\n- Added `commandPrinted` to `claude plugin install --json` results, true when the plugin's install command wrote to stderr, and `commandFailed` when it exited with an error, was killed or timed out\n- Added `claude_code_self_hosted_runner_order_to_registered_seconds` to the self-hosted runner's `/metrics`: seconds from work order issued to registration accepted, on orchestrator-spawned runners\n- Added `claude_code_self_hosted_runner_order_to_first_session_seconds` to the self-hosted runner's `/metrics`: seconds from work order to first session handed over, on runners started for a session\n- Fixed Claude Code freezing for up to several minutes right after compacting a very long conversation\n- Fixed WebFetch freezing the session for minutes on some pages, and returning an empty result for some others\n- Fixed `ExitWorktree` and the worktree exit dialog deleting a worktree that another running Claude Code session was working in\n- Fixed changes to user settings being lost when several Claude Code processes saved them at the same time\n- Fixed `--continue` and `--resume` opening an empty session or failing when the last saved message had a missing or invalid timestamp\n- Fixed the first prompt after a sleep of two minutes or more waiting three minutes on a connection that had died, on Linux and WSL\n- Fixed turns failing with \"JSON schema is invalid\", and session files growing by many megabytes, when many MCP tools have an input schema that the API refuses\n- Linux: Fi",
+      "prerelease": false
+    },
+    {
+      "product": "Hermes Agent",
+      "repo": "NousResearch/hermes-agent",
+      "tag": "v0.23.3",
+      "name": "Hermes Agent v0.23.3",
+      "published": "2026-11-20",
+      "url": "https://github.com/NousResearch/hermes-agent/releases/tag/v0.23.3",
+      "summary": "# Hermes Agent v0.23.3",
+      "body_excerpt": "# Hermes Agent v0.23.3\n\n**Release Date:** November 19, 2026\n\n> Patch release. This tag rolls up the ~370 PRs merged since v0.23.2 into a stable release for the GitHub release (CLI and installers), the Microsoft Store app, Docker and Hermes Cloud. Full curated notes for this window ship with v0.24.0.\n\n<!-- HERMES_BUILDS_TABLE -->\n\n## About this release\n\nMeasured at commit `caafe5389ae`, the window since v0.23.2 contains **1,657 non-merge commits** across **3,948 changed files** (+222,379 / −96,154), **370 merged PRs** and **60 closed issues**.\n\nAlso in the window, undocumented here on purpose: one prompt-cache lifecycle controller (warming through long tool runs, compaction of idle chats before the 1h cache expires, Nous Portal on the full 1h lifecycle, `prompt_caching.cache_ttl` defaulting to `auto`), compaction that archives the tool results it drops, the proactive tool-result prune on by default, a one-question first-run CLI setup with the free tier included, GPT-6.2 Astra and Sol (+ Pro) on OpenRouter and Nous Portal, a \"Waiting on teammates\" strip above Bot Chat composers, the Linux AppImage agent payload run from a stable per-build copy, the storage layer split behind a persistence interface with its SQLite backend, dependency security bumps (oauthlib, opentelemetry, tornado), and a large batch of new plugin-catalog entries.\n\n**Full curated release notes for this window ship with v0.24.0**, which will document everything from v0.23.0 onward — highlights, feature areas, and complete contributor credits. Nothing in this window is skipped.\n\n## Updating\n\n- Microsoft Store app: updates through the Store.\n- Desktop app installed from the installer (.exe / .dmg): no change in this release; it updates with the next bundled release.\n- CLI: `hermes update`, or re-run the installer one-liner.\n- Docker / Hermes Cloud: `nousresearch/hermes-agent:stable` (or `:latest`).\n\n**Full Changelog**: [v0.23.2...v0.23.3](https://github.com/NousResearch/hermes-agent/compare/v0.23.2...v0.23.3)",
+      "prerelease": false
+    },
+    {
+      "product": "Codex",
+      "repo": "openai/codex",
+      "tag": "rust-v0.171.0",
+      "name": "0.171.0",
+      "published": "2026-11-20",
+      "url": "https://github.com/openai/codex/releases/tag/rust-v0.171.0",
+      "summary": "## New Features",
+      "body_excerpt": "## New Features\n\n- Added GPT-6.2 Sol and Astra to model catalogs, with Sol as the default catalog selection. (#62106)\n- Enabled the TUI workspace by default, with searchable document previews, image previews, and subagent transcripts alongside the main conversation. (#61352, #61888, #61889, #61919, #62157)\n- Added configurable undo and redo shortcuts to the non-Vim prompt composer, including restoration of attachments and large pastes. (#61954)\n- Added `codex exec --remote <ADDR>` to start or resume noninteractive sessions on an existing app server. (#61707)\n- Added `/rc` and `/remote` to manage local remote control and display device pairing codes from the TUI. (#62121)\n- Added custom MCP status line selection and authoring through `/statusline` when `tui_extensions_statusline` is enabled. (#61979, #61988, #62037)\n\n## Bug Fixes\n\n- Preserved drafts, queued follow-ups, and interrupted input with their original threads when switching or resuming sessions. (#61216)\n- Kept permission profiles intact when changing working directories. (#61195)\n- Prevented late completion events from cancelling approvals for a newer turn. (#61801)\n- Preserved earlier edits in aggregate diffs when steering an active turn. (#61820)\n- Fixed scrolling that inserted stray characters, composer caret jumps, and redraws using stale terminal dimensions. (#62139, #62174, #62175)\n- Fixed enterprise MCP sign-in for identity providers that issue ID tokens without refresh tokens. (#62129)\n\n## Chores\n\n- Updated source builds and release tooling to Rust 1.99.1. (#61205)\n- Updated XML dependencies and removed obsolete security advisory exceptions. (#62068)\n\n## Changelog\n\nFull Changelog: https://github.com/openai/codex/compare/rust-v0.170.0...rust-v0.171.0\n\n- #61178 Enable conversation-scoped speed selection for Cloud turns @bc-openai\n- #61180 Reclaim abandoned trusted Git repositories @etraut-openai\n- #61181 Fix pagination for unindexed threads sorted by ascending recency @etraut-openai\n- #61182 Support renaming cloud threads @bc-openai\n- #61183 Fix fork parent metadata in reconstructed TUI sessions @fcoury-oai\n- #61185 Defer Guardian context limits to request preparation @ioanbudea-OAI\n- #61186 Keep plan item IDs unique after completion @neerajrj-oai\n- #61187 Add authenticated GCS caching for Bazel CI and releases @dkovalenko-oai\n- #61194 Remove redundant legacy permission helpers @ioanbudea-OAI\n- #61195 Preserve permission profiles across working directory updates @ioanbudea-OAI\n- #61196 Clear",
+      "prerelease": false
+    }
+  ],
+  "level2_people": [
+    "@karpathy",
+    "@bcherny",
+    "@sundarpichai",
+    "@sama",
+    "@gdb",
+    "@DarioAmodei"
+  ],
+  "level2_note": "raw 无人物搜索；无依据时 Level 2 标无新增，勿编造",
+  "level3_note": "本日未扫描行业报告（周报降频）",
+  "level4_hn": [
+    {
+      "title": "ClawDOS – An AI coding agent for DOS",
+      "url": "http://ricapar.net/ClawDOS/",
+      "points": 141,
+      "comments": 43,
+      "created": "2026-11-21"
+    },
+    {
+      "title": "Epic Games Turns to AI Coding for the Unreal Engine",
+      "url": "https://spectrum.ieee.org/epic-games-unreal-engine-ai",
+      "points": 58,
+      "comments": 60,
+      "created": "2026-11-20"
+    },
+    {
+      "title": "With AI Gateway, coding agents perform bulk tasks 8x faster and 20x cheaper",
+      "url": "https://ploy.ai/blog/ploy-ai-gateway",
+      "points": 7,
+      "comments": 0,
+      "created": "2026-11-19"
+    },
+    {
+      "title": "Will AI Coding Eat Video Game Engines?",
+      "url": "https://spectrum.ieee.org/epic-games-unreal-engine-ai",
+      "points": 3,
+      "comments": 1,
+      "created": "2026-11-19"
+    },
+    {
+      "title": "Keeping AI Coding Agent Memory Relevant as Code Changes",
+      "url": "https://enola.tech/blog/agent-memory-needs-a-code-reference",
+      "points": 2,
+      "comments": 0,
+      "created": "2026-11-20"
+    }
+  ]
+}
