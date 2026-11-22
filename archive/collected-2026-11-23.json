@@ -1,0 +1,78 @@
+{
+  "briefing_date": "2026-11-23",
+  "period_start": "2026-11-21",
+  "period_end": "2026-11-23",
+  "previous_briefing_date": "2026-11-22",
+  "previous_briefing_excerpt": "# AI x 研发效能 每日简报 2026-11-22\n\n> 覆盖周期：2026-11-20 ~ 2026-11-22（上一期：2026-11-21）\n\n> **采集方式**：GitHub Actions 自动采集（Level 1 GitHub API + Level 4 HN API）｜Level 2/3 待人工或 API 密钥补充\n\n---\n\n## 头条速览\n\n1. **Gemini CLI v0.71.0-nightly.20261121.geecccfcd5**——## What's Changed\n2. **Claude Code v2.1.330**——## What's changed\n3. **Hermes Agent v0.23.3**——# Hermes Agent v0.23.3\n\n---\n\n## 一、AI 增强软件研发（AI4SE）\n\n### 1.1 Level 1：核心产品与工程更新\n\n#### 1️⃣ Gemini CLI v0.71.0-nightly.20261121.geecccfcd5（2026-11-21）\n\n## What's Changed\n\n来源：[v0.71.0-nightly.20261121.geecccfcd5](https://github.com/google-gemini/gemini-cli/releases/tag/v0.71.0-nightly.20261121.geecccfcd5) — 2026-11-21\n\n#### 2️⃣ Claude Code v2.1.330（2026-11-20）\n\n## What's changed\n\n来源：[v2.1.330](https://github.com/anthropics/claude-code/releases/tag/v2.1.330) — 2026-11-20\n\n#### 3️⃣ Hermes Agent v0.23.3（2026-11-20）\n\n# Hermes Agent v0.23.3\n\n来源：[v0.23.3](https://github.com/NousResearch/hermes-agent/releases/tag/v0.23.3) — 2026-11-20\n\n#### 4️⃣ Codex rust-v0.171.0（2026-11-20）\n\n## New Features\n\n来源：[rust-v0.171.0](https://github.com/openai/codex/releases/tag/rust-v0.171.0) — 2026-11-20\n\n---\n\n### 1.2 Level 2：关键人物战略洞察\n\n| 人物 | 动态 | 日期 |\n|---|---|---|\n| @karpathy | 自动采集未配置（需 WebSearch / X 间接源） | — |\n| @bcherny | 自动采集未配置（需 WebSearch / X 间接源） | — |\n| @sundarpichai | 自动采集未配置（需 WebSearch / X 间接源） | — |\n| @sama | 自动采集未配置（需 WebSearch / X 间接源） | — |\n| @gdb | 自动采集未配置（需 WebSearch / X 间接源） | — |\n| @DarioAmodei | 自动采集未配置（需 WebSearch / X 间接源） | — |\n\n---\n\n### 1.3 Level 3：行业研究与数据\n\n> **本日未扫描**（周报/月报降频）。\n\n---\n\n### 1.4 Level 4：补充信源（HN）\n\n- **2026-11-21**：[ClawDOS – An AI coding agent for DOS](http://ricapar.net/ClawDOS/) （141 pts / 43 comments）\n- **2026-11-20**：[Epic Games Turns to AI Coding for the Unreal Engine](https://spectrum.ieee.org/epic-games-unreal-engine-ai) （58 pts / 60 comments）\n- **2026-11-19**：[With AI Gateway, coding agents perform bulk tasks 8x faster and 20x cheaper](https://ploy.ai/blog/ploy-ai-gateway) （7 pts / 0 comments）\n- **2026-11-19**：[Will AI Coding Eat Video Game Engines?](https://spectrum.ieee.org/epic-games-unreal-engine-ai) （3 pts / 1 comments）\n- **2026-11-20**：[Keeping AI Coding Agent Memory Relevant as Code Changes](https://enola.tech/blog/agent-memory-needs-a-code-reference) （2 pts / 0 comments）\n\n---\n\n## 附录：采集日志\n\n| 环节 | 状态 |\n|---|---|\n| GitHub Releases API | ✅ 4 条 |\n| HN Algolia API | ✅ 5 条 |\n| 生成时间 (UTC) | 2026-11-21 19:51 |\n\n*自动生成版 · 可在 Cursor 中基于本稿补充 Level 2 分析与专题*\n",
+  "level1_releases": [
+    {
+      "product": "Gemini CLI",
+      "repo": "google-gemini/gemini-cli",
+      "tag": "v0.71.0-nightly.20261122.geecccfcd5",
+      "name": "Release v0.71.0-nightly.20261122.geecccfcd5",
+      "published": "2026-11-22",
+      "url": "https://github.com/google-gemini/gemini-cli/releases/tag/v0.71.0-nightly.20261122.geecccfcd5",
+      "summary": "**Full Changelog**: https://github.com/google-gemini/gemini-cli/compare/v0.71.0-nightly.20261121.geecccfcd5...v0.71.0-nightly.20261122.geecccfcd5",
+      "body_excerpt": "**Full Changelog**: https://github.com/google-gemini/gemini-cli/compare/v0.71.0-nightly.20261121.geecccfcd5...v0.71.0-nightly.20261122.geecccfcd5",
+      "prerelease": true
+    },
+    {
+      "product": "Codex",
+      "repo": "openai/codex",
+      "tag": "rust-v0.173.0-alpha.4",
+      "name": "0.173.0-alpha.4",
+      "published": "2026-11-21",
+      "url": "https://github.com/openai/codex/releases/tag/rust-v0.173.0-alpha.4",
+      "summary": "Release 0.173.0-alpha.4",
+      "body_excerpt": "Release 0.173.0-alpha.4",
+      "prerelease": true
+    }
+  ],
+  "level2_people": [
+    "@karpathy",
+    "@bcherny",
+    "@sundarpichai",
+    "@sama",
+    "@gdb",
+    "@DarioAmodei"
+  ],
+  "level2_note": "raw 无人物搜索；无依据时 Level 2 标无新增，勿编造",
+  "level3_note": "本日未扫描行业报告（周报降频）",
+  "level4_hn": [
+    {
+      "title": "ClawDOS – An AI coding agent for DOS",
+      "url": "http://ricapar.net/ClawDOS/",
+      "points": 170,
+      "comments": 52,
+      "created": "2026-11-21"
+    },
+    {
+      "title": "Epic Games Turns to AI Coding for the Unreal Engine",
+      "url": "https://spectrum.ieee.org/epic-games-unreal-engine-ai",
+      "points": 58,
+      "comments": 61,
+      "created": "2026-11-20"
+    },
+    {
+      "title": "Keeping AI Coding Agent Memory Relevant as Code Changes",
+      "url": "https://enola.tech/blog/agent-memory-needs-a-code-reference",
+      "points": 2,
+      "comments": 0,
+      "created": "2026-11-20"
+    },
+    {
+      "title": "Show HN: Sandscale – Firecracker microVMs for AI coding agents",
+      "url": "https://sandscale.dev",
+      "points": 2,
+      "comments": 0,
+      "created": "2026-11-20"
+    },
+    {
+      "title": "Ask HN: Do you feel developers are more \"grumpy\" these days?",
+      "url": "https://news.ycombinator.com/item?id=50582890",
+      "points": 7,
+      "comments": 11,
+      "created": "2026-11-20"
+    }
+  ]
+}
