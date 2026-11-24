@@ -1,0 +1,111 @@
+{
+  "briefing_date": "2026-11-24",
+  "period_start": "2026-11-22",
+  "period_end": "2026-11-24",
+  "previous_briefing_date": "2026-11-23",
+  "previous_briefing_excerpt": "# AI x 研发效能 每日简报 2026-11-23\n\n> 覆盖周期：2026-11-21 ~ 2026-11-23（上一期：2026-11-22）\n\n> **采集方式**：GitHub Actions 自动采集（Level 1 GitHub API + Level 4 HN API）｜Level 2/3 待人工或 API 密钥补充\n\n---\n\n## 头条速览\n\n1. **Gemini CLI v0.71.0-nightly.20261122.geecccfcd5**——**Full Changelog**: https://github.com/google-ge\n2. **Codex rust-v0.173.0-alpha.4**——Release 0.173.0-alpha.4\n\n---\n\n## 一、AI 增强软件研发（AI4SE）\n\n### 1.1 Level 1：核心产品与工程更新\n\n#### 1️⃣ Gemini CLI v0.71.0-nightly.20261122.geecccfcd5（2026-11-22）\n\n**Full Changelog**: https://github.com/google-gemini/gemini-cli/compare/v0.71.0-nightly.20261121.geecccfcd5...v0.71.0-nightly.20261122.geecccfcd5\n\n来源：[v0.71.0-nightly.20261122.geecccfcd5](https://github.com/google-gemini/gemini-cli/releases/tag/v0.71.0-nightly.20261122.geecccfcd5) — 2026-11-22\n\n#### 2️⃣ Codex rust-v0.173.0-alpha.4（2026-11-21）\n\nRelease 0.173.0-alpha.4\n\n来源：[rust-v0.173.0-alpha.4](https://github.com/openai/codex/releases/tag/rust-v0.173.0-alpha.4) — 2026-11-21\n\n---\n\n### 1.2 Level 2：关键人物战略洞察\n\n| 人物 | 动态 | 日期 |\n|---|---|---|\n| @karpathy | 自动采集未配置（需 WebSearch / X 间接源） | — |\n| @bcherny | 自动采集未配置（需 WebSearch / X 间接源） | — |\n| @sundarpichai | 自动采集未配置（需 WebSearch / X 间接源） | — |\n| @sama | 自动采集未配置（需 WebSearch / X 间接源） | — |\n| @gdb | 自动采集未配置（需 WebSearch / X 间接源） | — |\n| @DarioAmodei | 自动采集未配置（需 WebSearch / X 间接源） | — |\n\n---\n\n### 1.3 Level 3：行业研究与数据\n\n> **本日未扫描**（周报/月报降频）。\n\n---\n\n### 1.4 Level 4：补充信源（HN）\n\n- **2026-11-21**：[ClawDOS – An AI coding agent for DOS](http://ricapar.net/ClawDOS/) （170 pts / 52 comments）\n- **2026-11-20**：[Epic Games Turns to AI Coding for the Unreal Engine](https://spectrum.ieee.org/epic-games-unreal-engine-ai) （58 pts / 61 comments）\n- **2026-11-20**：[Keeping AI Coding Agent Memory Relevant as Code Changes](https://enola.tech/blog/agent-memory-needs-a-code-reference) （2 pts / 0 comments）\n- **2026-11-20**：[Show HN: Sandscale – Firecracker microVMs for AI coding agents](https://sandscale.dev) （2 pts / 0 comments）\n- **2026-11-20**：[Ask HN: Do you feel developers are more \"grumpy\" these days?](https://news.ycombinator.com/item?id=50582890) （7 pts / 11 comments）\n\n---\n\n## 附录：采集日志\n\n| 环节 | 状态 |\n|---|---|\n| GitHub Releases API | ✅ 2 条 |\n| HN Algolia API | ✅ 5 条 |\n| 生成时间 (UTC) | 2026-11-22 20:01 |\n\n*自动生成版 · 可在 Cursor 中基于本稿补充 Level 2 分析与专题*\n",
+  "level1_releases": [
+    {
+      "product": "Codex",
+      "repo": "openai/codex",
+      "tag": "rust-v0.172.0",
+      "name": "0.172.0",
+      "published": "2026-11-24",
+      "url": "https://github.com/openai/codex/releases/tag/rust-v0.172.0",
+      "summary": "## New Features",
+      "body_excerpt": "## New Features\n\n- Follow thread links from search results and transcripts to open saved conversations and nested agents in the terminal. (#62332)\n- Press `Tab` to complete arguments for supported slash commands. For example, `/mcp lo` completes to `/mcp login`. (#62343)\n- Jump between task groups in the agent command center with `Shift+Up` and `Shift+Down`. (#62200)\n- Optional stdio MCP servers with cached tool lists now start on their first tool call by default. (#62366)\n- Set an approval reviewer for individual connected app tools in `config.toml`. (#62360)\n- App-server clients can select Amazon Bedrock Runtime during setup or sign-in. (#62222)\n\n## Bug Fixes\n\n- `codex exec resume` restores saved sandbox permissions, the working directory, and workspace roots unless explicitly overridden. (#62194)\n- Remote sessions preserve working directories, workspace roots, and writable paths when the client and server run on different operating systems. (#62375, #62376, #62377)\n- Codex reports provider errors as soon as they arrive in a response stream and identifies which API spend limit was reached. (#62329, #62356)\n- Interrupting a parent turn preserves queued replies from child agents for the next turn. (#62348)\n- Use `PageUp` and `PageDown` to read and submit answer choices that are taller than the terminal’s answer area. (#62209)\n- Cloud replies that finish after history loads now update in place, keeping the terminal transcript in order. (#62403)\n\n## Documentation\n\n- The bundled `openai-docs` skill now covers migration to GPT-6.2 Astra and Sol, including endpoint choices and tool-calling requirements. (#62447)\n\n## Chores\n\n- Code Mode now uses gRPC for all host connections. The `code_mode_host_grpc` setting is deprecated. (#62476)\n- Python formatting and SDK type generation now verify dependency hashes against the repository lockfile. (#62346)\n\n## Changelog\n\nFull Changelog: https://github.com/openai/codex/compare/rust-v0.171.0...rust-v0.172.0\n\n- #62190 Route turn and response checkpoints through the rollout budget policy @anp-oai\n- #62192 Distinguish Windows sandbox provisioning timeouts and pipe closures @zm-oai\n- #62194 Preserve saved sandbox permissions when resuming `codex exec` @viyatb-oai\n- #62200 Add task group navigation to the agent command center @bc-openai\n- #62202 Omit unknown server versions from `/status` @bc-openai\n- #62205 Keep sandbox preparation with the command through launch @viyatb-oai\n- #62206 Prevent duplicate initial context when inject",
+      "prerelease": false
+    },
+    {
+      "product": "OpenClaw",
+      "repo": "openclaw/openclaw",
+      "tag": "v2026.11.7",
+      "name": "openclaw 2026.11.7",
+      "published": "2026-11-23",
+      "url": "https://github.com/openclaw/openclaw/releases/tag/v2026.11.7",
+      "summary": "## 2026.11.7",
+      "body_excerpt": "## 2026.11.7\n\n### Highlights\n\n- **Conversation recovery:** Recover interrupted replies and child results across Gateway restarts without losing pending work. (#198905, #201544, #200924, #200967) Authored by @steipete. Thanks @RomneyDa, @galiniliev, and @vincentkoc.\n- **Reliable automations:** Let an automation’s owner conversation repair failures, and distinguish recovered or intentionally skipped runs from genuine failures. (#161007, #201638, #152165, #194276) Related #194261 Thanks @RomneyDa, @vyctorbrzezowski, @vincentkoc, @obviyus, @pash-openai, @wr-web, and @slatem.\n- **Smoother updates:** Finish Git and package updates through schema changes, busy databases, and retained recovery state instead of stopping before or after the new release starts. (#201600, #201463, #201545, #201330) Authored by @steipete. Thanks @RomneyDa, @vincentkoc, and @fuller-stack-dev.\n- **Responsive Gateway:** Keep chats, readiness checks, and unrelated sessions responsive during slow filesystem operations, large recovery packs, and page extraction. (#191236, #201248, #200623, #200925) Authored by @steipete. Thanks @RomneyDa and @vincentkoc.\n- **Browser pairing:** Pair another browser with a short code approved on the Gateway host, with clearer instructions while approval is pending. (#191513, #200905) Thanks @vincentkoc, @RomneyDa, @daniel-lxs, @jalehman, and @etzelm.\n- **Current ChatGPT catalogs:** Discover newly available subscription models without waiting for another OpenClaw release and keep sign-in discovery independent of npm. (#201130, #201493) Related #201480 Thanks @RomneyDa, @obviyus, and @daniel-lxs.\n\n### Changes\n\n- **Knowledge search:** Find current records using superseded wording and match canonically equivalent Unicode keyword spellings. (#193742, #195092) Related #193054, #195031 Thanks @RomneyDa, @daniel-lxs, @Linux2010, @jalehman, and @saariuslystoned.\n- **Talk transcription:** Use a saved Deepgram, ElevenLabs, or Mistral API key for live transcription. (#199858) Related #199684 Thanks @daniel-lxs.\n- **Session control — breaking SDK change:** Move session-keyed setActiveEmbeddedRun(...) registrations into the host-provided runAttempt callback and retain their exact cleanup function; unadmitted registration now reports SESSION_CONTROLLER_ADMISSION_REQUIRED. (#175837) Authored by @steipete. Thanks @RomneyDa and @jalehman.\n- **Gateway methods — breaking SDK change:** Replace mutable chatAbortControllers and chatQueuedTurns access with dispatchGatewayMethod from ",
+      "prerelease": false
+    },
+    {
+      "product": "Claude Code",
+      "repo": "anthropics/claude-code",
+      "tag": "v2.1.331",
+      "name": "v2.1.331",
+      "published": "2026-11-23",
+      "url": "https://github.com/anthropics/claude-code/releases/tag/v2.1.331",
+      "summary": "## What's changed",
+      "body_excerpt": "## What's changed\n\n- Added Code Mode support in terminal sessions on Amazon Bedrock, Google Cloud's Agent Platform, Microsoft Foundry and Claude Platform on AWS\n- Added `oidc.groups_jsonpath` to the Claude apps gateway, to read groups from the matching entries of a list of objects with a small subset of JSONPath (RFC 9535)\n- Added an API connectivity section to `claude doctor` that reports whether the API can be reached, with the HTTP status or the error, or says why it wasn't tested\n- Added a notice when tap-mode voice dictation stops by itself, after 15 seconds without recognized speech or at its 2-minute limit\n- Added `CLAUDE_CODE_DISABLE_RESPONSE_COMPRESSION` to ask for uncompressed model responses behind a proxy that cuts compressed ones off; not advised yet for self-hosted runners or Remote Control\n- Added `CLAUDE_GATEWAY_IDP_CONNECT_BY_HOSTNAME=1` for Claude apps gateways: with `oidc.use_proxy: true`, sign-in requests hand the proxy an `https` IdP's hostname even with `NO_PROXY` set\n- Added `gen_ai.usage.*`, `gen_ai.response.model` and `gen_ai.operation.name` to `claude_code.llm_request` trace spans; `gen_ai.usage.input_tokens` includes prompt cache tokens\n- Added `optionalDependencies` to plugin manifests: plugins that install with the plugin listing them and can be disabled or uninstalled on their own\n- Fixed MCP tool calls hanging for up to 30 minutes on some malformed replies from a local or WebSocket server\n- Fixed PushNotification telling a headless run, such as a scheduled one, that the terminal was active in its first minute, instead of saying whether a mobile push was requested\n- Fixed `/install-github-app` skipping the repository step after setup warnings when no repository was found, and Esc not going back from its workflow list and sign-in steps\n- Fixed one-line tool results cut with no ellipsis in narrow windows, Markdown stars in the Auto mode tab of /permissions, and a hook's reason to stop a forked skill showing twice\n- Fixed `/diff` hiding its key hints and not selecting files in windows of 24 to 26 rows, and leaving out files added with `git add -N` in a repository with no commits\n- Fixed the first-run theme list showing too few themes in short windows, and /usage and other tall screens coming out garbled there\n- Fixed `/bug` in fullscreen hiding its Yes and No answers behind a long report, and Yes staying out of view in very short windows\n- Fixed /compact and auto-compact sometimes losing part of the conversation summary when the ",
+      "prerelease": false
+    },
+    {
+      "product": "Gemini CLI",
+      "repo": "google-gemini/gemini-cli",
+      "tag": "v0.71.0-nightly.20261123.geecccfcd5",
+      "name": "Release v0.71.0-nightly.20261123.geecccfcd5",
+      "published": "2026-11-23",
+      "url": "https://github.com/google-gemini/gemini-cli/releases/tag/v0.71.0-nightly.20261123.geecccfcd5",
+      "summary": "**Full Changelog**: https://github.com/google-gemini/gemini-cli/compare/v0.71.0-nightly.20261122.geecccfcd5...v0.71.0-nightly.20261123.geecccfcd5",
+      "body_excerpt": "**Full Changelog**: https://github.com/google-gemini/gemini-cli/compare/v0.71.0-nightly.20261122.geecccfcd5...v0.71.0-nightly.20261123.geecccfcd5",
+      "prerelease": true
+    },
+    {
+      "product": "Hermes Agent",
+      "repo": "NousResearch/hermes-agent",
+      "tag": "canary.20261123T065600Z-v0.23.3",
+      "name": "Hermes Agent canary canary.20261123T065600Z-v0.23.3",
+      "published": "2026-11-23",
+      "url": "https://github.com/NousResearch/hermes-agent/releases/tag/canary.20261123T065600Z-v0.23.3",
+      "summary": "# Hermes Agent v0.23.3+canary.20261123T065600Z (canary.20261123T065600Z-v0.23.3)",
+      "body_excerpt": "# Hermes Agent v0.23.3+canary.20261123T065600Z (canary.20261123T065600Z-v0.23.3)\n\n**Release Date:** November 23, 2026\n\n<!-- HERMES_BUILDS_TABLE -->\n## Downloads\n\n### Hermes Desktop\n\n| OS | Architecture | Download |\n|---|---|---|\n| macOS | Apple Silicon (M-series) | [DMG](https://hermes-assets.nousresearch.com/releases/tag/canary.20261123T065600Z-v0.23.3/HermesBundled-0.23.3%2Bcanary.20261123T065600Z-mac-arm64.dmg) |\n| Windows | x86 (64-bit) | [MSIX](https://hermes-assets.nousresearch.com/releases/tag/canary.20261123T065600Z-v0.23.3/HermesBundled-0.23.3%2Bcanary.20261123T065600Z-win-x64.msix) |\n| Windows | ARM (arm64 / aarch64) | [MSIX](https://hermes-assets.nousresearch.com/releases/tag/canary.20261123T065600Z-v0.23.3/HermesBundled-0.23.3%2Bcanary.20261123T065600Z-win-arm64.msix) |\n\n### Native install/chat smoke\n\nDownload availability is independent of smoke status. Each result covers all native legs in that format group. Linux AppImages and unsigned Store envelopes are not install-smoked. No-upload dry tags have no download handoff and are not smoke-qualified.\n\n| Packages | Smoke status |\n|---|---|\n| macOS DMG + ZIP (arm64) | Passed |\n| Windows MSIX (arm64) | Passed |\n| Windows MSIX (x64) | Passed |\n<!-- /HERMES_BUILDS_TABLE -->\n\n## ✨ Features\n\n- Release): wire commit claims into stable-release.yml with read-only native legs ([`0c55aa60`](https://github.com/NousResearch/hermes-agent/commit/0c55aa6016cce5773c2c9416d7037aa7ff93a030)) — @ethernet8023\n- Plugin-catalog: add creatorplaybooks (unofficial community plugin) ([`dd15386d`](https://github.com/NousResearch/hermes-agent/commit/dd15386dab7e6c62a18fd3bf0ae65f0b74635146)) — @1nc0gn30\n- Plugin-catalog): add valetudo plugin ([`d56d4c86`](https://github.com/NousResearch/hermes-agent/commit/d56d4c868b3754b38ef99e678d40fc8ed75f3e75)) — @camescasse\n- Plugin-catalog: add deny-record ([`73fadcad`](https://github.com/NousResearch/hermes-agent/commit/73fadcad559f37b0d8e8fc27e64a5d4d27a9b5bc)) — @LangerSword\n- Plugin-catalog): add polytropos-router plugin ([`8b886f1f`](https://github.com/NousResearch/hermes-agent/commit/8b886f1fd9d81a96886e91072a0783e3d19c86a2)) — @Lil-Clanky\n- Plugin-catalog): add katara memory provider ([`0ea564b6`](https://github.com/NousResearch/hermes-agent/commit/0ea564b6ac09791d6c7cdaa754e94566eb8e0bc0)) — @vcastellm\n- Plugin-catalog): add beeper-platform plugin ([`94e38dca`](https://github.com/NousResearch/hermes-agent/commit/94e38dca7c3e1b43f9367f70b0ebb9bd17f6eef3)) — @clins1994\n- Catalog)",
+      "prerelease": true
+    }
+  ],
+  "level2_people": [
+    "@karpathy",
+    "@bcherny",
+    "@sundarpichai",
+    "@sama",
+    "@gdb",
+    "@DarioAmodei"
+  ],
+  "level2_note": "raw 无人物搜索；无依据时 Level 2 标无新增，勿编造",
+  "level3_note": "本日未扫描行业报告（周报降频）",
+  "level4_hn": [
+    {
+      "title": "ClawDOS – An AI coding agent for DOS",
+      "url": "http://ricapar.net/ClawDOS/",
+      "points": 175,
+      "comments": 52,
+      "created": "2026-11-21"
+    },
+    {
+      "title": "Sandboxing AI Coding Agents: Nono vs. Docker Sbx vs. Microsandbox vs. OpenShell",
+      "url": "https://kudelskisecurity.com/research/sandboxing-coding-agents",
+      "points": 12,
+      "comments": 0,
+      "created": "2026-11-23"
+    },
+    {
+      "title": "My AI coding agents spend most of their time waiting",
+      "url": "https://jurajb.dev/coding-agents-mostly-waiting/",
+      "points": 4,
+      "comments": 0,
+      "created": "2026-11-23"
+    },
+    {
+      "title": "Is This the New King of Local AI Coding (Inkling 2 Mini)",
+      "url": "https://www.youtube.com/watch?v=TcrPYFdvR7c",
+      "points": 2,
+      "comments": 0,
+      "created": "2026-11-23"
+    },
+    {
+      "title": "How to Run AI Coding Agents on Kubernetes: Sandbox vs. Environment",
+      "url": "https://www.okteto.com/blog/how-to-run-ai-coding-agents-on-kubernetes/",
+      "points": 2,
+      "comments": 0,
+      "created": "2026-11-23"
+    }
+  ]
+}
