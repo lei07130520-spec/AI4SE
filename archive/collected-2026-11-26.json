@@ -1,0 +1,111 @@
+{
+  "briefing_date": "2026-11-26",
+  "period_start": "2026-11-24",
+  "period_end": "2026-11-26",
+  "previous_briefing_date": "2026-11-25",
+  "previous_briefing_excerpt": "# AI x 研发效能 每日简报 2026-11-25\n\n> 覆盖周期：2026-11-23 ~ 2026-11-25（上一期：2026-11-24）\n\n> **采集方式**：GitHub Actions 自动采集（Level 1 GitHub API + Level 4 HN API）｜Level 2/3 待人工或 API 密钥补充\n\n---\n\n## 头条速览\n\n1. **OpenClaw v2026.11.8**——<!-- openclaw-release-publication:docs-v1 -->\n2. **Gemini CLI v0.71.1**——## What's Changed\n3. **Hermes Agent v0.23.4**——# Hermes Agent v0.23.4\n\n---\n\n## 一、AI 增强软件研发（AI4SE）\n\n### 1.1 Level 1：核心产品与工程更新\n\n#### 1️⃣ OpenClaw v2026.11.8（2026-11-24）\n\n<!-- openclaw-release-publication:docs-v1 -->\n\n来源：[v2026.11.8](https://github.com/openclaw/openclaw/releases/tag/v2026.11.8) — 2026-11-24\n\n#### 2️⃣ Gemini CLI v0.71.1（2026-11-24）\n\n## What's Changed\n\n来源：[v0.71.1](https://github.com/google-gemini/gemini-cli/releases/tag/v0.71.1) — 2026-11-24\n\n#### 3️⃣ Hermes Agent v0.23.4（2026-11-24）\n\n# Hermes Agent v0.23.4\n\n来源：[v0.23.4](https://github.com/NousResearch/hermes-agent/releases/tag/v0.23.4) — 2026-11-24\n\n#### 4️⃣ Codex rust-v0.172.0（2026-11-24）\n\n## New Features\n\n来源：[rust-v0.172.0](https://github.com/openai/codex/releases/tag/rust-v0.172.0) — 2026-11-24\n\n#### 5️⃣ Claude Code v2.1.331（2026-11-23）\n\n## What's changed\n\n来源：[v2.1.331](https://github.com/anthropics/claude-code/releases/tag/v2.1.331) — 2026-11-23\n\n---\n\n### 1.2 Level 2：关键人物战略洞察\n\n| 人物 | 动态 | 日期 |\n|---|---|---|\n| @karpathy | 自动采集未配置（需 WebSearch / X 间接源） | — |\n| @bcherny | 自动采集未配置（需 WebSearch / X 间接源） | — |\n| @sundarpichai | 自动采集未配置（需 WebSearch / X 间接源） | — |\n| @sama | 自动采集未配置（需 WebSearch / X 间接源） | — |\n| @gdb | 自动采集未配置（需 WebSearch / X 间接源） | — |\n| @DarioAmodei | 自动采集未配置（需 WebSearch / X 间接源） | — |\n\n---\n\n### 1.3 Level 3：行业研究与数据\n\n> **本日未扫描**（周报/月报降频）。\n\n---\n\n### 1.4 Level 4：补充信源（HN）\n\n- **2026-11-23**：[Sandboxing AI Coding Agents: Nono vs. Docker Sbx vs. Microsandbox vs. OpenShell](https://kudelskisecurity.com/research/sandboxing-coding-agents) （13 pts / 1 comments）\n- **2026-11-24**：[Show HN: Harny – AI coding agent for VSCodium/VS Code tuned for small/local LLMs](https://harny.dev/) （4 pts / 0 comments）\n- **2026-11-23**：[My AI coding agents spend most of their time waiting](https://jurajb.dev/coding-agents-mostly-waiting/) （4 pts / 0 comments）\n- **2026-11-23**：[Is This the New King of Local AI Coding (Inkling 2 Mini)](https://www.youtube.com/watch?v=TcrPYFdvR7c) （2 pts / 0 comments）\n- **2026-11-23**：[How to Run AI Coding Agents on Kubernetes: Sandbox vs. Environment](https://www.okteto.com/blog/how-to-run-ai-coding-agents-on-kubernetes/) （2 pts / 0 comments）\n\n---\n\n## 附录：采集日志\n\n| 环节 | 状态 |\n|---|---|\n| GitHub Releases API | ✅ 5 条 |\n| HN Algolia API | ✅ 5 条 |\n| 生成时间 (UTC) | 2026-11-24 22:49 |\n\n*自动生成版 · 可在 Cursor 中基于本稿补充 Level 2 分析与专题*\n",
+  "level1_releases": [
+    {
+      "product": "OpenClaw",
+      "repo": "openclaw/openclaw",
+      "tag": "v2026.11.10",
+      "name": "openclaw 2026.11.10",
+      "published": "2026-11-25",
+      "url": "https://github.com/openclaw/openclaw/releases/tag/v2026.11.10",
+      "summary": "<!-- openclaw-release-publication:docs-v1 -->",
+      "body_excerpt": "<!-- openclaw-release-publication:docs-v1 -->\n\n## OpenClaw v2026.11.10\n\n8,309 commits · 7,671 pull requests · 349 contributors\n\n### Changes included in this release\n\nThe release notes and changelog contain the same content, presented in two formats:\n\n- [Release notes](https://docs.openclaw.ai/releases/2026.11.10) — formatted for people.\n- [Changelog](https://raw.githubusercontent.com/openclaw/openclaw/main/CHANGELOG/2026.11.10.md) — plain Markdown for AI agents and tools.\n\n### Thanks\n\n[@0xNagato](https://github.com/0xNagato) [@1052326311](https://github.com/1052326311) [@555aaditya](https://github.com/555aaditya) [@651juan](https://github.com/651juan) [@A-Raphie](https://github.com/A-Raphie) [@aashish254](https://github.com/aashish254) [@Abinithishkumarprabakaran](https://github.com/Abinithishkumarprabakaran) [@AgentXenAI](https://github.com/AgentXenAI) [@airbing11](https://github.com/airbing11) [@Airyn-Axyl](https://github.com/Airyn-Axyl) [@aishwary-dongre](https://github.com/aishwary-dongre) [@akshitkhokhani](https://github.com/akshitkhokhani) [@Alexi5000](https://github.com/Alexi5000) [@alfredjbclaw](https://github.com/alfredjbclaw) [@Alix-007](https://github.com/Alix-007) [@alkor2000](https://github.com/alkor2000) [@alter](https://github.com/alter) [@AmelioMansour](https://github.com/AmelioMansour) [@amittell](https://github.com/amittell) [@andone-07](https://github.com/andone-07) [@aniruddhaadak80](https://github.com/aniruddhaadak80) [@anmol0b](https://github.com/anmol0b) [@antontuzov](https://github.com/antontuzov) [@Anurag-5ingh](https://github.com/Anurag-5ingh) [@ArcueidMP](https://github.com/ArcueidMP) [@areslp](https://github.com/areslp) [@art22s](https://github.com/art22s) [@AS76](https://github.com/AS76) [@ashmoonori-afk](https://github.com/ashmoonori-afk) [@aspalagin](https://github.com/aspalagin) [@ava-perry](https://github.com/ava-perry) [@Avi974](https://github.com/Avi974) [@ayaangazali](https://github.com/ayaangazali) [@AyhamJo7](https://github.com/AyhamJo7) [@Ayushdevo](https://github.com/Ayushdevo) [@b3v21](https://github.com/b3v21) [@bach205](https://github.com/bach205) [@baisiqi6](https://github.com/baisiqi6) [@bajiaoshan](https://github.com/bajiaoshan) [@Barry-886](https://github.com/Barry-886) [@Bartok9](https://github.com/Bartok9) [@bdjben](https://github.com/bdjben) [@beezly](https://github.com/beezly) [@ben-milanko](https://github.com/ben-milanko) [@bgrubin](https://github.com/bgrubin) [@BitmapAsset](https://github.com/BitmapAsset",
+      "prerelease": false
+    },
+    {
+      "product": "Claude Code",
+      "repo": "anthropics/claude-code",
+      "tag": "v2.1.332",
+      "name": "v2.1.332",
+      "published": "2026-11-25",
+      "url": "https://github.com/anthropics/claude-code/releases/tag/v2.1.332",
+      "summary": "## What's changed",
+      "body_excerpt": "## What's changed\n\n- Added skills from MCP servers (beta). They show as `server:skill` in the `/` menu; other skills keep their names\n- Added a `PreSkillShellCommand` hook event that can refuse a skill or command's inline shell commands as it loads; on 2.1.331 and older, a settings file naming it opens a dialog at start\n- Added \"Always deliver\" to the prompt for held messages from other sessions\n- Added a footer line that stays while a flagged message has your session on a different model, until you pick one with `/model`\n- Added an OpenTelemetry `assistant_response` event for text Claude sends through SendUserMessage or Cowork's message tool, when response logging is on\n- Added a warning in VS Code and Desktop's Code tab when part of a session couldn't be saved, saying how to save it with `/compact`\n- Added a notice in VS Code and Desktop's Code tab when a resumed session's earlier messages weren't loaded, as the terminal already shows\n- Added your Cyber Verification Program access tier to the startup header, beside the model name when your tier applies to that model and you're signed in with a claude.ai account\n- Fixed `claude auth login` reporting `Login successful.` when a claude.ai login could not be saved: it now exits 1 and says what to check, such as a leftover lock file or a full disk\n- Fixed Read, @-mentions and compaction hanging on a named pipe that nothing writes to, such as a `.env` mounted by a locked secrets manager; the read now fails after 20 seconds\n- Fixed turns ending in \"Prompt is too long\" after repeated auto-compaction failures when one more compaction at the context limit could have kept them going\n- Fixed compaction failing when a summary kept running past the output limit: after three cut-off replies, the last try now asks for a shorter summary\n- Fixed a freeze when a permission rule or hook condition with several wildcards was checked against a long command\n- Fixed freezes and runaway memory use in most cases while a hook prints output without end\n- Fixed a freeze and context overflow when a hook blocks or fails during a turn, or after `/compact`, with a very large log; text over about 50,000 characters is now shortened\n- Fixed the terminal freezing, and ignoring Ctrl+C, while a local MCP server floods its standard output\n- Fixed a freeze when a prompt or piped input holds an `@` followed by a very long unbroken string, such as minified CSS with an embedded font\n- Fixed a long freeze when opening a rewind point after a large tra",
+      "prerelease": false
+    },
+    {
+      "product": "Gemini CLI",
+      "repo": "google-gemini/gemini-cli",
+      "tag": "v0.71.1",
+      "name": "Release v0.71.1",
+      "published": "2026-11-24",
+      "url": "https://github.com/google-gemini/gemini-cli/releases/tag/v0.71.1",
+      "summary": "## What's Changed",
+      "body_excerpt": "## What's Changed\n* fix(patch): cherry-pick aafdfdf to release/v0.71.0-pr-30420 to patch version v0.71.0 and create version 0.71.1 by @gemini-cli-robot in https://github.com/google-gemini/gemini-cli/pull/30429\n\n\n**Full Changelog**: https://github.com/google-gemini/gemini-cli/compare/v0.71.0...v0.71.1",
+      "prerelease": false
+    },
+    {
+      "product": "Hermes Agent",
+      "repo": "NousResearch/hermes-agent",
+      "tag": "v0.23.4",
+      "name": "Hermes Agent v0.23.4",
+      "published": "2026-11-24",
+      "url": "https://github.com/NousResearch/hermes-agent/releases/tag/v0.23.4",
+      "summary": "# Hermes Agent v0.23.4",
+      "body_excerpt": "# Hermes Agent v0.23.4\n\n**Release Date:** November 23, 2026\n\n> Patch release. This tag rolls up the ~229 PRs merged since v0.23.3 into a stable release for the GitHub release (CLI and installers), the Microsoft Store app, Docker and Hermes Cloud. Full curated notes for this window ship with v0.24.0.\n\n<!-- HERMES_BUILDS_TABLE -->\n\n## About this release\n\nMeasured at commit `8fc03744473`, the window since v0.23.3 contains **1,122 non-merge commits** across **1,316 changed files** (+96,873 / −6,703), **229 merged PRs** and **281 closed issues**.\n\nAlso in the window, undocumented here on purpose: Gemini 4 Hydrogen, Neon and Carbon on Nous Portal, OpenRouter and Vertex, `hermes gateway migrate --backends` to move an old serve/dashboard backend onto the gateway (with a System page card in the dashboard), `hermes plugins config` to edit a plugin's settings from the terminal, approval cards in Desktop for a sandbox's folder and site requests, gateway clients announcing who they are so plugins can see which client sent a turn, a long run of Desktop streaming and transcript performance work, a retryable indicator for slow profile switches, `hermes dashboard password` without a TTY prompt, configurable skill index description length (`skills.index_desc_limit`), managed-scope config honored by security and URL-safety reads, and a large batch of new plugin-catalog entries.\n\n**Full curated release notes for this window ship with v0.24.0**, which will document everything from v0.23.0 onward — highlights, feature areas, and complete contributor credits. Nothing in this window is skipped.\n\n## Updating\n\n- Microsoft Store app: updates through the Store.\n- Desktop app installed from the installer (.exe / .dmg): no change in this release; it updates with the next bundled release.\n- CLI: `hermes update`, or re-run the installer one-liner.\n- Docker / Hermes Cloud: `nousresearch/hermes-agent:stable` (or `:latest`).\n\n**Full Changelog**: [v0.23.3...v0.23.4](https://github.com/NousResearch/hermes-agent/compare/v0.23.3...v0.23.4)",
+      "prerelease": false
+    },
+    {
+      "product": "Codex",
+      "repo": "openai/codex",
+      "tag": "rust-v0.172.0",
+      "name": "0.172.0",
+      "published": "2026-11-24",
+      "url": "https://github.com/openai/codex/releases/tag/rust-v0.172.0",
+      "summary": "## New Features",
+      "body_excerpt": "## New Features\n\n- Follow thread links from search results and transcripts to open saved conversations and nested agents in the terminal. (#62332)\n- Press `Tab` to complete arguments for supported slash commands. For example, `/mcp lo` completes to `/mcp login`. (#62343)\n- Jump between task groups in the agent command center with `Shift+Up` and `Shift+Down`. (#62200)\n- Optional stdio MCP servers with cached tool lists now start on their first tool call by default. (#62366)\n- Set an approval reviewer for individual connected app tools in `config.toml`. (#62360)\n- App-server clients can select Amazon Bedrock Runtime during setup or sign-in. (#62222)\n\n## Bug Fixes\n\n- `codex exec resume` restores saved sandbox permissions, the working directory, and workspace roots unless explicitly overridden. (#62194)\n- Remote sessions preserve working directories, workspace roots, and writable paths when the client and server run on different operating systems. (#62375, #62376, #62377)\n- Codex reports provider errors as soon as they arrive in a response stream and identifies which API spend limit was reached. (#62329, #62356)\n- Interrupting a parent turn preserves queued replies from child agents for the next turn. (#62348)\n- Use `PageUp` and `PageDown` to read and submit answer choices that are taller than the terminal’s answer area. (#62209)\n- Cloud replies that finish after history loads now update in place, keeping the terminal transcript in order. (#62403)\n\n## Documentation\n\n- The bundled `openai-docs` skill now covers migration to GPT-6.2 Astra and Sol, including endpoint choices and tool-calling requirements. (#62447)\n\n## Chores\n\n- Code Mode now uses gRPC for all host connections. The `code_mode_host_grpc` setting is deprecated. (#62476)\n- Python formatting and SDK type generation now verify dependency hashes against the repository lockfile. (#62346)\n\n## Changelog\n\nFull Changelog: https://github.com/openai/codex/compare/rust-v0.171.0...rust-v0.172.0\n\n- #62190 Route turn and response checkpoints through the rollout budget policy @anp-oai\n- #62192 Distinguish Windows sandbox provisioning timeouts and pipe closures @zm-oai\n- #62194 Preserve saved sandbox permissions when resuming `codex exec` @viyatb-oai\n- #62200 Add task group navigation to the agent command center @bc-openai\n- #62202 Omit unknown server versions from `/status` @bc-openai\n- #62205 Keep sandbox preparation with the command through launch @viyatb-oai\n- #62206 Prevent duplicate initial context when inject",
+      "prerelease": false
+    }
+  ],
+  "level2_people": [
+    "@karpathy",
+    "@bcherny",
+    "@sundarpichai",
+    "@sama",
+    "@gdb",
+    "@DarioAmodei"
+  ],
+  "level2_note": "raw 无人物搜索；无依据时 Level 2 标无新增，勿编造",
+  "level3_note": "本日未扫描行业报告（周报降频）",
+  "level4_hn": [
+    {
+      "title": "Sandboxing AI Coding Agents: Nono vs. Docker Sbx vs. Microsandbox vs. OpenShell",
+      "url": "https://kudelskisecurity.com/research/sandboxing-coding-agents",
+      "points": 13,
+      "comments": 2,
+      "created": "2026-11-23"
+    },
+    {
+      "title": "Show HN: Harny – AI coding agent for VSCodium/VS Code tuned for small/local LLMs",
+      "url": "https://harny.dev/",
+      "points": 4,
+      "comments": 0,
+      "created": "2026-11-24"
+    },
+    {
+      "title": "My AI coding agents spend most of their time waiting",
+      "url": "https://jurajb.dev/coding-agents-mostly-waiting/",
+      "points": 4,
+      "comments": 0,
+      "created": "2026-11-23"
+    },
+    {
+      "title": "Is This the New King of Local AI Coding (Inkling 2 Mini)",
+      "url": "https://www.youtube.com/watch?v=TcrPYFdvR7c",
+      "points": 2,
+      "comments": 0,
+      "created": "2026-11-23"
+    },
+    {
+      "title": "How to Run AI Coding Agents on Kubernetes: Sandbox vs. Environment",
+      "url": "https://www.okteto.com/blog/how-to-run-ai-coding-agents-on-kubernetes/",
+      "points": 2,
+      "comments": 0,
+      "created": "2026-11-23"
+    }
+  ]
+}
