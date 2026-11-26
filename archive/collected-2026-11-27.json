@@ -1,0 +1,100 @@
+{
+  "briefing_date": "2026-11-27",
+  "period_start": "2026-11-25",
+  "period_end": "2026-11-27",
+  "previous_briefing_date": "2026-11-26",
+  "previous_briefing_excerpt": "# AI x 研发效能 每日简报 2026-11-26\n\n> 覆盖周期：2026-11-24 ~ 2026-11-26（上一期：2026-11-25）\n\n> **采集方式**：GitHub Actions 自动采集（Level 1 GitHub API + Level 4 HN API）｜Level 2/3 待人工或 API 密钥补充\n\n---\n\n## 头条速览\n\n1. **OpenClaw v2026.11.10**——<!-- openclaw-release-publication:docs-v1 -->\n2. **Claude Code v2.1.332**——## What's changed\n3. **Gemini CLI v0.71.1**——## What's Changed\n\n---\n\n## 一、AI 增强软件研发（AI4SE）\n\n### 1.1 Level 1：核心产品与工程更新\n\n#### 1️⃣ OpenClaw v2026.11.10（2026-11-25）\n\n<!-- openclaw-release-publication:docs-v1 -->\n\n来源：[v2026.11.10](https://github.com/openclaw/openclaw/releases/tag/v2026.11.10) — 2026-11-25\n\n#### 2️⃣ Claude Code v2.1.332（2026-11-25）\n\n## What's changed\n\n来源：[v2.1.332](https://github.com/anthropics/claude-code/releases/tag/v2.1.332) — 2026-11-25\n\n#### 3️⃣ Gemini CLI v0.71.1（2026-11-24）\n\n## What's Changed\n\n来源：[v0.71.1](https://github.com/google-gemini/gemini-cli/releases/tag/v0.71.1) — 2026-11-24\n\n#### 4️⃣ Hermes Agent v0.23.4（2026-11-24）\n\n# Hermes Agent v0.23.4\n\n来源：[v0.23.4](https://github.com/NousResearch/hermes-agent/releases/tag/v0.23.4) — 2026-11-24\n\n#### 5️⃣ Codex rust-v0.172.0（2026-11-24）\n\n## New Features\n\n来源：[rust-v0.172.0](https://github.com/openai/codex/releases/tag/rust-v0.172.0) — 2026-11-24\n\n---\n\n### 1.2 Level 2：关键人物战略洞察\n\n| 人物 | 动态 | 日期 |\n|---|---|---|\n| @karpathy | 自动采集未配置（需 WebSearch / X 间接源） | — |\n| @bcherny | 自动采集未配置（需 WebSearch / X 间接源） | — |\n| @sundarpichai | 自动采集未配置（需 WebSearch / X 间接源） | — |\n| @sama | 自动采集未配置（需 WebSearch / X 间接源） | — |\n| @gdb | 自动采集未配置（需 WebSearch / X 间接源） | — |\n| @DarioAmodei | 自动采集未配置（需 WebSearch / X 间接源） | — |\n\n---\n\n### 1.3 Level 3：行业研究与数据\n\n> **本日未扫描**（周报/月报降频）。\n\n---\n\n### 1.4 Level 4：补充信源（HN）\n\n- **2026-11-23**：[Sandboxing AI Coding Agents: Nono vs. Docker Sbx vs. Microsandbox vs. OpenShell](https://kudelskisecurity.com/research/sandboxing-coding-agents) （13 pts / 2 comments）\n- **2026-11-24**：[Show HN: Harny – AI coding agent for VSCodium/VS Code tuned for small/local LLMs](https://harny.dev/) （4 pts / 0 comments）\n- **2026-11-23**：[My AI coding agents spend most of their time waiting](https://jurajb.dev/coding-agents-mostly-waiting/) （4 pts / 0 comments）\n- **2026-11-23**：[Is This the New King of Local AI Coding (Inkling 2 Mini)](https://www.youtube.com/watch?v=TcrPYFdvR7c) （2 pts / 0 comments）\n- **2026-11-23**：[How to Run AI Coding Agents on Kubernetes: Sandbox vs. Environment](https://www.okteto.com/blog/how-to-run-ai-coding-agents-on-kubernetes/) （2 pts / 0 comments）\n\n---\n\n## 附录：采集日志\n\n| 环节 | 状态 |\n|---|---|\n| GitHub Releases API | ✅ 5 条 |\n| HN Algolia API | ✅ 5 条 |\n| 生成时间 (UTC) | 2026-11-25 22:01 |\n\n*自动生成版 · 可在 Cursor 中基于本稿补充 Level 2 分析与专题*\n",
+  "level1_releases": [
+    {
+      "product": "OpenClaw",
+      "repo": "openclaw/openclaw",
+      "tag": "v2026.10.34",
+      "name": "openclaw 2026.10.34",
+      "published": "2026-11-26",
+      "url": "https://github.com/openclaw/openclaw/releases/tag/v2026.10.34",
+      "summary": "This is a gateway-only `extended-stable` release, which is our current equivalent to LTS. This release is OpenClaw from the end of October 2026, plus critical security updates, reliability and perform",
+      "body_excerpt": "This is a gateway-only `extended-stable` release, which is our current equivalent to LTS. This release is OpenClaw from the end of October 2026, plus critical security updates, reliability and performance fixes, and features like new model support. The latest version of OpenClaw at the time of this release is [2026.11.10](https://github.com/openclaw/openclaw/releases#release-v2026.11.10)\n\n## 2026.10.34\n\nThis extended-stable patch updates the Gateway and official npm plugins from 2026.10.33. It includes the core npm package and Gateway Docker images, but no native-app releases.\n\n### Highlights\n\n- OpenAI and ClawRouter: select GPT-6.2 Astra and Sol, with system-prompt caching on the OpenAI API-key and Sign in with ChatGPT Responses routes. (#200766, #201094) Authored by @steipete. Thanks @RomneyDa, @fuller-stack-dev, and @obviyus.\n- Tlon: group DMs use their own approval policy, and approved clubs remain authorized across Gateway restarts. (#202775) Thanks @joshavant.\n- Update recovery: avoid leaving the Gateway offline when an update runs alongside database readers or replaces a running checkout, and recover the service after a failed Windows update rolls back. (#201330, #202541, #203241, #203264) Authored by @steipete. Thanks @RomneyDa.\n- Conversation continuity: deliver ready child results without waiting for other helpers to finish, and accept follow-up chat messages after the preceding run completes. (#203176, #203102, #201790) Authored by @steipete. Thanks @obviyus, @RomneyDa, and @vincentkoc.\n- Channel delivery: recover Telegram polling when update IDs reset, keep an undownloadable attachment from blocking replies, and reconnect all Discord accounts after a network outage. (#201167, #200682, #201415, #162189) Thanks @RomneyDa, @obviyus, and @mattreyes0824.\n\n### Changes\n\n- MiniMax: stop offering retired M2 models, including during live discovery, and use MiniMax-M3 for PDF text extraction. If your configuration explicitly selects an M2 model, switch it to a supported model. (#203998) Thanks @RomneyDa.\n\n### Fixes\n\n- Access controls: apply the session permission mode consistently on Gateway tool calls, recheck bound Discord DMs against current policy, and keep Signal view-once attachments out of assistant context. (#202941, #196848, #196841) Thanks @obviyus and @drobison00.\n- Channel setup: save new tokens through the channel secret store rather than writing them to config as plaintext. (#201428, #175333) Thanks @anmol0b, @sallyom, and @masatohoshino.\n- ",
+      "prerelease": false
+    },
+    {
+      "product": "Codex",
+      "repo": "openai/codex",
+      "tag": "rust-v0.174.0-alpha.8",
+      "name": "0.174.0-alpha.8",
+      "published": "2026-11-26",
+      "url": "https://github.com/openai/codex/releases/tag/rust-v0.174.0-alpha.8",
+      "summary": "Release 0.174.0-alpha.8",
+      "body_excerpt": "Release 0.174.0-alpha.8",
+      "prerelease": true
+    },
+    {
+      "product": "Claude Code",
+      "repo": "anthropics/claude-code",
+      "tag": "v2.1.332",
+      "name": "v2.1.332",
+      "published": "2026-11-25",
+      "url": "https://github.com/anthropics/claude-code/releases/tag/v2.1.332",
+      "summary": "## What's changed",
+      "body_excerpt": "## What's changed\n\n- Added skills from MCP servers (beta). They show as `server:skill` in the `/` menu; other skills keep their names\n- Added a `PreSkillShellCommand` hook event that can refuse a skill or command's inline shell commands as it loads; on 2.1.331 and older, a settings file naming it opens a dialog at start\n- Added \"Always deliver\" to the prompt for held messages from other sessions\n- Added a footer line that stays while a flagged message has your session on a different model, until you pick one with `/model`\n- Added an OpenTelemetry `assistant_response` event for text Claude sends through SendUserMessage or Cowork's message tool, when response logging is on\n- Added a warning in VS Code and Desktop's Code tab when part of a session couldn't be saved, saying how to save it with `/compact`\n- Added a notice in VS Code and Desktop's Code tab when a resumed session's earlier messages weren't loaded, as the terminal already shows\n- Added your Cyber Verification Program access tier to the startup header, beside the model name when your tier applies to that model and you're signed in with a claude.ai account\n- Fixed `claude auth login` reporting `Login successful.` when a claude.ai login could not be saved: it now exits 1 and says what to check, such as a leftover lock file or a full disk\n- Fixed Read, @-mentions and compaction hanging on a named pipe that nothing writes to, such as a `.env` mounted by a locked secrets manager; the read now fails after 20 seconds\n- Fixed turns ending in \"Prompt is too long\" after repeated auto-compaction failures when one more compaction at the context limit could have kept them going\n- Fixed compaction failing when a summary kept running past the output limit: after three cut-off replies, the last try now asks for a shorter summary\n- Fixed a freeze when a permission rule or hook condition with several wildcards was checked against a long command\n- Fixed freezes and runaway memory use in most cases while a hook prints output without end\n- Fixed a freeze and context overflow when a hook blocks or fails during a turn, or after `/compact`, with a very large log; text over about 50,000 characters is now shortened\n- Fixed the terminal freezing, and ignoring Ctrl+C, while a local MCP server floods its standard output\n- Fixed a freeze when a prompt or piped input holds an `@` followed by a very long unbroken string, such as minified CSS with an embedded font\n- Fixed a long freeze when opening a rewind point after a large tra",
+      "prerelease": false
+    },
+    {
+      "product": "Hermes Agent",
+      "repo": "NousResearch/hermes-agent",
+      "tag": "canary.20261125T064800Z-v0.23.4",
+      "name": "Hermes Agent canary canary.20261125T064800Z-v0.23.4",
+      "published": "2026-11-25",
+      "url": "https://github.com/NousResearch/hermes-agent/releases/tag/canary.20261125T064800Z-v0.23.4",
+      "summary": "# Hermes Agent v0.23.4+canary.20261125T064800Z (canary.20261125T064800Z-v0.23.4)",
+      "body_excerpt": "# Hermes Agent v0.23.4+canary.20261125T064800Z (canary.20261125T064800Z-v0.23.4)\n\n**Release Date:** November 25, 2026\n\n<!-- HERMES_BUILDS_TABLE -->\n## Downloads\n\n### Hermes Desktop\n\n| OS | Architecture | Download |\n|---|---|---|\n| macOS | Apple Silicon (M-series) | [DMG](https://hermes-assets.nousresearch.com/releases/tag/canary.20261125T064800Z-v0.23.4/HermesBundled-0.23.4%2Bcanary.20261125T064800Z-mac-arm64.dmg) |\n| Windows | x86 (64-bit) | [MSIX](https://hermes-assets.nousresearch.com/releases/tag/canary.20261125T064800Z-v0.23.4/HermesBundled-0.23.4%2Bcanary.20261125T064800Z-win-x64.msix) |\n| Windows | ARM (arm64 / aarch64) | [MSIX](https://hermes-assets.nousresearch.com/releases/tag/canary.20261125T064800Z-v0.23.4/HermesBundled-0.23.4%2Bcanary.20261125T064800Z-win-arm64.msix) |\n\n### Native install/chat smoke\n\nDownload availability is independent of smoke status. Each result covers all native legs in that format group. Linux AppImages and unsigned Store envelopes are not install-smoked. No-upload dry tags have no download handoff and are not smoke-qualified.\n\n| Packages | Smoke status |\n|---|---|\n| macOS DMG + ZIP (arm64) | Passed |\n| Windows MSIX (arm64) | Passed |\n| Windows MSIX (x64) | Passed |\n<!-- /HERMES_BUILDS_TABLE -->\n\n## ✨ Features\n\n- Plugin-catalog): pin solverforge-workbench at 16d5016 (0.3.0) ([`d679d325`](https://github.com/NousResearch/hermes-agent/commit/d679d3258f22b07260191a82df8ddf3a73e790e1)) — @blackopsrepl\n- Plugin-catalog): pin solverforge-workbench at 3b0a79d (0.2.5) ([`32b4c22a`](https://github.com/NousResearch/hermes-agent/commit/32b4c22a0b89afcfcbe033ae20b37263e98e6662)) — @blackopsrepl\n- Plugin-catalog): list SolverForge Workbench ([`a08c689a`](https://github.com/NousResearch/hermes-agent/commit/a08c689a4eeabd7ada8e3e3a2cbadb79e529b3e0)) — @blackopsrepl\n- Plugin-catalog): add chinadoccheck plugin ([`45c5e873`](https://github.com/NousResearch/hermes-agent/commit/45c5e8737f8089520eb5ca0ce929d20251cc8472)) — @AbigailDavised\n- Plugin-catalog): bump hermes-next-steps to 1.1.6 ([`78eb9591`](https://github.com/NousResearch/hermes-agent/commit/78eb9591357898f959a6b9a12f788deea46ae9c0)) — @apoapostolov\n- Plugin-catalog): add phone-bud ([`bb3a2cc5`](https://github.com/NousResearch/hermes-agent/commit/bb3a2cc58d960c160fb92ae3b84478cd39c88f33)) — @cshape\n- Plugin-catalog): update hermes-warden to 0.1.6 ([`17b100a2`](https://github.com/NousResearch/hermes-agent/commit/17b100a239917397326435b39d6ecd5a83912e92)) — @pedroberaldo87\n- Plugin-c",
+      "prerelease": true
+    }
+  ],
+  "level2_people": [
+    "@karpathy",
+    "@bcherny",
+    "@sundarpichai",
+    "@sama",
+    "@gdb",
+    "@DarioAmodei"
+  ],
+  "level2_note": "raw 无人物搜索；无依据时 Level 2 标无新增，勿编造",
+  "level3_note": "本日未扫描行业报告（周报降频）",
+  "level4_hn": [
+    {
+      "title": "Show HN: Dev-Mem – Local-first SQLite knowledge graph for AI coding agents",
+      "url": "https://github.com/HarsH-1877/Dev-Mem",
+      "points": 6,
+      "comments": 0,
+      "created": "2026-11-26"
+    },
+    {
+      "title": "Show HN: Harny – AI coding agent for VSCodium/VS Code tuned for small/local LLMs",
+      "url": "https://harny.dev/",
+      "points": 4,
+      "comments": 0,
+      "created": "2026-11-24"
+    },
+    {
+      "title": "App Map: your AI coding agent draws clickable UML of your mobile app",
+      "url": "https://github.com/yonivav/app-map",
+      "points": 1,
+      "comments": 1,
+      "created": "2026-11-25"
+    },
+    {
+      "title": "Show HN: Dev-Mem – Local-first SQLite knowledge graph for AI coding agents",
+      "url": "https://github.com/HarsH-1877/Dev-Mem",
+      "points": 1,
+      "comments": 0,
+      "created": "2026-11-26"
+    },
+    {
+      "title": "Show HN: Workbench for making CAD parts with Claude/AI coding agent",
+      "url": "https://github.com/luisg0nc/torno",
+      "points": 1,
+      "comments": 0,
+      "created": "2026-11-26"
+    }
+  ]
+}
