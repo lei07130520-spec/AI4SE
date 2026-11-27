@@ -1,0 +1,78 @@
+{
+  "briefing_date": "2026-11-28",
+  "period_start": "2026-11-26",
+  "period_end": "2026-11-28",
+  "previous_briefing_date": "2026-11-27",
+  "previous_briefing_excerpt": "# AI x 研发效能 每日简报 2026-11-27\n\n> 覆盖周期：2026-11-25 ~ 2026-11-27（上一期：2026-11-26）\n\n> **采集方式**：GitHub Actions 自动采集（Level 1 GitHub API + Level 4 HN API）｜Level 2/3 待人工或 API 密钥补充\n\n---\n\n## 头条速览\n\n1. **OpenClaw v2026.10.34**——This is a gateway-only `extended-stable` release\n2. **Codex rust-v0.174.0-alpha.8**——Release 0.174.0-alpha.8\n3. **Claude Code v2.1.332**——## What's changed\n\n---\n\n## 一、AI 增强软件研发（AI4SE）\n\n### 1.1 Level 1：核心产品与工程更新\n\n#### 1️⃣ OpenClaw v2026.10.34（2026-11-26）\n\nThis is a gateway-only `extended-stable` release, which is our current equivalent to LTS. This release is OpenClaw from the end of October 2026, plus critical security updates, reliability and perform\n\n来源：[v2026.10.34](https://github.com/openclaw/openclaw/releases/tag/v2026.10.34) — 2026-11-26\n\n#### 2️⃣ Codex rust-v0.174.0-alpha.8（2026-11-26）\n\nRelease 0.174.0-alpha.8\n\n来源：[rust-v0.174.0-alpha.8](https://github.com/openai/codex/releases/tag/rust-v0.174.0-alpha.8) — 2026-11-26\n\n#### 3️⃣ Claude Code v2.1.332（2026-11-25）\n\n## What's changed\n\n来源：[v2.1.332](https://github.com/anthropics/claude-code/releases/tag/v2.1.332) — 2026-11-25\n\n#### 4️⃣ Hermes Agent canary.20261125T064800Z-v0.23.4（2026-11-25）\n\n# Hermes Agent v0.23.4+canary.20261125T064800Z (canary.20261125T064800Z-v0.23.4)\n\n来源：[canary.20261125T064800Z-v0.23.4](https://github.com/NousResearch/hermes-agent/releases/tag/canary.20261125T064800Z-v0.23.4) — 2026-11-25\n\n---\n\n### 1.2 Level 2：关键人物战略洞察\n\n| 人物 | 动态 | 日期 |\n|---|---|---|\n| @karpathy | 自动采集未配置（需 WebSearch / X 间接源） | — |\n| @bcherny | 自动采集未配置（需 WebSearch / X 间接源） | — |\n| @sundarpichai | 自动采集未配置（需 WebSearch / X 间接源） | — |\n| @sama | 自动采集未配置（需 WebSearch / X 间接源） | — |\n| @gdb | 自动采集未配置（需 WebSearch / X 间接源） | — |\n| @DarioAmodei | 自动采集未配置（需 WebSearch / X 间接源） | — |\n\n---\n\n### 1.3 Level 3：行业研究与数据\n\n> **本日未扫描**（周报/月报降频）。\n\n---\n\n### 1.4 Level 4：补充信源（HN）\n\n- **2026-11-26**：[Show HN: Dev-Mem – Local-first SQLite knowledge graph for AI coding agents](https://github.com/HarsH-1877/Dev-Mem) （6 pts / 0 comments）\n- **2026-11-24**：[Show HN: Harny – AI coding agent for VSCodium/VS Code tuned for small/local LLMs](https://harny.dev/) （4 pts / 0 comments）\n- **2026-11-25**：[App Map: your AI coding agent draws clickable UML of your mobile app](https://github.com/yonivav/app-map) （1 pts / 1 comments）\n- **2026-11-26**：[Show HN: Dev-Mem – Local-first SQLite knowledge graph for AI coding agents](https://github.com/HarsH-1877/Dev-Mem) （1 pts / 0 comments）\n- **2026-11-26**：[Show HN: Workbench for making CAD parts with Claude/AI coding agent](https://github.com/luisg0nc/torno) （1 pts / 0 comments）\n\n---\n\n## 附录：采集日志\n\n| 环节 | 状态 |\n|---|---|\n| GitHub Releases API | ✅ 4 条 |\n| HN Algolia API | ✅ 5 条 |\n| 生成时间 (UTC) | 2026-11-26 21:59 |\n\n*自动生成版 · 可在 Cursor 中基于本稿补充 Level 2 分析与专题*\n",
+  "level1_releases": [
+    {
+      "product": "Codex",
+      "repo": "openai/codex",
+      "tag": "rust-v0.174.0-alpha.9",
+      "name": "0.174.0-alpha.9",
+      "published": "2026-11-27",
+      "url": "https://github.com/openai/codex/releases/tag/rust-v0.174.0-alpha.9",
+      "summary": "Release 0.174.0-alpha.9",
+      "body_excerpt": "Release 0.174.0-alpha.9",
+      "prerelease": true
+    },
+    {
+      "product": "OpenClaw",
+      "repo": "openclaw/openclaw",
+      "tag": "v2026.10.34",
+      "name": "openclaw 2026.10.34",
+      "published": "2026-11-26",
+      "url": "https://github.com/openclaw/openclaw/releases/tag/v2026.10.34",
+      "summary": "This is a gateway-only `extended-stable` release, which is our current equivalent to LTS. This release is OpenClaw from the end of October 2026, plus critical security updates, reliability and perform",
+      "body_excerpt": "This is a gateway-only `extended-stable` release, which is our current equivalent to LTS. This release is OpenClaw from the end of October 2026, plus critical security updates, reliability and performance fixes, and features like new model support. The latest version of OpenClaw at the time of this release is [2026.11.10](https://github.com/openclaw/openclaw/releases#release-v2026.11.10)\n\n## 2026.10.34\n\nThis extended-stable patch updates the Gateway and official npm plugins from 2026.10.33. It includes the core npm package and Gateway Docker images, but no native-app releases.\n\n### Highlights\n\n- OpenAI and ClawRouter: select GPT-6.2 Astra and Sol, with system-prompt caching on the OpenAI API-key and Sign in with ChatGPT Responses routes. (#200766, #201094) Authored by @steipete. Thanks @RomneyDa, @fuller-stack-dev, and @obviyus.\n- Tlon: group DMs use their own approval policy, and approved clubs remain authorized across Gateway restarts. (#202775) Thanks @joshavant.\n- Update recovery: avoid leaving the Gateway offline when an update runs alongside database readers or replaces a running checkout, and recover the service after a failed Windows update rolls back. (#201330, #202541, #203241, #203264) Authored by @steipete. Thanks @RomneyDa.\n- Conversation continuity: deliver ready child results without waiting for other helpers to finish, and accept follow-up chat messages after the preceding run completes. (#203176, #203102, #201790) Authored by @steipete. Thanks @obviyus, @RomneyDa, and @vincentkoc.\n- Channel delivery: recover Telegram polling when update IDs reset, keep an undownloadable attachment from blocking replies, and reconnect all Discord accounts after a network outage. (#201167, #200682, #201415, #162189) Thanks @RomneyDa, @obviyus, and @mattreyes0824.\n\n### Changes\n\n- MiniMax: stop offering retired M2 models, including during live discovery, and use MiniMax-M3 for PDF text extraction. If your configuration explicitly selects an M2 model, switch it to a supported model. (#203998) Thanks @RomneyDa.\n\n### Fixes\n\n- Access controls: apply the session permission mode consistently on Gateway tool calls, recheck bound Discord DMs against current policy, and keep Signal view-once attachments out of assistant context. (#202941, #196848, #196841) Thanks @obviyus and @drobison00.\n- Channel setup: save new tokens through the channel secret store rather than writing them to config as plaintext. (#201428, #175333) Thanks @anmol0b, @sallyom, and @masatohoshino.\n- ",
+      "prerelease": false
+    }
+  ],
+  "level2_people": [
+    "@karpathy",
+    "@bcherny",
+    "@sundarpichai",
+    "@sama",
+    "@gdb",
+    "@DarioAmodei"
+  ],
+  "level2_note": "raw 无人物搜索；无依据时 Level 2 标无新增，勿编造",
+  "level3_note": "本日未扫描行业报告（周报降频）",
+  "level4_hn": [
+    {
+      "title": "Show HN: Dev-Mem – Local-first SQLite knowledge graph for AI coding agents",
+      "url": "https://github.com/HarsH-1877/Dev-Mem",
+      "points": 8,
+      "comments": 0,
+      "created": "2026-11-26"
+    },
+    {
+      "title": "How AI coding tools are changing software engineering",
+      "url": "https://www.cnbc.com/2026/11/20/ai-coding-tools-software-engineers.html",
+      "points": 4,
+      "comments": 0,
+      "created": "2026-11-27"
+    },
+    {
+      "title": "AI Coding Agents Shape Software Architecture",
+      "url": "https://arxiv.org/abs/2604.04990",
+      "points": 4,
+      "comments": 0,
+      "created": "2026-11-27"
+    },
+    {
+      "title": "Prospero: Bloat-free, native AI coding harness with ImGui",
+      "url": "https://github.com/skeeto/prospero",
+      "points": 2,
+      "comments": 0,
+      "created": "2026-11-27"
+    },
+    {
+      "title": "Show HN: Machine-load – see which AI coding session is slowing your Mac",
+      "url": "https://github.com/Stak-Technologies/machine-load",
+      "points": 2,
+      "comments": 0,
+      "created": "2026-11-27"
+    }
+  ]
+}
